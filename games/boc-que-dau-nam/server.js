@@ -53,6 +53,37 @@ app.get('/api/tts', (req, res) => {
   });
 });
 
+// Endpoint lịch sử bốc quẻ và quà tặng
+const historyLogPath = path.join(__dirname, 'data', 'history.json');
+function saveHistoryLog(entry) {
+  try {
+    let logs = [];
+    if (fs.existsSync(historyLogPath)) {
+      try {
+        logs = JSON.parse(fs.readFileSync(historyLogPath, 'utf8'));
+      } catch (e) {
+        logs = [];
+      }
+    }
+    logs.push({
+      id: Date.now(),
+      createdAt: new Date().toISOString(),
+      ...entry
+    });
+    if (logs.length > 500) logs = logs.slice(-500);
+    fs.writeFileSync(historyLogPath, JSON.stringify(logs, null, 2), 'utf8');
+  } catch (err) {
+    console.error('Lỗi ghi file history.json:', err.message);
+  }
+}
+
+app.get('/api/history', (req, res) => {
+  if (fs.existsSync(historyLogPath)) {
+    return res.sendFile(historyLogPath);
+  }
+  res.json([]);
+});
+
 // Endpoint REST API tiện lợi để Giả lập / Test nhanh qua cURL hoặc Webhook
 app.get('/api/mock/chat', (req, res) => {
   const user = (req.query.user || 'NguoiChoi_Test').toString();
@@ -99,18 +130,79 @@ let currentFortune = null;
 let historyFortunes = [];
 let totalCongDuc = 0;    // Điểm công đức từ quà và tim
 
+// Bảng vinh danh Top 3 Phú Hộ Tích Đức (Leaderboard)
+let topDonors = {}; // key: uniqueId => { uniqueId, nickname, avatar, totalDiamonds }
+
+function getTopDonors() {
+  return Object.values(topDonors)
+    .sort((a, b) => b.totalDiamonds - a.totalDiamonds)
+    .slice(0, 3);
+}
+
+// Cột mốc "Thanh Phúc Khí Toàn Phòng" (Community Goal) & "Giờ Vàng May Mắn"
+let phucKhiCount = 0;
+const phucKhiGoal = 100; // 100 điểm phúc khí (1 tim = 1 điểm, 1 xu quà = 5 điểm)
+let isGoldenHour = false;
+let goldenHourTimer = null;
+let goldenHourRemaining = 0;
+
+function checkGoldenHourTrigger() {
+  if (isGoldenHour) return;
+  if (phucKhiCount >= phucKhiGoal) {
+    startGoldenHour(60);
+  }
+}
+
+function startGoldenHour(durationSeconds = 60) {
+  if (isGoldenHour) return;
+  isGoldenHour = true;
+  phucKhiCount = 0;
+  goldenHourRemaining = durationSeconds;
+
+  io.emit('golden_hour:start', {
+    duration: durationSeconds,
+    message: '✨ GIỜ VÀNG MAY MẮN ĐÃ KHAI MỞ! (60s) TẤT CẢ QUẺ BỐC ĐỀU LÀ ĐẠI CÁT & NHÂN ĐÔI CÔNG ĐỨC! ✨'
+  });
+  io.emit('playTts', {
+    text: 'Cả phòng hoan hỉ! Thanh Phúc Khí toàn phòng đã viên mãn! Giờ Vàng May Mắn chính thức khai mở trong sáu mươi giây! Vạn sự đại cát!'
+  });
+  broadcastState();
+
+  if (goldenHourTimer) clearInterval(goldenHourTimer);
+  goldenHourTimer = setInterval(() => {
+    goldenHourRemaining--;
+    io.emit('golden_hour:tick', { remaining: goldenHourRemaining });
+    if (goldenHourRemaining <= 0) {
+      clearInterval(goldenHourTimer);
+      isGoldenHour = false;
+      goldenHourRemaining = 0;
+      io.emit('golden_hour:end');
+      broadcastState();
+    }
+  }, 1000);
+}
+
+// Chống Spam & Giới hạn hàng đợi
+const userCooldowns = new Map(); // uniqueId => expireTimestamp (20s)
+const MAX_NORMAL_QUEUE = 20;
+
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-// Hàm đồng bộ trạng thái
+// Hàm đồng bộ trạng thái toàn diện
 function broadcastState() {
   io.emit('gameState', {
-    vipQueue: vipQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar, giftName: u.giftName })),
-    normalQueue: normalQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar })),
+    vipQueue: vipQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar, giftName: u.giftName, vipTier: u.vipTier, vipBadge: u.vipBadge })),
+    normalQueue: normalQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar, categoryName: u.categoryName, canChi: u.canChi })),
     isDrawing,
     currentFortune,
     historyFortunes: historyFortunes.slice(-6).reverse(),
-    totalCongDuc
+    totalCongDuc,
+    topDonors: getTopDonors(),
+    phucKhiCount,
+    phucKhiGoal,
+    isGoldenHour,
+    goldenHourRemaining
   });
 }
 
@@ -134,7 +226,11 @@ function processNextInQueue() {
   isDrawing = true;
 
   let picked = null;
-  if (isVip && nextUser.vipTier === 'diamond') {
+  if (isGoldenHour) {
+    // ✨ Trong Giờ Vàng May Mắn: 100% mọi quẻ bốc ra đều là ĐẠI CÁT!
+    const daiCatList = fortunes.filter(f => f.type === 'ĐẠI CÁT');
+    picked = daiCatList[Math.floor(Math.random() * daiCatList.length)] || fortunes[0];
+  } else if (isVip && nextUser.vipTier === 'diamond') {
     // 🥇 VIP Kim Cương: 100% mở ra Quẻ Hoàng Kim Vạn Lộc độc bản (Đại Đại Cát)
     const hoangKimList = fortunes.filter(f => f.category === 'hoang_kim');
     picked = hoangKimList[Math.floor(Math.random() * hoangKimList.length)] || fortunes[0];
@@ -161,19 +257,33 @@ function processNextInQueue() {
     user: nextUser,
     isVip,
     fortune: picked,
-    drawnAt: new Date().toLocaleTimeString('vi-VN')
+    drawnAt: new Date().toLocaleTimeString('vi-VN'),
+    goldenHour: isGoldenHour
   };
 
   // Bước 1: Phát lệnh rung lắc ống xăm
-  io.emit('draw:start', { user: nextUser, isVip });
+  io.emit('draw:start', { user: nextUser, isVip, goldenHour: isGoldenHour });
   broadcastState();
 
   // Bước 2: Sau 3 giây rung lắc, kiểm tra nếu trúng Quẻ Đại Hạn (Hạ Hạ) ➔ Bắt đầu Thử Thách Cả Phòng Giải Cứu
   setTimeout(() => {
-    if (!isVip && picked.type === 'HẠ HẠ') {
+    if (!isVip && !isGoldenHour && picked.type === 'HẠ HẠ') {
       startCrisisChallenge(nextUser, picked);
       return;
     }
+
+    // Đặt cooldown 20 giây chống spam cho người xem sau khi đã bốc
+    userCooldowns.set(nextUser.uniqueId, Date.now() + 20000);
+
+    // Ghi vào file lịch sử persistent JSON
+    saveHistoryLog({
+      type: 'draw',
+      user: { uniqueId: nextUser.uniqueId, nickname: nextUser.nickname, canChi: nextUser.canChi },
+      isVip,
+      vipTier: nextUser.vipTier || 'none',
+      fortune: { id: picked.id, title: picked.title, type: picked.type, category: picked.category },
+      goldenHour: isGoldenHour
+    });
 
     io.emit('draw:reveal', currentFortune);
     historyFortunes.push(currentFortune);
@@ -182,7 +292,8 @@ function processNextInQueue() {
     // Chuẩn bị câu thoại TTS cá nhân hóa theo Tên & Tuổi Can Chi
     const agePhrase = nextUser.canChi ? `tuổi ${nextUser.canChi}` : '';
     const catPhrase = picked.categoryName ? `về ${picked.categoryName}` : '';
-    const ttsMessage = `Chúc mừng ${nextUser.nickname} ${agePhrase} đã rút được quẻ ${catPhrase} ${picked.type}, ${picked.title}. ${picked.shortAdvice}`;
+    const goldenPhrase = isGoldenHour ? 'trong Giờ Vàng May Mắn, ' : '';
+    const ttsMessage = `Chúc mừng ${nextUser.nickname} ${agePhrase} đã rút được ${goldenPhrase}quẻ ${catPhrase} ${picked.type}, ${picked.title}. ${picked.shortAdvice}`;
     io.emit('playTts', { text: ttsMessage });
 
     // Bước 3: Giữ quẻ trên màn hình trong 9 giây để khán giả đọc rồi chuyển người tiếp theo
@@ -296,6 +407,16 @@ function resolveCrisis(success, reason = 'likes', giftData = null) {
     io.emit('playTts', { text: ttsFail });
   }
 
+  // Chống Spam Cooldown và ghi lịch sử
+  userCooldowns.set(crisisState.victim.uniqueId, Date.now() + 20000);
+  saveHistoryLog({
+    type: 'crisis_resolved',
+    success,
+    reason,
+    savior: giftData ? giftData.nickname : (success ? 'Cả Phòng Live' : null),
+    victim: { uniqueId: crisisState.victim.uniqueId, nickname: crisisState.victim.nickname }
+  });
+
   // Kết thúc thử thách và quay lại hàng đợi sau 8 giây
   setTimeout(() => {
     crisisState = null;
@@ -310,6 +431,18 @@ function handleComment(data) {
   const comment = (data.comment || '').trim().toLowerCase();
   // Nếu bình luận chứa từ khóa xin quẻ
   if (comment.includes('quẻ') || comment.includes('que') || comment.includes('xin') || comment.includes('bốc') || comment.includes('boc') || comment === '1') {
+    // 0. Chống Spam: Cooldown 20s cho người vừa bốc
+    const now = Date.now();
+    const cooldownExp = userCooldowns.get(data.uniqueId);
+    if (cooldownExp && cooldownExp > now) {
+      return;
+    }
+
+    // Giới hạn hàng đợi thường tối đa 20 người
+    if (normalQueue.length >= MAX_NORMAL_QUEUE) {
+      return;
+    }
+
     // 1. Phân loại chủ đề cầu xin
     let category = 'tong_hop';
     let categoryName = '🎋 Toàn Diện';
@@ -351,7 +484,7 @@ function handleComment(data) {
         canChi,
         birthYear
       });
-      totalCongDuc += 1;
+      totalCongDuc += isGoldenHour ? 2 : 1;
       broadcastState();
       processNextInQueue();
     }
@@ -364,7 +497,25 @@ function handleGift(data) {
   const diamonds = Number(data.diamondCount) || 1;
   const count = Number(data.repeatCount) || 1;
   const totalValue = diamonds * count;
-  totalCongDuc += totalValue * 10;
+  const giftMultiplier = isGoldenHour ? 2 : 1;
+  totalCongDuc += totalValue * 10 * giftMultiplier;
+
+  // Cập nhật Bảng Vinh Danh Top 3 Phú Hộ Tích Đức
+  if (!topDonors[data.uniqueId]) {
+    topDonors[data.uniqueId] = {
+      uniqueId: data.uniqueId,
+      nickname: data.nickname || data.uniqueId,
+      avatar: data.profilePictureUrl || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg',
+      totalDiamonds: 0
+    };
+  }
+  topDonors[data.uniqueId].totalDiamonds += totalValue;
+  topDonors[data.uniqueId].nickname = data.nickname || topDonors[data.uniqueId].nickname;
+  if (data.profilePictureUrl) topDonors[data.uniqueId].avatar = data.profilePictureUrl;
+
+  // Tích lũy Thanh Phúc Khí Toàn Phòng
+  phucKhiCount = Math.min(phucKhiGoal, phucKhiCount + totalValue * 5);
+  checkGoldenHourTrigger();
 
   // Xác định cấp bậc VIP (Tier) theo giá trị xu
   let vipTier = 'silver'; // 🥉 VIP Bạc (1 - 9 xu)
@@ -376,6 +527,15 @@ function handleGift(data) {
     vipTier = 'gold';     // 🥈 VIP Vàng (10 - 99 xu)
     vipBadge = '🥈 VIP Vàng';
   }
+
+  // Ghi nhận quà tặng vào persistent history.json
+  saveHistoryLog({
+    type: 'gift',
+    user: { uniqueId: data.uniqueId, nickname: data.nickname || data.uniqueId },
+    giftName: data.giftName,
+    diamondCount: totalValue,
+    vipTier
+  });
 
   // Nếu đang trong thử thách Đại Hạn, quà tặng sẽ giải cứu tức thì!
   if (crisisState && crisisState.active && !crisisState.isResolved) {
@@ -424,7 +584,12 @@ function handleGift(data) {
 
 // Xử lý khi có Like (Thả tim)
 function handleLike(data) {
-  totalCongDuc += (data.likeCount || 1);
+  const likeMultiplier = isGoldenHour ? 2 : 1;
+  totalCongDuc += (data.likeCount || 1) * likeMultiplier;
+
+  // Tích lũy Thanh Phúc Khí Toàn Phòng
+  phucKhiCount = Math.min(phucKhiGoal, phucKhiCount + (data.likeCount || 1));
+  checkGoldenHourTrigger();
 
   // Nếu đang trong thử thách Đại Hạn, lượt like sẽ tích lũy giải cứu
   if (crisisState && crisisState.active && !crisisState.isResolved) {
@@ -462,14 +627,7 @@ if (TIKTOK_USERNAME) {
 
 // Socket.IO kết nối
 io.on('connection', socket => {
-  socket.emit('gameState', {
-    vipQueue: vipQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar, giftName: u.giftName })),
-    normalQueue: normalQueue.map(u => ({ nickname: u.nickname, avatar: u.avatar })),
-    isDrawing,
-    currentFortune,
-    historyFortunes: historyFortunes.slice(-6).reverse(),
-    totalCongDuc
-  });
+  broadcastState();
 
   socket.on('mock:chat', data => handleComment(data));
   socket.on('mock:gift', data => handleGift(data));
@@ -491,6 +649,15 @@ io.on('connection', socket => {
   });
   socket.on('admin:sfx', data => io.emit('audio:sfx', data));
   socket.on('admin:bgm:toggle', () => io.emit('audio:bgm:toggle'));
+  socket.on('admin:phuckhi:boost', data => {
+    const boost = Number(data?.amount) || 50;
+    phucKhiCount = Math.min(phucKhiGoal, phucKhiCount + boost);
+    checkGoldenHourTrigger();
+    broadcastState();
+  });
+  socket.on('admin:golden_hour:start', () => {
+    startGoldenHour(60);
+  });
 
   socket.on('game:reset', () => {
     vipQueue = [];
@@ -499,6 +666,11 @@ io.on('connection', socket => {
     currentFortune = null;
     historyFortunes = [];
     totalCongDuc = 0;
+    phucKhiCount = 0;
+    if (goldenHourTimer) clearInterval(goldenHourTimer);
+    isGoldenHour = false;
+    goldenHourRemaining = 0;
+    userCooldowns.clear();
     broadcastState();
     io.emit('game:reset');
   });

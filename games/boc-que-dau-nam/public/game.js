@@ -29,6 +29,13 @@ const vipQueueList = document.getElementById('vip-queue-list');
 const normalQueueList = document.getElementById('normal-queue-list');
 const historyList = document.getElementById('history-list');
 
+// Milestone 5: Top Donors, Thanh Phúc Khí & Giờ Vàng
+const topDonorsList = document.getElementById('top-donors-list');
+const phucKhiBar = document.getElementById('phuc-khi-bar');
+const phucKhiStatus = document.getElementById('phuc-khi-status');
+const goldenHourBanner = document.getElementById('golden-hour-banner');
+const goldenHourCountdown = document.getElementById('golden-hour-countdown');
+
 // Hệ thống cánh hoa đào / mai rơi
 let petals = [];
 class Petal {
@@ -471,6 +478,41 @@ socket.on('gameState', state => {
     historyList.innerHTML = '<div class="history-empty">Chưa có quẻ nào</div>';
   }
 
+  // Cập nhật Bảng Vinh Danh Top 3 Phú Hộ (Milestone 5)
+  if (topDonorsList) {
+    if (state.topDonors && state.topDonors.length > 0) {
+      const crowns = ['🥇', '🥈', '🥉'];
+      const ranks = ['rank-1', 'rank-2', 'rank-3'];
+      topDonorsList.innerHTML = state.topDonors.map((d, idx) => `
+        <div class="donor-chip ${ranks[idx] || ''}">
+          <span class="donor-crown">${crowns[idx] || '⭐'}</span>
+          <img class="donor-avatar" src="${d.avatar || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'}" alt="">
+          <span class="donor-name">${d.nickname}</span>
+          <span class="donor-diamonds">💎 ${d.totalDiamonds}</span>
+        </div>
+      `).join('');
+    } else {
+      topDonorsList.innerHTML = '<span class="empty-donors">Đang chờ Đại Gia phát tâm...</span>';
+    }
+  }
+
+  // Cập nhật Thanh Phúc Khí Toàn Phòng (Milestone 5)
+  const phucKhi = state.phucKhiCount || 0;
+  const goal = state.phucKhiGoal || 100;
+  const pct = Math.min(100, Math.round((phucKhi / goal) * 100));
+  if (phucKhiBar) phucKhiBar.style.width = `${pct}%`;
+  if (phucKhiStatus) phucKhiStatus.textContent = `${phucKhi} / ${goal} (${pct}%)`;
+
+  // Cập nhật Giờ Vàng May Mắn (Milestone 5)
+  if (goldenHourBanner) {
+    if (state.isGoldenHour) {
+      goldenHourBanner.classList.remove('hidden');
+      if (goldenHourCountdown) goldenHourCountdown.textContent = state.goldenHourRemaining || 60;
+    } else {
+      goldenHourBanner.classList.add('hidden');
+    }
+  }
+
   // Đồng bộ trạng thái hiển thị chuẩn xác
   if (state.currentFortune) {
     displayRevealedFortune(state.currentFortune);
@@ -651,6 +693,25 @@ socket.on('thantai:summon', data => {
       thantaiBanner.classList.add('hidden');
     }, 4500);
   }
+});
+
+// Sự kiện Giờ Vàng May Mắn (Milestone 5)
+socket.on('golden_hour:start', data => {
+  if (goldenHourBanner) {
+    goldenHourBanner.classList.remove('hidden');
+    if (goldenHourCountdown) goldenHourCountdown.textContent = data.duration || 60;
+  }
+  soundEngine.playTriumph();
+  soundEngine.playFirecrackers();
+});
+
+socket.on('golden_hour:tick', data => {
+  if (goldenHourCountdown) goldenHourCountdown.textContent = data.remaining;
+});
+
+socket.on('golden_hour:end', () => {
+  if (goldenHourBanner) goldenHourBanner.classList.add('hidden');
+  soundEngine.playGong();
 });
 
 socket.on('audio:bgm:toggle', () => {

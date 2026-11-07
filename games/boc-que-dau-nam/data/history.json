@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1794037149794,
+    "createdAt": "2026-11-07T07:39:09.794Z",
+    "type": "gift",
+    "user": {
+      "uniqueId": "daigia_saigon",
+      "nickname": "DaiGia_SaiGon"
+    },
+    "giftName": "Du Thuyen",
+    "diamondCount": 500,
+    "vipTier": "diamond"
+  },
+  {
+    "id": 1794037152815,
+    "createdAt": "2026-11-07T07:39:12.815Z",
+    "type": "draw",
+    "user": {
+      "uniqueId": "daigia_saigon",
+      "nickname": "DaiGia_SaiGon"
+    },
+    "isVip": true,
+    "vipTier": "diamond",
+    "fortune": {
+      "id": 203,
+      "title": "Lộc Biếc Cành Vàng",
+      "type": "ĐẠI CÁT",
+      "category": "tai_loc"
+    },
+    "goldenHour": true
+  }
+]

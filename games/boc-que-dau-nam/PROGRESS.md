@@ -78,15 +78,20 @@
 | **Checkpoint 2** | Turn 2 | Phase 2 | ~3 phút | Backend server.js, logic 2 hàng đợi, TTS proxy & admin.html | ✅ Đã duyệt |
 | **Checkpoint 3** | Turn 3 | Phase 3 | ~3 phút | Giao diện 9:16 Tết, CSS hoạt ảnh, cuộn sớ thư pháp & game.js | ✅ Đã duyệt |
 | **Checkpoint 4** | Turn 4 | Phase 4 | ~2 phút | Runner Colab (Cloudflare + Xvfb RTMP) & nghiệm thu toàn bộ | ✅ Hoàn thành 100% |
+| **Milestone 1** | Turn 6 | v1.1 | ~3 phút | SFX tre lắc, chiêng, pháo hoa Web Audio API, BGM pentatonic & thiệp chụp ảnh | ✅ Hoàn thành 100% |
+| **Milestone 2** | Turn 7 | v1.2 | ~3 phút | Phân loại quẻ 4 chủ đề & tính Can Chi âm lịch tự động theo năm sinh | ✅ Hoàn thành 100% |
+| **Milestone 3** | Turn 8 | v1.3 | ~3 phút | Quẻ Đại Hạn Hạ Hạ, Co-op báo động khẩn cấp 15s cả phòng thả 30 tim giải cứu | ✅ Hoàn thành 100% |
+| **Milestone 4** | Turn 9 | v1.4 | ~3 phút | Quà VIP 3 phân tầng (Bạc/Vàng/Kim Cương), Triệu Hồi Thần Tài & Quẻ Hoàng Kim | ✅ Hoàn thành 100% |
+| **Milestone 5** | Turn 10 | v1.5 | ~3 phút | Top 3 Phú Hộ, Thanh Phúc Khí, Giờ Vàng May Mắn, Chống Spam & history.json | ✅ Hoàn thành 100% |
 
 ---
 
 ## 🏆 KẾT LUẬN & HƯỚNG DẪN VẬN HÀNH
-Dự án game **Bốc Quẻ Đầu Năm** đã được xây dựng hoàn thiện theo đúng quy chuẩn **Anti-Timeout & 8-Minute Checkpoint Protocol**. Toàn bộ mã nguồn đã sẵn sàng đưa vào vận hành trên Google Colab.
+Dự án game **Bốc Quẻ Đầu Năm** đã được xây dựng hoàn thiện toàn bộ Core game (Phases 1-4) cùng toàn bộ 5/5 Milestone nâng cấp (v1.1 - v1.5) theo đúng quy chuẩn **Anti-Timeout & 8-Minute Checkpoint Protocol**. Toàn bộ mã nguồn đã sẵn sàng đưa vào vận hành trên Google Colab.
 
 ---
 
-## 🔮 LỘ TRÌNH NÂNG CẤP TIẾP THEO (ROADMAP)
-Toàn bộ ý tưởng và tính năng mở rộng cho các phiên bản tiếp theo đã được lưu trữ chi tiết tại:
-👉 **[ROADMAP.md](./ROADMAP.md)** (Gồm 5 Milestone: Âm thanh SFX & BGM, Phân loại quẻ theo chủ đề, Quẻ Đại Hạn hóa giải, Quà VIP đa tầng & Triệu hồi Thần Tài, Bảng Phú Hộ Leaderboard).
+## 🔮 LỘ TRÌNH NÂNG CẤP (ROADMAP)
+Toàn bộ 5/5 Milestone nâng cấp đã hoàn thành:
+👉 **[ROADMAP.md](./ROADMAP.md)** (100% ĐÃ HOÀN TẤT)
 

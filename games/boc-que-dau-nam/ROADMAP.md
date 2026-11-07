@@ -74,16 +74,27 @@
 
 ---
 
-### 🎋 MILESTONE 5: v1.5 - Bảng Vinh Danh Phú Hộ, Thanh Phúc Khí & Chống Spam
-- [ ] **Bảng Vinh Danh Top 3 Phú Hộ Tích Đức (Leaderboard):**
-  - [ ] Hiển thị góc trên màn hình: Top 1, Top 2, Top 3 người donate nhiều xu nhất kèm vương miện Vàng/Bạc/Đồng và avatar.
-- [ ] **Cột Mốc "Thanh Phúc Khí Toàn Phòng" (Community Goal):**
-  - [ ] Cứ mỗi 1.000 tim hoặc 50 phần quà tích lũy ➔ Kích hoạt **"Giờ Vàng May Mắn"** (Mọi quẻ bốc trong 60s đều nhân đôi hiệu ứng tài lộc).
-- [ ] **Hệ thống Chống Spam & Giới hạn hàng đợi (Rate Limiting):**
-  - [ ] Mỗi tài khoản chỉ được ở trong hàng đợi 1 lần; bốc xong mới được xếp hàng lại.
-  - [ ] Giới hạn độ dài hàng đợi tối đa 20 người để tránh tắc nghẽn.
-- [ ] **Lưu lịch sử buổi live (`data/history.json`):**
-  - [ ] Tự động ghi lại danh sách người đã bốc, loại quẻ, quà đã tặng để streamer xem lại thống kê.
+### 🎋 MILESTONE 5: v1.5 - Bảng Vinh Danh Phú Hộ, Thanh Phúc Khí & Chống Spam (✅ ĐÃ HOÀN THÀNH)
+- [x] **Bảng Vinh Danh Top 3 Phú Hộ Tích Đức (Leaderboard):**
+  - [x] Hiển thị góc trên màn hình: Top 1, Top 2, Top 3 người donate nhiều xu nhất kèm vương miện Vàng/Bạc/Đồng, avatar và số kim cương đã dâng tặng.
+- [x] **Cột Mốc "Thanh Phúc Khí Toàn Phòng" (Community Goal):**
+  - [x] Tích lũy điểm phúc khí qua từng lượt thả tim (+1) và quà tặng (+5/xu) ➔ Đầy 100 điểm kích hoạt **"Giờ Vàng May Mắn"** trong 60 giây.
+  - [x] Trong Giờ Vàng: 100% mọi quẻ bốc ra đều là **ĐẠI CÁT**, nhân đôi điểm công đức và hiệu ứng ánh sáng hoàng kim rực rỡ.
+- [x] **Hệ thống Chống Spam & Giới hạn hàng đợi (Rate Limiting):**
+  - [x] Mỗi tài khoản chỉ được ở trong hàng đợi 1 lần; sau khi bốc quẻ có Cooldown 20 giây trước khi được xếp hàng lại.
+  - [x] Giới hạn độ dài hàng đợi thường tối đa 20 người để tránh quá tải.
+- [x] **Lưu lịch sử buổi live (`data/history.json` & `/api/history`):**
+  - [x] Tự động ghi lại danh sách người đã bốc, loại quẻ, quà đã tặng, sự kiện giải cứu để streamer xem lại thống kê.
+
+---
+
+## 🏆 TỔNG KẾT ROADMAP:
+Toàn bộ 5/5 Milestone trong lộ trình nâng cấp (v1.1 đến v1.5) đã được hoàn thành xuất sắc 100%!
+1. ✅ Milestone 1: SFX & BGM Tết Web Audio API + Thiệp kỷ niệm chụp màn hình.
+2. ✅ Milestone 2: Phân loại quẻ 4 chủ đề + Tính Can Chi tự động theo năm sinh.
+3. ✅ Milestone 3: Quẻ Đại Hạn & Thử thách cả phòng hợp lực giải cứu trong 15s.
+4. ✅ Milestone 4: Quà VIP 3 phân tầng (Bạc / Vàng / Kim Cương) & Triệu hồi Thần Tài Hoàng Kim.
+5. ✅ Milestone 5: Bảng vinh danh Top 3 Phú Hộ, Thanh Phúc Khí Toàn Phòng, Giờ Vàng May Mắn & Chống Spam.
 
 ---
 

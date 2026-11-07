@@ -92,6 +92,17 @@
       </div>
     </div>
 
+    <!-- Milestone 5: Thanh Phúc Khí, Giờ Vàng & Top 3 Phú Hộ -->
+    <div class="card" style="border-color: #38bdf8;">
+      <div class="card-title" style="color: #38bdf8;">🌟 Thanh Phúc Khí, Giờ Vàng & Top 3 Phú Hộ (Milestone 5)</div>
+      <div class="quick-list">
+        <button class="btn-quick" style="border-color: #38bdf8;" onclick="boostPhucKhi(50)">✨ Tăng +50 Phúc Khí</button>
+        <button class="btn-quick" style="border-color: #ffd700; color: #ffd700;" onclick="startGoldenHourAdmin()">⚡ Kích Hoạt Giờ Vàng May Mắn (60s)</button>
+        <button class="btn-quick" onclick="mockTopDonors()">🏆 Nạp Giả Lập Top 3 Phú Hộ</button>
+        <a href="/api/history" target="_blank" style="display: inline-block; padding: 6px 12px; background: #0c4a6e; color: #38bdf8; border: 1px solid #38bdf8; border-radius: 6px; font-size: 13px; text-decoration: none; font-weight: 700;">📜 Xem data/history.json</a>
+      </div>
+    </div>
+
     <!-- Thả tim & Điều khiển -->
     <div class="card" style="display: flex; justify-content: space-between; align-items: center;">
       <button class="btn-gold" onclick="sendLikes(15)">❤️ Thả 15 Tim (Tích Công Đức)</button>
@@ -165,6 +176,34 @@
 
     function sendLikes(cnt) {
       socket.emit('mock:like', { likeCount: cnt, totalLikes: cnt });
+    }
+
+    function boostPhucKhi(amount) {
+      socket.emit('admin:phuckhi:boost', { amount });
+    }
+
+    function startGoldenHourAdmin() {
+      socket.emit('admin:golden_hour:start');
+    }
+
+    function mockTopDonors() {
+      const donors = [
+        { name: 'DaiGia_SaiGon', diamonds: 520, gift: 'Du Thuyền Tết' },
+        { name: 'ThieuGia_HaNoi', diamonds: 299, gift: 'Sư Tử Vàng' },
+        { name: 'PhuHo_MienTay', diamonds: 88, gift: 'Nón Lân' }
+      ];
+      donors.forEach((d, idx) => {
+        setTimeout(() => {
+          socket.emit('mock:gift', {
+            uniqueId: d.name.toLowerCase(),
+            nickname: d.name,
+            giftName: d.gift,
+            diamondCount: d.diamonds,
+            repeatCount: 1,
+            profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+          });
+        }, idx * 400);
+      });
     }
 
     function resetGame() {
