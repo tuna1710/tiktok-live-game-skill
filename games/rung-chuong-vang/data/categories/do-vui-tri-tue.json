@@ -440,5 +440,70 @@
     ],
     "correct": 0,
     "explanation": "Từ 'Chính phủ' đọc lái là 'chín chữ H' (9 chữ H)!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì có chân mà không biết đi?",
+    "options": [
+      "Cái bàn",
+      "Cái ghế",
+      "Cái giường",
+      "Tất cả các đáp án trên"
+    ],
+    "correct": 3,
+    "explanation": "Bàn, ghế, giường đều có chân để đứng vững nhưng không thể di chuyển bằng chân của mình."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Một người đàn ông đi dưới trời mưa lớn mà không hề ướt tóc. Tại sao?",
+    "options": [
+      "Anh ta đội ô",
+      "Anh ta đội mũ bảo hiểm",
+      "Anh ta bị hói",
+      "Anh ta ở trong nhà"
+    ],
+    "correct": 2,
+    "explanation": "Vì anh ta bị hói, không có tóc nên dù trời mưa lớn cũng không thể ướt tóc được."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Cái gì càng to càng nhỏ?",
+    "options": [
+      "Cái bánh",
+      "Cái lỗ",
+      "Cái bóng",
+      "Cái giếng"
+    ],
+    "correct": 1,
+    "explanation": "Cái lỗ càng to thì không gian trống rỗng càng lớn, không chứa đựng gì nên được ví von là 'nhỏ'."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Cái gì có rất nhiều lỗ nhưng vẫn giữ được nước?",
+    "options": [
+      "Cái rổ",
+      "Cái sàng",
+      "Cái bọt biển",
+      "Cái lưới"
+    ],
+    "correct": 2,
+    "explanation": "Bọt biển có cấu trúc xốp với vô số lỗ nhỏ li ti nhưng lại có khả năng thấm hút và giữ nước rất tốt."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Một đoàn tàu điện đang chạy về phía Nam với vận tốc 60km/h. Gió thổi từ hướng Đông sang Tây với vận tốc 10km/h. Khói của đoàn tàu sẽ bay về hướng nào?",
+    "options": [
+      "Hướng Tây",
+      "Hướng Bắc",
+      "Hướng Đông",
+      "Không có khói"
+    ],
+    "correct": 3,
+    "explanation": "Đây là tàu điện, không sử dụng nhiên liệu đốt nên sẽ không tạo ra khói."
   }
 ]
