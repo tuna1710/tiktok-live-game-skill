@@ -1,0 +1,444 @@
+[
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Con gì đập thì sống, không đập thì chết?",
+    "options": [
+      "Con tim",
+      "Con đập nước",
+      "Con muỗi",
+      "Con cua"
+    ],
+    "correct": 0,
+    "explanation": "Quả tim (con tim) đập thì ta sống, ngừng đập thì chết!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì người mua biết, người bán biết, người dùng không bao giờ biết?",
+    "options": [
+      "Chiếc gương",
+      "Cái quan tài",
+      "Thuốc ngủ",
+      "Đôi giày"
+    ],
+    "correct": 1,
+    "explanation": "Người mất không thể biết chiếc quan tài mình đang nằm."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bỏ ngoài nướng trong, ăn ngoài bỏ trong là bắp gì?",
+    "options": [
+      "Bắp cải",
+      "Bắp ngô",
+      "Bắp đùi",
+      "Bắp chuối"
+    ],
+    "correct": 1,
+    "explanation": "Bắp ngô bóc bẹ ngoài đem nướng, ăn hạt ngoài bỏ cùi bên trong."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con đường nào dài nhất mà ai cũng phải đi qua?",
+    "options": [
+      "Đường đi",
+      "Đường đời",
+      "Đường cao tốc",
+      "Đường xích đạo"
+    ],
+    "correct": 1,
+    "explanation": "Đường đời là con đường dài nhất gắn liền suốt cuộc đời con người."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Loài chuột nào nổi tiếng thế giới đi bằng hai chân?",
+    "options": [
+      "Chuột cống",
+      "Chuột chù",
+      "Chuột Mickey",
+      "Chuột túi"
+    ],
+    "correct": 2,
+    "explanation": "Chuột Mickey trong phim hoạt hình Disney đi bằng hai chân."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố vui dân gian: Con vịt nào bình thường cũng đi bằng hai chân?",
+    "options": [
+      "Vịt Donald",
+      "Vịt bầu",
+      "Vịt xiêm",
+      "Tất cả các con vịt"
+    ],
+    "correct": 3,
+    "explanation": "Tất cả các con vịt bình thường đều đi bằng hai chân!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì bạn có thể cầm bằng tay trái nhưng không bao giờ cầm được bằng tay phải?",
+    "options": [
+      "Bàn tay phải",
+      "Khuỷu tay trái",
+      "Cây bút",
+      "Cốc nước"
+    ],
+    "correct": 1,
+    "explanation": "Tay phải không thể tự cầm trọn khuỷu tay phải của chính mình!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì luôn luôn đến nhưng không bao giờ đến nơi?",
+    "options": [
+      "Ngày mai",
+      "Ngày hôm qua",
+      "Cơn mưa",
+      "Giấc mơ"
+    ],
+    "correct": 0,
+    "explanation": "Khi 'ngày mai' đến thì nó đã trở thành 'hôm nay'."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Bệnh gì bác sĩ chịu bó tay không chữa được?",
+    "options": [
+      "Bệnh gãy tay",
+      "Bệnh đau đầu",
+      "Bệnh cảm cúm",
+      "Bệnh đau mắt"
+    ],
+    "correct": 0,
+    "explanation": "Gãy tay thì bác sĩ phải bó bột (bó tay) lại để cố định xương!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Con gì đầu dê mình ốc?",
+    "options": [
+      "Con dốc",
+      "Con cua",
+      "Con rùa",
+      "Con sâu"
+    ],
+    "correct": 0,
+    "explanation": "'Dê' ghép với 'ốc' thành con 'dốc'."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cây gì càng tưới nước thì càng mau chết?",
+    "options": [
+      "Cây cột điện",
+      "Cây nến",
+      "Cây ATM",
+      "Cây kim"
+    ],
+    "correct": 1,
+    "explanation": "Cây nến đang cháy tưới nước vào thì lửa sẽ tắt (chết nến)!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì chứa nhiều nước nhất nhưng không chìm dưới đáy biển?",
+    "options": [
+      "Miếng bọt biển",
+      "Tàu ngầm",
+      "Quả dừa",
+      "Bản đồ thế giới"
+    ],
+    "correct": 3,
+    "explanation": "Bản đồ thể hiện toàn bộ các đại dương trên thế giới nhưng vẽ trên giấy!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Trong cờ tướng, quân cờ nào chỉ được phép đi chéo trong cửu cung?",
+    "options": [
+      "Quân Tượng",
+      "Quân Tướng",
+      "Quân Sĩ",
+      "Quân Mã"
+    ],
+    "correct": 2,
+    "explanation": "Quân Sĩ chỉ đi chéo trong phạm vi Cửu cung để bảo vệ Tướng."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Lịch nào dài nhất trên thế giới?",
+    "options": [
+      "Lịch sử",
+      "Lịch vạn niên",
+      "Lịch Gregory",
+      "Lịch âm"
+    ],
+    "correct": 0,
+    "explanation": "Lịch sử kéo dài hàng triệu năm suốt chiều dài nhân loại."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Cái gì có răng nhưng không bao giờ nhai được thức ăn?",
+    "options": [
+      "Cái lược",
+      "Chiếc cưa",
+      "Bánh răng đồng hồ",
+      "Tất cả các đáp án trên"
+    ],
+    "correct": 3,
+    "explanation": "Cái lược, cái cưa và bánh răng đều có răng nhưng không dùng để nhai!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Có một rổ đựng 5 quả táo. Làm sao chia cho 5 người mà trong rổ vẫn còn 1 quả táo?",
+    "options": [
+      "Cắt làm đôi",
+      "Đưa cho người thứ 5 cả cái rổ và quả táo",
+      "Ăn trước 1 quả",
+      "Không chia được"
+    ],
+    "correct": 1,
+    "explanation": "Đưa 4 quả cho 4 người đầu, người cuối cùng nhận quả táo còn nằm trong rổ."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Một người đàn ông đi trong mưa lớn không đội mũ, không che ô, nhưng không có sợi tóc nào ướt. Vì sao?",
+    "options": [
+      "Ông ấy đi nhanh",
+      "Ông ấy bị hói đầu",
+      "Mưa chưa chạm đất",
+      "Ông ấy đi trong nhà"
+    ],
+    "correct": 1,
+    "explanation": "Người đàn ông bị hói (không có tóc) nên không có sợi tóc nào bị ướt!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Nếu bạn vượt qua người đang chạy ở vị trí thứ hai, bạn đang ở vị trí thứ mấy?",
+    "options": [
+      "Thứ nhất",
+      "Thứ hai",
+      "Thứ ba",
+      "Về đích"
+    ],
+    "correct": 1,
+    "explanation": "Vượt người thứ hai thì bạn thế chỗ của họ và đứng ở vị trí thứ hai!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Từ tiếng Việt nào mà 100% người Việt Nam đều phát âm sai?",
+    "options": [
+      "Từ 'Sai'",
+      "Từ 'Đúng'",
+      "Từ 'Không'",
+      "Từ 'Khó'"
+    ],
+    "correct": 0,
+    "explanation": "Từ 'Sai' luôn luôn được phát âm là 'Sai'!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Trong một cuộc đua, người mù, người câm và người điếc cùng thi chạy. Ai là người nghe thấy tiếng súng lệnh xuất phát?",
+    "options": [
+      "Người mù",
+      "Người câm",
+      "Người điếc",
+      "Cả người mù và người câm"
+    ],
+    "correct": 3,
+    "explanation": "Cả người mù và người câm đều có thính giác bình thường nên nghe được súng lệnh."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Tháng nào có 28 ngày trong một năm?",
+    "options": [
+      "Chỉ tháng 2",
+      "Tháng 2 năm nhuận",
+      "Tất cả các tháng",
+      "Không có tháng nào"
+    ],
+    "correct": 2,
+    "explanation": "Tất cả 12 tháng trong năm đều có ít nhất 28 ngày!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Cái gì bay khi sinh ra, nằm khi còn sống và chảy khi chết đi?",
+    "options": [
+      "Bông tuyết",
+      "Hạt mưa",
+      "Cơn gió",
+      "Đám mây"
+    ],
+    "correct": 0,
+    "explanation": "Bông tuyết bay lơ lửng, rơi xuống nằm trên mặt đất và tan chảy thành nước khi chết."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Quả gì không ăn được nhưng dùng để đá?",
+    "options": [
+      "Quả bóng",
+      "Quả tạ",
+      "Quả ổi",
+      "Quả dưa"
+    ],
+    "correct": 0,
+    "explanation": "Quả bóng đá dùng trong các trận thi đấu bóng đá."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Bạn có thể trừ số 5 từ số 25 bao nhiêu lần?",
+    "options": [
+      "5 lần",
+      "1 lần",
+      "Vô hạn lần",
+      "4 lần"
+    ],
+    "correct": 1,
+    "explanation": "Chỉ 1 lần duy nhất, vì sau lần trừ đầu tiên con số đã trở thành 20, không còn là 25 nữa!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Cái gì của bạn nhưng người khác lại dùng nhiều hơn bạn?",
+    "options": [
+      "Tên của bạn",
+      "Điện thoại của bạn",
+      "Tiền của bạn",
+      "Đôi giày của bạn"
+    ],
+    "correct": 0,
+    "explanation": "Tên của bạn chủ yếu để người khác gọi xưng hô hàng ngày."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Tôi có các thành phố nhưng không có ngôi nhà nào, có núi non nhưng không có cây cối, có nước nhưng không có cá. Tôi là ai?",
+    "options": [
+      "Bản đồ",
+      "Bức tranh",
+      "Quả địa cầu",
+      "Cả bản đồ và quả địa cầu"
+    ],
+    "correct": 3,
+    "explanation": "Bản đồ và quả địa cầu mô phỏng địa hình nhưng không có thực thể sinh vật sống."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Một người phụ nữ có 7 người con gái, mỗi người con gái lại có 1 người anh trai. Hỏi bà mẹ có tất cả bao nhiêu người con?",
+    "options": [
+      "14 người",
+      "8 người",
+      "7 người",
+      "15 người"
+    ],
+    "correct": 1,
+    "explanation": "Bà có 7 cô con gái và 1 cậu con trai chung (là anh/em trai của cả 7 cô gái), tổng cộng 8 người con."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Bác sĩ đưa cho bệnh nhân 3 viên thuốc và dặn cứ 30 phút uống 1 viên. Hỏi sau bao lâu thì uống hết?",
+    "options": [
+      "90 phút",
+      "60 phút",
+      "30 phút",
+      "120 phút"
+    ],
+    "correct": 1,
+    "explanation": "Uống viên 1 lúc 0 phút, viên 2 lúc 30 phút, viên 3 lúc 60 phút. Tổng cộng 60 phút!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Có 2 người cha và 2 người con cùng đi câu cá, mỗi người câu được đúng 1 con cá. Tại sao mang về nhà chỉ có 3 con cá?",
+    "options": [
+      "Rơi mất 1 con",
+      "Gồm ông nội, bố và con trai",
+      "Cá bị ăn thịt",
+      "Đếm nhầm"
+    ],
+    "correct": 1,
+    "explanation": "3 người gồm: Ông nội (cha của bố), Bố (con của ông nội, cha của cháu), và Cháu (con của bố) -> đúng 2 người cha và 2 người con!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Càng lấy đi nhiều thì nó lại càng to ra, đó là cái gì?",
+    "options": [
+      "Cái hố",
+      "Núi tiền",
+      "Cục than",
+      "Tảng băng"
+    ],
+    "correct": 0,
+    "explanation": "Cái hố đào càng nhiều đất mang đi thì hố càng to ra."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Cái gì chặt không đứt, bẻ không gãy, phơi không khô, đốt không cháy?",
+    "options": [
+      "Nước biển",
+      "Dòng nước",
+      "Sợi chỉ",
+      "Tảng đá"
+    ],
+    "correct": 1,
+    "explanation": "Nước ở trạng thái lỏng chặt không đứt, bẻ không gãy, đốt không cháy!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Trước khi đỉnh Everest được con người phát hiện ra, đỉnh núi nào cao nhất Trái Đất?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Vẫn là đỉnh Everest",
+      "Fansipan"
+    ],
+    "correct": 2,
+    "explanation": "Dù con người chưa phát hiện ra thì đỉnh Everest vẫn luôn tồn tại và cao nhất thế giới!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Nếu một con gà trống đẻ trứng trên đỉnh mái nhà dốc sang 2 bên, quả trứng sẽ rơi về bên nào?",
+    "options": [
+      "Bên trái",
+      "Bên phải",
+      "Ở giữa",
+      "Gà trống không đẻ trứng"
+    ],
+    "correct": 3,
+    "explanation": "Gà trống không bao giờ biết đẻ trứng!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Từ nào trong tiếng Việt có 9 chữ 'H'?",
+    "options": [
+      "Chính phủ",
+      "Học hành",
+      "Hùng hồn",
+      "Chính hiệu"
+    ],
+    "correct": 0,
+    "explanation": "Từ 'Chính phủ' đọc lái là 'chín chữ H' (9 chữ H)!"
+  }
+]

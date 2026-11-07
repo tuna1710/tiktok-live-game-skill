@@ -1,0 +1,392 @@
+[
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong bảng chữ cái Tiếng Việt chính thức có bao nhiêu chữ cái?",
+    "options": [
+      "24 chữ cái",
+      "26 chữ cái",
+      "29 chữ cái",
+      "32 chữ cái"
+    ],
+    "correct": 2,
+    "explanation": "Bảng chữ cái Tiếng Việt hiện hành có chính xác 29 chữ cái."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền vào câu ca dao tục ngữ: 'Chuồn chuồn bay thấp thì mưa, bay cao thì...'?",
+    "options": [
+      "Râm",
+      "Nắng",
+      "Gió",
+      "Bão"
+    ],
+    "correct": 1,
+    "explanation": "Câu tục ngữ trọn vẹn: 'Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì râm'."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc sĩ tài hoa nào là tác giả của bài hát 'Tiến quân ca' (Quốc ca Việt Nam)?",
+    "options": [
+      "Văn Cao",
+      "Phạm Tuyên",
+      "Trịnh Công Sơn",
+      "Hoàng Việt"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Văn Cao sáng tác 'Tiến quân ca' vào năm 1944."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Truyện cổ tích nổi tiếng nào của Việt Nam kể về hai chị em mồ côi và quả thị rơi bị bà lão?",
+    "options": [
+      "Tấm Cám",
+      "Thạch Sanh",
+      "Cây tre trăm đốt",
+      "Sọ Dừa"
+    ],
+    "correct": 0,
+    "explanation": "Truyện Tấm Cám là truyện cổ tích thần kỳ tiêu biểu của kho tàng dân gian Việt Nam."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Ai là tác giả của tập truyện ngắn 'Dế Mèn phiêu lưu ký' gắn liền với tuổi thơ bao thế hệ?",
+    "options": [
+      "Tô Hoài",
+      "Vũ Trọng Phụng",
+      "Nam Cao",
+      "Nguyễn Nhật Ánh"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Tô Hoài sáng tác kiệt tác 'Dế Mèn phiêu lưu ký' xuất bản năm 1941."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ còn thiếu vào thành ngữ dân gian: 'Ăn quả nhớ kẻ...'?",
+    "options": [
+      "Trồng cây",
+      "Tưới cây",
+      "Bón phân",
+      "Gieo hạt"
+    ],
+    "correct": 0,
+    "explanation": "'Ăn quả nhớ kẻ trồng cây' khuyên răn truyền thống đạo lý uống nước nhớ nguồn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm kiệt tác 'Truyện Kiều' của đại thi hào Nguyễn Du ban đầu có tên chữ Hán là gì?",
+    "options": [
+      "Kim Vân Kiều Truyện",
+      "Đoạn Trường Tân Thanh",
+      "Vương Thúy Kiều ký",
+      "Thanh Hiên thi tập"
+    ],
+    "correct": 1,
+    "explanation": "Tên gốc của Truyện Kiều là 'Đoạn Trường Tân Thanh' (Tiếng kêu mới đứt ruột)."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhân vật 'Chí Phèo' và làng Vũ Đại là những hình tượng văn học bất hủ trong tác phẩm của nhà văn nào?",
+    "options": [
+      "Nam Cao",
+      "Ngô Tất Tố",
+      "Vũ Trọng Phụng",
+      "Nguyễn Công Hoan"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nam Cao sáng tác truyện ngắn kinh điển Chí Phèo (ban đầu mang tên Cái lò gạch cũ) năm 1941."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm văn học nào được xem là cuốn truyện ngắn hiện đại đầu tiên viết bằng chữ Quốc ngữ ở nước ta?",
+    "options": [
+      "Thầy Lazaro Phiền",
+      "Số đỏ",
+      "Chí Phèo",
+      "Tắt đèn"
+    ],
+    "correct": 0,
+    "explanation": "'Thầy Lazaro Phiền' của Nguyễn Trọng Quản xuất bản năm 1887 tại Sài Gòn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai được mệnh danh là 'Bà chúa thơ Nôm' trong nền văn học cổ điển Việt Nam?",
+    "options": [
+      "Hồ Xuân Hương",
+      "Bà Huyện Thanh Quan",
+      "Đoàn Thị Điểm",
+      "Sương Nguyệt Anh"
+    ],
+    "correct": 0,
+    "explanation": "Nữ sĩ Hồ Xuân Hương được tôn vinh là 'Bà chúa thơ Nôm' với phong cách thơ độc đáo, sắc sảo."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bức tranh danh họa Mona Lisa của danh họa Leonardo da Vinci hiện được trưng bày tại bảo tàng nào?",
+    "options": [
+      "Bảo tàng Prado",
+      "Bảo tàng Louvre (Pháp)",
+      "Bảo tàng Anh",
+      "Bảo tàng Vatican"
+    ],
+    "correct": 1,
+    "explanation": "Kiệt tác nụ cười bí ẩn Mona Lisa được trưng bày tại Bảo tàng Louvre ở thủ đô Paris, Pháp."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Loại hình nghệ thuật sân khấu truyền thống độc đáo nào của Việt Nam biểu diễn dưới nước?",
+    "options": [
+      "Múa rối nước",
+      "Hát Tuồng",
+      "Hát Chèo",
+      "Cải lương"
+    ],
+    "correct": 0,
+    "explanation": "Múa rối nước là nghệ thuật dân gian độc nhất vô nhị ra đời từ nền văn minh lúa nước đồng bằng sông Hồng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm tiểu thuyết hiện thực phê phán xuất sắc 'Số đỏ' với nhân vật Xuân Tóc Đỏ?",
+    "options": [
+      "Vũ Trọng Phụng",
+      "Ngô Tất Tố",
+      "Nguyễn Tuân",
+      "Nguyên Hồng"
+    ],
+    "correct": 0,
+    "explanation": "Vũ Trọng Phụng (ông vua phóng sự đất Bắc) sáng tác tiểu thuyết trào phúng 'Số đỏ' năm 1936."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhạc sĩ thiên tài người Đức nào đã sáng tác bản 'Bản giao hưởng số 9' hùng tráng khi đã bị điếc hoàn toàn?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Frederic Chopin"
+    ],
+    "correct": 0,
+    "explanation": "Beethoven hoàn thành Bản giao hưởng Định mệnh số 9 khi thính giác đã mất hoàn toàn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tập thơ chữ Hán 'Nhật ký trong tù' (Ngục trung nhật ký) là tác phẩm của ai?",
+    "options": [
+      "Hồ Chí Minh",
+      "Phan Bội Châu",
+      "Phan Châu Trinh",
+      "Sóng Hồng"
+    ],
+    "correct": 0,
+    "explanation": "Chủ tịch Hồ Chí Minh sáng tác 133 bài thơ chữ Hán khi bị giam giữ tại các nhà tù Quảng Tây (Trung Quốc) 1942 - 1943."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của bộ tiểu thuyết sử thi kiếm hiệp 'Anh hùng xạ điêu' và 'Thần điêu đại hiệp'?",
+    "options": [
+      "Kim Dung",
+      "Cổ Long",
+      "Lương Vũ Sinh",
+      "Ôn Thụy An"
+    ],
+    "correct": 0,
+    "explanation": "Đại văn hào Kim Dung là cây đại thụ của dòng tiểu thuyết võ hiệp Á Đông."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Nhà văn người Anh nào là tác giả của bộ tiểu thuyết kỳ ảo 'Harry Potter' nổi tiếng toàn cầu?",
+    "options": [
+      "J.K. Rowling",
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "George R.R. Martin"
+    ],
+    "correct": 0,
+    "explanation": "Bà J.K. Rowling đã tạo nên thế giới phù thủy Harry Potter làm say mê hàng trăm triệu độc giả."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Vở kịch bi kịch kinh điển 'Hamlet' là kiệt tác của nhà soạn kịch vĩ đại nào?",
+    "options": [
+      "William Shakespeare",
+      "Molière",
+      "Victor Hugo",
+      "Johann Wolfgang von Goethe"
+    ],
+    "correct": 0,
+    "explanation": "William Shakespeare là nhà soạn kịch lừng danh của nước Anh thời Phục hưng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của tác phẩm tiểu thuyết bất hủ 'Những người khốn khổ' (Les Misérables)?",
+    "options": [
+      "Victor Hugo",
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Gustave Flaubert"
+    ],
+    "correct": 0,
+    "explanation": "Đại văn hào người Pháp Victor Hugo xuất bản tiểu thuyết 'Những người khốn khổ' vào năm 1862."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Bức tranh danh tiếng 'Đêm đầy sao' (The Starry Night) là kiệt tác của họa sĩ thiên tài nào?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "correct": 0,
+    "explanation": "Danh họa người Hà Lan Vincent van Gogh vẽ kiệt tác The Starry Night vào năm 1889."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Nhà văn châu Á đầu tiên vinh dự đoạt giải Nobel Văn học vào năm 1913 là ai?",
+    "options": [
+      "Rabindranath Tagore",
+      "Kawabata Yasunari",
+      "Lỗ Tấn",
+      "Mạc Ngôn"
+    ],
+    "correct": 0,
+    "explanation": "Đại thi hào Ấn Độ Rabindranath Tagore nhận giải Nobel Văn học 1913 nhờ tập thơ 'Lời dâng' (Gitanjali)."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tập thơ 'Thơ thơ' (1938) mở đầu cho trào lưu Thơ Mới lãng mạn Việt Nam là của nhà thơ nào?",
+    "options": [
+      "Xuân Diệu",
+      "Huy Cận",
+      "Hàn Mặc Tử",
+      "Chế Lan Viên"
+    ],
+    "correct": 0,
+    "explanation": "Xuân Diệu được Hoài Thanh xưng tụng là 'nhà thơ mới nhất trong các nhà thơ mới'."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Bức tượng cẩm thạch kiệt tác 'David' thời kỳ Phục hưng là tác phẩm điêu khắc của nghệ sĩ nào?",
+    "options": [
+      "Michelangelo",
+      "Donatello",
+      "Leonardo da Vinci",
+      "Raphael"
+    ],
+    "correct": 0,
+    "explanation": "Michelangelo hoàn thành bức tượng điêu khắc David cao hơn 5 mét vào năm 1504 tại Florence."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm sử thi 'Iliad' và 'Odyssey' của Hy Lạp cổ đại tương truyền là của thi hào mù nào sáng tác?",
+    "options": [
+      "Homer",
+      "Sophocles",
+      "Hesiod",
+      "Euripides"
+    ],
+    "correct": 0,
+    "explanation": "Thi hào Homer được coi là tác giả của hai bộ sử thi nền tảng của văn minh phương Tây."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của áng văn xuôi trữ tình nổi tiếng 'Một thứ quà của lúa non: Cốm'?",
+    "options": [
+      "Thạch Lam",
+      "Nguyễn Tuân",
+      "Vũ Bằng",
+      "Nguyễn Đình Thi"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Thạch Lam trong tập tùy bút 'Hà Nội ba mươi sáu phố phường' (1943)."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Giải thưởng danh giá nhất của ngành điện ảnh thế giới do Viện Hàn lâm Hoa Kỳ trao tặng hàng năm là gì?",
+    "options": [
+      "Giải Oscar",
+      "Cành cọ Vàng",
+      "Sư tử Vàng",
+      "Quả cầu Vàng"
+    ],
+    "correct": 0,
+    "explanation": "Giải Oscar (Academy Awards) là giải thưởng điện ảnh danh giá và uy tín bậc nhất thế giới."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Vở opera kinh điển 'Cây sáo thần' (The Magic Flute) là sáng tác của nhà soạn nhạc thiên tài nào?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Antonio Vivaldi",
+      "Giuseppe Verdi",
+      "Richard Wagner"
+    ],
+    "correct": 0,
+    "explanation": "Mozart sáng tác vở opera nổi tiếng Die Zauberflöte (Cây sáo thần) vào năm 1791."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm 'Chiến tranh và Hòa bình' (War and Peace) là kiệt tác văn học của văn hào Nga nào?",
+    "options": [
+      "Lev Tolstoy",
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Alexander Pushkin"
+    ],
+    "correct": 0,
+    "explanation": "Bá tước Lev Tolstoy xuất bản tiểu thuyết sử thi vĩ đại Chiến tranh và Hòa bình năm 1869."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Vở kịch sân khấu kinh điển mang triết lý nhân sinh sâu sắc 'Hồn Trương Ba, da hàng thịt' là tác phẩm của ai?",
+    "options": [
+      "Lưu Quang Vũ",
+      "Xuân Trình",
+      "Đào Tấn",
+      "Nguyễn Huy Tưởng"
+    ],
+    "correct": 0,
+    "explanation": "Nhà viết kịch tài hoa Lưu Quang Vũ sáng tác 'Hồn Trương Ba, da hàng thịt' năm 1981."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của kiệt tác tiểu thuyết chương hồi đồ sộ 'Tam Quốc Diễn Nghĩa' của văn học cổ điển phương Đông?",
+    "options": [
+      "La Quán Trung",
+      "Thi Nại Am",
+      "Ngô Thừa Ân",
+      "Tào Tuyết Cần"
+    ],
+    "correct": 0,
+    "explanation": "La Quán Trung sống vào cuối thời Nguyên đầu thời Minh là tác giả của Tam Quốc Diễn Nghĩa."
+  }
+]

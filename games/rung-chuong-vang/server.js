@@ -13,25 +13,10 @@ const QUESTION_DURATION = Number(process.env.QUESTION_DURATION) || 20;
 const RESCUE_DURATION = 20;
 const TOTAL_QUESTIONS = Number(process.env.TOTAL_QUESTIONS) || 15;
 
-// Load questions database
-const questionsFilePath = path.join(__dirname, 'data', 'questions.json');
-let allQuestions = [];
-try {
-  allQuestions = JSON.parse(fs.readFileSync(questionsFilePath, 'utf8'));
-  console.log(`[RungChuongVang] Loaded ${allQuestions.length} questions from data/questions.json`);
-} catch (err) {
-  console.error('[RungChuongVang] Error loading questions:', err);
-  allQuestions = [
-    {
-      id: 1,
-      difficulty: 1,
-      question: "Thủ đô của Việt Nam là gì?",
-      options: ["Hà Nội", "Đà Nẵng", "TP. Hồ Chí Minh", "Cần Thơ"],
-      correct: 0,
-      explanation: "Hà Nội là thủ đô của Việt Nam."
-    }
-  ];
-}
+// Load questions database qua QuestionBank
+const QuestionBank = require('./data/questionBank');
+const questionBank = new QuestionBank(path.join(__dirname, 'data'));
+let allQuestions = questionBank.getAll();
 
 const app = express();
 app.use(cors());
@@ -103,9 +88,13 @@ app.get('/api/tts', (req, res) => {
   });
 });
 
-// API lấy thông tin câu hỏi
+// API lấy thông tin câu hỏi & thống kê
 app.get('/api/questions', (req, res) => {
-  res.json({ total: allQuestions.length, data: allQuestions });
+  res.json({ total: allQuestions.length, stats: questionBank.getStats(), data: allQuestions });
+});
+
+app.get('/api/questions/stats', (req, res) => {
+  res.json(questionBank.getStats());
 });
 
 // ==========================================
@@ -205,23 +194,7 @@ class GoldenBellGame {
   }
 
   pickQuestions() {
-    // Sắp xếp câu hỏi theo độ khó tăng dần
-    const easy = allQuestions.filter(q => q.difficulty === 1).sort(() => 0.5 - Math.random());
-    const medium = allQuestions.filter(q => q.difficulty === 2).sort(() => 0.5 - Math.random());
-    const hard = allQuestions.filter(q => q.difficulty === 3).sort(() => 0.5 - Math.random());
-
-    const result = [
-      ...easy.slice(0, 5),
-      ...medium.slice(0, 6),
-      ...hard.slice(0, 4)
-    ];
-
-    // Bổ sung nếu chưa đủ
-    if (result.length < this.totalQuestions) {
-      const remaining = allQuestions.filter(q => !result.includes(q));
-      result.push(...remaining.slice(0, this.totalQuestions - result.length));
-    }
-    return result.slice(0, this.totalQuestions);
+    return questionBank.pickQuestions({ total: this.totalQuestions });
   }
 
   getAliveCount() {

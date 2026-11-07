@@ -1,0 +1,418 @@
+[
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trái cây nào được mệnh danh là 'Vua của các loài trái cây' ở Đông Nam Á?",
+    "options": [
+      "Xoài cát",
+      "Sầu riêng",
+      "Măng cụt",
+      "Chôm chôm"
+    ],
+    "correct": 1,
+    "explanation": "Sầu riêng được mệnh danh là King of Fruits, còn Măng cụt là Queen of Fruits."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Một năm dương lịch thông thường (không phải năm nhuận) có bao nhiêu ngày?",
+    "options": [
+      "364 ngày",
+      "365 ngày",
+      "366 ngày",
+      "360 ngày"
+    ],
+    "correct": 1,
+    "explanation": "Năm thường có 365 ngày, năm nhuận có 366 ngày."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tháng nào trong năm nhuận dương lịch có 29 ngày?",
+    "options": [
+      "Tháng 1",
+      "Tháng 2",
+      "Tháng 4",
+      "Tháng 6"
+    ],
+    "correct": 1,
+    "explanation": "Tháng 2 có 28 ngày ở năm thường và 29 ngày ở năm nhuận."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn truyền thống đặc trưng không thể thiếu trên mâm cỗ Tết cổ truyền của người miền Bắc là gì?",
+    "options": [
+      "Bánh chưng",
+      "Bánh tét",
+      "Bánh xèo",
+      "Bánh khọt"
+    ],
+    "correct": 0,
+    "explanation": "Bánh chưng vuông xanh lá dong tượng trưng cho Đất là biểu tượng Tết miền Bắc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng video ngắn TikTok ban đầu có nguồn gốc từ công ty công nghệ nào?",
+    "options": [
+      "ByteDance",
+      "Tencent",
+      "Alibaba",
+      "Baidu"
+    ],
+    "correct": 0,
+    "explanation": "ByteDance sáng lập và phát triển nền tảng TikTok (phiên bản quốc tế của Douyin)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cây cầu dây văng đầu tiên được xây dựng tại Việt Nam khánh thành năm 2000 là cây cầu nào?",
+    "options": [
+      "Cầu Mỹ Thuận",
+      "Cầu Bãi Cháy",
+      "Cầu Cần Thơ",
+      "Cầu Nhật Tân"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Mỹ Thuận bắc qua sông Tiền khánh thành năm 2000 là cây cầu dây văng đầu tiên ở Việt Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Tập đoàn công nghệ nào chế tạo ra hệ điều hành Android ban đầu trước khi bán cho Google?",
+    "options": [
+      "Android Inc.",
+      "Sun Microsystems",
+      "Motorola",
+      "Nokia"
+    ],
+    "correct": 0,
+    "explanation": "Android Inc. thành lập năm 2003 và được Google mua lại vào năm 2005."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Mạng Internet toàn cầu được truy cập công cộng lần đầu tiên thông qua giao thức WWW (World Wide Web) do ai phát minh?",
+    "options": [
+      "Tim Berners-Lee",
+      "Bill Gates",
+      "Steve Jobs",
+      "Vint Cerf"
+    ],
+    "correct": 0,
+    "explanation": "Sir Tim Berners-Lee phát minh ra World Wide Web (WWW) tại trung tâm CERN năm 1989."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đội tuyển bóng đá nam quốc gia nào giành nhiều chức vô địch World Cup nhất trong lịch sử (5 lần)?",
+    "options": [
+      "Brazil",
+      "Đức",
+      "Ý",
+      "Argentina"
+    ],
+    "correct": 0,
+    "explanation": "Đội tuyển Brazil (Những vũ công Samba) giữ kỷ lục 5 lần vô địch World Cup (1958, 1962, 1970, 1994, 2002)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đơn vị tiền tệ chung của Liên minh Châu Âu (EU) có tên gọi là gì?",
+    "options": [
+      "Euro (€)",
+      "Bảng Anh (£)",
+      "Franc",
+      "Yên"
+    ],
+    "correct": 0,
+    "explanation": "Đồng Euro (€) được đưa vào lưu thông chính thức từ năm 2002."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Ai là người sáng lập tập đoàn phần mềm Microsoft và giữ vị trí người giàu nhất thế giới trong nhiều năm liền?",
+    "options": [
+      "Bill Gates",
+      "Paul Allen",
+      "Steve Jobs",
+      "Elon Musk"
+    ],
+    "correct": 0,
+    "explanation": "Bill Gates cùng Paul Allen sáng lập Microsoft năm 1975."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Ngày Quốc tế Phụ nữ được tổ chức vào ngày nào hàng năm trên toàn thế giới?",
+    "options": [
+      "Ngày 8 tháng 3",
+      "Ngày 20 tháng 10",
+      "Ngày 1 tháng 5",
+      "Ngày 1 tháng 6"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 8 tháng 3 là ngày Quốc tế Phụ nữ kỷ niệm phong trào quyền lợi của phụ nữ toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chiếc điện thoại thông minh iPhone thế hệ đầu tiên được cố CEO Steve Jobs giới thiệu vào năm nào?",
+    "options": [
+      "2005",
+      "2007",
+      "2009",
+      "2010"
+    ],
+    "correct": 1,
+    "explanation": "Steve Jobs giới thiệu iPhone 2G lần đầu tại Macworld ngày 9/1/2007 mở ra kỷ nguyên smartphone."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thế vận hội Olympic mùa hè hiện đại đầu tiên được tổ chức tại thành phố nào vào năm 1896?",
+    "options": [
+      "Athens (Hy Lạp)",
+      "Paris (Pháp)",
+      "London (Anh)",
+      "Rome (Ý)"
+    ],
+    "correct": 0,
+    "explanation": "Thế vận hội hiện đại đầu tiên được phục hồi tại Athens năm 1896 do Pierre de Coubertin khởi xướng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Định dạng ảnh động phổ biến trên internet viết tắt là GIF là viết tắt của từ gì?",
+    "options": [
+      "Graphics Interchange Format",
+      "General Image File",
+      "Global Internet Format",
+      "Graphical Image Frame"
+    ],
+    "correct": 0,
+    "explanation": "GIF là viết tắt của Graphics Interchange Format được phát triển bởi CompuServe năm 1987."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Tây Nam Bộ được mệnh danh là 'Xứ sở Dừa' của Việt Nam?",
+    "options": [
+      "Bến Tre",
+      "Trà Vinh",
+      "Tiền Giang",
+      "Vĩnh Long"
+    ],
+    "correct": 0,
+    "explanation": "Bến Tre nổi tiếng với những rặng dừa bạt ngàn và các đặc sản từ dừa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI RUNG CHUÔNG VÀNG: Cây cầu thép lịch sử đầu tiên bắc qua sông Hồng tại Hà Nội khánh thành năm 1902 là cầu nào?",
+    "options": [
+      "Cầu Long Biên",
+      "Cầu Thăng Long",
+      "Cầu Chương Dương",
+      "Cầu Vĩnh Tuy"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Long Biên (tên ban đầu là cầu Doumer) được khánh thành năm 1902."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Đồng tiền điện tử phi tập trung đầu tiên trên thế giới mang tên Bitcoin được tạo ra vào năm 2009 bởi nhân vật bí ẩn nào?",
+    "options": [
+      "Satoshi Nakamoto",
+      "Vitalik Buterin",
+      "Hal Finney",
+      "Nick Szabo"
+    ],
+    "correct": 0,
+    "explanation": "Satoshi Nakamoto là bút danh của cá nhân hoặc tổ chức bí ẩn đã phát minh ra Bitcoin."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Ngôn ngữ lập trình Python được tạo ra bởi nhà khoa học máy tính người Hà Lan nào vào năm 1991?",
+    "options": [
+      "Guido van Rossum",
+      "Linus Torvalds",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correct": 0,
+    "explanation": "Guido van Rossum sáng tạo ngôn ngữ lập trình Python và đặt tên theo nhóm hài Monty Python."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Hệ điều hành mã nguồn mở nhân Linux đầu tiên được công bố bởi ai vào năm 1991?",
+    "options": [
+      "Linus Torvalds",
+      "Richard Stallman",
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    "correct": 0,
+    "explanation": "Chàng sinh viên 21 tuổi người Phần Lan Linus Torvalds viết kernel Linux năm 1991."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Ai là người đầu tiên trên thế giới phát minh ra mạng lưới ngân hàng máu và phương pháp lưu trữ huyết tương cứu sống hàng triệu người?",
+    "options": [
+      "Charles R. Drew",
+      "Karl Landsteiner",
+      "Alexander Fleming",
+      "Edward Jenner"
+    ],
+    "correct": 0,
+    "explanation": "Bác sĩ Charles R. Drew là cha đẻ của các ngân hàng máu hiện đại trong Thế chiến thứ hai."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Chiếc máy bay có động cơ đầu tiên trên thế giới bay thành công vào năm 1903 là phát minh của ai?",
+    "options": [
+      "Anh em nhà Wright",
+      "Alberto Santos-Dumont",
+      "Louis Blériot",
+      "Glenn Curtiss"
+    ],
+    "correct": 0,
+    "explanation": "Orville và Wilbur Wright thực hiện chuyến bay lịch sử đầu tiên tại Kitty Hawk năm 1903."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Giải đấu quần vợt (tennis) lâu đời và danh giá nhất trên mặt sân cỏ tự nhiên trên thế giới là giải nào?",
+    "options": [
+      "Wimbledon (Anh)",
+      "US Open (Mỹ)",
+      "Roland Garros (Pháp)",
+      "Australian Open (Úc)"
+    ],
+    "correct": 0,
+    "explanation": "Giải Wimbledon khởi tranh lần đầu năm 1877 tại London, là giải Grand Slam cổ nhất."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Mô hình trí tuệ nhân tạo Transformer - nền móng cho ChatGPT và LLM hiện đại - được công bố trong bài báo khoa học nổi tiếng nào năm 2017 của Google?",
+    "options": [
+      "Attention Is All You Need",
+      "Deep Residual Learning",
+      "ImageNet Classification",
+      "BERT Pre-training"
+    ],
+    "correct": 0,
+    "explanation": "Bài báo 'Attention Is All You Need' của nhóm nghiên cứu Google Brain/Research năm 2017 tạo nên cuộc cách mạng AI."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Tổ chức Y tế Thế giới (WHO) có trụ sở chính đặt tại thành phố nào?",
+    "options": [
+      "Geneva (Thụy Sĩ)",
+      "New York (Mỹ)",
+      "Vienna (Áo)",
+      "Paris (Pháp)"
+    ],
+    "correct": 0,
+    "explanation": "Trụ sở của Tổ chức Y tế Thế giới (WHO) nằm tại thành phố Geneva, Thụy Sĩ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Thương hiệu ô tô nào là hãng xe thương mại chế tạo ra dây đai an toàn 3 điểm vào năm 1959 và chia sẻ miễn phí bằng sáng chế cho toàn nhân loại?",
+    "options": [
+      "Volvo",
+      "Mercedes-Benz",
+      "Toyota",
+      "Ford"
+    ],
+    "correct": 0,
+    "explanation": "Kỹ sư Nils Bohlin của Volvo phát minh dây đai an toàn 3 điểm và Volvo quyết định không thu tiền bản quyền để cứu mạng người."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Thuật ngữ 'Debugging' (tìm và sửa lỗi phần mềm) trong ngành tin học bắt nguồn từ sự kiện một con bướm đêm (moth) bay vào máy tính nào năm 1947?",
+    "options": [
+      "Máy tính Mark II",
+      "Máy tính ENIAC",
+      "Máy tính UNIVAC",
+      "Máy tính Colossus"
+    ],
+    "correct": 0,
+    "explanation": "Nữ lập trình viên Grace Hopper đã tìm thấy con bướm đêm gây đoản mạch trong rơ-le máy tính Mark II tại Harvard."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào được tôn vinh là 'Môn thể thao vua' thu hút lượng người theo dõi lớn nhất toàn cầu?",
+    "options": [
+      "Bóng rổ",
+      "Bóng đá",
+      "Quần vợt",
+      "Điền kinh"
+    ],
+    "correct": 1,
+    "explanation": "Bóng đá là môn thể thao vua với hàng tỷ người hâm mộ khắp hành tinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đơn vị tiền tệ chính thức của đất nước Mặt Trời mọc Nhật Bản là gì?",
+    "options": [
+      "Đồng Won",
+      "Đồng Nhân dân tệ",
+      "Đồng Yên (JPY)",
+      "Đồng Baht"
+    ],
+    "correct": 2,
+    "explanation": "Đồng Yên (Yen - kí hiệu ¥) là đơn vị tiền tệ của Nhật Bản."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ai là CEO kiêm nhà đồng sáng lập mạng xã hội Facebook (hiện nay là tập đoàn Meta)?",
+    "options": [
+      "Mark Zuckerberg",
+      "Jack Dorsey",
+      "Larry Page",
+      "Sergey Brin"
+    ],
+    "correct": 0,
+    "explanation": "Mark Zuckerberg sáng lập Facebook vào năm 2004 tại Đại học Harvard."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở truyền thống trứ danh của Việt Nam thường được phục vụ phổ biến nhất với hai loại thịt chính nào?",
+    "options": [
+      "Thịt bò và thịt gà",
+      "Thịt bò và thịt heo",
+      "Thịt vịt và thịt gà",
+      "Thịt dê và thịt bò"
+    ],
+    "correct": 0,
+    "explanation": "Phở bò và phở gà là hai món phở quốc hồn quốc túy truyền thống của ẩm thực Việt Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hãng hàng không quốc gia của Việt Nam mang biểu tượng bông Hoa Sen Vàng là hãng nào?",
+    "options": [
+      "Vietnam Airlines",
+      "Vietjet Air",
+      "Bamboo Airways",
+      "Pacific Airlines"
+    ],
+    "correct": 0,
+    "explanation": "Hãng hàng không Quốc gia Việt Nam (Vietnam Airlines) mang hình ảnh biểu tượng bông Sen Vàng sáu cánh."
+  }
+]

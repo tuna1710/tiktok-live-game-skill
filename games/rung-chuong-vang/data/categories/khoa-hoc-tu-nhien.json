@@ -1,0 +1,457 @@
+[
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào nằm ở vị trí gần Mặt Trời nhất trong Hệ Mặt Trời?",
+    "options": [
+      "Sao Hỏa",
+      "Sao Thủy",
+      "Sao Kim",
+      "Trái Đất"
+    ],
+    "correct": 1,
+    "explanation": "Sao Thủy (Mercury) là hành tinh nằm gần Mặt Trời nhất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào được mệnh danh là 'Hành tinh Đỏ' trong Hệ Mặt Trời?",
+    "options": [
+      "Sao Hỏa",
+      "Sao Thổ",
+      "Sao Mộc",
+      "Sao Kim"
+    ],
+    "correct": 0,
+    "explanation": "Sao Hỏa (Mars) có bề mặt giàu oxit sắt rỉ sét tạo nên màu đỏ cam đặc trưng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ thể người trưởng thành bình thường có bao nhiêu chiếc xương?",
+    "options": [
+      "206 chiếc",
+      "300 chiếc",
+      "180 chiếc",
+      "250 chiếc"
+    ],
+    "correct": 0,
+    "explanation": "Người trưởng thành có đúng 206 chiếc xương (trẻ sơ sinh có khoảng 270-300 chiếc xương rồi hợp nhất lại)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Nước tinh khiết đóng băng thành thể rắn ở nhiệt độ bao nhiêu độ C trong áp suất chuẩn?",
+    "options": [
+      "0°C",
+      "-5°C",
+      "10°C",
+      "100°C"
+    ],
+    "correct": 0,
+    "explanation": "Nước tinh khiết đóng băng ở 0°C và sôi ở 100°C ở áp suất 1 atm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Động vật có vú nào là loài động vật lớn nhất từng sinh sống trên Trái Đất?",
+    "options": [
+      "Cá voi xanh",
+      "Khủng long bạo chúa",
+      "Voi châu Phi",
+      "Cá mập Megalodon"
+    ],
+    "correct": 0,
+    "explanation": "Cá voi xanh có thể dài tới hơn 30 mét và nặng gần 200 tấn, là loài động vật lớn nhất hành tinh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Loài chim nào là loài duy nhất có khả năng bay lùi và bay đứng một chỗ?",
+    "options": [
+      "Chim én",
+      "Chim bói cá",
+      "Chim ruồi",
+      "Chim gõ kiến"
+    ],
+    "correct": 2,
+    "explanation": "Chim ruồi (Hummingbird) có cấu tạo khớp cánh đặc biệt giúp nó bay lùi và lơ lửng tại chỗ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Nguyên tố hóa học nào phổ biến nhất tính theo khối lượng trong vỏ Trái Đất?",
+    "options": [
+      "Silicon (Si)",
+      "Oxy (O)",
+      "Nhôm (Al)",
+      "Sắt (Fe)"
+    ],
+    "correct": 1,
+    "explanation": "Oxy chiếm khoảng 46.6% khối lượng vỏ Trái Đất dưới dạng các khoáng chất oxit."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Đơn vị đo cường độ dòng điện trong hệ đo lường quốc tế (SI) là gì?",
+    "options": [
+      "Volt (V)",
+      "Watt (W)",
+      "Ampe (A)",
+      "Ohm (Ω)"
+    ],
+    "correct": 2,
+    "explanation": "Ampe (kí hiệu A) là đơn vị đo cường độ dòng điện tiêu chuẩn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong cơ thể người, cơ quan nội tạng nào đảm nhiệm chức năng lọc máu và bài tiết nước tiểu?",
+    "options": [
+      "Gan",
+      "Thận",
+      "Tụy",
+      "Dạ dày"
+    ],
+    "correct": 1,
+    "explanation": "Hai quả thận có chức năng lọc độc tố và chất thải từ máu để tạo ra nước tiểu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Khí nào chiếm tỷ lệ thể tích lớn nhất trong bầu khí quyển Trái Đất?",
+    "options": [
+      "Khí Oxy",
+      "Khí Nitơ",
+      "Khí Cacbonic",
+      "Khí Argon"
+    ],
+    "correct": 1,
+    "explanation": "Khí Nitơ (N2) chiếm khoảng 78.08% thể tích khí quyển, Oxy chiếm khoảng 20.95%."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào có độ dẫn điện và dẫn nhiệt tốt nhất trong tất cả các kim loại?",
+    "options": [
+      "Đồng (Cu)",
+      "Vàng (Au)",
+      "Bạc (Ag)",
+      "Nhôm (Al)"
+    ],
+    "correct": 2,
+    "explanation": "Bạc (Ag) là kim loại dẫn điện và nhiệt tốt nhất, kế đến là đồng và vàng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Vận tốc ánh sáng truyền trong chân không có giá trị xấp xỉ bằng bao nhiêu?",
+    "options": [
+      "300.000 km/s",
+      "30.000 km/s",
+      "3.000 km/s",
+      "150.000 km/s"
+    ],
+    "correct": 0,
+    "explanation": "Vận tốc ánh sáng trong chân không là c ≈ 299.792 km/s (~300.000 km/s)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Cơ quan nội tạng nào là cơ quan nội tạng lớn nhất và nặng nhất trong cơ thể con người?",
+    "options": [
+      "Tim",
+      "Gan",
+      "Phổi",
+      "Não"
+    ],
+    "correct": 1,
+    "explanation": "Gan nặng khoảng 1.5kg, là cơ quan nội tạng lớn nhất (còn da là cơ quan lớn nhất bao phủ toàn thân)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Loài thú duy nhất nào có khả năng bay thực sự như chim nhờ màng cánh?",
+    "options": [
+      "Dơi",
+      "Sóc bay",
+      "Chồn bay",
+      "Cáo bay"
+    ],
+    "correct": 0,
+    "explanation": "Loài Dơi (bộ Chiroptera) là động vật có vú duy nhất có thể bay lượn chủ động bằng cánh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình thực vật sử dụng ánh sáng Mặt Trời để tổng hợp chất dinh dưỡng và nhả khí Oxy gọi là gì?",
+    "options": [
+      "Hô hấp",
+      "Quang hợp",
+      "Thoát hơi nước",
+      "Lên men"
+    ],
+    "correct": 1,
+    "explanation": "Quang hợp (Photosynthesis) là quá trình chuyển đổi năng lượng ánh sáng thành năng lượng hóa học."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong Hệ Mặt Trời, hành tinh nào có kích thước và khối lượng lớn nhất?",
+    "options": [
+      "Sao Thổ",
+      "Sao Hải Vương",
+      "Sao Mộc",
+      "Sao Thiên Vương"
+    ],
+    "correct": 2,
+    "explanation": "Sao Mộc (Jupiter) là hành tinh lớn nhất, có khối lượng gấp 2.5 lần tổng khối lượng các hành tinh khác cộng lại."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại duy nhất nào ở trạng thái lỏng ở nhiệt độ phòng (25°C)?",
+    "options": [
+      "Thủy ngân (Hg)",
+      "Chì (Pb)",
+      "Gali (Ga)",
+      "Kẽm (Zn)"
+    ],
+    "correct": 0,
+    "explanation": "Thủy ngân (Mercury - Hg) là kim loại duy nhất ở dạng lỏng ở điều kiện nhiệt độ phòng chuẩn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Ai là người phụ nữ đầu tiên trên thế giới bay vào không gian vũ trụ?",
+    "options": [
+      "Valentina Tereshkova",
+      "Sally Ride",
+      "Svetlana Savitskaya",
+      "Mae Jemison"
+    ],
+    "correct": 0,
+    "explanation": "Nữ phi hành gia Liên Xô Valentina Tereshkova bay vào vũ trụ ngày 16/6/1963 trên tàu Vostok 6."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Nhà bác học Hy Lạp nào từ thời cổ đại đã tính toán chu vi Trái Đất với độ sai số kinh ngạc dưới 2%?",
+    "options": [
+      "Archimedes",
+      "Eratosthenes",
+      "Pythagoras",
+      "Aristotle"
+    ],
+    "correct": 1,
+    "explanation": "Eratosthenes (thế kỷ 3 TCN) đo góc bóng nắng tại Alexandria và Syene để tính chu vi Trái Đất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Trong bảng tuần hoàn hóa học Mendeleev, chữ cái Latinh duy nhất nào không xuất hiện ở ký hiệu nguyên tố nào?",
+    "options": [
+      "Chữ J",
+      "Chữ Q",
+      "Chữ X",
+      "Chữ Z"
+    ],
+    "correct": 0,
+    "explanation": "Chữ cái 'J' là ký tự duy nhất trong bảng chữ cái Latinh không có mặt trong bất kỳ ký hiệu nguyên tố nào."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hiện tượng vật lý nào giải thích tại sao bầu trời vào ban ngày lại có màu xanh lam?",
+    "options": [
+      "Tán xạ Raman",
+      "Tán xạ Rayleigh",
+      "Khúc xạ ánh sáng",
+      "Nhiễu xạ ánh sáng"
+    ],
+    "correct": 1,
+    "explanation": "Tán xạ Rayleigh làm tán xạ các ánh sáng bước sóng ngắn (xanh lam) mạnh hơn nhiều so với bước sóng dài."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Ai là người đầu tiên chế tạo và dùng kính thiên văn để quan sát các thiên thể vũ trụ năm 1609?",
+    "options": [
+      "Galileo Galilei",
+      "Hans Lippershey",
+      "Johannes Kepler",
+      "Isaac Newton"
+    ],
+    "correct": 0,
+    "explanation": "Galileo Galilei hoàn thiện kính thiên văn và phát hiện ra 4 vệ tinh lớn của sao Mộc."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Ai là nhà khoa học duy nhất trong lịch sử từng nhận hai giải Nobel ở hai lĩnh vực khoa học khác nhau (Vật lý và Hóa học)?",
+    "options": [
+      "Marie Curie",
+      "Albert Einstein",
+      "Linus Pauling",
+      "Niels Bohr"
+    ],
+    "correct": 0,
+    "explanation": "Marie Curie nhận Nobel Vật lý năm 1903 và Nobel Hóa học năm 1911 về nghiên cứu phóng xạ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Vật liệu tự nhiên nào có độ cứng lớn nhất theo thang độ cứng Mohs?",
+    "options": [
+      "Kim cương",
+      "Thạch anh",
+      "Corundum (Sapphire)",
+      "Topaz"
+    ],
+    "correct": 0,
+    "explanation": "Kim cương đạt điểm 10 tuyệt đối trên thang Mohs, là chất tự nhiên cứng nhất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Nhiệt độ tuyệt đối 0 Kelvin (Độ 0 tuyệt đối) tương đương với bao nhiêu độ C?",
+    "options": [
+      "-273.15°C",
+      "-100°C",
+      "-200°C",
+      "-373.15°C"
+    ],
+    "correct": 0,
+    "explanation": "0 K = -273.15°C, nơi mọi chuyển động nhiệt của các hạt nguyên tử đạt trạng thái cực tiểu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Định luật Vạn vật Hấp dẫn nổi tiếng được nhà bác học vĩ đại nào công bố trong tác phẩm 'Principia' năm 1687?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Johannes Kepler"
+    ],
+    "correct": 0,
+    "explanation": "Sir Isaac Newton công bố định luật vạn vật hấp dẫn và ba định luật chuyển động kinh điển."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Cấu trúc xoắn kép của phân tử DNA được công bố bởi hai nhà khoa học nào vào năm 1953?",
+    "options": [
+      "James Watson và Francis Crick",
+      "Charles Darwin và Mendel",
+      "Pasteur và Koch",
+      "Alexander Fleming và Florey"
+    ],
+    "correct": 0,
+    "explanation": "Watson và Crick (với dữ liệu của Rosalind Franklin) đã khám phá cấu trúc chuỗi xoắn kép DNA."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hạt hạ nguyên tử nào mang điện tích âm và quay quanh hạt nhân nguyên tử?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Positron"
+    ],
+    "correct": 0,
+    "explanation": "Electron (điện tử) mang điện tích âm e = -1.6 x 10^-19 C."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Khí trơ nào được sử dụng để bơm bóng bay vì nhẹ hơn không khí và không dễ cháy nổ như khí Hydro?",
+    "options": [
+      "Heli (He)",
+      "Neon (Ne)",
+      "Argon (Ar)",
+      "Krypton (Kr)"
+    ],
+    "correct": 0,
+    "explanation": "Khí Heli (Helium) rất nhẹ và là khí trơ không bắt lửa, an toàn cho bóng bay."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Loài thực vật hạt kín nào có hạt có thể nảy mầm sau hàng nghìn năm bị chôn vùi dưới bùn sâu?",
+    "options": [
+      "Hạt sen cổ",
+      "Hạt lúa gạo",
+      "Hạt dưa hấu",
+      "Hạt ngô"
+    ],
+    "correct": 0,
+    "explanation": "Hạt sen cổ có lớp vỏ sáp cứng bảo vệ phôi thai giúp nó nảy mầm sau hơn 1.000 năm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Nguyên tố nào là thành phần cơ bản bắt buộc cấu tạo nên mọi hợp chất hữu cơ của sự sống trên Trái Đất?",
+    "options": [
+      "Cacbon (C)",
+      "Lưu huỳnh (S)",
+      "Photpho (P)",
+      "Clo (Cl)"
+    ],
+    "correct": 0,
+    "explanation": "Hóa học hữu cơ là hóa học của các hợp chất của Cacbon với liên kết hóa trị linh hoạt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Thiên hà chứa Hệ Mặt Trời và Trái Đất của chúng ta có tên là gì?",
+    "options": [
+      "Dải Ngân Hà (Milky Way)",
+      "Thiên hà Tiên Nữ (Andromeda)",
+      "Thiên hà Tam Giác",
+      "Đám Mây Magellan"
+    ],
+    "correct": 0,
+    "explanation": "Hệ Mặt Trời của chúng ta nằm ở một nhánh xoắn ốc của Dải Ngân Hà (Milky Way)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời sở hữu hệ thống vành đai rực rỡ và đồ sộ nhất dễ dàng quan sát qua kính thiên văn?",
+    "options": [
+      "Sao Mộc",
+      "Sao Thổ",
+      "Sao Thiên Vương",
+      "Sao Hải Vương"
+    ],
+    "correct": 1,
+    "explanation": "Sao Thổ (Saturn) nổi tiếng nhất với hệ thống vành đai bụi băng đá tuyệt đẹp bao quanh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loại vitamin nào cơ thể con người có khả năng tự tổng hợp tốt nhất khi da tiếp xúc với ánh nắng Mặt Trời buổi sớm?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B12"
+    ],
+    "correct": 2,
+    "explanation": "Tia UVB trong ánh nắng kích thích tiền chất dưới da tổng hợp thành Vitamin D cần thiết cho xương."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Ai được tôn vinh là 'Cha đẻ của ngành di truyền học' với các định luật phân ly và phân ly độc lập trên cây đậu Hà Lan?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Thomas Hunt Morgan"
+    ],
+    "correct": 0,
+    "explanation": "Nhà tu sĩ người Áo Gregor Mendel công bố các quy luật di truyền nền tảng vào năm 1866."
+  }
+]

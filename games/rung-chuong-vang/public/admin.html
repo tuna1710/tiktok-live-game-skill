@@ -126,6 +126,16 @@
         </div>
       </div>
 
+      <div class="card">
+        <div class="card-title">
+          <span>📚 Ngân Hàng Câu Hỏi</span>
+          <span id="qb-total-badge" style="color: var(--primary); font-size: 13px;">...</span>
+        </div>
+        <div id="qb-stats-container" style="font-size: 12px; color: var(--text-muted); display: flex; flex-direction: column; gap: 8px;">
+          Đang tải dữ liệu ngân hàng câu hỏi...
+        </div>
+      </div>
+
     </div>
 
     <!-- CỘT 2: GIẢ LẬP SỰ KIỆN TỪ KHÁN GIẢ & NHẬT KÝ -->
@@ -284,6 +294,32 @@
       socket.emit('mock:gift', { nickname, uniqueId, giftName, diamondCount, profilePictureUrl: `https://api.dicebear.com/7.x/bottts/svg?seed=${uniqueId}` });
       addLog(`[Gift] ${nickname} tặng: ${giftName}`, 'gift');
     }
+
+    function loadQuestionBankStats() {
+      fetch('/api/questions/stats')
+        .then(r => r.json())
+        .then(stats => {
+          document.getElementById('qb-total-badge').innerText = `${stats.total} Câu`;
+          let html = `<div><strong>Phân bố độ khó:</strong> <span style="color:#2ecc71">Dễ: ${stats.byDifficulty[1]}</span> | <span style="color:#f39c12">Trung bình: ${stats.byDifficulty[2]}</span> | <span style="color:#e74c3c">Khó: ${stats.byDifficulty[3]}</span></div>`;
+          html += `<div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;">`;
+          const catLabels = {
+            'do-vui-tri-tue': '🧩 Đố vui mẹo',
+            'lich-su': '📜 Lịch sử',
+            'dia-ly': '🌏 Địa lý',
+            'khoa-hoc-tu-nhien': '🔬 Khoa học',
+            'van-hoc-nghe-thuat': '📖 Văn học nghệ thuật',
+            'doi-song-cong-nghe': '🚀 Đời sống & Công nghệ'
+          };
+          for (const [cat, count] of Object.entries(stats.byCategory)) {
+            const label = catLabels[cat] || cat;
+            html += `<span style="background: rgba(255,255,255,0.06); padding: 4px 8px; border-radius: 4px; border: 1px solid var(--border); font-size: 11px;">${label}: <b style="color:var(--cyan)">${count}</b></span>`;
+          }
+          html += `</div>`;
+          document.getElementById('qb-stats-container').innerHTML = html;
+        })
+        .catch(err => console.warn('Lỗi nạp thống kê câu hỏi:', err));
+    }
+    loadQuestionBankStats();
   </script>
 </body>
 </html>
