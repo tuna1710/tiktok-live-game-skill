@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng Điều Khiển Giả Lập TikTok Live (Mock Panel)</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: #0f1422; color: #e2e8f0; padding: 24px; }
+    .container { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+    h1 { font-size: 24px; color: #00f2fe; text-align: center; margin-bottom: 8px; }
+    .subtitle { text-align: center; color: #94a3b8; font-size: 14px; margin-bottom: 16px; }
+    .card { background: #1a2238; border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.08); }
+    .card-title { font-size: 16px; font-weight: 700; color: #ffd700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .form-group { display: flex; gap: 10px; margin-bottom: 10px; }
+    input { flex: 1; padding: 10px 14px; background: #0a0e1a; border: 1px solid #334155; border-radius: 8px; color: #fff; font-size: 14px; }
+    input:focus { outline: none; border-color: #00f2fe; }
+    button { padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; border: none; transition: 0.2s; }
+    button:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-primary { background: #00f2fe; color: #000; }
+    .btn-danger { background: #ff0055; color: #fff; }
+    .btn-warning { background: #f59e0b; color: #000; }
+    .btn-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+    .gift-btn { background: #263352; color: #fff; border: 1px solid #3b82f6; display: flex; flex-direction: column; align-items: center; padding: 12px 8px; gap: 4px; border-radius: 10px; }
+    .gift-btn:hover { background: #3b82f6; color: #fff; }
+    .gift-icon { font-size: 24px; }
+    .gift-meta { font-size: 11px; color: #94a3b8; }
+    .quick-comment-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .quick-btn { background: #334155; color: #cbd5e1; font-size: 12px; padding: 6px 12px; border-radius: 6px; }
+    .quick-btn:hover { background: #475569; color: #fff; }
+    .links-bar { display: flex; justify-content: center; gap: 16px; margin-top: 12px; }
+    .link-item { color: #38bdf8; text-decoration: none; font-size: 14px; }
+    .link-item:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>🎮 BẢNG ĐIỀU KHIỂN GIẢ LẬP SỰ KIỆN TIKTOK LIVE</h1>
+      <p class="subtitle">Dùng để kiểm thử gameplay trên Colab khi chưa phát trực tiếp trên TikTok</p>
+      <div class="links-bar">
+        <a class="link-item" href="/index.html" target="_blank">👉 Mở Màn Hình Game Chính (index.html)</a>
+      </div>
+    </div>
+
+    <!-- Kết nối TikTok Thật -->
+    <div class="card">
+      <div class="card-title">🔗 Kết Nối Kênh TikTok Thật</div>
+      <div class="form-group">
+        <input type="text" id="tiktok-user-input" placeholder="Nhập TikTok username (ví dụ: @tuna171095)">
+        <button class="btn-primary" onclick="connectTikTok()">Kết nối</button>
+      </div>
+    </div>
+
+    <!-- Giả Lập Bình Luận (Comment) -->
+    <div class="card">
+      <div class="card-title">💬 Giả Lập Comment (Chat)</div>
+      <div class="form-group">
+        <input type="text" id="chat-user" value="FanCung99" style="max-width: 160px;" placeholder="Tên người chat">
+        <input type="text" id="chat-text" placeholder="Nội dung bình luận...">
+        <button class="btn-primary" onclick="sendMockChat()">Gửi Comment</button>
+      </div>
+      <div class="quick-comment-btns">
+        <button class="quick-btn" onclick="sendQuickChat('1')">Gõ: 1</button>
+        <button class="quick-btn" onclick="sendQuickChat('2')">Gõ: 2</button>
+        <button class="quick-btn" onclick="sendQuickChat('Đỏ')">Gõ: Đỏ</button>
+        <button class="quick-btn" onclick="sendQuickChat('Xanh')">Gõ: Xanh</button>
+        <button class="quick-btn" onclick="sendQuickChat('Hà Nội')">Gõ: Hà Nội</button>
+        <button class="quick-btn" onclick="sendQuickChat('Sài Gòn')">Gõ: Sài Gòn</button>
+      </div>
+    </div>
+
+    <!-- Giả Lập Quà Tặng (Gift) -->
+    <div class="card">
+      <div class="card-title">🎁 Giả Lập Tặng Quà (Gifts)</div>
+      <div class="btn-grid">
+        <button class="gift-btn" onclick="sendMockGift('Hoa Hồng', 1, 1)">
+          <span class="gift-icon">🌹</span>
+          <strong>Hoa Hồng</strong>
+          <span class="gift-meta">1 xu (x1)</span>
+        </button>
+        <button class="gift-btn" onclick="sendMockGift('Hoa Hồng', 1, 10)">
+          <span class="gift-icon">🌹🌹</span>
+          <strong>Combo Hoa Hồng</strong>
+          <span class="gift-meta">10 xu (x10)</span>
+        </button>
+        <button class="gift-btn" onclick="sendMockGift('Trái Tim', 10, 1)">
+          <span class="gift-icon">💖</span>
+          <strong>Trái Tim</strong>
+          <span class="gift-meta">10 xu</span>
+        </button>
+        <button class="gift-btn" onclick="sendMockGift('Nước Hoa', 20, 1)">
+          <span class="gift-icon">🧴</span>
+          <strong>Nước Hoa</strong>
+          <span class="gift-meta">20 xu</span>
+        </button>
+        <button class="gift-btn" onclick="sendMockGift('Súng Tiền', 500, 1)">
+          <span class="gift-icon">💸</span>
+          <strong>Súng Tiền</strong>
+          <span class="gift-meta">500 xu</span>
+        </button>
+        <button class="gift-btn" onclick="sendMockGift('Sư Tử', 29999, 1)">
+          <span class="gift-icon">🦁</span>
+          <strong>Sư Tử Siêu Cấp</strong>
+          <span class="gift-meta">29.999 xu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Giả Lập Thả Tim & Quản Trị -->
+    <div class="card">
+      <div class="card-title">⚡ Thả Tim & Điều Khiển Ván Game</div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <button class="btn-warning" onclick="sendMockLike(1)">❤️ Thả 1 Tim</button>
+        <button class="btn-warning" onclick="sendMockLike(15)">🔥 Thả 15 Tim</button>
+        <button class="btn-warning" onclick="sendMockLike(100)">💥 Thả 100 Tim</button>
+        <button class="btn-danger" style="margin-left: auto;" onclick="resetGame()">🔄 Đặt Lại Game (Reset)</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const socket = io();
+
+    function connectTikTok() {
+      const user = document.getElementById('tiktok-user-input').value.trim();
+      if (!user) return alert('Vui lòng nhập TikTok username!');
+      socket.emit('tiktok:connect', user);
+      alert('Đã gửi yêu cầu kết nối tới: ' + user);
+    }
+
+    function sendMockChat() {
+      const user = document.getElementById('chat-user').value.trim() || 'NgườiChơi_Test';
+      const text = document.getElementById('chat-text').value.trim();
+      if (!text) return;
+      socket.emit('mock:chat', {
+        uniqueId: user.toLowerCase().replace(/\s+/g, '_'),
+        nickname: user,
+        comment: text,
+        profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+      });
+      document.getElementById('chat-text').value = '';
+    }
+
+    function sendQuickChat(text) {
+      document.getElementById('chat-text').value = text;
+      sendMockChat();
+    }
+
+    function sendMockGift(name, diamonds, repeat) {
+      const user = document.getElementById('chat-user').value.trim() || 'DaiGia_TikTok';
+      socket.emit('mock:gift', {
+        uniqueId: user.toLowerCase().replace(/\s+/g, '_'),
+        nickname: user,
+        giftId: 1001,
+        giftName: name,
+        diamondCount: diamonds,
+        repeatCount: repeat,
+        profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+      });
+    }
+
+    function sendMockLike(count) {
+      const user = document.getElementById('chat-user').value.trim() || 'FanCung_Like';
+      socket.emit('mock:like', {
+        uniqueId: user.toLowerCase().replace(/\s+/g, '_'),
+        nickname: user,
+        likeCount: count,
+        totalLikes: count
+      });
+    }
+
+    function resetGame() {
+      if (confirm('Bạn có chắc muốn đặt lại ván game?')) {
+        socket.emit('game:reset');
+      }
+    }
+
+    // Cho phép ấn Enter để gửi Chat
+    document.getElementById('chat-text').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') sendMockChat();
+    });
+  </script>
+</body>
+</html>

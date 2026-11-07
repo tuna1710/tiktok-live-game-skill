@@ -1,0 +1,20 @@
+{
+  "name": "tiktok-live-game-template",
+  "version": "1.0.0",
+  "description": "Clean, modular template for TikTok Live Interactive Games running on Google Colab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "tiktok-live-connector": "^1.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

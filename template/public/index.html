@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TikTok Live Interactive Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <!-- Container cố định tỉ lệ 9:16 (1080x1920) -->
+  <div id="game-container">
+    
+    <!-- Header: Thông tin Streamer & Điểm số -->
+    <header class="game-header">
+      <div class="streamer-info">
+        <span class="live-badge">🔴 LIVE</span>
+        <span id="tiktok-user">@Streamer</span>
+      </div>
+      <div class="stats-bar">
+        <div class="stat-pill"><span class="icon">❤️</span> <span id="like-count">0</span></div>
+        <div class="stat-pill"><span class="icon">🎁</span> <span id="gift-count">0</span></div>
+        <div class="stat-pill highlight"><span class="icon">⭐</span> <span id="score-count">0</span></div>
+      </div>
+    </header>
+
+    <!-- Khu vực Game Arena / Canvas vẽ chuyển động -->
+    <main class="game-arena">
+      <canvas id="game-canvas" width="1080" height="1300"></canvas>
+      
+      <!-- Thông báo hiệu ứng quà nổi lên (Gift Banner) -->
+      <div id="gift-alert-banner" class="gift-banner hidden">
+        <img id="gift-user-avatar" class="gift-avatar" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg" alt="avatar">
+        <div class="gift-text">
+          <div id="gift-user-name" class="gift-name">User Name</div>
+          <div id="gift-action-desc" class="gift-action">đã tặng 1 Hoa Hồng! 🌹</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer: Bảng xếp hạng Top & Bình luận mới nhất -->
+    <footer class="game-footer">
+      <div class="leaderboard-panel">
+        <div class="panel-title">🏆 TOP TƯƠNG TÁC</div>
+        <ul id="leaderboard-list" class="leaderboard-list">
+          <li class="empty-state">Chưa có đóng góp nào</li>
+        </ul>
+      </div>
+
+      <div class="chat-ticker">
+        <div class="ticker-label">💬 LIVE CHAT</div>
+        <div id="chat-messages" class="chat-messages">
+          <div class="chat-item system">Chào mừng bạn đến với Live Game! Gõ bình luận hoặc tặng quà để chơi.</div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

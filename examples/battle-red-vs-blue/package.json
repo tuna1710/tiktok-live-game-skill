@@ -1,0 +1,16 @@
+{
+  "name": "battle-red-vs-blue",
+  "version": "1.0.0",
+  "description": "Đại Chiến Đỏ vs Xanh - TikTok Live Interactive Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "tiktok-live-connector": "^1.1.8"
+  }
+}

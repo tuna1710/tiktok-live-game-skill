@@ -1,0 +1,243 @@
+/* Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: #05070e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Container cố định tỉ lệ dọc 9:16 */
+#game-container {
+  width: 100vw;
+  height: calc(100vw * 16 / 9);
+  max-width: 56.25vh; /* 9/16 của 100vh */
+  max-height: 100vh;
+  aspect-ratio: 9 / 16;
+  background: radial-gradient(circle at center top, #1a1e36 0%, #0a0c16 80%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 242, 254, 0.2);
+  border-radius: 12px;
+}
+
+/* Header */
+.game-header {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 12, 22, 0.7);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.streamer-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.live-badge {
+  background: #ff0055;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 20px;
+  animation: pulse 1.5s infinite;
+}
+
+#tiktok-user {
+  font-size: 15px;
+  font-weight: 700;
+  color: #00f2fe;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 8px;
+}
+
+.stat-pill {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-pill.highlight {
+  background: linear-gradient(135deg, #ffd700, #ff8800);
+  color: #000;
+}
+
+/* Arena & Canvas */
+.game-arena {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#game-canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Gift Banner Alert */
+.gift-banner {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, rgba(255, 0, 127, 0.9), rgba(121, 40, 202, 0.9));
+  border: 2px solid #ffd700;
+  border-radius: 40px;
+  padding: 8px 24px 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+  z-index: 50;
+  animation: slideDown 0.4s ease-out;
+  transition: opacity 0.3s;
+}
+
+.gift-banner.hidden {
+  display: none;
+}
+
+.gift-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+
+.gift-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffd700;
+}
+
+.gift-action {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Footer (Leaderboard & Chat) */
+.game-footer {
+  height: 35%;
+  background: rgba(10, 12, 22, 0.85);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 8px;
+  z-index: 10;
+}
+
+.leaderboard-panel {
+  flex: 1;
+  overflow: hidden;
+}
+
+.panel-title, .ticker-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #a0aec0;
+  margin-bottom: 6px;
+}
+
+.leaderboard-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 110px;
+  overflow-y: auto;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.leaderboard-item.rank-1 {
+  background: rgba(255, 215, 0, 0.15);
+  border-left: 3px solid #ffd700;
+  color: #ffd700;
+}
+
+.chat-ticker {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.chat-item {
+  line-height: 1.4;
+}
+
+.chat-item .chat-user {
+  font-weight: 700;
+  color: #00f2fe;
+}
+
+.chat-item.system {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(0.96); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translate(-50%, -20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}

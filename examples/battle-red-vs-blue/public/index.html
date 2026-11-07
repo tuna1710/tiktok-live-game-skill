@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đại Chiến Đỏ vs Xanh - TikTok Live</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="game-container">
+    <header class="header">
+      <div class="team-title red-team">🔴 PHE ĐỎ (Comment 1 / Quà Hoa Hồng)</div>
+      <div class="vs-badge">VS</div>
+      <div class="team-title blue-team">🔵 PHE XANH (Comment 2 / Quà Trái Tim)</div>
+    </header>
+
+    <main class="arena">
+      <div class="score-display">
+        <span id="red-score" class="score-num red">50</span>
+        <span class="colon">:</span>
+        <span id="blue-score" class="score-num blue">50</span>
+      </div>
+
+      <!-- Thanh Kéo Co Đối Kháng -->
+      <div class="tug-track">
+        <div id="tug-bar-red" class="tug-bar red-fill" style="width: 50%;"></div>
+        <div id="tug-bar-blue" class="tug-bar blue-fill" style="width: 50%;"></div>
+        <div id="tug-pin" class="tug-pin" style="left: 50%;">⚡</div>
+      </div>
+
+      <canvas id="battle-canvas" width="1080" height="900"></canvas>
+
+      <div id="win-banner" class="win-banner hidden">
+        <div id="win-text" class="win-text">PHE ĐỎ THẮNG!</div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="leaderboard-grid">
+        <div class="lb-box red-lb">
+          <div class="lb-title">🔥 TOP CHIẾN BINH ĐỎ</div>
+          <ul id="red-lb-list"><li>Chưa có điểm</li></ul>
+        </div>
+        <div class="lb-box blue-lb">
+          <div class="lb-title">⚡ TOP CHIẾN BINH XANH</div>
+          <ul id="blue-lb-list"><li>Chưa có điểm</li></ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
