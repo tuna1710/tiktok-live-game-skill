@@ -19,25 +19,40 @@ Repo này là một **"Skill Repository"** chuẩn hóa. Bạn chỉ cần đưa
   - **Chế độ B (Phát ngầm trực tiếp RTMP - Rảnh tay):** Tự động tạo màn hình ảo `Xvfb` + mở Chrome + dùng `ffmpeg` đẩy luồng RTMP thẳng lên TikTok Live mà không cần mở laptop.
 - 🎛️ **Bộ Giả lập sự kiện (Mock Simulator):** Đi kèm `public/admin.html` cho phép kiểm thử comment, tặng quà, thả tim kể cả khi chưa phát sóng trực tiếp.
 - 🗣️ **Tích hợp Giọng đọc tiếng Việt (TTS):** Có sẵn endpoint proxy `/api/tts` với bộ đệm MD5 giúp đọc tên người tặng quà mượt mà.
+- ⏱️ **Cơ chế chống Timeout Antigravity (Timebox 8 phút):** Tích hợp quy chuẩn chia nhỏ dự án thành 4 Phase độc lập và file theo dõi tiến độ `PROGRESS.md`, loại bỏ hoàn toàn lỗi timeout khi AI sinh code.
 
 ---
 
-## 🤖 2. CÁCH SỬ DỤNG VỚI GOOGLE ANTIGRAVITY
+## 🤖 2. CÁCH SỬ DỤNG VỚI GOOGLE ANTIGRAVITY (CHỐNG TIMEOUT)
 
-Khi bạn muốn tạo một game mới, hãy cung cấp link repo này cho **Google Antigravity** kèm theo câu lệnh (prompt) theo mẫu sau:
+Để tránh lỗi **TIMEOUT** do AI cố gắng sinh toàn bộ dự án cùng lúc, hãy sử dụng quy trình **4-Phase & Timebox 8 phút** dưới đây:
+
+### 💬 Bước 1: Khởi động & Lập kế hoạch (Phase 1)
+Cung cấp link repo này cho **Google Antigravity** kèm câu lệnh:
 
 ```text
-Hãy đọc kỹ kiến trúc trong file SKILL.md của repo này và tạo cho tôi một Game TikTok Live mới có tên là: [Tên trò chơi của bạn]
+Hãy đọc kỹ kiến trúc trong file SKILL.md của repo này.
+Tôi muốn làm một Game TikTok Live mới có tên: [Tên trò chơi của bạn]
 
 Mô tả luật chơi:
 - Giao diện: [Mô tả hình ảnh, chủ đề game]
-- Khi người xem comment: [Ví dụ: Gõ '1' để chọn phe Đỏ, gõ '2' để chọn phe Xanh]
-- Khi người xem tặng Hoa hồng (1 xu): [Ví dụ: Kích hoạt tuyệt chiêu, tăng điểm]
-- Khi người xem tặng quà lớn (>10 xu): [Ví dụ: Triệu hồi rồng lửa, nhân đôi điểm số]
-- Khi thả tim: [Ví dụ: Nạp năng lượng thanh kéo co]
+- Comment: [Ví dụ: Gõ '1' để chọn phe Đỏ, gõ '2' để chọn phe Xanh]
+- Tặng Hoa hồng (1 xu): [Ví dụ: Tăng điểm, triệu hồi lính]
+- Tặng quà lớn (>10 xu): [Ví dụ: Triệu hồi Rồng lửa]
+- Thả tim: [Ví dụ: Nạp năng lượng]
 
-Yêu cầu xuất ra đầy đủ các file theo đúng chuẩn template (package.json, server.js, public/index.html, game.js, style.css, admin.html, run_colab.py, live_ngam_tiktok.py).
+TUÂN THỦ QUY TẮC CHỐNG TIMEOUT TRONG SKILL.MD:
+1. Hãy bắt đầu bằng PHASE 1: Tạo thư mục game, lập file PROGRESS.md chi tiết (mục lục các việc cần làm từ tổng quát đến cụ thể) và package.json.
+2. Làm việc tối đa trong 8 phút. Sau khi xong Phase 1 hãy dừng lại, báo cáo tiến độ và CHỜ TÔI ĐỒNG Ý thì mới làm tiếp Phase 2.
 ```
+
+### 💬 Bước 2, 3, 4: Xác nhận làm tiếp từng Phase
+Khi Antigravity báo cáo hoàn thành từng Phase (Phase 1 -> Phase 2 Backend -> Phase 3 Frontend -> Phase 4 Colab), bạn chỉ cần gõ:
+
+```text
+Tốt lắm, tôi đồng ý. Hãy tiếp tục làm Phase tiếp theo theo đúng checklist trong PROGRESS.md. Làm xong phase này hãy dừng lại và báo cáo tiếp.
+```
+
 
 ---
 

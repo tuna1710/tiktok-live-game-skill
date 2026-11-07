@@ -22,6 +22,7 @@ Mỗi khi AI tạo ra một game mới, AI phải tổ chức đúng cấu trúc
 
 ```text
 my-tiktok-game/
+├── PROGRESS.md                # [BẮT BUỘC] Bảng mục lục tiến độ, checklist chống timeout 8 phút
 ├── package.json               # Cấu hình dự án & thư viện Node.js
 ├── server.js                  # Backend: TikTokLive connector, WebSocket, TTS proxy, Mock API
 ├── .env.example               # Mẫu biến môi trường (TIKTOK_USERNAME, PORT, ...)
@@ -187,14 +188,67 @@ server.listen(PORT, () => {
 
 ---
 
-## 6. HƯỚNG DẪN PROMPT MẪU CHO NGƯỜI DÙNG KHI GỌI GOOGLE ANTIGRAVITY
+## 6. PROTOCOL BẮT BUỘC: CHIA NHỎ CÔNG VIỆC & CHECKPOINT 8 PHÚT (CHỐNG TIMEOUT)
 
-Khi người dùng muốn tạo game mới bằng AI Antigravity, chỉ cần dùng cấu trúc prompt sau:
+> ⚠️ **CẢNH BÁO NGUY HIỂM VỀ TIMEOUT:**  
+> Autonomous Agent (Google Antigravity) thường gặp lỗi **TIMEOUT** nếu cố gắng viết toàn bộ game (8-10 file mã nguồn) trong 1 lượt duy nhất.  
+> **QUY TẮC BẮT BUỘC:** AI **TUYỆT ĐỐI KHÔNG** được tạo toàn bộ dự án trong 1 lượt chạy. Phải tuân thủ nghiêm ngặt **Protocol 4-Phase & Timebox 8 phút** dưới đây.
 
-> *"Dựa trên kiến trúc và quy chuẩn trong repo này (`SKILL.md`), hãy tạo cho tôi một Game TikTok Live mới có tên là: **[Tên Game]**.*  
-> *Luật chơi:*  
-> *- Khi người xem comment: [Hành động]*  
-> *- Khi người xem tặng Hoa hồng (1 xu): [Hành động]*  
-> *- Khi người xem tặng Quà lớn: [Hành động]*  
-> *- Khi thả tim: [Hành động]*  
-> *Hãy xuất ra đầy đủ các file theo đúng cấu trúc chuẩn của template."*
+### ⏱️ Cơ chế Timebox 8 Phút & Checkpoint:
+- **Ngưỡng thời gian:** Mỗi phiên làm việc của AI chỉ được kéo dài **tối đa 8 phút** (tương đương 1 Phase cụ thể).
+- **File điều hướng `PROGRESS.md`:** AI phải tạo file này ngay ở Phase 1 và liên tục cập nhật checklist sau mỗi hành động.
+- **Dừng lại & Báo cáo:** Sau khi hoàn thành xong 1 Phase (hoặc khi đã làm gần 8 phút), AI **BẮT BUỘC PHẢI DỪNG LẠI**, xuất báo cáo tóm tắt tiến độ, và **chờ người dùng gửi lệnh xác nhận** (`"Tiếp tục"`, `"Làm tiếp"`) mới được làm Phase tiếp theo.
+
+### 📋 4 Phase Chuẩn Hóa:
+
+#### 🔹 PHASE 1: Khởi tạo, Đặc tả & Mục lục công việc (`PROGRESS.md`) (1 - 2 phút)
+1. Tạo thư mục game mới.
+2. Tạo file `PROGRESS.md` dựa theo `template/PROGRESS.md`: liệt kê chi tiết mục lục các việc cần làm từ tổng quát đến chi tiết (các file sẽ tạo, tính năng cụ thể).
+3. Tạo file `package.json` và `.env.example`.
+4. **DỪNG LẠI & BÁO CÁO:** Thông báo cho người dùng: *"Đã hoàn thành Phase 1 (Đặc tả & Mục lục PROGRESS.md). Xin lệnh 'Tiếp tục' để bắt đầu Phase 2 (Backend Node.js & Mock Admin)"*.
+
+#### 🔹 PHASE 2: Xây dựng Backend & Giả lập Mock API (3 - 5 phút)
+1. Viết `server.js` (Kết nối Socket.IO, TikTokLiveConnector, API TTS `/api/tts`, sự kiện mock).
+2. Viết `public/admin.html` (Bảng giả lập comment, gift, like đầy đủ nút bấm để test độc lập).
+3. Cập nhật `[x]` vào `PROGRESS.md`.
+4. **DỪNG LẠI & BÁO CÁO:** Thông báo cho người dùng: *"Đã hoàn thành Phase 2 (Backend & Mock Simulator). Xin lệnh 'Tiếp tục' để bắt đầu Phase 3 (Frontend 9:16 & Hoạt ảnh)"*.
+
+#### 🔹 PHASE 3: Thiết kế Giao diện 9:16 & Hoạt ảnh Frontend (5 - 7 phút)
+1. Viết `public/index.html` (Khung nhìn chuẩn 1080x1920 dọc).
+2. Viết `public/style.css` (Màu sắc neon, chữ to, hiệu ứng rung lắc/phát sáng).
+3. Viết `public/game.js` (Xử lý Socket.IO, hoạt ảnh Canvas/DOM, âm thanh TTS, bảng xếp hạng).
+4. Cập nhật `[x]` vào `PROGRESS.md`.
+5. **DỪNG LẠI & BÁO CÁO:** Thông báo cho người dùng: *"Đã hoàn thành Phase 3 (Giao diện & Logic Game). Xin lệnh 'Tiếp tục' để bắt đầu Phase 4 (Runner Colab & Nghiệm thu)"*.
+
+#### 🔹 PHASE 4: Tích hợp Dual-Mode Colab & Kiểm thử nghiệm thu (3 - 5 phút)
+1. Tạo `run_colab.py` (Cloudflare Tunnel cho OBS Laptop).
+2. Tạo `live_ngam_tiktok.py` (Xvfb + Chrome + FFmpeg RTMP phát ngầm).
+3. Kiểm thử cú pháp server, đảm bảo không có file nào bị lỗi import.
+4. Cập nhật hoàn tất `[x]` vào `PROGRESS.md`.
+5. **HOÀN TẤT & BÀN GIAO:** Báo cáo toàn bộ project đã hoàn thành và hướng dẫn người dùng chạy thử.
+
+---
+
+## 7. HƯỚNG DẪN PROMPT MẪU CHO NGƯỜI DÙNG KHI GỌI GOOGLE ANTIGRAVITY
+
+Để tránh bị timeout, người dùng hãy sử dụng chuỗi Prompt từng bước như sau:
+
+### 💬 Prompt Bước 1: Khởi động dự án & Lập kế hoạch (Phase 1)
+```text
+Hãy đọc kỹ kiến trúc trong file SKILL.md của repo này.
+Tôi muốn làm một Game TikTok Live mới có tên: [Tên Game của bạn].
+Mô tả luật chơi:
+- Giao diện: [Mô tả chủ đề, phong cách]
+- Comment: [Luật khi comment]
+- Quà tặng (Hoa hồng / Quà VIP): [Luật khi tặng quà]
+- Thả tim: [Tác dụng khi thả tim]
+
+TUÂN THỦ QUY TẮC CHỐNG TIMEOUT:
+1. Hãy bắt đầu bằng PHASE 1: Tạo thư mục game, lập file PROGRESS.md chi tiết (mục lục các việc cần làm từ tổng quát đến cụ thể) và package.json.
+2. Làm việc tối đa trong 8 phút. Sau khi xong Phase 1 hãy dừng lại, báo cáo tiến độ và CHỜ TÔI ĐỒNG Ý thì mới làm tiếp Phase 2.
+```
+
+### 💬 Prompt Bước 2, 3, 4: Phê duyệt làm tiếp
+```text
+Tốt lắm, tôi đồng ý. Hãy tiếp tục làm Phase tiếp theo theo đúng checklist trong PROGRESS.md. Làm xong phase này hãy dừng lại và báo cáo tiếp.
+```
