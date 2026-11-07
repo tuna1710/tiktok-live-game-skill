@@ -1,7 +1,7 @@
 # 🎮 TIKTOK LIVE INTERACTIVE GAME SKILL
 > **AI-Ready Framework & Starter Kit chuyên biệt cho Google Antigravity tạo Game TikTok Live tương tác, chạy hoàn hảo trên Google Colab.**
 
-[![Google Colab](https://img.shields.io/badge/Google_Colab-Ready-F9AB00?logo=googlecolab)](run_in_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuna1710/tiktok-live-game-skill/blob/main/run_in_colab.ipynb)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=nodedotjs)](https://nodejs.org/)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-Realtime-010101?logo=socketdotio)](https://socket.io/)
 [![TikTok Live Connector](https://img.shields.io/badge/TikTokLive-Connector-black?logo=tiktok)](https://github.com/zerodytrash/TikTok-Live-Connector)
