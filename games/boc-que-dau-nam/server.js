@@ -250,9 +250,22 @@ function processNextInQueue() {
   } else {
     // Người xem thường: Lọc theo chủ đề đã chọn
     const userCat = nextUser.category || 'tong_hop';
-    let eligibleFortunes = fortunes.filter(f => f.category === userCat);
-    if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
-    picked = eligibleFortunes[Math.floor(Math.random() * eligibleFortunes.length)];
+    
+    // Tỉ lệ quẻ hạn hài hước cực thấp (chỉ ~4%), 96% còn lại là quẻ may mắn đầu xuân!
+    const isCrisisChance = Math.random() < 0.04;
+    if (isCrisisChance) {
+      const crisisFortunes = fortunes.filter(f => f.type === 'HẠ HẠ');
+      if (crisisFortunes.length > 0) {
+        picked = crisisFortunes[Math.floor(Math.random() * crisisFortunes.length)];
+      }
+    }
+    
+    if (!picked) {
+      // Bốc quẻ Cát/Đại Cát/Thượng Cát theo danh mục người xem đã chọn
+      let goodFortunes = fortunes.filter(f => f.type !== 'HẠ HẠ' && (f.category === userCat || userCat === 'tong_hop'));
+      if (goodFortunes.length === 0) goodFortunes = fortunes.filter(f => f.type !== 'HẠ HẠ');
+      picked = goodFortunes[Math.floor(Math.random() * goodFortunes.length)] || fortunes[0];
+    }
   }
 
   currentFortune = {
@@ -335,7 +348,7 @@ function startCrisisChallenge(nextUser, badFortune) {
   });
 
   const ageStr = nextUser.canChi ? `tuổi ${nextUser.canChi}` : '';
-  const alertTts = `Báo động nguy cấp! Thí chủ ${nextUser.nickname} ${ageStr} đã bốc phải quẻ Đại Hạn ${badFortune.title}! Cả phòng hãy mau mau thả 30 tim hoặc tặng 1 hoa hồng để giải cứu trong 15 giây!`;
+  const alertTts = `Ối giồi ôi! Thí chủ ${nextUser.nickname} ${ageStr} vừa bốc phải quẻ hạn vui ${badFortune.title}! Cả phòng hãy mau mau thả 30 tim hoặc tặng 1 hoa hồng để giải cứu nụ cười cho bạn ấy trong 15 giây!`;
   io.emit('playTts', { text: alertTts });
 
   crisisState.timer = setInterval(() => {
@@ -405,7 +418,7 @@ function resolveCrisis(success, reason = 'likes', giftData = null) {
       fortune: crisisState.fortune
     });
 
-    const ttsFail = `Hết giờ! Giải cứu bất thành! Thí chủ ${crisisState.victim.nickname} đành chịu hạn ${crisisState.fortune.title}, nhớ làm lành tích đức nhé!`;
+    const ttsFail = `Hết giờ rồi! Cả phòng cứu chưa kịp, thí chủ ${crisisState.victim.nickname} đành dính quẻ ${crisisState.fortune.title}, nhớ ăn ít bánh chưng và giữ nụ cười thật tươi nhé!`;
     io.emit('playTts', { text: ttsFail });
   }
 
