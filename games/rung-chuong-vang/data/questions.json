@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "difficulty": 1,
+    "question": "Con gì đập thì sống, không đập thì chết?",
+    "options": ["Con tim", "Con đập nước", "Con muỗi", "Con cua"],
+    "correct": 0,
+    "explanation": "Quả tim (con tim) đập thì ta sống, ngừng đập thì chết!"
+  },
+  {
+    "id": 2,
+    "difficulty": 1,
+    "question": "Thủ đô của Việt Nam là thành phố nào?",
+    "options": ["Đà Nẵng", "TP. Hồ Chí Minh", "Hà Nội", "Hải Phòng"],
+    "correct": 2,
+    "explanation": "Hà Nội là thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam."
+  },
+  {
+    "id": 3,
+    "difficulty": 1,
+    "question": "Cái gì người mua biết, người bán biết, người dùng không bao giờ biết?",
+    "options": ["Chiếc gương", "Cái quan tài", "Thuốc ngủ", "Đôi giày"],
+    "correct": 1,
+    "explanation": "Người mất không thể biết chiếc quan tài mình đang nằm."
+  },
+  {
+    "id": 4,
+    "difficulty": 1,
+    "question": "Trong bảng chữ cái Tiếng Việt có bao nhiêu chữ cái?",
+    "options": ["24", "26", "29", "32"],
+    "correct": 2,
+    "explanation": "Bảng chữ cái Tiếng Việt chính thức gồm 29 chữ cái."
+  },
+  {
+    "id": 5,
+    "difficulty": 1,
+    "question": "Hành tinh nào gần Mặt Trời nhất trong Hệ Mặt Trời?",
+    "options": ["Sao Hỏa", "Sao Thủy", "Sao Kim", "Trái Đất"],
+    "correct": 1,
+    "explanation": "Sao Thủy (Mercury) là hành tinh gần Mặt Trời nhất."
+  },
+  {
+    "id": 6,
+    "difficulty": 2,
+    "question": "Ngọn núi nào được mệnh danh là 'Nóc nhà Đông Dương'?",
+    "options": ["Bạch Mộc Lương Tử", "Fansipan", "Pu Si Lung", "Tây Côn Lĩnh"],
+    "correct": 1,
+    "explanation": "Đỉnh Fansipan cao 3.143m, là đỉnh núi cao nhất 3 nước Đông Dương."
+  },
+  {
+    "id": 7,
+    "difficulty": 2,
+    "question": "Loài chim nào có khả năng bay lùi?",
+    "options": ["Chim én", "Chim bói cá", "Chim ruồi", "Chim gõ kiến"],
+    "correct": 2,
+    "explanation": "Chim ruồi (Hummingbird) là loài chim duy nhất có thể bay lùi và bay đứng một chỗ."
+  },
+  {
+    "id": 8,
+    "difficulty": 2,
+    "question": "Tác phẩm 'Truyện Kiều' của đại thi hào Nguyễn Du ban đầu có tên là gì?",
+    "options": ["Kim Vân Kiều Truyện", "Đoạn Trường Tân Thanh", "Vương Thúy Kiều ký", "Thanh Hiên thi tập"],
+    "correct": 1,
+    "explanation": "Tên gốc chữ Hán của Truyện Kiều là 'Đoạn Trường Tân Thanh' (Tiếng kêu mới về nỗi đau đứt ruột)."
+  },
+  {
+    "id": 9,
+    "difficulty": 2,
+    "question": "Đâu là đảo lớn nhất của Việt Nam?",
+    "options": ["Cát Bà", "Phú Quốc", "Côn Đảo", "Cù Lao Chàm"],
+    "correct": 1,
+    "explanation": "Phú Quốc (Kiên Giang) là hòn đảo có diện tích lớn nhất Việt Nam (~589 km²)."
+  },
+  {
+    "id": 10,
+    "difficulty": 2,
+    "question": "Nguyên tố hóa học nào phổ biến nhất trong vỏ Trái Đất?",
+    "options": ["Silicon (Si)", "Oxy (O)", "Nhôm (Al)", "Sắt (Fe)"],
+    "correct": 1,
+    "explanation": "Oxy chiếm khoảng 46.6% khối lượng vỏ Trái Đất."
+  },
+  {
+    "id": 11,
+    "difficulty": 2,
+    "question": "Ai là vị vua đầu tiên của nhà Tiền Lý trong lịch sử Việt Nam?",
+    "options": ["Lý Thái Tổ", "Lý Nam Đế", "Lý Thường Kiệt", "Lý Huệ Tông"],
+    "correct": 1,
+    "explanation": "Lý Bí (Lý Nam Đế) lập ra nhà nước Vạn Xuân năm 544."
+  },
+  {
+    "id": 12,
+    "difficulty": 3,
+    "question": "Tập đoàn công nghệ nào chế tạo ra hệ điều hành Android ban đầu trước khi bán cho Google?",
+    "options": ["Android Inc.", "Sun Microsystems", "Motorola", "Nokia"],
+    "correct": 0,
+    "explanation": "Android Inc. được thành lập bởi Andy Rubin, Rich Miner, Nick Sears và Chris White năm 2003, được Google mua lại năm 2005."
+  },
+  {
+    "id": 13,
+    "difficulty": 3,
+    "question": "Đại dương nào có độ sâu trung bình lớn nhất trên thế giới?",
+    "options": ["Đại Tây Dương", "Ấn Độ Dương", "Bắc Băng Dương", "Thái Bình Dương"],
+    "correct": 3,
+    "explanation": "Thái Bình Dương là đại dương rộng nhất và sâu nhất (vực Mariana sâu khoảng 11.034m)."
+  },
+  {
+    "id": 14,
+    "difficulty": 3,
+    "question": "Con sông nào dài nhất thế giới theo kỷ lục Guinness chính thức?",
+    "options": ["Sông Amazon", "Sông Nile", "Sông Dương Tử", "Sông Mississippi"],
+    "correct": 1,
+    "explanation": "Sông Nile (châu Phi) dài khoảng 6.650 km, giữ kỷ lục dài nhất thế giới."
+  },
+  {
+    "id": 15,
+    "difficulty": 3,
+    "question": "Bức tranh danh họa Mona Lisa của Leonardo da Vinci hiện được trưng bày ở bảo tàng nào?",
+    "options": ["Bảo tàng Prado (Tây Ban Nha)", "Bảo tàng Louvre (Pháp)", "Bảo tàng Anh (London)", "Viện bảo tàng Vatican"],
+    "correct": 1,
+    "explanation": "Kiệt tác Mona Lisa được trưng bày tại Bảo tàng Louvre ở thủ đô Paris, Pháp."
+  },
+  {
+    "id": 16,
+    "difficulty": 1,
+    "question": "Tháng nào trong năm nhuận dương lịch có 29 ngày?",
+    "options": ["Tháng 1", "Tháng 2", "Tháng 4", "Tháng 6"],
+    "correct": 1,
+    "explanation": "Tháng 2 trong năm nhuận có 29 ngày."
+  },
+  {
+    "id": 17,
+    "difficulty": 2,
+    "question": "Cây cầu dây văng đầu tiên được xây dựng tại Việt Nam là cầu nào?",
+    "options": ["Cầu Mỹ Thuận", "Cầu Bãi Cháy", "Cầu Cần Thơ", "Cầu Nhật Tân"],
+    "correct": 0,
+    "explanation": "Cầu Mỹ Thuận khánh thành năm 2000 là cây cầu dây văng đầu tiên ở Việt Nam."
+  },
+  {
+    "id": 18,
+    "difficulty": 2,
+    "question": "Đơn vị đo cường độ dòng điện trong hệ đo lường quốc tế (SI) là gì?",
+    "options": ["Volt (V)", "Watt (W)", "Ampe (A)", "Ohm (Ω)"],
+    "correct": 2,
+    "explanation": "Ampe (kí hiệu là A) là đơn vị đo cường độ dòng điện."
+  },
+  {
+    "id": 19,
+    "difficulty": 3,
+    "question": "Ai là người phụ nữ đầu tiên bay vào không gian?",
+    "options": ["Valentina Tereshkova", "Sally Ride", "Svetlana Savitskaya", "Mae Jemison"],
+    "correct": 0,
+    "explanation": "Nữ phi hành gia Liên Xô Valentina Tereshkova bay vào không gian ngày 16/6/1963 trên tàu Vostok 6."
+  },
+  {
+    "id": 20,
+    "difficulty": 3,
+    "question": "Năm 1010, vua Lý Thái Tổ đã ban bố chiếu chỉ gì để dời đô về Thăng Long?",
+    "options": ["Bình Ngô Đại Cáo", "Chiếu Cần Vương", "Chiếu Dời Đô", "Hịch Tướng Sĩ"],
+    "correct": 2,
+    "explanation": "Vua Lý Thái Tổ viết 'Chiếu Dời Đô' (Thiên đô chiếu) dời kinh đô từ Hoa Lư về Đại La (Thăng Long)."
+  }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Rung Chuông Vàng - TikTok Live Interactive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+  <!-- Khung nhìn chuẩn 9:16 (1080 x 1920 px) tự động co giãn vừa màn hình -->
+  <div id="game-stage">
+    
+    <!-- Lớp Canvas hiệu ứng hạt pháo hoa & sấm sét -->
+    <canvas id="fx-canvas"></canvas>
+
+    <!-- HEADER: Thông tin ván đấu & Đếm ngược -->
+    <header class="game-header">
+      <div class="header-top">
+        <div class="logo-badge">
+          <span class="bell-icon">🔔</span>
+          <div class="title-text">
+            <span class="main-title">RUNG CHUÔNG VÀNG</span>
+            <span class="sub-title">TIKTOK LIVE SHOW</span>
+          </div>
+        </div>
+        <div class="live-counter">
+          <div class="counter-box">
+            <span class="label">SỐNG SÓT</span>
+            <span id="alive-count" class="val val-green">0</span>
+          </div>
+          <div class="counter-box">
+            <span class="label">TỔNG SỐ</span>
+            <span id="total-count" class="val">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thanh tiến độ câu hỏi & Timer -->
+      <div class="round-bar">
+        <div class="round-info">
+          <span id="round-badge" class="round-badge">CÂU 1 / 15</span>
+          <span id="difficulty-badge" class="diff-badge diff-easy">CƠ BẢN</span>
+        </div>
+        <div class="timer-wrapper">
+          <div id="timer-circle" class="timer-circle">
+            <span id="timer-num">20</span>
+          </div>
+        </div>
+        <div class="energy-box">
+          <div class="energy-label">
+            <span>❤️ CỨU TRỢ</span>
+            <span id="energy-percent">0%</span>
+          </div>
+          <div class="energy-bar-bg">
+            <div id="energy-bar-fill" class="energy-bar-fill" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- PHẦN CÂU HỎI & CÁC ĐÁP ÁN (A, B, C, D) -->
+    <section class="question-container">
+      <div class="question-card">
+        <p id="question-text" class="question-text">Chào mừng các thí sinh đến với sàn thi đấu Rung Chuông Vàng! Hãy bình luận bất kỳ để nhận vị trí số báo danh.</p>
+      </div>
+
+      <div class="options-grid">
+        <div class="option-btn" id="opt-0" data-opt="0">
+          <span class="opt-key">A</span>
+          <span class="opt-text" id="opt-text-0">Đáp án A</span>
+          <span class="opt-count" id="opt-count-0">0%</span>
+        </div>
+        <div class="option-btn" id="opt-1" data-opt="1">
+          <span class="opt-key">B</span>
+          <span class="opt-text" id="opt-text-1">Đáp án B</span>
+          <span class="opt-count" id="opt-count-1">0%</span>
+        </div>
+        <div class="option-btn" id="opt-2" data-opt="2">
+          <span class="opt-key">C</span>
+          <span class="opt-text" id="opt-text-2">Đáp án C</span>
+          <span class="opt-count" id="opt-count-2">0%</span>
+        </div>
+        <div class="option-btn" id="opt-3" data-opt="3">
+          <span class="opt-key">D</span>
+          <span class="opt-text" id="opt-text-3">Đáp án D</span>
+          <span class="opt-count" id="opt-count-3">0%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN SÀN ĐẤU (ARENA GRID: 100 Ô THÍ SINH) -->
+    <section class="arena-section">
+      <div class="arena-header">
+        <span class="arena-title">🏛️ SÀN THI ĐẤU (100 THÍ SINH)</span>
+        <span class="arena-tip">💬 Gõ A, B, C, D để chọn đáp án</span>
+      </div>
+      
+      <!-- Lưới 10x10 ô thí sinh -->
+      <div id="arena-grid" class="arena-grid"></div>
+    </section>
+
+    <!-- PHẦN ĐÁY: BẢNG XẾP HẠNG & HƯỚNG DẪN TƯƠNG TÁC -->
+    <footer class="game-footer">
+      <div class="leaderboard-bar">
+        <div class="lb-column">
+          <div class="lb-title">👑 TOP THẦN ĐỒNG</div>
+          <div id="top-scholars" class="lb-list">
+            <span class="lb-empty">Chưa có bảng vàng</span>
+          </div>
+        </div>
+        <div class="lb-column">
+          <div class="lb-title">❤️ NHÀ CỨU TRỢ</div>
+          <div id="top-rescuers" class="lb-list">
+            <span class="lb-empty">Thả tim & Tặng quà</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stream-hints">
+        <div class="hint-item"><span class="hint-icon">💬</span> Comment: <b>A, B, C, D</b></div>
+        <div class="hint-item"><span class="hint-icon">🌹</span> Quà tặng: <b>HỒI SINH</b></div>
+        <div class="hint-item"><span class="hint-icon">❤️</span> 1.000 Tim: <b>CỨU 3 BẠN</b></div>
+      </div>
+    </footer>
+
+    <!-- OVERLAY: CÔNG BỐ ĐÁP ÁN (REVEAL POPUP) -->
+    <div id="reveal-overlay" class="overlay-modal hidden">
+      <div class="modal-box reveal-box">
+        <div class="reveal-badge">ĐÁP ÁN CHÍNH XÁC</div>
+        <div id="reveal-letter" class="reveal-letter">A</div>
+        <div id="reveal-explain" class="reveal-explain">Giải thích câu trả lời...</div>
+        <div class="reveal-stats">
+          <span class="stat-correct">✅ Sống sót: <b id="stat-survived">0</b></span>
+          <span class="stat-wrong">❌ Bị loại: <b id="stat-eliminated">0</b></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY: BÁO ĐỘNG SÀN ĐẤU THẤT THỦ / VÒNG CỨU TRỢ (RESCUE ROUND) -->
+    <div id="rescue-overlay" class="overlay-modal hidden">
+      <div class="modal-box rescue-box">
+        <div class="alert-icon">🚨</div>
+        <h2 class="rescue-heading">SÀN ĐẤU THẤT THỦ!</h2>
+        <p class="rescue-desc">Tất cả thí sinh đã bị loại! Hãy cùng hợp sức giải cứu!</p>
+        <div class="rescue-timer-wrap">
+          <div class="rescue-timer-circle" id="rescue-timer-num">20</div>
+        </div>
+        <div class="rescue-action-card">
+          <div class="action-row">🌹 <b>Tặng 1 Hoa Hồng:</b> Tự hồi sinh lập tức!</div>
+          <div class="action-row">❤️ <b>Thả Tim Liên Tục:</b> Đầy bình nạp cứu ngẫu nhiên!</div>
+          <div class="action-row">🎆 <b>Tặng Quà VIP:</b> ĐẶC XÁ CỨU CẢ SÀN ĐẤU!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY ĐỈNH CAO: RUNG CHUÔNG VÀNG (VICTORY) -->
+    <div id="victory-overlay" class="overlay-modal hidden">
+      <div class="modal-box victory-box">
+        <div class="giant-bell" id="giant-bell">🔔</div>
+        <h1 class="victory-title">RUNG CHUÔNG VÀNG!</h1>
+        <div class="victory-subtitle">VINH DANH TÂN TRẠNG NGUYÊN</div>
+        <div id="winners-container" class="winners-container"></div>
+        <div class="victory-msg">XUẤT SẮC VƯỢT QUA TOÀN BỘ CÂU HỎI CỦA CHƯƠNG TRÌNH!</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
