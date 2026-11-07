@@ -92,6 +92,25 @@
       </div>
     </div>
 
+    <!-- 🎙️ AI MC Giao Lưu Thay Microphone (Gõ Chữ Phát Loa) -->
+    <div class="card" style="border-color: #10b981; background: linear-gradient(180deg, rgba(6, 78, 59, 0.45) 0%, rgba(15, 23, 42, 0.7) 100%);">
+      <div class="card-title" style="color: #34d399; display: flex; justify-content: space-between; align-items: center;">
+        <span>🎙️ AI MC Giao Lưu Thay Micro (Gõ Chữ Phát Loa)</span>
+        <button id="btn-auto-mc" class="btn-quick" style="border-color: #34d399; color: #34d399; font-size: 11px; padding: 3px 10px;" onclick="toggleAutoMc()">🤖 Tự Động Kêu Gọi: BẬT</button>
+      </div>
+      <div style="display: flex; gap: 8px; margin: 10px 0;">
+        <input type="text" id="custom-tts-text" class="input-text" style="flex: 1;" placeholder="Nhập câu bạn muốn AI MC nói với người xem..." onkeydown="if(event.key==='Enter') speakCustomTts()">
+        <button class="btn-gold" style="white-space: nowrap; padding: 0 16px; font-weight: 800;" onclick="speakCustomTts()">📢 Nói Ngay</button>
+      </div>
+      <div class="quick-list">
+        <button class="btn-quick" onclick="speakQuick('Chào mừng quý vị đang xem livestream Bốc Quẻ Đầu Năm! Chúc quý vị một năm mới An Khang Thịnh Vượng!')">👋 Chào Cả Nhà Vào Live</button>
+        <button class="btn-quick" style="border-color: #fbbf24; color: #fbbf24;" onclick="speakQuick('Hàng đợi thường đang có người chờ, quý vị muốn bốc quẻ ngay có thể tặng một hoa hồng để được chen hàng VIP bốc liền tay nha!')">🌹 Kêu Gọi Tặng Quà Chen Hàng</button>
+        <button class="btn-quick" style="border-color: #f43f5e; color: #fda4af;" onclick="speakQuick('Cả phòng hãy cùng nhau thả thật nhiều tim vào màn hình để kích hoạt Giờ Vàng một trăm phần trăm Đại Cát nhé!')">❤️ Kêu Gọi Thả Tim Giờ Vàng</button>
+        <button class="btn-quick" onclick="speakQuick('Quý vị hãy bình luận xin quẻ kèm theo năm sinh để được tính tuổi phong thủy chính xác nhất nha!')">💬 Hướng Dẫn Gõ Kèm Năm Sinh</button>
+        <button class="btn-quick" onclick="speakQuick('Cảm ơn quý vị đã luôn ủng hộ và tương tác nhiệt tình cùng kênh! Chúc quý vị vạn sự như ý!')">🙏 Cảm Ơn Phòng Live</button>
+      </div>
+    </div>
+
     <!-- Milestone 5: Thanh Phúc Khí, Giờ Vàng & Top 3 Phú Hộ -->
     <div class="card" style="border-color: #38bdf8;">
       <div class="card-title" style="color: #38bdf8;">🌟 Thanh Phúc Khí, Giờ Vàng & Top 3 Phú Hộ (Milestone 5)</div>
@@ -209,6 +228,35 @@
     function resetGame() {
       if (confirm('Đặt lại game?')) socket.emit('game:reset');
     }
+
+    // Điều khiển AI MC phát loa
+    function speakCustomTts() {
+      const input = document.getElementById('custom-tts-text');
+      const text = input.value.trim();
+      if (!text) return;
+      socket.emit('admin:tts:speak', { text });
+      input.value = '';
+    }
+
+    function speakQuick(text) {
+      document.getElementById('custom-tts-text').value = text;
+      socket.emit('admin:tts:speak', { text });
+    }
+
+    let isAutoMc = true;
+    function toggleAutoMc() {
+      socket.emit('admin:mc:toggle');
+    }
+
+    socket.on('admin:mc:state', data => {
+      isAutoMc = data.enabled;
+      const btn = document.getElementById('btn-auto-mc');
+      if (btn) {
+        btn.textContent = isAutoMc ? '🤖 Tự Động Kêu Gọi: BẬT' : '⏸️ Tự Động Kêu Gọi: TẮT';
+        btn.style.color = isAutoMc ? '#34d399' : '#94a3b8';
+        btn.style.borderColor = isAutoMc ? '#34d399' : '#64748b';
+      }
+    });
   </script>
 </body>
 </html>

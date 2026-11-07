@@ -760,6 +760,21 @@ socket.on('playTts', data => {
   playAudioTts(data.text);
 });
 
+// Hiển thị bong bóng thoại AI MC khi MC phát biểu
+let mcBubbleTimer = null;
+socket.on('mc:speaking', data => {
+  const bubble = document.getElementById('mc-speech-bubble');
+  const textEl = document.getElementById('mc-speech-text');
+  if (bubble && textEl && data?.text) {
+    textEl.textContent = data.text;
+    bubble.classList.remove('hidden');
+    if (mcBubbleTimer) clearTimeout(mcBubbleTimer);
+    mcBubbleTimer = setTimeout(() => {
+      bubble.classList.add('hidden');
+    }, 6000);
+  }
+});
+
 socket.on('game:reset', () => {
   if (fortuneShareCard) fortuneShareCard.classList.add('hidden');
   shakerContainer.classList.remove('hidden', 'shaking');

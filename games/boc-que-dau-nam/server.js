@@ -687,6 +687,20 @@ io.on('connection', socket => {
     startGoldenHour(60);
   });
 
+  // Giao lưu thay mic từ Admin
+  socket.on('admin:tts:speak', data => {
+    const text = (data?.text || '').trim();
+    if (text) {
+      io.emit('playTts', { text });
+      io.emit('mc:speaking', { text });
+    }
+  });
+
+  socket.on('admin:mc:toggle', () => {
+    autoMcEnabled = !autoMcEnabled;
+    io.emit('admin:mc:state', { enabled: autoMcEnabled });
+  });
+
   socket.on('game:reset', () => {
     vipQueue = [];
     normalQueue = [];
@@ -703,6 +717,31 @@ io.on('connection', socket => {
     io.emit('game:reset');
   });
 });
+
+// Quản lý AI MC Tự Động Kêu Gọi Tương Tác (Auto-Host Shouts)
+let autoMcEnabled = true;
+const autoMcShouts = [
+  'Chào mừng quý vị đang xem livestream Bốc Quẻ Đầu Năm! Quý vị hãy bình luận xin quẻ kèm năm sinh để vào hàng đợi xin lộc xuân nhé!',
+  'Hàng đợi thường đang có người chờ, quý vị muốn bốc quẻ ngay có thể tặng một hoa hồng để được chen hàng VIP bốc liền tay nha!',
+  'Cả phòng hãy cùng nhau thả thật nhiều tim vào màn hình để nạp đầy Thanh Phúc Khí kích hoạt Giờ Vàng một trăm phần trăm Đại Cát nhé!',
+  'Đầu năm xin một quẻ xăm, trăm năm hạnh phúc vạn sự hanh thông! Mọi người hãy cùng gõ xin quẻ nào!',
+  'Ai đang cầu tài lộc thì gõ xin quẻ tài lộc, ai cầu tình duyên thì gõ xin quẻ tình duyên nhé quý vị ơi!',
+  'Chúc quý vị năm mới An Khang Thịnh Vượng, Vạn Sự Như Ý! Mau mau gõ xin quẻ để nhận lời chúc may mắn đầu xuân!'
+];
+
+let lastMcShoutIndex = -1;
+setInterval(() => {
+  if (!autoMcEnabled) return;
+  // Chỉ tự động kêu gọi khi phòng live đang thảnh thơi (không bốc quẻ, không thử thách quẻ hạn, không có hàng chờ)
+  if (!isDrawing && !crisisState && vipQueue.length === 0 && normalQueue.length === 0) {
+    let nextIdx = Math.floor(Math.random() * autoMcShouts.length);
+    if (nextIdx === lastMcShoutIndex) nextIdx = (nextIdx + 1) % autoMcShouts.length;
+    lastMcShoutIndex = nextIdx;
+    const shout = autoMcShouts[nextIdx];
+    io.emit('playTts', { text: shout });
+    io.emit('mc:speaking', { text: shout });
+  }
+}, 45000);
 
 server.listen(PORT, () => {
   console.log(`🎋 GAME BỐC QUẺ ĐẦU NĂM ĐANG CHẠY TRÊN CỔNG: ${PORT}`);
