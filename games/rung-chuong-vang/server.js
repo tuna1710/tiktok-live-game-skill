@@ -134,9 +134,54 @@ class GoldenBellGame {
     this.rescuers = new Map(); // uniqueId -> { nickname, count }
     this.rescuedInThisRound = 0; // Đếm chính xác số người thực tế được cứu trong vòng cứu trợ
 
+    // Quản lý Chống Khoảng Lặng (Anti-Dead Air: 8s im lặng phát giọng đọc khuấy động hoặc nhắc câu hỏi)
+    this.idleSecondsCount = 0;
+    this.idleTimeoutSeconds = Number(process.env.IDLE_TIMEOUT_SECONDS) || 8;
+    this.idleReminderToggle = false;
+    this.unusedIdleLines = [];
+    this.idleLines = [
+      "Ủa cả sàn đấu đi đâu hết rồi? Nhanh tay gõ A, B, C hoặc D nào các bạn ơi!",
+      "Thời gian đếm ngược đang trôi nhanh lắm, các thí sinh mau chọn đáp án đi nào!",
+      "Đừng để bị loại oan uổng nha cả nhà, nhanh tay chốt đáp án trước khi hết giờ!",
+      "Câu này liệu có làm khó được các bậc kỳ tài phòng live không ta? Mau bình luận nào!",
+      "Ai chưa chọn đáp án thì gõ ngay A, B, C hoặc D, đồng hồ không đợi ai đâu nhé!",
+      "Không khí đang rất căng thẳng, ai sẽ giữ vững vị trí trên sàn thi đấu đây?",
+      "Chỉ còn ít giây nữa thôi, mau gõ đáp án vào ô chat để bảo vệ số báo danh của mình nào!",
+      "Các bạn chọn A, B, C hay D? Mau để lại bình luận để nhận diện vị trí nhé!"
+    ];
+
     // Xáo trộn câu hỏi
     this.gameQuestions = this.pickQuestions();
     this.currentQuestion = null;
+  }
+
+  resetIdleTimer() {
+    this.idleSecondsCount = 0;
+  }
+
+  getNextIdleLine() {
+    if (this.unusedIdleLines.length === 0) {
+      this.unusedIdleLines = [...this.idleLines].sort(() => Math.random() - 0.5);
+    }
+    return this.unusedIdleLines.pop();
+  }
+
+  triggerIdleReminder() {
+    if (this.status !== 'QUESTION' || !this.currentQuestion) return;
+    if (this.questionTimer <= 4) return; // Không đọc đè khi sắp hết giờ (< 4s)
+
+    this.idleReminderToggle = !this.idleReminderToggle;
+    let ttsText = '';
+
+    if (this.idleReminderToggle && this.currentQuestion) {
+      ttsText = `Xin nhắc lại câu hỏi số ${this.currentQuestionIndex + 1}: ${this.currentQuestion.question}`;
+    } else {
+      ttsText = this.getNextIdleLine();
+    }
+
+    console.log(`🎙️ [CHỐNG KHOẢNG LẶNG ${this.idleTimeoutSeconds}S] Phát giọng đọc: "${ttsText}"`);
+    this.io.emit('idle_reminder', { ttsText });
+    this.resetIdleTimer();
   }
 
   pickQuestions() {
@@ -213,6 +258,7 @@ class GoldenBellGame {
 
     if (choice !== null) {
       player.answer = choice;
+      this.resetIdleTimer();
       this.io.emit('player_answered', {
         uniqueId: player.uniqueId,
         seatIndex: player.seatIndex,
@@ -222,6 +268,7 @@ class GoldenBellGame {
   }
 
   addLikes(count) {
+    this.resetIdleTimer();
     this.rescueEnergy = Math.min(this.maxEnergy, this.rescueEnergy + count);
     this.io.emit('energy_update', {
       rescueEnergy: this.rescueEnergy,
@@ -370,9 +417,17 @@ class GoldenBellGame {
   }
 
   startQuestionTimer() {
+    this.resetIdleTimer();
     if (this.timerInterval) clearInterval(this.timerInterval);
     this.timerInterval = setInterval(() => {
       this.questionTimer--;
+      this.idleSecondsCount++;
+
+      // Tự động phát giọng đọc chống khoảng lặng sau mỗi 8 giây không có người trả lời
+      if (this.idleSecondsCount >= this.idleTimeoutSeconds) {
+        this.triggerIdleReminder();
+      }
+
       this.io.emit('timer_tick', { timer: this.questionTimer });
 
       if (this.questionTimer <= 0) {

@@ -770,6 +770,13 @@ socket.on('bell_ringing', data => {
   playTts(`Chúc mừng tân trạng nguyên: ${winnerNames} đã xuất sắc rung chuông vàng thành công!`);
 });
 
+// Sự kiện Chống Khoảng Lặng (Anti-Dead Air: Tự động nhắc câu hỏi hoặc khuấy động sau 8s im lặng)
+socket.on('idle_reminder', data => {
+  if (data.ttsText) {
+    playTts(data.ttsText, false);
+  }
+});
+
 // Tự động yêu cầu dữ liệu khi kết nối
 socket.on('connect', () => {
   socket.emit('get_state');
