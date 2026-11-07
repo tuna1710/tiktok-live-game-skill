@@ -567,9 +567,12 @@ function handleGift(data) {
     vipBadge
   };
 
+  // Nếu thí chủ này đang ở hàng đợi thường, xóa khỏi hàng thường vì đã được chen hàng VIP
+  normalQueue = normalQueue.filter(u => u.uniqueId !== data.uniqueId);
+
   // Nếu là VIP Kim Cương (>= 100 xu): Kích hoạt sự kiện Triệu Hồi Thần Tài ngay!
   if (vipTier === 'diamond') {
-    vipQueue.unshift(newVipUser); // Ưu tiên số 1
+    vipQueue.unshift(newVipUser); // Chen thẳng lên vị trí ưu tiên số 1
     io.emit('thantai:summon', {
       user: newVipUser,
       giftName: data.giftName,
@@ -585,12 +588,22 @@ function handleGift(data) {
     } else {
       vipQueue.splice(firstNonDiamondIndex, 0, newVipUser);
     }
-    const ttsGold = `Chào mừng Phú Hộ ${newVipUser.nickname} đã tặng ${data.giftName} gia nhập hàng VIP Vàng!`;
+    const ttsGold = `Chào mừng Phú Hộ ${newVipUser.nickname} đã tặng ${data.giftName} chen hàng VIP Vàng thành công! Sẽ được bốc trước!`;
     io.emit('playTts', { text: ttsGold });
   } else {
-    // VIP Bạc: thêm vào cuối hàng VIP
+    // VIP Bạc (1 - 9 xu, ví dụ tặng 1 Hoa Hồng): Chen hàng trước toàn bộ hàng đợi thường
     vipQueue.push(newVipUser);
+    const ttsSilver = `Thí chủ ${newVipUser.nickname} đã tặng ${data.giftName} chen hàng VIP thành công! Sẽ được ưu tiên bốc trước!`;
+    io.emit('playTts', { text: ttsSilver });
   }
+
+  // Bắn thông báo chen hàng hiển thị trên màn hình
+  io.emit('vip:chen_hang', {
+    user: newVipUser,
+    giftName: data.giftName,
+    diamonds: totalValue,
+    vipTier
+  });
 
   io.emit('gift', { ...data, vipTier, vipBadge });
   broadcastState();

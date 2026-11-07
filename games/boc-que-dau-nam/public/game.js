@@ -446,24 +446,48 @@ socket.on('gameState', state => {
   congDucValEl.textContent = state.totalCongDuc.toLocaleString();
 
   // Cập nhật hàng VIP đa tầng
+  const hudVipEl = document.getElementById('hud-vip-content');
+  const hudNormalEl = document.getElementById('hud-normal-content');
+
   if (state.vipQueue && state.vipQueue.length > 0) {
-    vipQueueList.innerHTML = state.vipQueue.map(u => `
+    const vipHtml = state.vipQueue.map((u, idx) => `
       <div class="vip-chip vip-${u.vipTier || 'silver'}">
         <span>${u.vipTier === 'diamond' ? '👑' : (u.vipTier === 'gold' ? '🥈' : '🥉')} ${u.nickname}</span>
-        <span>(${u.giftName || 'VIP'})</span>
+        <span>(${u.giftName || 'VIP'})${idx === 0 ? ' 👉 BỐC NGAY' : ''}</span>
       </div>
     `).join('');
+    vipQueueList.innerHTML = vipHtml;
+    if (hudVipEl) hudVipEl.innerHTML = vipHtml;
   } else {
-    vipQueueList.innerHTML = '<span class="empty-hint">Chưa có ai trong hàng VIP (Tặng quà để ưu tiên)</span>';
+    const emptyVipHtml = '<span class="empty-hint">🎁 Tặng Hoa Hồng (1 xu) để CHEN HÀNG lên đầu bốc ngay!</span>';
+    vipQueueList.innerHTML = emptyVipHtml;
+    if (hudVipEl) hudVipEl.innerHTML = emptyVipHtml;
   }
 
-  // Cập nhật hàng thường
+  // Cập nhật hàng thường (đánh số thứ tự rõ ràng)
   if (state.normalQueue && state.normalQueue.length > 0) {
     normalQueueList.innerHTML = state.normalQueue.map((u, i) => `
-      <div class="queue-item">#${i + 1} ${u.nickname}</div>
+      <div class="queue-item ${i === 0 ? 'queue-item-next' : ''}">
+        <span class="queue-rank">#${i + 1}</span>
+        <span class="queue-name">${u.nickname}</span>
+        ${i === 0 ? '<span class="queue-next-badge">SẮP TỚI</span>' : ''}
+      </div>
     `).join('');
+
+    if (hudNormalEl) {
+      hudNormalEl.innerHTML = `
+        <span class="hud-total-tag">Tổng: ${state.normalQueue.length} người</span>
+        ${state.normalQueue.slice(0, 5).map((u, i) => `
+          <span class="hud-item ${i === 0 ? 'hud-item-next' : ''}">
+            <strong>#${i + 1}</strong> ${u.nickname}${i === 0 ? ' (Sắp đến)' : ''}
+          </span>
+        `).join('')}
+        ${state.normalQueue.length > 5 ? `<span class="hud-more">+${state.normalQueue.length - 5}...</span>` : ''}
+      `;
+    }
   } else {
     normalQueueList.innerHTML = '<div class="queue-empty">Gõ "Xin quẻ" để vào hàng đợi</div>';
+    if (hudNormalEl) hudNormalEl.innerHTML = '<span class="hud-normal-empty">Chưa có ai, gõ "xin que" để xếp hàng!</span>';
   }
 
   // Cập nhật lịch sử
@@ -716,6 +740,20 @@ socket.on('golden_hour:end', () => {
 
 socket.on('audio:bgm:toggle', () => {
   if (btnSoundToggle) btnSoundToggle.click();
+});
+
+// Sự kiện Chen Hàng VIP khi tặng quà
+socket.on('vip:chen_hang', data => {
+  soundEngine.playChime();
+  const vipJumpBanner = document.getElementById('vip-jump-banner');
+  const vipJumpText = document.getElementById('vip-jump-text');
+  if (vipJumpBanner && vipJumpText) {
+    vipJumpText.innerHTML = `🚀 <strong style="color: #ffd700;">${data.user.nickname}</strong> vừa tặng <strong>${data.giftName}</strong> và <strong style="color: #ff3b30; text-shadow: 0 0 8px #ffd700;">CHEN HÀNG VIP THÀNH CÔNG</strong>! Sẽ được bốc trước!`;
+    vipJumpBanner.classList.remove('hidden');
+    setTimeout(() => {
+      vipJumpBanner.classList.add('hidden');
+    }, 4500);
+  }
 });
 
 socket.on('playTts', data => {

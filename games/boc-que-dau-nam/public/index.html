@@ -66,6 +66,30 @@
         💬 Gõ: <strong>"xin que [tình duyên / tài lộc / công danh] [năm sinh]"</strong> | 🌹 Tặng quà: <strong>Ưu tiên VIP</strong>
       </div>
 
+      <!-- Bảng Hàng Đợi Chen Hàng VIP Trực Quan Ngay Trên Màn Hình Chính -->
+      <div id="stage-queue-hud" class="stage-queue-hud">
+        <!-- Dòng VIP Chen Hàng -->
+        <div class="hud-vip-line">
+          <div class="hud-badge-vip">👑 VIP BỐC TRƯỚC:</div>
+          <div id="hud-vip-content" class="hud-vip-scroll">
+            <span class="hud-vip-empty">🌹 Tặng 1 Hoa hồng để CHEN HÀNG lên đầu bốc ngay!</span>
+          </div>
+        </div>
+        <!-- Dòng Hàng Chờ Khán Giả -->
+        <div class="hud-normal-line">
+          <div class="hud-badge-normal">👥 HÀNG CHỜ:</div>
+          <div id="hud-normal-content" class="hud-normal-scroll">
+            <span class="hud-normal-empty">Chưa có ai, gõ "xin que" để xếp hàng!</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Thông Báo Chen Hàng Lấp Lánh -->
+      <div id="vip-jump-banner" class="vip-jump-banner hidden">
+        <span class="jump-icon">🚀</span>
+        <span id="vip-jump-text">Thí chủ vừa CHEN HÀNG VIP thành công!</span>
+      </div>
+
       <!-- Trạng thái Ống Xăm Lắc Lư -->
       <div id="shaker-container" class="shaker-container">
         <div id="fortune-tube" class="fortune-tube">

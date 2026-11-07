@@ -241,9 +241,11 @@ body {
 
 .scroll-paper {
   width: 100%;
+  max-height: 42vh;
+  overflow-y: auto;
   background: #fff8e7;
   color: #2b0004;
-  padding: 16px 14px;
+  padding: 14px 12px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.8);
   border-left: 4px solid #b71c1c;
   border-right: 4px solid #b71c1c;
@@ -349,31 +351,180 @@ body {
   color: #8b0000;
 }
 
-/* Footer & Queues */
-.tet-footer {
-  height: 38%;
-  background: rgba(20, 2, 4, 0.95);
-  border-top: 2px solid rgba(255, 215, 0, 0.3);
-  padding: 10px;
+/* Stage Queue HUD (Hiển thị hàng đợi ngay trên màn hình chính) */
+.stage-queue-hud {
+  width: 96%;
+  max-width: 480px;
+  margin: 6px 0;
+  background: rgba(25, 2, 5, 0.88);
+  border: 1.5px solid rgba(255, 215, 0, 0.6);
+  border-radius: 10px;
+  padding: 6px 10px;
   display: flex;
   flex-direction: column;
+  gap: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  z-index: 15;
+}
+
+.hud-vip-line {
+  display: flex;
+  align-items: center;
   gap: 8px;
-  z-index: 10;
+  overflow: hidden;
+  border-bottom: 1px dashed rgba(255, 215, 0, 0.3);
+  padding-bottom: 4px;
+}
+
+.hud-badge-vip {
+  font-size: 10.5px;
+  font-weight: 900;
+  color: #ffd700;
+  background: linear-gradient(135deg, #7c1d1d, #991b1b);
+  border: 1px solid #ffd700;
+  padding: 2px 7px;
+  border-radius: 6px;
+  white-space: nowrap;
+  text-shadow: 0 1px 2px #000;
+}
+
+.hud-vip-scroll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.hud-vip-empty {
+  font-size: 11px;
+  color: #fbbf24;
+  font-weight: 700;
+  animation: pulseVip 2s infinite;
+}
+
+.hud-normal-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.hud-badge-normal {
+  font-size: 10.5px;
+  font-weight: 900;
+  color: #38bdf8;
+  background: rgba(12, 74, 110, 0.85);
+  border: 1px solid #38bdf8;
+  padding: 2px 7px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.hud-normal-scroll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  white-space: nowrap;
+  flex: 1;
+  font-size: 11.5px;
+}
+
+.hud-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: #f1f5f9;
+  font-size: 11px;
+}
+
+.hud-item-next {
+  background: linear-gradient(135deg, #059669, #10b981);
+  color: #fff;
+  font-weight: 800;
+  border: 1px solid #6ee7b7;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+  animation: pulseVip 1.5s infinite;
+}
+
+.hud-total-tag {
+  font-size: 10px;
+  font-weight: 800;
+  color: #94a3b8;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.hud-more {
+  font-size: 11px;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.hud-normal-empty {
+  font-size: 11px;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Banner Thông Báo Chen Hàng VIP Lấp Lánh */
+.vip-jump-banner {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #881337 0%, #4c0519 100%);
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.8), 0 8px 30px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  padding: 10px 22px;
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 100;
+  animation: jumpBounce 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  white-space: nowrap;
+}
+
+@keyframes jumpBounce {
+  0% { transform: translate(-50%, -40px) scale(0.6); opacity: 0; }
+  70% { transform: translate(-50%, 6px) scale(1.08); opacity: 1; }
+  100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+}
+
+/* Footer & Queues */
+.tet-footer {
+  flex-shrink: 0;
+  max-height: 25vh;
+  min-height: 120px;
+  background: rgba(18, 2, 4, 0.96);
+  border-top: 2px solid rgba(255, 215, 0, 0.4);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 30;
 }
 
 .section-title {
-  font-size: 10px;
+  font-size: 10.5px;
   font-weight: 800;
   color: #ffd700;
   letter-spacing: 0.5px;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .vip-section {
-  background: rgba(255, 215, 0, 0.08);
-  border: 1px solid rgba(255, 215, 0, 0.4);
+  background: rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.5);
   border-radius: 8px;
-  padding: 6px 8px;
+  padding: 5px 8px;
 }
 
 .queue-chips-bar {
@@ -381,7 +532,7 @@ body {
   gap: 6px;
   overflow-x: auto;
   white-space: nowrap;
-  min-height: 28px;
+  min-height: 26px;
   align-items: center;
 }
 
@@ -401,25 +552,28 @@ body {
 
 .empty-hint {
   font-size: 11px;
-  color: #a07d50;
-  font-style: italic;
+  color: #fbbf24;
+  font-weight: 600;
 }
 
 .footer-bottom-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 8px;
   flex: 1;
+  min-height: 0;
   overflow: hidden;
 }
 
 .queue-box, .history-box {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 6px 8px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .queue-vertical-list, .history-vertical-list {
@@ -428,17 +582,45 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: 11px;
+  font-size: 11.5px;
 }
 
 .queue-item {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 4px 6px;
-  border-radius: 4px;
-  color: #ffe6e6;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 3px 8px;
+  border-radius: 6px;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.queue-item-next {
+  background: rgba(16, 185, 129, 0.25);
+  border: 1px solid #10b981;
+}
+
+.queue-rank {
+  font-weight: 900;
+  color: #ffd700;
+  font-size: 11px;
+}
+
+.queue-name {
+  flex: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.queue-next-badge {
+  background: #10b981;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 900;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: auto;
 }
 
 .history-item {
