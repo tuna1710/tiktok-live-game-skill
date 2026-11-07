@@ -15,6 +15,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+app.get('/admin', (req, res) => res.sendFile(path.join(__dirname, 'public', 'admin.html')));
+app.get('/obs', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
 // Cache thư mục cho âm thanh TTS
 const TTS_CACHE_DIR = path.join(__dirname, 'data', 'tts-cache');
