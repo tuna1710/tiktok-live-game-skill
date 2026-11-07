@@ -8,7 +8,7 @@
 | Phiên bản | Tên giai đoạn | Mục tiêu chính | Trạng thái |
 |---|---|---|---|
 | **v1.0** | Bản Nền Tảng (Core Release) | Hàng đợi thường & VIP, TTS tiếng Việt, chuẩn 9:16, Colab runner kép | ✅ ĐÃ HOÀN THÀNH |
-| **v1.1** | Audiovisual & SFX Chân Thực | Âm thanh lắc xăm tre, chiêng đồng, pháo nổ, nhạc BGM Tết, thiệp chụp ảnh | ⏳ CHỜ TRIỂN KHAI |
+| **v1.1** | Audiovisual & SFX Chân Thực | Âm thanh lắc xăm tre, chiêng đồng, pháo nổ, nhạc BGM Tết, thiệp chụp ảnh | ✅ ĐÃ HOÀN THÀNH |
 | **v1.2** | Phân Loại Quẻ & Cá Nhân Hóa | Rút quẻ theo ý (Tình duyên, Tài lộc, Công danh), nhận diện Tên & Năm sinh | ⏳ CHỜ TRIỂN KHAI |
 | **v1.3** | Quẻ Đại Hạn & Thử Thách Hóa Giải | Quẻ Hạ Hạ troll dí dỏm, đếm ngược cả phòng thả tim hoặc tặng quà giải hạn | ⏳ CHỜ TRIỂN KHAI |
 | **v1.4** | Quà Tặng VIP Đa Tầng & Thần Tài | 3 cấp bậc VIP (Bạc, Vàng, Kim Cương), hiệu ứng Thần Tài bay qua màn hình | ⏳ CHỜ TRIỂN KHAI |
@@ -18,17 +18,18 @@
 
 ## 📝 CHI TIẾT CÁC TÍNH NĂNG CẦN LÀM DẦN
 
-### 🎋 MILESTONE 1: v1.1 - Nâng cấp Âm thanh SFX & Trải nghiệm Nghe Nhìn
-- [ ] **Bộ hiệu ứng âm thanh (SFX) thuần Việt:**
-  - [ ] Tiếng lắc ống xăm tre "lách cách" khi bắt đầu rút quẻ.
-  - [ ] Tiếng chiêng đồng ngân vang khi thẻ tre bay ra.
-  - [ ] Tiếng pháo nổ rộn ràng khi bốc trúng quẻ Đại Cát.
-- [ ] **Nhạc nền BGM ngày xuân:**
-  - [ ] Tích hợp bản nhạc hòa tấu đàn tranh / sáo trúc dân tộc vui tươi (không dính bản quyền âm nhạc TikTok).
-  - [ ] Nút bật/tắt nhạc và thanh trượt điều chỉnh âm lượng tại `admin.html`.
-- [ ] **Tấm Thiệp Lưu Niệm Chụp Màn Hình (Shareable Fortune Card):**
-  - [ ] Khi quẻ mở ra, dựng khung thiệp chúc Tết sắc nét gồm Tên người xem + Avatar + Tên Quẻ + Lời thơ.
-  - [ ] Giữ nguyên 5 giây để người xem chụp màn hình lưu làm hình nền điện thoại hoặc đăng story TikTok.
+### 🎋 MILESTONE 1: v1.1 - Nâng cấp Âm thanh SFX & Trải nghiệm Nghe Nhìn (✅ ĐÃ HOÀN THÀNH)
+- [x] **Bộ hiệu ứng âm thanh (SFX) thuần Việt qua Web Audio API:**
+  - [x] Tiếng lắc ống xăm tre "lách cách" chân thực khi bắt đầu rút quẻ (`playBambooShake()`).
+  - [x] Tiếng chiêng đồng ngân vang cổ truyền khi thẻ tre bay ra (`playGong()`).
+  - [x] Tiếng pháo nổ rộn ràng khi bốc trúng quẻ Đại Cát hoặc quà VIP (`playFirecrackers()`).
+  - [x] Tiếng chuông chime may mắn khi có người vào hàng (`playChime()`).
+- [x] **Nhạc nền BGM ngày xuân:**
+  - [x] Tích hợp bản nhạc hòa tấu ngũ cung dân tộc Việt Nam nhẹ nhàng, hoàn toàn không dính bản quyền âm nhạc TikTok.
+  - [x] Nút bật/tắt BGM trên giao diện chính và cụm nút kiểm thử tại `admin.html`.
+- [x] **Tấm Thiệp Lưu Niệm Chụp Màn Hình (Shareable Fortune Card):**
+  - [x] Khung thiệp chúc Tết sắc nét mạ vàng gồm Tên người xem + Avatar + Tên Quẻ + Lời thơ + Triện son đỏ.
+  - [x] Đồng hồ đếm ngược 6 giây tự động đóng hoặc bấm chụp màn hình lưu giữ may mắn.
 
 ---
 

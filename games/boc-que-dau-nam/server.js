@@ -252,6 +252,8 @@ io.on('connection', socket => {
   socket.on('mock:chat', data => handleComment(data));
   socket.on('mock:gift', data => handleGift(data));
   socket.on('mock:like', data => handleLike(data));
+  socket.on('admin:sfx', data => io.emit('audio:sfx', data));
+  socket.on('admin:bgm:toggle', () => io.emit('audio:bgm:toggle'));
 
   socket.on('game:reset', () => {
     vipQueue = [];

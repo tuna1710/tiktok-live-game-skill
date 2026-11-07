@@ -81,6 +81,19 @@
       </div>
     </div>
 
+    <!-- Kiểm Thử Âm Thanh SFX & BGM Tết -->
+    <div class="card">
+      <div class="card-title">🎵 Kiểm Thử Âm Thanh SFX & BGM Tết (Milestone 1)</div>
+      <div class="quick-list">
+        <button class="btn-quick" onclick="triggerSfx('shake')">🎋 Tiếng Lắc Tre</button>
+        <button class="btn-quick" onclick="triggerSfx('gong')">🔔 Tiếng Chiêng Đồng</button>
+        <button class="btn-quick" onclick="triggerSfx('firecracker')">🎆 Tiếng Pháo Nổ</button>
+        <button class="btn-quick" onclick="triggerSfx('chime')">✨ Chuông May Mắn</button>
+        <button class="btn-quick" onclick="triggerSfx('test_card')">📸 Mở Thiệp Chụp Ảnh</button>
+        <button class="btn-gold" onclick="toggleBgm()">🎶 Bật/Tắt Nhạc Tết BGM</button>
+      </div>
+    </div>
+
     <!-- Thả tim & Điều khiển -->
     <div class="card" style="display: flex; justify-content: space-between; align-items: center;">
       <button class="btn-gold" onclick="sendLikes(15)">❤️ Thả 15 Tim (Tích Công Đức)</button>
@@ -90,6 +103,14 @@
 
   <script>
     const socket = io();
+
+    function triggerSfx(type) {
+      socket.emit('admin:sfx', { type });
+    }
+
+    function toggleBgm() {
+      socket.emit('admin:bgm:toggle');
+    }
 
     function sendChat() {
       const name = document.getElementById('user-name').value.trim() || 'DaoHuu_01';

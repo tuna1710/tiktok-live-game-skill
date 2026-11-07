@@ -472,3 +472,168 @@ body {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.05); }
 }
+
+/* Sound Toggle Button */
+.sound-toggle-btn {
+  margin-left: auto;
+  background: rgba(185, 28, 28, 0.7);
+  border: 1px solid #ffd700;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+}
+.sound-toggle-btn:hover {
+  background: #ffd700;
+  color: #000;
+  transform: scale(1.05);
+}
+.sound-toggle-btn.muted {
+  background: rgba(80, 80, 80, 0.7);
+  border-color: #888;
+  color: #ccc;
+}
+
+/* Shareable Fortune Card Popup */
+.fortune-share-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  max-width: 480px;
+  z-index: 100;
+  animation: cardPopup 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.share-card-inner {
+  background: linear-gradient(135deg, #7f1d1d 0%, #3f070b 100%);
+  border: 4px solid #ffd700;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 0 50px rgba(255, 215, 0, 0.6), 0 20px 40px rgba(0,0,0,0.8);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-ornament {
+  font-size: 13px;
+  font-weight: 800;
+  color: #ffd700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  margin-bottom: 14px;
+}
+
+.card-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #ffd700;
+  object-fit: cover;
+}
+
+.card-user-info {
+  flex: 1;
+  text-align: left;
+}
+
+.card-name {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.card-badge {
+  font-size: 12px;
+  color: #ffd700;
+}
+
+.card-seal {
+  background: #b91c1c;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 6px 10px;
+  border-radius: 8px;
+  writing-mode: horizontal-tb;
+}
+
+.card-title {
+  color: #ffd700;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.card-poem {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fef08a;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-style: italic;
+  white-space: pre-line;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fed7aa;
+  margin-bottom: 14px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #cbd5e1;
+  border-top: 1px dashed rgba(255, 215, 0, 0.3);
+  padding-top: 10px;
+}
+
+.card-tagline {
+  color: #fef08a;
+  font-weight: 700;
+}
+
+.card-countdown {
+  background: #b91c1c;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+@keyframes cardPopup {
+  from { opacity: 0; transform: translate(-50%, -40%) scale(0.7); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+

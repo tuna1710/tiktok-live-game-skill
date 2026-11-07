@@ -26,6 +26,9 @@
       <div class="cong-duc-bar">
         <span class="cong-duc-label">✨ Công Đức Tích Lũy:</span>
         <span id="cong-duc-val" class="cong-duc-val">0</span>
+        <button id="btn-sound-toggle" class="sound-toggle-btn" title="Bật/Tắt Nhạc Tết BGM & SFX">
+          <span id="sound-icon">🏮</span> <span id="sound-label">BGM: Bật</span>
+        </button>
       </div>
     </header>
 
@@ -108,6 +111,33 @@
 
         </div>
         <div class="scroll-wood wood-bottom"></div>
+      </div>
+
+      <!-- Tấm Thiệp Kỷ Niệm Chụp Màn Hình (Shareable Fortune Card) -->
+      <div id="fortune-share-card" class="fortune-share-card hidden">
+        <div class="share-card-inner">
+          <div class="card-ornament top-ornament">🏮 XUÂN BÍNH NGỌ 2026 🏮</div>
+          <div class="card-header">
+            <img id="card-avatar" class="card-avatar" src="" alt="Avatar">
+            <div class="card-user-info">
+              <div id="card-name" class="card-name">Thí Chủ</div>
+              <div id="card-badge" class="card-badge">🎋 Quẻ Lộc Đầu Xuân</div>
+            </div>
+            <div id="card-seal" class="card-seal">ĐẠI CÁT</div>
+          </div>
+          <div class="card-body">
+            <h3 id="card-title" class="card-title">TIẾN BẢO CHIÊU TÀI</h3>
+            <p id="card-poem" class="card-poem">Mùa xuân hoa nở ngập tràn<br>Tài lộc tấn tới ngập tràn niềm vui</p>
+            <div class="card-details">
+              <div>💰 Tài Lộc: <span id="card-tailoc">Hưng Vượng</span></div>
+              <div>💖 Tình Duyên: <span id="card-tinhduyen">Viên Mãn</span></div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-tagline">📸 Chụp màn hình lưu giữ may mắn đầu năm!</div>
+            <div class="card-countdown">Tự đóng sau: <span id="card-timer">6</span>s</div>
+          </div>
+        </div>
       </div>
 
     </main>
