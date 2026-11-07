@@ -1,7 +1,7 @@
 {
   "name": "boc-que-dau-nam",
   "version": "1.0.0",
-  "description": "Game Bốc Quẻ Đầu Năm Tương Tác TikTok Live - Google Antigravity Skill",
+  "description": "Game TikTok Live Bốc Quẻ Đầu Năm May Mắn - Hàng đợi ưu tiên VIP & TTS",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
