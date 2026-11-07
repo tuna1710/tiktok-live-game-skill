@@ -83,3 +83,10 @@
 
 ## 🏆 KẾT LUẬN & HƯỚNG DẪN VẬN HÀNH
 Dự án game **Bốc Quẻ Đầu Năm** đã được xây dựng hoàn thiện theo đúng quy chuẩn **Anti-Timeout & 8-Minute Checkpoint Protocol**. Toàn bộ mã nguồn đã sẵn sàng đưa vào vận hành trên Google Colab.
+
+---
+
+## 🔮 LỘ TRÌNH NÂNG CẤP TIẾP THEO (ROADMAP)
+Toàn bộ ý tưởng và tính năng mở rộng cho các phiên bản tiếp theo đã được lưu trữ chi tiết tại:
+👉 **[ROADMAP.md](./ROADMAP.md)** (Gồm 5 Milestone: Âm thanh SFX & BGM, Phân loại quẻ theo chủ đề, Quẻ Đại Hạn hóa giải, Quà VIP đa tầng & Triệu hồi Thần Tài, Bảng Phú Hộ Leaderboard).
+
