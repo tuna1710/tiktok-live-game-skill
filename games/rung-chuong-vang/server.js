@@ -41,50 +41,65 @@ app.use(express.static(path.join(__dirname, 'public')));
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
+const crypto = require('crypto');
 const https = require('https');
-const ttsCache = new Map();
 
-// TTS Proxy tiếng Việt trực tiếp (Tránh lỗi CORS/Referer của Google Translate)
+const TTS_CACHE_DIR = path.join(__dirname, 'data', 'tts-cache');
+if (!fs.existsSync(TTS_CACHE_DIR)) {
+  fs.mkdirSync(TTS_CACHE_DIR, { recursive: true });
+}
+
+// Endpoint Proxy TTS (Google Translate TTS tiếng Việt có MD5 disk-cache chuẩn như Vua Tiếng Việt)
 app.get('/api/tts', (req, res) => {
-  const text = (req.query.text || '').toString().trim().slice(0, 180);
-  if (!text) return res.status(400).send('Missing text');
-
-  // Kiểm tra bộ nhớ đệm
-  if (ttsCache.has(text)) {
-    const cachedBuffer = ttsCache.get(text);
-    res.setHeader('Content-Type', 'audio/mpeg');
-    res.setHeader('Content-Length', cachedBuffer.length);
-    res.setHeader('Cache-Control', 'public, max-age=86400');
-    return res.end(cachedBuffer);
+  const text = (req.query.text || '').toString().trim();
+  if (!text) {
+    return res.status(400).send('Missing text parameter');
   }
 
-  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encodeURIComponent(text)}`;
-  https.get(googleTtsUrl, {
+  const cleanText = text
+    .replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+    .slice(0, 180)
+    .trim();
+
+  if (!cleanText) {
+    return res.status(400).send('Empty clean text');
+  }
+
+  const hash = crypto.createHash('md5').update(cleanText).digest('hex');
+  const cacheFile = path.join(TTS_CACHE_DIR, `${hash}.mp3`);
+
+  if (fs.existsSync(cacheFile)) {
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Cache-Control', 'public, max-age=604800');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    return fs.createReadStream(cacheFile).pipe(res);
+  }
+
+  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
+  const reqOptions = {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-      'Referer': 'https://translate.google.com/'
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
-  }, (ttsRes) => {
-    if (ttsRes.statusCode !== 200) {
-      console.error(`[TTS] Lỗi phản hồi Google TTS status: ${ttsRes.statusCode}`);
-      return res.status(502).send('TTS upstream error');
+  };
+
+  https.get(googleTtsUrl, reqOptions, (gRes) => {
+    if (gRes.statusCode !== 200) {
+      console.warn(`[TTS Proxy] Google Translate trả mã ${gRes.statusCode} cho: "${cleanText}"`);
+      return res.status(gRes.statusCode).send('TTS service unavailable');
     }
 
-    const chunks = [];
-    ttsRes.on('data', chunk => chunks.push(chunk));
-    ttsRes.on('end', () => {
-      const audioBuffer = Buffer.concat(chunks);
-      if (audioBuffer.length > 500) {
-        ttsCache.set(text, audioBuffer);
-      }
-      res.setHeader('Content-Type', 'audio/mpeg');
-      res.setHeader('Content-Length', audioBuffer.length);
-      res.setHeader('Cache-Control', 'public, max-age=86400');
-      res.end(audioBuffer);
+    res.writeHead(200, {
+      'Content-Type': 'audio/mpeg',
+      'Cache-Control': 'public, max-age=604800',
+      'Access-Control-Allow-Origin': '*'
     });
-  }).on('error', err => {
-    console.error('[TTS] Network error:', err.message);
-    res.status(500).send('TTS fetch error');
+
+    const fileStream = fs.createWriteStream(cacheFile);
+    gRes.pipe(fileStream);
+    gRes.pipe(res);
+  }).on('error', (err) => {
+    console.error('[TTS Proxy Error]', err.message);
+    res.status(500).send('TTS error: ' + err.message);
   });
 });
 

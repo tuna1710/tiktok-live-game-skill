@@ -112,45 +112,210 @@ function getAudioContext() {
   return audioCtx;
 }
 
-// Phát TTS tiếng Việt với cơ chế Proxy + Fallback SpeechSynthesis
-let currentAudio = null;
-function playTts(text) {
-  try {
-    if (!text) return;
-    if (currentAudio) {
-      currentAudio.pause();
-      currentAudio = null;
+// ===================================================
+// BỘ QUẢN LÝ GIỌNG ĐỌC AI (TTS MANAGER TỪ VUA TIẾNG VIỆT)
+// Ưu tiên Audio Proxy /api/tts (MD5 Disk Cache) + Queue + Fallback Web Speech
+// ===================================================
+class TtsManager {
+  constructor() {
+    this.enabled = localStorage.getItem('rcv_tts_enabled') !== 'false';
+    this.queue = [];
+    this.isPlaying = false;
+    this.currentAudio = null;
+    this.indicatorEl = document.getElementById('tts-indicator');
+    this.indicatorTextEl = document.getElementById('tts-indicator-text');
+    this.toggleBtn = document.getElementById('btn-tts-toggle');
+
+    this.updateBtnUI();
+
+    if (this.toggleBtn) {
+      this.toggleBtn.onclick = (e) => {
+        e.stopPropagation();
+        this.toggle();
+      };
     }
-    const url = `/api/tts?text=${encodeURIComponent(text)}`;
-    currentAudio = new Audio(url);
-    const playPromise = currentAudio.play();
+
+    // Tự động tìm giọng tiếng Việt cho Web Speech API fallback
+    this.viVoice = null;
+    if ('speechSynthesis' in window) {
+      const loadVoices = () => {
+        const voices = window.speechSynthesis.getVoices();
+        this.viVoice = voices.find(v => v.lang.includes('vi') || v.lang.includes('VI')) || null;
+      };
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+  }
+
+  toggle(forceState) {
+    this.enabled = forceState !== undefined ? forceState : !this.enabled;
+    localStorage.setItem('rcv_tts_enabled', String(this.enabled));
+    this.updateBtnUI();
+    if (!this.enabled) {
+      this.stop();
+    }
+  }
+
+  updateBtnUI() {
+    if (!this.toggleBtn) return;
+    if (this.enabled) {
+      this.toggleBtn.className = 'btn-tts-toggle';
+      this.toggleBtn.innerHTML = '🎙️ Giọng đọc: <b>BẬT</b>';
+    } else {
+      this.toggleBtn.className = 'btn-tts-toggle off';
+      this.toggleBtn.innerHTML = '🔇 Giọng đọc: <b>TẮT</b>';
+    }
+  }
+
+  showIndicator(text) {
+    if (!this.indicatorEl) return;
+    if (this.indicatorTextEl) {
+      const shortText = text.length > 35 ? text.slice(0, 35) + '...' : text;
+      this.indicatorTextEl.textContent = shortText;
+    }
+    this.indicatorEl.classList.add('active');
+  }
+
+  hideIndicator() {
+    if (!this.indicatorEl) return;
+    this.indicatorEl.classList.remove('active');
+  }
+
+  stop() {
+    this.queue = [];
+    if (this.currentAudio) {
+      try {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+      } catch (_) {}
+      this.currentAudio = null;
+    }
+    if ('speechSynthesis' in window) {
+      try {
+        window.speechSynthesis.cancel();
+      } catch (_) {}
+    }
+    this.isPlaying = false;
+    this.hideIndicator();
+  }
+
+  speak(text, priority = false) {
+    if (!this.enabled || !text) return;
+
+    // Xóa emoji và khoảng trắng thừa chuẩn Vua Tiếng Việt
+    const clean = text
+      .replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (!clean) return;
+
+    if (priority) {
+      this.stop();
+    }
+
+    // Tối đa 3 câu trong hàng đợi
+    if (this.queue.length >= 3) {
+      this.queue.shift();
+    }
+
+    this.queue.push(clean);
+    this.processQueue();
+  }
+
+  processQueue() {
+    if (this.isPlaying || this.queue.length === 0 || !this.enabled) return;
+
+    const nextText = this.queue.shift();
+    this.isPlaying = true;
+    this.showIndicator(nextText);
+
+    const onFinish = () => {
+      this.isPlaying = false;
+      this.currentAudio = null;
+      this.hideIndicator();
+      setTimeout(() => this.processQueue(), 250);
+    };
+
+    // 1. Phát qua proxy /api/tts của Server
+    const ttsUrl = '/api/tts?text=' + encodeURIComponent(nextText);
+    const audio = new Audio(ttsUrl);
+    this.currentAudio = audio;
+
+    let fallbackTriggered = false;
+    const triggerFallback = () => {
+      if (fallbackTriggered) return;
+      fallbackTriggered = true;
+      this.speakWithSpeechSynthesis(nextText, onFinish);
+    };
+
+    audio.onended = onFinish;
+    audio.onerror = () => {
+      triggerFallback();
+    };
+
+    const loadTimeout = setTimeout(() => {
+      if (this.isPlaying && this.currentAudio === audio && audio.readyState < 2) {
+        try { audio.pause(); } catch(_) {}
+        triggerFallback();
+      }
+    }, 4000);
+
+    audio.oncanplay = () => {
+      clearTimeout(loadTimeout);
+    };
+
+    const playPromise = audio.play();
     if (playPromise !== undefined) {
-      playPromise.catch(err => {
-        console.warn("[TTS] HTML5 Audio play() bị chặn bởi chính sách trình duyệt, kích hoạt Web Speech API fallback:", err.message);
-        // Fallback sang Web Speech API của trình duyệt
-        if ('speechSynthesis' in window) {
-          window.speechSynthesis.cancel();
-          const utter = new SpeechSynthesisUtterance(text);
-          utter.lang = 'vi-VN';
-          utter.rate = 1.0;
-          window.speechSynthesis.speak(utter);
-        }
+      playPromise.catch(() => {
+        clearTimeout(loadTimeout);
+        triggerFallback();
       });
     }
-  } catch (e) {
-    console.error("[TTS] Lỗi phát âm thanh:", e);
+  }
+
+  speakWithSpeechSynthesis(text, callback) {
+    if (!('speechSynthesis' in window)) {
+      callback();
+      return;
+    }
+    try {
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'vi-VN';
+      utter.rate = 1.05;
+      if (this.viVoice) utter.voice = this.viVoice;
+      utter.onend = callback;
+      utter.onerror = callback;
+      window.speechSynthesis.speak(utter);
+    } catch (_) {
+      callback();
+    }
   }
 }
 
-// Hàm mở khóa âm thanh cho trình duyệt / OBS
+const ttsManager = new TtsManager();
+function playTts(text, priority = false) {
+  ttsManager.speak(text, priority);
+}
+
+// Khởi động trước audio cho trình duyệt mở quyền phát TTS (Chuẩn Vua Tiếng Việt)
 function unlockAudio() {
-  getAudioContext();
+  const ctx = getAudioContext();
+  if (ctx && ctx.state === 'suspended') {
+    ctx.resume().catch(() => {});
+  }
+  try {
+    const dummyAudio = new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=');
+    dummyAudio.play().catch(() => {});
+  } catch (_) {}
+
   const banner = document.getElementById('audio-unlock-banner');
   if (banner) banner.style.display = 'none';
 }
-window.addEventListener('click', unlockAudio);
-window.addEventListener('touchstart', unlockAudio);
-window.addEventListener('keydown', unlockAudio);
+
+['click', 'touchstart', 'pointerdown', 'keydown'].forEach(evt => {
+  window.addEventListener(evt, unlockAudio, { passive: true });
+});
 
 // Âm thanh tích tắc đếm ngược
 function soundTick() {
