@@ -158,5 +158,245 @@
     "options": ["Bình Ngô Đại Cáo", "Chiếu Cần Vương", "Chiếu Dời Đô", "Hịch Tướng Sĩ"],
     "correct": 2,
     "explanation": "Vua Lý Thái Tổ viết 'Chiếu Dời Đô' (Thiên đô chiếu) dời kinh đô từ Hoa Lư về Đại La (Thăng Long)."
+  },
+  {
+    "id": 21,
+    "difficulty": 1,
+    "question": "Câu ca dao: 'Chuồn chuồn bay thấp thì mưa, bay cao thì...' vế tiếp theo là gì?",
+    "options": ["Râm", "Nắng", "Gió", "Bão"],
+    "correct": 1,
+    "explanation": "Câu tục ngữ đầy đủ: 'Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì râm'."
+  },
+  {
+    "id": 22,
+    "difficulty": 1,
+    "question": "Đố mẹo: Bỏ ngoài nướng trong, ăn ngoài bỏ trong là bắp gì?",
+    "options": ["Bắp cải", "Bắp ngô", "Bắp đùi", "Bắp chuối"],
+    "correct": 1,
+    "explanation": "Bắp ngô (bắp ngô) bóc vỏ ngoài đem nướng, khi ăn thì ăn hạt ngoài bỏ cùi bên trong."
+  },
+  {
+    "id": 23,
+    "difficulty": 1,
+    "question": "Đố mẹo: Con đường nào dài nhất mà ai cũng phải đi qua?",
+    "options": ["Đường đi", "Đường đời", "Đường cao tốc", "Đường xích đạo"],
+    "correct": 1,
+    "explanation": "Đường đời là con đường dài nhất gắn liền suốt cuộc đời con người."
+  },
+  {
+    "id": 24,
+    "difficulty": 1,
+    "question": "Trong cờ tướng, quân cờ nào chỉ được phép đi chéo trong cửu cung?",
+    "options": ["Quân Tượng", "Quân Tướng", "Quân Sĩ", "Quân Mã"],
+    "correct": 2,
+    "explanation": "Quân Sĩ chỉ được phép đi chéo từng ô một trong phạm vi cửu cung để bảo vệ quân Tướng."
+  },
+  {
+    "id": 25,
+    "difficulty": 1,
+    "question": "Đố mẹo: Loài chuột nào nổi tiếng thế giới đi bằng hai chân?",
+    "options": ["Chuột cống", "Chuột chù", "Chuột Mickey", "Chuột túi"],
+    "correct": 2,
+    "explanation": "Chuột Mickey trong phim hoạt hình Disney đi bằng hai chân (chuột túi kangaroo thuộc lớp thú có túi)."
+  },
+  {
+    "id": 26,
+    "difficulty": 1,
+    "question": "Nhạc sĩ tài hoa nào là tác giả của bài hát 'Tiến quân ca' (Quốc ca Việt Nam)?",
+    "options": ["Văn Cao", "Phạm Tuyên", "Trịnh Công Sơn", "Hoàng Việt"],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Văn Cao sáng tác ca khúc 'Tiến quân ca' vào năm 1944 tại Hà Nội."
+  },
+  {
+    "id": 27,
+    "difficulty": 1,
+    "question": "Trái cây nào được mệnh danh là 'Vua của các loài trái cây' ở Đông Nam Á?",
+    "options": ["Xoài cát", "Sầu riêng", "Măng cụt", "Chôm chôm"],
+    "correct": 1,
+    "explanation": "Sầu riêng được mệnh danh là Vua trái cây (King of Fruits), còn Măng cụt là Hoàng hậu trái cây."
+  },
+  {
+    "id": 28,
+    "difficulty": 1,
+    "question": "Đố vui dân gian: Con vịt nào bình thường cũng đi bằng hai chân?",
+    "options": ["Vịt Donald", "Vịt bầu", "Vịt xiêm", "Tất cả các con vịt"],
+    "correct": 3,
+    "explanation": "Tất cả các con vịt bình thường đều đi bằng hai chân!"
+  },
+  {
+    "id": 29,
+    "difficulty": 1,
+    "question": "Con sông lớn nào gắn liền ngàn năm lịch sử và chảy qua trung tâm thủ đô Hà Nội?",
+    "options": ["Sông Hồng", "Sông Hương", "Sông Cửu Long", "Sông Đồng Nai"],
+    "correct": 0,
+    "explanation": "Sông Hồng (sông Cái) chảy qua địa phận thành phố Hà Nội và bồi đắp đồng bằng Bắc Bộ."
+  },
+  {
+    "id": 30,
+    "difficulty": 1,
+    "question": "Một năm dương lịch thông thường (không phải năm nhuận) có bao nhiêu ngày?",
+    "options": ["364 ngày", "365 ngày", "366 ngày", "360 ngày"],
+    "correct": 1,
+    "explanation": "Năm thường có 365 ngày, năm nhuận có 366 ngày (thêm ngày 29 tháng 2)."
+  },
+  {
+    "id": 31,
+    "difficulty": 2,
+    "question": "Chiến thắng Điện Biên Phủ 'lừng lẫy năm châu, chấn động địa cầu' toàn thắng vào năm nào?",
+    "options": ["1945", "1954", "1972", "1975"],
+    "correct": 1,
+    "explanation": "Chiến dịch Điện Biên Phủ kết thúc thắng lợi rực rỡ vào chiều ngày 7 tháng 5 năm 1954."
+  },
+  {
+    "id": 32,
+    "difficulty": 2,
+    "question": "Vườn quốc gia Phong Nha - Kẻ Bàng, di sản thiên nhiên thế giới, thuộc tỉnh nào?",
+    "options": ["Quảng Bình", "Quảng Trị", "Quảng Ninh", "Ninh Bình"],
+    "correct": 0,
+    "explanation": "Vườn quốc gia Phong Nha - Kẻ Bàng thuộc địa phận tỉnh Quảng Bình."
+  },
+  {
+    "id": 33,
+    "difficulty": 2,
+    "question": "Trong cơ thể người, cơ quan nội tạng nào đảm nhiệm chức năng lọc máu và bài tiết nước tiểu?",
+    "options": ["Gan", "Thận", "Tụy", "Dạ dày"],
+    "correct": 1,
+    "explanation": "Hai quả thận đảm nhiệm vai trò lọc các chất thải từ máu để tạo ra nước tiểu bài tiết ra ngoài."
+  },
+  {
+    "id": 34,
+    "difficulty": 2,
+    "question": "Tác phẩm văn học nào được xem là cuốn truyện ngắn hiện đại đầu tiên viết bằng chữ Quốc ngữ?",
+    "options": ["Thầy Lazaro Phiền", "Số đỏ", "Chí Phèo", "Tắt đèn"],
+    "correct": 0,
+    "explanation": "Truyện 'Thầy Lazaro Phiền' của Nguyễn Trọng Quản được xuất bản vào năm 1887."
+  },
+  {
+    "id": 35,
+    "difficulty": 2,
+    "question": "Thang đo nào được sử dụng phổ biến nhất trên thế giới để xác định độ lớn của các trận động đất?",
+    "options": ["Richter", "Decibel", "Pascal", "Kelvin"],
+    "correct": 0,
+    "explanation": "Thang Richter do Charles Francis Richter đề xuất năm 1935 dùng để đo năng lượng chấn động."
+  },
+  {
+    "id": 36,
+    "difficulty": 2,
+    "question": "Ai là vị Trạng nguyên trẻ tuổi nhất lịch sử khoa bảng Việt Nam khi đỗ trạng nguyên lúc mới 13 tuổi?",
+    "options": ["Nguyễn Hiền", "Lê Văn Hưu", "Mạc Đĩnh Chi", "Lương Thế Vinh"],
+    "correct": 0,
+    "explanation": "Nguyễn Hiền thi đỗ Trạng nguyên năm 1247 thời vua Trần Thái Tông khi mới 13 tuổi."
+  },
+  {
+    "id": 37,
+    "difficulty": 2,
+    "question": "Khí nào chiếm tỷ lệ thể tích lớn nhất trong bầu khí quyển của Trái Đất?",
+    "options": ["Khí Oxy", "Khí Nitơ", "Khí Cacbonic", "Khí Argon"],
+    "correct": 1,
+    "explanation": "Khí Nitơ (N2) chiếm khoảng 78.08% thể tích bầu khí quyển Trái Đất."
+  },
+  {
+    "id": 38,
+    "difficulty": 2,
+    "question": "Vịnh Hạ Long - kỳ quan thiên nhiên thế giới nổi tiếng của Việt Nam - thuộc địa phận tỉnh nào?",
+    "options": ["Hải Phòng", "Quảng Ninh", "Thanh Hóa", "Nam Định"],
+    "correct": 1,
+    "explanation": "Vịnh Hạ Long nằm ở bờ tây vịnh Bắc Bộ thuộc tỉnh Quảng Ninh."
+  },
+  {
+    "id": 39,
+    "difficulty": 2,
+    "question": "Kim loại nào có độ dẫn điện và dẫn nhiệt tốt nhất trong tất cả các kim loại?",
+    "options": ["Đồng (Cu)", "Vàng (Au)", "Bạc (Ag)", "Nhôm (Al)"],
+    "correct": 2,
+    "explanation": "Bạc (Ag) là kim loại dẫn điện và dẫn nhiệt tốt nhất, xếp sau là đồng (Cu) và vàng (Au)."
+  },
+  {
+    "id": 40,
+    "difficulty": 2,
+    "question": "Ai là người nữ anh hùng đầu tiên xưng vương trong lịch sử đấu tranh chống giặc ngoại xâm của dân tộc?",
+    "options": ["Trưng Trắc", "Bà Triệu", "Nguyên phi Ỷ Lan", "Dương Vân Nga"],
+    "correct": 0,
+    "explanation": "Trưng Trắc xưng vương (Trưng Nữ Vương) vào năm 40 sau khi cùng em Trưng Nhị đánh đuổi giặc Đông Hán."
+  },
+  {
+    "id": 41,
+    "difficulty": 2,
+    "question": "Tỉnh nào có diện tích đất tự nhiên lớn nhất nước Cộng hòa Xã hội Chủ nghĩa Việt Nam?",
+    "options": ["Đắk Lắk", "Gia Lai", "Nghệ An", "Sơn La"],
+    "correct": 2,
+    "explanation": "Nghệ An có diện tích lớn nhất Việt Nam với hơn 16.490 km²."
+  },
+  {
+    "id": 42,
+    "difficulty": 2,
+    "question": "Trong vật lý, vận tốc ánh sáng truyền trong chân không có giá trị xấp xỉ bằng bao nhiêu?",
+    "options": ["300.000 km/s", "30.000 km/s", "3.000 km/s", "150.000 km/s"],
+    "correct": 0,
+    "explanation": "Vận tốc ánh sáng trong chân không là c ≈ 299.792 km/s, thường làm tròn là 300.000 km/s."
+  },
+  {
+    "id": 43,
+    "difficulty": 2,
+    "question": "Vị anh hùng dân tộc nào đã lãnh đạo chiến thắng Bạch Đằng năm 938 chấm dứt hơn 1000 năm Bắc thuộc?",
+    "options": ["Đinh Bộ Lĩnh", "Ngô Quyền", "Lê Hoàn", "Trần Hưng Đạo"],
+    "correct": 1,
+    "explanation": "Ngô Quyền dùng kế cắm cọc gỗ đầu bịt sắt trên sông Bạch Đằng tiêu diệt quân Nam Hán năm 938."
+  },
+  {
+    "id": 44,
+    "difficulty": 3,
+    "question": "Nhà bác học Hy Lạp cổ đại nào là người đầu tiên tính được chu vi Trái Đất với độ chính xác kinh ngạc?",
+    "options": ["Archimedes", "Eratosthenes", "Pythagoras", "Aristotle"],
+    "correct": 1,
+    "explanation": "Eratosthenes (thế kỷ 3 TCN) đo góc bóng Mặt Trời tại hai thành phố và tính ra chu vi Trái Đất sai số dưới 2%."
+  },
+  {
+    "id": 45,
+    "difficulty": 3,
+    "question": "Quốc gia nào sở hữu nhiều múi giờ nhất trên thế giới tính cả các vùng lãnh thổ hải ngoại?",
+    "options": ["Nước Nga", "Hoa Kỳ", "Nước Pháp", "Trung Quốc"],
+    "correct": 2,
+    "explanation": "Nước Pháp có tổng cộng 12 múi giờ do có nhiều vùng lãnh thổ hải ngoại rải rác toàn cầu."
+  },
+  {
+    "id": 46,
+    "difficulty": 3,
+    "question": "Trong bảng tuần hoàn hóa học Mendeleev, chữ cái Latinh duy nhất nào không có trong ký hiệu nguyên tố nào?",
+    "options": ["Chữ J", "Chữ Q", "Chữ X", "Chữ Z"],
+    "correct": 0,
+    "explanation": "Chữ cái 'J' là ký tự duy nhất trong bảng chữ cái Latinh không xuất hiện ở bất kỳ nguyên tố nào."
+  },
+  {
+    "id": 47,
+    "difficulty": 3,
+    "question": "Vị hoàng đế nào có thời gian trị vì trên ngai vàng lâu nhất trong lịch sử các triều đại phong kiến Việt Nam?",
+    "options": ["Lý Nhân Tông", "Lê Thánh Tông", "Trần Nhân Tông", "Lý Anh Tông"],
+    "correct": 0,
+    "explanation": "Vua Lý Nhân Tông (Lý Càn Đức) trị vì suốt 56 năm (từ 1072 đến 1128)."
+  },
+  {
+    "id": 48,
+    "difficulty": 3,
+    "question": "Hiện tượng quang học nào giải thích tại sao bầu trời vào ban ngày lại có màu xanh lam?",
+    "options": ["Tán xạ Raman", "Tán xạ Rayleigh", "Khúc xạ ánh sáng", "Nhiễu xạ ánh sáng"],
+    "correct": 1,
+    "explanation": "Tán xạ Rayleigh khiến ánh sáng bước sóng ngắn (màu xanh) trong ánh nắng bị tán xạ mạnh khắp bầu trời."
+  },
+  {
+    "id": 49,
+    "difficulty": 3,
+    "question": "Nhà thiên văn học nào là người đầu tiên tự chế tạo kính thiên văn để quan sát các thiên thể vũ trụ?",
+    "options": ["Galileo Galilei", "Hans Lippershey", "Johannes Kepler", "Isaac Newton"],
+    "correct": 0,
+    "explanation": "Năm 1609, Galileo Galilei hoàn thiện kính viễn vọng và lần đầu tiên phát hiện 4 vệ tinh lớn của sao Mộc."
+  },
+  {
+    "id": 50,
+    "difficulty": 3,
+    "question": "CÂU HỎI RUNG CHUÔNG VÀNG: Cây cầu thép lịch sử đầu tiên bắc qua sông Hồng tại Hà Nội khánh thành năm 1902 là cầu nào?",
+    "options": ["Cầu Long Biên", "Cầu Thăng Long", "Cầu Chương Dương", "Cầu Vĩnh Tuy"],
+    "correct": 0,
+    "explanation": "Cầu Long Biên (tên ban đầu là cầu Paul Doumer) khánh thành năm 1902, biểu tượng lịch sử kiên cường của Hà Nội."
   }
 ]

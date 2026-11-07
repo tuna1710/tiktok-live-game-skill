@@ -75,6 +75,10 @@ Server và Client giao tiếp với nhau qua **Socket.IO** bằng các sự ki�
    - Tích hợp giọng đọc TTS tiếng Việt thông qua endpoint `/api/tts?text=...` để đọc tên người tặng quà (tăng kích thích tương tác).
 4. **Bảng xếp hạng (Top Donors / Top Scorers):**
    - Luôn dành góc trên hoặc góc dưới để vinh danh Top 3 hoặc Top 5 người đóng góp nhiều nhất.
+5. **Quy tắc Thí sinh vào giữa chừng (Mid-Game Joiner Rule):**
+   - Người xem comment lần đầu khi game đã bắt đầu (từ Câu 2 trở đi hoặc đang chơi) chỉ được gán trạng thái Khán giả (`spectator` / `eliminated`), không được tự động gán `alive` làm sai lệch số lượng người sống sót của ván. Muốn vào sàn phải tặng quà hoặc đợi ván mới.
+6. **Động cơ Chống Khoảng Lặng (Anti-Dead Air Engine 8s):**
+   - Nếu phòng live im lặng suốt 8-10s (không ai comment/like/gift), hệ thống tự động gọi TTS nhắc lại câu hỏi hoặc phát câu thoại hài hước khuấy động để giữ chân người xem.
 
 ---
 
@@ -97,16 +101,19 @@ Khi AI Antigravity sinh mã nguồn cho một game mới, hãy tuân thủ các 
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "socket.io": "^4.7.5",
-    "tiktok-live-connector": "^1.1.8"
+    "tiktok-live-connector": "^2.5.0"
   }
 }
 ```
 
-### 5.2. `server.js` (Kết nối TikTok, Socket.IO & Mock Engine)
+### 5.2. `server.js` (Kết nối TikTok 2.x, TTS MD5 Disk Cache, Anti-Dead Air & Mock Engine)
 ```javascript
 require('dotenv').config();
 const path = require('path');
+const fs = require('fs');
 const http = require('http');
+const https = require('https');
+const crypto = require('crypto');
 const express = require('express');
 const cors = require('cors');
 const { Server } = require('socket.io');
@@ -120,53 +127,88 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Cache thư mục cho âm thanh TTS (MD5 disk-cache)
+const TTS_CACHE_DIR = path.join(__dirname, 'data', 'tts-cache');
+if (!fs.existsSync(TTS_CACHE_DIR)) {
+  fs.mkdirSync(TTS_CACHE_DIR, { recursive: true });
+}
+
+// Endpoint TTS tiếng Việt trực tiếp (Lọc emoji + MD5 Disk Cache)
+app.get('/api/tts', (req, res) => {
+  const text = (req.query.text || '').toString().trim();
+  if (!text) return res.status(400).send('Missing text parameter');
+
+  const cleanText = text
+    .replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+    .slice(0, 180).trim();
+  if (!cleanText) return res.status(400).send('Empty clean text');
+
+  const hash = crypto.createHash('md5').update(cleanText).digest('hex');
+  const cacheFile = path.join(TTS_CACHE_DIR, `${hash}.mp3`);
+
+  if (fs.existsSync(cacheFile)) {
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Cache-Control', 'public, max-age=604800');
+    return fs.createReadStream(cacheFile).pipe(res);
+  }
+
+  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
+  https.get(googleTtsUrl, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
+  }, (ttsRes) => {
+    if (ttsRes.statusCode === 200) {
+      res.writeHead(200, {
+        'Content-Type': 'audio/mpeg',
+        'Cache-Control': 'public, max-age=604800'
+      });
+      const fileStream = fs.createWriteStream(cacheFile);
+      ttsRes.pipe(fileStream);
+      ttsRes.pipe(res);
+    } else {
+      res.status(500).send('TTS fetch failed');
+    }
+  }).on('error', () => res.status(500).send('TTS error'));
+});
+
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-// TTS Proxy tiếng Việt
-app.get('/api/tts', (req, res) => {
-  const text = (req.query.text || '').toString().trim().slice(0, 150);
-  if (!text) return res.status(400).send('Missing text');
-  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encodeURIComponent(text)}`;
-  res.redirect(googleTtsUrl);
-});
-
-// Kết nối TikTok Live
+// Kết nối TikTok Live chuẩn 2.x
 let tiktokLive = null;
 if (TIKTOK_USERNAME) {
   try {
-    tiktokLive = new TikTokLiveConnection(TIKTOK_USERNAME);
+    const cleanUsername = TIKTOK_USERNAME.replace('@', '').trim();
+    tiktokLive = new TikTokLiveConnection(cleanUsername, {});
     tiktokLive.connect()
       .then(state => console.log(`Connected to TikTok Live: ${state.roomId}`))
       .catch(err => console.log(`TikTokLive error: ${err.message}`));
 
     tiktokLive.on('chat', data => {
       io.emit('chat', {
-        uniqueId: data.uniqueId,
-        nickname: data.nickname,
-        comment: data.comment,
-        profilePictureUrl: data.profilePictureUrl
+        uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+        nickname: data.user?.nickname || data.nickname || 'Khán giả',
+        comment: data.content || data.comment || '',
+        profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl
       });
     });
 
     tiktokLive.on('gift', data => {
       io.emit('gift', {
-        uniqueId: data.uniqueId,
-        nickname: data.nickname,
-        giftId: data.giftId,
-        giftName: data.giftName,
-        diamondCount: data.diamondCount,
-        repeatCount: data.repeatCount,
-        profilePictureUrl: data.profilePictureUrl
+        uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+        nickname: data.user?.nickname || data.nickname || 'Khán giả',
+        giftName: data.gift?.name || data.giftName || 'Quà',
+        diamondCount: Number(data.gift?.diamondCount) || Number(data.diamondCount) || 1,
+        repeatCount: Number(data.repeatCount) || 1,
+        profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl
       });
     });
 
     tiktokLive.on('like', data => {
       io.emit('like', {
-        uniqueId: data.uniqueId,
-        nickname: data.nickname,
-        likeCount: data.likeCount,
-        totalLikes: data.totalLikes
+        uniqueId: data.user?.id,
+        nickname: data.user?.nickname || data.nickname,
+        likeCount: Number(data.count) || Number(data.likeCount) || 1,
+        totalLikes: Number(data.total) || Number(data.totalLikes) || 0
       });
     });
   } catch (e) {

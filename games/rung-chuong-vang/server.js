@@ -147,7 +147,27 @@ class GoldenBellGame {
       "Ai chưa chọn đáp án thì gõ ngay A, B, C hoặc D, đồng hồ không đợi ai đâu nhé!",
       "Không khí đang rất căng thẳng, ai sẽ giữ vững vị trí trên sàn thi đấu đây?",
       "Chỉ còn ít giây nữa thôi, mau gõ đáp án vào ô chat để bảo vệ số báo danh của mình nào!",
-      "Các bạn chọn A, B, C hay D? Mau để lại bình luận để nhận diện vị trí nhé!"
+      "Các bạn chọn A, B, C hay D? Mau để lại bình luận để nhận diện vị trí nhé!",
+      "Alo alo, các chiến thần tư duy đâu hết rồi, đừng ngủ quên trên bàn phím chứ!",
+      "Mạnh dạn gõ đáp án đi các bạn ơi, thà chọn sai còn hơn bỏ cuộc nhé!",
+      "Đồng hồ tích tắc tích tắc, cơ hội Rung Chuông Vàng chỉ dành cho người nhanh tay thôi!",
+      "Có ai cần tổ tiên mách bảo không? Gõ nhanh A, B, C hoặc D kẻo chuông reo hết giờ!",
+      "Sàn đấu đang yên ắng bất thường, bão táp sắp ập tới rồi, mau chốt đơn đáp án nào!",
+      "Một đáp án đúng cứu vạn niềm tin! Ai tự tin ẵm trọn câu này thì comment ngay!",
+      "Bàn tay vàng trong làng gõ phím đang ở đâu? Mau để lại đáp án khẳng định đẳng cấp đi nào!",
+      "Chần chừ là bị loại ngay đó nha, linh cảm mách bảo chữ cái nào thì gõ liền chữ đó!",
+      "Các giáo sư Google và tiến sĩ trực giác ơi, thời khắc quyết định đã đến rồi!",
+      "Chỉ cần một chữ cái thôi mà suy nghĩ lâu thế ta? A, B, C hay là D đây?",
+      "Các bạn khán giả cứu trợ hãy chuẩn bị sẵn sàng, vòng này khéo phải giải cứu cả sàn đấu đấy!",
+      "Đố vui có thưởng, không thưởng thì có tiếng! Nhanh tay bình luận đáp án đi nào!",
+      "Tập trung cao độ, nhìn kỹ câu hỏi và ra đòn quyết định nào các sĩ tử ơi!",
+      "Đừng để đối thủ cười vào mặt nha, tự tin gõ đáp án mình tin tưởng nhất nào!",
+      "Thời gian vàng ngọc đang trôi, ai sẽ là người trụ lại cuối cùng để Rung Chuông Vàng?",
+      "Gõ nhanh tay kẻo hệ thống khóa sổ, cơ hội tỏa sáng nghìn năm có một!",
+      "Trực giác mách bảo gì thì gõ nấy, đừng nhìn bài đứa bên cạnh nha các bạn!",
+      "Hít một hơi thật sâu, thở ra và gõ ngay đáp án chuẩn xác nhất vào ô chat nào!",
+      "Cả phòng live đang nín thở chờ đợi các câu trả lời từ các cao thủ học đường!",
+      "Chớp mắt một cái là hết giờ đấy, bấm A B C hoặc D ngay và luôn đi nào!"
     ];
 
     // Xáo trộn câu hỏi

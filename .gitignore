@@ -16,7 +16,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # TTS Cache & Temp Files
-data/tts-cache/
+**/data/tts-cache/
+tts-cache/
+*.mp3
 __pycache__/
 *.pyc
 /tmp/

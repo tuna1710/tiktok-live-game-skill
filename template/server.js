@@ -99,10 +99,10 @@ function connectTikTok(username) {
   // Bắt sự kiện Comment
   tiktokLive.on('chat', data => {
     const payload = {
-      uniqueId: data.uniqueId,
-      nickname: data.nickname || data.uniqueId,
-      comment: data.comment,
-      profilePictureUrl: data.profilePictureUrl
+      uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+      nickname: data.user?.nickname || data.nickname || 'Khán giả',
+      comment: data.content || data.comment || '',
+      profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl
     };
     handleChat(payload);
   });
@@ -114,13 +114,13 @@ function connectTikTok(username) {
       return;
     }
     const payload = {
-      uniqueId: data.uniqueId,
-      nickname: data.nickname || data.uniqueId,
-      giftId: data.giftId,
-      giftName: data.giftName,
-      diamondCount: data.diamondCount || 1,
-      repeatCount: data.repeatCount || 1,
-      profilePictureUrl: data.profilePictureUrl
+      uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+      nickname: data.user?.nickname || data.nickname || 'Khán giả',
+      giftId: data.gift?.id || data.giftId,
+      giftName: data.gift?.name || data.giftName || 'Quà',
+      diamondCount: Number(data.gift?.diamondCount) || Number(data.diamondCount) || 1,
+      repeatCount: Number(data.repeatCount) || 1,
+      profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl
     };
     handleGift(payload);
   });
@@ -128,10 +128,10 @@ function connectTikTok(username) {
   // Bắt sự kiện Thả tim (Like)
   tiktokLive.on('like', data => {
     const payload = {
-      uniqueId: data.uniqueId,
-      nickname: data.nickname || data.uniqueId,
-      likeCount: data.likeCount || 1,
-      totalLikes: data.totalLikes || 0
+      uniqueId: data.user?.id || data.uniqueId,
+      nickname: data.user?.nickname || data.nickname || 'Khán giả',
+      likeCount: Number(data.count) || Number(data.likeCount) || 1,
+      totalLikes: Number(data.total) || Number(data.totalLikes) || 0
     };
     handleLike(payload);
   });
@@ -139,8 +139,8 @@ function connectTikTok(username) {
   // Bắt sự kiện người mới tham gia
   tiktokLive.on('member', data => {
     io.emit('member', {
-      uniqueId: data.uniqueId,
-      nickname: data.nickname || data.uniqueId
+      uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+      nickname: data.user?.nickname || data.nickname || 'Khán giả'
     });
   });
 
