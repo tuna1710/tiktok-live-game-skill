@@ -112,7 +112,7 @@ function getAudioContext() {
   return audioCtx;
 }
 
-// Phát TTS tiếng Việt
+// Phát TTS tiếng Việt với cơ chế Proxy + Fallback SpeechSynthesis
 let currentAudio = null;
 function playTts(text) {
   try {
@@ -123,9 +123,34 @@ function playTts(text) {
     }
     const url = `/api/tts?text=${encodeURIComponent(text)}`;
     currentAudio = new Audio(url);
-    currentAudio.play().catch(() => {});
-  } catch (e) {}
+    const playPromise = currentAudio.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(err => {
+        console.warn("[TTS] HTML5 Audio play() bị chặn bởi chính sách trình duyệt, kích hoạt Web Speech API fallback:", err.message);
+        // Fallback sang Web Speech API của trình duyệt
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(text);
+          utter.lang = 'vi-VN';
+          utter.rate = 1.0;
+          window.speechSynthesis.speak(utter);
+        }
+      });
+    }
+  } catch (e) {
+    console.error("[TTS] Lỗi phát âm thanh:", e);
+  }
 }
+
+// Hàm mở khóa âm thanh cho trình duyệt / OBS
+function unlockAudio() {
+  getAudioContext();
+  const banner = document.getElementById('audio-unlock-banner');
+  if (banner) banner.style.display = 'none';
+}
+window.addEventListener('click', unlockAudio);
+window.addEventListener('touchstart', unlockAudio);
+window.addEventListener('keydown', unlockAudio);
 
 // Âm thanh tích tắc đếm ngược
 function soundTick() {

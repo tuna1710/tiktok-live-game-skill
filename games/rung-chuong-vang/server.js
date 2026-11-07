@@ -41,12 +41,51 @@ app.use(express.static(path.join(__dirname, 'public')));
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-// TTS Proxy tiếng Việt
+const https = require('https');
+const ttsCache = new Map();
+
+// TTS Proxy tiếng Việt trực tiếp (Tránh lỗi CORS/Referer của Google Translate)
 app.get('/api/tts', (req, res) => {
   const text = (req.query.text || '').toString().trim().slice(0, 180);
   if (!text) return res.status(400).send('Missing text');
+
+  // Kiểm tra bộ nhớ đệm
+  if (ttsCache.has(text)) {
+    const cachedBuffer = ttsCache.get(text);
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Content-Length', cachedBuffer.length);
+    res.setHeader('Cache-Control', 'public, max-age=86400');
+    return res.end(cachedBuffer);
+  }
+
   const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encodeURIComponent(text)}`;
-  res.redirect(googleTtsUrl);
+  https.get(googleTtsUrl, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      'Referer': 'https://translate.google.com/'
+    }
+  }, (ttsRes) => {
+    if (ttsRes.statusCode !== 200) {
+      console.error(`[TTS] Lỗi phản hồi Google TTS status: ${ttsRes.statusCode}`);
+      return res.status(502).send('TTS upstream error');
+    }
+
+    const chunks = [];
+    ttsRes.on('data', chunk => chunks.push(chunk));
+    ttsRes.on('end', () => {
+      const audioBuffer = Buffer.concat(chunks);
+      if (audioBuffer.length > 500) {
+        ttsCache.set(text, audioBuffer);
+      }
+      res.setHeader('Content-Type', 'audio/mpeg');
+      res.setHeader('Content-Length', audioBuffer.length);
+      res.setHeader('Cache-Control', 'public, max-age=86400');
+      res.end(audioBuffer);
+    });
+  }).on('error', err => {
+    console.error('[TTS] Network error:', err.message);
+    res.status(500).send('TTS fetch error');
+  });
 });
 
 // API lấy thông tin câu hỏi
@@ -78,6 +117,7 @@ class GoldenBellGame {
     // Thống kê & Quán quân
     this.bellWinners = [];
     this.rescuers = new Map(); // uniqueId -> { nickname, count }
+    this.rescuedInThisRound = 0; // Đếm chính xác số người thực tế được cứu trong vòng cứu trợ
 
     // Xáo trộn câu hỏi
     this.gameQuestions = this.pickQuestions();
@@ -121,12 +161,18 @@ class GoldenBellGame {
     let player = this.players.get(uniqueId);
     if (!player) {
       const seat = this.nextSeat < this.maxSeats ? this.nextSeat++ : Math.floor(Math.random() * this.maxSeats);
+      // QUY TẮC RUNG CHUÔNG VÀNG:
+      // Thí sinh chỉ được vào trạng thái 'alive' khi ván đang ở trạng thái WAITING hoặc ở CÂU 1.
+      // Nếu ván đấu đã qua câu 1 hoặc đang diễn ra, người mới vào sẽ ở trạng thái 'eliminated' (chờ ván sau hoặc tặng quà để vào).
+      const isAtInitialRound = (this.status === 'WAITING' || this.currentQuestionIndex === 0);
+      const initialStatus = isAtInitialRound ? 'alive' : 'eliminated';
+
       player = {
         uniqueId,
         nickname: nickname || `Thí sinh ${seat + 1}`,
         profilePictureUrl: avatar || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7339798083893821445~c5_100x100.jpeg',
         seatIndex: seat,
-        status: 'alive',
+        status: initialStatus,
         answer: null,
         streak: 0,
         score: 0
@@ -185,6 +231,8 @@ class GoldenBellGame {
       p.answer = null;
     });
 
+    this.rescuedInThisRound += rescued.length;
+
     this.io.emit('rescue_occurred', {
       type: 'energy',
       rescuedCount: rescued.length,
@@ -218,6 +266,7 @@ class GoldenBellGame {
       if (player && player.status === 'eliminated') {
         player.status = 'alive';
         player.answer = null;
+        this.rescuedInThisRound += 1;
         this.io.emit('rescue_occurred', {
           type: 'self',
           rescuer: nickname,
@@ -241,17 +290,21 @@ class GoldenBellGame {
         count++;
       }
     }
+    this.rescuedInThisRound += count;
     this.broadcastState();
     return count;
   }
 
   startGame() {
+    console.log('[Game] Bắt đầu ván chơi mới từ CÂU 1!');
     this.status = 'WAITING';
     this.currentQuestionIndex = 0;
     this.gameQuestions = this.pickQuestions();
     this.bellWinners = [];
+    this.rescuedInThisRound = 0;
+    this.rescueEnergy = 0;
 
-    // Reset trạng thái tất cả người chơi
+    // Reset toàn bộ thí sinh quay lại sàn đấu với trạng thái 'alive'
     for (const p of this.players.values()) {
       p.status = 'alive';
       p.answer = null;
@@ -260,6 +313,7 @@ class GoldenBellGame {
     }
 
     this.broadcastState();
+    this.io.emit('game_reset', { message: "Ván mới bắt đầu lại từ CÂU 1! Tất cả thí sinh trở lại sàn đấu." });
     this.nextQuestion();
   }
 
@@ -381,6 +435,7 @@ class GoldenBellGame {
   startRescueRound() {
     this.status = 'RESCUE';
     this.rescueTimer = RESCUE_DURATION;
+    this.rescuedInThisRound = 0; // Đặt lại số người thực tế được cứu
 
     this.io.emit('rescue_round_start', {
       timer: this.rescueTimer,
@@ -394,22 +449,27 @@ class GoldenBellGame {
 
       if (this.rescueTimer <= 0) {
         clearInterval(this.timerInterval);
-        const aliveAfterRescue = this.getAliveCount();
-        if (aliveAfterRescue > 0) {
-          // Cứu trợ thành công! Tiếp tục vòng thi
-          this.io.emit('rescue_round_end', { success: true, aliveCount: aliveAfterRescue });
+        const aliveCount = this.getAliveCount();
+
+        // CHỈ TIẾP TỤC NẾU CÓ NGƯỜI THỰC SỰ ĐƯỢC CỨU (qua Tim hoặc Quà)
+        if (this.rescuedInThisRound > 0 && aliveCount > 0) {
+          console.log(`[Rescue] Cứu trợ thành công: ${this.rescuedInThisRound} người được cứu.`);
+          this.io.emit('rescue_round_end', { success: true, aliveCount });
           setTimeout(() => {
             this.currentQuestionIndex++;
             this.nextQuestion();
           }, 3000);
         } else {
-          // Thất bại -> Game Over
+          // KHÔNG CÓ AI HỒI SINH -> SÀN ĐẤU THẤT THỦ HOÀN TOÀN -> BẮT BUỘC RESET VỀ CÂU 1
+          console.log('[Rescue] Không có ai được cứu trợ. Reset ván chơi về CÂU 1!');
           this.status = 'GAME_OVER';
           this.io.emit('game_over', {
-            message: "Không có ai được cứu trợ. Ván đấu kết thúc!",
+            message: "KHÔNG CÓ AI HỒI SINH! Sàn đấu thất thủ. Trò chơi bắt đầu lại từ CÂU 1!",
             topScores: this.getTopPlayers()
           });
-          setTimeout(() => this.startGame(), 8000);
+          setTimeout(() => {
+            this.startGame(); // Reset hoàn toàn về CÂU 1
+          }, 5000);
         }
       }
     }, 1000);

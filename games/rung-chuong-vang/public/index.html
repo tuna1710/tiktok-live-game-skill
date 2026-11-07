@@ -18,6 +18,11 @@
     <!-- Lớp Canvas hiệu ứng hạt pháo hoa & sấm sét -->
     <canvas id="fx-canvas"></canvas>
 
+    <!-- Nút Bật Âm thanh & Giọng đọc TTS (Bấm 1 lần để mở khóa audio trình duyệt) -->
+    <div id="audio-unlock-banner" onclick="unlockAudio()" style="position: absolute; top: 16px; right: 24px; z-index: 999; background: rgba(0, 242, 254, 0.25); border: 2px solid #00f2fe; color: #fff; padding: 8px 18px; border-radius: 20px; font-size: 14px; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: 0 0 15px rgba(0, 242, 254, 0.4); backdrop-filter: blur(5px);">
+      <span>🔊 Bấm mở Âm thanh & TTS</span>
+    </div>
+
     <!-- HEADER: Thông tin ván đấu & Đếm ngược -->
     <header class="game-header">
       <div class="header-top">
