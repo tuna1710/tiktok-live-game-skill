@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "type": "ĐẠI CÁT",
+    "title": "Long Phụng Trình Tường",
+    "poem": "Đầu năm rồng lượn phượng hoàng ca\nPhúc ấm đầy kho vạn sự hòa\nTài lộc dồi dào vinh hiển đến\nXuân nồng hạnh phúc khắp muôn nhà.",
+    "taiLoc": "Tiền tài vào như nước, kinh doanh đại phát.",
+    "tinhDuyen": "Hỷ sự trùng phùng, duyên lành viên mãn.",
+    "congDanh": "Thăng quan tiến chức, quý nhân phù trợ.",
+    "sucKhoe": "Khí huyết dồi dào, tâm an bình thản.",
+    "luckyNumber": 68,
+    "shortAdvice": "Năm nay đại cát, mạnh dạn thực hiện dự định lớn!"
+  },
+  {
+    "id": 2,
+    "type": "THƯỢNG CÁT",
+    "title": "Kim Ngọc Mãn Đường",
+    "poem": "Vàng ngọc đầy nhà dạ chẳng lo\nThuyền xuân cặp bến nặng khoang đò\nTrời ban phúc đức mười phần vẹn\nThịnh vượng an khang dạ ấm no.",
+    "taiLoc": "Tài chính khởi sắc, tích lũy dồi dào.",
+    "tinhDuyen": "Ấm êm thuận hòa, gia đạo yên vui.",
+    "congDanh": "Được cấp trên trọng dụng, bạn bè ủng hộ.",
+    "sucKhoe": "Dẻo dai bền bỉ, cần chú ý giấc ngủ.",
+    "luckyNumber": 88,
+    "shortAdvice": "Biết quản lý tài chính, lộc bền vững cả năm."
+  },
+  {
+    "id": 3,
+    "type": "ĐẠI CÁT",
+    "title": "Mã Đáo Thành Công",
+    "poem": "Ngựa phi nghìn dặm vượt gian lao\nĐón ánh bình minh rạng rỡ chào\nSự nghiệp thăng hoa danh sáng tỏ\nTrời xuân phơi phới dạ thanh cao.",
+    "taiLoc": "Ký kết thuận lợi, thu về lợi nhuận cao.",
+    "tinhDuyen": "Người độc thân sớm tìm được ý trung nhân.",
+    "congDanh": "Đạt được bước nhảy vọt quan trọng.",
+    "sucKhoe": "Tràn đầy năng lượng, sức sống căng tràn.",
+    "luckyNumber": 99,
+    "shortAdvice": "Quyết đoán nắm bắt cơ hội vào đầu mùa xuân!"
+  },
+  {
+    "id": 4,
+    "type": "THƯỢNG CÁT",
+    "title": "Thuận Buồm Xuôi Gió",
+    "poem": "Gió lành nâng cánh cánh buồm giăng\nSóng lặng trời quang ánh sáng ngời\nChuyến hải hành xuân nhiều thuận lợi\nBến về trĩu nặng lộc nơi nơi.",
+    "taiLoc": "Nguồn thu mở rộng, không lo túng thiếu.",
+    "tinhDuyen": "Có người thầm thương trộm nhớ, tình cảm êm đềm.",
+    "congDanh": "Dự án mới trôi chảy, ít gặp trở ngại.",
+    "sucKhoe": "Tâm trí nhẹ nhàng, thể chất dồi dào.",
+    "luckyNumber": 79,
+    "shortAdvice": "Đi xa cầu tài rất có lợi trong năm nay."
+  },
+  {
+    "id": 5,
+    "type": "TRUNG CÁT",
+    "title": "Khai Hoa Kết Quả",
+    "poem": "Mùa xuân chồi biếc nở ngàn hoa\nVun đắp bao năm quả ngọt mà\nKiên nhẫn cần cù gieo quả phúc\nMùa màng bội thu rạng cửa nhà.",
+    "taiLoc": "Thu nhập ổn định, cần kiên trì không vội vã.",
+    "tinhDuyen": "Tình cảm đơm hoa kết trái, có tin vui gia đình.",
+    "congDanh": "Công sức bỏ ra bắt đầu được đền đáp xứng đáng.",
+    "sucKhoe": "Tốt, cần duy trì thể dục hàng ngày.",
+    "luckyNumber": 39,
+    "shortAdvice": "Làm thật ăn thật, phúc lộc tự khắc tụ lại."
+  },
+  {
+    "id": 6,
+    "type": "ĐẠI CÁT",
+    "title": "Tấn Tài Tấn Lộc",
+    "poem": "Cửa đón thần tài bước ghé chơi\nBạc vàng tích tụ khắp nơi nơi\nNiềm vui nhân bội muôn điều may\nRộn rã hoan ca suốt cuộc đời.",
+    "taiLoc": "Tiền vô như nước sông Đà, tiền ra nhỏ giọt.",
+    "tinhDuyen": "Hạnh phúc ngập tràn, vạn sự như ý.",
+    "congDanh": "Uy tín tăng cao, mở rộng nhiều mối làm ăn.",
+    "sucKhoe": "Bình an khỏe mạnh, thần sắc tươi nhuận.",
+    "luckyNumber": 86,
+    "shortAdvice": "Năng làm việc thiện để giữ trọn vẹn tài lộc!"
+  },
+  {
+    "id": 7,
+    "type": "THƯỢNG CÁT",
+    "title": "Duyên Lành Tác Hợp",
+    "poem": "Tơ hồng se thắm mối nhân duyên\nGặp gỡ tri âm hết muộn phiền\nĐầu xuân sánh bước bên người ngọc\nBình yên dạo bước cảnh trần tiên.",
+    "taiLoc": "Đủ chi tiêu dư dả, có lộc từ người thân.",
+    "tinhDuyen": "Đào hoa nở rộ, tình cảm thăng hoa ngọt ngào.",
+    "congDanh": "Môi trường làm việc hòa đồng, quý nhân nâng đỡ.",
+    "sucKhoe": "Tâm hồn vui tươi, rạng rỡ nụ cười.",
+    "luckyNumber": 52,
+    "shortAdvice": "Mở lòng đón nhận yêu thương và tha thứ."
+  },
+  {
+    "id": 8,
+    "type": "TRUNG CÁT",
+    "title": "Bình An Như Ý",
+    "poem": "Tâm an vạn sự tự bình an\nKhông giông chẳng bão dạ thanh nhàn\nĐầu năm thắp nén nhang thành kính\nPhúc khí tràn trề rực ánh quang.",
+    "taiLoc": "Bình ổn, đủ đầy, tránh tham lam đỏ đen.",
+    "tinhDuyen": "Gia đình sum vầy êm ấm, ít cãi vã.",
+    "congDanh": "Ổn định từng bước vững chắc.",
+    "sucKhoe": "Tráng kiện, giữ nếp sống lành mạnh.",
+    "luckyNumber": 18,
+    "shortAdvice": "Biết đủ là hạnh phúc, tâm an lộc tự sinh."
+  }
+]

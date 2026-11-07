@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng Điều Khiển Giả Lập - Bốc Quẻ Đầu Năm</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: #180306; color: #fce7e9; padding: 20px; }
+    .container { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    h1 { font-size: 22px; color: #ffd700; text-align: center; }
+    .subtitle { text-align: center; color: #fca5a5; font-size: 13px; }
+    .card { background: #2b060b; border: 1px solid rgba(255, 215, 0, 0.3); border-radius: 12px; padding: 16px; }
+    .card-title { font-size: 15px; font-weight: 800; color: #ffd700; margin-bottom: 12px; }
+    .form-group { display: flex; gap: 10px; margin-bottom: 10px; }
+    input { flex: 1; padding: 10px; background: #120103; border: 1px solid #7f1d1d; border-radius: 8px; color: #fff; font-size: 14px; }
+    button { padding: 10px 16px; border-radius: 8px; font-weight: 700; font-size: 13px; cursor: pointer; border: none; transition: 0.15s; }
+    button:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-gold { background: #ffd700; color: #000; }
+    .btn-red { background: #b91c1c; color: #fff; }
+    .btn-quick { background: #450a0a; color: #fecaca; border: 1px solid #991b1b; padding: 6px 12px; border-radius: 6px; }
+    .quick-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .gift-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .gift-btn { background: #3b070c; border: 1px solid #ffd700; color: #fff; display: flex; flex-direction: column; align-items: center; padding: 10px; border-radius: 8px; gap: 4px; }
+    .gift-btn:hover { background: #b91c1c; }
+    .gift-icon { font-size: 24px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>🎋 GIẢ LẬP SỰ KIỆN: BỐC QUẺ ĐẦU NĂM</h1>
+      <p class="subtitle">Kiểm thử hàng đợi thường (Comment) và hàng đợi VIP ưu tiên (Tặng quà)</p>
+      <div style="text-align: center; margin-top: 10px;">
+        <a href="/index.html" target="_blank" style="color: #ffd700; font-size: 14px; text-decoration: underline;">👉 Mở Màn Hình Game 9:16 (index.html)</a>
+      </div>
+    </div>
+
+    <!-- Giả Lập Bình Luận Xin Quẻ -->
+    <div class="card">
+      <div class="card-title">💬 Giả Lập Comment (Xếp Hàng Thường)</div>
+      <div class="form-group">
+        <input type="text" id="user-name" value="NguyenVanA" style="max-width: 140px;" placeholder="Tên">
+        <input type="text" id="comment-text" placeholder="Nội dung bình luận..." value="Xin quẻ đầu năm">
+        <button class="btn-gold" onclick="sendChat()">Gửi Comment</button>
+      </div>
+      <div class="quick-list">
+        <button class="btn-quick" onclick="quickChat('Xin quẻ')">Gõ: "Xin quẻ"</button>
+        <button class="btn-quick" onclick="quickChat('Bốc quẻ tình duyên 1999')">Gõ: "Bốc quẻ tình duyên 1999"</button>
+        <button class="btn-quick" onclick="quickChat('Cầu tài lộc buôn bán')">Gõ: "Cầu tài lộc buôn bán"</button>
+        <button class="btn-quick" onclick="quickChat('1')">Gõ: "1"</button>
+        <button class="btn-quick" onclick="simulateMultiUsers()">🔥 Thêm 3 người cùng xếp hàng</button>
+      </div>
+    </div>
+
+    <!-- Giả Lập Tặng Quà Ưu Tiên VIP -->
+    <div class="card">
+      <div class="card-title">🎁 Tặng Quà Đầu Năm (Nhảy Lên Hàng Đợi VIP)</div>
+      <div class="gift-grid">
+        <button class="gift-btn" onclick="sendGift('Hoa Hồng', 1, 1)">
+          <span class="gift-icon">🌹</span>
+          <strong>Hoa Hồng (1 xu)</strong>
+          <span style="font-size: 11px; color: #fca5a5;">Ưu tiên VIP</span>
+        </button>
+        <button class="gift-btn" onclick="sendGift('Trái Tim', 10, 1)">
+          <span class="gift-icon">💖</span>
+          <strong>Trái Tim (10 xu)</strong>
+          <span style="font-size: 11px; color: #ffd700;">Quẻ Đại Cát</span>
+        </button>
+        <button class="gift-btn" onclick="sendGift('Súng Tiền', 500, 1)">
+          <span class="gift-icon">💸</span>
+          <strong>Súng Tiền (500 xu)</strong>
+          <span style="font-size: 11px; color: #ffd700;">VIP Siêu Cấp</span>
+        </button>
+        <button class="gift-btn" onclick="sendGift('Sư Tử', 29999, 1)">
+          <span class="gift-icon">🦁</span>
+          <strong>Sư Tử Vàng</strong>
+          <span style="font-size: 11px; color: #ffd700;">Đại Gia Phòng Live</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Thả tim & Điều khiển -->
+    <div class="card" style="display: flex; justify-content: space-between; align-items: center;">
+      <button class="btn-gold" onclick="sendLikes(15)">❤️ Thả 15 Tim (Tích Công Đức)</button>
+      <button class="btn-red" onclick="resetGame()">🔄 Đặt lại ván (Reset)</button>
+    </div>
+  </div>
+
+  <script>
+    const socket = io();
+
+    function sendChat() {
+      const name = document.getElementById('user-name').value.trim() || 'DaoHuu_01';
+      const text = document.getElementById('comment-text').value.trim() || 'Xin quẻ';
+      socket.emit('mock:chat', {
+        uniqueId: name.toLowerCase(),
+        nickname: name,
+        comment: text,
+        profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+      });
+    }
+
+    function quickChat(text) {
+      document.getElementById('comment-text').value = text;
+      sendChat();
+    }
+
+    function simulateMultiUsers() {
+      const names = ['TranThanh', 'NgocTrinh', 'SonTung'];
+      names.forEach((n, idx) => {
+        setTimeout(() => {
+          socket.emit('mock:chat', {
+            uniqueId: n.toLowerCase(),
+            nickname: n,
+            comment: 'Xin quẻ đầu năm may mắn!',
+            profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+          });
+        }, idx * 600);
+      });
+    }
+
+    function sendGift(name, diamonds, repeat) {
+      const userName = document.getElementById('user-name').value.trim() || 'DaiGia_XinQue';
+      socket.emit('mock:gift', {
+        uniqueId: userName.toLowerCase(),
+        nickname: userName,
+        giftName: name,
+        diamondCount: diamonds,
+        repeatCount: repeat,
+        profilePictureUrl: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg'
+      });
+    }
+
+    function sendLikes(cnt) {
+      socket.emit('mock:like', { likeCount: cnt, totalLikes: cnt });
+    }
+
+    function resetGame() {
+      if (confirm('Đặt lại game?')) socket.emit('game:reset');
+    }
+  </script>
+</body>
+</html>

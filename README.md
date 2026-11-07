@@ -97,7 +97,7 @@ tiktok-live-game-skill/
 │
 ├── template/                  # 📦 STARTER KIT CHUẨN ĐỂ NHÂN BẢN
 │   ├── package.json
-│   ├── server.js              # Node.js + TikTokLiveConnector + Socket.IO + TTS
+│   ├── server.js              # Node.js + TikTokLiveConnector + Socket.IO + TTS + REST Mock
 │   ├── .env.example
 │   ├── run_colab.py           # Chế độ A: OBS Cloudflare Tunnel
 │   ├── live_ngam_tiktok.py    # Chế độ B: RTMP Stream ngầm rảnh tay
@@ -107,17 +107,19 @@ tiktok-live-game-skill/
 │       ├── game.js            # Engine vòng lặp game + hiệu ứng
 │       └── admin.html         # Bảng test sự kiện quà/chat
 │
-└── examples/
-    └── battle-red-vs-blue/    # ⚔️ GAME MẪU: ĐẠI CHIẾN ĐỎ VS XANH
-        ├── package.json
-        ├── server.js
+└── games/
+    ├── boc-que-dau-nam/       # 🎋 GAME: BỐC QUẺ ĐẦU NĂM (TẾT TRUYỀN THỐNG)
+    │   ├── data/que_database.json # Cơ sở dữ liệu quẻ Đại Cát, Thượng Cát
+    │   ├── server.js          # Quản lý Hàng đợi VIP & Thường, TTS đọc quẻ
+    │   ├── run_colab.py
+    │   ├── live_ngam_tiktok.py
+    │   └── public/ (index.html, game.js, style.css, admin.html)
+    │
+    └── battle-red-vs-blue/    # ⚔️ GAME: ĐẠI CHIẾN ĐỎ VS XANH
+        ├── server.js          # Cơ chế kéo co 2 phe
         ├── run_colab.py
         ├── live_ngam_tiktok.py
-        └── public/
-            ├── index.html
-            ├── style.css
-            ├── game.js
-            └── admin.html
+        └── public/ (index.html, game.js, style.css, admin.html)
 ```
 
 ---

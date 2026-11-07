@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Bốc Quẻ Đầu Năm - TikTok Live 9:16</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="game-container">
+    
+    <!-- Canvas rơi cánh hoa mai / hoa đào / pháo hoa -->
+    <canvas id="fx-canvas" width="1080" height="1920"></canvas>
+
+    <!-- Header phong thủy Tết -->
+    <header class="tet-header">
+      <div class="header-banner">
+        <span class="lantern-icon">🏮</span>
+        <div class="header-titles">
+          <h1 class="main-title">🎋 BỐC QUẺ ĐẦU NĂM</h1>
+          <p class="sub-title">CẦU TÀI - ĐẮC LỘC - VẠN SỰ AN KHANG</p>
+        </div>
+        <span class="lantern-icon">🏮</span>
+      </div>
+      <div class="cong-duc-bar">
+        <span class="cong-duc-label">✨ Công Đức Tích Lũy:</span>
+        <span id="cong-duc-val" class="cong-duc-val">0</span>
+      </div>
+    </header>
+
+    <!-- Khu vực chính: Ống Xăm & Cuộn Sớ Giải Quẻ -->
+    <main class="fortune-stage">
+      
+      <!-- Hộp hướng dẫn nhanh -->
+      <div class="instructions-pill">
+        💬 Comment: <strong>"Xin quẻ"</strong> để xếp hàng | 🌹 Tặng quà: <strong>Ưu tiên VIP quẻ Đại Cát</strong>
+      </div>
+
+      <!-- Trạng thái Ống Xăm Lắc Lư -->
+      <div id="shaker-container" class="shaker-container">
+        <div id="fortune-tube" class="fortune-tube">
+          <div class="tube-lid"></div>
+          <div class="tube-body">
+            <div class="tube-seal">福</div>
+            <div class="tube-sticks">
+              <span class="stick s1"></span>
+              <span class="stick s2"></span>
+              <span class="stick s3"></span>
+              <span class="stick s4"></span>
+              <span class="stick s5"></span>
+            </div>
+          </div>
+          <div class="tube-base"></div>
+        </div>
+        <div id="shaker-status-text" class="shaker-status">Thành tâm gõ "Xin quẻ" để rút thẻ...</div>
+      </div>
+
+      <!-- Thẻ Quẻ & Cuộn Sớ Thư Pháp (Hiển thị khi mở quẻ) -->
+      <div id="scroll-wrapper" class="scroll-wrapper hidden">
+        <div class="scroll-wood wood-top"></div>
+        <div class="scroll-paper">
+          
+          <div class="seeker-header">
+            <img id="seeker-avatar" class="seeker-avatar" src="" alt="avatar">
+            <div class="seeker-meta">
+              <div id="seeker-name" class="seeker-name">Tên Khán Giả</div>
+              <div id="seeker-badge" class="seeker-badge">QUẺ VIP ĐẦU XUÂN</div>
+            </div>
+            <div id="seal-stamp" class="seal-stamp">ĐẠI CÁT</div>
+          </div>
+
+          <div class="fortune-content">
+            <div id="fortune-title" class="fortune-title">LONG PHỤNG TRÌNH TƯỜNG</div>
+            <div id="fortune-poem" class="fortune-poem">Đầu năm rồng lượn phượng hoàng ca...</div>
+            
+            <div class="aspects-grid">
+              <div class="aspect-card">
+                <span class="aspect-icon">💰</span>
+                <div>
+                  <strong>Tài Lộc:</strong> <span id="aspect-tailoc">Tiền vào như nước</span>
+                </div>
+              </div>
+              <div class="aspect-card">
+                <span class="aspect-icon">❤️</span>
+                <div>
+                  <strong>Tình Duyên:</strong> <span id="aspect-tinhduyen">Hỷ sự viên mãn</span>
+                </div>
+              </div>
+              <div class="aspect-card">
+                <span class="aspect-icon">💼</span>
+                <div>
+                  <strong>Công Danh:</strong> <span id="aspect-congdanh">Thăng quan tiến chức</span>
+                </div>
+              </div>
+              <div class="aspect-card">
+                <span class="aspect-icon">🌿</span>
+                <div>
+                  <strong>Sức Khỏe:</strong> <span id="aspect-suckhoe">Tâm an thân kiện</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="fortune-footer-tip">
+              ⭐ Con số may mắn: <strong id="lucky-num">68</strong> | 💡 <span id="short-advice">Năm nay đại cát!</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="scroll-wood wood-bottom"></div>
+      </div>
+
+    </main>
+
+    <!-- Footer: Danh Sách Hàng Đợi & Lịch Sử -->
+    <footer class="tet-footer">
+      
+      <!-- Hàng đợi VIP Ưu Tiên -->
+      <div class="queue-section vip-section">
+        <div class="section-title">⭐ HÀNG ĐỢI VIP (TẶNG QUÀ ƯU TIÊN)</div>
+        <div id="vip-queue-list" class="queue-chips-bar">
+          <span class="empty-hint">Chưa có ai trong hàng VIP</span>
+        </div>
+      </div>
+
+      <!-- Hàng đợi thường & Lịch sử -->
+      <div class="footer-bottom-grid">
+        <div class="queue-box">
+          <div class="section-title">👥 ĐANG XẾP HÀNG XIN QUẺ</div>
+          <div id="normal-queue-list" class="queue-vertical-list">
+            <div class="queue-empty">Gõ "Xin quẻ" để vào hàng đợi</div>
+          </div>
+        </div>
+
+        <div class="history-box">
+          <div class="section-title">📜 QUẺ VỪA RÚT</div>
+          <div id="history-list" class="history-vertical-list">
+            <div class="history-empty">Chưa có quẻ nào</div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
