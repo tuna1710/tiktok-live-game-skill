@@ -7,6 +7,10 @@
   user-select: none;
 }
 
+.hidden {
+  display: none !important;
+}
+
 body {
   background-color: #120204;
   color: #fff;
