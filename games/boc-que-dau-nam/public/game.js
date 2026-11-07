@@ -254,6 +254,30 @@ class TetSoundEngine {
     });
   }
 
+  // 8. Kèn Trận Hoàng Gia Triệu Hồi Thần Tài (VIP Kim Cương)
+  playRoyalFanfare() {
+    if (this.isMuted) return;
+    this.ensureContext();
+    if (!this.ctx) return;
+    const fanfareNotes = [261.63, 329.63, 392.00, 523.25, 392.00, 523.25];
+    fanfareNotes.forEach((f, idx) => {
+      setTimeout(() => {
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(f, now);
+        gain.gain.setValueAtTime(0.35, now);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.6);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.6);
+      }, idx * 160);
+    });
+  }
+
   // 5. Nhạc nền BGM Ngũ Cung Ngày Xuân (Điệu đàn tranh du dương)
   startBgm() {
     if (this.bgmPlaying || this.isMuted) return;
@@ -414,11 +438,11 @@ function processNextTts() {
 socket.on('gameState', state => {
   congDucValEl.textContent = state.totalCongDuc.toLocaleString();
 
-  // Cập nhật hàng VIP
+  // Cập nhật hàng VIP đa tầng
   if (state.vipQueue && state.vipQueue.length > 0) {
     vipQueueList.innerHTML = state.vipQueue.map(u => `
-      <div class="vip-chip">
-        <span>⭐ ${u.nickname}</span>
+      <div class="vip-chip vip-${u.vipTier || 'silver'}">
+        <span>${u.vipTier === 'diamond' ? '👑' : (u.vipTier === 'gold' ? '🥈' : '🥉')} ${u.nickname}</span>
         <span>(${u.giftName || 'VIP'})</span>
       </div>
     `).join('');
@@ -601,6 +625,31 @@ socket.on('audio:sfx', data => {
       fortune: { type: 'ĐẠI CÁT', title: 'TIẾN BẢO CHIÊU TÀI', poem: 'Xuân về hoa nở thắm tươi\nTài danh đắc ý trọn mười phần vui', taiLoc: 'Đại Hưng', tinhDuyen: 'Viên Mãn' },
       isVip: true
     });
+  }
+});
+
+// Sự kiện Triệu Hồi Thần Tài Hoàng Kim (VIP Kim Cương)
+const thantaiBanner = document.getElementById('thantai-summon-banner');
+const thantaiSponsor = document.getElementById('thantai-sponsor');
+
+socket.on('thantai:summon', data => {
+  soundEngine.playRoyalFanfare();
+  soundEngine.playFirecrackers();
+
+  if (thantaiSponsor) {
+    thantaiSponsor.textContent = `ĐẠI GIA ${data.user.nickname.toUpperCase()} TẶNG ${data.giftName.toUpperCase()} BAN LỘC KIM CƯƠNG!`;
+  }
+
+  if (thantaiBanner) {
+    thantaiBanner.classList.remove('hidden');
+    // Khởi động lại hoạt ảnh bay
+    thantaiBanner.style.animation = 'none';
+    thantaiBanner.offsetHeight; // force reflow
+    thantaiBanner.style.animation = 'thantaiFly 4.5s ease-in-out forwards';
+
+    setTimeout(() => {
+      thantaiBanner.classList.add('hidden');
+    }, 4500);
   }
 });
 

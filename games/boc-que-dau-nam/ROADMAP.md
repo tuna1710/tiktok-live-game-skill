@@ -11,7 +11,7 @@
 | **v1.1** | Audiovisual & SFX Chân Thực | Âm thanh lắc xăm tre, chiêng đồng, pháo nổ, nhạc BGM Tết, thiệp chụp ảnh | ✅ ĐÃ HOÀN THÀNH |
 | **v1.2** | Phân Loại Quẻ & Cá Nhân Hóa | Rút quẻ theo ý (Tình duyên, Tài lộc, Công danh), nhận diện Tên & Năm sinh | ✅ ĐÃ HOÀN THÀNH |
 | **v1.3** | Quẻ Đại Hạn & Thử Thách Hóa Giải | Quẻ Hạ Hạ troll dí dỏm, đếm ngược cả phòng thả tim hoặc tặng quà giải hạn | ✅ ĐÃ HOÀN THÀNH |
-| **v1.4** | Quà Tặng VIP Đa Tầng & Thần Tài | 3 cấp bậc VIP (Bạc, Vàng, Kim Cương), hiệu ứng Thần Tài bay qua màn hình | ⏳ CHỜ TRIỂN KHAI |
+| **v1.4** | Quà Tặng VIP Đa Tầng & Thần Tài | 3 cấp bậc VIP (Bạc, Vàng, Kim Cương), hiệu ứng Thần Tài bay qua màn hình | ✅ ĐÃ HOÀN THÀNH |
 | **v1.5** | Bảng Phú Hộ & Gamification | Top 3 Phú Hộ donate nhiều nhất, Thanh Phúc Khí toàn phòng, Chống spam | ⏳ CHỜ TRIỂN KHAI |
 
 ---
@@ -62,14 +62,15 @@
 
 ---
 
-### 🎋 MILESTONE 4: v1.4 - Cơ Chế Quà Tặng VIP Đa Tầng & Triệu Hồi Thần Tài
-- [ ] **Phân tầng cấp bậc VIP theo giá trị quà tặng:**
-  - [ ] 🥉 **VIP Bạc (1 – 9 Xu):** Ưu tiên xếp hàng bốc trước.
-  - [ ] 🥈 **VIP Vàng (10 – 99 Xu):** Khung thẻ quẻ mạ vàng lấp lánh, hiệu ứng pháo hoa toàn màn hình, cam kết 100% bốc ra quẻ Thượng Cát.
-  - [ ] 🥇 **VIP Kim Cương (100+ Xu - Sư tử, Thiên nga, Du thuyền):**
-    - [ ] Triệu hồi hoạt ảnh **Thần Tài Hoàng Kim** cưỡi mây bay qua màn hình.
-    - [ ] Mở **Quẻ Hoàng Kim Vạn Lộc** độc bản.
-    - [ ] TTS đổi sang nhạc nền hào hùng và xướng danh *"Đại Gia [Nickname] đại phú đại quý"*.
+### 🎋 MILESTONE 4: v1.4 - Cơ Chế Quà Tặng VIP Đa Tầng & Triệu Hồi Thần Tài (✅ ĐÃ HOÀN THÀNH)
+- [x] **Phân tầng cấp bậc VIP theo giá trị quà tặng:**
+  - [x] 🥉 **VIP Bạc (1 – 9 Xu):** Ưu tiên xếp hàng bốc trước, cam kết 100% không bao giờ dính quẻ Hạ Hạ.
+  - [x] 🥈 **VIP Vàng (10 – 99 Xu):** Huy hiệu Vàng kim, xếp trước VIP Bạc, cam kết 100% quẻ Thượng Cát hoặc Đại Cát.
+  - [x] 🥇 **VIP Kim Cương (100+ Xu - Sư Tử, Du Thuyền, Pháo Hoa Lớn):**
+    - [x] Triệu hồi hoạt ảnh **Thần Tài Hoàng Kim** cưỡi mây bay qua màn hình rải phúc lộc.
+    - [x] Mở **Quẻ Hoàng Kim Vạn Lộc (Đại Đại Cát)** độc bản: *Thần Tài Giáng Thế*, *Cửu Long Tranh Châu*.
+    - [x] Âm thanh kèn trận hoàng gia (`playRoyalFanfare()`) & TTS xướng danh *"Bái kiến Đại Gia [Nickname] giáng lâm!"*.
+- [x] **Bảng điều khiển Admin:** Bổ sung các nút tặng quà tương ứng cho cả 3 phân tầng Bạc, Vàng, Kim Cương.
 
 ---
 

@@ -250,5 +250,33 @@
     "sucKhoe": "Đãng trí do thiếu ngủ, cần nghỉ ngơi.",
     "luckyNumber": 7,
     "shortAdvice": "Mau cầu cứu cả phòng thả tim để tìm lại đồ đạc!"
+  },
+  {
+    "id": 801,
+    "category": "hoang_kim",
+    "categoryName": "👑 Hoàng Kim",
+    "type": "ĐẠI ĐẠI CÁT",
+    "title": "THẦN TÀI GIÁNG THẾ",
+    "poem": "Thần Tài giáng thế rải hoàng kim\nPhú quý vinh hoa khắp cõi miền\nĐại gia hiển hách ngàn phương phục\nLộc biếc cành vàng mãi thịnh an.",
+    "taiLoc": "Tiền vô như nước sông Đà, tài vận hanh thông bậc nhất thiên hạ.",
+    "tinhDuyen": "Đào hoa vây quanh, vạn người ngưỡng mộ kính trọng.",
+    "congDanh": "Vị thế dẫn đầu, vạn sự hanh thông như ý nguyện.",
+    "sucKhoe": "Tráng kiện dẻo dai, tinh thần minh mẫn trường thọ.",
+    "luckyNumber": 999,
+    "shortAdvice": "Đại phú đại quý, tiếp tục gieo duyên lành để phúc đức đời đời!"
+  },
+  {
+    "id": 802,
+    "category": "hoang_kim",
+    "categoryName": "👑 Hoàng Kim",
+    "type": "ĐẠI ĐẠI CÁT",
+    "title": "CỬU LONG TRANH CHÂU",
+    "poem": "Chín rồng uốn lượn đón xuân sang\nChâu báu ngọc ngà sáng rực đàng\nCơ đồ rộng mở muôn năm vững\nKhí thế ngút trời dạ hiên ngang.",
+    "taiLoc": "Đại phát đại lợi, đầu tư kinh doanh thu lợi ngút trời.",
+    "tinhDuyen": "Gia đạo viên mãn, cháu con đỗ đạt hiển vinh.",
+    "congDanh": "Đỉnh cao sự nghiệp, được muôn người kính phục.",
+    "sucKhoe": "Tràn trề sinh khí, vạn thọ vô cương.",
+    "luckyNumber": 888,
+    "shortAdvice": "Uy danh lẫy lừng, là chỗ dựa vững chãi cho muôn người!"
   }
 ]

@@ -133,23 +133,27 @@ function processNextInQueue() {
 
   isDrawing = true;
 
-  // Lọc quẻ theo đúng chủ đề mà người xem đã cầu xin (Tình duyên / Tài lộc / Công danh / Gia đạo)
-  const userCat = nextUser.category || 'tong_hop';
-  let eligibleFortunes = fortunes.filter(f => f.category === userCat);
-  if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
-
-  // Nếu là người tặng quà VIP: cam kết KHÔNG BAO GIỜ dính quẻ Hạ Hạ, chỉ ra Đại Cát / Thượng Cát
-  if (isVip) {
-    const vipEligible = eligibleFortunes.filter(f => f.type === 'ĐẠI CÁT' || f.type === 'THƯỢNG CÁT');
-    if (vipEligible.length > 0) eligibleFortunes = vipEligible;
-  }
-  
   let picked = null;
-  // Kiểm tra nếu là ép dính hạn từ Admin hoặc tỷ lệ 15% quẻ thường trúng Hạ Hạ
-  if (nextUser.forceCrisis) {
+  if (isVip && nextUser.vipTier === 'diamond') {
+    // 🥇 VIP Kim Cương: 100% mở ra Quẻ Hoàng Kim Vạn Lộc độc bản (Đại Đại Cát)
+    const hoangKimList = fortunes.filter(f => f.category === 'hoang_kim');
+    picked = hoangKimList[Math.floor(Math.random() * hoangKimList.length)] || fortunes[0];
+  } else if (isVip && nextUser.vipTier === 'gold') {
+    // 🥈 VIP Vàng: 100% ra quẻ Thượng Cát hoặc Đại Cát
+    const goldEligible = fortunes.filter(f => f.type === 'ĐẠI CÁT' || f.type === 'THƯỢNG CÁT');
+    picked = goldEligible[Math.floor(Math.random() * goldEligible.length)] || fortunes[0];
+  } else if (isVip) {
+    // 🥉 VIP Bạc: cam kết không bao giờ dính quẻ Hạ Hạ
+    const silverEligible = fortunes.filter(f => f.type !== 'HẠ HẠ');
+    picked = silverEligible[Math.floor(Math.random() * silverEligible.length)] || fortunes[0];
+  } else if (nextUser.forceCrisis) {
     const crisisFortunes = fortunes.filter(f => f.type === 'HẠ HẠ');
     picked = crisisFortunes[Math.floor(Math.random() * crisisFortunes.length)] || fortunes[0];
   } else {
+    // Người xem thường: Lọc theo chủ đề đã chọn
+    const userCat = nextUser.category || 'tong_hop';
+    let eligibleFortunes = fortunes.filter(f => f.category === userCat);
+    if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
     picked = eligibleFortunes[Math.floor(Math.random() * eligibleFortunes.length)];
   }
 
@@ -357,24 +361,63 @@ function handleComment(data) {
 
 // Xử lý khi có Gift (Quà tặng)
 function handleGift(data) {
-  const points = (data.diamondCount || 1) * (data.repeatCount || 1);
-  totalCongDuc += points * 10;
+  const diamonds = Number(data.diamondCount) || 1;
+  const count = Number(data.repeatCount) || 1;
+  const totalValue = diamonds * count;
+  totalCongDuc += totalValue * 10;
+
+  // Xác định cấp bậc VIP (Tier) theo giá trị xu
+  let vipTier = 'silver'; // 🥉 VIP Bạc (1 - 9 xu)
+  let vipBadge = '🥉 VIP Bạc';
+  if (totalValue >= 100) {
+    vipTier = 'diamond';  // 🥇 VIP Kim Cương (100+ xu - Triệu hồi Thần Tài)
+    vipBadge = '👑 VIP Kim Cương';
+  } else if (totalValue >= 10) {
+    vipTier = 'gold';     // 🥈 VIP Vàng (10 - 99 xu)
+    vipBadge = '🥈 VIP Vàng';
+  }
 
   // Nếu đang trong thử thách Đại Hạn, quà tặng sẽ giải cứu tức thì!
   if (crisisState && crisisState.active && !crisisState.isResolved) {
     resolveCrisis(true, 'gift', data);
   }
 
-  // Người tặng quà lập tức được xếp vào VIP QUEUE (Ưu tiên số 1)
-  vipQueue.unshift({
+  const newVipUser = {
     uniqueId: data.uniqueId,
     nickname: data.nickname || data.uniqueId,
     avatar: data.profilePictureUrl || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg',
     giftName: data.giftName,
-    diamondCount: points
-  });
+    diamondCount: totalValue,
+    vipTier,
+    vipBadge
+  };
 
-  io.emit('gift', data);
+  // Nếu là VIP Kim Cương (>= 100 xu): Kích hoạt sự kiện Triệu Hồi Thần Tài ngay!
+  if (vipTier === 'diamond') {
+    vipQueue.unshift(newVipUser); // Ưu tiên số 1
+    io.emit('thantai:summon', {
+      user: newVipUser,
+      giftName: data.giftName,
+      diamonds: totalValue
+    });
+    const ttsThantai = `Bái kiến Đại Gia ${newVipUser.nickname} đã dâng tặng ${data.giftName}! Thần Tài Hoàng Kim giáng thế ban phúc lộc vạn niên!`;
+    io.emit('playTts', { text: ttsThantai });
+  } else if (vipTier === 'gold') {
+    // Chèn sau các VIP Kim Cương, nhưng trước VIP Bạc
+    const firstNonDiamondIndex = vipQueue.findIndex(u => u.vipTier !== 'diamond');
+    if (firstNonDiamondIndex === -1) {
+      vipQueue.push(newVipUser);
+    } else {
+      vipQueue.splice(firstNonDiamondIndex, 0, newVipUser);
+    }
+    const ttsGold = `Chào mừng Phú Hộ ${newVipUser.nickname} đã tặng ${data.giftName} gia nhập hàng VIP Vàng!`;
+    io.emit('playTts', { text: ttsGold });
+  } else {
+    // VIP Bạc: thêm vào cuối hàng VIP
+    vipQueue.push(newVipUser);
+  }
+
+  io.emit('gift', { ...data, vipTier, vipBadge });
   broadcastState();
   processNextInQueue();
 }
