@@ -309,8 +309,10 @@ function showShareCard(data) {
   const u = data.user;
   const f = data.fortune;
   cardAvatar.src = u.avatar || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg';
-  cardName.textContent = u.nickname;
-  cardBadge.textContent = data.isVip ? '🌟 Quẻ VIP Đầu Xuân' : '🎋 Quẻ Lộc Đầu Xuân';
+  const ageStr = u.canChi ? ` (${u.canChi})` : '';
+  cardName.textContent = `${u.nickname}${ageStr}`;
+  const catStr = f.categoryName ? f.categoryName : 'Quẻ Đầu Xuân';
+  cardBadge.textContent = data.isVip ? `🌟 VIP • ${catStr}` : `🎋 ${catStr}`;
   cardSeal.textContent = f.type;
   cardTitle.textContent = f.title;
   cardPoem.textContent = f.poem;
@@ -420,8 +422,10 @@ function displayRevealedFortune(data) {
   const f = data.fortune;
 
   seekerAvatar.src = u.avatar || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg';
-  seekerName.textContent = u.nickname;
-  seekerBadge.textContent = data.isVip ? '🌟 QUẺ VIP ĐẦU XUÂN' : '🎋 QUẺ ĐẦU NĂM';
+  const ageStr = u.canChi ? ` (${u.canChi})` : '';
+  seekerName.textContent = `${u.nickname}${ageStr}`;
+  const catStr = f.categoryName ? f.categoryName.toUpperCase() : 'QUẺ ĐẦU NĂM';
+  seekerBadge.textContent = data.isVip ? `🌟 VIP • ${catStr}` : `🎋 ${catStr}`;
   sealStamp.textContent = f.type;
 
   fortuneTitle.textContent = f.title;

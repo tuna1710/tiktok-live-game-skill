@@ -46,11 +46,11 @@
         <button class="btn-gold" onclick="sendChat()">Gửi Comment</button>
       </div>
       <div class="quick-list">
-        <button class="btn-quick" onclick="quickChat('Xin quẻ')">Gõ: "Xin quẻ"</button>
-        <button class="btn-quick" onclick="quickChat('Bốc quẻ tình duyên 1999')">Gõ: "Bốc quẻ tình duyên 1999"</button>
-        <button class="btn-quick" onclick="quickChat('Cầu tài lộc buôn bán')">Gõ: "Cầu tài lộc buôn bán"</button>
-        <button class="btn-quick" onclick="quickChat('1')">Gõ: "1"</button>
-        <button class="btn-quick" onclick="simulateMultiUsers()">🔥 Thêm 3 người cùng xếp hàng</button>
+        <button class="btn-quick" onclick="quickChatWithUser('NgocLan', 'Xin quẻ tình duyên 2002')">💖 Tình Duyên (2002 Nhâm Ngọ)</button>
+        <button class="btn-quick" onclick="quickChatWithUser('MinhTuan', 'Bốc quẻ tài lộc làm ăn 1995')">💰 Tài Lộc (1995 Ất Hợi)</button>
+        <button class="btn-quick" onclick="quickChatWithUser('DucHuy', 'Xin quẻ công danh học hành 1998')">📚 Công Danh (1998 Mậu Dần)</button>
+        <button class="btn-quick" onclick="quickChatWithUser('BacBa', 'Cầu quẻ gia đạo bình an 1975')">🏡 Gia Đạo (1975 Ất Mão)</button>
+        <button class="btn-quick" onclick="simulateMultiUsers()">🔥 Thêm 3 người xếp hàng</button>
       </div>
     </div>
 
@@ -124,6 +124,12 @@
     }
 
     function quickChat(text) {
+      document.getElementById('comment-text').value = text;
+      sendChat();
+    }
+
+    function quickChatWithUser(name, text) {
+      document.getElementById('user-name').value = name;
       document.getElementById('comment-text').value = text;
       sendChat();
     }

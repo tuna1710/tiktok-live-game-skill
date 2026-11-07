@@ -133,11 +133,15 @@ function processNextInQueue() {
 
   isDrawing = true;
 
-  // Chọn quẻ: Nếu là VIP ưu tiên quẻ Đại Cát / Thượng Cát
-  let eligibleFortunes = fortunes;
+  // Lọc quẻ theo đúng chủ đề mà người xem đã cầu xin (Tình duyên / Tài lộc / Công danh / Gia đạo)
+  const userCat = nextUser.category || 'tong_hop';
+  let eligibleFortunes = fortunes.filter(f => f.category === userCat);
+  if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
+
+  // Nếu là người tặng quà VIP: cam kết ưu tiên ra quẻ Đại Cát hoặc Thượng Cát
   if (isVip) {
-    eligibleFortunes = fortunes.filter(f => f.type === 'ĐẠI CÁT' || f.type === 'THƯỢNG CÁT');
-    if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
+    const vipEligible = eligibleFortunes.filter(f => f.type === 'ĐẠI CÁT' || f.type === 'THƯỢNG CÁT');
+    if (vipEligible.length > 0) eligibleFortunes = vipEligible;
   }
   const picked = eligibleFortunes[Math.floor(Math.random() * eligibleFortunes.length)];
 
@@ -158,8 +162,10 @@ function processNextInQueue() {
     historyFortunes.push(currentFortune);
     broadcastState();
 
-    // Chuẩn bị câu thoại TTS chúc phúc
-    const ttsMessage = `Chúc mừng ${nextUser.nickname} bốc được quẻ ${picked.type}, ${picked.title}. ${picked.shortAdvice}`;
+    // Chuẩn bị câu thoại TTS cá nhân hóa theo Tên & Tuổi Can Chi
+    const agePhrase = nextUser.canChi ? `tuổi ${nextUser.canChi}` : '';
+    const catPhrase = picked.categoryName ? `về ${picked.categoryName}` : '';
+    const ttsMessage = `Chúc mừng ${nextUser.nickname} ${agePhrase} đã rút được quẻ ${catPhrase} ${picked.type}, ${picked.title}. ${picked.shortAdvice}`;
     io.emit('playTts', { text: ttsMessage });
 
     // Bước 3: Giữ quẻ trên màn hình trong 9 giây để khán giả đọc rồi chuyển người tiếp theo
@@ -178,6 +184,34 @@ function handleComment(data) {
   const comment = (data.comment || '').trim().toLowerCase();
   // Nếu bình luận chứa từ khóa xin quẻ
   if (comment.includes('quẻ') || comment.includes('que') || comment.includes('xin') || comment.includes('bốc') || comment.includes('boc') || comment === '1') {
+    // 1. Phân loại chủ đề cầu xin
+    let category = 'tong_hop';
+    let categoryName = '🎋 Toàn Diện';
+    if (/tinh duyen|tinh cam|nguoi yeu|ny|thoat e|chong|vo|yeu/i.test(comment)) {
+      category = 'tinh_duyen';
+      categoryName = '💖 Tình Duyên';
+    } else if (/tai loc|lam an|kinh doanh|buon ban|tien|giau|phat tai/i.test(comment)) {
+      category = 'tai_loc';
+      categoryName = '💰 Tài Lộc';
+    } else if (/cong danh|hoc hanh|thi cu|su nghiep|thang chuc|viec lam|do dat/i.test(comment)) {
+      category = 'cong_danh';
+      categoryName = '📚 Công Danh';
+    } else if (/gia dao|binh an|suc khoe|gia dinh/i.test(comment)) {
+      category = 'gia_dao';
+      categoryName = '🏡 Gia Đạo';
+    }
+
+    // 2. Trích xuất năm sinh & tính Can Chi tự động
+    const yearMatch = comment.match(/\b(19[5-9]\d|20[0-2]\d)\b/);
+    let canChi = '';
+    let birthYear = null;
+    if (yearMatch) {
+      birthYear = parseInt(yearMatch[1], 10);
+      const CAN = ['Canh', 'Tân', 'Nhâm', 'Quý', 'Giáp', 'Ất', 'Bính', 'Đinh', 'Mậu', 'Kỷ'];
+      const CHI = ['Thân', 'Dậu', 'Tuất', 'Hợi', 'Tý', 'Sửu', 'Dần', 'Mão', 'Thìn', 'Tỵ', 'Ngọ', 'Mùi'];
+      canChi = `${CAN[birthYear % 10]} ${CHI[birthYear % 12]} (${birthYear})`;
+    }
+
     // Tránh spam trùng lặp trong hàng đợi
     const exists = normalQueue.some(u => u.uniqueId === data.uniqueId) || vipQueue.some(u => u.uniqueId === data.uniqueId);
     if (!exists) {
@@ -185,7 +219,11 @@ function handleComment(data) {
         uniqueId: data.uniqueId,
         nickname: data.nickname || data.uniqueId,
         avatar: data.profilePictureUrl || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg',
-        comment: data.comment
+        comment: data.comment,
+        category,
+        categoryName,
+        canChi,
+        birthYear
       });
       totalCongDuc += 1;
       broadcastState();

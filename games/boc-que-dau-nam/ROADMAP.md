@@ -9,7 +9,7 @@
 |---|---|---|---|
 | **v1.0** | Bản Nền Tảng (Core Release) | Hàng đợi thường & VIP, TTS tiếng Việt, chuẩn 9:16, Colab runner kép | ✅ ĐÃ HOÀN THÀNH |
 | **v1.1** | Audiovisual & SFX Chân Thực | Âm thanh lắc xăm tre, chiêng đồng, pháo nổ, nhạc BGM Tết, thiệp chụp ảnh | ✅ ĐÃ HOÀN THÀNH |
-| **v1.2** | Phân Loại Quẻ & Cá Nhân Hóa | Rút quẻ theo ý (Tình duyên, Tài lộc, Công danh), nhận diện Tên & Năm sinh | ⏳ CHỜ TRIỂN KHAI |
+| **v1.2** | Phân Loại Quẻ & Cá Nhân Hóa | Rút quẻ theo ý (Tình duyên, Tài lộc, Công danh), nhận diện Tên & Năm sinh | ✅ ĐÃ HOÀN THÀNH |
 | **v1.3** | Quẻ Đại Hạn & Thử Thách Hóa Giải | Quẻ Hạ Hạ troll dí dỏm, đếm ngược cả phòng thả tim hoặc tặng quà giải hạn | ⏳ CHỜ TRIỂN KHAI |
 | **v1.4** | Quà Tặng VIP Đa Tầng & Thần Tài | 3 cấp bậc VIP (Bạc, Vàng, Kim Cương), hiệu ứng Thần Tài bay qua màn hình | ⏳ CHỜ TRIỂN KHAI |
 | **v1.5** | Bảng Phú Hộ & Gamification | Top 3 Phú Hộ donate nhiều nhất, Thanh Phúc Khí toàn phòng, Chống spam | ⏳ CHỜ TRIỂN KHAI |
@@ -33,17 +33,19 @@
 
 ---
 
-### 🎋 MILESTONE 2: v1.2 - Phân Loại Quẻ Theo Chủ Đề & Cá Nhân Hóa
-- [ ] **Cơ chế bốc quẻ theo chủ đề mong muốn:**
-  - [ ] Nhận diện từ khóa comment:
-    - `xin que tinh duyen` ➔ Bộ quẻ Tình cảm (thoát ế, người yêu cũ, hôn nhân).
+### 🎋 MILESTONE 2: v1.2 - Phân Loại Quẻ Theo Chủ Đề & Cá Nhân Hóa (✅ ĐÃ HOÀN THÀNH)
+- [x] **Cơ chế bốc quẻ theo chủ đề mong muốn:**
+  - [x] Nhận diện từ khóa comment tự động:
+    - `xin que tinh duyen` ➔ Bộ quẻ Tình cảm (thoát ế, người yêu cũ, hôn nhân viên mãn).
     - `xin que tai loc` / `lam an` ➔ Bộ quẻ Tiền tài, kinh doanh, buôn may bán đắt.
-    - `xin que cong danh` / `hoc hanh` ➔ Bộ quẻ Thi cử, thăng chức, đổi việc.
-    - `xin que gia dao` ➔ Bộ quẻ Bình an, hòa khí gia đình.
-- [ ] **Mở rộng kho dữ liệu quẻ:** Bổ sung thêm 30 quẻ thơ phong phú vào `que_database.json`.
-- [ ] **Cá nhân hóa Tên & Năm sinh:**
-  - [ ] Cho phép cú pháp: `xin que [Tên] [Năm sinh]` (ví dụ: `xin que Nam 1999`).
-  - [ ] Tự động tính Can Chi (ví dụ: Kỷ Mão 1999) và đọc tên trực tiếp vào bài thơ chúc mừng.
+    - `xin que cong danh` / `hoc hanh` ➔ Bộ quẻ Thi cử, thăng chức, bảng vàng danh giá.
+    - `xin que gia dao` ➔ Bộ quẻ Bình an, phúc thọ an khang, hòa khí gia đình.
+- [x] **Mở rộng kho dữ liệu quẻ chuyên đề:** Cập nhật cơ sở dữ liệu `que_database.json` phân mục rõ ràng với lời thơ giàu ý nghĩa.
+- [x] **Cá nhân hóa Tên & Năm sinh (Can Chi Engine):**
+  - [x] Cú pháp linh hoạt: `xin que [chủ đề] [năm sinh]` (ví dụ: `Xin que tinh duyen 2002`).
+  - [x] Tự động tính Can Chi âm lịch (ví dụ: 2002 ➔ *Nhâm Ngọ*, 1995 ➔ *Ất Hợi*, 1998 ➔ *Mậu Dần*).
+  - [x] TTS xướng tên trực tiếp tuổi và Can Chi chúc mừng; thiệp chụp ảnh in rõ Can Chi của người xem.
+- [x] **Bộ nút kiểm thử nhanh tại Admin:** Tích hợp 4 nút test trực tiếp cho 4 chủ đề và 4 tuổi khác nhau.
 
 ---
 
