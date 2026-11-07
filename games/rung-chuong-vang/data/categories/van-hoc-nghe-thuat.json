@@ -388,5 +388,135 @@
     ],
     "correct": 0,
     "explanation": "La Quán Trung sống vào cuối thời Nguyên đầu thời Minh là tác giả của Tam Quốc Diễn Nghĩa."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Câu tục ngữ nào sau đây khuyên răn về lòng biết ơn, với ý nghĩa nhắc nhở về công lao của người đi trước?",
+    "options": [
+      "Ăn quả nhớ kẻ trồng cây",
+      "Thương người như thể thương thân",
+      "Một nắng hai sương",
+      "Nước chảy đá mòn"
+    ],
+    "correct": 0,
+    "explanation": "Câu tục ngữ 'Ăn quả nhớ kẻ trồng cây' là lời khuyên răn con người phải biết ơn những người đã tạo ra thành quả cho mình hưởng thụ."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Trong truyện cổ tích 'Tấm Cám', nhân vật Tấm đã biến hóa thành bao nhiêu hình dạng để gặp lại vua?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "Tấm đã biến hóa thành 4 hình dạng: chim vàng anh, cây xoan đào, khung cửi và cuối cùng là quả thị để được về cung."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm 'Hoàng Lê nhất thống chí' thuộc thể loại gì và kể về triều đại nào trong lịch sử Việt Nam?",
+    "options": [
+      "Tiểu thuyết chương hồi, thời Tây Sơn",
+      "Hồi ký, thời nhà Nguyễn",
+      "Ký sự, thời Lê Trung Hưng",
+      "Truyện thơ, thời Hậu Lê"
+    ],
+    "correct": 0,
+    "explanation": "'Hoàng Lê nhất thống chí' là một tiểu thuyết chương hồi, ghi chép lại giai đoạn lịch sử đầy biến động cuối thời Lê và sự nghiệp của nghĩa quân Tây Sơn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc sĩ Trịnh Công Sơn nổi tiếng với dòng nhạc nào?",
+    "options": [
+      "Nhạc đỏ",
+      "Nhạc trữ tình",
+      "Nhạc tiền chiến",
+      "Nhạc dân ca"
+    ],
+    "correct": 1,
+    "explanation": "Trịnh Công Sơn được mệnh danh là 'Phù thủy của những bản tình ca', nổi tiếng với dòng nhạc trữ tình, giàu triết lý."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Họa sĩ nào được mệnh danh là 'vua phố Phái' với những tác phẩm đặc tả về phố cổ Hà Nội?",
+    "options": [
+      "Nguyễn Gia Trí",
+      "Tô Ngọc Vân",
+      "Bùi Xuân Phái",
+      "Nguyễn Sáng"
+    ],
+    "correct": 2,
+    "explanation": "Bùi Xuân Phái là một trong những họa sĩ hàng đầu của nền mỹ thuật hiện đại Việt Nam, đặc biệt thành công với đề tài phố cổ Hà Nội."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Loại hình nghệ thuật sân khấu dân gian nào của Việt Nam thường diễn ra trên mặt nước và sử dụng những con rối được điều khiển từ xa?",
+    "options": [
+      "Hát Chèo",
+      "Múa rối nước",
+      "Hát Tuồng",
+      "Ca Trù"
+    ],
+    "correct": 1,
+    "explanation": "Múa rối nước là một loại hình nghệ thuật sân khấu dân gian độc đáo của Việt Nam, gắn liền với đời sống nông nghiệp lúa nước."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Câu tục ngữ 'Gần mực thì đen, gần đèn thì sáng' muốn nói về điều gì?",
+    "options": [
+      "Tác dụng của việc học hành",
+      "Sự ảnh hưởng của môi trường sống",
+      "Giá trị của sự cần cù",
+      "Sự thay đổi của thời tiết"
+    ],
+    "correct": 1,
+    "explanation": "Câu tục ngữ này nhấn mạnh tầm quan trọng của môi trường sống và những người xung quanh đối với sự hình thành nhân cách và phẩm chất của mỗi người."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Trong truyện cổ tích 'Thạch Sanh', vật phẩm thần kỳ nào đã giúp chàng đánh bại quân 18 nước chư hầu mà không cần giao chiến?",
+    "options": [
+      "Niêu cơm thần",
+      "Cây đàn thần",
+      "Rìu báu",
+      "Cung tên thần"
+    ],
+    "correct": 1,
+    "explanation": "Cây đàn thần của Thạch Sanh có khả năng khiến quân lính 18 nước chư hầu hoảng sợ và phải quy hàng, thể hiện sức mạnh của chính nghĩa và hòa bình."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Loại hình sân khấu dân gian nào của Việt Nam nổi bật với việc sử dụng những chiếc mặt nạ mang tính biểu tượng cao, thể hiện rõ tính cách và thân phận của nhân vật?",
+    "options": [
+      "Hát Chèo",
+      "Hát Xẩm",
+      "Hát Tuồng",
+      "Ca Trù"
+    ],
+    "correct": 2,
+    "explanation": "Hát Tuồng (hay hát Bội) là loại hình nghệ thuật sân khấu cổ điển, trong đó các nhân vật thường được hóa trang bằng những chiếc mặt nạ vẽ cầu kỳ, mỗi màu sắc và họa tiết mang ý nghĩa riêng về tính cách nhân vật."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm 'Chí Phèo', một truyện ngắn hiện thực phê phán nổi tiếng của văn học Việt Nam?",
+    "options": [
+      "Nguyễn Công Hoan",
+      "Nam Cao",
+      "Ngô Tất Tố",
+      "Vũ Trọng Phụng"
+    ],
+    "correct": 1,
+    "explanation": "Nam Cao là một trong những nhà văn hiện thực xuất sắc nhất của Việt Nam, với tác phẩm 'Chí Phèo' lột tả bi kịch của người nông dân bị tha hóa trong xã hội cũ."
   }
 ]

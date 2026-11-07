@@ -440,5 +440,135 @@
     ],
     "correct": 0,
     "explanation": "Mesopotamia (Lưỡng Hà) nghĩa là vùng đất nằm giữa hai dòng sông Tigris và Euphrates."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua đầu tiên của nhà nước Văn Lang, người có công lập ra nhà nước đầu tiên trong lịch sử Việt Nam, có tên gọi là gì?",
+    "options": [
+      "Hùng Vương",
+      "An Dương Vương",
+      "Thục Phán",
+      "Lý Nam Đế"
+    ],
+    "correct": 0,
+    "explanation": "Hùng Vương là danh hiệu chung của 18 đời vua Văn Lang, nhưng đời đầu tiên cũng được gọi là Hùng Vương."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Hai Bà Trưng đã phất cờ khởi nghĩa chống lại ách đô hộ của nhà nào vào năm 40 SCN?",
+    "options": [
+      "Nhà Tần",
+      "Nhà Hán",
+      "Nhà Đường",
+      "Nhà Tống"
+    ],
+    "correct": 1,
+    "explanation": "Hai Bà Trưng phất cờ khởi nghĩa chống lại sự đô hộ của nhà Đông Hán (Trung Quốc)."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vua Đinh Tiên Hoàng đã chọn kinh đô của nước Đại Cồ Việt ở đâu, đánh dấu sự ra đời của nhà nước phong kiến độc lập đầu tiên tại Việt Nam?",
+    "options": [
+      "Thăng Long",
+      "Hoa Lư",
+      "Cổ Loa",
+      "Phú Xuân"
+    ],
+    "correct": 1,
+    "explanation": "Đinh Tiên Hoàng đã chọn Hoa Lư (Ninh Bình) làm kinh đô đầu tiên của nhà nước phong kiến độc lập Đại Cồ Việt."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bài chiếu dời đô nổi tiếng \"Thiên đô chiếu\" do vị vua nào ban hành, mở ra kỷ nguyên Thăng Long - Đại Việt?",
+    "options": [
+      "Lý Thái Tông",
+      "Lý Nhân Tông",
+      "Lý Thái Tổ",
+      "Trần Thái Tông"
+    ],
+    "correct": 2,
+    "explanation": "Lý Thái Tổ (Lý Công Uẩn) là người đã ban hành Chiếu dời đô từ Hoa Lư về Đại La, đổi tên là Thăng Long."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Trong ba lần kháng chiến chống quân Nguyên - Mông xâm lược, vị tướng nào được giao trọng trách tổng chỉ huy và đã gắn liền với tác phẩm Hịch tướng sĩ?",
+    "options": [
+      "Trần Thủ Độ",
+      "Trần Quang Khải",
+      "Trần Hưng Đạo",
+      "Trần Khánh Dư"
+    ],
+    "correct": 2,
+    "explanation": "Quốc công Tiết chế Hưng Đạo Đại vương Trần Quốc Tuấn là tổng chỉ huy quân đội Đại Việt trong cả ba lần kháng chiến chống Nguyên - Mông."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bộ luật nào được ban hành dưới thời Lê sơ, được xem là bộ luật hình văn hoàn chỉnh nhất trong lịch sử phong kiến Việt Nam, còn được gọi là Quốc Triều Hình Luật?",
+    "options": [
+      "Hoàng Việt Luật Lệ",
+      "Hình Thư",
+      "Luật Gia Long",
+      "Luật Hồng Đức"
+    ],
+    "correct": 3,
+    "explanation": "Bộ Quốc Triều Hình Luật, còn gọi là Luật Hồng Đức, được ban hành dưới triều vua Lê Thánh Tông."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Trận đánh nào của Quang Trung - Nguyễn Huệ đã diễn ra vào Tết Kỷ Dậu (1789), đánh tan quân Thanh xâm lược chỉ trong vòng vài ngày, giải phóng Thăng Long?",
+    "options": [
+      "Trận Rạch Gầm - Xoài Mút",
+      "Trận Ngọc Hồi - Đống Đa",
+      "Trận Bạch Đằng",
+      "Trận Chi Lăng - Xương Giang"
+    ],
+    "correct": 1,
+    "explanation": "Trận Ngọc Hồi - Đống Đa là chiến thắng lẫy lừng của Hoàng đế Quang Trung đánh tan 29 vạn quân Thanh vào Tết Kỷ Dậu 1789."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Ngày 2 tháng 9 năm 1945, Chủ tịch Hồ Chí Minh đã đọc Tuyên ngôn Độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa tại quảng trường nào ở Hà Nội?",
+    "options": [
+      "Ba Đình",
+      "Cách Mạng Tháng Tám",
+      "Đông Kinh Nghĩa Thục",
+      "Nhà hát Lớn"
+    ],
+    "correct": 0,
+    "explanation": "Tuyên ngôn Độc lập được đọc tại Quảng trường Ba Đình, Hà Nội, khai sinh ra nước Việt Nam Dân chủ Cộng hòa."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Sự kiện nào được coi là mốc khởi đầu của Thế chiến I, dẫn đến một trong những cuộc xung đột lớn nhất lịch sử nhân loại?",
+    "options": [
+      "Đức tấn công Ba Lan",
+      "Nhật Bản tấn công Trân Châu Cảng",
+      "Áo-Hung tuyên chiến Serbia",
+      "Liên Xô tan rã"
+    ],
+    "correct": 2,
+    "explanation": "Việc Áo-Hung tuyên chiến với Serbia vào ngày 28 tháng 7 năm 1914 sau vụ ám sát Thái tử Franz Ferdinand được xem là khởi đầu của Thế chiến I."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Ai là người đầu tiên đặt chân lên Mặt Trăng vào ngày 20 tháng 7 năm 1969, trong sứ mệnh Apollo 11 của Mỹ?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "Michael Collins"
+    ],
+    "correct": 2,
+    "explanation": "Neil Armstrong, phi hành gia người Mỹ, là người đầu tiên đặt chân lên Mặt Trăng trong sứ mệnh Apollo 11."
   }
 ]

@@ -414,5 +414,135 @@
     ],
     "correct": 0,
     "explanation": "Hãng hàng không Quốc gia Việt Nam (Vietnam Airlines) mang hình ảnh biểu tượng bông Sen Vàng sáu cánh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Mô hình ngôn ngữ lớn (LLM) nào sau đây được Google phát triển?",
+    "options": [
+      "GPT-4",
+      "LLaMA",
+      "Gemini",
+      "Claude 3"
+    ],
+    "correct": 2,
+    "explanation": "Gemini là một dòng mô hình AI đa phương thức do Google phát triển, cạnh tranh trực tiếp với các mô hình khác trên thị trường."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tính năng nào sau đây KHÔNG phải là đặc điểm cơ bản của một chiếc điện thoại thông minh hiện đại?",
+    "options": [
+      "Màn hình cảm ứng",
+      "Khả năng kết nối Internet",
+      "Hệ điều hành mở",
+      "Bàn phím vật lý QWERTY đầy đủ"
+    ],
+    "correct": 3,
+    "explanation": "Điện thoại thông minh hiện đại chủ yếu sử dụng màn hình cảm ứng hoàn toàn, thay vì bàn phím vật lý."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món phở truyền thống của Hà Nội nổi tiếng với loại thịt nào?",
+    "options": [
+      "Phở gà",
+      "Phở bò",
+      "Phở cuốn",
+      "Phở vịt"
+    ],
+    "correct": 1,
+    "explanation": "Phở bò là loại phở phổ biến và đặc trưng nhất của ẩm thực Hà Nội, với các biến thể như bò tái, chín, gầu, v.v."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Cầu thủ nào đang giữ kỷ lục ghi nhiều bàn thắng nhất trong lịch sử World Cup?",
+    "options": [
+      "Pelé",
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Cristiano Ronaldo"
+    ],
+    "correct": 2,
+    "explanation": "Miroslav Klose của Đức đã ghi tổng cộng 16 bàn thắng qua các kỳ World Cup anh tham dự, giữ kỷ lục ghi bàn cao nhất."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "\"Work-life balance\" là thuật ngữ chỉ sự cân bằng giữa điều gì trong đời sống hiện đại?",
+    "options": [
+      "Công việc và giải trí",
+      "Công việc và gia đình",
+      "Công việc và cuộc sống cá nhân",
+      "Công việc và sức khỏe"
+    ],
+    "correct": 2,
+    "explanation": "\"Work-life balance\" đề cập đến sự cân bằng giữa trách nhiệm công việc và các khía cạnh khác của cuộc sống cá nhân như gia đình, sở thích, sức khỏe tinh thần."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Giao thức mạng nào chịu trách nhiệm dịch tên miền (ví dụ: google.com) thành địa chỉ IP?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "SMTP"
+    ],
+    "correct": 2,
+    "explanation": "DNS (Domain Name System) là hệ thống dịch tên miền thành địa chỉ IP để các máy tính có thể tìm thấy nhau trên mạng Internet."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món ăn nào sau đây được xem là đặc sản của miền Tây Nam Bộ với nguyên liệu chính là cá linh và bông điên điển vào mùa nước nổi?",
+    "options": [
+      "Lẩu mắm",
+      "Bún nước lèo",
+      "Canh chua cá lóc",
+      "Lẩu cá linh bông điên điển"
+    ],
+    "correct": 3,
+    "explanation": "Lẩu cá linh bông điên điển là món ăn đặc trưng của miền Tây Nam Bộ, đặc biệt phổ biến vào mùa nước nổi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thuật ngữ \"Machine Learning\" (Học máy) thuộc lĩnh vực rộng lớn nào của Trí tuệ nhân tạo?",
+    "options": [
+      "Robot học",
+      "Thị giác máy tính",
+      "Xử lý ngôn ngữ tự nhiên",
+      "Học máy là một nhánh chính của AI"
+    ],
+    "correct": 3,
+    "explanation": "Học máy là một trong những nhánh quan trọng và phát triển nhất của Trí tuệ nhân tạo, cho phép hệ thống học hỏi từ dữ liệu mà không cần lập trình rõ ràng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đội tuyển quốc gia nào đã vô địch World Cup nhiều lần nhất trong lịch sử?",
+    "options": [
+      "Đức",
+      "Ý",
+      "Brazil",
+      "Argentina"
+    ],
+    "correct": 2,
+    "explanation": "Brazil là đội tuyển quốc gia duy nhất đã 5 lần vô địch FIFA World Cup, vào các năm 1958, 1962, 1970, 1994 và 2002."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Món \"Mì Quảng\" nổi tiếng của miền Trung có thể được ăn kèm với loại topping nào sau đây KHÔNG phổ biến bằng các loại khác?",
+    "options": [
+      "Tôm và thịt gà",
+      "Thịt heo và trứng cút",
+      "Cá lóc và chả cá",
+      "Bò tái và gân"
+    ],
+    "correct": 3,
+    "explanation": "Mì Quảng thường được ăn kèm với tôm, thịt gà, thịt heo, trứng cút, cá lóc, chả cá hoặc ếch. Bò tái và gân thường phổ biến hơn trong các món như phở hoặc bún bò Huế."
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "sandbox-1-su-dia": {
+    "id": "sandbox-1-su-dia",
+    "name": "Agent Sử - Địa (Worker 1)",
+    "role": "Chuyên trách Lịch sử Việt Nam & Địa lý thế giới",
+    "categories": [
+      "lich-su",
+      "dia-ly"
+    ],
+    "environment_id": "4b1059e19d146becda208435f9852862",
+    "last_interaction_id": "v1_ChdTNEh2YW9Hc01kLVZtdGtQNkoyOWlRWRIXUzRIdmFvR3NNZC1WbXRrUDZKMjlpUVk",
+    "created_at": "2026-11-07 19:51:40",
+    "status": "active"
+  },
+  "sandbox-2-khoa-hoc-cong-nghe": {
+    "id": "sandbox-2-khoa-hoc-cong-nghe",
+    "name": "Agent Khoa Học - Công Nghệ (Worker 2)",
+    "role": "Chuyên trách Khoa học Tự nhiên, Vũ trụ và Đời sống Công nghệ",
+    "categories": [
+      "khoa-hoc-tu-nhien",
+      "doi-song-cong-nghe"
+    ],
+    "environment_id": "8beaf7cad42ceaae23dee680c6a5b155",
+    "last_interaction_id": "v1_ChduWUh2YXF6bEZ2WFF6N0lQaWZyVm9BaxIXbllIdmFxemxGdlhRejdJUGlmclZvQWs",
+    "created_at": "2026-11-07 19:53:01",
+    "status": "active"
+  },
+  "sandbox-3-do-vui-van-hoc": {
+    "id": "sandbox-3-do-vui-van-hoc",
+    "name": "Agent Đố Vui - Văn Học (Worker 3)",
+    "role": "Chuyên trách Đố mẹo dân gian, Ca dao tục ngữ và Văn học Nghệ thuật",
+    "categories": [
+      "do-vui-tri-tue",
+      "van-hoc-nghe-thuat"
+    ],
+    "environment_id": "4e09b330922d4031072c6fdf154b5988",
+    "last_interaction_id": "v1_ChcyWUh2YXNyVENPdWN6N0lQLXVQWXVBSRIXMllIdmFzclRDT3VjejdJUC11UFl1QUk",
+    "created_at": "2026-11-07 19:54:01",
+    "status": "active"
+  }
+}

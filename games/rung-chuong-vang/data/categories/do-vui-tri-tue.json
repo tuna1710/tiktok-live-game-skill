@@ -505,5 +505,135 @@
     ],
     "correct": 3,
     "explanation": "Đây là tàu điện, không sử dụng nhiên liệu đốt nên sẽ không tạo ra khói."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì luôn đến mà không bao giờ tới?",
+    "options": [
+      "Ngày mai",
+      "Giấc mơ",
+      "Tương lai",
+      "Thời gian"
+    ],
+    "correct": 0,
+    "explanation": "Ngày mai luôn là ngày tiếp theo, nên nó luôn đến nhưng không bao giờ 'tới' để trở thành ngày hôm nay."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Con gì không có chân mà vẫn chạy, không có cánh mà vẫn bay?",
+    "options": [
+      "Con sông",
+      "Con gió",
+      "Con thuyền",
+      "Con diều"
+    ],
+    "correct": 0,
+    "explanation": "Dòng sông chảy xiết như chạy, còn nước bốc hơi lên trời như bay."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Để nguyên là bạn của nhà nông. Bỏ đầu thành một bộ phận trên mặt. Là chữ gì?",
+    "options": [
+      "Trâu",
+      "Bò",
+      "Lợn",
+      "Cừu"
+    ],
+    "correct": 0,
+    "explanation": "'Trâu' là con vật quen thuộc của nhà nông. Bỏ chữ 'Tr' còn lại 'Râu' là bộ phận trên mặt."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Trong một cuộc đua marathon, bạn vượt qua người thứ hai. Vậy bạn đang ở vị trí thứ mấy?",
+    "options": [
+      "Thứ nhất",
+      "Thứ hai",
+      "Thứ ba",
+      "Thứ tư"
+    ],
+    "correct": 1,
+    "explanation": "Nếu bạn vượt qua người thứ hai, bạn sẽ ở vị trí của người thứ hai."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Một bác sĩ phẫu thuật và một tài xế xe buýt yêu cùng một người phụ nữ. Tài xế xe buýt phải đi công tác xa trong 7 ngày. Trước khi đi, anh ta để lại cho người phụ nữ 7 quả táo. Lời nhắn đó là gì?",
+    "options": [
+      "Em hãy nhớ anh trong 7 ngày này",
+      "Em hãy ăn táo để khỏe mạnh",
+      "Mỗi ngày một quả táo, bác sĩ tránh xa ta",
+      "Anh sẽ quay lại sau 7 ngày"
+    ],
+    "correct": 2,
+    "explanation": "Tục ngữ phương Tây có câu 'An apple a day keeps the doctor away' (Mỗi ngày một quả táo, bác sĩ tránh xa ta)."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì càng bóc càng nhỏ đi?",
+    "options": [
+      "Củ khoai tây",
+      "Củ hành",
+      "Củ cải",
+      "Quả cam"
+    ],
+    "correct": 1,
+    "explanation": "Củ hành có nhiều lớp vỏ, càng bóc thì củ càng nhỏ lại."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Cái gì sáng đi bằng bốn chân, trưa đi bằng hai chân, tối đi bằng ba chân?",
+    "options": [
+      "Con chó",
+      "Con người",
+      "Con khỉ",
+      "Con chim"
+    ],
+    "correct": 1,
+    "explanation": "Đây là câu đố nổi tiếng của nhân sư Sphinx: Buổi sáng cuộc đời (trẻ nhỏ) bò bằng 4 chân, buổi trưa (trưởng thành) đi bằng 2 chân, buổi tối (già) chống gậy đi bằng 3 chân."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Có một đàn chim đậu trên cành cây. Một người thợ săn bắn chết một con. Hỏi trên cành còn bao nhiêu con?",
+    "options": [
+      "Không con nào",
+      "Một con",
+      "Hai con",
+      "Nhiều con"
+    ],
+    "correct": 0,
+    "explanation": "Khi một con bị bắn, những con còn lại sẽ sợ hãi và bay đi hết."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Cái gì khi bạn có nó, bạn chia sẻ nó. Khi bạn chia sẻ nó, bạn không còn nó nữa?",
+    "options": [
+      "Tiền bạc",
+      "Tình yêu",
+      "Bí mật",
+      "Kiến thức"
+    ],
+    "correct": 2,
+    "explanation": "Bí mật là thứ khi bạn nói ra (chia sẻ), nó không còn là bí mật riêng của bạn nữa."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Làm sao để một người đứng phía sau bạn mà không cần quay đầu lại?",
+    "options": [
+      "Đặt người đó phía trước gương",
+      "Quay đầu lại nhìn",
+      "Nhờ người đó đi vòng qua",
+      "Gọi tên người đó"
+    ],
+    "correct": 0,
+    "explanation": "Khi người đó đứng trước gương, bạn có thể nhìn thấy họ qua phản chiếu mà không cần quay đầu."
   }
 ]

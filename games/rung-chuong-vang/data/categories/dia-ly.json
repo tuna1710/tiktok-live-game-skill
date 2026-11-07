@@ -453,5 +453,135 @@
     ],
     "correct": 0,
     "explanation": "Thủ đô hành chính La Paz của Bolivia nằm ở độ cao hơn 3.640m so với mực nước biển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố Đà Lạt, một điểm đến du lịch nổi tiếng với khí hậu mát mẻ quanh năm, thuộc tỉnh nào của Việt Nam?",
+    "options": [
+      "Lâm Đồng",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Đà Lạt là trung tâm hành chính và du lịch của tỉnh Lâm Đồng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vịnh Hạ Long, Di sản Thiên nhiên Thế giới được UNESCO công nhận, nằm ở tỉnh nào của Việt Nam?",
+    "options": [
+      "Quảng Ninh",
+      "Hải Phòng",
+      "Thanh Hóa",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Hạ Long là một phần của tỉnh Quảng Ninh, nổi tiếng với hàng nghìn đảo đá vôi và hang động."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quần thể di tích Cố đô Huế, Di sản Văn hóa Thế giới đầu tiên của Việt Nam được UNESCO công nhận, đã nhận danh hiệu này vào năm nào?",
+    "options": [
+      "1993",
+      "1995",
+      "1999",
+      "2000"
+    ],
+    "correct": 0,
+    "explanation": "Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm 1993."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Trong hai quần đảo Hoàng Sa và Trường Sa, quần đảo nào nằm gần đất liền Việt Nam hơn?",
+    "options": [
+      "Hoàng Sa",
+      "Trường Sa",
+      "Cả hai đều cách xa như nhau",
+      "Không quần đảo nào thuộc Việt Nam"
+    ],
+    "correct": 0,
+    "explanation": "Hoàng Sa nằm gần bờ biển miền Trung Việt Nam hơn Trường Sa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ nước ngọt tự nhiên lớn nhất Việt Nam là hồ nào?",
+    "options": [
+      "Hồ Ba Bể",
+      "Hồ Tây",
+      "Hồ Gươm",
+      "Hồ Dầu Tiếng"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Ba Bể ở Bắc Kạn là hồ nước ngọt tự nhiên lớn nhất Việt Nam. Hồ Dầu Tiếng là hồ nhân tạo lớn nhất."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đèo Hải Vân, một trong những con đèo đẹp nhất Việt Nam, là ranh giới tự nhiên nối liền hai thành phố/tỉnh nào?",
+    "options": [
+      "Thừa Thiên Huế và Đà Nẵng",
+      "Đà Nẵng và Quảng Nam",
+      "Quảng Nam và Quảng Ngãi",
+      "Bình Định và Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Hải Vân nằm trên dãy Trường Sơn, là ranh giới tự nhiên giữa Thừa Thiên Huế và Đà Nẵng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dãy núi nào trên thế giới được mệnh danh là 'nóc nhà của thế giới' vì có nhiều đỉnh núi cao nhất hành tinh?",
+    "options": [
+      "Himalaya",
+      "Andes",
+      "Rocky",
+      "Alps"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Himalaya ở châu Á chứa các đỉnh núi cao nhất thế giới, bao gồm cả đỉnh Everest."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào của Việt Nam có đường biên giới giáp với Trung Quốc dài nhất và có nhiều cửa khẩu quốc tế nhất với nước này?",
+    "options": [
+      "Lạng Sơn",
+      "Quảng Ninh",
+      "Cao Bằng",
+      "Hà Giang"
+    ],
+    "correct": 0,
+    "explanation": "Lạng Sơn là tỉnh có đường biên giới với Trung Quốc dài nhất và có nhiều cửa khẩu quan trọng như Hữu Nghị, Đồng Đăng, Chi Ma."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thánh địa Mỹ Sơn, Di sản Văn hóa Thế giới ở Quảng Nam, là quần thể kiến trúc đền tháp độc đáo của vương quốc nào trong lịch sử Việt Nam?",
+    "options": [
+      "Chăm Pa",
+      "Phù Nam",
+      "Đại Việt",
+      "Văn Lang"
+    ],
+    "correct": 0,
+    "explanation": "Mỹ Sơn là trung tâm tôn giáo và chính trị của vương quốc Chăm Pa cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo nào lớn nhất Việt Nam xét về diện tích tự nhiên?",
+    "options": [
+      "Phú Quốc",
+      "Cát Bà",
+      "Lý Sơn",
+      "Côn Đảo"
+    ],
+    "correct": 0,
+    "explanation": "Phú Quốc là hòn đảo lớn nhất của Việt Nam, thuộc tỉnh Kiên Giang."
   }
 ]

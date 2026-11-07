@@ -453,5 +453,135 @@
     ],
     "correct": 0,
     "explanation": "Nhà tu sĩ người Áo Gregor Mendel công bố các quy luật di truyền nền tảng vào năm 1866."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời được mệnh danh là 'Hành tinh Đỏ'?",
+    "options": [
+      "Sao Kim",
+      "Sao Hỏa",
+      "Sao Mộc",
+      "Sao Thổ"
+    ],
+    "correct": 1,
+    "explanation": "Sao Hỏa có màu đỏ cam đặc trưng do chứa nhiều oxit sắt trên bề mặt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan nào trong cơ thể người chịu trách nhiệm bơm máu đi khắp cơ thể?",
+    "options": [
+      "Phổi",
+      "Tim",
+      "Gan",
+      "Thận"
+    ],
+    "correct": 1,
+    "explanation": "Tim là một cơ bắp có nhiệm vụ co bóp để đẩy máu giàu oxy và chất dinh dưỡng đến các bộ phận khác."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng nào sau đây giải thích sự hình thành cầu vồng sau cơn mưa?",
+    "options": [
+      "Phản xạ ánh sáng",
+      "Khúc xạ ánh sáng",
+      "Tán sắc ánh sáng",
+      "Nhiễu xạ ánh sáng"
+    ],
+    "correct": 2,
+    "explanation": "Cầu vồng được tạo ra khi ánh sáng mặt trời bị khúc xạ, phản xạ và tán sắc qua các giọt nước mưa, tách thành các màu quang phổ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Công thức hóa học của nước là gì?",
+    "options": [
+      "CO2",
+      "O2",
+      "H2O",
+      "N2"
+    ],
+    "correct": 2,
+    "explanation": "Nước là hợp chất hóa học của hydro và oxy, với công thức H2O."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Dải Ngân Hà mà Trái Đất của chúng ta thuộc về có hình dạng chính là gì?",
+    "options": [
+      "Hình elip",
+      "Hình xoắn ốc có thanh chắn",
+      "Hình xoắn ốc không thanh chắn",
+      "Hình bất định"
+    ],
+    "correct": 1,
+    "explanation": "Dải Ngân Hà là một thiên hà xoắn ốc có thanh chắn, với một thanh sao trung tâm và các nhánh xoắn ốc."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình thực vật chuyển đổi năng lượng ánh sáng mặt trời thành năng lượng hóa học được gọi là gì?",
+    "options": [
+      "Hô hấp",
+      "Quang hợp",
+      "Đồng hóa",
+      "Dị hóa"
+    ],
+    "correct": 1,
+    "explanation": "Quang hợp là quá trình thực vật sử dụng ánh sáng mặt trời, nước và carbon dioxide để tạo ra glucose và oxy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Theo thuyết tương đối rộng của Albert Einstein, trọng lực thực chất là sự bẻ cong của điều gì?",
+    "options": [
+      "Không gian và thời gian",
+      "Ánh sáng",
+      "Vật chất",
+      "Năng lượng"
+    ],
+    "correct": 0,
+    "explanation": "Thuyết tương đối rộng mô tả trọng lực không phải là một lực mà là biểu hiện của sự cong vênh của không thời gian do khối lượng và năng lượng gây ra."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Bộ phận nào của mắt chịu trách nhiệm điều chỉnh lượng ánh sáng đi vào và tạo ra màu sắc cho mắt?",
+    "options": [
+      "Thủy tinh thể",
+      "Võng mạc",
+      "Đồng tử",
+      "Mống mắt"
+    ],
+    "correct": 3,
+    "explanation": "Mống mắt (iris) là phần có màu của mắt, có vai trò điều khiển kích thước của đồng tử để điều chỉnh lượng ánh sáng đi vào."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hiện tượng 'Bão Mặt Trời' (Solar Flare) chủ yếu giải phóng loại bức xạ nào gây ảnh hưởng đến Trái Đất?",
+    "options": [
+      "Tia hồng ngoại",
+      "Tia cực tím",
+      "Tia X và hạt năng lượng cao",
+      "Sóng vô tuyến"
+    ],
+    "correct": 2,
+    "explanation": "Bão Mặt Trời giải phóng một lượng lớn tia X và các hạt năng lượng cao, có thể gây nhiễu loạn thông tin liên lạc, vệ tinh và lưới điện trên Trái Đất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào là chất lỏng ở nhiệt độ phòng?",
+    "options": [
+      "Sắt",
+      "Đồng",
+      "Thủy ngân",
+      "Vàng"
+    ],
+    "correct": 2,
+    "explanation": "Thủy ngân (Hg) là kim loại duy nhất tồn tại ở dạng lỏng trong điều kiện nhiệt độ và áp suất tiêu chuẩn."
   }
 ]

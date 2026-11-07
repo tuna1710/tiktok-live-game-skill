@@ -2868,5 +2868,845 @@
     ],
     "correct": 3,
     "explanation": "Đây là tàu điện, không sử dụng nhiên liệu đốt nên sẽ không tạo ra khói."
+  },
+  {
+    "id": 206,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố Đà Lạt, một điểm đến du lịch nổi tiếng với khí hậu mát mẻ quanh năm, thuộc tỉnh nào của Việt Nam?",
+    "options": [
+      "Lâm Đồng",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Đà Lạt là trung tâm hành chính và du lịch của tỉnh Lâm Đồng."
+  },
+  {
+    "id": 207,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vịnh Hạ Long, Di sản Thiên nhiên Thế giới được UNESCO công nhận, nằm ở tỉnh nào của Việt Nam?",
+    "options": [
+      "Quảng Ninh",
+      "Hải Phòng",
+      "Thanh Hóa",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Hạ Long là một phần của tỉnh Quảng Ninh, nổi tiếng với hàng nghìn đảo đá vôi và hang động."
+  },
+  {
+    "id": 208,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quần thể di tích Cố đô Huế, Di sản Văn hóa Thế giới đầu tiên của Việt Nam được UNESCO công nhận, đã nhận danh hiệu này vào năm nào?",
+    "options": [
+      "1993",
+      "1995",
+      "1999",
+      "2000"
+    ],
+    "correct": 0,
+    "explanation": "Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm 1993."
+  },
+  {
+    "id": 209,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Trong hai quần đảo Hoàng Sa và Trường Sa, quần đảo nào nằm gần đất liền Việt Nam hơn?",
+    "options": [
+      "Hoàng Sa",
+      "Trường Sa",
+      "Cả hai đều cách xa như nhau",
+      "Không quần đảo nào thuộc Việt Nam"
+    ],
+    "correct": 0,
+    "explanation": "Hoàng Sa nằm gần bờ biển miền Trung Việt Nam hơn Trường Sa."
+  },
+  {
+    "id": 210,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ nước ngọt tự nhiên lớn nhất Việt Nam là hồ nào?",
+    "options": [
+      "Hồ Ba Bể",
+      "Hồ Tây",
+      "Hồ Gươm",
+      "Hồ Dầu Tiếng"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Ba Bể ở Bắc Kạn là hồ nước ngọt tự nhiên lớn nhất Việt Nam. Hồ Dầu Tiếng là hồ nhân tạo lớn nhất."
+  },
+  {
+    "id": 211,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đèo Hải Vân, một trong những con đèo đẹp nhất Việt Nam, là ranh giới tự nhiên nối liền hai thành phố/tỉnh nào?",
+    "options": [
+      "Thừa Thiên Huế và Đà Nẵng",
+      "Đà Nẵng và Quảng Nam",
+      "Quảng Nam và Quảng Ngãi",
+      "Bình Định và Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Hải Vân nằm trên dãy Trường Sơn, là ranh giới tự nhiên giữa Thừa Thiên Huế và Đà Nẵng."
+  },
+  {
+    "id": 212,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dãy núi nào trên thế giới được mệnh danh là 'nóc nhà của thế giới' vì có nhiều đỉnh núi cao nhất hành tinh?",
+    "options": [
+      "Himalaya",
+      "Andes",
+      "Rocky",
+      "Alps"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Himalaya ở châu Á chứa các đỉnh núi cao nhất thế giới, bao gồm cả đỉnh Everest."
+  },
+  {
+    "id": 213,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào của Việt Nam có đường biên giới giáp với Trung Quốc dài nhất và có nhiều cửa khẩu quốc tế nhất với nước này?",
+    "options": [
+      "Lạng Sơn",
+      "Quảng Ninh",
+      "Cao Bằng",
+      "Hà Giang"
+    ],
+    "correct": 0,
+    "explanation": "Lạng Sơn là tỉnh có đường biên giới với Trung Quốc dài nhất và có nhiều cửa khẩu quan trọng như Hữu Nghị, Đồng Đăng, Chi Ma."
+  },
+  {
+    "id": 214,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thánh địa Mỹ Sơn, Di sản Văn hóa Thế giới ở Quảng Nam, là quần thể kiến trúc đền tháp độc đáo của vương quốc nào trong lịch sử Việt Nam?",
+    "options": [
+      "Chăm Pa",
+      "Phù Nam",
+      "Đại Việt",
+      "Văn Lang"
+    ],
+    "correct": 0,
+    "explanation": "Mỹ Sơn là trung tâm tôn giáo và chính trị của vương quốc Chăm Pa cổ đại."
+  },
+  {
+    "id": 215,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo nào lớn nhất Việt Nam xét về diện tích tự nhiên?",
+    "options": [
+      "Phú Quốc",
+      "Cát Bà",
+      "Lý Sơn",
+      "Côn Đảo"
+    ],
+    "correct": 0,
+    "explanation": "Phú Quốc là hòn đảo lớn nhất của Việt Nam, thuộc tỉnh Kiên Giang."
+  },
+  {
+    "id": 216,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời được mệnh danh là 'Hành tinh Đỏ'?",
+    "options": [
+      "Sao Kim",
+      "Sao Hỏa",
+      "Sao Mộc",
+      "Sao Thổ"
+    ],
+    "correct": 1,
+    "explanation": "Sao Hỏa có màu đỏ cam đặc trưng do chứa nhiều oxit sắt trên bề mặt."
+  },
+  {
+    "id": 217,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan nào trong cơ thể người chịu trách nhiệm bơm máu đi khắp cơ thể?",
+    "options": [
+      "Phổi",
+      "Tim",
+      "Gan",
+      "Thận"
+    ],
+    "correct": 1,
+    "explanation": "Tim là một cơ bắp có nhiệm vụ co bóp để đẩy máu giàu oxy và chất dinh dưỡng đến các bộ phận khác."
+  },
+  {
+    "id": 218,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng nào sau đây giải thích sự hình thành cầu vồng sau cơn mưa?",
+    "options": [
+      "Phản xạ ánh sáng",
+      "Khúc xạ ánh sáng",
+      "Tán sắc ánh sáng",
+      "Nhiễu xạ ánh sáng"
+    ],
+    "correct": 2,
+    "explanation": "Cầu vồng được tạo ra khi ánh sáng mặt trời bị khúc xạ, phản xạ và tán sắc qua các giọt nước mưa, tách thành các màu quang phổ."
+  },
+  {
+    "id": 219,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Công thức hóa học của nước là gì?",
+    "options": [
+      "CO2",
+      "O2",
+      "H2O",
+      "N2"
+    ],
+    "correct": 2,
+    "explanation": "Nước là hợp chất hóa học của hydro và oxy, với công thức H2O."
+  },
+  {
+    "id": 220,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Dải Ngân Hà mà Trái Đất của chúng ta thuộc về có hình dạng chính là gì?",
+    "options": [
+      "Hình elip",
+      "Hình xoắn ốc có thanh chắn",
+      "Hình xoắn ốc không thanh chắn",
+      "Hình bất định"
+    ],
+    "correct": 1,
+    "explanation": "Dải Ngân Hà là một thiên hà xoắn ốc có thanh chắn, với một thanh sao trung tâm và các nhánh xoắn ốc."
+  },
+  {
+    "id": 221,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình thực vật chuyển đổi năng lượng ánh sáng mặt trời thành năng lượng hóa học được gọi là gì?",
+    "options": [
+      "Hô hấp",
+      "Quang hợp",
+      "Đồng hóa",
+      "Dị hóa"
+    ],
+    "correct": 1,
+    "explanation": "Quang hợp là quá trình thực vật sử dụng ánh sáng mặt trời, nước và carbon dioxide để tạo ra glucose và oxy."
+  },
+  {
+    "id": 222,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Theo thuyết tương đối rộng của Albert Einstein, trọng lực thực chất là sự bẻ cong của điều gì?",
+    "options": [
+      "Không gian và thời gian",
+      "Ánh sáng",
+      "Vật chất",
+      "Năng lượng"
+    ],
+    "correct": 0,
+    "explanation": "Thuyết tương đối rộng mô tả trọng lực không phải là một lực mà là biểu hiện của sự cong vênh của không thời gian do khối lượng và năng lượng gây ra."
+  },
+  {
+    "id": 223,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Bộ phận nào của mắt chịu trách nhiệm điều chỉnh lượng ánh sáng đi vào và tạo ra màu sắc cho mắt?",
+    "options": [
+      "Thủy tinh thể",
+      "Võng mạc",
+      "Đồng tử",
+      "Mống mắt"
+    ],
+    "correct": 3,
+    "explanation": "Mống mắt (iris) là phần có màu của mắt, có vai trò điều khiển kích thước của đồng tử để điều chỉnh lượng ánh sáng đi vào."
+  },
+  {
+    "id": 224,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hiện tượng 'Bão Mặt Trời' (Solar Flare) chủ yếu giải phóng loại bức xạ nào gây ảnh hưởng đến Trái Đất?",
+    "options": [
+      "Tia hồng ngoại",
+      "Tia cực tím",
+      "Tia X và hạt năng lượng cao",
+      "Sóng vô tuyến"
+    ],
+    "correct": 2,
+    "explanation": "Bão Mặt Trời giải phóng một lượng lớn tia X và các hạt năng lượng cao, có thể gây nhiễu loạn thông tin liên lạc, vệ tinh và lưới điện trên Trái Đất."
+  },
+  {
+    "id": 225,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào là chất lỏng ở nhiệt độ phòng?",
+    "options": [
+      "Sắt",
+      "Đồng",
+      "Thủy ngân",
+      "Vàng"
+    ],
+    "correct": 2,
+    "explanation": "Thủy ngân (Hg) là kim loại duy nhất tồn tại ở dạng lỏng trong điều kiện nhiệt độ và áp suất tiêu chuẩn."
+  },
+  {
+    "id": 226,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua đầu tiên của nhà nước Văn Lang, người có công lập ra nhà nước đầu tiên trong lịch sử Việt Nam, có tên gọi là gì?",
+    "options": [
+      "Hùng Vương",
+      "An Dương Vương",
+      "Thục Phán",
+      "Lý Nam Đế"
+    ],
+    "correct": 0,
+    "explanation": "Hùng Vương là danh hiệu chung của 18 đời vua Văn Lang, nhưng đời đầu tiên cũng được gọi là Hùng Vương."
+  },
+  {
+    "id": 227,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Hai Bà Trưng đã phất cờ khởi nghĩa chống lại ách đô hộ của nhà nào vào năm 40 SCN?",
+    "options": [
+      "Nhà Tần",
+      "Nhà Hán",
+      "Nhà Đường",
+      "Nhà Tống"
+    ],
+    "correct": 1,
+    "explanation": "Hai Bà Trưng phất cờ khởi nghĩa chống lại sự đô hộ của nhà Đông Hán (Trung Quốc)."
+  },
+  {
+    "id": 228,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vua Đinh Tiên Hoàng đã chọn kinh đô của nước Đại Cồ Việt ở đâu, đánh dấu sự ra đời của nhà nước phong kiến độc lập đầu tiên tại Việt Nam?",
+    "options": [
+      "Thăng Long",
+      "Hoa Lư",
+      "Cổ Loa",
+      "Phú Xuân"
+    ],
+    "correct": 1,
+    "explanation": "Đinh Tiên Hoàng đã chọn Hoa Lư (Ninh Bình) làm kinh đô đầu tiên của nhà nước phong kiến độc lập Đại Cồ Việt."
+  },
+  {
+    "id": 229,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bài chiếu dời đô nổi tiếng \"Thiên đô chiếu\" do vị vua nào ban hành, mở ra kỷ nguyên Thăng Long - Đại Việt?",
+    "options": [
+      "Lý Thái Tông",
+      "Lý Nhân Tông",
+      "Lý Thái Tổ",
+      "Trần Thái Tông"
+    ],
+    "correct": 2,
+    "explanation": "Lý Thái Tổ (Lý Công Uẩn) là người đã ban hành Chiếu dời đô từ Hoa Lư về Đại La, đổi tên là Thăng Long."
+  },
+  {
+    "id": 230,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Trong ba lần kháng chiến chống quân Nguyên - Mông xâm lược, vị tướng nào được giao trọng trách tổng chỉ huy và đã gắn liền với tác phẩm Hịch tướng sĩ?",
+    "options": [
+      "Trần Thủ Độ",
+      "Trần Quang Khải",
+      "Trần Hưng Đạo",
+      "Trần Khánh Dư"
+    ],
+    "correct": 2,
+    "explanation": "Quốc công Tiết chế Hưng Đạo Đại vương Trần Quốc Tuấn là tổng chỉ huy quân đội Đại Việt trong cả ba lần kháng chiến chống Nguyên - Mông."
+  },
+  {
+    "id": 231,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bộ luật nào được ban hành dưới thời Lê sơ, được xem là bộ luật hình văn hoàn chỉnh nhất trong lịch sử phong kiến Việt Nam, còn được gọi là Quốc Triều Hình Luật?",
+    "options": [
+      "Hoàng Việt Luật Lệ",
+      "Hình Thư",
+      "Luật Gia Long",
+      "Luật Hồng Đức"
+    ],
+    "correct": 3,
+    "explanation": "Bộ Quốc Triều Hình Luật, còn gọi là Luật Hồng Đức, được ban hành dưới triều vua Lê Thánh Tông."
+  },
+  {
+    "id": 232,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Trận đánh nào của Quang Trung - Nguyễn Huệ đã diễn ra vào Tết Kỷ Dậu (1789), đánh tan quân Thanh xâm lược chỉ trong vòng vài ngày, giải phóng Thăng Long?",
+    "options": [
+      "Trận Rạch Gầm - Xoài Mút",
+      "Trận Ngọc Hồi - Đống Đa",
+      "Trận Bạch Đằng",
+      "Trận Chi Lăng - Xương Giang"
+    ],
+    "correct": 1,
+    "explanation": "Trận Ngọc Hồi - Đống Đa là chiến thắng lẫy lừng của Hoàng đế Quang Trung đánh tan 29 vạn quân Thanh vào Tết Kỷ Dậu 1789."
+  },
+  {
+    "id": 233,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Ngày 2 tháng 9 năm 1945, Chủ tịch Hồ Chí Minh đã đọc Tuyên ngôn Độc lập, khai sinh ra nước Việt Nam Dân chủ Cộng hòa tại quảng trường nào ở Hà Nội?",
+    "options": [
+      "Ba Đình",
+      "Cách Mạng Tháng Tám",
+      "Đông Kinh Nghĩa Thục",
+      "Nhà hát Lớn"
+    ],
+    "correct": 0,
+    "explanation": "Tuyên ngôn Độc lập được đọc tại Quảng trường Ba Đình, Hà Nội, khai sinh ra nước Việt Nam Dân chủ Cộng hòa."
+  },
+  {
+    "id": 234,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Sự kiện nào được coi là mốc khởi đầu của Thế chiến I, dẫn đến một trong những cuộc xung đột lớn nhất lịch sử nhân loại?",
+    "options": [
+      "Đức tấn công Ba Lan",
+      "Nhật Bản tấn công Trân Châu Cảng",
+      "Áo-Hung tuyên chiến Serbia",
+      "Liên Xô tan rã"
+    ],
+    "correct": 2,
+    "explanation": "Việc Áo-Hung tuyên chiến với Serbia vào ngày 28 tháng 7 năm 1914 sau vụ ám sát Thái tử Franz Ferdinand được xem là khởi đầu của Thế chiến I."
+  },
+  {
+    "id": 235,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "Ai là người đầu tiên đặt chân lên Mặt Trăng vào ngày 20 tháng 7 năm 1969, trong sứ mệnh Apollo 11 của Mỹ?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "Michael Collins"
+    ],
+    "correct": 2,
+    "explanation": "Neil Armstrong, phi hành gia người Mỹ, là người đầu tiên đặt chân lên Mặt Trăng trong sứ mệnh Apollo 11."
+  },
+  {
+    "id": 236,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Mô hình ngôn ngữ lớn (LLM) nào sau đây được Google phát triển?",
+    "options": [
+      "GPT-4",
+      "LLaMA",
+      "Gemini",
+      "Claude 3"
+    ],
+    "correct": 2,
+    "explanation": "Gemini là một dòng mô hình AI đa phương thức do Google phát triển, cạnh tranh trực tiếp với các mô hình khác trên thị trường."
+  },
+  {
+    "id": 237,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tính năng nào sau đây KHÔNG phải là đặc điểm cơ bản của một chiếc điện thoại thông minh hiện đại?",
+    "options": [
+      "Màn hình cảm ứng",
+      "Khả năng kết nối Internet",
+      "Hệ điều hành mở",
+      "Bàn phím vật lý QWERTY đầy đủ"
+    ],
+    "correct": 3,
+    "explanation": "Điện thoại thông minh hiện đại chủ yếu sử dụng màn hình cảm ứng hoàn toàn, thay vì bàn phím vật lý."
+  },
+  {
+    "id": 238,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món phở truyền thống của Hà Nội nổi tiếng với loại thịt nào?",
+    "options": [
+      "Phở gà",
+      "Phở bò",
+      "Phở cuốn",
+      "Phở vịt"
+    ],
+    "correct": 1,
+    "explanation": "Phở bò là loại phở phổ biến và đặc trưng nhất của ẩm thực Hà Nội, với các biến thể như bò tái, chín, gầu, v.v."
+  },
+  {
+    "id": 239,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Cầu thủ nào đang giữ kỷ lục ghi nhiều bàn thắng nhất trong lịch sử World Cup?",
+    "options": [
+      "Pelé",
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Cristiano Ronaldo"
+    ],
+    "correct": 2,
+    "explanation": "Miroslav Klose của Đức đã ghi tổng cộng 16 bàn thắng qua các kỳ World Cup anh tham dự, giữ kỷ lục ghi bàn cao nhất."
+  },
+  {
+    "id": 240,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "\"Work-life balance\" là thuật ngữ chỉ sự cân bằng giữa điều gì trong đời sống hiện đại?",
+    "options": [
+      "Công việc và giải trí",
+      "Công việc và gia đình",
+      "Công việc và cuộc sống cá nhân",
+      "Công việc và sức khỏe"
+    ],
+    "correct": 2,
+    "explanation": "\"Work-life balance\" đề cập đến sự cân bằng giữa trách nhiệm công việc và các khía cạnh khác của cuộc sống cá nhân như gia đình, sở thích, sức khỏe tinh thần."
+  },
+  {
+    "id": 241,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Giao thức mạng nào chịu trách nhiệm dịch tên miền (ví dụ: google.com) thành địa chỉ IP?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "SMTP"
+    ],
+    "correct": 2,
+    "explanation": "DNS (Domain Name System) là hệ thống dịch tên miền thành địa chỉ IP để các máy tính có thể tìm thấy nhau trên mạng Internet."
+  },
+  {
+    "id": 242,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món ăn nào sau đây được xem là đặc sản của miền Tây Nam Bộ với nguyên liệu chính là cá linh và bông điên điển vào mùa nước nổi?",
+    "options": [
+      "Lẩu mắm",
+      "Bún nước lèo",
+      "Canh chua cá lóc",
+      "Lẩu cá linh bông điên điển"
+    ],
+    "correct": 3,
+    "explanation": "Lẩu cá linh bông điên điển là món ăn đặc trưng của miền Tây Nam Bộ, đặc biệt phổ biến vào mùa nước nổi."
+  },
+  {
+    "id": 243,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thuật ngữ \"Machine Learning\" (Học máy) thuộc lĩnh vực rộng lớn nào của Trí tuệ nhân tạo?",
+    "options": [
+      "Robot học",
+      "Thị giác máy tính",
+      "Xử lý ngôn ngữ tự nhiên",
+      "Học máy là một nhánh chính của AI"
+    ],
+    "correct": 3,
+    "explanation": "Học máy là một trong những nhánh quan trọng và phát triển nhất của Trí tuệ nhân tạo, cho phép hệ thống học hỏi từ dữ liệu mà không cần lập trình rõ ràng."
+  },
+  {
+    "id": 244,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đội tuyển quốc gia nào đã vô địch World Cup nhiều lần nhất trong lịch sử?",
+    "options": [
+      "Đức",
+      "Ý",
+      "Brazil",
+      "Argentina"
+    ],
+    "correct": 2,
+    "explanation": "Brazil là đội tuyển quốc gia duy nhất đã 5 lần vô địch FIFA World Cup, vào các năm 1958, 1962, 1970, 1994 và 2002."
+  },
+  {
+    "id": 245,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Món \"Mì Quảng\" nổi tiếng của miền Trung có thể được ăn kèm với loại topping nào sau đây KHÔNG phổ biến bằng các loại khác?",
+    "options": [
+      "Tôm và thịt gà",
+      "Thịt heo và trứng cút",
+      "Cá lóc và chả cá",
+      "Bò tái và gân"
+    ],
+    "correct": 3,
+    "explanation": "Mì Quảng thường được ăn kèm với tôm, thịt gà, thịt heo, trứng cút, cá lóc, chả cá hoặc ếch. Bò tái và gân thường phổ biến hơn trong các món như phở hoặc bún bò Huế."
+  },
+  {
+    "id": 246,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Câu tục ngữ nào sau đây khuyên răn về lòng biết ơn, với ý nghĩa nhắc nhở về công lao của người đi trước?",
+    "options": [
+      "Ăn quả nhớ kẻ trồng cây",
+      "Thương người như thể thương thân",
+      "Một nắng hai sương",
+      "Nước chảy đá mòn"
+    ],
+    "correct": 0,
+    "explanation": "Câu tục ngữ 'Ăn quả nhớ kẻ trồng cây' là lời khuyên răn con người phải biết ơn những người đã tạo ra thành quả cho mình hưởng thụ."
+  },
+  {
+    "id": 247,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Trong truyện cổ tích 'Tấm Cám', nhân vật Tấm đã biến hóa thành bao nhiêu hình dạng để gặp lại vua?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "Tấm đã biến hóa thành 4 hình dạng: chim vàng anh, cây xoan đào, khung cửi và cuối cùng là quả thị để được về cung."
+  },
+  {
+    "id": 248,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm 'Hoàng Lê nhất thống chí' thuộc thể loại gì và kể về triều đại nào trong lịch sử Việt Nam?",
+    "options": [
+      "Tiểu thuyết chương hồi, thời Tây Sơn",
+      "Hồi ký, thời nhà Nguyễn",
+      "Ký sự, thời Lê Trung Hưng",
+      "Truyện thơ, thời Hậu Lê"
+    ],
+    "correct": 0,
+    "explanation": "'Hoàng Lê nhất thống chí' là một tiểu thuyết chương hồi, ghi chép lại giai đoạn lịch sử đầy biến động cuối thời Lê và sự nghiệp của nghĩa quân Tây Sơn."
+  },
+  {
+    "id": 249,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc sĩ Trịnh Công Sơn nổi tiếng với dòng nhạc nào?",
+    "options": [
+      "Nhạc đỏ",
+      "Nhạc trữ tình",
+      "Nhạc tiền chiến",
+      "Nhạc dân ca"
+    ],
+    "correct": 1,
+    "explanation": "Trịnh Công Sơn được mệnh danh là 'Phù thủy của những bản tình ca', nổi tiếng với dòng nhạc trữ tình, giàu triết lý."
+  },
+  {
+    "id": 250,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Họa sĩ nào được mệnh danh là 'vua phố Phái' với những tác phẩm đặc tả về phố cổ Hà Nội?",
+    "options": [
+      "Nguyễn Gia Trí",
+      "Tô Ngọc Vân",
+      "Bùi Xuân Phái",
+      "Nguyễn Sáng"
+    ],
+    "correct": 2,
+    "explanation": "Bùi Xuân Phái là một trong những họa sĩ hàng đầu của nền mỹ thuật hiện đại Việt Nam, đặc biệt thành công với đề tài phố cổ Hà Nội."
+  },
+  {
+    "id": 251,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Loại hình nghệ thuật sân khấu dân gian nào của Việt Nam thường diễn ra trên mặt nước và sử dụng những con rối được điều khiển từ xa?",
+    "options": [
+      "Hát Chèo",
+      "Múa rối nước",
+      "Hát Tuồng",
+      "Ca Trù"
+    ],
+    "correct": 1,
+    "explanation": "Múa rối nước là một loại hình nghệ thuật sân khấu dân gian độc đáo của Việt Nam, gắn liền với đời sống nông nghiệp lúa nước."
+  },
+  {
+    "id": 252,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Câu tục ngữ 'Gần mực thì đen, gần đèn thì sáng' muốn nói về điều gì?",
+    "options": [
+      "Tác dụng của việc học hành",
+      "Sự ảnh hưởng của môi trường sống",
+      "Giá trị của sự cần cù",
+      "Sự thay đổi của thời tiết"
+    ],
+    "correct": 1,
+    "explanation": "Câu tục ngữ này nhấn mạnh tầm quan trọng của môi trường sống và những người xung quanh đối với sự hình thành nhân cách và phẩm chất của mỗi người."
+  },
+  {
+    "id": 253,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Trong truyện cổ tích 'Thạch Sanh', vật phẩm thần kỳ nào đã giúp chàng đánh bại quân 18 nước chư hầu mà không cần giao chiến?",
+    "options": [
+      "Niêu cơm thần",
+      "Cây đàn thần",
+      "Rìu báu",
+      "Cung tên thần"
+    ],
+    "correct": 1,
+    "explanation": "Cây đàn thần của Thạch Sanh có khả năng khiến quân lính 18 nước chư hầu hoảng sợ và phải quy hàng, thể hiện sức mạnh của chính nghĩa và hòa bình."
+  },
+  {
+    "id": 254,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Loại hình sân khấu dân gian nào của Việt Nam nổi bật với việc sử dụng những chiếc mặt nạ mang tính biểu tượng cao, thể hiện rõ tính cách và thân phận của nhân vật?",
+    "options": [
+      "Hát Chèo",
+      "Hát Xẩm",
+      "Hát Tuồng",
+      "Ca Trù"
+    ],
+    "correct": 2,
+    "explanation": "Hát Tuồng (hay hát Bội) là loại hình nghệ thuật sân khấu cổ điển, trong đó các nhân vật thường được hóa trang bằng những chiếc mặt nạ vẽ cầu kỳ, mỗi màu sắc và họa tiết mang ý nghĩa riêng về tính cách nhân vật."
+  },
+  {
+    "id": 255,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm 'Chí Phèo', một truyện ngắn hiện thực phê phán nổi tiếng của văn học Việt Nam?",
+    "options": [
+      "Nguyễn Công Hoan",
+      "Nam Cao",
+      "Ngô Tất Tố",
+      "Vũ Trọng Phụng"
+    ],
+    "correct": 1,
+    "explanation": "Nam Cao là một trong những nhà văn hiện thực xuất sắc nhất của Việt Nam, với tác phẩm 'Chí Phèo' lột tả bi kịch của người nông dân bị tha hóa trong xã hội cũ."
+  },
+  {
+    "id": 256,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì luôn đến mà không bao giờ tới?",
+    "options": [
+      "Ngày mai",
+      "Giấc mơ",
+      "Tương lai",
+      "Thời gian"
+    ],
+    "correct": 0,
+    "explanation": "Ngày mai luôn là ngày tiếp theo, nên nó luôn đến nhưng không bao giờ 'tới' để trở thành ngày hôm nay."
+  },
+  {
+    "id": 257,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Con gì không có chân mà vẫn chạy, không có cánh mà vẫn bay?",
+    "options": [
+      "Con sông",
+      "Con gió",
+      "Con thuyền",
+      "Con diều"
+    ],
+    "correct": 0,
+    "explanation": "Dòng sông chảy xiết như chạy, còn nước bốc hơi lên trời như bay."
+  },
+  {
+    "id": 258,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Để nguyên là bạn của nhà nông. Bỏ đầu thành một bộ phận trên mặt. Là chữ gì?",
+    "options": [
+      "Trâu",
+      "Bò",
+      "Lợn",
+      "Cừu"
+    ],
+    "correct": 0,
+    "explanation": "'Trâu' là con vật quen thuộc của nhà nông. Bỏ chữ 'Tr' còn lại 'Râu' là bộ phận trên mặt."
+  },
+  {
+    "id": 259,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Trong một cuộc đua marathon, bạn vượt qua người thứ hai. Vậy bạn đang ở vị trí thứ mấy?",
+    "options": [
+      "Thứ nhất",
+      "Thứ hai",
+      "Thứ ba",
+      "Thứ tư"
+    ],
+    "correct": 1,
+    "explanation": "Nếu bạn vượt qua người thứ hai, bạn sẽ ở vị trí của người thứ hai."
+  },
+  {
+    "id": 260,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Một bác sĩ phẫu thuật và một tài xế xe buýt yêu cùng một người phụ nữ. Tài xế xe buýt phải đi công tác xa trong 7 ngày. Trước khi đi, anh ta để lại cho người phụ nữ 7 quả táo. Lời nhắn đó là gì?",
+    "options": [
+      "Em hãy nhớ anh trong 7 ngày này",
+      "Em hãy ăn táo để khỏe mạnh",
+      "Mỗi ngày một quả táo, bác sĩ tránh xa ta",
+      "Anh sẽ quay lại sau 7 ngày"
+    ],
+    "correct": 2,
+    "explanation": "Tục ngữ phương Tây có câu 'An apple a day keeps the doctor away' (Mỗi ngày một quả táo, bác sĩ tránh xa ta)."
+  },
+  {
+    "id": 261,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Cái gì càng bóc càng nhỏ đi?",
+    "options": [
+      "Củ khoai tây",
+      "Củ hành",
+      "Củ cải",
+      "Quả cam"
+    ],
+    "correct": 1,
+    "explanation": "Củ hành có nhiều lớp vỏ, càng bóc thì củ càng nhỏ lại."
+  },
+  {
+    "id": 262,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Cái gì sáng đi bằng bốn chân, trưa đi bằng hai chân, tối đi bằng ba chân?",
+    "options": [
+      "Con chó",
+      "Con người",
+      "Con khỉ",
+      "Con chim"
+    ],
+    "correct": 1,
+    "explanation": "Đây là câu đố nổi tiếng của nhân sư Sphinx: Buổi sáng cuộc đời (trẻ nhỏ) bò bằng 4 chân, buổi trưa (trưởng thành) đi bằng 2 chân, buổi tối (già) chống gậy đi bằng 3 chân."
+  },
+  {
+    "id": 263,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Có một đàn chim đậu trên cành cây. Một người thợ săn bắn chết một con. Hỏi trên cành còn bao nhiêu con?",
+    "options": [
+      "Không con nào",
+      "Một con",
+      "Hai con",
+      "Nhiều con"
+    ],
+    "correct": 0,
+    "explanation": "Khi một con bị bắn, những con còn lại sẽ sợ hãi và bay đi hết."
+  },
+  {
+    "id": 264,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Cái gì khi bạn có nó, bạn chia sẻ nó. Khi bạn chia sẻ nó, bạn không còn nó nữa?",
+    "options": [
+      "Tiền bạc",
+      "Tình yêu",
+      "Bí mật",
+      "Kiến thức"
+    ],
+    "correct": 2,
+    "explanation": "Bí mật là thứ khi bạn nói ra (chia sẻ), nó không còn là bí mật riêng của bạn nữa."
+  },
+  {
+    "id": 265,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Làm sao để một người đứng phía sau bạn mà không cần quay đầu lại?",
+    "options": [
+      "Đặt người đó phía trước gương",
+      "Quay đầu lại nhìn",
+      "Nhờ người đó đi vòng qua",
+      "Gọi tên người đó"
+    ],
+    "correct": 0,
+    "explanation": "Khi người đó đứng trước gương, bạn có thể nhìn thấy họ qua phản chiếu mà không cần quay đầu."
   }
 ]
