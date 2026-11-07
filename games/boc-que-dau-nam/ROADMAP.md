@@ -10,7 +10,7 @@
 | **v1.0** | Bản Nền Tảng (Core Release) | Hàng đợi thường & VIP, TTS tiếng Việt, chuẩn 9:16, Colab runner kép | ✅ ĐÃ HOÀN THÀNH |
 | **v1.1** | Audiovisual & SFX Chân Thực | Âm thanh lắc xăm tre, chiêng đồng, pháo nổ, nhạc BGM Tết, thiệp chụp ảnh | ✅ ĐÃ HOÀN THÀNH |
 | **v1.2** | Phân Loại Quẻ & Cá Nhân Hóa | Rút quẻ theo ý (Tình duyên, Tài lộc, Công danh), nhận diện Tên & Năm sinh | ✅ ĐÃ HOÀN THÀNH |
-| **v1.3** | Quẻ Đại Hạn & Thử Thách Hóa Giải | Quẻ Hạ Hạ troll dí dỏm, đếm ngược cả phòng thả tim hoặc tặng quà giải hạn | ⏳ CHỜ TRIỂN KHAI |
+| **v1.3** | Quẻ Đại Hạn & Thử Thách Hóa Giải | Quẻ Hạ Hạ troll dí dỏm, đếm ngược cả phòng thả tim hoặc tặng quà giải hạn | ✅ ĐÃ HOÀN THÀNH |
 | **v1.4** | Quà Tặng VIP Đa Tầng & Thần Tài | 3 cấp bậc VIP (Bạc, Vàng, Kim Cương), hiệu ứng Thần Tài bay qua màn hình | ⏳ CHỜ TRIỂN KHAI |
 | **v1.5** | Bảng Phú Hộ & Gamification | Top 3 Phú Hộ donate nhiều nhất, Thanh Phúc Khí toàn phòng, Chống spam | ⏳ CHỜ TRIỂN KHAI |
 
@@ -49,13 +49,16 @@
 
 ---
 
-### 🎋 MILESTONE 3: v1.3 - Sự Kiện "Quẻ Đại Hạn" & Thử Thách Hóa Giải
-- [ ] **Cơ chế Quẻ Hạ Hạ (Troll hài hước):**
-  - [ ] Tỷ lệ 10% người bốc sẽ trúng quẻ "Hạ Hạ" (lời thơ dí dỏm về thói quen xấu, hao tài vì trà sữa, cẩn thận người yêu giận...).
-- [ ] **Sự kiện Co-op Mini-Game (Cả phòng Live giải cứu):**
-  - [ ] Màn hình chuyển sang hiệu ứng ánh tím huyền bí và tiếng chuông báo động.
-  - [ ] Đồng hồ đếm ngược 15 giây: *"Cả phòng Live hãy thả gấp 300 Tim HOẶC tặng 1 Hoa Hồng để HÓA GIẢI vận hạn cho bạn [Nickname]!"*.
-  - [ ] Nếu giải hạn thành công: Pháo hoa nổ tung, chuyển hóa thành quẻ Đại Cát + tặng danh hiệu "Thoát Nạn Thành Công".
+### 🎋 MILESTONE 3: v1.3 - Sự Kiện "Quẻ Đại Hạn" & Thử Thách Hóa Giải (✅ ĐÃ HOÀN THÀNH)
+- [x] **Cơ chế Quẻ Hạ Hạ (Troll dí dỏm):**
+  - [x] Bổ sung các quẻ Hạ Hạ hài hước vào `que_database.json` (Hao tài vì trà sữa, người yêu dỗi hờn, đãng trí đầu năm).
+  - [x] VIP tặng quà cam kết 100% không bao giờ dính quẻ Hạ Hạ.
+- [x] **Sự kiện Co-op Mini-Game (Cả phòng Live giải cứu):**
+  - [x] Giao diện chuyển sang màn hình ánh tím báo động, còi báo động khẩn cấp ngân vang (`playAlarm()`).
+  - [x] Đồng hồ đếm ngược 15 giây với thanh tiến độ thả tim thời gian thực: Cả phòng chung tay thả đủ 30 tim hoặc tặng 1 hoa hồng để giải cứu tức thì!
+  - [x] Nếu giải cứu thành công: Kèn khải hoàn (`playTriumph()`) + pháo nổ tưng bừng, chuyển hóa thành quẻ Đại Cát *"THOÁT NẠN THÀNH CÔNG - HÓA HUNG THÀNH CÁT"*.
+  - [x] Nếu thất bại: Nhạc trầm buồn và thông báo thí chủ ráng tích thêm đức.
+- [x] **Bảng điều khiển Admin:** Tích hợp nút ép dính hạn `triggerCrisis()`, nút thả tim cứu bồ nhanh.
 
 ---
 

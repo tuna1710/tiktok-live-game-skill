@@ -208,5 +208,47 @@
     "sucKhoe": "Tâm trí nhẹ nhàng, thể chất dồi dào.",
     "luckyNumber": 79,
     "shortAdvice": "Đi xa cầu tài rất có lợi trong năm nay."
+  },
+  {
+    "id": 901,
+    "category": "tinh_duyen",
+    "categoryName": "💖 Tình Duyên",
+    "type": "HẠ HẠ",
+    "title": "Người Yêu Dỗi Hờn",
+    "poem": "Mải mê xem Live quên đón nàng\nLời qua tiếng lại giận hoang mang\nNhanh tay xin lỗi mua trà sữa\nKẻo xuân này ế dạ bàng hoàng.",
+    "taiLoc": "Hao tài vì phải mua quà chuộc lỗi.",
+    "tinhDuyen": "Chiến tranh lạnh kéo dài nếu không biết nhún nhường.",
+    "congDanh": "Đầu óc lơ đễnh, dễ làm mất giấy tờ.",
+    "sucKhoe": "Đau đầu vì dỗ dành người thương.",
+    "luckyNumber": 44,
+    "shortAdvice": "Cần thả tim hoặc tặng hoa hồng gấp để hóa giải hạn này!"
+  },
+  {
+    "id": 902,
+    "category": "tai_loc",
+    "categoryName": "💰 Tài Lộc",
+    "type": "HẠ HẠ",
+    "title": "Hao Tài Trà Sữa",
+    "poem": "Đầu năm thèm ngọt dạ chẳng nguôi\nTrà sữa trân châu uống ngậm ngùi\nTiền bay theo gió vào ly nước\nVí rỗng hầu bao lệ sụt sùi.",
+    "taiLoc": "Chi tiêu quá trớn vào ăn uống tiệc tùng.",
+    "tinhDuyen": "Người yêu chê béo, bắt đầu giảm cân gian nan.",
+    "congDanh": "Ngủ gật trong giờ làm việc sau bữa no.",
+    "sucKhoe": "Chú ý đường huyết và cân nặng.",
+    "luckyNumber": 13,
+    "shortAdvice": "Cả phòng hãy thả tim giải cứu ví tiền cho thí chủ!"
+  },
+  {
+    "id": 903,
+    "category": "tong_hop",
+    "categoryName": "🎋 May Mắn",
+    "type": "HẠ HẠ",
+    "title": "Đãng Trí Đầu Năm",
+    "poem": "Du xuân mải ngắm cảnh muôn hoa\nChìa khóa xe đâu kiếm tít mù\nRa đường nhớ ngó trước nhìn sau\nKẻo quên đồ đạc phải âu lo.",
+    "taiLoc": "Cẩn thận rơi rớt đồ đạc khi đi du xuân.",
+    "tinhDuyen": "Nhầm lẫn ngày kỷ niệm khiến người thương dỗi.",
+    "congDanh": "Kiểm tra kỹ email trước khi gửi sếp.",
+    "sucKhoe": "Đãng trí do thiếu ngủ, cần nghỉ ngơi.",
+    "luckyNumber": 7,
+    "shortAdvice": "Mau cầu cứu cả phòng thả tim để tìm lại đồ đạc!"
   }
 ]

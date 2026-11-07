@@ -81,16 +81,14 @@
       </div>
     </div>
 
-    <!-- Kiểm Thử Âm Thanh SFX & BGM Tết -->
-    <div class="card">
-      <div class="card-title">🎵 Kiểm Thử Âm Thanh SFX & BGM Tết (Milestone 1)</div>
+    <!-- Kiểm Thử Quẻ Đại Hạn & Thử Thách Cả Phòng Giải Cứu (Milestone 3) -->
+    <div class="card" style="border-color: #f43f5e;">
+      <div class="card-title" style="color: #fb7185;">⚠️ Kiểm Thử Quẻ Đại Hạn & Giải Cứu (Milestone 3)</div>
       <div class="quick-list">
-        <button class="btn-quick" onclick="triggerSfx('shake')">🎋 Tiếng Lắc Tre</button>
-        <button class="btn-quick" onclick="triggerSfx('gong')">🔔 Tiếng Chiêng Đồng</button>
-        <button class="btn-quick" onclick="triggerSfx('firecracker')">🎆 Tiếng Pháo Nổ</button>
-        <button class="btn-quick" onclick="triggerSfx('chime')">✨ Chuông May Mắn</button>
-        <button class="btn-quick" onclick="triggerSfx('test_card')">📸 Mở Thiệp Chụp Ảnh</button>
-        <button class="btn-gold" onclick="toggleBgm()">🎶 Bật/Tắt Nhạc Tết BGM</button>
+        <button class="btn-quick" style="background: #881337; color: #fff; border-color: #f43f5e;" onclick="triggerCrisis()">⚡ Ép Dính Quẻ Đại Hạn (Bắt đầu 15s)</button>
+        <button class="btn-quick" onclick="sendLikes(10)">❤️ Thả Nhanh 10 Tim Giải Cứu</button>
+        <button class="btn-quick" onclick="sendLikes(30)">🔥 Thả Đủ 30 Tim (Cứu Ngay)</button>
+        <button class="btn-quick" style="border-color: #ffd700;" onclick="sendGift('Hoa Hồng', 1, 1)">🌹 Tặng Quà Cứu Tức Thì</button>
       </div>
     </div>
 
@@ -110,6 +108,11 @@
 
     function toggleBgm() {
       socket.emit('admin:bgm:toggle');
+    }
+
+    function triggerCrisis() {
+      const name = document.getElementById('user-name').value.trim() || 'NguoiXuiXe_01';
+      socket.emit('mock:crisis', { name });
     }
 
     function sendChat() {

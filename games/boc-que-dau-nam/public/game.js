@@ -206,6 +206,54 @@ class TetSoundEngine {
     });
   }
 
+  // 6. Tiếng Còi Báo Động Đại Hạn
+  playAlarm() {
+    if (this.isMuted) return;
+    this.ensureContext();
+    if (!this.ctx) return;
+    for (let i = 0; i < 3; i++) {
+      setTimeout(() => {
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(620, now);
+        osc.frequency.linearRampToValueAtTime(380, now + 0.28);
+        gain.gain.setValueAtTime(0.32, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.3);
+      }, i * 320);
+    }
+  }
+
+  // 7. Tiếng Kèn Khúc Khải Hoàn (Giải Cứu Thành Công)
+  playTriumph() {
+    if (this.isMuted) return;
+    this.ensureContext();
+    if (!this.ctx) return;
+    const chords = [523.25, 659.25, 783.99, 1046.5];
+    chords.forEach((f, idx) => {
+      setTimeout(() => {
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(f, now);
+        gain.gain.setValueAtTime(0.28, now);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.2);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 1.2);
+      }, idx * 120);
+    });
+  }
+
   // 5. Nhạc nền BGM Ngũ Cung Ngày Xuân (Điệu đàn tranh du dương)
   startBgm() {
     if (this.bgmPlaying || this.isMuted) return;
@@ -468,6 +516,76 @@ socket.on('draw:reveal', data => {
   setTimeout(() => {
     showShareCard(data);
   }, 1000);
+});
+
+// Xử lý Sự Kiện Quẻ Đại Hạn & Thử Thách Cả Phòng Giải Cứu
+const crisisOverlay = document.getElementById('crisis-overlay');
+const crisisVictimAvatar = document.getElementById('crisis-victim-avatar');
+const crisisVictimName = document.getElementById('crisis-victim-name');
+const crisisBadTitle = document.getElementById('crisis-bad-title');
+const crisisBadPoem = document.getElementById('crisis-bad-poem');
+const crisisTimerEl = document.getElementById('crisis-timer');
+const crisisProgressBar = document.getElementById('crisis-progress-bar');
+const crisisCurrentLikes = document.getElementById('crisis-current-likes');
+const crisisGoalLikes = document.getElementById('crisis-goal-likes');
+
+socket.on('crisis:start', data => {
+  shakerContainer.classList.add('hidden');
+  shakerContainer.classList.remove('shaking');
+  scrollWrapper.classList.add('hidden');
+  if (fortuneShareCard) fortuneShareCard.classList.add('hidden');
+
+  const u = data.victim;
+  const f = data.fortune;
+  crisisVictimAvatar.src = u.avatar || 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg';
+  const ageStr = u.canChi ? ` (${u.canChi})` : '';
+  crisisVictimName.textContent = `${u.nickname}${ageStr}`;
+  crisisBadTitle.textContent = f.title;
+  crisisBadPoem.textContent = f.poem;
+  crisisTimerEl.textContent = data.countdown;
+  crisisCurrentLikes.textContent = 0;
+  crisisGoalLikes.textContent = data.goalLikes;
+  crisisProgressBar.style.width = '0%';
+
+  crisisOverlay.classList.remove('hidden');
+  soundEngine.playAlarm();
+});
+
+socket.on('crisis:tick', data => {
+  if (crisisTimerEl) crisisTimerEl.textContent = data.countdown;
+  if (crisisCurrentLikes) crisisCurrentLikes.textContent = data.currentLikes;
+  if (crisisGoalLikes) crisisGoalLikes.textContent = data.goalLikes;
+  if (crisisProgressBar) {
+    const pct = Math.min(100, Math.round((data.currentLikes / data.goalLikes) * 100));
+    crisisProgressBar.style.width = `${pct}%`;
+  }
+});
+
+socket.on('crisis:resolved', data => {
+  crisisOverlay.classList.add('hidden');
+  if (data.success) {
+    soundEngine.playTriumph();
+    soundEngine.playFirecrackers();
+    displayRevealedFortune({
+      user: data.victim,
+      fortune: data.fortune,
+      isVip: true
+    });
+    setTimeout(() => {
+      showShareCard({
+        user: data.victim,
+        fortune: data.fortune,
+        isVip: true
+      });
+    }, 1200);
+  } else {
+    soundEngine.playGong();
+    displayRevealedFortune({
+      user: data.victim,
+      fortune: data.fortune,
+      isVip: false
+    });
+  }
 });
 
 // Sự kiện âm thanh trực tiếp từ Admin

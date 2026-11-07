@@ -138,12 +138,20 @@ function processNextInQueue() {
   let eligibleFortunes = fortunes.filter(f => f.category === userCat);
   if (eligibleFortunes.length === 0) eligibleFortunes = fortunes;
 
-  // Nếu là người tặng quà VIP: cam kết ưu tiên ra quẻ Đại Cát hoặc Thượng Cát
+  // Nếu là người tặng quà VIP: cam kết KHÔNG BAO GIỜ dính quẻ Hạ Hạ, chỉ ra Đại Cát / Thượng Cát
   if (isVip) {
     const vipEligible = eligibleFortunes.filter(f => f.type === 'ĐẠI CÁT' || f.type === 'THƯỢNG CÁT');
     if (vipEligible.length > 0) eligibleFortunes = vipEligible;
   }
-  const picked = eligibleFortunes[Math.floor(Math.random() * eligibleFortunes.length)];
+  
+  let picked = null;
+  // Kiểm tra nếu là ép dính hạn từ Admin hoặc tỷ lệ 15% quẻ thường trúng Hạ Hạ
+  if (nextUser.forceCrisis) {
+    const crisisFortunes = fortunes.filter(f => f.type === 'HẠ HẠ');
+    picked = crisisFortunes[Math.floor(Math.random() * crisisFortunes.length)] || fortunes[0];
+  } else {
+    picked = eligibleFortunes[Math.floor(Math.random() * eligibleFortunes.length)];
+  }
 
   currentFortune = {
     user: nextUser,
@@ -156,8 +164,13 @@ function processNextInQueue() {
   io.emit('draw:start', { user: nextUser, isVip });
   broadcastState();
 
-  // Bước 2: Sau 3 giây rung lắc, bung mở quẻ xăm và phát giọng đọc TTS
+  // Bước 2: Sau 3 giây rung lắc, kiểm tra nếu trúng Quẻ Đại Hạn (Hạ Hạ) ➔ Bắt đầu Thử Thách Cả Phòng Giải Cứu
   setTimeout(() => {
+    if (!isVip && picked.type === 'HẠ HẠ') {
+      startCrisisChallenge(nextUser, picked);
+      return;
+    }
+
     io.emit('draw:reveal', currentFortune);
     historyFortunes.push(currentFortune);
     broadcastState();
@@ -177,6 +190,115 @@ function processNextInQueue() {
     }, 9000);
 
   }, 3000);
+}
+
+// Quản lý sự kiện Quẻ Đại Hạn & Thử Thách Cả Phòng Giải Cứu (Co-op Crisis)
+let crisisState = null;
+
+function startCrisisChallenge(nextUser, badFortune) {
+  if (crisisState) return;
+
+  crisisState = {
+    active: true,
+    victim: nextUser,
+    fortune: badFortune,
+    goalLikes: 30, // 30 tim là mục tiêu phù hợp để giải cứu
+    currentLikes: 0,
+    countdown: 15,
+    timer: null,
+    isResolved: false
+  };
+
+  io.emit('crisis:start', {
+    victim: nextUser,
+    fortune: badFortune,
+    goalLikes: crisisState.goalLikes,
+    currentLikes: 0,
+    countdown: 15
+  });
+
+  const ageStr = nextUser.canChi ? `tuổi ${nextUser.canChi}` : '';
+  const alertTts = `Báo động nguy cấp! Thí chủ ${nextUser.nickname} ${ageStr} đã bốc phải quẻ Đại Hạn ${badFortune.title}! Cả phòng hãy mau mau thả 30 tim hoặc tặng 1 hoa hồng để giải cứu trong 15 giây!`;
+  io.emit('playTts', { text: alertTts });
+
+  crisisState.timer = setInterval(() => {
+    if (!crisisState || crisisState.isResolved) {
+      clearInterval(crisisState?.timer);
+      return;
+    }
+    crisisState.countdown--;
+    io.emit('crisis:tick', {
+      countdown: crisisState.countdown,
+      currentLikes: crisisState.currentLikes,
+      goalLikes: crisisState.goalLikes
+    });
+
+    if (crisisState.countdown <= 0) {
+      clearInterval(crisisState.timer);
+      resolveCrisis(false);
+    }
+  }, 1000);
+}
+
+function resolveCrisis(success, reason = 'likes', giftData = null) {
+  if (!crisisState || crisisState.isResolved) return;
+  crisisState.isResolved = true;
+  clearInterval(crisisState.timer);
+
+  if (success) {
+    const convertedFortune = {
+      id: 999,
+      category: 'tong_hop',
+      categoryName: '🌟 Hóa Hung Thành Cát',
+      type: 'ĐẠI CÁT',
+      title: 'THOÁT NẠN THÀNH CÔNG',
+      poem: 'Hiệp lực đồng lòng vạn cánh tay\nGian nan vận hạn thảy tan bay\nCả phòng cứu nạn tròn công đức\nPhúc ấm đầu xuân rực rỡ này.',
+      taiLoc: 'Tai qua nạn khỏi, tiền tài vào gấp bội.',
+      tinhDuyen: 'Được cả cộng đồng yêu quý, đào hoa ngập tràn.',
+      congDanh: 'Vượt ải gian nan, bước sang trang mới huy hoàng.',
+      sucKhoe: 'Khỏe mạnh, thoát khỏi mọi ưu phiền.',
+      luckyNumber: 99,
+      shortAdvice: 'Tình cảm tương thân tương ái của mọi người đã cứu bạn!'
+    };
+
+    io.emit('crisis:resolved', {
+      success: true,
+      reason,
+      savior: giftData ? giftData.nickname : 'Cả Phòng Live',
+      victim: crisisState.victim,
+      fortune: convertedFortune
+    });
+
+    historyFortunes.push({
+      user: crisisState.victim,
+      isVip: true,
+      fortune: convertedFortune,
+      drawnAt: new Date().toLocaleTimeString('vi-VN')
+    });
+
+    const saviorPhrase = giftData 
+      ? `Đại gia ${giftData.nickname} đã hào phóng tặng ${giftData.giftName} giải cứu thần tốc cho ${crisisState.victim.nickname}!`
+      : `Cả phòng Live đã chung sức thả đủ 30 tim giải cứu thành công cho ${crisisState.victim.nickname}!`;
+    const ttsSuccess = `${saviorPhrase} Hóa hung thành cát! Chúc mừng bạn vạn sự bình an!`;
+    io.emit('playTts', { text: ttsSuccess });
+  } else {
+    io.emit('crisis:resolved', {
+      success: false,
+      victim: crisisState.victim,
+      fortune: crisisState.fortune
+    });
+
+    const ttsFail = `Hết giờ! Giải cứu bất thành! Thí chủ ${crisisState.victim.nickname} đành chịu hạn ${crisisState.fortune.title}, nhớ làm lành tích đức nhé!`;
+    io.emit('playTts', { text: ttsFail });
+  }
+
+  // Kết thúc thử thách và quay lại hàng đợi sau 8 giây
+  setTimeout(() => {
+    crisisState = null;
+    isDrawing = false;
+    broadcastState();
+    setTimeout(processNextInQueue, 1000);
+  }, 8000);
 }
 
 // Xử lý khi có Comment
@@ -238,6 +360,11 @@ function handleGift(data) {
   const points = (data.diamondCount || 1) * (data.repeatCount || 1);
   totalCongDuc += points * 10;
 
+  // Nếu đang trong thử thách Đại Hạn, quà tặng sẽ giải cứu tức thì!
+  if (crisisState && crisisState.active && !crisisState.isResolved) {
+    resolveCrisis(true, 'gift', data);
+  }
+
   // Người tặng quà lập tức được xếp vào VIP QUEUE (Ưu tiên số 1)
   vipQueue.unshift({
     uniqueId: data.uniqueId,
@@ -255,6 +382,20 @@ function handleGift(data) {
 // Xử lý khi có Like (Thả tim)
 function handleLike(data) {
   totalCongDuc += (data.likeCount || 1);
+
+  // Nếu đang trong thử thách Đại Hạn, lượt like sẽ tích lũy giải cứu
+  if (crisisState && crisisState.active && !crisisState.isResolved) {
+    crisisState.currentLikes += (data.likeCount || 1);
+    io.emit('crisis:tick', {
+      countdown: crisisState.countdown,
+      currentLikes: crisisState.currentLikes,
+      goalLikes: crisisState.goalLikes
+    });
+    if (crisisState.currentLikes >= crisisState.goalLikes) {
+      resolveCrisis(true, 'likes');
+    }
+  }
+
   io.emit('like', data);
   broadcastState();
 }
@@ -290,6 +431,21 @@ io.on('connection', socket => {
   socket.on('mock:chat', data => handleComment(data));
   socket.on('mock:gift', data => handleGift(data));
   socket.on('mock:like', data => handleLike(data));
+  socket.on('mock:crisis', data => {
+    const name = data?.name || 'NguoiXuiXe_01';
+    normalQueue.unshift({
+      uniqueId: name.toLowerCase(),
+      nickname: name,
+      avatar: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7311756534241640453~c5_100x100.jpeg',
+      comment: 'Xin quẻ đầu năm',
+      category: 'tong_hop',
+      categoryName: '🎋 May Mắn',
+      canChi: 'Mậu Thân (1968)',
+      forceCrisis: true
+    });
+    broadcastState();
+    processNextInQueue();
+  });
   socket.on('admin:sfx', data => io.emit('audio:sfx', data));
   socket.on('admin:bgm:toggle', () => io.emit('audio:bgm:toggle'));
 
