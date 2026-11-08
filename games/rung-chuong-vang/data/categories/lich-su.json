@@ -1987,5 +1987,96 @@
     ],
     "correct": 0,
     "explanation": "Bảng nhãn Lê Văn Hưu hoàn thành 30 quyển 'Đại Việt sử ký' đặt nền móng vững chắc cho nền sử học nước nhà."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị trạng nguyên nào nổi tiếng với tài cân voi và đo độ dày của tờ giấy bằng hạt gạo thời vua Lê Thánh Tông?",
+    "options": [
+      "Trạng Lường - Lương Thế Vinh",
+      "Nguyễn Hiền",
+      "Lê Quý Đôn",
+      "Mạc Đĩnh Chi"
+    ],
+    "correct": 0,
+    "explanation": "Lương Thế Vinh dùng phương pháp thả thuyền xuống sông đo ngấn nước để cân voi sứ thần phương Bắc."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Cuộc Cách mạng Tháng Tám năm 1945 thành công lật đổ ách thống trị của phát xít Nhật và thực dân nào?",
+    "options": [
+      "Thực dân Pháp",
+      "Đế quốc Mỹ",
+      "Quân Anh",
+      "Quân Tưởng"
+    ],
+    "correct": 0,
+    "explanation": "Cách mạng Tháng Tám đập tan xiềng xích thực dân Pháp hơn 80 năm và lật đổ chế độ phong kiến ngàn năm."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Người chiến sĩ du kích nhỏ tuổi dũng cảm làm liên lạc dẫn đường hy sinh tại chiến khu Ba Tơ là ai?",
+    "options": [
+      "Anh hùng Vừ A Dính (hoặc Kim Đồng)",
+      "Nguyễn Bá Ngọc",
+      "Lê Văn Tám",
+      "Kpa Klơng"
+    ],
+    "correct": 0,
+    "explanation": "Kim Đồng (Nông Văn Dền) người đội trưởng đầu tiên của Đội Thiếu niên Tiền phong Hồ Chí Minh hy sinh năm 1943."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Trận phục kích đèo Bông Lau năm 1947 trên quốc lộ 4 trong chiến dịch Việt Bắc Thu - Đông do vị tướng nào trực tiếp chỉ huy?",
+    "options": [
+      "Đại tướng Võ Nguyên Giáp",
+      "Tướng Nguyễn Sơn",
+      "Tướng Lê Trọng Tấn",
+      "Tướng Hoàng Văn Thái"
+    ],
+    "correct": 0,
+    "explanation": "Chiến thắng đèo Bông Lau biến quốc lộ số 4 thành con đường chết đối với quân viễn chinh Pháp."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bản Hiến pháp đầu tiên của nước Việt Nam Dân chủ Cộng hòa được Quốc hội khóa I thông qua vào năm nào?",
+    "options": [
+      "Năm 1946 (ngày 9/11/1946)",
+      "Năm 1959",
+      "Năm 1980",
+      "Năm 1992"
+    ],
+    "correct": 0,
+    "explanation": "Hiến pháp năm 1946 là bản hiến pháp dân chủ tiến bộ đầu tiên trong lịch sử lập hiến Việt Nam."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiến dịch Tây Bắc năm 1952 giải phóng một vùng đất đai rộng lớn ở hữu ngạn sông Hồng gồm các tỉnh nào?",
+    "options": [
+      "Nghĩa Lộ, Sơn La, Lai Châu",
+      "Cao Bằng, Bắc Kạn",
+      "Hà Giang, Tuyên Quang",
+      "Lào Cai, Yên Bái"
+    ],
+    "correct": 0,
+    "explanation": "Chiến dịch Tây Bắc 1952 phá vỡ âm mưu lập 'Xứ Thái tự trị' của giặc Pháp."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị tướng nào đã lãnh đạo nghĩa quân đánh chiếm đồn Phủ Lạng Thương và vây hãm thành Xương Giang năm 1427?",
+    "options": [
+      "Tướng quân Trần Nguyên Hãn và Lê Sát",
+      "Đinh Liệt",
+      "Nguyễn Xí",
+      "Phạm Văn Xảo"
+    ],
+    "correct": 0,
+    "explanation": "Trần Nguyên Hãn chỉ huy đội quân công thành xuất sắc hạ thành Xương Giang trước khi Liễu Thăng kéo viện binh sang."
   }
 ]

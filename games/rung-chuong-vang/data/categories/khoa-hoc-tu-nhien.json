@@ -1987,5 +1987,70 @@
     ],
     "correct": 0,
     "explanation": "Bán kính Trái Đất khoảng 6.371 km, chu vi đường xích đạo khoảng 40.075 km."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất khí nào chiếm khoảng 21% thể tích không khí duy trì sự cháy và sự sống của sinh vật?",
+    "options": [
+      "Khí Oxy (O2)",
+      "Khí Nitơ",
+      "Khí Cacbonic",
+      "Khí Argon"
+    ],
+    "correct": 0,
+    "explanation": "Khí Oxy không màu không mùi duy trì sự sống và các phản ứng cháy tỏa nhiệt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời được mệnh danh là 'Ngôi sao Hôm' khi xuất hiện buổi chiều tà và 'Ngôi sao Mai' khi xuất hiện rạng đông?",
+    "options": [
+      "Sao Kim (Venus)",
+      "Sao Hỏa",
+      "Sao Mộc",
+      "Sao Thủy"
+    ],
+    "correct": 0,
+    "explanation": "Sao Kim là thiên thể sáng nhất trên bầu trời đêm sau Mặt Trăng do lớp mây dày phản xạ ánh sáng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Bộ phận nào trong tai chứa hàng ngàn tế bào lông cảm nhận rung động âm thanh để truyền lên não bộ?",
+    "options": [
+      "Ốc tai (Tai trong)",
+      "Màng nhĩ",
+      "Vành tai",
+      "Xương bàn đạp"
+    ],
+    "correct": 0,
+    "explanation": "Cơ quan Corti trong ốc tai biến dao động sóng âm thành các xung thần kinh thính giác."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tại sao chim cánh cụt sống ở vùng Nam Cực băng giá lại không bao giờ bị đông lạnh bàn chân?",
+    "options": [
+      "Nhờ hệ thống trao đổi nhiệt ngược dòng ở mạch máu chân",
+      "Chân có lông dày",
+      "Chân không có máu",
+      "Chân đi ủng"
+    ],
+    "correct": 0,
+    "explanation": "Động mạch mang máu ấm đi xuống làm ấm tĩnh mạch mang máu lạnh đi lên giúp bàn chân không bị mất nhiệt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong bảng tuần hoàn các nguyên tố hóa học, nguyên tố kim loại nào có nhiệt độ nóng chảy thấp nhất ở nhiệt độ âm (-38,83 °C)?",
+    "options": [
+      "Thủy ngân (Hg)",
+      "Gali (Ga)",
+      "Xesi (Cs)",
+      "Francium (Fr)"
+    ],
+    "correct": 0,
+    "explanation": "Thủy ngân là kim loại duy nhất tồn tại ở thể lỏng trong điều kiện nhiệt độ phòng thông thường."
   }
 ]

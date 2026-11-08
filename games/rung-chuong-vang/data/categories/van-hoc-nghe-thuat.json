@@ -2182,5 +2182,70 @@
     ],
     "correct": 0,
     "explanation": "Nhà thơ Tú Xương xót xa trước cảnh khoa cử Nho học suy đồi thời thực dân nửa phong kiến ở trường thi Nam Định năm Đinh Dậu 1897."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Lá lành đùm lá ...'?",
+    "options": [
+      "rách",
+      "héo",
+      "rơi",
+      "vàng"
+    ],
+    "correct": 0,
+    "explanation": "Truyền thống tương thân tương ái bao đời của dân tộc Việt Nam."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Cây tre trăm đốt', anh Khoai đã dùng hai câu thần chú nào để ghép và tách các đốt tre?",
+    "options": [
+      "'Khắc nhập, khắc xuất'",
+      "'Vừng ơi mở ra'",
+      "'Úm ba la'",
+      "'Mở cửa ra'"
+    ],
+    "correct": 0,
+    "explanation": "Câu thần chú 'Khắc nhập' nối 100 đốt tre thành cây tre thẳng tắp, 'Khắc xuất' tách rời từng đốt."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Bài thơ về tiểu đội xe không kính' của Phạm Tiến Duật khắc họa hình tượng người lính trẻ trên tuyến đường lửa nào?",
+    "options": [
+      "Đường mòn Hồ Chí Minh (Đường Trường Sơn)",
+      "Quốc lộ 1A",
+      "Đường 9 Nam Lào",
+      "Đường số 4"
+    ],
+    "correct": 0,
+    "explanation": "Hình ảnh những chiếc xe không kính ung dung lăn bánh chi viện cho chiến trường miền Nam anh hùng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm tiểu thuyết hiện thực xuất sắc 'Bỉ vỏ' viết về cuộc đời truân chuyên của cô bé Tám Bính?",
+    "options": [
+      "Nhà văn Nguyên Hồng",
+      "Nam Cao",
+      "Vũ Trọng Phụng",
+      "Ngô Tất Tố"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyên Hồng với ngòi bút nhân đạo sâu sắc hướng về những kiếp người lao động cùng khổ ở đất cảng Hải Phòng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Vở kịch thơ kiệt tác 'Hồn Bướm mơ Tiên' và phong trào Tự Lực Văn Đoàn đầu thế kỷ XX do nhà văn nào chủ xướng?",
+    "options": [
+      "Khái Hưng (cùng Nhất Linh)",
+      "Thạch Lam",
+      "Hoàng Đạo",
+      "Tú Mỡ"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Khái Hưng cùng Nhất Linh sáng lập Tự Lực Văn Đoàn với tôn chỉ đổi mới văn học và giải phóng cá nhân."
   }
 ]

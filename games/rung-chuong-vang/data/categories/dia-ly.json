@@ -2481,5 +2481,148 @@
     ],
     "correct": 0,
     "explanation": "Dãy Bạch Mã ngăn cản gió mùa Đông Bắc tràn sâu vào phương Nam, tạo ranh giới khí hậu rõ rệt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố mang tên Bác (TP. Hồ Chí Minh) trước năm 1976 từng có tên gọi lịch sử quen thuộc là gì?",
+    "options": [
+      "Sài Gòn - Gia Định",
+      "Bến Nghé",
+      "Chợ Lớn",
+      "Gia Định thành"
+    ],
+    "correct": 0,
+    "explanation": "Sài Gòn - Gia Định là tên gọi đô thị phồn hoa hòn ngọc Viễn Đông thời bấy giờ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Tây thắng cảnh hồ nước tự nhiên lớn nhất nội thành Hà Nội với diện tích hơn 500 ha nằm ở quận nào?",
+    "options": [
+      "Quận Tây Hồ",
+      "Quận Ba Đình",
+      "Quận Cầu Giấy",
+      "Quận Đống Đa"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Tây thơ mộng với đường Thanh Niên ngăn đôi với hồ Trúc Bạch thuộc quận Tây Hồ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Trung nổi tiếng với danh lam thắng cảnh Ghềnh Đá Đĩa có cấu trúc đá bazan hình lục giác xếp lớp độc nhất vô nhị?",
+    "options": [
+      "Phú Yên",
+      "Bình Định",
+      "Khánh Hòa",
+      "Quảng Ngãi"
+    ],
+    "correct": 0,
+    "explanation": "Ghềnh Đá Đĩa (huyện Tuy An, Phú Yên) là kiệt tác địa chất tự nhiên hiếm có trên thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Núi Chứa Chan (núi Gia Lào) ngọn núi cao thứ hai Nam Bộ (837m) nằm trên địa bàn huyện Xuân Lộc tỉnh nào?",
+    "options": [
+      "Đồng Nai",
+      "Bình Dương",
+      "Bình Phước",
+      "Tây Ninh"
+    ],
+    "correct": 0,
+    "explanation": "Núi Chứa Chan thuộc tỉnh Đồng Nai là điểm trekking và vãn cảnh chùa Gia Lào nổi tiếng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Hòn Tre hòn đảo lớn nhất trong vịnh Nha Trang với khu vui chơi giải trí VinWonders thuộc tỉnh nào?",
+    "options": [
+      "Khánh Hòa",
+      "Ninh Thuận",
+      "Bình Thuận",
+      "Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Đảo Hòn Tre nằm chắn sóng cho vịnh biển Nha Trang thơ mộng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cố đô Luang Prabang di sản văn hóa thế giới cổ kính của đất nước Triệu Voi nằm ở quốc gia nào?",
+    "options": [
+      "Lào",
+      "Campuchia",
+      "Thái Lan",
+      "Myanmar"
+    ],
+    "correct": 0,
+    "explanation": "Luang Prabang bên dòng sông Mê Kông là cố đô thanh bình của nước bạn Lào."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thành phố cổ Petra kỳ quan thế giới với các công trình kiến trúc tạc thẳng vào vách đá sa thạch đỏ nằm ở quốc gia nào?",
+    "options": [
+      "Jordan",
+      "Ai Cập",
+      "Israel",
+      "Thổ Nhĩ Kỳ"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố hoa hồng đỏ Petra là báu vật khảo cổ học của vương quốc Jordan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Kỳ quan thiên nhiên hẻm núi Grand Canyon kỳ vĩ do dòng sông Colorado bào mòn hàng triệu năm nằm ở bang nào của nước Mỹ?",
+    "options": [
+      "Bang Arizona",
+      "Bang California",
+      "Bang Texas",
+      "Bang Nevada"
+    ],
+    "correct": 0,
+    "explanation": "Hẻm núi lớn Grand Canyon tại Arizona phơi bày các tầng địa chất cổ đại ngoạn mục."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đất nước nào ở Nam Á có hình dạng giọt nước mắt trên Ấn Độ Dương nổi tiếng với trà Ceylon thơm ngon?",
+    "options": [
+      "Sri Lanka",
+      "Maldives",
+      "Nepal",
+      "Bhutan"
+    ],
+    "correct": 0,
+    "explanation": "Đảo quốc Sri Lanka (trước đây là Ceylon) nổi danh toàn cầu với các đồn điền trà hảo hạng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vùng đất trũng Dead Sea (Biển Chết) nằm ở độ cao âm bao nhiêu mét so với mực nước biển (nơi thấp nhất trên cạn)?",
+    "options": [
+      "Khoảng âm 430 mét (-430m)",
+      "Khoảng âm 100m",
+      "Khoảng âm 1.000m",
+      "Bằng mực nước biển"
+    ],
+    "correct": 0,
+    "explanation": "Bờ Biển Chết là điểm thấp nhất trên bề mặt lục địa Trái Đất ở độ cao -430m."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Quần đảo bách đảo Galapagos nơi nhà bác học Charles Darwin nghiên cứu thuyết tiến hóa thuộc chủ quyền của quốc gia nào ở Nam Mỹ?",
+    "options": [
+      "Ecuador",
+      "Peru",
+      "Chile",
+      "Colombia"
+    ],
+    "correct": 0,
+    "explanation": "Quần đảo núi lửa Galapagos ngoài khơi Thái Bình Dương trực thuộc đất nước Ecuador."
   }
 ]

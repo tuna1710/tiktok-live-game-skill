@@ -2013,5 +2013,70 @@
     ],
     "correct": 0,
     "explanation": "Linus Torvalds phát hành phiên bản hạt nhân Linux 0.01 năm 1991, đặt nền tảng cho cuộc cách mạng phần mềm nguồn mở thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bún bò cay nồng thơm lừng mùi mắm ruốc và sả cây là món ăn đặc sản tiêu biểu của vùng đất nào?",
+    "options": [
+      "Cố đô Huế",
+      "Thành phố Đà Nẵng",
+      "Hà Nội",
+      "TP. Hồ Chí Minh"
+    ],
+    "correct": 0,
+    "explanation": "Bún bò Huế với nước dùng đậm đà thơm ngát mắm ruốc là niềm tự hào ẩm thực cố đô."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cổng kết nối âm thanh hình ảnh độ nét cao phổ biến nhất nối từ máy tính hoặc đầu thu lên màn hình tivi là cổng gì?",
+    "options": [
+      "Cổng HDMI",
+      "Cổng VGA",
+      "Cổng AV",
+      "Cổng USB"
+    ],
+    "correct": 0,
+    "explanation": "Cáp HDMI truyền đồng thời cả tín hiệu hình ảnh kỹ thuật số độ phân giải cao và âm thanh đa kênh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Giải đua xe thể thao tốc độ cao danh giá nhất hành tinh với những chiếc xe đua bánh hở một chỗ ngồi là giải gì?",
+    "options": [
+      "Giải đua Công thức 1 (Formula 1 - F1)",
+      "NASCAR",
+      "MotoGP",
+      "Rally Dakar"
+    ],
+    "correct": 0,
+    "explanation": "F1 là đỉnh cao công nghệ chế tạo xe hơi tốc độ với các chặng Grand Prix khắp toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Bánh xèo miền Tây' có màu vàng ươm giòn rụm thơm mùi nước cốt dừa thường được tạo màu tự nhiên bằng củ gì?",
+    "options": [
+      "Bột nghệ vàng",
+      "Quả gấc",
+      "Lá dứa",
+      "Củ dền"
+    ],
+    "correct": 0,
+    "explanation": "Bột nghệ vàng ươm tạo màu sắc bắt mắt và hương thơm dịu nhẹ cho vỏ bánh xèo."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Thuật toán mật mã khóa công khai bất đối xứng kinh điển do Rivest, Shamir và Adleman phát minh năm 1977 được viết tắt là gì?",
+    "options": [
+      "Thuật toán RSA",
+      "Chuẩn mã hóa AES",
+      "Hàm băm SHA-256",
+      "Thuật toán DES"
+    ],
+    "correct": 0,
+    "explanation": "Hệ mật mã RSA dựa trên độ khó của việc phân tích một hợp số cực lớn thành tích hai số nguyên tố."
   }
 ]
