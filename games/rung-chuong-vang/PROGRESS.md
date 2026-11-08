@@ -77,3 +77,4 @@
 
 ## 💬 GHI CHÚ QUYẾT ĐỊNH & THẢO LUẬN
 - **Quyết định ngày 2026-11-07:** Thống nhất chọn mục tiêu: *"Sống sót đến câu hỏi cuối cùng để Rung Chuông Vàng"*. Tích hợp vòng Cứu trợ bằng Tim và Quà tặng Hoa hồng khi số lượng thí sinh trên sàn bị loại nhiều hoặc về 0.
+- **Kế hoạch mở rộng kho câu hỏi (265 -> 10.000 câu):** Xem chi tiết tại `QUESTION_ROADMAP.md`. Đợt 2 đặt mục tiêu nâng tổng số câu hỏi từ 265 lên mốc 500 câu.

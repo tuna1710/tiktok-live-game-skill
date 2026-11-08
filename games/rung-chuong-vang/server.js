@@ -9,7 +9,7 @@ const fs = require('fs');
 
 const PORT = Number(process.env.PORT) || 3000;
 const TIKTOK_USERNAME = process.env.TIKTOK_USERNAME || '';
-const QUESTION_DURATION = Number(process.env.QUESTION_DURATION) || 20;
+const QUESTION_DURATION = Number(process.env.QUESTION_DURATION) || 60;
 const RESCUE_DURATION = 20;
 const TOTAL_QUESTIONS = Number(process.env.TOTAL_QUESTIONS) || 15;
 
@@ -123,40 +123,40 @@ class GoldenBellGame {
     this.rescuers = new Map(); // uniqueId -> { nickname, count }
     this.rescuedInThisRound = 0; // Đếm chính xác số người thực tế được cứu trong vòng cứu trợ
 
-    // Quản lý Chống Khoảng Lặng (Anti-Dead Air: 8s im lặng phát giọng đọc khuấy động hoặc nhắc câu hỏi)
+    // Quản lý Chống Khoảng Lặng & Bình Luận Viên AI (Dynamic MC Commentator)
     this.idleSecondsCount = 0;
-    this.idleTimeoutSeconds = Number(process.env.IDLE_TIMEOUT_SECONDS) || 8;
-    this.idleReminderToggle = false;
-    this.unusedIdleLines = [];
-    this.idleLines = [
-      "Ủa cả sàn đấu đi đâu hết rồi? Nhanh tay gõ A, B, C hoặc D nào các bạn ơi!",
-      "Thời gian đếm ngược đang trôi nhanh lắm, các thí sinh mau chọn đáp án đi nào!",
-      "Đừng để bị loại oan uổng nha cả nhà, nhanh tay chốt đáp án trước khi hết giờ!",
-      "Câu này liệu có làm khó được các bậc kỳ tài phòng live không ta? Mau bình luận nào!",
-      "Ai chưa chọn đáp án thì gõ ngay A, B, C hoặc D, đồng hồ không đợi ai đâu nhé!",
-      "Không khí đang rất căng thẳng, ai sẽ giữ vững vị trí trên sàn thi đấu đây?",
-      "Chỉ còn ít giây nữa thôi, mau gõ đáp án vào ô chat để bảo vệ số báo danh của mình nào!",
-      "Các bạn chọn A, B, C hay D? Mau để lại bình luận để nhận diện vị trí nhé!",
-      "Alo alo, các chiến thần tư duy đâu hết rồi, đừng ngủ quên trên bàn phím chứ!",
-      "Mạnh dạn gõ đáp án đi các bạn ơi, thà chọn sai còn hơn bỏ cuộc nhé!",
-      "Đồng hồ tích tắc tích tắc, cơ hội Rung Chuông Vàng chỉ dành cho người nhanh tay thôi!",
-      "Có ai cần tổ tiên mách bảo không? Gõ nhanh A, B, C hoặc D kẻo chuông reo hết giờ!",
-      "Sàn đấu đang yên ắng bất thường, bão táp sắp ập tới rồi, mau chốt đơn đáp án nào!",
-      "Một đáp án đúng cứu vạn niềm tin! Ai tự tin ẵm trọn câu này thì comment ngay!",
-      "Bàn tay vàng trong làng gõ phím đang ở đâu? Mau để lại đáp án khẳng định đẳng cấp đi nào!",
-      "Chần chừ là bị loại ngay đó nha, linh cảm mách bảo chữ cái nào thì gõ liền chữ đó!",
-      "Các giáo sư Google và tiến sĩ trực giác ơi, thời khắc quyết định đã đến rồi!",
-      "Chỉ cần một chữ cái thôi mà suy nghĩ lâu thế ta? A, B, C hay là D đây?",
-      "Các bạn khán giả cứu trợ hãy chuẩn bị sẵn sàng, vòng này khéo phải giải cứu cả sàn đấu đấy!",
-      "Đố vui có thưởng, không thưởng thì có tiếng! Nhanh tay bình luận đáp án đi nào!",
-      "Tập trung cao độ, nhìn kỹ câu hỏi và ra đòn quyết định nào các sĩ tử ơi!",
-      "Đừng để đối thủ cười vào mặt nha, tự tin gõ đáp án mình tin tưởng nhất nào!",
-      "Thời gian vàng ngọc đang trôi, ai sẽ là người trụ lại cuối cùng để Rung Chuông Vàng?",
-      "Gõ nhanh tay kẻo hệ thống khóa sổ, cơ hội tỏa sáng nghìn năm có một!",
-      "Trực giác mách bảo gì thì gõ nấy, đừng nhìn bài đứa bên cạnh nha các bạn!",
-      "Hít một hơi thật sâu, thở ra và gõ ngay đáp án chuẩn xác nhất vào ô chat nào!",
-      "Cả phòng live đang nín thở chờ đợi các câu trả lời từ các cao thủ học đường!",
-      "Chớp mắt một cái là hết giờ đấy, bấm A B C hoặc D ngay và luôn đi nào!"
+    this.mcCategoryIndex = 0;
+    this.recentJoins = [];
+    this.lastWelcomeTime = 0;
+    this.lastShareThankTime = 0;
+    this.accumulatedLikes = 0;
+    this.lastLikeThankTime = 0;
+
+    // Các câu nhắc nhở ngồi ngay ngắn & suy nghĩ thấu đáo
+    this.focusLines = [
+      "Các sĩ tử hãy ngồi ngay ngắn tại vị trí, giữ trật tự và tập trung suy nghĩ thật thấu đáo nhé!",
+      "Xin nhắc nhở các bạn hãy ngồi nghiêm túc tại chỗ, tuyệt đối không nhìn bài bạn bên cạnh nha!",
+      "Hãy bình tĩnh hít một hơi thật sâu, đọc kỹ đề bài và suy nghĩ thấu đáo trước khi đưa ra quyết định!",
+      "Các sĩ tử giữ vững tâm lý, suy nghĩ thật kỹ nhé, chỉ một sơ suất nhỏ là sẽ phải dừng bước ngay đấy!",
+      "Tập trung cao độ nào các bạn ơi, sự bình tĩnh và cẩn trọng chính là chìa khóa của Trạng Nguyên!"
+    ];
+
+    // Các câu thúc giục mau đoán đi
+    this.hurryLines = [
+      "Thời gian đang trôi rất nhanh, ai chưa đoán thì mau đoán đi nào, thà đoán bừa còn hơn bỏ trống!",
+      "Nhanh tay lên nào các bạn ơi, chỉ còn ít giây nữa là hệ thống sẽ khóa sổ thu bài rồi!",
+      "Mau chốt đáp án đi nào, trực giác mách bảo chữ cái nào thì gõ liền chữ cái đó!",
+      "Các sĩ tử tự tin lên, bấm ngay A, B, C hoặc D để khẳng định bản lĩnh Trạng Nguyên nào!",
+      "Đồng hồ đếm ngược không đợi ai đâu, các cao thủ mau chốt đơn đáp án trước khi chuông reo!"
+    ];
+
+    // Các câu phổ biến luật chơi của game
+    this.rulesLines = [
+      "Luật chơi rất đơn giản: Mỗi câu hỏi các bạn có tối đa một phút để trả lời. Chỉ cần bình luận A, B, C hoặc D. Trả lời đúng sẽ trụ lại, trả lời sai sẽ bị loại lên hàng ghế khán giả!",
+      "Nếu tất cả các sĩ tử trên sàn đấu đều đã chọn xong đáp án, hệ thống sẽ tự động chốt bài thi sớm để công bố kết quả ngay!",
+      "Quý khán giả hãy tích cực thả tim hoặc tặng quà hoa hồng để tiếp năng lượng cứu trợ hồi sinh các sĩ tử nhé!",
+      "Khán giả mới vào phòng hãy bình luận bất kỳ hoặc gõ A, B, C, D để nhận vị trí số báo danh trên sàn đấu tranh tài!",
+      "Mỗi một nghìn tim từ quý khán giả sẽ tự động kích hoạt bình năng lượng cứu ba sĩ tử quay trở lại sàn thi đấu!"
     ];
 
     // Xáo trộn câu hỏi
@@ -164,33 +164,96 @@ class GoldenBellGame {
     this.currentQuestion = null;
   }
 
-  resetIdleTimer() {
-    this.idleSecondsCount = 0;
+  speakMc(text, priority = false) {
+    if (!text) return;
+    console.log(`🎙️ [MC BÌNH LUẬN] "${text}"`);
+    this.io.emit('mc_speech', { text, priority });
+    this.io.emit('idle_reminder', { ttsText: text }); // backwards compatible
   }
 
-  getNextIdleLine() {
-    if (this.unusedIdleLines.length === 0) {
-      this.unusedIdleLines = [...this.idleLines].sort(() => Math.random() - 0.5);
+  handleMemberJoin(nickname) {
+    if (!nickname) return;
+    this.recentJoins.push(nickname);
+    const now = Date.now();
+    // Chào theo nhóm (khi đủ 3 người hoặc sau 20s)
+    if (this.recentJoins.length >= 3 && now - this.lastWelcomeTime > 18000) {
+      const names = this.recentJoins.splice(0, this.recentJoins.length).slice(0, 2).join(' và ');
+      this.lastWelcomeTime = now;
+      this.speakMc(`Chào mừng bạn ${names} và các bạn mới vào phòng live! Hãy bình luận A, B, C hoặc D để nhận vị trí số báo danh trên sàn đấu nhé!`);
     }
-    return this.unusedIdleLines.pop();
   }
 
-  triggerIdleReminder() {
-    if (this.status !== 'QUESTION' || !this.currentQuestion) return;
-    if (this.questionTimer <= 4) return; // Không đọc đè khi sắp hết giờ (< 4s)
+  handleShare(nickname) {
+    const now = Date.now();
+    if (now - this.lastShareThankTime > 15000) {
+      this.lastShareThankTime = now;
+      const name = nickname || 'Khán giả';
+      this.speakMc(`Cảm ơn bạn ${name} đã chia sẻ phiên live! Cả nhà cùng bấm chia sẻ để rủ bạn bè vào cùng đấu trí nào!`);
+    }
+  }
 
-    this.idleReminderToggle = !this.idleReminderToggle;
+  triggerDynamicMcReminder() {
+    if (this.status !== 'QUESTION' || !this.currentQuestion) return;
+    if (this.questionTimer <= 4) return;
+
+    const alivePlayers = Array.from(this.players.values()).filter(p => p.status === 'alive');
+    const unAnswered = alivePlayers.filter(p => p.answer === null);
+
+    const category = this.mcCategoryIndex % 4;
+    this.mcCategoryIndex++;
+
     let ttsText = '';
 
-    if (this.idleReminderToggle && this.currentQuestion) {
-      ttsText = `Xin nhắc lại câu hỏi số ${this.currentQuestionIndex + 1}: ${this.currentQuestion.question}`;
-    } else {
-      ttsText = this.getNextIdleLine();
+    // Danh mục 0: Giục theo tên các bạn chưa trả lời
+    if (category === 0 && unAnswered.length > 0) {
+      const target = unAnswered[Math.floor(Math.random() * unAnswered.length)];
+      const templates = [
+        `Bạn ${target.nickname} và ${unAnswered.length} sĩ tử chưa chọn đáp án ơi, mau suy nghĩ thấu đáo và gõ A, B, C hoặc D kẻo hết giờ nha!`,
+        `Thời gian đang trôi, bạn ${target.nickname} ơi mau chốt đáp án đi nào, đừng bỏ trống câu trả lời nhé!`,
+        `Vẫn còn ${unAnswered.length} bạn chưa gửi câu trả lời, trong đó có bạn ${target.nickname}, hãy nhanh tay lên nào!`
+      ];
+      ttsText = templates[Math.floor(Math.random() * templates.length)];
+    }
+    // Danh mục 1: Nhắc ngồi ngay ngắn & suy nghĩ thấu đáo
+    else if (category === 1) {
+      ttsText = this.focusLines[Math.floor(Math.random() * this.focusLines.length)];
+    }
+    // Danh mục 2: Thúc giục mau đoán đi
+    else if (category === 2) {
+      ttsText = this.hurryLines[Math.floor(Math.random() * this.hurryLines.length)];
+    }
+    // Danh mục 3: Phổ biến luật chơi hoặc nhắc lại câu hỏi
+    else {
+      if (Math.random() < 0.5 && this.currentQuestion) {
+        ttsText = `Xin nhắc lại câu hỏi số ${this.currentQuestionIndex + 1}: ${this.currentQuestion.question}`;
+      } else {
+        ttsText = this.rulesLines[Math.floor(Math.random() * this.rulesLines.length)];
+      }
     }
 
-    console.log(`🎙️ [CHỐNG KHOẢNG LẶNG ${this.idleTimeoutSeconds}S] Phát giọng đọc: "${ttsText}"`);
-    this.io.emit('idle_reminder', { ttsText });
-    this.resetIdleTimer();
+    if (ttsText) {
+      this.speakMc(ttsText);
+    }
+  }
+
+  checkAllAnswered() {
+    if (this.status !== 'QUESTION') return;
+    const alivePlayers = Array.from(this.players.values()).filter(p => p.status === 'alive');
+    if (alivePlayers.length > 0) {
+      const answeredCount = alivePlayers.filter(p => p.answer !== null).length;
+      if (answeredCount === alivePlayers.length) {
+        // Tất cả thí sinh còn sống đều đã chọn đáp án
+        if (this.questionTimer > 4) {
+          console.log(`[Timer] Tất cả ${alivePlayers.length} sĩ tử đã trả lời. Rút ngắn thời gian còn 4s.`);
+          this.questionTimer = 4;
+          this.io.emit('all_answered', {
+            timer: 4,
+            message: `Tất cả ${alivePlayers.length} sĩ tử đã chốt đáp án! Chuẩn bị xem kết quả!`
+          });
+          this.speakMc(`Tất cả các sĩ tử trên sàn thi đấu đã chốt xong bài thi! Chuẩn bị công bố kết quả sau ba giây!`, true);
+        }
+      }
+    }
   }
 
   pickQuestions() {
@@ -251,22 +314,31 @@ class GoldenBellGame {
 
     if (choice !== null) {
       player.answer = choice;
-      this.resetIdleTimer();
       this.io.emit('player_answered', {
         uniqueId: player.uniqueId,
         seatIndex: player.seatIndex,
         answer: choice
       });
+      // Kiểm tra xem tất cả thí sinh còn sống đã trả lời chưa
+      this.checkAllAnswered();
     }
   }
 
-  addLikes(count) {
-    this.resetIdleTimer();
+  addLikes(count, nickname) {
     this.rescueEnergy = Math.min(this.maxEnergy, this.rescueEnergy + count);
     this.io.emit('energy_update', {
       rescueEnergy: this.rescueEnergy,
       maxEnergy: this.maxEnergy
     });
+
+    this.accumulatedLikes += count;
+    const now = Date.now();
+    if (this.accumulatedLikes >= 120 && now - this.lastLikeThankTime > 25000) {
+      this.lastLikeThankTime = now;
+      this.accumulatedLikes = 0;
+      const who = nickname ? `bạn ${nickname} và ` : '';
+      this.speakMc(`Cảm ơn ${who}cả nhà đã thả tim rất nhiệt tình! Đầy một nghìn tim sẽ tự động kích hoạt cứu trợ ba sĩ tử bị loại đấy!`);
+    }
 
     // Tự động cứu người khi đầy bình năng lượng (1.000 tim)
     if (this.rescueEnergy >= this.maxEnergy) {
@@ -410,15 +482,16 @@ class GoldenBellGame {
   }
 
   startQuestionTimer() {
-    this.resetIdleTimer();
+    this.idleSecondsCount = 0;
     if (this.timerInterval) clearInterval(this.timerInterval);
     this.timerInterval = setInterval(() => {
       this.questionTimer--;
       this.idleSecondsCount++;
 
-      // Tự động phát giọng đọc chống khoảng lặng sau mỗi 8 giây không có người trả lời
-      if (this.idleSecondsCount >= this.idleTimeoutSeconds) {
-        this.triggerIdleReminder();
+      // Định kỳ mỗi 11-12 giây phát một lời bình luận, nhắc nhở, thúc giục hoặc phổ biến luật chơi
+      if (this.idleSecondsCount >= 11 && this.questionTimer > 5) {
+        this.triggerDynamicMcReminder();
+        this.idleSecondsCount = 0;
       }
 
       this.io.emit('timer_tick', { timer: this.questionTimer });
@@ -551,7 +624,7 @@ class GoldenBellGame {
         score: w.score,
         streak: w.streak
       })),
-      message: "CHÚC MỪNG QUÁN QUÂN ĐÃ RUNG CHUÔNG VÀNG THÀNH CÔNG!"
+      message: "CHÚC MỪNG TÂN TRẠNG NGUYÊN ĐÃ CHIẾN THẮNG XUẤT SẮC!"
     });
 
     // Tự động chuyển ván mới sau 12 giây vinh danh
@@ -671,7 +744,7 @@ if (TIKTOK_USERNAME) {
       const nickname = data.user?.nickname || data.nickname || 'Khán giả';
       const totalLikes = data.total || data.totalLikes || 0;
 
-      game.addLikes(count);
+      game.addLikes(count, nickname);
       io.emit('like', {
         uniqueId: data.user?.id,
         nickname,
@@ -682,11 +755,19 @@ if (TIKTOK_USERNAME) {
 
     tiktokLive.on('member', data => {
       const uniqueId = data.user?.displayId || data.user?.id || data.uniqueId;
-      const nickname = data.user?.nickname || data.nickname;
+      const nickname = data.user?.nickname || data.nickname || 'Khán giả';
       const avatar = data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl;
       if (uniqueId) {
         game.registerPlayer(uniqueId, nickname, avatar);
+        game.handleMemberJoin(nickname);
+        io.emit('member_join', { nickname });
       }
+    });
+
+    tiktokLive.on('share', data => {
+      const nickname = data.user?.nickname || data.nickname || 'Khán giả';
+      game.handleShare(nickname);
+      io.emit('share', { nickname });
     });
 
   } catch (err) {
@@ -726,8 +807,21 @@ io.on('connection', socket => {
 
   socket.on('mock:like', data => {
     const count = Number(data.likeCount) || 100;
-    game.addLikes(count);
-    io.emit('like', { likeCount: count });
+    const nickname = data.nickname || 'Khán giả';
+    game.addLikes(count, nickname);
+    io.emit('like', { likeCount: count, nickname });
+  });
+
+  socket.on('mock:member', data => {
+    const nickname = data?.nickname || 'Khán giả mới';
+    game.handleMemberJoin(nickname);
+    io.emit('member_join', { nickname });
+  });
+
+  socket.on('mock:share', data => {
+    const nickname = data?.nickname || 'Khán giả thân thiết';
+    game.handleShare(nickname);
+    io.emit('share', { nickname });
   });
 
   socket.on('mock:start_game', () => {
@@ -795,6 +889,6 @@ setTimeout(() => {
 }, 3000);
 
 server.listen(PORT, () => {
-  console.log(`[RungChuongVang] Server is running at http://localhost:${PORT}`);
-  console.log(`[RungChuongVang] Mở bảng giả lập tại http://localhost:${PORT}/admin.html`);
+  console.log(`[DauTriTrangNguyen] Server is running at http://localhost:${PORT}`);
+  console.log(`[DauTriTrangNguyen] Mở bảng giả lập tại http://localhost:${PORT}/admin.html`);
 });

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bảng Điều Khiển Giả Lập - Rung Chuông Vàng TikTok Live</title>
+  <title>Bảng Điều Khiển Giả Lập - Đấu Trí Trạng Nguyên TikTok Live</title>
   <script src="/socket.io/socket.io.js"></script>
   <style>
     :root {
@@ -62,7 +62,7 @@
 <body>
 
   <header style="margin-bottom: 20px;">
-    <h1>🔔 BẢNG ĐIỀU KHIỂN GIẢ LẬP - RUNG CHUÔNG VÀNG</h1>
+    <h1>🎓 BẢNG ĐIỀU KHIỂN GIẢ LẬP - ĐẤU TRÍ TRẠNG NGUYÊN</h1>
     <div style="display: flex; gap: 15px; align-items: center;">
       <a href="/" target="_blank" style="color: var(--cyan); text-decoration: none; font-weight: bold; font-size: 13px;">🔗 Mở Màn hình Game (index.html) ↗</a>
       <span id="conn-status" class="status-badge offline">MẤT KẾT NỐI</span>
@@ -123,6 +123,14 @@
           <button onclick="sendLikes(100)">+ 100 Tim</button>
           <button onclick="sendLikes(300)">+ 300 Tim</button>
           <button class="primary" onclick="sendLikes(1000)">🔥 Đầy Bình 1000 Tim (Cứu 3 Người)</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">📢 Giả Lập Tương Tác Khán Giả (Member & Share)</div>
+        <div class="btn-group">
+          <button onclick="sendMemberJoin()">👋 Khán Giả Vào Phòng (Nhóm 3 người)</button>
+          <button onclick="sendShare()">🔄 Khán Giả Chia Sẻ Live</button>
         </div>
       </div>
 
@@ -258,7 +266,7 @@
     });
 
     socket.on('bell_ringing', data => {
-      addLog(`🔔 RUNG CHUÔNG VÀNG THÀNH CÔNG! Số Quán Quân: ${data.winners.length}`, 'gift');
+      addLog(`🎓 ĐẤU TRÍ TRẠNG NGUYÊN CHIẾN THẮNG! Số Tân Trạng Nguyên: ${data.winners.length}`, 'gift');
     });
 
     // Các hàm gửi sự kiện
@@ -269,6 +277,20 @@
     function addBots(count) { socket.emit('mock:add_bots', count); addLog(`Gửi lệnh: Thêm ${count} thí sinh giả lập`); }
     function botsAnswer() { socket.emit('mock:bots_answer'); addLog('Gửi lệnh: Tất cả bot chọn đáp án ngẫu nhiên'); }
     function sendLikes(count) { socket.emit('mock:like', { likeCount: count }); addLog(`Đã thả ${count} tim`); }
+
+    function sendMemberJoin() {
+      const names = ["Minh Anh", "Tuấn Kiệt", "Bảo Châu", "Hoàng Long", "Khánh Vy", "Gia Bảo", "Phương Linh"];
+      const rName = names[Math.floor(Math.random() * names.length)];
+      socket.emit('mock:member', { nickname: rName });
+      addLog(`[Member] ${rName} vào phòng live`, 'chat');
+    }
+
+    function sendShare() {
+      const names = ["Quốc Huy", "Thùy Trang", "Hữu Đạt", "Ngọc Mai", "Thanh Tùng"];
+      const rName = names[Math.floor(Math.random() * names.length)];
+      socket.emit('mock:share', { nickname: rName });
+      addLog(`[Share] ${rName} đã chia sẻ livestream`, 'chat');
+    }
 
     function sendChat() {
       const nickname = document.getElementById('chat-nick').value;

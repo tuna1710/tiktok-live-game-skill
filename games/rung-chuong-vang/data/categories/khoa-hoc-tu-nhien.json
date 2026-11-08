@@ -583,5 +583,941 @@
     ],
     "correct": 2,
     "explanation": "Thủy ngân (Hg) là kim loại duy nhất tồn tại ở dạng lỏng trong điều kiện nhiệt độ và áp suất tiêu chuẩn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào gần Mặt Trời nhất trong Hệ Mặt Trời của chúng ta?",
+    "options": [
+      "Sao Thủy (Mercury)",
+      "Sao Kim (Venus)",
+      "Sao Hỏa (Mars)",
+      "Trái Đất (Earth)"
+    ],
+    "correct": 0,
+    "explanation": "Sao Thủy là hành tinh nhỏ nhất và nằm ở vị trí gần Mặt Trời nhất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất khí nào chiếm thể tích lớn nhất (khoảng 78%) trong bầu khí quyển của Trái Đất?",
+    "options": [
+      "Khí Nitơ (N2)",
+      "Khí Oxy (O2)",
+      "Khí Cacbonic (CO2)",
+      "Khí Hydro (H2)"
+    ],
+    "correct": 0,
+    "explanation": "Bầu khí quyển gồm khoảng 78% Nitơ, 21% Oxy và 1% các khí hiếm khác."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan nội tạng lớn nhất và đảm nhiệm chức năng lọc thải độc tố chính trong cơ thể con người là gì?",
+    "options": [
+      "Gan",
+      "Thận",
+      "Phổi",
+      "Dạ dày"
+    ],
+    "correct": 0,
+    "explanation": "Lá gan nặng khoảng 1,5 kg là cơ quan nội tạng lớn nhất và thực hiện hơn 500 chức năng chuyển hóa."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Kim loại duy nhất ở thể lỏng trong điều kiện nhiệt độ phòng bình thường là kim loại nào?",
+    "options": [
+      "Thủy ngân (Hg)",
+      "Chì (Pb)",
+      "Kẽm (Zn)",
+      "Nhôm (Al)"
+    ],
+    "correct": 0,
+    "explanation": "Thủy ngân có nhiệt độ nóng chảy rất thấp (-38,83 °C) nên ở dạng lỏng ở nhiệt độ phòng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Quá trình thực vật sử dụng ánh sáng Mặt Trời để tổng hợp chất hữu cơ và giải phóng khí oxy được gọi là gì?",
+    "options": [
+      "Quang hợp",
+      "Hô hấp tế bào",
+      "Thoát hơi nước",
+      "Lên men"
+    ],
+    "correct": 0,
+    "explanation": "Chất diệp lục trong lá cây hấp thụ ánh sáng để tiến hành quang hợp tạo oxy nuôi dưỡng sự sống."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài thú có vú lớn nhất từng sinh sống trên Trái Đất (nặng tới 180 tấn) là loài nào?",
+    "options": [
+      "Cá voi xanh",
+      "Voi ma mút",
+      "Cá mập Megalodon",
+      "Khủng long bạo chúa"
+    ],
+    "correct": 0,
+    "explanation": "Cá voi xanh là sinh vật lớn nhất trong lịch sử Trái Đất, trái tim nó to bằng cả chiếc xe hơi nhỏ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Vận tốc truyền đi của ánh sáng trong môi trường chân không xấp xỉ bằng bao nhiêu?",
+    "options": [
+      "Khoảng 300.000 km/giây",
+      "Khoảng 300.000 km/giờ",
+      "Khoảng 1.200 km/giờ",
+      "Khoảng 30.000 km/giây"
+    ],
+    "correct": 0,
+    "explanation": "Tốc độ ánh sáng trong chân không là giới hạn tốc độ tối đa của vũ trụ: 299.792 km/s."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ xương người trưởng thành bình thường bao gồm tất cả bao nhiêu chiếc xương?",
+    "options": [
+      "206 chiếc xương",
+      "300 chiếc xương",
+      "150 chiếc xương",
+      "250 chiếc xương"
+    ],
+    "correct": 0,
+    "explanation": "Khi mới sinh em bé có khoảng 300 chiếc xương, sau đó dần hợp nhất lại còn đúng 206 chiếc ở người lớn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Nước tinh khiết nguyên chất sôi ở nhiệt độ bao nhiêu độ C dưới áp suất khí quyển tiêu chuẩn 1 atm?",
+    "options": [
+      "100 độ C",
+      "80 độ C",
+      "120 độ C",
+      "90 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Ở áp suất 1 atm, nước sôi chuyển thành hơi nước ở chính xác 100 °C."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất lỏng nào chảy trong mạch máu giúp vận chuyển oxy và chất dinh dưỡng đi nuôi khắp cơ thể?",
+    "options": [
+      "Máu",
+      "Nước tiểu",
+      "Dịch mật",
+      "Bạch huyết"
+    ],
+    "correct": 0,
+    "explanation": "Hồng cầu trong máu chứa huyết sắc tố hemoglobin liên kết với oxy để phân phối khắp cơ thể."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hành tinh nào trong Hệ Mặt Trời có kích thước và khối lượng lớn nhất (lớn hơn tất cả các hành tinh khác gộp lại)?",
+    "options": [
+      "Sao Mộc (Jupiter)",
+      "Sao Thổ (Saturn)",
+      "Sao Hải Vương (Neptune)",
+      "Sao Thiên Vương (Uranus)"
+    ],
+    "correct": 0,
+    "explanation": "Sao Mộc có thể chứa vừa hơn 1.300 hành tinh kích thước như Trái Đất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Nguyên tố hóa học nào có độ cứng tự nhiên cao nhất theo thang độ cứng Mohs (đạt mức 10/10)?",
+    "options": [
+      "Kim cương (Cacbon)",
+      "Vonfram",
+      "Titan",
+      "Thạch anh"
+    ],
+    "correct": 0,
+    "explanation": "Cấu trúc tinh thể tứ diện lập phương của kim cương mang lại cho nó độ cứng vô địch trong tự nhiên."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Máu mang nhóm máu nào được gọi là 'Nhóm máu chuyên cho' (có thể truyền cho người mang mọi nhóm máu khác)?",
+    "options": [
+      "Nhóm máu O",
+      "Nhóm máu AB",
+      "Nhóm máu A",
+      "Nhóm máu B"
+    ],
+    "correct": 0,
+    "explanation": "Hồng cầu nhóm máu O không có kháng nguyên A và B nên không bị kháng thể người nhận phá hủy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Ai là nhà bác học đã phát minh ra Ba định luật vạn vật hấp dẫn và cơ học cổ điển khi nhìn quả táo rơi?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correct": 0,
+    "explanation": "Sir Isaac Newton đặt nền móng cho vật lý học hiện đại với cuốn sách Philosophiae Naturalis Principia Mathematica."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tia sáng nào từ Mặt Trời kích thích da tự tổng hợp Vitamin D nhưng cũng là thủ phạm gây cháy nắng và ung thư da nếu tiếp xúc quá mức?",
+    "options": [
+      "Tia tử ngoại (Tia cực tím UV)",
+      "Tia hồng ngoại",
+      "Tia X",
+      "Tia Gamma"
+    ],
+    "correct": 0,
+    "explanation": "Tia tử ngoại (UV-A và UV-B) có năng lượng cao, kích thích cơ thể tổng hợp vitamin D nhưng có thể làm tổn hại DNA da."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Vệ tinh tự nhiên duy nhất quay quanh Trái Đất là thiên thể nào?",
+    "options": [
+      "Mặt Trăng",
+      "Mặt Trời",
+      "Sao Kim",
+      "Trạm vũ trụ ISS"
+    ],
+    "correct": 0,
+    "explanation": "Mặt Trăng cách Trái Đất khoảng 384.400 km và gây ra hiện tượng thủy triều trên các đại dương."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Loài chim duy nhất trên thế giới có khả năng bay lùi về phía sau và bay đứng yên tại chỗ như trực thăng là loài chim nào?",
+    "options": [
+      "Chim ruồi (Hummingbird)",
+      "Chim bói cá",
+      "Chim én",
+      "Chim bồ câu"
+    ],
+    "correct": 0,
+    "explanation": "Chim ruồi có khớp cánh linh hoạt đập cánh tới 80 lần/giây giúp chúng bay giật lùi dễ dàng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Nhịp tim trung bình của một người trưởng thành khỏe mạnh ở trạng thái nghỉ ngơi dao động trong khoảng nào?",
+    "options": [
+      "60 - 100 nhịp/phút",
+      "110 - 150 nhịp/phút",
+      "30 - 50 nhịp/phút",
+      "120 - 140 nhịp/phút"
+    ],
+    "correct": 0,
+    "explanation": "Nhịp tim nghỉ ngơi chuẩn của người bình thường nằm trong khoảng 60 đến 100 lần mỗi phút."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng cầu vồng bảy sắc sau cơn mưa xuất hiện là do hiện tượng quang học nào của ánh sáng Mặt Trời qua giọt nước?",
+    "options": [
+      "Khúc xạ và tán sắc ánh sáng",
+      "Giao thoa ánh sáng",
+      "Nhiễu xạ ánh sáng",
+      "Hấp thụ ánh sáng"
+    ],
+    "correct": 0,
+    "explanation": "Giọt nước mưa đóng vai trò như lăng kính làm khúc xạ, phản xạ và tán sắc ánh sáng trắng thành 7 dải màu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào có khả năng dẫn điện và dẫn nhiệt tốt nhất trong tất cả các kim loại?",
+    "options": [
+      "Bạc (Ag)",
+      "Đồng (Cu)",
+      "Vàng (Au)",
+      "Nhôm (Al)"
+    ],
+    "correct": 0,
+    "explanation": "Bạc có độ dẫn điện dẫn nhiệt cao nhất, kế tiếp là đồng, vàng rồi đến nhôm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Phân tử nước (H2O) được tạo nên từ liên kết giữa các nguyên tử của những nguyên tố nào?",
+    "options": [
+      "2 nguyên tử Hydro và 1 nguyên tử Oxy",
+      "1 nguyên tử Hydro và 2 nguyên tử Oxy",
+      "2 nguyên tử Heli và 1 nguyên tử Oxy",
+      "1 nguyên tử Cacbon và 2 nguyên tử Oxy"
+    ],
+    "correct": 0,
+    "explanation": "Công thức hóa học của nước là H2O gồm 2 nguyên tử Hydro liên kết cộng hóa trị với 1 nguyên tử Oxy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Khí nào thoát ra nhiều nhất từ các bãi rác và quá trình tiêu hóa của gia súc, là khí gây hiệu ứng nhà kính mạnh gấp 28 lần CO2?",
+    "options": [
+      "Khí Metan (CH4)",
+      "Khí Oxy (O2)",
+      "Khí Sunfuro (SO2)",
+      "Khí Cacbonic (CO2)"
+    ],
+    "correct": 0,
+    "explanation": "Metan (CH4) là loại khí gây hiệu ứng nhà kính cực mạnh và là thành phần chính của khí sinh học Biogas."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Cơ quan nào trong tai người chịu trách nhiệm giữ thăng bằng cho cơ thể khi di chuyển hoặc xoay người?",
+    "options": [
+      "Hệ thống tiền đình (ba ống bán khuyên)",
+      "Màng nhĩ",
+      "Xương bàn đạp",
+      "Vòi tai"
+    ],
+    "correct": 0,
+    "explanation": "Hệ thống tiền đình trong tai trong chứa chất dịch giúp não nhận biết phương hướng và thăng bằng cơ thể."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Loài động vật có vú duy nhất trên Trái Đất sở hữu đôi cánh thực sự và có khả năng bay lượn trên bầu trời là loài nào?",
+    "options": [
+      "Con dơi",
+      "Sóc bay",
+      "Chồn bay",
+      "Cá chuồn"
+    ],
+    "correct": 0,
+    "explanation": "Sóc bay chỉ có màng lượn rơi tự do, chỉ có loài dơi mới có cánh xương ngón tay tiến hóa để bay chủ động."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Thang đo độ pH được dùng để đo tính axit hay bazơ của dung dịch; giá trị pH = 7 biểu thị dung dịch có tính chất gì?",
+    "options": [
+      "Trung tính",
+      "Axit mạnh",
+      "Bazơ kiềm",
+      "Bão hòa"
+    ],
+    "correct": 0,
+    "explanation": "pH < 7 là môi trường axit, pH > 7 là môi trường kiềm (bazơ), và pH = 7 là dung dịch trung tính (nước cất)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Nguyên lý bất định nổi tiếng trong cơ học lượng tử khẳng định không thể xác định đồng thời chính xác vị trí và xung lượng của hạt vi mô mang tên nhà vật lý nào?",
+    "options": [
+      "Werner Heisenberg",
+      "Niels Bohr",
+      "Erwin Schrödinger",
+      "Max Planck"
+    ],
+    "correct": 0,
+    "explanation": "Nguyên lý bất định Heisenberg (1927) là một trong những trụ cột nền tảng của vật lý lượng tử."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Cấu trúc xoắn kép kỳ diệu của phân tử ADN lưu giữ mã di truyền sự sống được hai nhà khoa học nào phát hiện năm 1953?",
+    "options": [
+      "James Watson và Francis Crick",
+      "Gregor Mendel và Charles Darwin",
+      "Louis Pasteur và Robert Koch",
+      "Alexander Fleming và Howard Florey"
+    ],
+    "correct": 0,
+    "explanation": "Watson và Crick đã công bố mô hình xoắn kép ADN đoạt giải Nobel Y học năm 1962."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Một năm ánh sáng (đơn vị đo khoảng cách thiên văn) tương đương với quãng đường xấp xỉ bao nhiêu km?",
+    "options": [
+      "Khoảng 9.460 tỷ km (9,46 x 10^12 km)",
+      "Khoảng 150 triệu km",
+      "Khoảng 1.000 tỷ km",
+      "Khoảng 300.000 km"
+    ],
+    "correct": 0,
+    "explanation": "Năm ánh sáng là quãng đường photon ánh sáng bay trong 1 năm ròng với vận tốc 300.000 km/s."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Vùng ranh giới bao quanh hố đen vũ trụ mà một khi vật chất hay ánh sáng đã vượt qua thì không bao giờ có thể thoát ra ngoài được gọi là gì?",
+    "options": [
+      "Chân trời sự kiện (Event Horizon)",
+      "Điểm kỳ dị (Singularity)",
+      "Đĩa bồi tụ",
+      "Bán kính Schwarzschild"
+    ],
+    "correct": 0,
+    "explanation": "Chân trời sự kiện là ranh giới một chiều của hố đen, nơi vận tốc thoát ly vượt qua cả tốc độ ánh sáng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Nguyên tố hóa học nào phổ biến nhất trong toàn bộ Vũ trụ quan sát được (chiếm khoảng 75% tổng khối lượng vật chất)?",
+    "options": [
+      "Hydro (H)",
+      "Heli (He)",
+      "Oxy (O)",
+      "Cacbon (C)"
+    ],
+    "correct": 0,
+    "explanation": "Hydro là nguyên tố nhẹ nhất và phong phú nhất, nhiên liệu hạt nhân chính thắp sáng các ngôi sao."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Loài sinh vật nhỏ bé vi mô nào có thể sống sót ngoài không gian chân không, chịu nhiệt độ từ -272°C đến 150°C và chịu phóng xạ gấp hàng trăm lần con người?",
+    "options": [
+      "Gấu nước (Tardigrade)",
+      "Vi khuẩn E. coli",
+      "Trùng amip",
+      "Tảo lục"
+    ],
+    "correct": 0,
+    "explanation": "Gấu nước có khả năng tiến vào trạng thái ngủ đông huyền phù cryptobiosis giúp chúng gần như bất tử."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Phương trình vật lý vĩ đại nào của Albert Einstein chứng minh năng lượng và khối lượng có thể chuyển hóa lẫn nhau?",
+    "options": [
+      "E = mc²",
+      "F = ma",
+      "PV = nRT",
+      "V = IR"
+    ],
+    "correct": 0,
+    "explanation": "E = mc² (Năng lượng bằng khối lượng nhân với bình phương tốc độ ánh sáng) mở ra kỷ nguyên năng lượng nguyên tử."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hạt hạ nguyên tử nào mang điện tích âm và quay quanh hạt nhân nguyên tử theo các đám mây xác suất quỹ đạo?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Quark"
+    ],
+    "correct": 0,
+    "explanation": "Electron (điện tử) mang điện tích âm -1, có khối lượng rất nhẹ so với proton và neutron trong hạt nhân."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Kim loại nào có nhiệt độ nóng chảy cao nhất trong tất cả các kim loại (lên tới 3.422 °C), thường được dùng làm dây tóc bóng đèn sợi đốt?",
+    "options": [
+      "Vonfram (Tungsten)",
+      "Titan",
+      "Bạch kim (Platinum)",
+      "Tantalum"
+    ],
+    "correct": 0,
+    "explanation": "Vonfram (W) chịu nhiệt siêu việt giúp sợi tóc phát sáng ở nhiệt độ cực cao mà không bị nóng chảy đứt đoạn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Trong sinh học di truyền, đột biến gen thay đổi một cặp nucleotit dẫn đến bệnh hồng cầu hình liềm ở người là do thay đổi axit amin nào?",
+    "options": [
+      "Axit glutamic bị thay thế bằng Valin",
+      "Glyxin bị thay thế bằng Alanin",
+      "Lơxin bị thay thế bằng Prolin",
+      "Lizin bị thay thế bằng Threonin"
+    ],
+    "correct": 0,
+    "explanation": "Đột biến điểm làm hồng cầu mất hình đĩa lõm 2 mặt, biến thành hình lưỡi liềm gây tắc nghẽn vi mạch máu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hiện tượng vật lý nào giải thích tại sao máy bay khổng lồ nặng hàng trăm tấn vẫn có thể bay lên bầu trời nhờ hình dạng cánh cong?",
+    "options": [
+      "Định luật Bernoulli (Áp suất khí động học)",
+      "Định luật khúc xạ ánh sáng",
+      "Định luật vạn vật hấp dẫn",
+      "Định luật bảo toàn động lượng"
+    ],
+    "correct": 0,
+    "explanation": "Vận tốc khí mặt trên cánh nhanh hơn mặt dưới tạo chênh lệch áp suất sinh ra lực nâng khí động học (Lifting force)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Lớp bảo vệ nào trong tầng bình lưu của khí quyển Trái Đất giúp lọc và hấp thụ hầu hết các tia tử ngoại nguy hiểm từ Mặt Trời?",
+    "options": [
+      "Tầng Ozone (O3)",
+      "Tầng đối lưu",
+      "Tầng nhiệt",
+      "Tầng ion"
+    ],
+    "correct": 0,
+    "explanation": "Khí Ozone (O3) ở độ cao 20-30 km là tấm khiên sinh học bảo vệ toàn bộ sự sống trên mặt đất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Hiện tượng cộng hưởng từ hạt nhân (MRI) được ứng dụng rộng rãi trong chẩn đoán hình ảnh y tế hiện đại dựa trên sự định hướng của hạt nhân nguyên tử nào trong cơ thể?",
+    "options": [
+      "Nguyên tử Hydro (H+)",
+      "Nguyên tử Canxi (Ca2+)",
+      "Nguyên tử Sắt (Fe)",
+      "Nguyên tử Cacbon (C)"
+    ],
+    "correct": 0,
+    "explanation": "Cơ thể chứa hơn 60-70% là nước, từ trường mạnh của máy MRI kích thích proton của nguyên tử Hydro định hướng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Bảng tuần hoàn các nguyên tố hóa học hiện đại do nhà hóa học vĩ đại người Nga nào phát minh và sắp xếp năm 1869?",
+    "options": [
+      "Dmitri Mendeleev",
+      "Mikhail Lomonosov",
+      "Antoine Lavoisier",
+      "John Dalton"
+    ],
+    "correct": 0,
+    "explanation": "Dmitri Mendeleev phát minh ra Định luật tuần hoàn và tiên đoán chính xác vị trí các nguyên tố chưa được tìm thấy thời đó."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào được mệnh danh là 'Hành tinh Đỏ' vì bề mặt phủ đầy oxit sắt màu cam đỏ?",
+    "options": [
+      "Sao Hỏa (Mars)",
+      "Sao Kim",
+      "Sao Thủy",
+      "Sao Mộc"
+    ],
+    "correct": 0,
+    "explanation": "Sao Hỏa có màu đỏ rực đặc trưng do khoáng chất oxit sắt rỉ sét trên bề mặt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời nổi tiếng nhất với hệ thống vành đai băng đá và bụi tuyệt đẹp bao quanh?",
+    "options": [
+      "Sao Thổ (Saturn)",
+      "Sao Mộc",
+      "Sao Thiên Vương",
+      "Sao Hải Vương"
+    ],
+    "correct": 0,
+    "explanation": "Sao Thổ sở hữu hệ thống vành đai rực rỡ và ngoạn mục nhất nhìn qua kính thiên văn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan nào trong cơ thể người hoạt động như một chiếc máy bơm liên tục bơm máu đi khắp các cơ quan?",
+    "options": [
+      "Trái tim",
+      "Lá phổi",
+      "Dạ dày",
+      "Lá gan"
+    ],
+    "correct": 0,
+    "explanation": "Trái tim co bóp khoảng 100.000 lần mỗi ngày để luân chuyển dòng máu mang oxy nuôi cơ thể."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất khí nào thực vật hấp thụ trong quá trình quang hợp và con người thở ra trong quá trình hô hấp?",
+    "options": [
+      "Khí Cacbonic (CO2)",
+      "Khí Oxy (O2)",
+      "Khí Nitơ (N2)",
+      "Khí Hydro (H2)"
+    ],
+    "correct": 0,
+    "explanation": "Thực vật hấp thụ CO2 từ không khí để quang hợp tạo ra tinh bột và oxy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài cá lớn nhất đại dương hiện nay ăn các sinh vật phù du và tôm nhỏ là loài nào?",
+    "options": [
+      "Cá mập voi (Whale Shark)",
+      "Cá mập trắng",
+      "Cá voi sát thủ",
+      "Cá đuối khổng lồ"
+    ],
+    "correct": 0,
+    "explanation": "Cá mập voi có thể dài tới 18 mét nhưng tính tình hiền lành, chỉ ăn sinh vật phù du nhỏ bé."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Động vật có vú nào đẻ trứng thay vì sinh con nuôi bằng sữa mẹ?",
+    "options": [
+      "Thú mỏ vịt (Platypus)",
+      "Chuột túi Kangaroo",
+      "Gấu Koala",
+      "Con tê tê"
+    ],
+    "correct": 0,
+    "explanation": "Thú mỏ vịt và nhím gai mỏ ngắn là hai loài thú đơn huyệt đặc hữu của châu Úc đẻ trứng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hiện tượng nước chuyển từ thể lỏng sang thể rắn khi nhiệt độ hạ xuống dưới 0 độ C được gọi là gì?",
+    "options": [
+      "Đông đặc (Đóng băng)",
+      "Bay hơi",
+      "Ngưng tụ",
+      "Nóng chảy"
+    ],
+    "correct": 0,
+    "explanation": "Ở 0 °C dưới áp suất tiêu chuẩn, nước lỏng bắt đầu kết tinh thành băng đá."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài bò sát lớn nhất còn sống trên Trái Đất có cú đớp uy lực kinh hoàng là loài nào?",
+    "options": [
+      "Cá sấu nước mặn (Saltwater Crocodile)",
+      "Rồng Komodo",
+      "Trăn gấm",
+      "Rùa da"
+    ],
+    "correct": 0,
+    "explanation": "Cá sấu nước mặn có thể dài hơn 6 mét, nặng hơn 1 tấn với lực cắn mạnh nhất giới sinh vật."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ thể con người có tất cả bao nhiêu giác quan cơ bản theo quan niệm sinh học truyền thống?",
+    "options": [
+      "5 giác quan (Thị giác, thính giác, khứu giác, vị giác, xúc giác)",
+      "4 giác quan",
+      "6 giác quan",
+      "7 giác quan"
+    ],
+    "correct": 0,
+    "explanation": "Năm giác quan cơ bản giúp chúng ta cảm nhận thế giới: nhìn, nghe, ngửi, nếm và sờ chạm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Ngôi sao nào ở trung tâm của Hệ Mặt Trời cung cấp nguồn nhiệt và ánh sáng nuôi dưỡng sự sống Trái Đất?",
+    "options": [
+      "Mặt Trời",
+      "Sao Bắc Đẩu",
+      "Sao Chổi Halley",
+      "Sao Mai"
+    ],
+    "correct": 0,
+    "explanation": "Mặt Trời là một ngôi sao lùn vàng chiếm hơn 99,8% khối lượng của toàn Hệ Mặt Trời."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Kim loại nào quý giá được dùng làm đơn vị dự trữ tiền tệ quốc tế và có màu vàng óng ánh không bị rỉ sét?",
+    "options": [
+      "Vàng (Au)",
+      "Bạc (Ag)",
+      "Đồng (Cu)",
+      "Bạch kim (Pt)"
+    ],
+    "correct": 0,
+    "explanation": "Vàng là kim loại trơ về mặt hóa học, không bị oxy hóa bởi không khí và độ ẩm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Lực hút vô hình giữ cho Trái Đất quay quanh Mặt Trời và giữ chân con người trên mặt đất được gọi là gì?",
+    "options": [
+      "Lực hấp dẫn (Lực trọng trường)",
+      "Lực ma sát",
+      "Lực điện từ",
+      "Lực ly tâm"
+    ],
+    "correct": 0,
+    "explanation": "Lực hấp dẫn tỷ lệ thuận với khối lượng của các vật thể theo định luật vạn vật hấp dẫn của Newton."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài động vật nào chạy nhanh nhất trên cạn với tốc độ có thể đạt tới 110 - 120 km/h?",
+    "options": [
+      "Báo săn Cheetah",
+      "Sư tử",
+      "Linh dương",
+      "Ngựa hoang"
+    ],
+    "correct": 0,
+    "explanation": "Báo săn Cheetah có cấu tạo xương sống dẻo dai giúp tăng tốc từ 0 lên 100 km/h chỉ trong 3 giây."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Mắt người nhìn thấy các vật thể xung quanh là do có hiện tượng gì của ánh sáng đi vào mắt?",
+    "options": [
+      "Ánh sáng phản xạ từ vật đi vào mắt",
+      "Ánh sáng phát ra từ mắt",
+      "Khúc xạ âm thanh",
+      "Hiện tượng nhiễm xạ"
+    ],
+    "correct": 0,
+    "explanation": "Chúng ta nhìn thấy vật thể khi có ánh sáng chiếu vào vật rồi phản xạ tới võng mạc của mắt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào của cây làm nhiệm vụ hút nước và chất khoáng hòa tan từ lòng đất lên nuôi cây?",
+    "options": [
+      "Rễ cây",
+      "Thân cây",
+      "Lá cây",
+      "Hoa"
+    ],
+    "correct": 0,
+    "explanation": "Hệ thống lông hút ở rễ cây thẩm thấu nước và muối khoáng vận chuyển lên thân và cành lá."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài động vật nào trên cạn cao nhất hành tinh với chiếc cổ dài nổi bật?",
+    "options": [
+      "Hươu cao cổ",
+      "Voi châu Phi",
+      "Đà điểu",
+      "Lạc đà"
+    ],
+    "correct": 0,
+    "explanation": "Hươu cao cổ đực trưởng thành có thể cao tới 5,5 đến 6 mét."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất lỏng màu trắng sữa tiết ra từ tuyến vú của động vật có vú mẹ để nuôi con sơ sinh là gì?",
+    "options": [
+      "Sữa",
+      "Huyết tương",
+      "Nước ối",
+      "Dịch nhầy"
+    ],
+    "correct": 0,
+    "explanation": "Sữa mẹ chứa đầy đủ chất đạm, chất béo, kháng thể tự nhiên nuôi dưỡng con non."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Lớp sương trắng mờ phủ trên kính mắt khi bước từ phòng máy lạnh ra trời nắng ẩm là do hiện tượng gì?",
+    "options": [
+      "Hơi nước ngưng tụ thành giọt lỏng",
+      "Kính bị bẩn",
+      "Nước bay hơi",
+      "Khí oxy tích tụ"
+    ],
+    "correct": 0,
+    "explanation": "Hơi nước trong không khí nóng ẩm gặp bề mặt tròng kính lạnh liền ngưng tụ thành li ti giọt nước."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Côn trùng nào nổi tiếng chăm chỉ xây tổ hình lục giác và làm ra mật ong ngọt ngào?",
+    "options": [
+      "Con ong mật",
+      "Con kiến",
+      "Con mối",
+      "Con tằm"
+    ],
+    "correct": 0,
+    "explanation": "Ong mật thu thập mật hoa và enzyme chế biến thành mật ong thơm ngon giàu dinh dưỡng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào trong cơ thể người có chức năng điều khiển suy nghĩ, trí nhớ, ngôn ngữ và cảm xúc?",
+    "options": [
+      "Bộ não",
+      "Trái tim",
+      "Lá phổi",
+      "Dạ dày"
+    ],
+    "correct": 0,
+    "explanation": "Não bộ chứa khoảng 86 tỷ nơ-ron thần kinh phối hợp xử lý thông tin phức tạp."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng thủy triều lên xuống hàng ngày trên các bờ biển chủ yếu do lực hút hấp dẫn của thiên thể nào?",
+    "options": [
+      "Mặt Trăng (và một phần Mặt Trời)",
+      "Sao Hỏa",
+      "Sao Kim",
+      "Trạm vũ trụ"
+    ],
+    "correct": 0,
+    "explanation": "Lực hấp dẫn của Mặt Trăng kéo khối nước đại dương về phía nó tạo nên hiện tượng thủy triều."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Nhóm máu nào trong hệ nhóm máu ABO được mệnh danh là 'Nhóm máu chuyên nhận' (nhận được từ tất cả các nhóm khác)?",
+    "options": [
+      "Nhóm máu AB",
+      "Nhóm máu O",
+      "Nhóm máu A",
+      "Nhóm máu B"
+    ],
+    "correct": 0,
+    "explanation": "Huyết tương của người nhóm máu AB không chứa kháng thể chống A hay B nên có thể nhận mọi nhóm máu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Khí độc không màu, không mùi, sinh ra khi đốt than củi trong phòng kín nguy cơ gây ngạt thở tử vong là khí gì?",
+    "options": [
+      "Khí Cacbon monoxit (CO)",
+      "Khí Cacbonic (CO2)",
+      "Khí Sunfuro (SO2)",
+      "Khí Metan (CH4)"
+    ],
+    "correct": 0,
+    "explanation": "Khí CO liên kết chặt chẽ với hemoglobin gấp hơn 200 lần oxy, ngăn chặn hồng cầu vận chuyển oxy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng nhật thực xảy ra khi ba thiên thể Mặt Trời, Mặt Trăng và Trái Đất xếp thẳng hàng theo trật tự nào?",
+    "options": [
+      "Mặt Trời - Mặt Trăng - Trái Đất",
+      "Mặt Trời - Trái Đất - Mặt Trăng",
+      "Trái Đất - Mặt Trời - Mặt Trăng",
+      "Mặt Trăng - Trái Đất - Mặt Trời"
+    ],
+    "correct": 0,
+    "explanation": "Khi Mặt Trăng đi vào giữa Mặt Trời và Trái Đất, bóng tối của Mặt Trăng phủ lên một vùng bề mặt Trái Đất."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Loại vitamin nào tan trong dầu được gọi là 'Vitamin ánh nắng' do da tự tổng hợp khi tắm nắng sớm?",
+    "options": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin A",
+      "Vitamin B12"
+    ],
+    "correct": 0,
+    "explanation": "Tia UVB từ ánh nắng kích thích tiền chất 7-dehydrocholesterol dưới da chuyển hóa thành Vitamin D3."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Động vật biến nhiệt (động vật máu lạnh) có thân nhiệt thay đổi theo nhiệt độ môi trường gồm nhóm nào?",
+    "options": [
+      "Bò sát, lưỡng cư, cá",
+      "Chim và thú",
+      "Chó và mèo",
+      "Cá voi và cá heo"
+    ],
+    "correct": 0,
+    "explanation": "Bò sát, ếch nhái và cá không thể tự điều hòa nhiệt độ bên trong mà phụ thuộc vào môi trường xung quanh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kháng sinh đầu tiên trong lịch sử y học nhân loại penicillin được bác sĩ Alexander Fleming tình cờ phát hiện từ loại nấm mốc nào?",
+    "options": [
+      "Nấm Penicillium notatum",
+      "Nấm men bánh mì",
+      "Nấm Aspergillus",
+      "Nấm rơm"
+    ],
+    "correct": 0,
+    "explanation": "Năm 1928, Fleming phát hiện đĩa nuôi cấy vi khuẩn bị nấm mốc Penicillium diệt sạch, mở ra kỷ nguyên kháng sinh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào có nhiệt độ nóng chảy thấp nhất trong số các kim loại sau đây?",
+    "options": [
+      "Chì (khoảng 327°C)",
+      "Đồng (1.085°C)",
+      "Sắt (1.538°C)",
+      "Vàng (1.064°C)"
+    ],
+    "correct": 0,
+    "explanation": "Chì nóng chảy ở nhiệt độ thấp 327°C, rất dễ đúc nóng chảy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Màng tế bào sinh học ở sinh vật nhân thực có cấu trúc cơ bản gồm lớp kép của chất hữu cơ nào?",
+    "options": [
+      "Lớp kép Photpholipit xen kẽ protein",
+      "Lớp đường xenlulozo",
+      "Lớp sáp parafin",
+      "Lớp sợi collagen"
+    ],
+    "correct": 0,
+    "explanation": "Mô hình khảm động của Singer và Nicolson chứng minh màng tế bào cấu tạo từ photpholipit kép."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng khúc xạ ánh sáng là hiện tượng tia sáng bị lệch hướng khi truyền qua mặt phân cách giữa hai môi trường có tính chất gì?",
+    "options": [
+      "Hai môi trường trong suốt có chiết suất quang học khác nhau",
+      "Môi trường chân không",
+      "Bề mặt gương phẳng",
+      "Môi trường mờ đục"
+    ],
+    "correct": 0,
+    "explanation": "Tốc độ ánh sáng thay đổi khi đi từ môi trường này sang môi trường khác gây ra sự đổi hướng của tia sáng."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Thuyết tương đối hẹp của Albert Einstein (1905) xây dựng dựa trên tiên đề then chốt nào về tốc độ ánh sáng?",
+    "options": [
+      "Tốc độ ánh sáng trong chân không là bất biến đối với mọi hệ quy chiếu quán tính",
+      "Tốc độ ánh sáng phụ thuộc tốc độ nguồn phát",
+      "Ánh sáng truyền tức thời",
+      "Thời gian là đại lượng tuyệt đối"
+    ],
+    "correct": 0,
+    "explanation": "Vận tốc ánh sáng c = 300.000 km/s là hằng số vũ trụ không đổi, kéo theo tính co giãn của không - thời gian."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "Cơ chế phiên mã di truyền trong tế bào sống tổng hợp nên phân tử mARN nhờ enzym xúc tác chính nào?",
+    "options": [
+      "ARN Polymerase",
+      "ADN Ligase",
+      "ADN Polymerase",
+      "Enzym Pepsin"
+    ],
+    "correct": 0,
+    "explanation": "ARN Polymerase bám vào vùng điều hòa gen tháo xoắn ADN và lắp ráp các ribonucleotit tự do."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Định luật Ba nhiệt động lực học (Định luật Nernst) khẳng định điều gì xảy ra với entropy của một chất tinh khiết khi nhiệt độ tiến về Không độ tuyệt đối (0 Kelvin)?",
+    "options": [
+      "Entropy tiến về giá trị bằng không (S = 0)",
+      "Entropy đạt cực đại vô hạn",
+      "Entropy biến thành năng lượng",
+      "Nhiệt độ không thể đo được"
+    ],
+    "correct": 0,
+    "explanation": "Ở nhiệt độ 0 Kelvin (-273,15 °C), mọi dao động nhiệt phân tử hoàn toàn ngừng lại, mạng tinh thể đạt độ trật tự tuyệt đối."
   }
 ]

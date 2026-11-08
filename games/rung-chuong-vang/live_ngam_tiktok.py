@@ -61,7 +61,7 @@ def check_and_install_dependencies():
 def main():
     args = parse_args()
     print("=" * 70)
-    print("🔴 PHÁT LIVE NGẦM TIKTOK: RUNG CHUÔNG VÀNG (RTMP HANDS-FREE)")
+    print("🔴 PHÁT LIVE NGẦM TIKTOK: ĐẤU TRÍ TRẠNG NGUYÊN (RTMP HANDS-FREE)")
     print("=" * 70)
 
     stream_key = args.stream_key.strip()
@@ -157,7 +157,7 @@ def main():
     ]
 
     print("=" * 70)
-    print("🔥 STREAM GAME RUNG CHUÔNG VÀNG ĐANG HOẠT ĐỘNG TRỰC TIẾP TRÊN TIKTOK!")
+    print("🔥 STREAM GAME ĐẤU TRÍ TRẠNG NGUYÊN ĐANG HOẠT ĐỘNG TRỰC TIẾP TRÊN TIKTOK!")
     print("=" * 70)
 
     try:

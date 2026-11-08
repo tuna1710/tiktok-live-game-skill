@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Rung Chuông Vàng - TikTok Live Interactive</title>
+  <title>Đấu Trí Trạng Nguyên - Sàn Đấu Tri Thức TikTok Live</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,6 +17,12 @@
     
     <!-- Lớp Canvas hiệu ứng hạt pháo hoa & sấm sét -->
     <canvas id="fx-canvas"></canvas>
+
+    <!-- Thông báo hoạt động trực tiếp (Live Action Toast) -->
+    <div id="live-toast" class="live-toast hidden">
+      <span id="toast-icon">👋</span>
+      <span id="toast-text">Chào mừng bạn vào sàn đấu!</span>
+    </div>
 
     <!-- Nút Bật Âm thanh & Giọng đọc TTS (Bấm 1 lần để mở khóa audio trình duyệt) -->
     <div id="audio-unlock-banner" onclick="unlockAudio()" style="position: absolute; top: 16px; right: 24px; z-index: 999; background: rgba(0, 242, 254, 0.25); border: 2px solid #00f2fe; color: #fff; padding: 8px 18px; border-radius: 20px; font-size: 14px; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: 0 0 15px rgba(0, 242, 254, 0.4); backdrop-filter: blur(5px);">
@@ -36,10 +42,10 @@
     <header class="game-header">
       <div class="header-top">
         <div class="logo-badge">
-          <span class="bell-icon">🔔</span>
+          <span class="bell-icon">🎓</span>
           <div class="title-text">
-            <span class="main-title">RUNG CHUÔNG VÀNG</span>
-            <span class="sub-title">TIKTOK LIVE SHOW</span>
+            <span class="main-title">ĐẤU TRÍ TRẠNG NGUYÊN</span>
+            <span class="sub-title">SÀN ĐẤU TRI THỨC</span>
           </div>
         </div>
         <div class="live-counter">
@@ -80,7 +86,7 @@
     <!-- PHẦN CÂU HỎI & CÁC ĐÁP ÁN (A, B, C, D) -->
     <section class="question-container">
       <div class="question-card">
-        <p id="question-text" class="question-text">Chào mừng các thí sinh đến với sàn thi đấu Rung Chuông Vàng! Hãy bình luận bất kỳ để nhận vị trí số báo danh.</p>
+        <p id="question-text" class="question-text">Chào mừng các sĩ tử đến với sàn đấu Đấu Trí Trạng Nguyên! Hãy bình luận bất kỳ hoặc gõ A, B, C, D để nhận vị trí số báo danh.</p>
       </div>
 
       <div class="options-grid">
@@ -172,14 +178,14 @@
       </div>
     </div>
 
-    <!-- OVERLAY ĐỈNH CAO: RUNG CHUÔNG VÀNG (VICTORY) -->
+    <!-- OVERLAY ĐỈNH CAO: ĐẤU TRÍ TRẠNG NGUYÊN (VICTORY) -->
     <div id="victory-overlay" class="overlay-modal hidden">
       <div class="modal-box victory-box">
-        <div class="giant-bell" id="giant-bell">🔔</div>
-        <h1 class="victory-title">RUNG CHUÔNG VÀNG!</h1>
-        <div class="victory-subtitle">VINH DANH TÂN TRẠNG NGUYÊN</div>
+        <div class="giant-bell" id="giant-bell">🎓</div>
+        <h1 class="victory-title">ĐẤU TRÍ TRẠNG NGUYÊN!</h1>
+        <div class="victory-subtitle">VINH DANH TÂN TRẠNG NGUYÊN XUẤT SẮC</div>
         <div id="winners-container" class="winners-container"></div>
-        <div class="victory-msg">XUẤT SẮC VƯỢT QUA TOÀN BỘ CÂU HỎI CỦA CHƯƠNG TRÌNH!</div>
+        <div class="victory-msg">XUẤT SẮC VƯỢT QUA TOÀN BỘ CÂU HỎI VÀ ĐOẠT DANH HIỆU CAO QUÝ NHẤT!</div>
       </div>
     </div>
 

@@ -210,7 +210,7 @@
   {
     "category": "doi-song-cong-nghe",
     "difficulty": 3,
-    "question": "CÂU HỎI RUNG CHUÔNG VÀNG: Cây cầu thép lịch sử đầu tiên bắc qua sông Hồng tại Hà Nội khánh thành năm 1902 là cầu nào?",
+    "question": "CÂU HỎI QUYẾT ĐỊNH: Cây cầu thép lịch sử đầu tiên bắc qua sông Hồng tại Hà Nội khánh thành năm 1902 là cầu nào?",
     "options": [
       "Cầu Long Biên",
       "Cầu Thăng Long",
@@ -544,5 +544,811 @@
     ],
     "correct": 3,
     "explanation": "Mì Quảng thường được ăn kèm với tôm, thịt gà, thịt heo, trứng cút, cá lóc, chả cá hoặc ếch. Bò tái và gân thường phổ biến hơn trong các món như phở hoặc bún bò Huế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở truyền thống trứ danh của Việt Nam thường được thưởng thức cùng loại gia vị thảo mộc đặc trưng nào trong nước dùng?",
+    "options": [
+      "Hoa hồi, quế, thảo quả, gừng nướng",
+      "Lá chanh, ớt bột, sả cây",
+      "Cây thì là, hạt tiêu xanh",
+      "Bột nghệ, lá lốt"
+    ],
+    "correct": 0,
+    "explanation": "Nước dùng phở truyền thống ngọt thanh từ xương ống hầm và dậy mùi thơm của hoa hồi, quế, thảo quả."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Mạng xã hội chia sẻ video dạng ngắn thịnh hành bậc nhất thế giới do công ty ByteDance phát triển là ứng dụng nào?",
+    "options": [
+      "TikTok",
+      "Facebook",
+      "X (Twitter)",
+      "Instagram"
+    ],
+    "correct": 0,
+    "explanation": "TikTok là nền tảng video ngắn phổ biến toàn cầu với các tính năng tương tác livestream hiện đại."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Một trận thi đấu bóng đá chuyên nghiệp tiêu chuẩn 11 người diễn ra trong bao nhiêu phút chính thức (không tính bù giờ)?",
+    "options": [
+      "90 phút (2 hiệp, mỗi hiệp 45 phút)",
+      "80 phút (2 hiệp, mỗi hiệp 40 phút)",
+      "100 phút",
+      "60 phút"
+    ],
+    "correct": 0,
+    "explanation": "Trận bóng đá gồm 2 hiệp chính thức, mỗi hiệp kéo dài 45 phút chưa tính thời gian bù giờ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ điều hành di động mã nguồn mở phổ biến nhất thế giới thuộc sở hữu của Google là gì?",
+    "options": [
+      "Android",
+      "iOS",
+      "Windows Phone",
+      "HarmonyOS"
+    ],
+    "correct": 0,
+    "explanation": "Hệ điều hành Android chiếm thị phần lớn nhất trên các thiết bị điện thoại thông minh thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bánh mì kẹp thịt Việt Nam nổi tiếng khắp năm châu được từ điển Oxford công nhận bằng từ ngữ nào?",
+    "options": [
+      "Banh mi",
+      "Sandwich",
+      "Hot dog",
+      "Baguette"
+    ],
+    "correct": 0,
+    "explanation": "Từ 'Banh mi' được đưa nguyên bản vào từ điển Oxford như một danh từ riêng chỉ món ẩm thực Việt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bộ nhớ truy cập ngẫu nhiên lưu trữ tạm thời dữ liệu trong máy tính và điện thoại được viết tắt là gì?",
+    "options": [
+      "RAM",
+      "ROM",
+      "SSD",
+      "CPU"
+    ],
+    "correct": 0,
+    "explanation": "RAM (Random Access Memory) là bộ nhớ tạm thời, dữ liệu sẽ mất đi khi tắt nguồn thiết bị."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng nhắn tin và gọi điện thoại miễn phí phổ biến nhất tại Việt Nam hiện nay do tập đoàn VNG phát triển là gì?",
+    "options": [
+      "Zalo",
+      "Viber",
+      "Telegram",
+      "WhatsApp"
+    ],
+    "correct": 0,
+    "explanation": "Zalo là ứng dụng OTT thuần Việt với hàng chục triệu người dùng thường xuyên mỗi ngày."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bộ vi xử lý trung tâm được xem như 'bộ não' điều hành của máy tính điện tử được viết tắt là gì?",
+    "options": [
+      "CPU",
+      "GPU",
+      "VGA",
+      "PSU"
+    ],
+    "correct": 0,
+    "explanation": "CPU (Central Processing Unit) là bộ xử lý trung tâm tính toán và thực thi mọi câu lệnh máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong văn hóa giao thông Việt Nam, số điện thoại đường dây nóng gọi xe cứu thương khẩn cấp là số nào?",
+    "options": [
+      "115",
+      "113",
+      "114",
+      "111"
+    ],
+    "correct": 0,
+    "explanation": "115 là tổng đài cấp cứu y tế; 113 là công an phản ứng nhanh; 114 là cứu hỏa phòng cháy."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào được người hâm mộ khắp hành tinh tôn xưng là 'Môn thể thao vua'?",
+    "options": [
+      "Bóng đá",
+      "Bóng rổ",
+      "Quần vợt (Tennis)",
+      "Điền kinh"
+    ],
+    "correct": 0,
+    "explanation": "Bóng đá thu hút hàng tỷ người theo dõi trên khắp các châu lục với sức hấp dẫn cuồng nhiệt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ trợ lý ảo trí tuệ nhân tạo đình đám gây sốt toàn cầu do công ty OpenAI ra mắt vào cuối năm 2022 là gì?",
+    "options": [
+      "ChatGPT",
+      "Siri",
+      "Google Assistant",
+      "Bixby"
+    ],
+    "correct": 0,
+    "explanation": "ChatGPT mở ra làn sóng bùng nổ trí tuệ nhân tạo tạo sinh (Generative AI) trên toàn thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cáp quang biển AAG kết nối Internet từ Việt Nam đi quốc tế sử dụng phương thức truyền tín hiệu nào?",
+    "options": [
+      "Xung ánh sáng qua sợi thủy tinh",
+      "Dòng điện qua dây đồng",
+      "Sóng vô tuyến radio",
+      "Tia hồng ngoại"
+    ],
+    "correct": 0,
+    "explanation": "Cáp quang biển sử dụng hiện tượng phản xạ toàn phần của tia sáng truyền trong lõi thủy tinh tinh khiết."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cầu thủ bóng đá nào đang nắm giữ kỷ lục đoạt nhiều danh hiệu Quả Bóng Vàng (Ballon d'Or) nhất lịch sử với 8 lần vinh danh?",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Pele",
+      "Diego Maradona"
+    ],
+    "correct": 0,
+    "explanation": "Lionel Messi đã đoạt 8 Quả Bóng Vàng sau khi cùng Argentina vô địch World Cup 2022."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món cà phê sữa đá truyền thống thơm ngon đậm đà của Việt Nam thường được pha bằng dụng cụ kim loại nào?",
+    "options": [
+      "Phin cà phê",
+      "Máy pha Espresso",
+      "Bình Syphon",
+      "Ấm Moka"
+    ],
+    "correct": 0,
+    "explanation": "Cà phê phin truyền thống nhỏ giọt từng giọt tinh chất tạo nên nét văn hóa cà phê đặc trưng của người Việt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cổng kết nối tiêu chuẩn hiện đại có thể cắm đảo chiều đang trở thành chuẩn mực bắt buộc trên điện thoại và laptop là cổng nào?",
+    "options": [
+      "USB Type-C",
+      "Micro-USB",
+      "Lightning",
+      "USB Type-A"
+    ],
+    "correct": 0,
+    "explanation": "USB Type-C cho phép sạc nhanh công suất lớn và truyền tải dữ liệu đa phương tiện tốc độ cao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Giải bóng đá vô địch thế giới FIFA World Cup dành cho các đội tuyển nam quốc gia được tổ chức định kỳ mấy năm một lần?",
+    "options": [
+      "4 năm một lần",
+      "2 năm một lần",
+      "3 năm một lần",
+      "5 năm một lần"
+    ],
+    "correct": 0,
+    "explanation": "World Cup được tổ chức định kỳ 4 năm một lần kể từ năm 1930 (trừ giai đoạn Thế chiến 2)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Mã vạch hai chiều hình vuông lưu trữ thông tin giúp quét thanh toán ngân hàng và truy cập trang web nhanh chóng được gọi là gì?",
+    "options": [
+      "Mã QR (QR Code)",
+      "Mã vạch UPC",
+      "Mã Barcode",
+      "Mã RFID"
+    ],
+    "correct": 0,
+    "explanation": "QR Code (Quick Response Code) được phát minh bởi Denso Wave năm 1994, quét cực nhanh bằng camera."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ kết nối không dây tầm ngắn phổ biến giúp truyền âm thanh từ điện thoại sang tai nghe không dây là gì?",
+    "options": [
+      "Bluetooth",
+      "Wi-Fi Direct",
+      "NFC",
+      "Hồng ngoại"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn kết nối Bluetooth sử dụng sóng vô tuyến UHF băng tần 2.4 GHz kết nối các thiết bị cá nhân."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Gói mạng viễn thông di động thế hệ thứ 5 với tốc độ siêu cao và độ trễ cực thấp đang phủ sóng tại Việt Nam là gì?",
+    "options": [
+      "Mạng 5G",
+      "Mạng 4G LTE",
+      "Mạng 3G",
+      "Mạng Edge"
+    ],
+    "correct": 0,
+    "explanation": "Mạng 5G mở ra tiềm năng cho xe tự lái, phẫu thuật từ xa và Internet vạn vật (IoT)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món ăn dân dã đặc sản nổi tiếng của Hà Nội với đậu phụ rán giòn, chả cốm chấm mắm tôm nồng nàn là món gì?",
+    "options": [
+      "Bún đậu mắm tôm",
+      "Bún chả",
+      "Bún thang",
+      "Bún ốc nguội"
+    ],
+    "correct": 0,
+    "explanation": "Bún đậu mắm tôm ăn kèm rau kinh giới, tía tô và quất chua là món ăn khoái khẩu của người dân đất Hà thành."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hệ thống định vị vệ tinh toàn cầu do Bộ Quốc phòng Mỹ phát triển và cung cấp rộng rãi trên smartphone là gì?",
+    "options": [
+      "GPS",
+      "GLONASS",
+      "Galileo",
+      "Bắc Đẩu (BeiDou)"
+    ],
+    "correct": 0,
+    "explanation": "GPS (Global Positioning System) định vị vị trí chính xác nhờ mạng lưới hơn 30 vệ tinh quay quanh Trái Đất."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Loại tiền mã hóa kỹ thuật số phi tập trung đầu tiên trên thế giới được tạo ra bởi nhân vật bí ẩn Satoshi Nakamoto năm 2009 là gì?",
+    "options": [
+      "Bitcoin (BTC)",
+      "Ethereum (ETH)",
+      "Tether (USDT)",
+      "Solana (SOL)"
+    ],
+    "correct": 0,
+    "explanation": "Bitcoin sử dụng công nghệ sổ cái phân tán chuỗi khối Blockchain với giới hạn phát hành 21 triệu đồng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Giải chạy cự ly Marathon tiêu chuẩn Olympic quốc tế yêu cầu vận động viên phải hoàn thành quãng đường dài bao nhiêu?",
+    "options": [
+      "42,195 km",
+      "21,097 km",
+      "50 km",
+      "100 km"
+    ],
+    "correct": 0,
+    "explanation": "Cự ly Marathon tiêu chuẩn chính xác là 42 km và 195 mét (hoặc 26 dặm 385 thước)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Canh chua cá lóc' với vị chua thanh của me hoặc quả bần là nét ẩm thực tinh túy của vùng miền nào?",
+    "options": [
+      "Miền Nam (Tây Nam Bộ)",
+      "Miền Bắc",
+      "Miền Trung",
+      "Tây Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Canh chua cá lóc nấu bông điên điển, dọc mùng, giá đỗ là món ăn biểu tượng của miệt vườn sông nước phương Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ sạc pin không dây trên smartphone hoạt động dựa trên hiện tượng vật lý nào?",
+    "options": [
+      "Cảm ứng điện từ",
+      "Phản xạ ánh sáng",
+      "Bức xạ nhiệt",
+      "Hiệu ứng quang điện"
+    ],
+    "correct": 0,
+    "explanation": "Dòng điện chạy qua cuộn dây ở đế sạc sinh ra từ trường cảm ứng sang cuộn dây trong điện thoại để nạp pin."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Tập đoàn công nghệ sản xuất chip bán dẫn vi xử lý hiện đại nhất thế giới (nhận gia công chip cho Apple, Nvidia) có trụ sở tại Đài Loan là gì?",
+    "options": [
+      "TSMC",
+      "Intel",
+      "Samsung Electronics",
+      "Qualcomm"
+    ],
+    "correct": 0,
+    "explanation": "TSMC (Taiwan Semiconductor Manufacturing Company) sản xuất hơn 90% số chip xử lý tiên tiến nhất hành tinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Giao thức bảo mật truyền siêu văn bản mã hóa an toàn trên các trang web có biểu tượng ổ khóa màu xanh là gì?",
+    "options": [
+      "HTTPS",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correct": 0,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ SSL/TLS mã hóa dữ liệu giữa trình duyệt và máy chủ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Cầu thủ duy nhất trong lịch sử bóng đá thế giới từng 3 lần nâng cao cúp vô địch thế giới World Cup (1958, 1962, 1970) là ai?",
+    "options": [
+      "Vua bóng đá Pele (Brazil)",
+      "Diego Maradona",
+      "Ronaldo de Lima",
+      "Zinedine Zidane"
+    ],
+    "correct": 0,
+    "explanation": "Vua bóng đá Pele là huyền thoại duy nhất của làng túc cầu thế giới 3 lần vô địch World Cup."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Bộ vi xử lý đồ họa chuyên dụng tính toán ma trận song song tốc độ cao phục vụ đào tạo các mô hình trí tuệ nhân tạo (AI) được viết tắt là gì?",
+    "options": [
+      "GPU",
+      "CPU",
+      "RAM",
+      "ROM"
+    ],
+    "correct": 0,
+    "explanation": "GPU (Graphics Processing Unit) với hàng nghìn nhân tính toán song song là trái tim vận hành các siêu máy tính AI."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Công nghệ mạng chuỗi khối lưu trữ dữ liệu an toàn, minh bạch và không thể bị giả mạo hay xóa bỏ là công nghệ gì?",
+    "options": [
+      "Blockchain",
+      "Cloud Computing",
+      "Big Data",
+      "Edge Computing"
+    ],
+    "correct": 0,
+    "explanation": "Blockchain kết nối các khối dữ liệu bằng hàm băm mật mã học (cryptographic hash) tạo sổ cái bất biến."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Trong ẩm thực truyền thống Huế, món chè trứ danh độc đáo kết hợp vị ngọt của đường phèn với nhân thịt mặn béo ngậy bên trong là món chè nào?",
+    "options": [
+      "Chè bột lọc bọc heo quay",
+      "Chè đậu ngự",
+      "Chè hạt sen long nhãn",
+      "Chè sương sa hạt lựu"
+    ],
+    "correct": 0,
+    "explanation": "Chè bột lọc heo quay xứ Huế là tuyệt phẩm ẩm thực cung đình kết hợp hương vị mặn - ngọt hài hòa khó quên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Định luật nổi tiếng trong ngành công nghiệp bán dẫn dự đoán số lượng bóng bán dẫn trên một vi mạch sẽ tăng gấp đôi sau mỗi 2 năm mang tên ai?",
+    "options": [
+      "Định luật Moore (Gordon Moore)",
+      "Định luật Ohm",
+      "Định luật Amdahl",
+      "Định luật Metcalfe"
+    ],
+    "correct": 0,
+    "explanation": "Gordon Moore (nhà đồng sáng lập Intel) đưa ra dự đoán năm 1965 định hình tốc độ phát triển công nghệ máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Môn võ thuật cổ truyền của Việt Nam do võ sư Nguyễn Lộc sáng lập năm 1938 với thế đòn chân kẹp cổ trứ danh là gì?",
+    "options": [
+      "Vovinam (Việt Võ Đạo)",
+      "Võ Bình Định",
+      "Võ Cổ truyền",
+      "Nam Hồng Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Vovinam với triết lý 'Việt Võ Đạo' đã lan tỏa rộng khắp hơn 70 quốc gia trên thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Hệ thống cáp quang biển quốc tế quan trọng nào có chiều dài gần 39.000 km nối liền Đông Nam Á, Trung Đông và Tây Âu?",
+    "options": [
+      "SMW-3 (SEA-ME-WE 3)",
+      "AAG",
+      "APG",
+      "IA"
+    ],
+    "correct": 0,
+    "explanation": "SEA-ME-WE 3 là tuyến cáp viễn thông ngầm dưới biển dài nhất thế giới kết nối qua 39 điểm đổ bộ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Giao thức Internet phiên bản mới với chiều dài địa chỉ 128 bit cung cấp kho địa chỉ IP gần như vô tận (3,4 x 10^38 địa chỉ) là gì?",
+    "options": [
+      "IPv6",
+      "IPv4",
+      "IPv5",
+      "IPX"
+    ],
+    "correct": 0,
+    "explanation": "IPv6 ra đời để giải quyết triệt để tình trạng cạn kiệt không gian địa chỉ 32 bit của thế hệ tiền nhiệm IPv4."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Vận động viên điền kinh huyền thoại nào đang giữ kỷ lục thế giới chạy cự ly 100m với thành tích không tưởng 9,58 giây?",
+    "options": [
+      "Usain Bolt (Jamaica)",
+      "Carl Lewis",
+      "Tyson Gay",
+      "Justin Gatlin"
+    ],
+    "correct": 0,
+    "explanation": "'Tia chớp' Usain Bolt thiết lập kỷ lục thế giới 9,58 giây tại Giải vô địch điền kinh thế giới Berlin năm 2009."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Khái niệm mạng 'Internet vạn vật' kết nối mọi thiết bị từ tủ lạnh, bóng đèn đến xe hơi qua Internet được viết tắt là gì?",
+    "options": [
+      "IoT (Internet of Things)",
+      "AIoT",
+      "IoE",
+      "IIoT"
+    ],
+    "correct": 0,
+    "explanation": "IoT cho phép các thiết bị vật lý thu thập và trao đổi dữ liệu với nhau tạo nên ngôi nhà thông minh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Công nghệ màn hình hiển thị cao cấp sử dụng các đi-ốt phát quang hữu cơ tự phát sáng mà không cần đèn nền chiếu sáng là công nghệ gì?",
+    "options": [
+      "OLED",
+      "LCD",
+      "TFT",
+      "TN"
+    ],
+    "correct": 0,
+    "explanation": "OLED cho độ tương phản vô hạn, màu đen sâu tuyệt đối và tiết kiệm năng lượng hơn màn hình LCD truyền thống."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Thuật toán nén tệp tin kỹ thuật số không mất dữ liệu kinh điển được phát triển bởi Lempel và Ziv năm 1977 là thuật toán nào?",
+    "options": [
+      "LZ77 (và biến thể LZ78, LZW)",
+      "Huffman coding",
+      "Deflate",
+      "Brotli"
+    ],
+    "correct": 0,
+    "explanation": "Thuật toán nén LZ77 và LZ78 là nền tảng cho định dạng ZIP, PNG, GZIP phổ biến nhất thế giới ngày nay."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hãng công nghệ điện thoại với logo hình 'Quả Táo cắn dở' nổi tiếng khắp thế giới là gì?",
+    "options": [
+      "Apple",
+      "Samsung",
+      "Xiaomi",
+      "Huawei"
+    ],
+    "correct": 0,
+    "explanation": "Apple do Steve Jobs đồng sáng lập là một trong những tập đoàn công nghệ giá trị nhất hành tinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bánh cổ truyền không thể thiếu trên mâm cỗ Tết Nguyên Đán của người miền Bắc có hình vuông gói bằng lá dong là bánh gì?",
+    "options": [
+      "Bánh chưng",
+      "Bánh tét",
+      "Bánh giầy",
+      "Bánh gai"
+    ],
+    "correct": 0,
+    "explanation": "Bánh chưng vuông vức tượng trưng cho Đất, nhân đỗ xanh thịt mỡ đậm đà hương vị Tết."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bánh hình trụ dài gói bằng lá chuối là biểu tượng ngày Tết của người dân miền Nam là bánh gì?",
+    "options": [
+      "Bánh tét",
+      "Bánh chưng",
+      "Bánh ú",
+      "Bánh ít"
+    ],
+    "correct": 0,
+    "explanation": "Đòn bánh tét dẻo thơm với nhân chuối hoặc nhân thịt đậu xanh là nét văn hóa phương Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kỳ Thế vận hội Olympic mùa hè được tổ chức định kỳ mấy năm một lần?",
+    "options": [
+      "4 năm một lần",
+      "2 năm một lần",
+      "3 năm một lần",
+      "5 năm một lần"
+    ],
+    "correct": 0,
+    "explanation": "Thế vận hội Olympic là ngày hội thể thao lớn nhất hành tinh tổ chức 4 năm một lần."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thiết bị ngoại vi dùng để di chuyển con trỏ chuột và nhấp chọn các mục trên màn hình máy tính được gọi là gì?",
+    "options": [
+      "Chuột máy tính (Mouse)",
+      "Bàn phím",
+      "Màn hình",
+      "Tai nghe"
+    ],
+    "correct": 0,
+    "explanation": "Chuột máy tính do Douglas Engelbart phát minh là công cụ tương tác đồ họa cơ bản."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món mì sợi dẹt ăn kèm thịt heo, tôm, trứng cút cùng bánh tráng nướng giòn là đặc sản nức tiếng của tỉnh nào?",
+    "options": [
+      "Quảng Nam (Mì Quảng)",
+      "Thừa Thiên Huế",
+      "Bình Định",
+      "Khánh Hòa"
+    ],
+    "correct": 0,
+    "explanation": "Mì Quảng đậm đà nước nhưn chan xâm xấp ăn kèm rau sống búp chuối."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nền tảng trang web chia sẻ video lớn nhất hành tinh thuộc sở hữu của Google là gì?",
+    "options": [
+      "YouTube",
+      "Vimeo",
+      "Dailymotion",
+      "Twitch"
+    ],
+    "correct": 0,
+    "explanation": "YouTube cho phép hàng tỷ người sáng tạo và theo dõi video ca nhạc, học tập, giải trí."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào mà hai đội thi đấu trên sân băng, dùng gậy cong để đánh một đĩa cao su vào khung thành đối phương?",
+    "options": [
+      "Khúc côn cầu trên băng (Ice Hockey)",
+      "Bóng rổ",
+      "Bóng chày",
+      "Bi sắt"
+    ],
+    "correct": 0,
+    "explanation": "Khúc côn cầu trên băng là môn thể thao tốc độ và va chạm cực kỳ hấp dẫn xứ lạnh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn đường phố trứ danh của người Sài Gòn nấu từ hạt gạo tấm vỡ ăn kèm sườn nướng, bì, chả là món gì?",
+    "options": [
+      "Cơm tấm sườn bì chả",
+      "Cơm chiên Dương Châu",
+      "Cơm gà xối mỡ",
+      "Cơm hến"
+    ],
+    "correct": 0,
+    "explanation": "Cơm tấm chan nước mắm chua ngọt, mỡ hành là món ăn sáng quen thuộc của người Sài Gòn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thiết bị dùng để phát sóng mạng Internet không dây trong gia đình và văn phòng được gọi là gì?",
+    "options": [
+      "Bộ định tuyến Wi-Fi (Router Wi-Fi)",
+      "Cáp HDMI",
+      "Ổ cứng di động",
+      "Card màn hình"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi Router nhận tín hiệu từ nhà mạng và phát sóng vô tuyến cho điện thoại, laptop kết nối."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Ai là nhà sáng lập tập đoàn phần mềm Microsoft và hệ điều hành Windows thống trị máy tính cá nhân?",
+    "options": [
+      "Bill Gates (cùng Paul Allen)",
+      "Steve Jobs",
+      "Mark Zuckerberg",
+      "Jeff Bezos"
+    ],
+    "correct": 0,
+    "explanation": "Bill Gates xây dựng Microsoft thành đế chế công nghệ hàng đầu thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món đặc sản Chả cá Lã Vọng nức tiếng đất kinh kỳ Hà Nội theo truyền thống thường được làm từ loài cá nào?",
+    "options": [
+      "Cá lăng (hoặc cá anh vũ)",
+      "Cá trắm đen",
+      "Cá chép",
+      "Cá hồi"
+    ],
+    "correct": 0,
+    "explanation": "Cá lăng thịt ngọt chắc, ít xương dăm, ướp riềng mẻ nướng than hoa rồi xào thì là hành hoa thơm nức mũi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Kỹ thuật học sâu (Deep Learning) trong trí tuệ nhân tạo lấy cảm hứng từ cấu trúc sinh học nào?",
+    "options": [
+      "Mạng lưới nơ-ron thần kinh trong não bộ con người",
+      "Hệ tuần hoàn máu",
+      "Hệ xương khớp",
+      "Cấu trúc ADN"
+    ],
+    "correct": 0,
+    "explanation": "Mạng nơ-ron nhân tạo (Artificial Neural Network) mô phỏng cách các nơ-ron não bộ truyền và xử lý tín hiệu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đội tuyển bóng đá quốc gia nào đang giữ kỷ lục vô địch giải đấu FIFA World Cup nhiều lần nhất trong lịch sử (5 lần)?",
+    "options": [
+      "Brazil",
+      "Đức",
+      "Italy",
+      "Argentina"
+    ],
+    "correct": 0,
+    "explanation": "Những vũ công Samba Brazil đã 5 lần giương cao cúp vàng thế giới (1958, 1962, 1970, 1994, 2002)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thẻ nhớ di động nhỏ bằng móng tay thường dùng trong smartphone, flycam và camera hành trình là loại thẻ nhớ gì?",
+    "options": [
+      "Thẻ MicroSD",
+      "Thẻ CF",
+      "Băng từ",
+      "Đĩa mềm"
+    ],
+    "correct": 0,
+    "explanation": "Thẻ MicroSD có dung lượng từ vài GB đến hàng TB với kích thước siêu nhỏ gọn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Kiến trúc mô hình học sâu đột phá nào do các nhà nghiên cứu Google công bố năm 2017 ('Attention Is All You Need') đặt nền móng cho toàn bộ các mô hình ngôn ngữ lớn (LLM) hiện đại như ChatGPT, Gemini?",
+    "options": [
+      "Kiến trúc Transformer (Cơ chế Self-Attention)",
+      "Mạng tích chập CNN",
+      "Mạng hồi quy RNN",
+      "Mạng nơ-ron Perceptron"
+    ],
+    "correct": 0,
+    "explanation": "Kiến trúc Transformer với cơ chế chú ý tự thân (Self-Attention) cho phép xử lý dữ liệu ngôn ngữ song song quy mô khổng lồ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Mạng máy tính toàn cầu kết nối hàng tỷ thiết bị trên khắp thế giới được gọi là gì?",
+    "options": [
+      "Internet",
+      "Intranet",
+      "LAN",
+      "Bluetooth"
+    ],
+    "correct": 0,
+    "explanation": "Internet ra đời từ mạng ARPANET của Mỹ thập niên 1960 và bùng nổ toàn cầu từ thập niên 1990."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Phím tắt kinh điển nào trên bàn phím máy tính được dùng để sao chép (Copy) văn bản?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
+    ],
+    "correct": 0,
+    "explanation": "Ctrl + C (hoặc Cmd + C trên máy Mac) là phím tắt sao chép nhanh dữ liệu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món lẩu mắm đậm đà nức mũi với mùi thơm của mắm cá linh, cá sặc ăn kèm bông súng, điên điển là đặc sản miền nào?",
+    "options": [
+      "Miền Tây Nam Bộ",
+      "Miền Bắc",
+      "Miền Trung",
+      "Tây Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Lẩu mắm miền Tây hội tụ tinh hoa sản vật sông nước trù phú Nam Bộ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Tên miền quốc gia cấp cao nhất trên Internet của Việt Nam là đuôi tên miền nào?",
+    "options": [
+      ".vn",
+      ".com",
+      ".net",
+      ".org"
+    ],
+    "correct": 0,
+    "explanation": "Đuôi tên miền .vn do Trung tâm Internet Việt Nam (VNNIC) quản lý."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Môn thể thao bơi lội có 4 kiểu bơi tiêu chuẩn gồm: Bơi ếch, bơi ngửa, bơi bướm và kiểu bơi nào?",
+    "options": [
+      "Bơi trườn sấp (Bơi sải / Tự do)",
+      "Bơi lặn",
+      "Bơi chó",
+      "Bơi nghệ thuật"
+    ],
+    "correct": 0,
+    "explanation": "Bơi trườn sấp (Freestyle/Front crawl) là kiểu bơi đạt tốc độ nhanh nhất trong các kiểu bơi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ nhận diện khuôn mặt 3D bảo mật cao trên iPhone của Apple được gọi là gì?",
+    "options": [
+      "Face ID",
+      "Touch ID",
+      "Iris Scanner",
+      "Fingerprint"
+    ],
+    "correct": 0,
+    "explanation": "Face ID chiếu 30.000 điểm hồng ngoại vô hình lên khuôn mặt để dựng mô hình bản đồ chiều sâu 3D."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Ai được xem là 'Người lập trình viên đầu tiên trong lịch sử nhân loại' khi viết thuật toán cho máy tính cơ học của Charles Babbage?",
+    "options": [
+      "Ada Lovelace (nữ bá tước người Anh)",
+      "Alan Turing",
+      "Grace Hopper",
+      "John von Neumann"
+    ],
+    "correct": 0,
+    "explanation": "Ada Lovelace (1815 - 1852) là lập trình viên đầu tiên với công trình thuật toán tính số Bernoulli."
   }
 ]

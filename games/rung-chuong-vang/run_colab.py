@@ -11,7 +11,7 @@ import urllib.request
 import re
 
 print("=" * 70)
-print("🚀 KHỞI ĐỘNG GAME: RUNG CHUÔNG VÀNG TIKTOK LIVE (MODE A: OBS WEB SOURCE)")
+print("🚀 KHỞI ĐỘNG GAME: ĐẤU TRÍ TRẠNG NGUYÊN TIKTOK LIVE (MODE A: OBS WEB SOURCE)")
 print("=" * 70)
 
 GAME_DIR = os.path.dirname(os.path.abspath(__file__))

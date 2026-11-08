@@ -1,5 +1,5 @@
 /* ===================================================
-   RUNG CHUÔNG VÀNG TIKTOK LIVE - GAME CLIENT ENGINE
+   ĐẤU TRÍ TRẠNG NGUYÊN TIKTOK LIVE - GAME CLIENT ENGINE
    =================================================== */
 
 // Khởi tạo Socket.IO
@@ -55,6 +55,22 @@ const rescueTimerNumEl = document.getElementById('rescue-timer-num');
 
 const victoryOverlay = document.getElementById('victory-overlay');
 const winnersContainer = document.getElementById('winners-container');
+
+const liveToastEl = document.getElementById('live-toast');
+const toastIconEl = document.getElementById('toast-icon');
+const toastTextEl = document.getElementById('toast-text');
+let toastTimer = null;
+
+function showLiveToast(icon, text) {
+  if (!liveToastEl || !toastTextEl) return;
+  if (toastIconEl) toastIconEl.textContent = icon;
+  toastTextEl.textContent = text;
+  liveToastEl.classList.remove('hidden');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    liveToastEl.classList.add('hidden');
+  }, 3500);
+}
 
 // Dữ liệu nội bộ
 let currentState = null;
@@ -729,7 +745,7 @@ socket.on('energy_update', data => {
   energyBarFillEl.style.width = `${pct}%`;
 });
 
-// ĐỈNH CAO: RUNG CHUÔNG VÀNG (VICTORY)
+// ĐỈNH CAO: ĐẤU TRÍ TRẠNG NGUYÊN (VICTORY)
 socket.on('bell_ringing', data => {
   revealOverlay.classList.add('hidden');
   rescueOverlay.classList.add('hidden');
@@ -767,14 +783,41 @@ socket.on('bell_ringing', data => {
   }
 
   const winnerNames = data.winners.map(w => w.nickname).join(', ');
-  playTts(`Chúc mừng tân trạng nguyên: ${winnerNames} đã xuất sắc rung chuông vàng thành công!`);
+  playTts(`Chúc mừng tân trạng nguyên: ${winnerNames} đã xuất sắc vượt qua toàn bộ câu hỏi và đoạt ngôi vị cao quý nhất!`);
 });
 
-// Sự kiện Chống Khoảng Lặng (Anti-Dead Air: Tự động nhắc câu hỏi hoặc khuấy động sau 8s im lặng)
+// Sự kiện Giọng bình luận viên MC (Chào mừng, nhắc nhở, thúc giục, cảm ơn, luật chơi)
+socket.on('mc_speech', data => {
+  if (data.text) {
+    playTts(data.text, data.priority);
+  }
+});
+
+// Tương thích ngược với idle_reminder cũ
 socket.on('idle_reminder', data => {
   if (data.ttsText) {
     playTts(data.ttsText, false);
   }
+});
+
+// Sự kiện tất cả thí sinh đã trả lời
+socket.on('all_answered', data => {
+  showLiveToast('🎯', data.message || 'Tất cả các sĩ tử đã chốt đáp án!');
+});
+
+// Sự kiện thành viên mới vào phòng
+socket.on('member_join', data => {
+  showLiveToast('👋', `Chào mừng ${data.nickname} vào sàn đấu!`);
+});
+
+// Sự kiện chia sẻ livestream
+socket.on('share', data => {
+  showLiveToast('🔄', `${data.nickname} vừa chia sẻ phiên live!`);
+});
+
+// Sự kiện quà tặng
+socket.on('gift', data => {
+  showLiveToast('🎁', `${data.nickname} đã gửi tặng ${data.giftName}!`);
 });
 
 // Tự động yêu cầu dữ liệu khi kết nối

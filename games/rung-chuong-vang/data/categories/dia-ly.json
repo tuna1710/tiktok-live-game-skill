@@ -583,5 +583,1461 @@
     ],
     "correct": 0,
     "explanation": "Phú Quốc là hòn đảo lớn nhất của Việt Nam, thuộc tỉnh Kiên Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đỉnh núi nào được mệnh danh là 'Nóc nhà của Đông Dương' với độ cao 3.143 mét?",
+    "options": [
+      "Đỉnh Fansipan",
+      "Đỉnh Bạch Mộc Lương Tử",
+      "Đỉnh Tây Côn Lĩnh",
+      "Đỉnh Ngọc Linh"
+    ],
+    "correct": 0,
+    "explanation": "Đỉnh Fansipan thuộc dãy Hoàng Liên Sơn (Lào Cai) cao 3.143m là đỉnh núi cao nhất 3 nước Đông Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh biển nào của Việt Nam hai lần được UNESCO công nhận là Di sản Thiên nhiên Thế giới?",
+    "options": [
+      "Vịnh Hạ Long",
+      "Vịnh Nha Trang",
+      "Vịnh Cam Ranh",
+      "Vịnh Lăng Cô"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Hạ Long (Quảng Ninh) được UNESCO vinh danh năm 1994 và năm 2000 về giá trị ngoại hạng toàn cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ nước ngọt tự nhiên lớn nhất Việt Nam nằm trong vườn quốc gia thuộc tỉnh Bắc Kạn là hồ nào?",
+    "options": [
+      "Hồ Ba Bể",
+      "Hồ Thác Bà",
+      "Hồ Hòa Bình",
+      "Hồ Dầu Tiếng"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Ba Bể nằm ở độ cao 150m giữa lòng núi đá vôi hùng vĩ của tỉnh Bắc Kạn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh thành nào là cực Nam trên đất liền của Tổ quốc Việt Nam?",
+    "options": [
+      "Tỉnh Cà Mau",
+      "Tỉnh Kiên Giang",
+      "Tỉnh Bạc Liêu",
+      "Tỉnh Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Mũi Cà Mau thuộc huyện Ngọc Hiển, tỉnh Cà Mau là điểm cực Nam đất liền nước ta."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thác nước tự nhiên lớn nhất Đông Nam Á nằm trên đường biên giới Việt Nam - Trung Quốc là thác nào?",
+    "options": [
+      "Thác Bản Giốc",
+      "Thác Dambri",
+      "Thác Cam Ly",
+      "Thác Pongour"
+    ],
+    "correct": 0,
+    "explanation": "Thác Bản Giốc thuộc tỉnh Cao Bằng là thác nước xuyên quốc gia tuyệt đẹp và hùng vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Con đèo nào hiểm trở bậc nhất miền Trung nối liền giữa tỉnh Thừa Thiên Huế và thành phố Đà Nẵng?",
+    "options": [
+      "Đèo Hải Vân",
+      "Đèo Cù Mông",
+      "Đèo Ngang",
+      "Đèo Cả"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Hải Vân được vua Lê Thánh Tông xưng tụng là 'Đệ nhất hùng quan'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Huyện đảo Phú Quốc, thành phố đảo đầu tiên của Việt Nam, trực thuộc tỉnh nào?",
+    "options": [
+      "Tỉnh Kiên Giang",
+      "Tỉnh Cà Mau",
+      "Tỉnh An Giang",
+      "Tỉnh Tiền Giang"
+    ],
+    "correct": 0,
+    "explanation": "Đảo Ngọc Phú Quốc là thành phố đảo trực thuộc tỉnh Kiên Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào dài nhất chảy hoàn toàn trên lãnh thổ Việt Nam?",
+    "options": [
+      "Sông Đồng Nai",
+      "Sông Hồng",
+      "Sông Cửu Long",
+      "Sông Đà"
+    ],
+    "correct": 0,
+    "explanation": "Sông Đồng Nai dài gần 586 km bắt nguồn và chảy hoàn toàn bên trong lãnh thổ Việt Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cao nguyên đá đầu tiên của Việt Nam được UNESCO gia nhập Mạng lưới Công viên địa chất toàn cầu nằm ở tỉnh nào?",
+    "options": [
+      "Cao nguyên đá Đồng Văn (Hà Giang)",
+      "Cao nguyên Mộc Châu (Sơn La)",
+      "Cao nguyên Pleiku (Gia Lai)",
+      "Cao nguyên Lâm Viên (Lâm Đồng)"
+    ],
+    "correct": 0,
+    "explanation": "Cao nguyên đá Đồng Văn thuộc tỉnh Hà Giang được UNESCO công nhận năm 2010."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cố đô Hoa Lư kinh đô đầu tiên của nhà nước Đại Cồ Việt ngày nay thuộc tỉnh nào?",
+    "options": [
+      "Ninh Bình",
+      "Thanh Hóa",
+      "Phú Thọ",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Cố đô Hoa Lư nằm trên địa bàn huyện Hoa Lư, tỉnh Ninh Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Trung nước ta có bề ngang hẹp nhất theo chiều Đông - Tây (chỉ khoảng 40,3 km)?",
+    "options": [
+      "Quảng Bình",
+      "Quảng Trị",
+      "Hà Tĩnh",
+      "Quảng Nam"
+    ],
+    "correct": 0,
+    "explanation": "Quảng Bình là tỉnh hẹp nhất nước ta, nơi hẹp nhất tính từ biên giới Lào ra Biển Đông chỉ 40,3 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hang động tự nhiên lớn nhất thế giới được phát hiện tại Vườn quốc gia Phong Nha - Kẻ Bàng là hang nào?",
+    "options": [
+      "Hang Sơn Đoòng",
+      "Hang Én",
+      "Động Thiên Đường",
+      "Hang Tối"
+    ],
+    "correct": 0,
+    "explanation": "Hang Sơn Đoòng (Quảng Bình) có thể chứa vừa một tòa nhà chọc trời 40 tầng hoặc cả khu phố lớn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào của nước ta giáp ranh với cả hai quốc gia láng giềng là Lào và Campuchia?",
+    "options": [
+      "Kon Tum",
+      "Điện Biên",
+      "Gia Lai",
+      "Bình Phước"
+    ],
+    "correct": 0,
+    "explanation": "Ngã ba Đông Dương nằm tại cửa khẩu Bờ Y, huyện Ngọc Hồi, tỉnh Kon Tum ('một con gà gáy 3 nước cùng nghe')."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hệ thống sông nào có diện tích lưu vực và lượng phù sa bồi đắp lớn nhất miền Bắc nước ta?",
+    "options": [
+      "Hệ thống sông Hồng",
+      "Hệ thống sông Thái Bình",
+      "Hệ thống sông Mã",
+      "Hệ thống sông Lam"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hồng bắt nguồn từ Vân Nam (Trung Quốc) bồi đắp nên Đồng bằng châu thổ Bắc Bộ trù phú."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cực Đông trên đất liền nơi đón ánh bình minh đầu tiên của Tổ quốc thuộc tỉnh nào?",
+    "options": [
+      "Khánh Hòa (Mũi Đôi)",
+      "Bình Định",
+      "Phú Yên (Mũi Đại Lãnh)",
+      "Ninh Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Mũi Đôi tại bán đảo Hòn Gốm, huyện Vạn Ninh, tỉnh Khánh Hòa là điểm cực Đông đất liền nước ta."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần đảo Hoàng Sa và Trường Sa là phần lãnh thổ thiêng liêng của Việt Nam lần lượt trực thuộc các địa phương nào?",
+    "options": [
+      "Thành phố Đà Nẵng và Tỉnh Khánh Hòa",
+      "Tỉnh Quảng Nam và Tỉnh Bình Thuận",
+      "Tỉnh Quảng Ngãi và Tỉnh Bà Rịa - Vũng Tàu",
+      "Thành phố Hải Phòng và Tỉnh Kiên Giang"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Hoàng Sa trực thuộc TP Đà Nẵng; Huyện đảo Trường Sa trực thuộc tỉnh Khánh Hòa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Địa danh 'Đất Mũi' nằm ở vĩ độ bao nhiêu trên bản đồ địa lý Việt Nam?",
+    "options": [
+      "8 độ 34 phút Bắc",
+      "10 độ 20 phút Bắc",
+      "23 độ 23 phút Bắc",
+      "12 độ 15 phút Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Điểm cực Nam tại Mũi Cà Mau nằm ở tọa độ 8°34' độ vĩ Bắc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở vùng Đồng bằng sông Cửu Long không tiếp giáp với biển?",
+    "options": [
+      "Đồng Tháp và Hậu Giang",
+      "Tiền Giang",
+      "Bến Tre",
+      "Trà Vinh"
+    ],
+    "correct": 0,
+    "explanation": "Đồng Tháp, Hậu Giang, An Giang và Vĩnh Long là các tỉnh nội địa không giáp biển ở Tây Nam Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ thủy điện nhân tạo lớn nhất Việt Nam và Đông Nam Á tính theo diện tích mặt nước là hồ nào?",
+    "options": [
+      "Hồ Hòa Bình",
+      "Hồ Trị An",
+      "Hồ Thác Bà",
+      "Hồ Sơn La"
+    ],
+    "correct": 0,
+    "explanation": "Hồ thủy điện Hòa Bình trên sông Đà dài hơn 230 km là hồ chứa nước nhân tạo khổng lồ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Con đèo nào cao và dài nhất Việt Nam (khoảng 50 km) nối liền tỉnh Lào Cai và Lai Châu?",
+    "options": [
+      "Đèo Ô Quy Hồ",
+      "Đèo Mã Pí Lèng",
+      "Đèo Khau Phạ",
+      "Đèo Pha Đin"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Ô Quy Hồ (đèo Hoàng Liên Sơn) là vua đèo Tây Bắc nằm ở độ cao hơn 2.000m."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở Tây Nguyên nổi tiếng là thủ phủ cà phê của cả nước?",
+    "options": [
+      "Đắk Lắk (Buôn Ma Thuột)",
+      "Lâm Đồng",
+      "Gia Lai",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Buôn Ma Thuột (Đắk Lắk) được mệnh danh là thành phố cà phê của thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào có diện tích lãnh thổ tự nhiên lớn nhất thế giới?",
+    "options": [
+      "Nga",
+      "Canada",
+      "Trung Quốc",
+      "Mỹ"
+    ],
+    "correct": 0,
+    "explanation": "Nước Nga có diện tích hơn 17 triệu km2, trải dài qua 11 múi giờ từ châu Âu sang châu Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đại dương nào có diện tích lớn nhất và độ sâu trung bình sâu nhất trên Trái Đất?",
+    "options": [
+      "Thái Bình Dương",
+      "Đại Tây Dương",
+      "Ấn Độ Dương",
+      "Bắc Băng Dương"
+    ],
+    "correct": 0,
+    "explanation": "Thái Bình Dương chiếm hơn 1/3 diện tích bề mặt Trái Đất, nơi sâu nhất là vực Mariana (~11.000m)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Sa mạc cát tự nhiên lớn nhất thế giới nằm ở châu lục nào?",
+    "options": [
+      "Châu Phi (Sa mạc Sahara)",
+      "Châu Á (Sa mạc Gobi)",
+      "Châu Úc",
+      "Châu Mỹ"
+    ],
+    "correct": 0,
+    "explanation": "Sa mạc Sahara ở Bắc Phi có diện tích hơn 9 triệu km2 xấp xỉ diện tích cả nước Mỹ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dòng sông nào dài nhất thế giới chảy qua khu vực Đông Bắc châu Phi?",
+    "options": [
+      "Sông Nin (Nile)",
+      "Sông Amazon",
+      "Sông Dương Tử",
+      "Sông Mississippi"
+    ],
+    "correct": 0,
+    "explanation": "Sông Nin dài khoảng 6.650 km bắt nguồn từ hồ Victoria đổ ra Địa Trung Hải."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Tỉnh nào có đường bờ biển dài nhất Việt Nam với hơn 385 km bờ biển?",
+    "options": [
+      "Khánh Hòa",
+      "Cà Mau",
+      "Quảng Ninh",
+      "Bình Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Khánh Hòa có bờ biển dài 385 km với hơn 200 hòn đảo lớn nhỏ và nhiều vịnh biển kín gió tuyệt đẹp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đảo nào của nước ta nằm xa bờ nhất trong Vịnh Bắc Bộ, có vị trí chiến lược an ninh quốc phòng tối quan trọng?",
+    "options": [
+      "Đảo Bạch Long Vĩ",
+      "Đảo Cô Tô",
+      "Đảo Cát Bà",
+      "Đảo Hòn Mê"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Bạch Long Vĩ (Hải Phòng) cách đất liền hơn 130 km nằm giữa Vịnh Bắc Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Dãy núi nào của nước ta chạy theo hướng Tây Bắc - Đông Nam và là ranh giới tự nhiên giữa Bắc Bộ và Bắc Trung Bộ?",
+    "options": [
+      "Dãy Hoành Sơn",
+      "Dãy Hoàng Liên Sơn",
+      "Dãy Trường Sơn Bắc",
+      "Dãy Bạch Mã"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Hoành Sơn (đèo Ngang) là ranh giới tự nhiên giữa Hà Tĩnh và Quảng Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Điểm cực Bắc trên đất liền của Việt Nam nằm tại xã Lũng Cú, huyện Đồng Văn, tỉnh Hà Giang có vĩ độ là bao nhiêu?",
+    "options": [
+      "23 độ 23 phút Bắc",
+      "22 độ 15 phút Bắc",
+      "20 độ 50 phút Bắc",
+      "24 độ 00 phút Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Cột cờ Quốc gia Lũng Cú đánh dấu điểm cực Bắc thiêng liêng ở vĩ độ 23°23'B."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Dòng sông nào ở nước ta bắt nguồn từ cao nguyên Lang Biang chảy qua TP.HCM trước khi đổ ra biển Soài Rạp?",
+    "options": [
+      "Sông Sài Gòn",
+      "Sông Vàm Cỏ Đông",
+      "Sông Đồng Nai",
+      "Sông Bé"
+    ],
+    "correct": 0,
+    "explanation": "Sông Sài Gòn dài 256 km bắt nguồn từ Lộc Ninh (Bình Phước) uốn lượn ôm trọn trung tâm TP.HCM."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Eo biển quốc tế nào nối giữa Biển Đông và Ấn Độ Dương có mật độ tàu buôn qua lại tấp nập bậc nhất thế giới?",
+    "options": [
+      "Eo biển Malacca",
+      "Eo biển Gibraltar",
+      "Eo biển Bosphorus",
+      "Eo biển Bering"
+    ],
+    "correct": 0,
+    "explanation": "Eo biển Malacca nằm giữa Malaysia và Indonesia là huyết mạch giao thương hàng hải Á - Âu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Ngọn núi cao nhất thế giới tính từ mực nước biển là đỉnh Everest nằm trên dãy núi nào?",
+    "options": [
+      "Dãy Himalaya",
+      "Dãy Andes",
+      "Dãy Alps",
+      "Dãy Rocky"
+    ],
+    "correct": 0,
+    "explanation": "Đỉnh Everest cao 8.848,86 mét nằm trên biên giới giữa Nepal và Tây Tạng (Trung Quốc)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Hồ nước ngọt sâu nhất và có thể tích nước ngọt lớn nhất hành tinh nằm ở nước Nga là hồ nào?",
+    "options": [
+      "Hồ Baikal",
+      "Hồ Victoria",
+      "Hồ Superior (Hồ Thượng)",
+      "Biển Caspi"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Baikal chứa 20% lượng nước ngọt không đóng băng trên bề mặt Trái Đất, nơi sâu nhất đạt 1.642m."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quốc gia nào trên thế giới có đường bờ biển dài nhất hành tinh (hơn 202.000 km)?",
+    "options": [
+      "Canada",
+      "Indonesia",
+      "Nga",
+      "Na Uy"
+    ],
+    "correct": 0,
+    "explanation": "Canada sở hữu bờ biển dài nhất thế giới với hàng chục nghìn hòn đảo ở vùng Bắc Cực."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thác nước tự nhiên đổ không gián đoạn cao nhất thế giới (cao 979 mét) nằm ở quốc gia nào?",
+    "options": [
+      "Thác Angel (Venezuela)",
+      "Thác Iguazu (Brazil)",
+      "Thác Niagara (Mỹ - Canada)",
+      "Thác Victoria (Zambia)"
+    ],
+    "correct": 0,
+    "explanation": "Thác Angel tại Vườn quốc gia Canaima, Venezuela đổ từ độ cao gần 1.000 mét giữa rừng già Amazon."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quốc gia duy nhất trên thế giới đồng thời chiếm trọn vẹn cả một châu lục là quốc gia nào?",
+    "options": [
+      "Australia (Nước Úc)",
+      "New Zealand",
+      "Madagascar",
+      "Brazil"
+    ],
+    "correct": 0,
+    "explanation": "Khối thịnh vượng chung Australia chiếm trọn lục địa châu Úc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thành phố nào trên thế giới nằm vắt ngang trên cả hai châu lục: châu Á và châu Âu?",
+    "options": [
+      "Istanbul (Thổ Nhĩ Kỳ)",
+      "Cairo (Ai Cập)",
+      "Moscow (Nga)",
+      "Athens (Hy Lạp)"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Istanbul bị chia cắt bởi eo biển Bosphorus thơ mộng nối liền hai châu lục."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Rạn san hô Great Barrier Reef, cấu trúc sống lớn nhất hành tinh có thể nhìn thấy từ vũ trụ, nằm ở nước nào?",
+    "options": [
+      "Australia",
+      "Philippines",
+      "Maldives",
+      "Mỹ"
+    ],
+    "correct": 0,
+    "explanation": "Rạn san hô ngầm vĩ đại Great Barrier trải dài hơn 2.300 km dọc bờ biển Queensland, nước Úc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Quần đảo Trường Sa của Việt Nam gồm hơn 100 đảo, bãi đá, rạn ngầm; trong đó đảo tự nhiên có diện tích đất nổi lớn nhất là đảo nào?",
+    "options": [
+      "Đảo Ba Bình",
+      "Đảo Trường Sa Lớn",
+      "Đảo Nam Yết",
+      "Đảo Song Tử Tây"
+    ],
+    "correct": 0,
+    "explanation": "Đảo Ba Bình (diện tích khoảng 0,49 km2) là đảo tự nhiên có diện tích đất nổi lớn nhất quần đảo Trường Sa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Núi Bà Đen, ngọn núi cao nhất miền Nam Việt Nam (986 mét), thuộc tỉnh nào?",
+    "options": [
+      "Tây Ninh",
+      "Bình Dương",
+      "Đồng Nai",
+      "Bình Phước"
+    ],
+    "correct": 0,
+    "explanation": "Núi Bà Đen cao 986m là 'Nóc nhà Đông Nam Bộ' tại tỉnh Tây Ninh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Gươm (Hồ Hoàn Kiếm) nổi tiếng gắn liền với truyền thuyết vua Lê Lợi trả gươm báu nằm ở đâu?",
+    "options": [
+      "Hà Nội",
+      "Huế",
+      "Đà Nẵng",
+      "Ninh Bình"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Hoàn Kiếm là trái tim lịch sử ngàn năm văn hiến của thủ đô Hà Nội."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chợ Nổi Cái Răng, một trong những chợ nổi sầm uất nhất miền Tây, thuộc địa phận tỉnh/thành nào?",
+    "options": [
+      "Cần Thơ",
+      "An Giang",
+      "Tiền Giang",
+      "Vĩnh Long"
+    ],
+    "correct": 0,
+    "explanation": "Chợ nổi Cái Răng nằm trên sông Cần Thơ, nét văn hóa sông nước độc đáo của Tây Đô."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố cảng Hải Phòng còn được nhân dân ưu ái gọi bằng mỹ danh nào?",
+    "options": [
+      "Thành phố Hoa Phượng Đỏ",
+      "Thành phố Sương Mù",
+      "Thành phố Ngàn Hoa",
+      "Thành phố Biển Vàng"
+    ],
+    "correct": 0,
+    "explanation": "Hải Phòng rực rỡ sắc hoa phượng đỏ nở rộ vào mỗi dịp hè về."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở Tây Bắc nổi tiếng với địa danh lịch sử Điện Biên Phủ và cánh đồng Mường Thanh?",
+    "options": [
+      "Điện Biên",
+      "Sơn La",
+      "Lai Châu",
+      "Lào Cai"
+    ],
+    "correct": 0,
+    "explanation": "Điện Biên gắn liền với chiến thắng Điện Biên Phủ năm 1954 lừng lẫy địa cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Cát Bà, hòn đảo du lịch nổi tiếng thuộc Vịnh Lan Hạ, trực thuộc địa phương nào?",
+    "options": [
+      "Hải Phòng",
+      "Quảng Ninh",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Quần đảo Cát Bà thuộc huyện Cát Hải, thành phố Hải Phòng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng đất Mũi Né với những đồi cát bay thơ mộng trải dài là điểm du lịch của tỉnh nào?",
+    "options": [
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Bà Rịa - Vũng Tàu",
+      "Khánh Hòa"
+    ],
+    "correct": 0,
+    "explanation": "Mũi Né thuộc thành phố Phan Thiết, tỉnh Bình Thuận."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Sông Hương thơ mộng êm đềm chảy ngang qua trung tâm thành phố nào của miền Trung?",
+    "options": [
+      "Thành phố Huế",
+      "Thành phố Đà Nẵng",
+      "Thành phố Quy Nhơn",
+      "Thành phố Vinh"
+    ],
+    "correct": 0,
+    "explanation": "Dòng sông Hương uốn lượn qua cố đô Huế soi bóng chùa Thiên Mụ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cầu Vàng với đôi bàn tay khổng lồ vươn giữa mây trời nổi tiếng thế giới nằm ở khu du lịch nào?",
+    "options": [
+      "Bà Nà Hills (Đà Nẵng)",
+      "Fansipan Legend (Sa Pa)",
+      "Đà Lạt",
+      "VinWonders Phú Quốc"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Vàng tại Bà Nà Hills (Đà Nẵng) thu hút hàng triệu du khách quốc tế."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào là quê hương của làn điệu dân ca Quan họ truyền thống mượt mà?",
+    "options": [
+      "Bắc Ninh",
+      "Bắc Giang",
+      "Hưng Yên",
+      "Hà Nam"
+    ],
+    "correct": 0,
+    "explanation": "Bắc Ninh là cái nôi của làn điệu dân ca Quan họ Kinh Bắc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Núi Ngũ Hành Sơn gồm 5 ngọn núi đá vôi mang tên Kim, Mộc, Thủy, Hỏa, Thổ nằm ở đâu?",
+    "options": [
+      "Đà Nẵng",
+      "Quảng Nam",
+      "Thừa Thiên Huế",
+      "Quảng Ngãi"
+    ],
+    "correct": 0,
+    "explanation": "Danh thắng Ngũ Hành Sơn nằm tại quận Ngũ Hành Sơn, TP. Đà Nẵng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bán đảo Sơn Trà được mệnh danh là 'lá phổi xanh' của thành phố biển nào?",
+    "options": [
+      "Đà Nẵng",
+      "Nha Trang",
+      "Quy Nhơn",
+      "Vũng Tàu"
+    ],
+    "correct": 0,
+    "explanation": "Bán đảo Sơn Trà che chắn gió bão và điều hòa khí hậu cho Đà Nẵng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Phú Quý (cù lao Thu) là một huyện đảo tiền tiêu xinh đẹp thuộc tỉnh nào?",
+    "options": [
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Khánh Hòa",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Phú Quý nằm cách bờ biển Phan Thiết (Bình Thuận) khoảng 120 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của nước Cộng hòa Pháp, thành phố hoa lệ bên dòng sông Seine là gì?",
+    "options": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
+    ],
+    "correct": 0,
+    "explanation": "Paris là thủ đô nước Pháp, nổi tiếng với tháp Eiffel và bảo tàng Louvre."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của đất nước Mặt Trời mọc Nhật Bản là thành phố nào?",
+    "options": [
+      "Tokyo",
+      "Kyoto",
+      "Osaka",
+      "Nagoya"
+    ],
+    "correct": 0,
+    "explanation": "Tokyo là trung tâm kinh tế, văn hóa và là thủ đô hiện đại của Nhật Bản."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào có hình dáng lãnh thổ trông giống như một chiếc ủng khổng lồ vươn ra Địa Trung Hải?",
+    "options": [
+      "Italy (Ý)",
+      "Hy Lạp",
+      "Tây Ban Nha",
+      "Bồ Đào Nha"
+    ],
+    "correct": 0,
+    "explanation": "Bán đảo Apennine của nước Ý có hình dạng chiếc ủng vô cùng đặc trưng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vạn Lý Trường Thành kỳ quan vĩ đại được xây dựng bằng gạch đá dài hàng ngàn km nằm ở nước nào?",
+    "options": [
+      "Trung Quốc",
+      "Hàn Quốc",
+      "Mông Cổ",
+      "Nhật Bản"
+    ],
+    "correct": 0,
+    "explanation": "Vạn Lý Trường Thành của Trung Quốc là công trình quân sự phòng thủ vĩ đại thời cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tượng Nữ thần Tự do biểu tượng của nước Mỹ nằm tại bến cảng của thành phố nào?",
+    "options": [
+      "New York",
+      "Washington D.C.",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "correct": 0,
+    "explanation": "Tượng Nữ thần Tự do do nhân dân Pháp trao tặng tọa lạc tại cảng New York."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông Mê Kông trước khi đổ ra biển Đông ở miền Nam Việt Nam chảy qua bao nhiêu quốc gia?",
+    "options": [
+      "6 quốc gia",
+      "4 quốc gia",
+      "5 quốc gia",
+      "7 quốc gia"
+    ],
+    "correct": 0,
+    "explanation": "Sông Mê Kông chảy qua: Trung Quốc, Myanmar, Lào, Thái Lan, Campuchia và Việt Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố nào được mệnh danh là 'Thủ phủ miền Tây' với bến Ninh Kiều thơ mộng?",
+    "options": [
+      "Cần Thơ",
+      "Mỹ Tho",
+      "Long Xuyên",
+      "Cà Mau"
+    ],
+    "correct": 0,
+    "explanation": "Cần Thơ là đô thị loại 1 trực thuộc trung ương, trung tâm kinh tế của đồng bằng sông Cửu Long."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vườn quốc gia Cúc Phương, vườn quốc gia đầu tiên của Việt Nam, nằm trên địa bàn 3 tỉnh nào?",
+    "options": [
+      "Ninh Bình, Hòa Bình, Thanh Hóa",
+      "Phú Thọ, Tuyên Quang, Yên Bái",
+      "Nghệ An, Hà Tĩnh, Quảng Bình",
+      "Bắc Kạn, Thái Nguyên, Lạng Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Rừng nguyên sinh Cúc Phương thành lập năm 1962 nằm giáp ranh 3 tỉnh Ninh Bình, Hòa Bình, Thanh Hóa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia láng giềng nào có chung đường biên giới đất liền dài nhất với Việt Nam?",
+    "options": [
+      "Lào (hơn 2.100 km)",
+      "Trung Quốc",
+      "Campuchia",
+      "Thái Lan"
+    ],
+    "correct": 0,
+    "explanation": "Đường biên giới Việt - Lào dài khoảng 2.161 km dọc dãy Trường Sơn hùng vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Trị An, hồ nhân tạo cung cấp nước cho thủy điện Trị An, thuộc tỉnh nào?",
+    "options": [
+      "Đồng Nai",
+      "Bình Dương",
+      "Tây Ninh",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 0,
+    "explanation": "Hồ thủy điện Trị An trên sông Đồng Nai là nguồn năng lượng quan trọng của miền Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố ngàn hoa Đà Lạt nằm trên cao nguyên nào của vùng Tây Nguyên?",
+    "options": [
+      "Cao nguyên Lâm Viên",
+      "Cao nguyên Di Linh",
+      "Cao nguyên Pleiku",
+      "Cao nguyên Đắk Lắk"
+    ],
+    "correct": 0,
+    "explanation": "Đà Lạt nằm trên cao nguyên Lâm Viên ở độ cao khoảng 1.500m so với mực nước biển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Biển Sầm Sơn là bãi biển du lịch nổi tiếng thuộc tỉnh nào ở miền Trung?",
+    "options": [
+      "Thanh Hóa",
+      "Nghệ An",
+      "Hà Tĩnh",
+      "Quảng Bình"
+    ],
+    "correct": 0,
+    "explanation": "Biển Sầm Sơn thuộc thành phố Sầm Sơn, tỉnh Thanh Hóa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Khu di tích lịch sử đền Hùng nơi thờ cúng 18 đời vua Hùng nằm trên núi Nghĩa Lĩnh thuộc tỉnh nào?",
+    "options": [
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "Bắc Giang",
+      "Yên Bái"
+    ],
+    "correct": 0,
+    "explanation": "Khu di tích lịch sử Đền Hùng tọa lạc tại thôn Cổ Tích, xã Hy Cương, TP. Việt Trì, Phú Thọ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở vùng Tây Bắc nước ta có 2 huyện đảo và tiếp giáp với cả biên giới biển lẫn biên giới đất liền?",
+    "options": [
+      "Quảng Ninh",
+      "Hải Phòng",
+      "Lạng Sơn",
+      "Cao Bằng"
+    ],
+    "correct": 0,
+    "explanation": "Quảng Ninh có biên giới đất liền và biển với Trung Quốc, sở hữu 2 huyện đảo Cô Tô và Vân Đồn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dòng sông nào bắt nguồn từ Tây Nguyên chảy sang Campuchia rồi hợp lưu với dòng Mê Kông?",
+    "options": [
+      "Sông Sêrêpôk",
+      "Sông Đồng Nai",
+      "Sông Ba",
+      "Sông Thu Bồn"
+    ],
+    "correct": 0,
+    "explanation": "Sông Sêrêpôk là dòng sông chảy ngược kỳ lạ bắt nguồn từ Đắk Lắk chảy sang Campuchia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vườn quốc gia Tràm Chim, khu Ramsar thứ 2.000 của thế giới nổi tiếng với sếu đầu đỏ, thuộc tỉnh nào?",
+    "options": [
+      "Đồng Tháp",
+      "Long An",
+      "An Giang",
+      "Kiên Giang"
+    ],
+    "correct": 0,
+    "explanation": "Vườn quốc gia Tràm Chim thuộc huyện Tam Nông, tỉnh Đồng Tháp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần thể di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm nào?",
+    "options": [
+      "Năm 1993",
+      "Năm 1999",
+      "Năm 2003",
+      "Năm 2010"
+    ],
+    "correct": 0,
+    "explanation": "Cố đô Huế là di sản văn hóa thế giới đầu tiên của Việt Nam được UNESCO vinh danh năm 1993."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Dầu Tiếng, hồ nước nhân tạo lớn nhất Việt Nam nằm trên địa bàn 3 tỉnh Tây Ninh, Bình Dương và?",
+    "options": [
+      "Bình Phước",
+      "Đồng Nai",
+      "Long An",
+      "TP. Hồ Chí Minh"
+    ],
+    "correct": 0,
+    "explanation": "Hồ thủy nông Dầu Tiếng rộng 270 km2 trải dài qua Tây Ninh, Bình Dương và Bình Phước."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cầu Cần Thơ, cây cầu dây văng có nhịp chính dài nhất Đông Nam Á khi khánh thành năm 2010, bắc qua sông nào?",
+    "options": [
+      "Sông Hậu",
+      "Sông Tiền",
+      "Sông Cổ Chiên",
+      "Sông Vàm Cỏ Đông"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Cần Thơ bắc qua sông Hậu nối liền thị xã Bình Minh (Vĩnh Long) và quận Cái Răng (Cần Thơ)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo Lý Sơn (Cù Lao Ré), vương quốc tỏi nổi tiếng của miền Trung, thuộc tỉnh nào?",
+    "options": [
+      "Quảng Ngãi",
+      "Quảng Nam",
+      "Bình Định",
+      "Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Lý Sơn cách bờ biển Quảng Ngãi khoảng 15 hải lý."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào trên thế giới có nhiều múi giờ nhất trên lãnh thổ hải ngoại và lục địa (12 múi giờ)?",
+    "options": [
+      "Pháp",
+      "Nga",
+      "Mỹ",
+      "Anh"
+    ],
+    "correct": 0,
+    "explanation": "Nhờ các vùng lãnh thổ hải ngoại rải rác trên các đại dương, Pháp có tổng cộng 12 múi giờ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Con kênh đào nhân tạo nào nối liền Địa Trung Hải và Biển Đỏ giúp rút ngắn hải trình Á - Âu?",
+    "options": [
+      "Kênh đào Suez (Ai Cập)",
+      "Kênh đào Panama",
+      "Kênh đào Kiel",
+      "Kênh đào Corinth"
+    ],
+    "correct": 0,
+    "explanation": "Kênh đào Suez khánh thành năm 1869 là tuyến hàng hải huyết mạch toàn cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở Đông Nam Á là quốc gia duy nhất không có đường bờ biển tiếp giáp với biển cả?",
+    "options": [
+      "Lào",
+      "Campuchia",
+      "Myanmar",
+      "Thái Lan"
+    ],
+    "correct": 0,
+    "explanation": "Lào là quốc gia nội lục duy nhất ở Đông Nam Á được bao bọc bởi 5 nước xung quanh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thành phố nào là thủ đô của đất nước Kangaroo nước Úc (Australia)?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "correct": 0,
+    "explanation": "Canberra là thủ đô chính thức của Úc, được chọn làm giải pháp trung hòa giữa Sydney và Melbourne."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Biển Chết (Dead Sea) nằm giữa Israel và Jordan có đặc điểm tự nhiên kỳ thú nào?",
+    "options": [
+      "Độ mặn cực cao khiến người tự nổi mà không bị chìm",
+      "Nhiệt độ nước luôn sôi",
+      "Màu nước màu đen",
+      "Nhiều san hô đỏ nhất"
+    ],
+    "correct": 0,
+    "explanation": "Độ mặn của Biển Chết khoảng 34% (gấp gần 10 lần đại dương) tạo lực đẩy nổi mạnh mẽ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở cực Bắc nước ta có cột cờ Lũng Cú và phố cổ Đồng Văn trứ danh?",
+    "options": [
+      "Hà Giang",
+      "Cao Bằng",
+      "Tuyên Quang",
+      "Lào Cai"
+    ],
+    "correct": 0,
+    "explanation": "Hà Giang là phên dậu địa đầu Tổ quốc với cao nguyên đá vôi hùng vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thánh địa Mỹ Sơn, quần thể đền tháp Chăm Pa cổ kính được UNESCO vinh danh, nằm ở tỉnh nào?",
+    "options": [
+      "Quảng Nam",
+      "Quảng Ngãi",
+      "Bình Định",
+      "Ninh Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Thánh địa Mỹ Sơn thuộc xã Duy Phú, huyện Duy Xuyên, tỉnh Quảng Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Ngọn đèo nào được coi là ranh giới phân định tự nhiên giữa tỉnh Thừa Thiên Huế và Đà Nẵng?",
+    "options": [
+      "Đèo Hải Vân",
+      "Đèo Ngang",
+      "Đèo Cù Mông",
+      "Đèo Cả"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Hải Vân uốn lượn qua dãy núi Bạch Mã nhìn xuống biển Lăng Cô."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hệ thống hang động thạch nhũ lung linh Động Phong Nha và Động Thiên Đường thuộc tỉnh nào?",
+    "options": [
+      "Quảng Bình",
+      "Quảng Trị",
+      "Hà Tĩnh",
+      "Thanh Hóa"
+    ],
+    "correct": 0,
+    "explanation": "Quảng Bình được mệnh danh là 'Vương quốc hang động' của thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vùng đồng bằng duyên hải Nam Trung Bộ có khí hậu khô hạn nhất Việt Nam thuộc 2 tỉnh nào?",
+    "options": [
+      "Ninh Thuận và Bình Thuận",
+      "Khánh Hòa và Phú Yên",
+      "Bình Định và Quảng Ngãi",
+      "Quảng Nam và Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Ninh Thuận và Bình Thuận ít mưa, nhiều nắng gió với những đồi cát và vườn nho bạt ngàn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Sông Gianh con sông lịch sử từng là ranh giới chia cắt Đàng Trong và Đàng Ngoài thời Trịnh - Nguyễn phân tranh thuộc tỉnh nào?",
+    "options": [
+      "Quảng Bình",
+      "Quảng Trị",
+      "Hà Tĩnh",
+      "Nghệ An"
+    ],
+    "correct": 0,
+    "explanation": "Sông Gianh ở Quảng Bình chứng kiến gần 200 năm nội chiến thời phong kiến."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Bắc nước ta có dãy núi Tam Đảo phủ đầy sương mây lãng mạn?",
+    "options": [
+      "Vĩnh Phúc",
+      "Thái Nguyên",
+      "Tuyên Quang",
+      "Phú Thọ"
+    ],
+    "correct": 0,
+    "explanation": "Thị trấn nghỉ mát Tam Đảo nằm ở độ cao 900m thuộc tỉnh Vĩnh Phúc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Con đèo nào hiểm trở bậc nhất trên quốc lộ 4D nối liền tỉnh Lào Cai và Lai Châu qua đỉnh Hoàng Liên Sơn?",
+    "options": [
+      "Đèo Ô Quy Hồ",
+      "Đèo Khau Phạ",
+      "Đèo Mã Pí Lèng",
+      "Đèo Pha Đin"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Ô Quy Hồ dài gần 50 km được mệnh danh là 'Vua đèo Tây Bắc'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở Tây Nguyên có diện tích trồng cao su và hồ tiêu lớn nhất nước ta?",
+    "options": [
+      "Gia Lai",
+      "Kon Tum",
+      "Đắk Nông",
+      "Lâm Đồng"
+    ],
+    "correct": 0,
+    "explanation": "Gia Lai với đất đỏ bazan phì nhiêu là vùng chuyên canh cao su và cà phê trọng điểm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thung lũng Mường Hoa nổi tiếng với những thửa ruộng bậc thang tuyệt đẹp thuộc thị xã nào?",
+    "options": [
+      "Sa Pa (Lào Cai)",
+      "Mù Cang Chải (Yên Bái)",
+      "Hoàng Su Phì (Hà Giang)",
+      "Mai Châu (Hòa Bình)"
+    ],
+    "correct": 0,
+    "explanation": "Thung lũng Mường Hoa nằm tại Sa Pa với bãi đá cổ khắc hình bí ẩn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào trên thế giới được mệnh danh là 'Xứ sở cối xay gió và hoa tulip'?",
+    "options": [
+      "Hà Lan",
+      "Bỉ",
+      "Đan Mạch",
+      "Thụy Điển"
+    ],
+    "correct": 0,
+    "explanation": "Hà Lan nổi tiếng với các công trình quai đê lấn biển, cối xay gió và cánh đồng hoa tulip rực rỡ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thành phố Venice thơ mộng với những chiếc thuyền Gondola lướt trên kênh đào nằm ở nước nào?",
+    "options": [
+      "Italy (Ý)",
+      "Pháp",
+      "Hy Lạp",
+      "Áo"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố nổi Venice xinh đẹp xây dựng trên 118 hòn đảo nhỏ ngoài khơi vịnh Venice (Ý)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Kênh đào Panama nối liền hai đại dương vĩ đại nào trên Trái Đất?",
+    "options": [
+      "Thái Bình Dương và Đại Tây Dương",
+      "Thái Bình Dương và Ấn Độ Dương",
+      "Đại Tây Dương và Bắc Băng Dương",
+      "Ấn Độ Dương và Địa Trung Hải"
+    ],
+    "correct": 0,
+    "explanation": "Kênh đào Panama cắt ngang eo đất Trung Mỹ giúp tàu thuyền không phải đi vòng qua Mũi Hảo Vọng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Kim tự tháp Giza và tượng Nhân sư kỳ vĩ là di sản văn hóa cổ đại của quốc gia nào?",
+    "options": [
+      "Ai Cập",
+      "Jordan",
+      "Iraq",
+      "Hy Lạp"
+    ],
+    "correct": 0,
+    "explanation": "Các kim tự tháp sừng sững bên dòng sông Nin là biểu tượng văn minh Ai Cập cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở châu Á có số lượng đảo nhiều nhất thế giới với hơn 17.500 hòn đảo lớn nhỏ?",
+    "options": [
+      "Indonesia",
+      "Philippines",
+      "Nhật Bản",
+      "Malaysia"
+    ],
+    "correct": 0,
+    "explanation": "Indonesia là quốc gia vạn đảo lớn nhất hành tinh nằm vắt qua đường xích đạo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Rừng rậm nhiệt đới Amazon, lá phổi xanh lớn nhất hành tinh, nằm chủ yếu trên lãnh thổ quốc gia nào?",
+    "options": [
+      "Brazil",
+      "Colombia",
+      "Peru",
+      "Venezuela"
+    ],
+    "correct": 0,
+    "explanation": "Hơn 60% diện tích rừng rậm Amazon nguyên sinh nằm trong lãnh thổ đất nước Brazil."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dãy núi Andes dãy núi trên cạn dài nhất thế giới (dài hơn 7.000 km) nằm ở châu lục nào?",
+    "options": [
+      "Nam Mỹ",
+      "Bắc Mỹ",
+      "Châu Phi",
+      "Châu Á"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Andes chạy dọc theo bờ biển phía Tây của lục địa Nam Mỹ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Vùng biển Việt Nam có diện tích khoảng bao nhiêu triệu km2 theo Công ước Luật Biển UNCLOS 1982?",
+    "options": [
+      "Khoảng 1,0 triệu km2",
+      "Khoảng 0,5 triệu km2",
+      "Khoảng 2,0 triệu km2",
+      "Khoảng 3,0 triệu km2"
+    ],
+    "correct": 0,
+    "explanation": "Vùng đặc quyền kinh tế và thềm lục địa của Việt Nam rộng khoảng 1 triệu km2 trên Biển Đông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Điểm cực Tây trên đất liền của Việt Nam nằm tại ngã ba biên giới Việt - Lào - Trung thuộc địa danh A Pa Chải tỉnh nào?",
+    "options": [
+      "Điện Biên (xã Sín Thầu)",
+      "Lai Châu (xã Mù Cả)",
+      "Sơn La",
+      "Lào Cai"
+    ],
+    "correct": 0,
+    "explanation": "Cột mốc ngã ba biên giới A Pa Chải nằm tại xã Sín Thầu, huyện Mường Nhé, tỉnh Điện Biên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Hệ thống sông ngòi nước ta có bao nhiêu con sông có chiều dài từ 10 km trở lên?",
+    "options": [
+      "2.360 con sông",
+      "1.500 con sông",
+      "3.200 con sông",
+      "500 con sông"
+    ],
+    "correct": 0,
+    "explanation": "Mạng lưới thủy văn Việt Nam dày đặc với đúng 2.360 con sông dài từ 10km trở lên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Cảng hàng không quốc tế nào của Việt Nam nằm trên vùng biển đảo được xây dựng hoàn toàn mới phục vụ đặc khu Vân Đồn?",
+    "options": [
+      "Sân bay quốc tế Vân Đồn",
+      "Sân bay Cát Bi",
+      "Sân bay Phù Cát",
+      "Sân bay Cam Ranh"
+    ],
+    "correct": 0,
+    "explanation": "Sân bay quốc tế Vân Đồn (Quảng Ninh) là sân bay tư nhân đầu tiên của Việt Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đầm phá Tam Giang - Cầu Hai thuộc tỉnh Thừa Thiên Huế là hệ đầm phá nước lợ có diện tích lớn nhất khu vực nào?",
+    "options": [
+      "Lớn nhất Đông Nam Á",
+      "Lớn nhất châu Á",
+      "Lớn thứ nhì thế giới",
+      "Lớn nhất châu Âu"
+    ],
+    "correct": 0,
+    "explanation": "Phá Tam Giang - Cầu Hai trải dài 68 km với diện tích 216 km2 là hệ đầm phá lớn nhất Đông Nam Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Dòng sông nào bắt nguồn từ dãy Trường Sơn chảy về phía Đông qua Quảng Trị gắn liền với chiến dịch 81 ngày đêm bảo vệ Thành cổ?",
+    "options": [
+      "Sông Thạch Hãn",
+      "Sông Bến Hải",
+      "Sông Nhật Lệ",
+      "Sông Cam Lộ"
+    ],
+    "correct": 0,
+    "explanation": "Sông Thạch Hãn dòng sông linh thiêng gắn với sự hy sinh anh dũng của các chiến sĩ mùa hè đỏ lửa 1972."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đảo nào của Việt Nam nằm gần chí tuyến Bắc nhất trên vùng biển Đông Bắc nước ta?",
+    "options": [
+      "Đảo Trần (Quảng Ninh)",
+      "Đảo Trà Bản",
+      "Đảo Thanh Lân",
+      "Đảo Vĩnh Thực"
+    ],
+    "correct": 0,
+    "explanation": "Đảo Trần thuộc huyện đảo Cô Tô, Quảng Ninh là đảo tiền tiêu phía Bắc của Tổ quốc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Cao nguyên nào có diện tích rộng lớn nhất trong hệ thống các cao nguyên vùng Tây Nguyên nước ta?",
+    "options": [
+      "Cao nguyên Đắk Lắk",
+      "Cao nguyên Lâm Viên",
+      "Cao nguyên Kon Tum",
+      "Cao nguyên Mơ Nông"
+    ],
+    "correct": 0,
+    "explanation": "Cao nguyên Đắk Lắk có diện tích đất đỏ bazan bằng phẳng và rộng lớn nhất Tây Nguyên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Vực rãnh đại dương Mariana sâu nhất hành tinh (gần 11.000m) nằm ở khu vực nào của Thái Bình Dương?",
+    "options": [
+      "Tây Bắc Thái Bình Dương",
+      "Đông Nam Thái Bình Dương",
+      "Bắc Băng Dương",
+      "Trung tâm Thái Bình Dương"
+    ],
+    "correct": 0,
+    "explanation": "Vực Mariana nằm gần đảo Guam ở khu vực Tây Bắc Thái Bình Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thành phố thủ đô nào nằm ở độ cao lớn nhất thế giới so với mực nước biển (khoảng 3.640m)?",
+    "options": [
+      "La Paz (Bolivia)",
+      "Quito (Ecuador)",
+      "Bogota (Colombia)",
+      "Lhasa (Tây Tạng)"
+    ],
+    "correct": 0,
+    "explanation": "Thủ đô La Paz của Bolivia nằm trên cao nguyên Altiplano dãy Andes ở độ cao hơn 3.600m."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Đảo Greenland hòn đảo lớn nhất thế giới (không tính các lục địa) là vùng lãnh thổ tự trị thuộc quốc gia nào?",
+    "options": [
+      "Đan Mạch",
+      "Na Uy",
+      "Canada",
+      "Iceland"
+    ],
+    "correct": 0,
+    "explanation": "Greenland với diện tích hơn 2,1 triệu km2 phủ đầy băng tuyết là lãnh thổ tự trị của Đan Mạch."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quốc gia nào trên thế giới sở hữu số lượng hồ nước tự nhiên nhiều hơn tất cả các quốc gia còn lại gộp lại?",
+    "options": [
+      "Canada",
+      "Phần Lan",
+      "Nga",
+      "Thụy Điển"
+    ],
+    "correct": 0,
+    "explanation": "Canada sở hữu hơn 2 triệu hồ nước tự nhiên chiếm hơn 60% tổng lượng hồ trên toàn Trái Đất."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quốc gia nào trên thế giới hoàn toàn không có bất kỳ một dòng sông tự nhiên chảy thường xuyên nào?",
+    "options": [
+      "Ả Rập Xê Út (Saudi Arabia)",
+      "Ai Cập",
+      "Iran",
+      "Algeria"
+    ],
+    "correct": 0,
+    "explanation": "Ả Rập Xê Út có địa hình hoang mạc khô cằn, nguồn nước ngọt chủ yếu từ nước ngầm và khử mặn nước biển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Hồ Titicaca hồ nước ngọt có thể đi thuyền được nằm ở độ cao cao nhất thế giới (3.812m) nằm giữa hai quốc gia nào?",
+    "options": [
+      "Peru và Bolivia",
+      "Chile và Argentina",
+      "Ecuador và Colombia",
+      "Brazil và Paraguay"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Titicaca nằm trên dãy núi Andes là cái nôi của nền văn minh Inca cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Quốc gia nào có đường biên giới trên bộ giáp với nhiều quốc gia láng giềng nhất thế giới (14 quốc gia)?",
+    "options": [
+      "Trung Quốc và Nga",
+      "Ấn Độ",
+      "Brazil",
+      "Đức"
+    ],
+    "correct": 0,
+    "explanation": "Trung Quốc và Nga cùng chia sẻ kỷ lục tiếp giáp với 14 quốc gia láng giềng có chủ quyền."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Thành phố nào được mệnh danh là 'Thành phố không bao giờ ngủ' và là trung tâm tài chính phố Wall?",
+    "options": [
+      "New York",
+      "London",
+      "Tokyo",
+      "Hong Kong"
+    ],
+    "correct": 0,
+    "explanation": "New York City là trung tâm tài chính, thương mại và văn hóa đa sắc tộc hàng đầu thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Biển hồ Caspi (Caspian Sea) hồ nước khép kín lớn nhất hành tinh tiếp giáp với bao nhiêu quốc gia?",
+    "options": [
+      "5 quốc gia (Nga, Kazakhstan, Turkmenistan, Iran, Azerbaijan)",
+      "4 quốc gia",
+      "6 quốc gia",
+      "3 quốc gia"
+    ],
+    "correct": 0,
+    "explanation": "Biển Caspi rộng 371.000 km2 được bao bọc bởi 5 quốc gia ven bờ giàu dầu mỏ khí đốt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Ranh giới tự nhiên phân chia giữa châu Âu và châu Á theo quy ước địa lý quốc tế chạy dọc theo dãy núi nào?",
+    "options": [
+      "Dãy núi Ural (Nga)",
+      "Dãy núi Caucasus",
+      "Dãy núi Alps",
+      "Dãy núi Altai"
+    ],
+    "correct": 0,
+    "explanation": "Dãy núi Ural kéo dài từ Bắc Băng Dương xuống thảo nguyên Kazakhstan là đường phân định Âu - Á."
   }
 ]
