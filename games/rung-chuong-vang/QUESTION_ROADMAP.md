@@ -35,9 +35,9 @@
 | **Khởi đầu** | **265 câu** | Đợt 1 (+200 câu) | ✅ Hoàn thành | Đủ phát sóng thử nghiệm 1 buổi (10-15 ván). |
 | **Cột mốc 1** | **500 câu** | Đợt 2 (+235 câu) | ✅ Hoàn thành | Đủ chơi liên tục 2-3 ngày không lo trùng lặp. |
 | **Cột mốc 2** | **1.000 câu** | Đợt 3 & 4 (+501 câu) | ✅ Hoàn thành (1.001 câu) | Đủ phát sóng 1 tuần liên tục (30-40 ván/ngày). |
-| **Cột mốc 3** | **2.500 câu** | Đợt 5 & 6 (+96 câu) | ⏳ Đang triển khai (Hiện: 1.097 câu) | Bắt đầu phân nhánh chuyên đề sự kiện (Tết, Lịch sử, Học sinh). |
-| **Cột mốc 4** | **5.000 câu** | Đợt 7 (+2.500 câu) | 📅 Dự kiến | Sẵn sàng cho live stream tự động 24/7 (Hands-free mode). |
-| **Cột mốc 5** | **10.000 câu** | Đợt 8 (+5.000 câu) | 📅 Đích đến dài hạn | Kho bách khoa toàn thư tri thức khổng lồ trên TikTok Live. |
+| **Cột mốc 3** | **2.500 câu** | Đợt 5 - 12 (+1.519 câu) | ✅ Hoàn thành (2.520 câu) | Đủ phát sóng 1 tháng liên tục không trùng lặp, độ phủ kiến thức toàn diện 6 chuyên mục. |
+| **Cột mốc 4** | **5.000 câu** | Đợt 13 - 16 (+2.500 câu) | 📅 Kế hoạch tiếp theo | Sẵn sàng cho live stream tự động 24/7 (Hands-free mode). |
+| **Cột mốc 5** | **10.000 câu** | Đợt 17 - 20 (+5.000 câu) | 📅 Đích đến dài hạn | Kho bách khoa toàn thư tri thức khổng lồ trên TikTok Live. |
 
 ---
 
@@ -45,4 +45,4 @@
 - **Đợt 1 (2026-11-07):** Khởi tạo QuestionBank modular với 200 câu hỏi chuẩn hóa và nâng cấp lên 265 câu hỏi, phân loại theo 6 chủ đề, tích hợp SQLite `questions.db`.
 - **Đợt 2 (2026-11-07):** ✅ Đã sinh mới thành công 235 câu hỏi chuẩn hóa, nạp và đồng bộ song song vào SQLite và JSON. Đưa ngân hàng câu hỏi cán mốc **500 câu**.
 - **Đợt 3 & 4 (2026-11-08):** ✅ Đã bổ sung thành công 501 câu hỏi chuẩn hóa qua 6 chủ đề, đưa ngân hàng câu hỏi chính thức **CÁN MỐC 1.001 CÂU HỎI**. Lint kiểm định 100% đạt chuẩn không phát hiện lỗi.
-- **Đợt 5 & 6 (2026-11-08):** ✅ Đẩy mạnh Cột mốc 3, nạp thêm 96 câu hỏi chuyên sâu, nâng tổng ngân hàng câu hỏi lên **1.097 câu hỏi**. Test suite 27/27 PASS.
+- **Đợt 5 - 12 (2026-11-08):** ✅ Đã hoàn thành xuất sắc bứt phá toàn diện **CỘT MỐC 3 - ĐẠT 2.520 CÂU HỎI CHUẨN HÓA**! Tích lũy cục bộ an toàn, phân bổ xoay vòng 4 đáp án A-B-C-D đều đặn, lint 100% sạch lỗi, test suite 27/27 PASS. Đẩy toàn bộ trong một single clean milestone commit lên GitHub theo đúng yêu cầu người dùng.

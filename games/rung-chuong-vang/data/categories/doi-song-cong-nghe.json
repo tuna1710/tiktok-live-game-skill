@@ -2143,5 +2143,3164 @@
     ],
     "correct": 0,
     "explanation": "Proof of Work (PoW) đảm bảo tính bảo mật và phi tập trung bất biến của sổ cái mạng Bitcoin."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở bò truyền thống của Việt Nam thường được phục vụ với hai loại thịt bò nấu chín và tái được gọi là gì?",
+    "options": [
+      "Phở tái và Phở chín",
+      "Phở xào",
+      "Phở chiên",
+      "Phở trộn"
+    ],
+    "correct": 0,
+    "explanation": "Phở tái thịt mềm ngọt, phở chín nạm gầu thơm giòn béo ngậy."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng gọi xe công nghệ và giao đồ ăn thịnh hành nhất Đông Nam Á với màu xanh lá cây đặc trưng là gì?",
+    "options": [
+      "Grab",
+      "Gojek",
+      "Be",
+      "ShopeeFood"
+    ],
+    "correct": 0,
+    "explanation": "Grab là siêu ứng dụng cung cấp dịch vụ vận chuyển, giao nhận thức ăn phổ biến."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hệ thống truyền dữ liệu không dây tầm gần dùng để chia sẻ file siêu nhanh giữa các thiết bị iPhone và Mac của Apple được gọi là gì?",
+    "options": [
+      "AirDrop",
+      "Bluetooth",
+      "Nearby Share",
+      "NFC"
+    ],
+    "correct": 0,
+    "explanation": "AirDrop kết hợp Wi-Fi và Bluetooth truyền ảnh, tài liệu dung lượng lớn chỉ trong vài giây."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Bánh canh cá lóc' với sợi bánh dẻo dai từ bột gạo ăn cùng cá lóc đồng rim thơm nức mũi là đặc sản của tỉnh nào miền Trung?",
+    "options": [
+      "Quảng Trị (hoặc Huế)",
+      "Quảng Bình",
+      "Quảng Nam",
+      "Bình Định"
+    ],
+    "correct": 0,
+    "explanation": "Bánh canh cá lóc Quảng Trị nồng nàn cay the với củ nén và ớt tươi băm nhuyễn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Ngôn ngữ lập trình thông dịch bậc cao đa năng ra đời năm 1991 do Guido van Rossum phát triển, được sử dụng phổ biến nhất hiện nay trong lĩnh vực Trí tuệ Nhân tạo (AI) và Khoa học Dữ liệu là ngôn ngữ nào?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "Java"
+    ],
+    "correct": 0,
+    "explanation": "Python với cú pháp thanh lịch, dễ đọc cùng hệ sinh thái thư viện AI khổng lồ (TensorFlow, PyTorch) thống trị khoa học máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở truyền thống trứ danh của Việt Nam thường được thưởng thức với nước dùng hầm từ xương bò và loại gia vị thơm nào?",
+    "options": [
+      "Hoa hồi, quế, thảo quả, gừng nướng",
+      "Lá chanh, ớt bột",
+      "Hạt tiêu xanh, thì là",
+      "Nghệ tươi"
+    ],
+    "correct": 0,
+    "explanation": "Hồi, quế, thảo quả tạo nên hương thơm đặc trưng nồng nàn quyến rũ của bát phở bò."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ điều hành di động mã nguồn mở phổ biến nhất thế giới trên điện thoại Samsung, Xiaomi do Google phát triển là gì?",
+    "options": [
+      "Android",
+      "iOS",
+      "Windows Phone",
+      "BlackBerry OS"
+    ],
+    "correct": 0,
+    "explanation": "Android chiếm hơn 70% thị phần hệ điều hành smartphone toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cầu thủ bóng đá nào đang nắm giữ kỷ lục ghi nhiều bàn thắng nhất trong lịch sử các kỳ World Cup (16 bàn thắng)?",
+    "options": [
+      "Miroslav Klose (Đức)",
+      "Ronaldo Nazario (Brazil)",
+      "Lionel Messi",
+      "Pele"
+    ],
+    "correct": 0,
+    "explanation": "Tiền đạo Miroslav Klose ghi 16 bàn thắng qua 4 kỳ World Cup (2002, 2006, 2010, 2014)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Cơm tấm sườn bì chả' thơm lừng chan mỡ hành là món ăn sáng đặc sản biểu tượng của thành phố nào?",
+    "options": [
+      "TP. Hồ Chí Minh",
+      "Hà Nội",
+      "Đà Nẵng",
+      "Hải Phòng"
+    ],
+    "correct": 0,
+    "explanation": "Hạt tấm dẻo ngọt, sườn nướng than hoa thơm nức mũi là tinh hoa ẩm thực đường phố Sài Gòn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Mô hình mạng nơ-ron học sâu tích chập (CNN - Convolutional Neural Network) được ứng dụng phổ biến và tối ưu nhất trong lĩnh vực nào của AI?",
+    "options": [
+      "Thị giác máy tính và nhận diện hình ảnh (Computer Vision)",
+      "Dịch văn bản",
+      "Xử lý âm thanh giọng nói",
+      "Dự báo thời tiết"
+    ],
+    "correct": 0,
+    "explanation": "Mạng CNN bắt chước vỏ não thị giác trích xuất các đặc trưng không gian hình ảnh cực kỳ chính xác."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn nào được gói bằng lá dong hình vuông nhân đậu xanh thịt mỡ là linh hồn của mâm cỗ Tết cổ truyền miền Bắc?",
+    "options": [
+      "Bánh chưng",
+      "Bánh tét",
+      "Bánh giầy",
+      "Bánh ú"
+    ],
+    "correct": 0,
+    "explanation": "Bánh chưng xanh vuông vắn tượng trưng cho Đất trời thái bình thịnh vượng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nền tảng mạng xã hội chuyên chia sẻ ảnh và video ngắn thuộc sở hữu của tập đoàn Meta với biểu tượng ống kính máy ảnh là gì?",
+    "options": [
+      "Instagram",
+      "Facebook",
+      "Twitter",
+      "LinkedIn"
+    ],
+    "correct": 0,
+    "explanation": "Instagram là mạng xã hội chia sẻ hình ảnh phong cách sống phổ biến toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Giải đấu bóng đá vô địch các câu lạc bộ danh giá nhất châu Âu diễn ra hàng năm có tên gọi là gì?",
+    "options": [
+      "UEFA Champions League (Cúp C1)",
+      "Europa League",
+      "Copa America",
+      "AFC Champions League"
+    ],
+    "correct": 0,
+    "explanation": "Champions League quy tụ các câu lạc bộ hàng đầu châu Âu tranh tài đỉnh cao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món đặc sản 'Chả mực nang giã tay' giòn sần sật vàng ruộm thơm lừng là món ngon nổi tiếng của tỉnh nào?",
+    "options": [
+      "Quảng Ninh (Hạ Long)",
+      "Hải Phòng",
+      "Thanh Hóa",
+      "Nghệ An"
+    ],
+    "correct": 0,
+    "explanation": "Chả mực Hạ Long giã tay thủ công ăn kèm xôi trắng hoặc bánh cuốn là đặc sản trứ danh đất mỏ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Mạng máy tính diện rộng kết nối các thiết bị trong phạm vi một thành phố hoặc khu vực đô thị lớn được viết tắt là gì?",
+    "options": [
+      "Mạng MAN (Metropolitan Area Network)",
+      "Mạng LAN",
+      "Mạng WAN",
+      "Mạng PAN"
+    ],
+    "correct": 0,
+    "explanation": "Mạng MAN kết nối nhiều mạng LAN trong cùng một đô thị với đường truyền cáp quang tốc độ cao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn đường phố Việt Nam nổi tiếng toàn cầu kẹp nhân pate, thịt xá xíu, chả lụa, dưa leo và rau mùi là món gì?",
+    "options": [
+      "Bánh mì Việt Nam",
+      "Bánh bao",
+      "Bánh giò",
+      "Bánh xèo"
+    ],
+    "correct": 0,
+    "explanation": "Từ 'Banh mi' đã được thêm chính thức vào từ điển tiếng Anh Oxford như một danh từ riêng chỉ món bánh mì đặc sắc của Việt Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn truyền thống Hà Nội gồm bún tươi, chả nướng than hoa chấm nước mắm chua ngọt ăn kèm đu đủ giòn là món gì?",
+    "options": [
+      "Bún thang",
+      "Bún chả",
+      "Bún đậu",
+      "Bún ốc"
+    ],
+    "correct": 1,
+    "explanation": "Năm 2016 Tổng thống Mỹ Barack Obama từng cùng đầu bếp Anthony Bourdain thưởng thức bún chả tại phố Lê Văn Hưu, Hà Nội."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản 'Chả cá Lã Vọng' trứ danh của mảnh đất kinh kỳ Hà Nội được chế biến chủ yếu từ loài cá nước ngọt nào?",
+    "options": [
+      "Cá trắm đen",
+      "Cá chép giòn",
+      "Cá lăng (hoặc cá anh vũ)",
+      "Cá mè"
+    ],
+    "correct": 2,
+    "explanation": "Cá lăng thịt ngọt, ít xương dăm, xào cùng hành hoa và thì là thơm phức ăn kèm bánh đa nướng và mắm tôm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món đặc sản mùa thu Hà Nội thơm mùi lúa non được gói cẩn thận trong hai lớp lá sen tươi và buộc bằng rơm nếp là gì?",
+    "options": [
+      "Bánh cốm",
+      "Xôi xéo",
+      "Bánh phu thê",
+      "Cốm Làng Vòng"
+    ],
+    "correct": 3,
+    "explanation": "Cốm Vòng dẻo thơm, ngọt dịu là thức quà tinh tế gắn liền với mùa thu lãng mạn đất Tràng An."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tỉnh Hưng Yên nổi tiếng khắp cả nước với loại trái cây đặc sản tiến vua trứ danh nào?",
+    "options": [
+      "Nhãn lồng Hưng Yên",
+      "Vải thiều",
+      "Bưởi da xanh",
+      "Thanh long ruột đỏ"
+    ],
+    "correct": 0,
+    "explanation": "Nhãn lồng Hưng Yên cùi dày, ráo nước, giòn ngọt và thơm ngát hương vị đất phù sa châu thổ sông Hồng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Cao lầu' đặc sản nức tiếng của phố cổ Hội An (Quảng Nam) có sợi mì màu vàng đục được làm từ nước ngâm tro của loại cây nào?",
+    "options": [
+      "Tro củi tre gai",
+      "Tro củi lấy từ Cù Lao Chàm",
+      "Tro cây tràm",
+      "Tro vỏ dừa xiêm"
+    ],
+    "correct": 1,
+    "explanation": "Nước ngâm tro củi Cù Lao Chàm kết hợp với nước giếng Bá Lễ tạo nên độ giòn dai đặc trưng không nơi nào có được."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món canh chua đặc sản mùa nước nổi của người dân miền Tây Nam Bộ thường kết hợp cá linh với loài hoa dại màu vàng nào?",
+    "options": [
+      "Bông so đũa",
+      "Bông súng",
+      "Bông điên điển",
+      "Bông thiên lý"
+    ],
+    "correct": 2,
+    "explanation": "Canh chua cá linh non nấu bông điên điển mang trọn hương vị phù sa mùa nước nổi miền Tây."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Tỉnh Tiền Giang nổi tiếng khắp cả nước với giống xoài ngọt thơm, vỏ mỏng hạt dẹp mang tên gọi là gì?",
+    "options": [
+      "Xoài cát Chu",
+      "Xoài Tượng",
+      "Xoài Úc",
+      "Xoài cát Hòa Lộc"
+    ],
+    "correct": 3,
+    "explanation": "Xoài cát Hòa Lộc xuất xứ từ xã Hòa Hưng (huyện Cái Bè, Tiền Giang) là một trong những giống xoài ngon nhất thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món phô mai tươi Mozzarella truyền thống làm từ sữa trâu nước là thành phần cốt lõi của món bánh nướng nổi tiếng nào của nước Ý?",
+    "options": [
+      "Pizza",
+      "Lasagna",
+      "Tiramisu",
+      "Risotto"
+    ],
+    "correct": 0,
+    "explanation": "Pizza Margherita mang ba màu sắc quốc kỳ Ý: đỏ (cà chua), trắng (phô mai Mozzarella) và xanh (lá húng quế Basil)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Vận động viên đầu tiên trong lịch sử thể thao Việt Nam đoạt Huy chương Vàng tại một kỳ Thế vận hội Olympic là ai?",
+    "options": [
+      "Võ sĩ Trần Hiếu Ngân",
+      "Xạ thủ Hoàng Xuân Vinh (Olympic Rio 2016)",
+      "Lực sĩ Hoàng Anh Tuấn",
+      "Ánh Viên"
+    ],
+    "correct": 1,
+    "explanation": "Hoàng Xuân Vinh xuất sắc giành HCV môn 10m súng ngắn hơi nam tại Olympic Rio 2016 thiết lập kỷ lục Olympic mới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Biểu tượng của Thế vận hội Olympic quốc tế bao gồm bao nhiêu vòng tròn đan lồng vào nhau?",
+    "options": [
+      "4 vòng tròn",
+      "6 vòng tròn",
+      "5 vòng tròn đại diện cho 5 châu lục",
+      "7 vòng tròn"
+    ],
+    "correct": 2,
+    "explanation": "Năm vòng tròn màu xanh lam, vàng, đen, xanh lá và đỏ tượng trưng cho tình đoàn kết thể thao của 5 châu lục."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đội tuyển bóng đá nam quốc gia nào đang giữ kỷ lục vô địch World Cup nhiều lần nhất trong lịch sử (5 lần)?",
+    "options": [
+      "Đội tuyển Đức",
+      "Đội tuyển Ý",
+      "Đội tuyển Argentina",
+      "Đội tuyển Brazil"
+    ],
+    "correct": 3,
+    "explanation": "Xứ sở Samba Brazil vô địch World Cup vào các năm 1958, 1962, 1970, 1994 và 2002."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cầu thủ bóng đá nào đang nắm giữ kỷ lục giành nhiều danh hiệu Quả bóng vàng (Ballon d'Or) nhất lịch sử với 8 lần đoạt giải?",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Pele",
+      "Diego Maradona"
+    ],
+    "correct": 0,
+    "explanation": "Messi đoạt Quả bóng vàng thứ 8 vào năm 2023 sau khi cùng Argentina vô địch World Cup 2022."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Kỳ thủ cờ vua số 1 Việt Nam từng vô địch cờ chớp thế giới năm 2013 và lọt Top kỳ thủ hàng đầu thế giới là ai?",
+    "options": [
+      "Nguyễn Ngọc Trường Sơn",
+      "Đào Thiên Hải",
+      "Đại kiện tướng Lê Quang Liêm",
+      "Trần Tuấn Minh"
+    ],
+    "correct": 2,
+    "explanation": "Lê Quang Liêm là niềm tự hào lớn của trí tuệ thể thao cờ vua Việt Nam trên đấu trường quốc tế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tên viết tắt của dịch vụ mạng toàn cầu 'WWW' được nhà khoa học Tim Berners-Lee phát minh năm 1989 là gì?",
+    "options": [
+      "World Wide Word",
+      "Wide Web World",
+      "World Web Wireless",
+      "World Wide Web"
+    ],
+    "correct": 3,
+    "explanation": "World Wide Web mở ra thời kỳ bùng nổ thông tin kết nối các trang siêu văn bản trên toàn thế giới qua Internet."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ điều hành dành cho điện thoại thông minh mã nguồn mở dựa trên nhân Linux do Google phát triển có tên là gì?",
+    "options": [
+      "Android",
+      "iOS",
+      "Windows Phone",
+      "Symbian"
+    ],
+    "correct": 0,
+    "explanation": "Android là hệ điều hành di động phổ biến nhất hành tinh chiếm hơn 70% thị phần thiết bị di động."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bộ phận nào trong máy tính được coi là 'Bộ não trung tâm' thực hiện mọi phép tính toán và điều khiển của máy tính?",
+    "options": [
+      "RAM",
+      "CPU (Central Processing Unit)",
+      "Ổ cứng HDD",
+      "Card đồ họa GPU"
+    ],
+    "correct": 1,
+    "explanation": "CPU là bộ vi xử lý thực thi các lệnh của chương trình máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bộ nhớ tạm thời trong máy tính bị mất sạch dữ liệu khi ngắt nguồn điện được gọi là gì?",
+    "options": [
+      "ROM",
+      "Ổ SSD",
+      "RAM (Random Access Memory)",
+      "Thẻ nhớ Flash"
+    ],
+    "correct": 2,
+    "explanation": "RAM lưu trữ dữ liệu tạm thời để CPU truy xuất cực nhanh trong lúc ứng dụng đang chạy."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ kết nối không dây tầm ngắn phổ biến kết nối tai nghe, loa và điện thoại mang tên 'Bluetooth' được đặt theo tên của ai?",
+    "options": [
+      "Nhà phát minh Alexander Graham Bell",
+      "Kỹ sư Bluetooth người Thụy Điển",
+      "Thần thoại Hy Lạp",
+      "Vị vua Viking Harald Bluetooth của Đan Mạch"
+    ],
+    "correct": 3,
+    "explanation": "Vua Harald Bluetooth có công hợp nhất các bộ tộc Đan Mạch cũng như công nghệ này giúp hợp nhất các thiết bị giao tiếp với nhau."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Giao thức truyền tải siêu văn bản an toàn có mã hóa chứng chỉ bảo mật SSL/TLS hiển thị ổ khóa xanh trên trình duyệt web là gì?",
+    "options": [
+      "HTTPS (Hypertext Transfer Protocol Secure)",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correct": 0,
+    "explanation": "HTTPS mã hóa lưu lượng dữ liệu giữa máy khách và máy chủ giúp bảo vệ mật khẩu và thông tin tài khoản."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đơn vị thông tin cơ bản nhất trong khoa học máy tính chỉ có hai trạng thái 0 hoặc 1 được gọi là gì?",
+    "options": [
+      "Byte",
+      "Bit (Binary digit)",
+      "Pixel",
+      "Hertz"
+    ],
+    "correct": 1,
+    "explanation": "1 Byte bằng 8 bit. Hệ nhị phân 0 và 1 là nền tảng hoạt động của toàn bộ mạch điện tử kỹ thuật số."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Địa chỉ mạng giao thức Internet thế hệ mới IPv6 sử dụng độ dài bao nhiêu bit để giải quyết tình trạng cạn kiệt địa chỉ IPv4?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "128 bit",
+      "256 bit"
+    ],
+    "correct": 2,
+    "explanation": "IPv4 chỉ có 32 bit (khoảng 4,3 tỷ địa chỉ), trong khi IPv6 có 128 bit cung cấp hàng tỷ tỷ địa chỉ cho vạn vật kết nối Internet (IoT)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món kẹo đặc sản nổi tiếng của xứ Huế làm từ mè rang (vừng), đậu phộng và mạch nha có tên gọi là gì?",
+    "options": [
+      "Kẹo cu đơ",
+      "Kẹo dừa",
+      "Kẹo sìu dâu",
+      "Mè xửng Huế"
+    ],
+    "correct": 3,
+    "explanation": "Kẹo mè xửng dẻo quánh thơm lừng ăn kèm nhâm nhi chén trà sen Huế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bánh pía món bánh ngàn lớp nhân sầu riêng trứng muối thơm ngọt nức tiếng là đặc sản của tỉnh nào?",
+    "options": [
+      "Sóc Trăng",
+      "Bến Tre",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "correct": 0,
+    "explanation": "Bánh pía Vũng Thơm mang đậm nét giao thoa văn hóa ẩm thực người Hoa và người Khmer."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Huyện đảo Phú Quốc (Kiên Giang) và huyện đảo Cát Hải (Hải Phòng) nức tiếng với loại gia vị truyền thống nào của Việt Nam?",
+    "options": [
+      "Tương bần",
+      "Nước mắm truyền thống ủ chượp cá cơm",
+      "Rượu nếp cái hoa vàng",
+      "Dấm gạo"
+    ],
+    "correct": 1,
+    "explanation": "Nước mắm Phú Quốc độ đạm tự nhiên cao được bảo hộ chỉ dẫn địa lý tại Liên minh châu Âu (EU)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món 'Cu đơ' kẹp bánh tráng nướng nhân mật mía gừng cay giòn rụm là đặc sản của tỉnh nào miền Trung?",
+    "options": [
+      "Nghệ An",
+      "Quảng Bình",
+      "Hà Tĩnh",
+      "Quảng Trị"
+    ],
+    "correct": 2,
+    "explanation": "Kẹo cu đơ Hà Tĩnh ngọt đậm vị mật mía, cay nồng vị gừng già ăn cùng chè xanh nóng hổi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Làng gốm Bát Tràng làng nghề gốm sứ truyền thống có lịch sử hơn 700 năm thuộc huyện nào của Hà Nội?",
+    "options": [
+      "Huyện Đông Anh",
+      "Huyện Thanh Trì",
+      "Huyện Mê Linh",
+      "Huyện Gia Lâm"
+    ],
+    "correct": 3,
+    "explanation": "Gốm Bát Tràng tinh xảo với các dòng men lam, men rạn danh tiếng xuất khẩu khắp thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Làng hoa Sa Đéc vựa hoa kiểng lớn nhất vùng Tây Nam Bộ thuộc địa bàn tỉnh nào?",
+    "options": [
+      "Đồng Tháp",
+      "An Giang",
+      "Tiền Giang",
+      "Bến Tre"
+    ],
+    "correct": 0,
+    "explanation": "Làng hoa Tân Quy Đông (Sa Đéc) rực rỡ sắc màu mỗi độ Tết đến xuân về."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Vị giác của con người có thể cảm nhận được 5 vị cơ bản: ngọt, chua, mặn, đắng và vị thứ năm thơm ngon đậm đà mang tên là gì?",
+    "options": [
+      "Vị cay",
+      "Vị Umami (vị ngọt thịt / mì chính)",
+      "Vị chát",
+      "Vị nồng"
+    ],
+    "correct": 1,
+    "explanation": "Vị Umami do giáo sư Nhật Bản Kikunae Ikeda phát hiện năm 1908 kích thích thụ thể glutamate."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Nguyên liệu nào là thành phần chính tạo nên vị cay xé lưỡi trong các quả ớt tươi?",
+    "options": [
+      "Piperine",
+      "Curcumin",
+      "Capsaicin",
+      "Menthol"
+    ],
+    "correct": 2,
+    "explanation": "Capsaicin kích thích thụ thể nhiệt cảm giác đau rát khiến não bộ giải phóng endorphin tạo cảm giác hưng phấn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cây gia vị nào có tinh dầu Menthol mang lại cảm giác mát lạnh sảng khoái trong kem đánh răng và kẹo cao su?",
+    "options": [
+      "Cây quế",
+      "Cây hồi",
+      "Cây đinh hương",
+      "Cây bạc hà (Mint)"
+    ],
+    "correct": 3,
+    "explanation": "Menthol kích hoạt thụ thể cảm nhận lạnh TRPM8 trên các đầu dây thần kinh da và niêm mạc miệng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thủ môn huyền thoại nào của đội tuyển bóng đá Liên Xô là thủ môn duy nhất trong lịch sử từng giành Quả bóng vàng (1963)?",
+    "options": [
+      "Lev Yashin (Biệt danh 'Nhện đen')",
+      "Dino Zoff",
+      "Gianluigi Buffon",
+      "Iker Casillas"
+    ],
+    "correct": 0,
+    "explanation": "Lev Yashin nổi tiếng với phản xạ phi thường trong trang phục màu đen huyền thoại."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Môn thể thao nào được mệnh danh là 'Môn thể thao của các vị vua' (Sport of Kings) xuất phát từ quý tộc Anh?",
+    "options": [
+      "Bóng đá",
+      "Quần vợt hoặc Đua ngựa",
+      "Bóng rổ",
+      "Bơi lội"
+    ],
+    "correct": 1,
+    "explanation": "Môn quần vợt và đua ngựa quý tộc được coi là những môn thể thao hoàng gia sang trọng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kích thước tiêu chuẩn của một bàn cờ vua quốc tế bao gồm bao nhiêu ô vuông đen trắng xen kẽ?",
+    "options": [
+      "100 ô vuông",
+      "32 ô vuông",
+      "64 ô vuông (8x8 ô)",
+      "81 ô vuông"
+    ],
+    "correct": 2,
+    "explanation": "Bàn cờ vua gồm 8 hàng ngang và 8 cột dọc với 32 quân trắng và 32 quân đen lúc ban đầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào mà các đấu thủ dùng vợt lưới đánh quả cầu lông bay qua tấm lưới căng ngang giữa sân?",
+    "options": [
+      "Quần vợt",
+      "Bóng bàn",
+      "Bóng chuyền",
+      "Cầu lông (Badminton)"
+    ],
+    "correct": 3,
+    "explanation": "Tốc độ quả cầu lông sau cú đập smash có thể vượt qua 400 km/h, nhanh nhất trong mọi môn thể thao dùng vợt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ai là người đồng sáng lập tập đoàn công nghệ Microsoft cùng với Paul Allen vào năm 1975?",
+    "options": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Mark Zuckerberg",
+      "Larry Page"
+    ],
+    "correct": 0,
+    "explanation": "Bill Gates từng nhiều năm giữ vị trí người giàu nhất hành tinh nhờ sự thống trị của hệ điều hành Windows."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hãng công nghệ nào gắn liền với logo quả táo cắn dở và các dòng sản phẩm iPhone, iPad, MacBook?",
+    "options": [
+      "Samsung",
+      "Apple Inc.",
+      "Sony",
+      "Google"
+    ],
+    "correct": 1,
+    "explanation": "Apple được sáng lập bởi Steve Jobs, Steve Wozniak và Ronald Wayne năm 1976."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trí tuệ nhân tạo (AI) viết tắt từ cụm từ tiếng Anh nào?",
+    "options": [
+      "Automatic Internet",
+      "Applied Information",
+      "Artificial Intelligence",
+      "Advanced Interface"
+    ],
+    "correct": 2,
+    "explanation": "AI mô phỏng khả năng tư duy, học tập và giải quyết vấn đề của con người trên máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ blockchain chuỗi khối bảo mật phân tán là nền tảng công nghệ cho sự ra đời của đồng tiền kỹ thuật số nào đầu tiên (năm 2009)?",
+    "options": [
+      "Ethereum",
+      "Ripple",
+      "Litecoin",
+      "Bitcoin (BTC)"
+    ],
+    "correct": 3,
+    "explanation": "Bitcoin do nhân vật ẩn danh mang tên Satoshi Nakamoto sáng lập."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hệ số đo mật độ điểm ảnh trên màn hình điện thoại hoặc máy tính thể hiện độ sắc nét được viết tắt là gì?",
+    "options": [
+      "PPI (Pixels Per Inch)",
+      "FPS",
+      "DPI",
+      "Hz"
+    ],
+    "correct": 0,
+    "explanation": "Chỉ số PPI càng cao thì hình ảnh hiển thị càng mịn màng không thấy các hạt điểm ảnh răng cưa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tần số quét màn hình điện thoại 120Hz có nghĩa là gì?",
+    "options": [
+      "Độ sáng 120 nit",
+      "Màn hình làm mới hình ảnh 120 lần trong một giây",
+      "Tốc độ mạng 120 Mbps",
+      "Độ phân giải 120 megapixel"
+    ],
+    "correct": 1,
+    "explanation": "Tần số quét 120Hz giúp các thao tác vuốt cuộn và chơi game mượt mà vượt trội."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cáp quang truyền dữ liệu Internet xuyên đại dương bằng loại tín hiệu nào với tốc độ gần bằng ánh sáng?",
+    "options": [
+      "Sóng vô tuyến",
+      "Xung điện từ",
+      "Tín hiệu ánh sáng (quang học)",
+      "Sóng siêu âm"
+    ],
+    "correct": 2,
+    "explanation": "Sợi cáp quang bằng thủy tinh tinh khiết truyền chùm tia laser dựa trên nguyên lý phản xạ toàn phần."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thiết bị nào chuyển đổi điện áp một chiều (DC) từ pin mặt trời thành điện xoay chiều (AC) dùng trong gia đình?",
+    "options": [
+      "Bộ nghịch lưu (Inverter)",
+      "Máy biến áp",
+      "Tụ điện",
+      "Máy phát điện"
+    ],
+    "correct": 0,
+    "explanation": "Inverter là trái tim của hệ thống điện mặt trời áp mái hiện đại."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chuẩn sạc nhanh phổ biến trên hầu hết các điện thoại thông minh và máy tính xách tay hiện nay là cổng nào?",
+    "options": [
+      "Cổng Micro-USB",
+      "Cổng USB Type-C",
+      "Cổng Lightning",
+      "Cổng VGA"
+    ],
+    "correct": 1,
+    "explanation": "USB-C có khả năng cắm đảo chiều thuận tiện và hỗ trợ truyền dữ liệu tốc độ cực cao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ màn hình OLED trên điện thoại cao cấp có ưu điểm vượt trội nào so với màn hình LCD truyền thống?",
+    "options": [
+      "Tốn pin gấp ba lần",
+      "Màn hình luôn dày hơn",
+      "Mỗi điểm ảnh tự phát sáng mang lại màu đen sâu tuyệt đối",
+      "Góc nhìn hẹp hơn"
+    ],
+    "correct": 2,
+    "explanation": "OLED không cần đèn nền (backlight) nên mỏng nhẹ và tiết kiệm pin khi hiển thị màu tối."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Công nghệ nhận diện khuôn mặt sinh trắc học 3D trên các dòng iPhone của Apple mang tên gọi là gì?",
+    "options": [
+      "Touch ID",
+      "Iris Scanner",
+      "Fingerprint 3D",
+      "Face ID"
+    ],
+    "correct": 3,
+    "explanation": "Face ID chiếu hàng vạn điểm hồng ngoại vô hình lập bản đồ khuôn mặt cực kỳ an toàn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tên viết tắt của mạng di động thế hệ thứ 5 với tốc độ siêu nhanh và độ trễ cực thấp là gì?",
+    "options": [
+      "Mạng 5G",
+      "Mạng 4G",
+      "Mạng 3G",
+      "Mạng Edge"
+    ],
+    "correct": 0,
+    "explanation": "Mạng 5G mở đường cho xe tự hành, phẫu thuật từ xa và thành phố thông minh IoT."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ngôn ngữ lập trình nào được sử dụng phổ biến nhất hiện nay trong lĩnh vực Trí tuệ nhân tạo (AI) và Khoa học dữ liệu?",
+    "options": [
+      "HTML",
+      "Python",
+      "Pascal",
+      "PHP"
+    ],
+    "correct": 1,
+    "explanation": "Python sở hữu cú pháp trong sáng cùng hệ sinh thái thư viện AI khổng lồ như TensorFlow, PyTorch."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Mạng xã hội chia sẻ video dạng ngắn trực tiếp tương tác bùng nổ toàn cầu thuộc công ty ByteDance là gì?",
+    "options": [
+      "X (Twitter)",
+      "Reddit",
+      "TikTok",
+      "Pinterest"
+    ],
+    "correct": 2,
+    "explanation": "TikTok tạo nên cuộc cách mạng về video ngắn và nội dung sáng tạo di động toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Dung lượng bộ nhớ 1 Terabyte (1 TB) tương đương với bao nhiêu Gigabyte (GB)?",
+    "options": [
+      "100 GB",
+      "512 GB",
+      "1.000.000 GB",
+      "1.024 Gigabyte (GB)"
+    ],
+    "correct": 3,
+    "explanation": "Trong hệ thống máy tính nhị phân: 1 TB = 1.024 GB = 1.048.576 MB."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Định dạng tệp âm thanh nén kỹ thuật số phổ biến nhất trên Internet suốt nhiều thập kỷ qua là định dạng nào?",
+    "options": [
+      "MP3 (MPEG-1 Audio Layer III)",
+      "WAV",
+      "FLAC",
+      "MIDI"
+    ],
+    "correct": 0,
+    "explanation": "MP3 nén dung lượng xuống còn khoảng 1/10 mà vẫn giữ chất lượng nghe gần như đĩa CD."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trang bách khoa toàn thư mở trực tuyến lớn nhất hành tinh được đóng góp nội dung bởi cộng đồng toàn cầu là gì?",
+    "options": [
+      "Britannica",
+      "Wikipedia",
+      "Yahoo Answers",
+      "Google Docs"
+    ],
+    "correct": 1,
+    "explanation": "Wikipedia cung cấp tri thức miễn phí bằng hàng trăm ngôn ngữ khác nhau."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Môn bóng đá bãi biển thi đấu với đội hình bao nhiêu cầu thủ mỗi bên trên sân cát?",
+    "options": [
+      "7 cầu thủ",
+      "11 cầu thủ",
+      "5 cầu thủ mỗi bên",
+      "6 cầu thủ"
+    ],
+    "correct": 2,
+    "explanation": "Bóng đá bãi biển thi đấu 3 hiệp, mỗi hiệp 12 phút với những pha móc bóng ngả bàn đèn đẹp mắt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Khoảng cách từ chấm phạt đền (penalty) đến khung thành trong môn bóng đá 11 người tiêu chuẩn là bao nhiêu mét?",
+    "options": [
+      "9 mét",
+      "16 mét 50",
+      "7 mét",
+      "11 mét (12 yards)"
+    ],
+    "correct": 3,
+    "explanation": "Chấm 11m là thử thách tâm lý cân não giữa cầu thủ sút phạt và thủ môn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong môn bóng rổ tiêu chuẩn, một cú ném bóng thành công từ phía sau vòng bán nguyệt được tính bao nhiêu điểm?",
+    "options": [
+      "3 điểm",
+      "1 điểm",
+      "2 điểm",
+      "4 điểm"
+    ],
+    "correct": 0,
+    "explanation": "Vạch 3 điểm nằm cách tâm rổ khoảng 6,75m theo luật FIBA quốc tế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào được gọi là 'Đường đua F1' đua xe bánh hở tốc độ đỉnh cao danh giá nhất hành tinh?",
+    "options": [
+      "Nascar",
+      "Công thức 1 (Formula 1)",
+      "MotoGP",
+      "Rally Dakar"
+    ],
+    "correct": 1,
+    "explanation": "Xe F1 có thể tăng tốc từ 0 lên 200 km/h rồi phanh đứng lại chỉ trong vài giây."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở truyền thống Việt Nam nước dùng thơm ngát ninh từ xương thường sử dụng hai loại thảo mộc nướng thơm nào?",
+    "options": [
+      "Lá chanh và ớt",
+      "Hạt tiêu đen và tỏi",
+      "Hoa hồi và thảo quả (cùng quế, gừng nướng)",
+      "Rau mùi và sả"
+    ],
+    "correct": 2,
+    "explanation": "Hồi, quế, thảo quả nướng tạo nên tầng hương vị quyến rũ đặc trưng của nồi nước dùng phở bò Hà Nội."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món 'Bún bò Huế' đậm đà phong vị cố đô không thể thiếu loại gia vị ướp truyền thống nào tạo nên mùi vị đặc trưng?",
+    "options": [
+      "Nước mắm cá cơm",
+      "Tương bần",
+      "Mắm tôm",
+      "Mắm ruốc Huế và sả đập dập"
+    ],
+    "correct": 3,
+    "explanation": "Mắm ruốc hòa tan chắt lấy nước trong cùng sả phi thơm mang lại hồn cốt cho bát bún bò Huế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trái sầu riêng thơm nức được mệnh danh là 'Vua của các loại trái cây' nhiệt đới nổi tiếng với giống nào ở Tiền Giang và Bến Tre?",
+    "options": [
+      "Sầu riêng Ri6 (hoặc Monthong)",
+      "Sầu riêng Cái Mơn",
+      "Sầu riêng hạt lép",
+      "Sầu riêng khổ qua"
+    ],
+    "correct": 0,
+    "explanation": "Ri6 cơm vàng, hạt lép, vị ngọt béo ngậy được đặt theo tên ông Sáu Ri (Nguyễn Văn Ri) lai tạo thành công."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Quả thanh long ruột trắng và ruột đỏ mọng nước được trồng bạt ngàn thành 'Thủ phủ thanh long' tại tỉnh nào duyên hải miền Trung?",
+    "options": [
+      "Ninh Thuận",
+      "Bình Thuận",
+      "Khánh Hòa",
+      "Bình Định"
+    ],
+    "correct": 1,
+    "explanation": "Đêm về hàng triệu bóng đèn thắp sáng trên các trang trại thanh long Bình Thuận đẹp như dải ngân hà."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chè Thái Nguyên nức tiếng cả nước với danh hiệu 'Đệ nhất danh trà' gắn liền với vùng chè nổi tiếng nào?",
+    "options": [
+      "Vùng chè Suối Giàng",
+      "Vùng chè Mộc Châu",
+      "Vùng chè Tân Cương",
+      "Vùng chè Bảo Lộc"
+    ],
+    "correct": 2,
+    "explanation": "Trà Tân Cương cánh móc câu, nước xanh vàng ong, vị tiền chát hậu ngọt sâu lắng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Gia vị hạt tiêu đen cay nồng nổi tiếng thơm ngon xuất khẩu hàng đầu thế giới được trồng nhiều nhất tại huyện đảo nào?",
+    "options": [
+      "Côn Đảo",
+      "Đảo Lý Sơn",
+      "Đảo Cát Bà",
+      "Huyện đảo Phú Quốc (Kiên Giang)"
+    ],
+    "correct": 3,
+    "explanation": "Hồ tiêu Phú Quốc có vỏ mẩy, hạt chắc, vị thơm cay nồng đậm đà khó quên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 11 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cao Bằng",
+      "Lạng Sơn",
+      "Bắc Kạn",
+      "Hà Giang"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 11 thuộc về địa bàn tỉnh/thành phố Cao Bằng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 12 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cao Bằng",
+      "Lạng Sơn",
+      "Bắc Giang",
+      "Quảng Ninh"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 12 thuộc về địa bàn tỉnh/thành phố Lạng Sơn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 14 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hải Phòng",
+      "Hải Dương",
+      "Quảng Ninh",
+      "Bắc Ninh"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 14 thuộc về địa bàn tỉnh/thành phố Quảng Ninh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 15 và 16 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Ninh",
+      "Thái Bình",
+      "Hải Dương",
+      "Thành phố Hải Phòng"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 15 và 16 thuộc về địa bàn tỉnh/thành phố Thành phố Hải Phòng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 17 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Thái Bình",
+      "Nam Định",
+      "Hưng Yên",
+      "Hà Nam"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 17 thuộc về địa bàn tỉnh/thành phố Thái Bình."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 18 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Ninh Bình",
+      "Nam Định",
+      "Thái Bình",
+      "Hà Nam"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 18 thuộc về địa bàn tỉnh/thành phố Nam Định."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 19 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Vĩnh Phúc",
+      "Tuyên Quang",
+      "Phú Thọ",
+      "Yên Bái"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 19 thuộc về địa bàn tỉnh/thành phố Phú Thọ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 20 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bắc Kạn",
+      "Lạng Sơn",
+      "Bắc Giang",
+      "Thái Nguyên"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 20 thuộc về địa bàn tỉnh/thành phố Thái Nguyên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 21 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Yên Bái",
+      "Lào Cai",
+      "Tuyên Quang",
+      "Phú Thọ"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 21 thuộc về địa bàn tỉnh/thành phố Yên Bái."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 22 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hà Giang",
+      "Tuyên Quang",
+      "Yên Bái",
+      "Thái Nguyên"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 22 thuộc về địa bàn tỉnh/thành phố Tuyên Quang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 23 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cao Bằng",
+      "Lào Cai",
+      "Hà Giang",
+      "Tuyên Quang"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 23 thuộc về địa bàn tỉnh/thành phố Hà Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 24 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Yên Bái",
+      "Lai Châu",
+      "Hà Giang",
+      "Lào Cai"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 24 thuộc về địa bàn tỉnh/thành phố Lào Cai."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 25 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Lai Châu",
+      "Điện Biên",
+      "Lào Cai",
+      "Sơn La"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 25 thuộc về địa bàn tỉnh/thành phố Lai Châu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 26 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hòa Bình",
+      "Sơn La",
+      "Điện Biên",
+      "Lai Châu"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 26 thuộc về địa bàn tỉnh/thành phố Sơn La."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 27 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Sơn La",
+      "Lai Châu",
+      "Điện Biên",
+      "Hòa Bình"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 27 thuộc về địa bàn tỉnh/thành phố Điện Biên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 28 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Phú Thọ",
+      "Sơn La",
+      "Hà Nam",
+      "Hòa Bình"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 28 thuộc về địa bàn tỉnh/thành phố Hòa Bình."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 29 đến 33 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Thủ đô Hà Nội",
+      "TP. Hồ Chí Minh",
+      "Hải Phòng",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 29 đến 33 thuộc về địa bàn tỉnh/thành phố Thủ đô Hà Nội."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 34 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hưng Yên",
+      "Hải Dương",
+      "Bắc Ninh",
+      "Hải Phòng"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 34 thuộc về địa bàn tỉnh/thành phố Hải Dương."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 35 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Nam Định",
+      "Hà Nam",
+      "Ninh Bình",
+      "Thanh Hóa"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 35 thuộc về địa bàn tỉnh/thành phố Ninh Bình."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 36 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Nghệ An",
+      "Ninh Bình",
+      "Hòa Bình",
+      "Thanh Hóa"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 36 thuộc về địa bàn tỉnh/thành phố Thanh Hóa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 37 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Nghệ An",
+      "Hà Tĩnh",
+      "Thanh Hóa",
+      "Quảng Bình"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 37 thuộc về địa bàn tỉnh/thành phố Nghệ An."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 38 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Nghệ An",
+      "Hà Tĩnh",
+      "Quảng Bình",
+      "Quảng Trị"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 38 thuộc về địa bàn tỉnh/thành phố Hà Tĩnh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 43 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Nam",
+      "Thừa Thiên Huế",
+      "Thành phố Đà Nẵng",
+      "Quảng Ngãi"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 43 thuộc về địa bàn tỉnh/thành phố Thành phố Đà Nẵng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 47 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Đắk Nông",
+      "Gia Lai",
+      "Lâm Đồng",
+      "Đắk Lắk"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 47 thuộc về địa bàn tỉnh/thành phố Đắk Lắk."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 48 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Đắk Nông",
+      "Đắk Lắk",
+      "Lâm Đồng",
+      "Bình Phước"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 48 thuộc về địa bàn tỉnh/thành phố Đắk Nông."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 49 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Đắk Lắk",
+      "Lâm Đồng",
+      "Khánh Hòa",
+      "Bình Thuận"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 49 thuộc về địa bàn tỉnh/thành phố Lâm Đồng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 50 đến 59 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hà Nội",
+      "Bình Dương",
+      "Thành phố Hồ Chí Minh",
+      "Đồng Nai"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 50 đến 59 thuộc về địa bàn tỉnh/thành phố Thành phố Hồ Chí Minh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 60 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Đồng Nai"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 60 thuộc về địa bàn tỉnh/thành phố Đồng Nai."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 61 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Dương",
+      "Đồng Nai",
+      "Bình Phước",
+      "Tây Ninh"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 61 thuộc về địa bàn tỉnh/thành phố Bình Dương."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 62 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Tiền Giang",
+      "Long An",
+      "Tây Ninh",
+      "Đồng Tháp"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 62 thuộc về địa bàn tỉnh/thành phố Long An."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 63 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bến Tre",
+      "Long An",
+      "Tiền Giang",
+      "Vĩnh Long"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 63 thuộc về địa bàn tỉnh/thành phố Tiền Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 64 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cần Thơ",
+      "Tiền Giang",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 64 thuộc về địa bàn tỉnh/thành phố Vĩnh Long."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 65 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Thành phố Cần Thơ",
+      "Hậu Giang",
+      "Vĩnh Long",
+      "An Giang"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 65 thuộc về địa bàn tỉnh/thành phố Thành phố Cần Thơ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 66 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "An Giang",
+      "Đồng Tháp",
+      "Tiền Giang",
+      "Long An"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 66 thuộc về địa bàn tỉnh/thành phố Đồng Tháp."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 67 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Kiên Giang",
+      "Đồng Tháp",
+      "An Giang",
+      "Cần Thơ"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 67 thuộc về địa bàn tỉnh/thành phố An Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 68 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "An Giang",
+      "Cà Mau",
+      "Bạc Liêu",
+      "Kiên Giang"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 68 thuộc về địa bàn tỉnh/thành phố Kiên Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 69 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cà Mau",
+      "Bạc Liêu",
+      "Kiên Giang",
+      "Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 69 thuộc về địa bàn tỉnh/thành phố Cà Mau."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 70 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Dương",
+      "Tây Ninh",
+      "Long An",
+      "Bình Phước"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 70 thuộc về địa bàn tỉnh/thành phố Tây Ninh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 71 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Trà Vinh",
+      "Tiền Giang",
+      "Bến Tre",
+      "Vĩnh Long"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 71 thuộc về địa bàn tỉnh/thành phố Bến Tre."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 72 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Đồng Nai",
+      "Bình Thuận",
+      "TP. Hồ Chí Minh",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 72 thuộc về địa bàn tỉnh/thành phố Bà Rịa - Vũng Tàu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 73 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Bình",
+      "Hà Tĩnh",
+      "Quảng Trị",
+      "Thừa Thiên Huế"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 73 thuộc về địa bàn tỉnh/thành phố Quảng Bình."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 74 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Bình",
+      "Quảng Trị",
+      "Thừa Thiên Huế",
+      "Đà Nẵng"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 74 thuộc về địa bàn tỉnh/thành phố Quảng Trị."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 75 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Đà Nẵng",
+      "Quảng Trị",
+      "Thừa Thiên Huế",
+      "Quảng Nam"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 75 thuộc về địa bàn tỉnh/thành phố Thừa Thiên Huế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 76 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Nam",
+      "Bình Định",
+      "Kon Tum",
+      "Quảng Ngãi"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 76 thuộc về địa bàn tỉnh/thành phố Quảng Ngãi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 77 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Định",
+      "Phú Yên",
+      "Quảng Ngãi",
+      "Gia Lai"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 77 thuộc về địa bàn tỉnh/thành phố Bình Định."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 78 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Khánh Hòa",
+      "Phú Yên",
+      "Bình Định",
+      "Gia Lai"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 78 thuộc về địa bàn tỉnh/thành phố Phú Yên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 79 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Ninh Thuận",
+      "Phú Yên",
+      "Khánh Hòa",
+      "Đắk Lắk"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 79 thuộc về địa bàn tỉnh/thành phố Khánh Hòa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 81 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Kon Tum",
+      "Đắk Lắk",
+      "Bình Định",
+      "Gia Lai"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 81 thuộc về địa bàn tỉnh/thành phố Gia Lai."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 82 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Kon Tum",
+      "Gia Lai",
+      "Quảng Nam",
+      "Quảng Ngãi"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 82 thuộc về địa bàn tỉnh/thành phố Kon Tum."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 83 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bạc Liêu",
+      "Sóc Trăng",
+      "Hậu Giang",
+      "Trà Vinh"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 83 thuộc về địa bàn tỉnh/thành phố Sóc Trăng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 84 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bến Tre",
+      "Sóc Trăng",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 84 thuộc về địa bàn tỉnh/thành phố Trà Vinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 85 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Thuận",
+      "Khánh Hòa",
+      "Lâm Đồng",
+      "Ninh Thuận"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 85 thuộc về địa bàn tỉnh/thành phố Ninh Thuận."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 86 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Đồng Nai",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 86 thuộc về địa bàn tỉnh/thành phố Bình Thuận."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 88 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "Hà Nội",
+      "Tuyên Quang"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 88 thuộc về địa bàn tỉnh/thành phố Vĩnh Phúc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 89 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Hải Dương",
+      "Thái Bình",
+      "Hưng Yên",
+      "Hà Nam"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 89 thuộc về địa bàn tỉnh/thành phố Hưng Yên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 90 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Nam Định",
+      "Ninh Bình",
+      "Hưng Yên",
+      "Hà Nam"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 90 thuộc về địa bàn tỉnh/thành phố Hà Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 92 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Quảng Nam",
+      "Đà Nẵng",
+      "Quảng Ngãi",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 92 thuộc về địa bàn tỉnh/thành phố Quảng Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 93 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bình Dương",
+      "Bình Phước",
+      "Tây Ninh",
+      "Đắk Nông"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 93 thuộc về địa bàn tỉnh/thành phố Bình Phước."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 94 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cà Mau",
+      "Sóc Trăng",
+      "Bạc Liêu",
+      "Hậu Giang"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 94 thuộc về địa bàn tỉnh/thành phố Bạc Liêu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 95 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Cần Thơ",
+      "Sóc Trăng",
+      "Kiên Giang",
+      "Hậu Giang"
+    ],
+    "correct": 3,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 95 thuộc về địa bàn tỉnh/thành phố Hậu Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 97 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bắc Kạn",
+      "Cao Bằng",
+      "Thái Nguyên",
+      "Tuyên Quang"
+    ],
+    "correct": 0,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 97 thuộc về địa bàn tỉnh/thành phố Bắc Kạn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 98 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bắc Ninh",
+      "Bắc Giang",
+      "Lạng Sơn",
+      "Thái Nguyên"
+    ],
+    "correct": 1,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 98 thuộc về địa bàn tỉnh/thành phố Bắc Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ký hiệu biển số xe cơ giới đường bộ mang số đầu 99 được cấp cho tỉnh/thành phố nào của nước ta?",
+    "options": [
+      "Bắc Giang",
+      "Hà Nội",
+      "Bắc Ninh",
+      "Hải Dương"
+    ],
+    "correct": 2,
+    "explanation": "Theo quy định hiện hành, ký hiệu biển số 99 thuộc về địa bàn tỉnh/thành phố Bắc Ninh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt tiêu chuẩn trên bàn phím máy tính dùng để sao chép (Copy) văn bản hoặc tệp là gì?",
+    "options": [
+      "Ctrl + C (Command + C trên Mac)",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
+    ],
+    "correct": 0,
+    "explanation": "Phím C là chữ cái đầu của từ Copy trong tiếng Anh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để dán (Paste) nội dung vừa sao chép vào vị trí con trỏ là gì?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V (Command + V trên Mac)",
+      "Ctrl + P",
+      "Ctrl + S"
+    ],
+    "correct": 1,
+    "explanation": "Phím tắt Paste nhanh chóng đưa dữ liệu từ Clipboard vào tài liệu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để cắt (Cut) đối tượng đang chọn vào bộ nhớ tạm là gì?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + Z",
+      "Ctrl + X",
+      "Ctrl + A"
+    ],
+    "correct": 2,
+    "explanation": "Ký tự X trông giống chiếc kéo dùng để cắt nội dung."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để hoàn tác (Undo) lệnh vừa thực hiện trước đó là gì?",
+    "options": [
+      "Ctrl + Y",
+      "Ctrl + U",
+      "Ctrl + R",
+      "Ctrl + Z"
+    ],
+    "correct": 3,
+    "explanation": "Ctrl+Z là vị cứu tinh khi vô tình xóa nhầm dữ liệu trong văn bản."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để lưu tệp tài liệu đang mở nhanh chóng (Save) là gì?",
+    "options": [
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + P",
+      "Ctrl + D"
+    ],
+    "correct": 0,
+    "explanation": "Phím S viết tắt từ 'Save' giúp lưu công việc phòng ngừa mất điện."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để bôi đen chọn toàn bộ nội dung (Select All) trên trang là gì?",
+    "options": [
+      "Ctrl + B",
+      "Ctrl + A",
+      "Ctrl + S",
+      "Ctrl + T"
+    ],
+    "correct": 1,
+    "explanation": "Ctrl+A chọn tất cả chữ và hình ảnh trên văn bản đang mở."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để mở hộp thoại tìm kiếm từ khóa (Find) trong văn bản hoặc trang web là gì?",
+    "options": [
+      "Ctrl + H",
+      "Ctrl + K",
+      "Ctrl + F",
+      "Ctrl + G"
+    ],
+    "correct": 2,
+    "explanation": "Ctrl+F viết tắt của từ 'Find' giúp tra cứu nhanh đoạn thông tin cần tìm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Phím chức năng nào trên cùng bàn phím dùng để làm mới tải lại trang web (Reload / Refresh)?",
+    "options": [
+      "Phím F1",
+      "Phím F8",
+      "Phím F12",
+      "Phím F5"
+    ],
+    "correct": 3,
+    "explanation": "Bấm F5 (hoặc Ctrl+F5) để tải lại toàn bộ nội dung trang web mới nhất."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt kinh điển dùng để đóng ngay cửa sổ ứng dụng đang mở trên hệ điều hành Windows là gì?",
+    "options": [
+      "Alt + F4",
+      "Ctrl + F4",
+      "Shift + F4",
+      "Windows + F4"
+    ],
+    "correct": 0,
+    "explanation": "Alt+F4 đóng nhanh ứng dụng hoặc mở bảng tắt máy tính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tổ hợp phím tắt dùng để chuyển đổi nhanh qua lại giữa các cửa sổ ứng dụng đang chạy là gì?",
+    "options": [
+      "Ctrl + Tab",
+      "Alt + Tab",
+      "Shift + Tab",
+      "Windows + Tab"
+    ],
+    "correct": 1,
+    "explanation": "Alt+Tab hiển thị danh sách các ứng dụng đang mở để chọn chuyển đổi tức thì."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong một trận thi đấu bóng chuyền trong nhà tiêu chuẩn, mỗi đội có bao nhiêu vận động viên trên sân?",
+    "options": [
+      "5 vận động viên",
+      "7 vận động viên",
+      "6 vận động viên mỗi đội",
+      "4 vận động viên"
+    ],
+    "correct": 2,
+    "explanation": "Đội bóng chuyền luân phiên xoay vòng vị trí theo chiều kim đồng hồ khi giành lại quyền giao bóng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong môn thi đấu bóng rổ chuyên nghiệp (NBA/FIBA), mỗi đội có bao nhiêu cầu thủ chính thức thi đấu trên sân?",
+    "options": [
+      "6 cầu thủ",
+      "4 cầu thủ",
+      "7 cầu thủ",
+      "5 cầu thủ mỗi đội"
+    ],
+    "correct": 3,
+    "explanation": "Năm vị trí gồm: Hậu vệ dẫn bóng (PG), Hậu vệ ghi điểm (SG), Tiền đạo phụ (SF), Tiền đạo chính (PF) và Trung phong (C)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong một trận bóng đá Futsal (bóng đá trong nhà) chính thức, mỗi đội có bao nhiêu cầu thủ trên sân?",
+    "options": [
+      "5 cầu thủ mỗi đội (bao gồm cả thủ môn)",
+      "6 cầu thủ",
+      "7 cầu thủ",
+      "4 cầu thủ"
+    ],
+    "correct": 0,
+    "explanation": "Futsal thi đấu sân sàn gỗ bóng cỡ nhỏ, không có việt vị và thời gian dừng khi bóng ngoài cuộc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Trong môn bóng ném (Handball) tiêu chuẩn quốc tế, mỗi đội có bao nhiêu cầu thủ cùng thi đấu trên sân?",
+    "options": [
+      "5 cầu thủ",
+      "7 cầu thủ mỗi đội (6 cầu thủ và 1 thủ môn)",
+      "8 cầu thủ",
+      "11 cầu thủ"
+    ],
+    "correct": 1,
+    "explanation": "Bóng ném chơi bóng bằng tay ném vào khung thành cầu môn rộng 3m cao 2m."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Trong môn bóng chày (Baseball), mỗi đội có bao nhiêu cầu thủ trên sân trong lượt phòng thủ?",
+    "options": [
+      "8 cầu thủ",
+      "10 cầu thủ",
+      "9 cầu thủ",
+      "11 cầu thủ"
+    ],
+    "correct": 2,
+    "explanation": "Đội phòng ngự gồm ném bóng (pitcher), bắt bóng (catcher), 4 cầu thủ nội dịch và 3 cầu thủ ngoại dịch."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Một trận đấu bóng đá thông thường kéo dài bao nhiêu phút chính thức (không tính hiệp phụ)?",
+    "options": [
+      "80 phút",
+      "100 phút",
+      "60 phút",
+      "90 phút chia làm 2 hiệp (mỗi hiệp 45 phút)"
+    ],
+    "correct": 3,
+    "explanation": "Nghỉ giữa hai hiệp thông thường kéo dài 15 phút."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chiếc cúp vàng danh giá của giải vô địch bóng đá thế giới FIFA World Cup hiện nay được đúc bằng kim loại gì?",
+    "options": [
+      "Vàng nguyên khối 18 carat (75% vàng)",
+      "Vàng 24K ròng",
+      "Bạc mạ vàng",
+      "Đồng thau mạ vàng"
+    ],
+    "correct": 0,
+    "explanation": "Cúp vàng cao 36,8 cm nặng 6,1 kg mô tả hai nhân vật nâng đỡ quả địa cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cự ly của một cuộc chạy đua Marathon tiêu chuẩn quốc tế chính xác là bao nhiêu km?",
+    "options": [
+      "40 km tròn",
+      "42,195 km",
+      "50 km",
+      "45,5 km"
+    ],
+    "correct": 1,
+    "explanation": "Khoảng cách bắt nguồn từ câu chuyện người lính Pheidippides chạy từ cánh đồng Marathon về Athens báo tin thắng trận."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Vitamin nào rất cần thiết cho thị lực của mắt, nếu thiếu hụt sẽ gây ra bệnh quáng gà và khô mắt?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin B1"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin A có nhiều trong dầu gan cá, cà rốt, bí đỏ, gấc và lòng đỏ trứng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Căn bệnh 'Scorbut' (chảy máu chân răng, xuất huyết dưới da) do cơ thể thiếu hụt nghiêm trọng loại vitamin nào?",
+    "options": [
+      "Vitamin A",
+      "Vitamin E",
+      "Vitamin K",
+      "Vitamin C (Axit ascorbic)"
+    ],
+    "correct": 3,
+    "explanation": "Thủy thủ ngày xưa đi biển dài ngày thiếu rau xanh trái cây tươi thường mắc bệnh scorbut."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thiếu hụt vi chất I-ốt trong khẩu phần ăn hàng ngày của người lớn và trẻ em sẽ dẫn đến chứng bệnh gì?",
+    "options": [
+      "Bệnh bướu cổ và thiểu năng phát triển trí tuệ",
+      "Bệnh còi xương",
+      "Bệnh loãng xương",
+      "Bệnh tiểu đường"
+    ],
+    "correct": 0,
+    "explanation": "Muối i-ốt là giải pháp đơn giản và hiệu quả nhất để bổ sung i-ốt cho toàn dân."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Khi bị bỏng nhiệt nhẹ do nước sôi hoặc lửa, việc xử trí sơ cứu đầu tiên và quan trọng nhất là gì?",
+    "options": [
+      "Bôi kem đánh răng lên ngay",
+      "Ngâm hoặc xả vết bỏng dưới vòi nước sạch mát khoảng 15 - 20 phút",
+      "Đổ nước mắm xoa đều",
+      "Bôi mỡ trăn ngay lập tức"
+    ],
+    "correct": 1,
+    "explanation": "Nước mát giúp hạ nhiệt sâu dưới da ngăn ngừa tổn thương mô lan rộng. Tuyệt đối không bôi dị vật bẩn dễ gây nhiễm trùng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Khi thực hiện kỹ thuật ép tim ngoài lồng ngực (CPR) hồi sức tim phổi cho người lớn ngưng tim, tỷ lệ ép tim và thổi ngạt chuẩn là bao nhiêu?",
+    "options": [
+      "15 lần ép : 1 lần thổi",
+      "50 lần ép : 5 lần thổi",
+      "30 lần ép tim kết hợp 2 lần thổi ngạt (30:2)",
+      "10 lần ép : 2 lần thổi"
+    ],
+    "correct": 2,
+    "explanation": "Tần số ép tim duy trì tốc độ khoảng 100 - 120 lần/phút với độ sâu ép lồng ngực khoảng 5 - 6 cm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Biển báo giao thông đường bộ có hình tròn viền đỏ nền trắng có hình vẽ màu đen là nhóm biển báo gì?",
+    "options": [
+      "Biển báo nguy hiểm",
+      "Biển hiệu lệnh",
+      "Biển chỉ dẫn",
+      "Biển báo cấm"
+    ],
+    "correct": 3,
+    "explanation": "Biển báo cấm biểu thị các điều cấm người tham gia giao thông không được vi phạm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Biển báo giao thông hình tam giác đều viền đỏ nền vàng có hình vẽ màu đen cảnh báo điều gì?",
+    "options": [
+      "Biển báo nguy hiểm",
+      "Biển hiệu lệnh",
+      "Biển cấm",
+      "Biển phụ"
+    ],
+    "correct": 0,
+    "explanation": "Biển tam giác vàng cảnh báo các mối nguy hiểm tiềm ẩn phía trước để người lái xe giảm tốc độ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Biển báo giao thông hình tròn nền màu xanh lam với hình vẽ màu trắng bên trong là nhóm biển gì?",
+    "options": [
+      "Biển báo cấm",
+      "Biển hiệu lệnh",
+      "Biển cảnh báo",
+      "Biển chỉ dẫn"
+    ],
+    "correct": 1,
+    "explanation": "Biển hiệu lệnh yêu cầu người đi đường phải chấp hành theo đúng hướng dẫn hiển thị."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Quy tắc nhường đường khi phương tiện điều khiển đi vào vòng xuyến (bùng binh) có đảo giao thông là gì?",
+    "options": [
+      "Nhường xe bên phải",
+      "Xe nào to hơn được đi trước",
+      "Nhường đường cho phương tiện đi từ bên trái tới",
+      "Không cần nhường"
+    ],
+    "correct": 2,
+    "explanation": "Theo Luật Giao thông đường bộ, vào vòng xuyến có báo hiệu đảo giao thông phải nhường đường cho xe bên trái."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chất dinh dưỡng nào là nguồn cung cấp năng lượng chủ yếu và nhanh nhất cho não bộ hoạt động hàng ngày?",
+    "options": [
+      "Chất béo (Lipid)",
+      "Chất xơ",
+      "Protein",
+      "Glucose (Đường bột cacbohydrat)"
+    ],
+    "correct": 3,
+    "explanation": "Tế bào não tiêu thụ khoảng 20% lượng glucose toàn cơ thể để duy trì tư duy sắc bén."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nền tảng dịch vụ lưu trữ đám mây của tập đoàn Google cung cấp 15GB dung lượng miễn phí là gì?",
+    "options": [
+      "Google Drive",
+      "OneDrive",
+      "iCloud",
+      "Dropbox"
+    ],
+    "correct": 0,
+    "explanation": "Google Drive tích hợp hoàn hảo với Google Docs, Sheets và Gmail cho làm việc cộng tác."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cổng giao thức mặc định (Port) sử dụng cho dịch vụ duyệt web an toàn có mã hóa HTTPS trên Internet là cổng nào?",
+    "options": [
+      "Cổng 80",
+      "Cổng 443",
+      "Cổng 21",
+      "Cổng 22"
+    ],
+    "correct": 1,
+    "explanation": "Cổng 80 dùng cho HTTP không mã hóa, trong khi cổng 443 dành riêng cho HTTPS bảo mật."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống phân giải tên miền giúp chuyển đổi địa chỉ trang web (như google.com) thành địa chỉ IP số được viết tắt là gì?",
+    "options": [
+      "DHCP",
+      "FTP",
+      "DNS (Domain Name System)",
+      "NAT"
+    ],
+    "correct": 2,
+    "explanation": "DNS hoạt động như cuốn danh bạ điện thoại thông minh của toàn mạng Internet."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cơ sở dữ liệu quan hệ (RDBMS) truy vấn thông tin bằng ngôn ngữ tiêu chuẩn có tên viết tắt là gì?",
+    "options": [
+      "HTML",
+      "JSON",
+      "XML",
+      "SQL (Structured Query Language)"
+    ],
+    "correct": 3,
+    "explanation": "SQL với các lệnh SELECT, INSERT, UPDATE, DELETE quản lý dữ liệu bảng chặt chẽ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Mô hình trí tuệ nhân tạo tạo sinh đàm thoại nổi tiếng do công ty OpenAI ra mắt cuối năm 2022 là gì?",
+    "options": [
+      "ChatGPT",
+      "Siri",
+      "Alexa",
+      "Cortana"
+    ],
+    "correct": 0,
+    "explanation": "ChatGPT dựa trên kiến trúc Transformer mở ra làn sóng bùng nổ Trí tuệ nhân tạo toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn đặc sản Nam Bộ gồm cơm tấm ăn kèm sườn heo nướng than hoa, bì lợn trộn thính và chả trứng hấp là món gì?",
+    "options": [
+      "Cơm hến",
+      "Cơm tấm Sài Gòn",
+      "Cơm lam",
+      "Cơm gà Tam Kỳ"
+    ],
+    "correct": 1,
+    "explanation": "Cơm tấm nấu từ hạt gạo tấm vỡ ăn cùng mỡ hành thơm phức và chén nước mắm chua ngọt kẹo."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản bánh tét nổi tiếng vùng đất Trà Vinh với màu xanh tím tự nhiên từ lá cẩm và nhân thập cẩm trứng muối là gì?",
+    "options": [
+      "Bánh tét lá chuối",
+      "Bánh chưng",
+      "Bánh tét Trà Cuôn",
+      "Bánh tét chay"
+    ],
+    "correct": 2,
+    "explanation": "Bánh tét Trà Cuôn (huyện Cầu Ngang, Trà Vinh) dẻo mềm nhân thịt mỡ bùi béo nổi tiếng xa gần."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món nước dùng đậm đà nấu từ cá lóc đồng, mắm cá linh cá sặc ăn kèm bắp chuối và rau muống bào miền Tây là món gì?",
+    "options": [
+      "Bún chả",
+      "Bún riêu cua",
+      "Bún ốc",
+      "Bún mắm (hoặc Bún nước lèo Sóc Trăng)"
+    ],
+    "correct": 3,
+    "explanation": "Bún nước lèo kết hợp tinh hoa ẩm thực ba dân tộc Kinh, Hoa, Khmer."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản vùng cao Tây Bắc làm từ thịt trâu tươi tẩm ướp hạt mắc khén hạt dổi rồi hun khói bếp than củi là gì?",
+    "options": [
+      "Thịt trâu gác bếp",
+      "Lạp xưởng tươi",
+      "Thịt trâu xào",
+      "Chả trâu"
+    ],
+    "correct": 0,
+    "explanation": "Thịt trâu gác bếp dai thơm đượm nồng mùi khói lửa đại ngàn Tây Bắc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn truyền thống lâu đời của người Mông ở Sa Pa nấu từ nội tạng và thịt ngựa trong chảo gang lớn là món gì?",
+    "options": [
+      "Lợn cắp nách",
+      "Thắng cố",
+      "Gà đen H'Mông",
+      "Nậm pịa"
+    ],
+    "correct": 1,
+    "explanation": "Thắng cố ăn nóng cùng rượu ngô men lá sưởi ấm những ngày đông băng giá vùng cao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Làng Vũ Đại (xã Hòa Hậu, huyện Lý Nhân, tỉnh Hà Nam) nức tiếng cả nước mỗi độ Tết đến xuân về với món đặc sản gì?",
+    "options": [
+      "Bánh chưng gấc",
+      "Giò lụa Ước Lễ",
+      "Cá kho làng Vũ Đại (Cá kho Đại Hoàng)",
+      "Nem chua"
+    ],
+    "correct": 2,
+    "explanation": "Cá trắm đen kho trong niêu đất đun củi nhãn suốt 12-14 tiếng xương nhừ thịt chắc đậm đà."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản bánh cáy dẻo thơm hạt vừng mạch nha nức tiếng là món quà quê truyền thống của tỉnh nào miền Bắc?",
+    "options": [
+      "Nam Định",
+      "Hải Dương",
+      "Hưng Yên",
+      "Thái Bình"
+    ],
+    "correct": 3,
+    "explanation": "Bánh cáy làng Nguyễn (huyện Đông Hưng, Thái Bình) có màu sắc lấm tấm như trứng con cáy biển."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kẹo Sìu Châu kẹo lạc mạch nha giòn tan thơm bùi trứ danh là đặc sản hơn 200 năm tuổi của tỉnh nào?",
+    "options": [
+      "Nam Định",
+      "Thái Bình",
+      "Hà Nam",
+      "Ninh Bình"
+    ],
+    "correct": 0,
+    "explanation": "Kẹo Sìu Châu Nam Định gói giấy bản ăn kèm chén trà sen mạn hảo ngọt dịu tao nhã."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bánh gai Tứ Trụ với màu đen lá gai dẻo quánh nhân đậu xanh dừa sợi thơm lừng là đặc sản của tỉnh nào miền Trung?",
+    "options": [
+      "Nghệ An",
+      "Thanh Hóa (huyện Thọ Xuân)",
+      "Hà Tĩnh",
+      "Quảng Bình"
+    ],
+    "correct": 1,
+    "explanation": "Bánh gai Tứ Trụ gắn liền với đất Lam Sơn địa linh nhân kiệt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản lẩu nướng thịt bò thượng hạng thái lát mỏng nhúng nước dùng ngọt thanh ăn cùng trứng sống của Nhật Bản là món gì?",
+    "options": [
+      "Sushi",
+      "Ramen",
+      "Sukiyaki",
+      "Tempura"
+    ],
+    "correct": 2,
+    "explanation": "Thịt bò nhúng vừa chín tới quết qua bát trứng gà tươi béo ngậy ngọt lịm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món tráng miệng nước Ý nổi tiếng làm từ bánh quy ngâm cà phê espresso xếp lớp cùng kem phô mai mascarpone rắc bột cacao là gì?",
+    "options": [
+      "Panna Cotta",
+      "Gelato",
+      "Cannoli",
+      "Bánh Tiramisu"
+    ],
+    "correct": 3,
+    "explanation": "Tiramisu trong tiếng Ý mang ý nghĩa ngọt ngào: 'Hãy đón nhận em' hoặc 'Làm bừng sáng tâm hồn'."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cú đánh đưa bóng thẳng từ điểm phát bóng vào lỗ golf chỉ bằng một gậy duy nhất trong môn Golf được gọi là gì?",
+    "options": [
+      "Hole-in-one (HIO)",
+      "Birdie",
+      "Eagle",
+      "Albatross"
+    ],
+    "correct": 0,
+    "explanation": "Hole-in-one là kỳ tích hiếm hoi và vinh quang bậc nhất mà mọi golf thủ đều khát khao."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong bóng đá, quy định cấm một cầu thủ đứng gần đường biên ngang sân đối phương hơn cả bóng và cầu thủ phòng ngự cuối cùng khi nhận bóng gọi là gì?",
+    "options": [
+      "Lỗi chạm tay",
+      "Luật việt vị (Offside)",
+      "Lỗi chơi xấu",
+      "Lỗi câu giờ"
+    ],
+    "correct": 1,
+    "explanation": "Luật việt vị giúp ngăn chặn tình trạng tiền đạo chỉ đứng rình sẵn trước khung thành đối phương."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Giải vô địch bóng đá châu Âu (UEFA Euro) được tổ chức theo chu kỳ mấy năm một lần?",
+    "options": [
+      "2 năm",
+      "3 năm",
+      "4 năm một lần",
+      "5 năm"
+    ],
+    "correct": 2,
+    "explanation": "Euro quy tụ những đội tuyển quốc gia hàng đầu châu lục tranh tài rực lửa mùa hè."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thẻ phạt màu vàng trong bóng đá được trọng tài rút ra để nhằm mục đích gì đối với cầu thủ vi phạm?",
+    "options": [
+      "Đuổi khỏi sân ngay",
+      "Hủy bàn thắng",
+      "Cho hưởng quả phạt đền",
+      "Cảnh cáo hành vi phạm lỗi"
+    ],
+    "correct": 3,
+    "explanation": "Nếu một cầu thủ nhận 2 thẻ vàng trong cùng một trận đấu sẽ tương đương một thẻ đỏ bị truất quyền thi đấu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bánh xèo miền Tây giòn rụm màu vàng nghệ đổ bằng chảo lớn thường có nhân gì bên trong?",
+    "options": [
+      "Tôm sông, thịt ba chỉ, giá đỗ và đậu xanh",
+      "Thịt bò xào",
+      "Cá hồi nướng",
+      "Mực ống chiên"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xèo cuốn bánh tráng rau rừng chấm nước mắm tỏi ớt chua ngọt ngon khó cưỡng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn trứ danh của vùng đất Tây Ninh chế biến từ thịt bò tơ mềm ngọt cuốn rau rừng bánh tráng là món gì?",
+    "options": [
+      "Bò né",
+      "Bò tơ Tây Ninh",
+      "Bò nướng ngói",
+      "Bò lúc lắc"
+    ],
+    "correct": 1,
+    "explanation": "Bò tơ non thịt thơm ngọt ăn kèm đĩa rau rừng đủ vị chát bùi chua cay độc đáo."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món nem chua bọc lá chùm ruột hoặc lá chuối vị chua thanh giòn sần sật nức tiếng của tỉnh Đồng Tháp là gì?",
+    "options": [
+      "Nem Yên Mạc",
+      "Nem Thủ Đức",
+      "Nem Lai Vung",
+      "Nem Phùng"
+    ],
+    "correct": 2,
+    "explanation": "'Lai Vung là xứ lạ lùng / Nem chua ngon ngọt, gái cùng đảm đang'."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản bánh hỏi lòng heo chấm nước mắm ớt tỏi ăn kèm bát cháo lòng nóng hổi là món điểm tâm nổi tiếng của tỉnh nào?",
+    "options": [
+      "Phú Yên",
+      "Quảng Ngãi",
+      "Khánh Hòa",
+      "Bình Định"
+    ],
+    "correct": 3,
+    "explanation": "Bánh hỏi sợi tơ mịn màng rưới mỡ hành thơm ngát là món ăn truyền thống đất võ Bình Định."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món 'Gỏi cuốn' tôm thịt cuốn bánh tráng kèm bún và rau thơm chấm tương đen bùi béo từng lọt Top món ngon nhất thế giới của hãng tin nào?",
+    "options": [
+      "Kênh truyền hình CNN (Mỹ)",
+      "Kênh BBC",
+      "Tạp chí Forbes",
+      "Thời báo New York Times"
+    ],
+    "correct": 0,
+    "explanation": "Gỏi cuốn thanh mát tốt cho sức khỏe được bạn bè quốc tế vô cùng ưa chuộng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hãng sản xuất chip bán dẫn lớn nhất thế giới theo hợp đồng gia công (Foundry) đặt trụ sở tại Đài Loan có tên là gì?",
+    "options": [
+      "Intel",
+      "TSMC (Taiwan Semiconductor Manufacturing Company)",
+      "Qualcomm",
+      "NVIDIA"
+    ],
+    "correct": 1,
+    "explanation": "TSMC sản xuất các dòng vi xử lý siêu tân tiến 3nm và 5nm cho Apple, AMD, Qualcomm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Độ phân giải màn hình 4K Ultra HD (UHD) tiêu chuẩn sở hữu số điểm ảnh xấp xỉ bao nhiêu?",
+    "options": [
+      "1920 x 1080 pixel",
+      "1280 x 720 pixel",
+      "3840 x 2160 điểm ảnh (khoảng 8,3 triệu pixel)",
+      "7680 x 4320 pixel"
+    ],
+    "correct": 2,
+    "explanation": "Màn hình 4K sắc nét gấp 4 lần độ phân giải Full HD 1080p truyền thống."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cổng kết nối đa phương tiện phổ biến nhất hiện nay truyền đồng thời cả hình ảnh sắc nét và âm thanh kỹ thuật số là cổng nào?",
+    "options": [
+      "Cổng VGA",
+      "Cổng DVI",
+      "Cổng AV",
+      "Cổng HDMI (High-Definition Multimedia Interface)"
+    ],
+    "correct": 3,
+    "explanation": "Cáp HDMI kết nối máy tính, đầu phát với TV và máy chiếu vô cùng tiện lợi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Tập đoàn sản xuất máy bay dân dụng thương mại khổng lồ nào có trụ sở chính tại châu Âu cạnh tranh trực tiếp với Boeing của Mỹ?",
+    "options": [
+      "Airbus",
+      "Lockheed Martin",
+      "Bombardier",
+      "Embraer"
+    ],
+    "correct": 0,
+    "explanation": "Dòng máy bay Airbus A321 và A350 được các hãng hàng không Việt Nam khai thác rộng rãi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Giải bóng đá Ngoại hạng Anh (Premier League) quy tụ bao nhiêu câu lạc bộ bóng đá tranh tài mỗi mùa giải?",
+    "options": [
+      "18 câu lạc bộ",
+      "20 câu lạc bộ",
+      "22 câu lạc bộ",
+      "16 câu lạc bộ"
+    ],
+    "correct": 1,
+    "explanation": "Ngoại hạng Anh là giải đấu cấp câu lạc bộ có lượng người theo dõi đông đảo nhất hành tinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Cầu thủ nào đang giữ kỷ lục ghi nhiều bàn thắng nhất trong lịch sử các kỳ World Cup với 16 bàn thắng?",
+    "options": [
+      "Ronaldo de Lima (Brazil)",
+      "Gerd Muller",
+      "Miroslav Klose (Đức)",
+      "Pele"
+    ],
+    "correct": 2,
+    "explanation": "Klose thiết lập kỷ lục 16 bàn thắng tại kỳ World Cup 2014 trên đất Brazil."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đội tuyển bóng đá quốc gia nào đã xuất sắc giành chức vô địch FIFA World Cup 2022 tổ chức tại Qatar?",
+    "options": [
+      "Đội tuyển Pháp",
+      "Đội tuyển Croatia",
+      "Đội tuyển Maroc",
+      "Đội tuyển Argentina"
+    ],
+    "correct": 3,
+    "explanation": "Trận chung kết kịch tính nghẹt thở đưa Lionel Messi và đồng đội nâng cao cúp vàng vô địch."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào mà hai đấu thủ dùng vợt đánh quả bóng nhỏ qua lại trên chiếc bàn có tấm lưới chắn ở giữa?",
+    "options": [
+      "Bóng bàn (Table Tennis / Ping Pong)",
+      "Quần vợt",
+      "Cầu lông",
+      "Bóng ném"
+    ],
+    "correct": 0,
+    "explanation": "Bóng bàn đòi hỏi phản xạ cực nhanh và kỹ thuật xoáy bóng điêu luyện."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng dẫn đường bản đồ số vệ tinh phổ biến nhất trên thiết bị di động thông minh hiện nay là gì?",
+    "options": [
+      "Apple Pages",
+      "Google Maps",
+      "Microsoft Word",
+      "Dropbox"
+    ],
+    "correct": 1,
+    "explanation": "Google Maps hỗ trợ chỉ đường bằng giọng nói, cập nhật tình trạng kẹt xe theo thời gian thực."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong an toàn thông tin, phương thức xác thực danh tính hai lớp bảo vệ tài khoản người dùng được viết tắt là gì?",
+    "options": [
+      "OTP",
+      "PIN",
+      "2FA (Two-Factor Authentication)",
+      "CAPTCHA"
+    ],
+    "correct": 2,
+    "explanation": "Xác thực 2 yếu tố kết hợp mật khẩu với mã gửi về điện thoại chống hacker xâm nhập."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món chè trứ danh làm từ hạt sen tươi lồng bên trong cùi nhãn ngọt lịm là đặc sản tao nhã của vùng nào?",
+    "options": [
+      "Xứ Huế (hoặc Hưng Yên)",
+      "Hà Nội",
+      "Sài Gòn",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Chè sen long nhãn thanh mát hương thơm dịu dàng từng là món tráng miệng cung đình tiến vua."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản bánh cuốn Thanh Trì nổi tiếng Hà Nội có đặc điểm gì nổi bật?",
+    "options": [
+      "Bánh dày cộp nhân thịt",
+      "Lớp bánh tráng mỏng tang như cánh ve rưới mỡ hành, chấm nước mắm cà cuống",
+      "Bánh rán ngập dầu",
+      "Bánh nướng vỉ"
+    ],
+    "correct": 1,
+    "explanation": "Bánh cuốn Thanh Trì ăn nguội chấm mắm thơm ngát giữ trọn phong vị cổ kính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bún ốc nguội thanh tao chấm nước dùng chua thanh vị giấm bỗng ớt chưng là đặc sản lâu đời của đất nào?",
+    "options": [
+      "Hải Phòng",
+      "Nam Định",
+      "Hà Nội",
+      "Thanh Hóa"
+    ],
+    "correct": 2,
+    "explanation": "Bát bún ốc nguội gắp vài lá bún hến chấm nước giấm bỗng chua dịu thơm nức mùi ốc đồng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món xôi ngũ sắc rực rỡ dẻo thơm được nhuộm màu hoàn toàn từ các loại lá cây rừng tự nhiên là của đồng bào nào?",
+    "options": [
+      "Đồng bào Chăm",
+      "Đồng bào Khmer",
+      "Đồng bào Ba Na",
+      "Đồng bào vùng cao Tây Bắc (Tày, Nùng, Thái)"
+    ],
+    "correct": 3,
+    "explanation": "Năm màu xôi tượng trưng cho thuyết Ngũ hành: Kim, Mộc, Thủy, Hỏa, Thổ mang lại may mắn ấm no."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thức uống cà phê phin truyền thống của người Sài Gòn pha cùng sữa đặc có đường đá lạnh nổi tiếng thế giới là gì?",
+    "options": [
+      "Cà phê sữa đá",
+      "Cà phê muối",
+      "Cà phê trứng",
+      "Cà phê cốt dừa"
+    ],
+    "correct": 0,
+    "explanation": "Cà phê sữa đá Việt Nam nhiều lần được các chuyên trang du lịch quốc tế bình chọn vào Top đồ uống ngon nhất hành tinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món cà phê trứng béo ngậy đánh bông lòng đỏ trứng gà tươi cùng sữa và mật ong trên nền cà phê nóng là của ai sáng tạo?",
+    "options": [
+      "Cà phê Đinh",
+      "Cụ Nguyễn Văn Giảng (Cà phê Giảng Hà Nội năm 1946)",
+      "Cà phê Lâm",
+      "Cà phê Năng"
+    ],
+    "correct": 1,
+    "explanation": "Cụ Giảng thời làm pha chế khách sạn Metropole đã sáng tạo cà phê trứng thay thế sữa tươi khan hiếm thời bấy giờ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Dịch vụ lưu trữ video trực tuyến lớn nhất hành tinh thuộc sở hữu của tập đoàn Google là gì?",
+    "options": [
+      "Vimeo",
+      "Dailymotion",
+      "YouTube",
+      "Twitch"
+    ],
+    "correct": 2,
+    "explanation": "Mỗi phút có hàng trăm giờ video được người dùng tải lên YouTube trên khắp thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trình duyệt web phổ biến nhất thế giới hiện nay dựa trên mã nguồn mở Chromium do Google phát triển là gì?",
+    "options": [
+      "Mozilla Firefox",
+      "Safari",
+      "Microsoft Edge",
+      "Google Chrome"
+    ],
+    "correct": 3,
+    "explanation": "Google Chrome chiếm hơn 65% thị phần trình duyệt máy tính và di động toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ điều hành máy tính mã nguồn mở miễn phí biểu tượng chú chim cánh cụt Tux được tạo ra bởi Linus Torvalds là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "DOS"
+    ],
+    "correct": 0,
+    "explanation": "Linux là nền tảng vận hành phần lớn máy chủ Internet, siêu máy tính và hệ điều hành Android."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chuẩn mạng không dây tầm xa vệ tinh quỹ đạo thấp cung cấp Internet tốc độ cao toàn cầu của Elon Musk có tên là gì?",
+    "options": [
+      "OneWeb",
+      "Starlink (SpaceX)",
+      "Kuiper",
+      "Viasat"
+    ],
+    "correct": 1,
+    "explanation": "Hàng ngàn vệ tinh Starlink bay ở độ cao 550km kết nối mạng tới các vùng sâu vùng xa hải đảo."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Đơn vị đo độ sáng của một nguồn sáng hoặc máy chiếu trong kỹ thuật nghe nhìn được gọi là gì?",
+    "options": [
+      "Watt",
+      "Volt",
+      "Lumen (Ansi Lumen)",
+      "Pixel"
+    ],
+    "correct": 2,
+    "explanation": "Chỉ số Ansi Lumen càng cao thì máy chiếu chiếu hình ảnh càng rõ nét trong môi trường nhiều ánh sáng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Loại cổng kết nối không dây tốc độ cao AirDrop chia sẻ tệp ảnh nhanh chóng giữa các thiết bị thuộc hệ sinh thái nào?",
+    "options": [
+      "Hệ sinh thái Android",
+      "Hệ điều hành Windows",
+      "Hệ điều hành Linux",
+      "Hệ sinh thái Apple (iOS, iPadOS, macOS)"
+    ],
+    "correct": 3,
+    "explanation": "AirDrop kết hợp Wi-Fi và Bluetooth để truyền dữ liệu mã hóa ngang hàng cực nhanh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Giải đua xe đạp đường trường danh giá và lâu đời nhất thế giới diễn ra vòng quanh nước Pháp hàng năm mang tên là gì?",
+    "options": [
+      "Tour de France (Vòng quanh nước Pháp)",
+      "Giro d'Italia",
+      "Vuelta a Espana",
+      "Paris - Roubaix"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc áo vàng (Maillot Jaune) danh giá thuộc về tay đua có tổng thời gian thi đấu ít nhất."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao phối hợp 3 môn (Triathlon) tại Olympic tiêu chuẩn bao gồm ba môn thi liên tiếp nào?",
+    "options": [
+      "Bơi lội, Bắn súng và Chạy bộ",
+      "Bơi lội, Đạp xe và Chạy bộ",
+      "Đua thuyền, Điền kinh và Nhảy cao",
+      "Cử tạ, Chạy ngắn và Bơi"
+    ],
+    "correct": 1,
+    "explanation": "Các vận động viên thi bơi 1,5 km, đạp xe 40 km và chạy bộ 10 km không nghỉ giữa chặng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kỷ lục gia bơi lội người Mỹ giành tới 23 Huy chương Vàng Olympic vĩ đại nhất lịch sử Thế vận hội là ai?",
+    "options": [
+      "Ian Thorpe",
+      "Caeleb Dressel",
+      "Michael Phelps",
+      "Sun Yang"
+    ],
+    "correct": 2,
+    "explanation": "Michael Phelps được mệnh danh là 'Kình ngư siêu phàm' với sải tay dài hơn chiều cao cơ thể."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Huyền thoại điền kinh người Jamaica giữ kỷ lục thế giới chạy 100m (9,58 giây) được mệnh danh 'Tia chớp' là ai?",
+    "options": [
+      "Tyson Gay",
+      "Yohan Blake",
+      "Carl Lewis",
+      "Usain Bolt"
+    ],
+    "correct": 3,
+    "explanation": "Usain Bolt lập kỷ lục chạy 100m và 200m tại giải vô địch thế giới Berlin năm 2009."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Kỹ thuật nén ép tim ngoài lồng ngực cho trẻ sơ sinh hoặc trẻ nhỏ dưới 1 tuổi dùng bao nhiêu ngón tay để thực hiện?",
+    "options": [
+      "Dùng 2 ngón tay (ngón trỏ và ngón giữa) ấn sâu khoảng 4 cm",
+      "Dùng cả hai bàn tay đè mạnh",
+      "Dùng cùi chỏ",
+      "Dùng gót bàn chân"
+    ],
+    "correct": 0,
+    "explanation": "Xương lồng ngực trẻ sơ sinh còn mềm nên chỉ dùng lực vừa phải của hai ngón tay tránh tổn thương nội tạng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chỉ số khối cơ thể giúp đánh giá tình trạng thể trạng gầy hay béo của một người trưởng thành viết tắt là gì?",
+    "options": [
+      "Chỉ số BMR",
+      "Chỉ số BMI (Body Mass Index)",
+      "Chỉ số TDEE",
+      "Chỉ số WHR"
+    ],
+    "correct": 1,
+    "explanation": "BMI = Cân nặng (kg) / [Chiều cao (m)]^2. Mức BMI lý tưởng của người châu Á là 18,5 đến 22,9."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Khi bị hóc dị vật đường thở nghẹn thở tím tái, thủ thuật sơ cứu tống dị vật ra ngoài bằng cách ôm ép bụng là gì?",
+    "options": [
+      "Thủ thuật CPR",
+      "Thủ thuật xoa bóp tim",
+      "Thủ thuật Heimlich",
+      "Thủ thuật garo"
+    ],
+    "correct": 2,
+    "explanation": "Ép nhanh mạnh dưới cơ hoành tạo luồng khí đẩy dị vật bật ngược ra khỏi khí quản cứu sống nạn nhân."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Loại nấm mốc màu xanh lam sản sinh độc tố vi nấm Aflatoxin gây ung thư gan nguy hiểm thường xuất hiện trên thực phẩm nào bị ẩm mốc?",
+    "options": [
+      "Rau xanh héo",
+      "Thịt thối rữa",
+      "Sữa lên men",
+      "Lạc (đậu phộng), ngô, gạo bị ẩm mốc"
+    ],
+    "correct": 3,
+    "explanation": "Độc tố Aflatoxin bền nhiệt không bị phá hủy hoàn toàn khi nấu chín nên tuyệt đối không ăn ngũ cốc ẩm mốc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món chả lụa (giò lụa) truyền thống Việt Nam được giã mịn từ thịt heo nạc tươi gói bằng lá gì luộc chín?",
+    "options": [
+      "Lá chuối tươi",
+      "Lá dong",
+      "Lá sen",
+      "Lá ổi"
+    ],
+    "correct": 0,
+    "explanation": "Lá chuối xanh đượm mùi hương tự nhiên hòa quyện với vị giòn ngọt của giò lụa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản bánh gai làng Mía (huyện Yên Định, Thanh Hóa) dẻo quánh nhân đậu xanh dừa sợi gói bằng lá gì?",
+    "options": [
+      "Lá chuối tươi",
+      "Lá chuối khô",
+      "Lá dong",
+      "Lá dừa"
+    ],
+    "correct": 1,
+    "explanation": "Lá chuối khô giữ cho bánh gai bảo quản được lâu và dậy mùi thơm đặc trưng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn sáng quen thuộc của người Hà Nội gồm xôi nếp dẻo rưới mỡ gà, đậu xanh đồ mịn thái mỏng và hành phi giòn là xôi gì?",
+    "options": [
+      "Xôi gấc",
+      "Xôi vò",
+      "Xôi xéo",
+      "Xôi ngô"
+    ],
+    "correct": 2,
+    "explanation": "Xôi xéo vàng ươm thơm nức mùi mỡ hành gói trong lá chuối xanh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món bún bò Nam Bộ đặc trưng bởi cách ăn như thế nào so với bún bò Huế?",
+    "options": [
+      "Bún bò chan nước dùng nóng",
+      "Bún bò chấm mắm tôm",
+      "Bún bò ăn cùng mắm ruốc",
+      "Bún bò trộn khô chan nước mắm chua ngọt, rắc đậu phộng rang và hành phi"
+    ],
+    "correct": 3,
+    "explanation": "Bún bò Nam Bộ thanh nhẹ ăn kèm thịt bò xào sả ớt mềm ngọt và rau sống xanh mướt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đặc sản chả rươi thơm lừng béo ngậy rán cùng trứng gà và vỏ quýt thái chỉ là món ngon mùa thu của đất nào?",
+    "options": [
+      "Hải Phòng và Hải Dương (Tứ Kỳ)",
+      "Nam Định",
+      "Thái Bình",
+      "Quảng Ninh"
+    ],
+    "correct": 0,
+    "explanation": "Con rươi nước lợ xuất hiện vào mùa 'tháng chín đôi mươi, tháng mười mùng năm'."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ sạc không dây cho điện thoại hoạt động dựa trên nguyên lý vật lý nào?",
+    "options": [
+      "Sóng hồng ngoại",
+      "Hiện tượng cảm ứng điện từ giữa hai cuộn dây",
+      "Sóng âm siêu tần",
+      "Phản xạ nhiệt"
+    ],
+    "correct": 1,
+    "explanation": "Cuộn dây phát trong đế sạc truyền năng lượng từ trường sang cuộn dây nhận trong điện thoại."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thế hệ mạng không dây cục bộ mới nhất hiện nay mang tên Wi-Fi 7 hoạt động trên những dải tần số nào?",
+    "options": [
+      "Chỉ có 2.4 GHz",
+      "Chỉ có 5 GHz",
+      "Ba dải tần 2.4 GHz, 5 GHz và 6 GHz",
+      "Chỉ có sóng vệ tinh"
+    ],
+    "correct": 2,
+    "explanation": "Wi-Fi 7 tăng tốc độ truyền dữ liệu lên tới hơn 40 Gbps với độ trễ cực thấp."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Dung lượng pin của điện thoại thông minh và sạc dự phòng thường được đo bằng đơn vị nào?",
+    "options": [
+      "Volt (V)",
+      "Watt (W)",
+      "Ohm (Ω)",
+      "Miliampe giờ (mAh)"
+    ],
+    "correct": 3,
+    "explanation": "Chỉ số mAh càng lớn thì thời lượng sử dụng thiết bị sau một lần sạc càng lâu dài."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Màn hình máy tính có tỷ lệ khung hình 16:9 tiêu chuẩn được gọi là màn hình chuẩn gì?",
+    "options": [
+      "Màn hình rộng (Widescreen)",
+      "Màn hình vuông",
+      "Màn hình siêu dài",
+      "Màn hình dọc"
+    ],
+    "correct": 0,
+    "explanation": "Tỷ lệ 16:9 phù hợp với tầm nhìn mắt người và định dạng phim ảnh hiện đại."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thuật toán trí tuệ nhân tạo học sâu (Deep Learning) mô phỏng cấu trúc mạng lưới nào của cơ thể sinh học?",
+    "options": [
+      "Hệ tuần hoàn máu",
+      "Mạng lưới tế bào thần kinh nhân tạo (Artificial Neural Network)",
+      "Hệ miễn dịch",
+      "Cấu trúc xương"
+    ],
+    "correct": 1,
+    "explanation": "Các lớp nơ-ron nhân tạo kết nối với nhau xử lý hình ảnh, giọng nói và ngôn ngữ tự nhiên."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Trong môn bơi lội thể thao, kiểu bơi nào có tốc độ di chuyển nhanh nhất trong 4 kiểu bơi tiêu chuẩn?",
+    "options": [
+      "Bơi ếch",
+      "Bơi ngửa",
+      "Bơi trườn sấp (Bơi sải / Freestyle)",
+      "Bơi bướm"
+    ],
+    "correct": 2,
+    "explanation": "Tư thế lướt nước thuôn dài và nhịp quạt tay liên tục giúp bơi sải đạt vận tốc tối đa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Trong môn nhảy cầu thể thao, độ cao tối đa của cầu nhảy cứng tiêu chuẩn Olympic là bao nhiêu mét?",
+    "options": [
+      "5 mét",
+      "7 mét",
+      "15 mét",
+      "Cầu nhảy 10 mét"
+    ],
+    "correct": 3,
+    "explanation": "Cầu nhảy 10m đòi hỏi vận động viên thực hiện các động tác nhào lộn kỹ thuật phức tạp trước khi tiếp nước."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Một trận thi đấu quyền anh (Boxing) chuyên nghiệp tranh đai vô địch thế giới thường kéo dài tối đa bao nhiêu hiệp?",
+    "options": [
+      "12 hiệp đấu (mỗi hiệp 3 phút)",
+      "10 hiệp",
+      "15 hiệp",
+      "8 hiệp"
+    ],
+    "correct": 0,
+    "explanation": "Mỗi hiệp kéo dài 3 phút với 1 phút nghỉ giữa các hiệp thi đấu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Giải bóng đá danh giá vô địch Nam Mỹ cấp đội tuyển quốc gia có tên gọi là gì?",
+    "options": [
+      "Euro",
+      "Copa America",
+      "Gold Cup",
+      "Asian Cup"
+    ],
+    "correct": 1,
+    "explanation": "Copa America là giải bóng đá châu lục lâu đời nhất thế giới khởi tranh từ năm 1916."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kỳ World Cup bóng đá nam 2026 sẽ được đồng đăng cai bởi ba quốc gia Bắc Mỹ nào?",
+    "options": [
+      "Mỹ, Brazil và Argentina",
+      "Mỹ, Anh và Pháp",
+      "Mỹ, Canada và Mexico",
+      "Canada, Mexico và Cuba"
+    ],
+    "correct": 2,
+    "explanation": "World Cup 2026 lần đầu tiên mở rộng quy mô lên tới 48 đội tuyển tham dự."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Phương pháp bảo quản thực phẩm bằng cách sấy lạnh thăng hoa trong môi trường chân không được gọi là gì?",
+    "options": [
+      "Sấy nhiệt",
+      "Phơi nắng",
+      "Hun khói",
+      "Sấy thăng hoa (Freeze Drying)"
+    ],
+    "correct": 3,
+    "explanation": "Sấy thăng hoa giữ nguyên vẹn 98% hàm lượng dinh dưỡng, hương vị và màu sắc ban đầu của thực phẩm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nhiệt độ an toàn của ngăn đông tủ lạnh gia đình để bảo quản thịt cá đông đá lâu dài là bao nhiêu độ?",
+    "options": [
+      "Từ -18 độ C trở xuống",
+      "0 độ C",
+      "-5 độ C",
+      "-10 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Ở nhiệt độ -18°C mọi hoạt động của vi khuẩn gây ôi thiu đều bị ức chế hoàn toàn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Khi bị điện giật, hành động sơ cứu khẩn cấp đầu tiên và quan trọng nhất của người ứng cứu là gì?",
+    "options": [
+      "Lao vào ôm kéo nạn nhân ra ngay bằng tay không",
+      "Ngắt ngay nguồn điện (cắt cầu dao, aptomat) hoặc dùng vật liệu cách điện gạt dây điện ra",
+      "Đổ nước vào người nạn nhân",
+      "Hô hấp nhân tạo ngay"
+    ],
+    "correct": 1,
+    "explanation": "Tuyệt đối không chạm tay trực tiếp vào nạn nhân khi chưa ngắt điện để tránh bị điện giật liên hoàn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Quy định nồng độ cồn đối với người điều khiển xe máy và ô tô tham gia giao thông tại Việt Nam theo luật hiện hành là bao nhiêu?",
+    "options": [
+      "Dưới 0,25 mg/lít khí thở",
+      "Dưới 0,5 mg/lít",
+      "Bằng 0 (Tuyệt đối không có cồn trong máu và hơi thở)",
+      "Dưới 50 mg/100ml máu"
+    ],
+    "correct": 2,
+    "explanation": "'Đã uống rượu bia - Không lái xe' là thông điệp an toàn giao thông nghiêm ngặt bảo vệ tính mạng con người."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Loại bình chữa cháy mini thông dụng dập tắt đám cháy xăng dầu và thiết bị điện trong nhà thường chứa chất gì?",
+    "options": [
+      "Nước cất",
+      "Dầu hỏa",
+      "Cát ướt",
+      "Khí CO2 nén lạnh hoặc bột chữa cháy hóa học"
+    ],
+    "correct": 3,
+    "explanation": "Khí CO2 và bột hóa học làm loãng nồng độ oxy và cách ly vật liệu cháy dập tắt lửa nhanh chóng."
   }
 ]

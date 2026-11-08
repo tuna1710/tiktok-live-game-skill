@@ -2715,5 +2715,3827 @@
     ],
     "correct": 0,
     "explanation": "Vùng trũng Danakil tại Ethiopia có hồ dung nham sôi sục và suối lưu huỳnh rực rỡ sắc màu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cố đô Hoa Lư kinh đô đầu tiên của nước Đại Cồ Việt thời Đinh - Tiền Lê nay thuộc tỉnh nào?",
+    "options": [
+      "Ninh Bình",
+      "Thanh Hóa",
+      "Nam Định",
+      "Hà Nam"
+    ],
+    "correct": 0,
+    "explanation": "Quần thể danh thắng Cố đô Hoa Lư nằm trên địa bàn tỉnh Ninh Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào ở châu Á có diện tích lãnh thổ lớn nhất và dân số hơn 1,4 tỷ người?",
+    "options": [
+      "Trung Quốc",
+      "Ấn Độ",
+      "Indonesia",
+      "Nhật Bản"
+    ],
+    "correct": 0,
+    "explanation": "Trung Quốc là quốc gia có diện tích lớn nhất châu Á với nền văn minh ngàn năm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Sông Hồng bắt nguồn từ vùng núi tỉnh Vân Nam nước nào trước khi chảy vào lãnh thổ Việt Nam?",
+    "options": [
+      "Trung Quốc",
+      "Lào",
+      "Myanmar",
+      "Thái Lan"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hồng bắt nguồn từ dãy Ngụy Sơn (Vân Nam, Trung Quốc) chảy vào Việt Nam tại Bát Xát (Lào Cai)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố biển Vũng Tàu nổi tiếng với tượng Chúa Kito Vua khổng lồ nhìn ra biển thuộc tỉnh nào?",
+    "options": [
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Đồng Nai",
+      "TP. Hồ Chí Minh"
+    ],
+    "correct": 0,
+    "explanation": "Tượng Chúa dang tay trên đỉnh núi Nhỏ là biểu tượng du lịch của TP. Vũng Tàu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của nước Anh (Vương quốc Liên hiệp Anh và Bắc Ireland) là thành phố nào?",
+    "options": [
+      "London",
+      "Manchester",
+      "Liverpool",
+      "Edinburgh"
+    ],
+    "correct": 0,
+    "explanation": "London bên dòng sông Thames với tháp đồng hồ Big Ben và cầu tháp Tower Bridge."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Tà Đùng được mệnh danh là 'Vịnh Hạ Long của Tây Nguyên' với hơn 40 hòn đảo lớn nhỏ thuộc tỉnh nào?",
+    "options": [
+      "Đắk Nông",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Lâm Đồng"
+    ],
+    "correct": 0,
+    "explanation": "Vườn quốc gia Tà Đùng thuộc huyện Đắk Glong, tỉnh Đắk Nông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Trung nước ta có sông Bến Hải và vĩ tuyến 17 cây cầu Hiền Lương lịch sử?",
+    "options": [
+      "Quảng Trị",
+      "Quảng Bình",
+      "Thừa Thiên Huế",
+      "Hà Tĩnh"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Hiền Lương bắc qua sông Bến Hải là biểu tượng của nỗi đau chia cắt và khát vọng thống nhất non sông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở châu Phi nổi tiếng với tượng nhân sư Sphinx và kim tự tháp Kheops cổ đại bên bờ sông Nin?",
+    "options": [
+      "Ai Cập",
+      "Sudan",
+      "Morocco",
+      "Algeria"
+    ],
+    "correct": 0,
+    "explanation": "Ai Cập là cái nôi của nền văn minh sông Nin rực rỡ thời cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo núi lửa Jeju khu nghỉ dưỡng thiên đường tuyệt đẹp được UNESCO công nhận là di sản thiên nhiên của quốc gia nào?",
+    "options": [
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Đài Loan",
+      "Philippines"
+    ],
+    "correct": 0,
+    "explanation": "Đảo Jeju xinh đẹp với đỉnh núi Hallasan là điểm du lịch nổi tiếng của xứ sở kim chi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dòng sông dài nhất châu Á (khoảng 6.300 km) chảy hoàn toàn trong lãnh thổ Trung Quốc là sông nào?",
+    "options": [
+      "Sông Trường Giang (Dương Tử)",
+      "Sông Hoàng Hà",
+      "Sông Mê Kông",
+      "Sông Hằng"
+    ],
+    "correct": 0,
+    "explanation": "Sông Trường Giang bắt nguồn từ cao nguyên Tây Tạng đổ ra biển Hoa Đông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Eo biển Bering (Bê-rinh) là eo biển chiến lược chia cắt giữa hai châu lục nào và nối liền Bắc Băng Dương với Thái Bình Dương?",
+    "options": [
+      "Châu Á và Châu Bắc Mỹ (giữa Nga và Mỹ)",
+      "Châu Âu và Châu Phi",
+      "Châu Á và Châu Đại Dương",
+      "Châu Nam Mỹ và Châu Nam Cực"
+    ],
+    "correct": 0,
+    "explanation": "Eo biển Bering rộng khoảng 82 km ngăn cách mũi Dezhnev (Nga) và mũi Prince of Wales (Alaska, Mỹ)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố Đà Lạt thành phố ngàn thông reo và sương mù mộng mơ là tỉnh lỵ của tỉnh nào?",
+    "options": [
+      "Lâm Đồng",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Đà Lạt nằm trên cao nguyên Lâm Viên ở độ cao 1.500m thuộc tỉnh Lâm Đồng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chợ Bến Thành ngôi chợ biểu tượng sầm uất hơn 100 năm tuổi với chiếc tháp đồng hồ bốn mặt nằm ở trung tâm thành phố nào?",
+    "options": [
+      "TP. Hồ Chí Minh",
+      "Hà Nội",
+      "Đà Nẵng",
+      "Cần Thơ"
+    ],
+    "correct": 0,
+    "explanation": "Chợ Bến Thành tọa lạc tại Quận 1, TP. Hồ Chí Minh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh Hạ Long di sản thiên nhiên thế giới kỳ vĩ với hàng ngàn đảo đá vôi nhấp nhô thuộc tỉnh nào?",
+    "options": [
+      "Quảng Ninh",
+      "Hải Phòng",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Hạ Long là báu vật ngoại hạng toàn cầu của tỉnh Quảng Ninh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đèo Pha Đin con đèo huyền thoại trong chiến dịch Điện Biên Phủ nằm trên ranh giới giữa hai tỉnh nào?",
+    "options": [
+      "Sơn La và Điện Biên",
+      "Hòa Bình và Sơn La",
+      "Lào Cai và Lai Châu",
+      "Yên Bái và Tuyên Quang"
+    ],
+    "correct": 0,
+    "explanation": "'Dốc Pha Đin, chị gánh anh thồ...' - con đèo dài 32 km nối Sơn La và Điện Biên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần thể danh thắng Tràng An di sản hỗn hợp Văn hóa và Thiên nhiên thế giới đầu tiên của Đông Nam Á thuộc tỉnh nào?",
+    "options": [
+      "Ninh Bình",
+      "Thanh Hóa",
+      "Hà Nam",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Tràng An (Ninh Bình) được UNESCO vinh danh năm 2014 nhờ vẻ đẹp karst đá vôi tráng lệ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở châu Âu nổi tiếng với đồng hồ chính xác, sô-cô-la hảo hạng và dãy núi Alps phủ tuyết?",
+    "options": [
+      "Thụy Sĩ",
+      "Áo",
+      "Bỉ",
+      "Hà Lan"
+    ],
+    "correct": 0,
+    "explanation": "Thụy Sĩ là quốc gia trung lập giàu có bậc nhất châu Âu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Dãy núi nào dài nhất Nam Mỹ (hơn 7.000 km) chạy dọc theo bờ biển Thái Bình Dương?",
+    "options": [
+      "Dãy Andes",
+      "Dãy Rocky",
+      "Dãy Alps",
+      "Dãy Himalaya"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Andes chạy qua 7 quốc gia Nam Mỹ với nhiều đỉnh núi lửa cao trên 6.000 mét."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Sông Hàn con sông biểu tượng thơ mộng bắc qua nhiều cây cầu độc đáo chảy qua trung tâm thành phố nào?",
+    "options": [
+      "Thành phố Đà Nẵng",
+      "Thành phố Huế",
+      "Thành phố Nha Trang",
+      "Thành phố Quy Nhơn"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hàn uốn lượn giữa lòng Đà Nẵng với cầu Rồng phun lửa, cầu quay sông Hàn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo ngọc Phú Quốc hòn đảo du lịch biển lớn nhất Việt Nam nằm trong vịnh biển nào?",
+    "options": [
+      "Vịnh Thái Lan",
+      "Vịnh Bắc Bộ",
+      "Vịnh Cam Ranh",
+      "Vịnh Nha Trang"
+    ],
+    "correct": 0,
+    "explanation": "Phú Quốc nằm trong vùng biển Tây Nam thuộc Vịnh Thái Lan ấm áp quanh năm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Tây Nam Bộ nổi tiếng với xứ sở dừa bạt ngàn và phong trào Đồng Khởi năm 1960?",
+    "options": [
+      "Bến Tre",
+      "Trà Vinh",
+      "Tiền Giang",
+      "Vĩnh Long"
+    ],
+    "correct": 0,
+    "explanation": "Bến Tre quê hương xứ dừa với những vườn dừa bạt ngàn ngút tầm mắt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vườn quốc gia Yok Đôn vườn quốc gia lớn nhất Việt Nam bảo tồn hệ sinh thái rừng khộp nhiệt đới thuộc tỉnh nào?",
+    "options": [
+      "Đắk Lắk (và Đắk Nông)",
+      "Gia Lai",
+      "Kon Tum",
+      "Lâm Đồng"
+    ],
+    "correct": 0,
+    "explanation": "Yok Đôn nằm bên dòng sông Sêrêpôk là ngôi nhà của nhiều loài động vật quý hiếm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Trung có dòng sông Thạch Hãn và di tích Thành cổ lịch sử với 81 ngày đêm rực lửa năm 1972?",
+    "options": [
+      "Quảng Trị",
+      "Quảng Bình",
+      "Thừa Thiên Huế",
+      "Hà Tĩnh"
+    ],
+    "correct": 0,
+    "explanation": "Thành cổ Quảng Trị là di tích lịch sử quốc gia đặc biệt ghi dấu chiến công oanh liệt của quân và dân ta."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là thành phố ngàn năm văn hiến nào?",
+    "options": [
+      "Hà Nội",
+      "TP. Hồ Chí Minh",
+      "Huế",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Thủ đô Hà Nội trái tim của cả nước với 36 phố phường cổ kính rực rỡ sắc màu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Hồ nước ngọt tự nhiên Ba Bể ở độ cao 150m giữa núi rừng Đông Bắc gồm ba nhánh hồ nào thông nhau hợp thành?",
+    "options": [
+      "Pé Lầm, Pé Lù, Pé Lèng",
+      "Hồ Ba Mẫu, Bảy Mẫu",
+      "Hồ Tơ Nưng, Lắk",
+      "Hồ Dầu Tiếng, Thác Bà"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Ba Bể tiếng Tày là Slam Pé (ba hồ nhỏ) thông nhau tạo thành hồ nước ngọt tự nhiên lớn nhất nước ta."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Điểm cực Bắc trên đất liền của nước ta thuộc xã Lũng Cú, huyện Đồng Văn, thuộc tỉnh nào?",
+    "options": [
+      "Hà Giang",
+      "Cao Bằng",
+      "Lào Cai",
+      "Lạng Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Cột cờ Lũng Cú (Hà Giang) kiêu hãnh khẳng định chủ quyền cực Bắc thiêng liêng của Tổ quốc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Điểm cực Nam trên đất liền của nước ta thuộc xã Đất Mũi, huyện Ngọc Hiển, thuộc tỉnh nào?",
+    "options": [
+      "Bạc Liêu",
+      "Cà Mau",
+      "Kiên Giang",
+      "Sóc Trăng"
+    ],
+    "correct": 1,
+    "explanation": "Mũi Cà Mau là nơi 'đất biết nở, rừng biết đi và phù sa bồi đắp hàng ngày'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Điểm cực Đông trên đất liền nơi đón ánh bình minh đầu tiên của Việt Nam là Mũi Đôi thuộc tỉnh nào?",
+    "options": [
+      "Phú Yên",
+      "Bình Định",
+      "Khánh Hòa",
+      "Ninh Thuận"
+    ],
+    "correct": 2,
+    "explanation": "Mũi Đôi (bán đảo Hòn Gốm, Vạn Ninh, Khánh Hòa) là điểm cực Đông đón ánh mặt trời sớm nhất."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Điểm cực Tây trên đất liền của Việt Nam nằm tại A Pa Chải, xã Sín Thầu, huyện Mường Nhé, thuộc tỉnh nào?",
+    "options": [
+      "Lai Châu",
+      "Sơn La",
+      "Hòa Bình",
+      "Điện Biên"
+    ],
+    "correct": 3,
+    "explanation": "A Pa Chải ngã ba biên giới Việt - Lào - Trung nơi một con gà gáy ba nước cùng nghe."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đỉnh núi Fansipan ngọn núi cao nhất Đông Dương với độ cao 3.143m thuộc dãy núi nào?",
+    "options": [
+      "Dãy Hoàng Liên Sơn",
+      "Dãy Trường Sơn Bắc",
+      "Dãy Trường Sơn Nam",
+      "Dãy Hoành Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Fansipan được mệnh danh là 'Nóc nhà Đông Dương' thuộc tỉnh Lào Cai và Lai Châu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đèo Hải Vân một trong những con đèo ven biển hiểm trở và hùng vĩ nhất nước ta nằm giữa hai địa phương nào?",
+    "options": [
+      "Quảng Bình và Hà Tĩnh",
+      "Thừa Thiên Huế và Thành phố Đà Nẵng",
+      "Quảng Nam và Quảng Ngãi",
+      "Khánh Hòa và Phú Yên"
+    ],
+    "correct": 1,
+    "explanation": "Đèo Hải Vân được vua Lê Thánh Tông ban tặng danh hiệu 'Đệ nhất hùng quan'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hang Sơn Đoòng hang động tự nhiên lớn nhất thế giới nằm trong Vườn quốc gia nào của Việt Nam?",
+    "options": [
+      "Vườn quốc gia Cúc Phương",
+      "Vườn quốc gia Bạch Mã",
+      "Vườn quốc gia Phong Nha - Kẻ Bàng (Quảng Bình)",
+      "Vườn quốc gia Cát Tiên"
+    ],
+    "correct": 2,
+    "explanation": "Sơn Đoòng có thể tích lên tới 38,5 triệu mét khối chứa được cả tòa nhà chọc trời 40 tầng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Tơ Nưng miệng núi lửa đã tắt hàng triệu năm được ví như 'Đôi mắt Pleiku' nằm ở tỉnh nào?",
+    "options": [
+      "Kon Tum",
+      "Đắk Lắk",
+      "Đắk Nông",
+      "Gia Lai"
+    ],
+    "correct": 3,
+    "explanation": "Biển Hồ Tơ Nưng là hồ nước ngọt tự nhiên phẳng lặng tuyệt đẹp của núi rừng Tây Nguyên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần thể danh thắng Tràng An di sản hỗn hợp Văn hóa và Tự nhiên duy nhất ở Đông Nam Á thuộc tỉnh nào?",
+    "options": [
+      "Ninh Bình",
+      "Thanh Hóa",
+      "Quảng Ninh",
+      "Hòa Bình"
+    ],
+    "correct": 0,
+    "explanation": "Tràng An kết hợp độc đáo giữa cảnh quan karst nhiệt đới kỳ vĩ và bề dày lịch sử Cố đô Hoa Lư."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Lý Sơn hòn đảo tiền tiêu được mệnh danh là 'Vương quốc tỏi' của nước ta thuộc tỉnh nào?",
+    "options": [
+      "Quảng Nam",
+      "Quảng Ngãi",
+      "Bình Định",
+      "Phú Yên"
+    ],
+    "correct": 1,
+    "explanation": "Đảo Lý Sơn hình thành từ hoạt động núi lửa cổ có thổ nhưỡng dung nham tạo ra loại tỏi cô đơn nức tiếng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thác Bản Giốc một trong những thác nước xuyên biên giới đẹp nhất hành tinh nằm trên sông Quây Sơn thuộc tỉnh nào?",
+    "options": [
+      "Bắc Kạn",
+      "Lạng Sơn",
+      "Cao Bằng",
+      "Hà Giang"
+    ],
+    "correct": 2,
+    "explanation": "Thác Bản Giốc thuộc xã Đàm Thủy, huyện Trùng Khánh, tỉnh Cao Bằng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Bà Đen ngọn núi lửa đã tắt cao 986m được mệnh danh là 'Nóc nhà Đông Nam Bộ' nằm ở tỉnh nào?",
+    "options": [
+      "Bình Phước",
+      "Đồng Nai",
+      "Bình Dương",
+      "Tây Ninh"
+    ],
+    "correct": 3,
+    "explanation": "Núi Bà Đen là điểm du lịch tâm linh nổi tiếng với tượng Phật Bà Tây Bổ Đà Sơn khổng lồ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vườn quốc gia Cúc Phương vườn quốc gia đầu tiên của Việt Nam được thành lập năm 1962 nằm trên địa phận mấy tỉnh?",
+    "options": [
+      "3 tỉnh (Ninh Bình, Hòa Bình, Thanh Hóa)",
+      "2 tỉnh",
+      "4 tỉnh",
+      "1 tỉnh duy nhất"
+    ],
+    "correct": 0,
+    "explanation": "Rừng Cúc Phương nổi tiếng với cây chò ngàn năm tuổi và mùa bướm rực rỡ vào đầu hè."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hệ đầm phá Tam Giang - Cầu Hai đầm phá nước lợ lớn nhất Đông Nam Á nằm ở tỉnh nào miền Trung?",
+    "options": [
+      "Quảng Trị",
+      "Thừa Thiên Huế",
+      "Đà Nẵng",
+      "Quảng Bình"
+    ],
+    "correct": 1,
+    "explanation": "'Thương em anh cũng muốn vô / Sợ trọt Phá Tam Giang, sợ truông Nhà Hồ'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Ghềnh Đá Đĩa danh thắng độc nhất vô nhị với hàng vạn cột đá bazan hình lục lăng xếp chồng kỳ vĩ nằm ở tỉnh nào?",
+    "options": [
+      "Khánh Hòa",
+      "Bình Định",
+      "Phú Yên",
+      "Ninh Thuận"
+    ],
+    "correct": 2,
+    "explanation": "Ghềnh Đá Đĩa thuộc huyện Tuy An hình thành do dung nham núi lửa gặp nước biển lạnh đông cứng nứt vỡ tự nhiên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Con đèo hiểm trở nào vượt qua dãy Hoành Sơn phân chia ranh giới địa lý giữa hai tỉnh Hà Tĩnh và Quảng Bình?",
+    "options": [
+      "Đèo Hải Vân",
+      "Đèo Cù Mông",
+      "Đèo Cả",
+      "Đèo Ngang"
+    ],
+    "correct": 3,
+    "explanation": "'Bước tới Đèo Ngang bóng xế tà / Cỏ cây chen đá lá chen hoa' - Bà Huyện Thanh Quan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thành phố nào được mệnh danh là 'Thủ phủ cà phê của Việt Nam' và là đô thị lớn nhất vùng Tây Nguyên?",
+    "options": [
+      "Thành phố Buôn Ma Thuột",
+      "Thành phố Pleiku",
+      "Thành phố Đà Lạt",
+      "Thành phố Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Buôn Ma Thuột nổi danh toàn cầu với Lễ hội Cà phê và thương hiệu hạt cà phê Robusta hảo hạng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Trị An hồ thủy điện nhân tạo lớn nhất miền Nam cung cấp nước cho thủy điện Trị An nằm trên sông nào?",
+    "options": [
+      "Sông Sài Gòn",
+      "Sông Đồng Nai",
+      "Sông Bé",
+      "Sông Vàm Cỏ Đông"
+    ],
+    "correct": 1,
+    "explanation": "Hồ Trị An là công trình thủy điện trọng điểm vùng Đông Nam Bộ xây dựng trên dòng sông Đồng Nai."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hai quần đảo Hoàng Sa và Trường Sa thiêng liêng của Việt Nam lần lượt thuộc quyền quản lý hành chính của hai địa phương nào?",
+    "options": [
+      "Quảng Nam và Bình Thuận",
+      "Bình Định và Ninh Thuận",
+      "Thành phố Đà Nẵng và Tỉnh Khánh Hòa",
+      "Quảng Ngãi và Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 2,
+    "explanation": "Huyện đảo Hoàng Sa thuộc TP. Đà Nẵng và huyện đảo Trường Sa thuộc tỉnh Khánh Hòa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "Cao nguyên đá Đồng Văn công viên địa chất toàn cầu UNESCO đầu tiên của Việt Nam nằm trên địa bàn mấy huyện của tỉnh Hà Giang?",
+    "options": [
+      "3 huyện",
+      "5 huyện",
+      "2 huyện",
+      "4 huyện (Đồng Văn, Mèo Vạc, Yên Minh, Quản Bạ)"
+    ],
+    "correct": 3,
+    "explanation": "Cao nguyên đá Đồng Văn có tới 80% diện tích là đá vôi karst hình thành từ hàng trăm triệu năm trước."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở vùng Đồng bằng sông Hồng có diện tích tự nhiên nhỏ nhất Việt Nam?",
+    "options": [
+      "Bắc Ninh",
+      "Hà Nam",
+      "Hưng Yên",
+      "Vĩnh Phúc"
+    ],
+    "correct": 0,
+    "explanation": "Bắc Ninh có diện tích chỉ khoảng 822 km2 nhưng là trung tâm công nghiệp lớn của cả nước."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào có diện tích tự nhiên rộng nhất cả nước trong số 63 tỉnh thành của Việt Nam?",
+    "options": [
+      "Thanh Hóa",
+      "Nghệ An",
+      "Sơn La",
+      "Đắk Lắk"
+    ],
+    "correct": 1,
+    "explanation": "Nghệ An có diện tích hơn 16.490 km2 với địa hình đa dạng từ miền núi đến đồng bằng ven biển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đường bờ biển của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam có tổng chiều dài xấp xỉ bao nhiêu km?",
+    "options": [
+      "Khoảng 2.000 km",
+      "Khoảng 4.500 km",
+      "Khoảng 3.260 km",
+      "Khoảng 1.800 km"
+    ],
+    "correct": 2,
+    "explanation": "Bờ biển Việt Nam trải dài uốn lượn hình chữ S từ Móng Cái (Quảng Ninh) đến Hà Tiên (Kiên Giang)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở nước ta là tỉnh duy nhất giáp cả hai nước láng giềng Lào và Campuchia?",
+    "options": [
+      "Gia Lai",
+      "Đắk Lắk",
+      "Điện Biên",
+      "Kon Tum"
+    ],
+    "correct": 3,
+    "explanation": "Ngã ba Đông Dương tại cửa khẩu quốc tế Bờ Y thuộc huyện Ngọc Hồi, tỉnh Kon Tum."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào bắt nguồn từ cao nguyên Tây Tạng chảy qua 6 quốc gia rồi đổ ra Biển Đông qua 9 cửa sông ở Nam Bộ?",
+    "options": [
+      "Sông Mê Kông (sông Cửu Long)",
+      "Sông Hồng",
+      "Sông Đồng Nai",
+      "Sông Salween"
+    ],
+    "correct": 0,
+    "explanation": "Sông Cửu Long bồi đắp nên vựa lúa Đồng bằng sông Cửu Long màu mỡ phì nhiêu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào của nước ta có đường biên giới trên đất liền giáp với ba tỉnh của nước Cộng hòa Dân chủ Nhân dân Lào?",
+    "options": [
+      "Hà Tĩnh",
+      "Sơn La (hoặc Thanh Hóa, Nghệ An)",
+      "Quảng Bình",
+      "Quảng Trị"
+    ],
+    "correct": 1,
+    "explanation": "Nghệ An và Thanh Hóa có tuyến biên giới hữu nghị dài với các tỉnh bạn Lào."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố nào được mệnh danh là 'Thành phố ngàn hoa' hay 'Thành phố sương mù' nằm trên cao nguyên Lâm Viên?",
+    "options": [
+      "Thành phố Pleiku",
+      "Thị xã Sa Pa",
+      "Thành phố Đà Lạt",
+      "Thị trấn Tam Đảo"
+    ],
+    "correct": 2,
+    "explanation": "Đà Lạt ở độ cao 1.500m so với mực nước biển khí hậu ôn đới quanh năm mát mẻ trong lành."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cây cầu thép dài nhất bắc qua sông Hồng tại Hà Nội khánh thành năm 1902 dưới thời Pháp thuộc mang tên gì?",
+    "options": [
+      "Cầu Long Biên (tên cũ là cầu Paul Doumer)",
+      "Cầu Thăng Long",
+      "Cầu Chương Dương",
+      "Cầu Nhật Tân"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Long Biên là nhân chứng lịch sử hơn 120 năm thăng trầm của Thủ đô Hà Nội."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vịnh biển nào của nước ta cùng với Vịnh San Francisco (Mỹ) và Vịnh Rio de Janeiro (Brazil) nằm trong nhóm các vịnh nước sâu tốt nhất thế giới?",
+    "options": [
+      "Vịnh Hạ Long",
+      "Vịnh Cam Ranh (Khánh Hòa)",
+      "Vịnh Vân Phong",
+      "Vịnh Dung Quất"
+    ],
+    "correct": 1,
+    "explanation": "Vịnh Cam Ranh kín gió, lòng vịnh sâu và có vị trí chiến lược quân sự, hàng hải quốc tế then chốt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần đảo Cô Tô một điểm đến du lịch biển hoang sơ tuyệt đẹp nằm ở vùng biển thuộc tỉnh nào?",
+    "options": [
+      "Hải Phòng",
+      "Thái Bình",
+      "Quảng Ninh",
+      "Nam Định"
+    ],
+    "correct": 2,
+    "explanation": "Cô Tô nổi tiếng với bãi đá Cầu Mỵ, hải đăng Cô Tô và bãi biển Hồng Vàn nước trong vắt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo ngọc Phú Quốc hòn đảo lớn nhất Việt Nam nằm ở phía Tây Nam thuộc vùng biển của tỉnh nào?",
+    "options": [
+      "Cà Mau",
+      "Bạc Liêu",
+      "An Giang",
+      "Kiên Giang"
+    ],
+    "correct": 3,
+    "explanation": "Phú Quốc được mệnh danh là 'Đảo Ngọc' với những bãi biển cát trắng tuyệt đẹp và rừng nguyên sinh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Rừng tràm Trà Sư khu rừng ngập nước tiêu biểu cho hệ sinh thái vùng Tây sông Hậu thuộc huyện nào tỉnh An Giang?",
+    "options": [
+      "Thị xã Tịnh Biên (trước là huyện Tịnh Biên)",
+      "Huyện Tri Tôn",
+      "Huyện Châu Phú",
+      "Thành phố Châu Đốc"
+    ],
+    "correct": 0,
+    "explanation": "Rừng tràm Trà Sư đẹp như tranh vẽ với thảm bèo cám xanh mướt trải dài vô tận."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chợ nổi Cái Răng một nét văn hóa sông nước độc đáo miền Tây Nam Bộ nằm trên sông Cần Thơ thuộc địa bàn nào?",
+    "options": [
+      "Tỉnh Tiền Giang",
+      "Thành phố Cần Thơ",
+      "Tỉnh Hậu Giang",
+      "Tỉnh Vĩnh Long"
+    ],
+    "correct": 1,
+    "explanation": "Thương hồ trên chợ nổi dùng 'cây bẹo' để treo các loại củ quả cần bán giúp người mua dễ thấy từ xa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Địa danh 'Tam Đảo' khu nghỉ dưỡng vùng cao nổi tiếng với 3 ngọn núi Thạch Bàn, Thiên Thị, Phù Nghĩa thuộc tỉnh nào?",
+    "options": [
+      "Thái Nguyên",
+      "Tuyên Quang",
+      "Vĩnh Phúc",
+      "Bắc Giang"
+    ],
+    "correct": 2,
+    "explanation": "Tam Đảo cách Hà Nội khoảng 80km là điểm đến tránh nóng lý tưởng vào mùa hè."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Thác Bà một trong những hồ nước nhân tạo lớn nhất Việt Nam hình thành khi ngăn dòng sông Chảy làm thủy điện thuộc tỉnh nào?",
+    "options": [
+      "Tuyên Quang",
+      "Phú Thọ",
+      "Lào Cai",
+      "Yên Bái"
+    ],
+    "correct": 3,
+    "explanation": "Hồ Thác Bà có hơn 1.300 đảo lớn nhỏ nhấp nhô được ví như vịnh Hạ Long trên núi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đèo Mã Pí Lèng một trong 'Tứ đại đỉnh đèo' vùng Tây Bắc uốn lượn hùng vĩ nhìn xuống dòng sông xanh ngọc nào?",
+    "options": [
+      "Sông Nho Quế",
+      "Sông Đà",
+      "Sông Thao",
+      "Sông Lô"
+    ],
+    "correct": 0,
+    "explanation": "Hẻm vực Tu Sản trên sông Nho Quế là hẻm vực sâu và hiểm trở bậc nhất Đông Nam Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đèo Pha Đin con đèo lịch sử trong chiến dịch Điện Biên Phủ nằm trên ranh giới giữa hai tỉnh nào?",
+    "options": [
+      "Lào Cai và Lai Châu",
+      "Sơn La và Điện Biên",
+      "Hòa Bình và Sơn La",
+      "Điện Biên và Lai Châu"
+    ],
+    "correct": 1,
+    "explanation": "Pha Đin tiếng Thái nghĩa là 'Trời Đất', nơi giao thoa giữa đất và trời."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đèo Ô Quy Hồ con đèo dài nhất và hiểm trở nhất Việt Nam (gần 50km) cắt ngang dãy Hoàng Liên Sơn nối Lào Cai với tỉnh nào?",
+    "options": [
+      "Yên Bái",
+      "Điện Biên",
+      "Lai Châu",
+      "Hà Giang"
+    ],
+    "correct": 2,
+    "explanation": "Ô Quy Hồ còn gọi là Đèo Mây quanh năm mây mù bao phủ lãng đãng đẹp mê hồn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Dầu Tiếng hồ thủy lợi nhân tạo lớn nhất Việt Nam nằm trên địa phận ba tỉnh Tây Ninh, Bình Dương và tỉnh nào?",
+    "options": [
+      "Đồng Nai",
+      "Long An",
+      "TP. Hồ Chí Minh",
+      "Bình Phước"
+    ],
+    "correct": 3,
+    "explanation": "Hồ Dầu Tiếng cung cấp nước tưới cho hàng trăm nghìn héc-ta đất nông nghiệp miền Đông Nam Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Lục địa nào trên Trái Đất có diện tích tự nhiên rộng lớn nhất và đông dân cư nhất thế giới?",
+    "options": [
+      "Châu Á",
+      "Châu Phi",
+      "Châu Mỹ",
+      "Châu Âu"
+    ],
+    "correct": 0,
+    "explanation": "Châu Á chiếm gần 30% diện tích đất liền và hơn 60% dân số toàn cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đại dương nào có diện tích và độ sâu trung bình lớn nhất hành tinh chiếm 1/3 bề mặt Trái Đất?",
+    "options": [
+      "Đại Tây Dương",
+      "Thái Bình Dương (Pacific Ocean)",
+      "Ấn Độ Dương",
+      "Bắc Băng Dương"
+    ],
+    "correct": 1,
+    "explanation": "Thái Bình Dương rộng hơn toàn bộ diện tích đất nổi của tất cả các lục địa gộp lại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vực rãnh đại dương nào sâu nhất thế giới với độ sâu đo được gần 11.000 mét nằm ở Tây Thái Bình Dương?",
+    "options": [
+      "Rãnh Puerto Rico",
+      "Rãnh Java",
+      "Rãnh Mariana (Mariana Trench)",
+      "Rãnh Philippine"
+    ],
+    "correct": 2,
+    "explanation": "Đáy vực Challenger sâu tới mức nếu đặt đỉnh Everest vào đó thì đỉnh núi vẫn còn chìm dưới nước hơn 2km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào dài nhất thế giới chảy qua vùng Đông Bắc châu Phi đổ ra Địa Trung Hải?",
+    "options": [
+      "Sông Amazon",
+      "Sông Trường Giang",
+      "Sông Mississippi",
+      "Sông Nile (sông Nin)"
+    ],
+    "correct": 3,
+    "explanation": "Sông Nile dài khoảng 6.650 km là cái nôi nuôi dưỡng nền văn minh Ai Cập cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào có lưu lượng nước ngọt lớn nhất thế giới chiếm khoảng 20% tổng lượng nước ngọt toàn cầu?",
+    "options": [
+      "Sông Amazon",
+      "Sông Nile",
+      "Sông Congo",
+      "Sông Mekong"
+    ],
+    "correct": 0,
+    "explanation": "Lòng sông Amazon rộng mênh mông như biển nước chảy xuyên qua rừng rậm nhiệt đới Nam Mỹ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dãy núi nào dài nhất trên cạn chạy dọc theo sườn Tây của lục địa Nam Mỹ với chiều dài hơn 7.000 km?",
+    "options": [
+      "Dãy Himalaya",
+      "Dãy Andes",
+      "Dãy Rocky",
+      "Dãy Alps"
+    ],
+    "correct": 1,
+    "explanation": "Dãy Andes có đỉnh Aconcagua cao 6.961m là đỉnh cao nhất châu Mỹ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Sa mạc cát lớn nhất và nóng nhất thế giới nằm ở khu vực Bắc Phi có tên gọi là gì?",
+    "options": [
+      "Sa mạc Gobi",
+      "Sa mạc Kalahari",
+      "Sa mạc Sahara",
+      "Sa mạc Ả Rập"
+    ],
+    "correct": 2,
+    "explanation": "Sahara rộng hơn 9 triệu km2 gần bằng diện tích của toàn bộ nước Mỹ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vùng đất khô hạn nhất hành tinh nơi có những trạm quan trắc chưa từng ghi nhận mưa suốt nhiều thập kỷ là sa mạc nào?",
+    "options": [
+      "Sa mạc Sahara",
+      "Sa mạc Gobi",
+      "Sa mạc Mojave",
+      "Sa mạc Atacama (Chile)"
+    ],
+    "correct": 3,
+    "explanation": "Atacama có cảnh quan cằn cỗi tương tự sao Hỏa nên thường được NASA chọn thử nghiệm tàu vũ trụ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ nước ngọt sâu nhất và có thể tích nước ngọt lớn nhất hành tinh chứa 20% nước ngọt bề mặt Trái Đất là hồ nào?",
+    "options": [
+      "Hồ Baikal (Nga)",
+      "Hồ Superior (Hồ Thượng)",
+      "Hồ Victoria",
+      "Hồ Tanganyika"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Baikal ở Siberia có độ sâu tối đa 1.642m với làn nước trong vắt như pha lê."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Biển hồ nước mặn lớn nhất thế giới về diện tích bề mặt nằm giữa châu Á và châu Âu mang tên gì?",
+    "options": [
+      "Biển Đen",
+      "Biển Caspi (Caspian Sea)",
+      "Hồ Baikal",
+      "Biển Aral"
+    ],
+    "correct": 1,
+    "explanation": "Dù gọi là biển vì diện tích khổng lồ gần 371.000 km2 nhưng địa lý học phân loại Caspi là một hồ kín."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Nơi có mực nước thấp nhất trên bề mặt đất liền Trái Đất (khoảng 430m dưới mực nước biển) với độ mặn siêu đậm đặc là gì?",
+    "options": [
+      "Biển Đỏ",
+      "Hồ Assal",
+      "Biển Chết (Dead Sea)",
+      "Thung lũng Chết"
+    ],
+    "correct": 2,
+    "explanation": "Độ mặn quá cao khiến người bơi không thể chìm mà nổi bồng bềnh tự nhiên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của Hợp chúng quốc Hoa Kỳ (Mỹ) đặt tại thành phố nào?",
+    "options": [
+      "New York",
+      "Los Angeles",
+      "Chicago",
+      "Washington, D.C."
+    ],
+    "correct": 3,
+    "explanation": "Washington, D.C. là thủ đô hành chính nơi đặt Nhà Trắng và Tòa nhà Quốc hội Capitol."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thủ đô của nước Úc (Australia) là thành phố nào?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "correct": 0,
+    "explanation": "Canberra được chọn làm thủ đô từ năm 1908 như một sự dung hòa giữa hai thành phố lớn Sydney và Melbourne."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thủ đô của Canada quốc gia có diện tích lớn thứ hai thế giới là thành phố nào?",
+    "options": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correct": 1,
+    "explanation": "Ottawa nằm bên bờ sông Ottawa thuộc tỉnh bang Ontario."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của Cộng hòa Nhân dân Trung Hoa là thành phố nào?",
+    "options": [
+      "Thượng Hải",
+      "Quảng Châu",
+      "Bắc Kinh (Beijing)",
+      "Thâm Quyến"
+    ],
+    "correct": 2,
+    "explanation": "Bắc Kinh là trung tâm chính trị văn hóa với Tử Cấm Thành cổ kính uy nghiêm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô của Vương quốc Thái Lan là thành phố nào?",
+    "options": [
+      "Chiang Mai",
+      "Phuket",
+      "Pattaya",
+      "Bangkok (Krung Thep Maha Nakhon)"
+    ],
+    "correct": 3,
+    "explanation": "Bangkok được mệnh danh là 'Thành phố của những thiên thần' nổi tiếng với chùa vàng lộng lẫy."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào trên thế giới có diện tích lãnh thổ trải dài trên 11 múi giờ và rộng lớn nhất địa cầu?",
+    "options": [
+      "Nga (Liên bang Nga)",
+      "Canada",
+      "Trung Quốc",
+      "Mỹ"
+    ],
+    "correct": 0,
+    "explanation": "Nước Nga có diện tích hơn 17 triệu km2 trải dài từ Đông Âu qua trọn vẹn Bắc Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào được mệnh danh là 'Đất nước mặt trời mọc' nằm ở khu vực Đông Á?",
+    "options": [
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Triều Tiên",
+      "Mông Cổ"
+    ],
+    "correct": 1,
+    "explanation": "Tên gọi 'Nihon/Nippon' của Nhật Bản có nguồn gốc Hán Việt là 'Nhật Bản' - cội nguồn của mặt trời."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào ở Đông Nam Á là quốc gia duy nhất không giáp biển?",
+    "options": [
+      "Campuchia",
+      "Myanmar",
+      "Lào",
+      "Thái Lan"
+    ],
+    "correct": 2,
+    "explanation": "Lào là quốc gia nội lục được bao bọc bởi Việt Nam, Trung Quốc, Myanmar, Thái Lan và Campuchia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đất nước nào sở hữu số lượng hòn đảo nhiều nhất thế giới với hơn 17.000 hòn đảo lớn nhỏ?",
+    "options": [
+      "Philippines",
+      "Hy Lạp",
+      "Nhật Bản",
+      "Indonesia"
+    ],
+    "correct": 3,
+    "explanation": "Indonesia được mệnh danh là 'Xứ sở vạn đảo' nằm trên Vành đai lửa Thái Bình Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Ngọn núi Phú Sĩ (Fuji) biểu tượng linh thiêng và thơ mộng của đất nước Nhật Bản là loại địa hình gì?",
+    "options": [
+      "Núi lửa dạng tầng hình nón đối xứng hoàn hảo",
+      "Núi đá vôi phong hóa",
+      "Dãy nếp uốn uốn nếp",
+      "Cao nguyên bazan"
+    ],
+    "correct": 0,
+    "explanation": "Núi Phú Sĩ phủ tuyết trắng quanh năm cao 3.776m được UNESCO công nhận là Di sản Văn hóa Thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Eo biển Malacca eo biển hàng hải tấp nập bậc nhất thế giới nằm giữa bán đảo Mã Lai và hòn đảo nào của Indonesia?",
+    "options": [
+      "Đảo Java",
+      "Đảo Sumatra",
+      "Đảo Borneo",
+      "Đảo Sulawesi"
+    ],
+    "correct": 1,
+    "explanation": "Eo biển Malacca là tuyến đường huyết mạch kết nối Ấn Độ Dương và Biển Đông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Kênh đào nhân tạo nào nối thông Địa Trung Hải và Biển Đỏ giúp rút ngắn hải trình giữa châu Âu và châu Á?",
+    "options": [
+      "Kênh đào Panama",
+      "Kênh đào Kiel",
+      "Kênh đào Suez",
+      "Kênh đào Corinth"
+    ],
+    "correct": 2,
+    "explanation": "Kênh đào Suez dài khoảng 193 km nằm trên lãnh thổ Ai Cập khánh thành năm 1869."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thác nước Angel thác nước tự nhiên đổ thẳng liên tục cao nhất thế giới (979m) nằm ở quốc gia nào?",
+    "options": [
+      "Brazil",
+      "Mỹ",
+      "Zambia",
+      "Venezuela"
+    ],
+    "correct": 3,
+    "explanation": "Thác Angel đổ từ đỉnh núi bàn Auyán-tepui xuống giữa rừng rậm nhiệt đới hoang sơ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng cực Nam của Trái Đất nơi có lục địa băng giá lạnh nhất thế giới không có người định cư vĩnh viễn là gì?",
+    "options": [
+      "Châu Nam Cực (Antarctica)",
+      "Bắc Cực",
+      "Greenland",
+      "Siberia"
+    ],
+    "correct": 0,
+    "explanation": "Châu Nam Cực chứa khoảng 90% lượng băng và 70% lượng nước ngọt của toàn hành tinh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào có diện tích tự nhiên nhỏ nhất thế giới (chỉ 0,49 km2) nằm trọn trong lòng thủ đô Rome của nước Ý?",
+    "options": [
+      "Monaco",
+      "Vatican",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correct": 1,
+    "explanation": "Thành Vatican là quốc gia độc lập có chủ quyền do Giáo hoàng đứng đầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào trên thế giới có đường bờ biển dài nhất hành tinh với hơn 202.000 km bờ biển?",
+    "options": [
+      "Nga",
+      "Indonesia",
+      "Canada",
+      "Úc"
+    ],
+    "correct": 2,
+    "explanation": "Canada có hệ thống bờ biển khổng lồ tiếp giáp 3 đại dương: Thái Bình Dương, Đại Tây Dương và Bắc Băng Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Rừng rậm Amazon được mệnh danh là 'Lá phổi xanh của Trái Đất' nằm chủ yếu trên lãnh thổ quốc gia nào?",
+    "options": [
+      "Peru",
+      "Colombia",
+      "Bolivia",
+      "Brazil"
+    ],
+    "correct": 3,
+    "explanation": "Khoảng 60% diện tích rừng mưa nhiệt đới Amazon nằm trên lãnh thổ Brazil."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần đảo Galapagos nổi tiếng với hệ sinh vật đặc hữu giúp Darwin hoàn thiện thuyết tiến hóa thuộc chủ quyền của quốc gia nào?",
+    "options": [
+      "Ecuador",
+      "Chile",
+      "Peru",
+      "Costa Rica"
+    ],
+    "correct": 0,
+    "explanation": "Galapagos sở hữu rùa khổng lồ, cự đà biển và nhiều loài chim sẻ độc đáo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ nước ngọt lớn nhất Đông Nam Á với chế độ điều tiết nước lũ ngược dòng kỳ thú từ sông Mekong là hồ nào?",
+    "options": [
+      "Hồ Toba (Indonesia)",
+      "Biển Hồ Tonle Sap (Campuchia)",
+      "Hồ Songkhla (Thái Lan)",
+      "Hồ Ba Bể (Việt Nam)"
+    ],
+    "correct": 1,
+    "explanation": "Mùa mưa nước sông Mekong dâng cao chảy ngược vào làm Biển Hồ phình to gấp 4-5 lần mùa khô."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nước ta có vịnh Lan Hạ thơ mộng và quần đảo Cát Bà khu dự trữ sinh quyển thế giới?",
+    "options": [
+      "Hải Phòng",
+      "Quảng Ninh",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Lan Hạ nằm phía nam vịnh Hạ Long với hàng trăm hòn đảo đá vôi kỳ vĩ và bãi cát trắng hoang sơ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Con sông nào dài nhất chảy hoàn toàn trên lãnh thổ Việt Nam bắt nguồn từ vùng núi Kon Tum đổ ra biển Đông ở cửa Đại?",
+    "options": [
+      "Sông Hồng",
+      "Sông Thu Bồn (hoặc sông Đồng Nai)",
+      "Sông Mã",
+      "Sông Cả"
+    ],
+    "correct": 1,
+    "explanation": "Hệ thống sông Đồng Nai là lưu vực sông nội địa lớn nhất nước ta chảy qua nhiều tỉnh Nam Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo nào có diện tích lớn thứ hai của Việt Nam sau đảo Phú Quốc nằm ở huyện đảo Vân Đồn tỉnh Quảng Ninh?",
+    "options": [
+      "Đảo Cát Bà",
+      "Đảo Cô Tô",
+      "Đảo Cái Bầu",
+      "Đảo Côn Sơn"
+    ],
+    "correct": 2,
+    "explanation": "Đảo Cái Bầu là đảo lớn nhất trong quần đảo Vân Đồn nối liền với đất liền bằng cầu Vân Đồn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ nước nhân tạo nào cung cấp nước sinh hoạt và sản xuất quan trọng nhất cho Thủ đô Hà Nội và tỉnh Hòa Bình?",
+    "options": [
+      "Hồ Núi Cốc",
+      "Hồ Đồng Mô",
+      "Hồ Suối Hai",
+      "Hồ Sông Đà (Hồ thủy điện Hòa Bình)"
+    ],
+    "correct": 3,
+    "explanation": "Hồ thủy điện Hòa Bình từng là công trình thủy điện thế kỷ lớn nhất Đông Nam Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần đảo Côn Đảo gồm 16 hòn đảo lớn nhỏ nằm ở ngoài khơi biển Đông thuộc quyền quản lý hành chính của tỉnh nào?",
+    "options": [
+      "Bà Rịa - Vũng Tàu",
+      "Sóc Trăng",
+      "Bến Tre",
+      "Trà Vinh"
+    ],
+    "correct": 0,
+    "explanation": "Côn Đảo ngày nay là thiên đường du lịch nghỉ dưỡng và di tích lịch sử quốc gia đặc biệt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Ngọn hải đăng Kê Gà ngọn hải đăng bằng đá cổ kính và cao nhất Việt Nam nằm ở tỉnh nào miền duyên hải?",
+    "options": [
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Khánh Hòa",
+      "Phú Yên"
+    ],
+    "correct": 1,
+    "explanation": "Hải đăng Kê Gà được người Pháp xây dựng bằng đá hoa cương từ năm 1897."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Núi Langbiang ngọn núi huyền thoại gắn liền với thiên tình sử chàng K'lang và nàng H'biang nằm ở huyện nào tỉnh Lâm Đồng?",
+    "options": [
+      "Huyện Đơn Dương",
+      "Huyện Đức Trọng",
+      "Huyện Lạc Dương (cạnh TP. Đà Lạt)",
+      "Thành phố Bảo Lộc"
+    ],
+    "correct": 2,
+    "explanation": "Đỉnh Langbiang cao 2.167m nhìn bao quát toàn cảnh thành phố Đà Lạt mộng mơ trong mây."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cửa khẩu quốc tế Hữu Nghị cửa khẩu đường bộ huyết mạch nối liền Việt Nam và Trung Quốc thuộc địa phận tỉnh nào?",
+    "options": [
+      "Quảng Ninh",
+      "Cao Bằng",
+      "Lào Cai",
+      "Lạng Sơn"
+    ],
+    "correct": 3,
+    "explanation": "Cửa khẩu Hữu Nghị thuộc thị trấn Đồng Đăng, huyện Cao Lộc, tỉnh Lạng Sơn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào trên thế giới có đường bờ biển tiếp giáp với cả Đại Tây Dương và Thái Bình Dương ở khu vực Trung Mỹ?",
+    "options": [
+      "Panama (cùng Costa Rica, Mexico, Colombia...)",
+      "Cuba",
+      "Jamaica",
+      "Brazil"
+    ],
+    "correct": 0,
+    "explanation": "Vị trí hẹp của eo đất Panama cho phép xây dựng kênh đào Panama nối liền hai đại dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào là quốc gia duy nhất trên thế giới đồng thời chiếm trọn một lục địa nguyên vẹn?",
+    "options": [
+      "New Zealand",
+      "Úc (Australia)",
+      "Madagascar",
+      "Greenland"
+    ],
+    "correct": 1,
+    "explanation": "Lục địa Australia tách biệt với thế giới hàng chục triệu năm tạo nên hệ động vật có túi kỳ thú."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Pháp là thành phố nào?",
+    "options": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Nice"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Paris là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Pháp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Liên bang Đức là thành phố nào?",
+    "options": [
+      "Munich",
+      "Berlin",
+      "Frankfurt",
+      "Hamburg"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Berlin là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Liên bang Đức."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Ý (Italia) là thành phố nào?",
+    "options": [
+      "Milan",
+      "Venice",
+      "Rome",
+      "Florence"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Rome là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Ý (Italia)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Tây Ban Nha là thành phố nào?",
+    "options": [
+      "Barcelona",
+      "Seville",
+      "Valencia",
+      "Madrid"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Madrid là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Tây Ban Nha."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Bồ Đào Nha là thành phố nào?",
+    "options": [
+      "Lisbon",
+      "Porto",
+      "Coimbra",
+      "Braga"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Lisbon là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Bồ Đào Nha."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Hà Lan là thành phố nào?",
+    "options": [
+      "Rotterdam",
+      "Amsterdam",
+      "The Hague",
+      "Utrecht"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Amsterdam là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Hà Lan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Bỉ là thành phố nào?",
+    "options": [
+      "Antwerp",
+      "Ghent",
+      "Brussels",
+      "Bruges"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Brussels là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Bỉ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Thụy Sĩ là thành phố nào?",
+    "options": [
+      "Zurich",
+      "Geneva",
+      "Basel",
+      "Bern"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Bern là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Thụy Sĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Áo là thành phố nào?",
+    "options": [
+      "Vienna",
+      "Salzburg",
+      "Innsbruck",
+      "Graz"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Vienna là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Áo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Ba Lan là thành phố nào?",
+    "options": [
+      "Krakow",
+      "Warsaw",
+      "Gdansk",
+      "Wroclaw"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Warsaw là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Ba Lan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Thụy Điển là thành phố nào?",
+    "options": [
+      "Gothenburg",
+      "Malmo",
+      "Stockholm",
+      "Uppsala"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Stockholm là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Thụy Điển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Na Uy là thành phố nào?",
+    "options": [
+      "Bergen",
+      "Trondheim",
+      "Stavanger",
+      "Oslo"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Oslo là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Na Uy."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Phần Lan là thành phố nào?",
+    "options": [
+      "Helsinki",
+      "Espoo",
+      "Tampere",
+      "Turku"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Helsinki là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Phần Lan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Đan Mạch là thành phố nào?",
+    "options": [
+      "Aarhus",
+      "Copenhagen",
+      "Odense",
+      "Aalborg"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Copenhagen là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Đan Mạch."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Hy Lạp là thành phố nào?",
+    "options": [
+      "Thessaloniki",
+      "Patras",
+      "Athens",
+      "Heraklion"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Athens là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Hy Lạp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Thổ Nhĩ Kỳ là thành phố nào?",
+    "options": [
+      "Istanbul",
+      "Izmir",
+      "Antalya",
+      "Ankara"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Ankara là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Thổ Nhĩ Kỳ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Ả Rập Ai Cập là thành phố nào?",
+    "options": [
+      "Cairo",
+      "Alexandria",
+      "Giza",
+      "Luxor"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Cairo là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Ả Rập Ai Cập."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Nam Phi (thủ đô hành chính) là thành phố nào?",
+    "options": [
+      "Johannesburg",
+      "Pretoria",
+      "Cape Town",
+      "Durban"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Pretoria là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Nam Phi (thủ đô hành chính)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Morocco (Ma-rốc) là thành phố nào?",
+    "options": [
+      "Casablanca",
+      "Marrakesh",
+      "Rabat",
+      "Fes"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Rabat là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Morocco (Ma-rốc)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Argentina là thành phố nào?",
+    "options": [
+      "Cordoba",
+      "Rosario",
+      "Mendoza",
+      "Buenos Aires"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Buenos Aires là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Argentina."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Chile là thành phố nào?",
+    "options": [
+      "Santiago",
+      "Valparaiso",
+      "Concepcion",
+      "Antofagasta"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Santiago là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Chile."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Colombia là thành phố nào?",
+    "options": [
+      "Medellin",
+      "Bogota",
+      "Cali",
+      "Barranquilla"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Bogota là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Colombia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Peru là thành phố nào?",
+    "options": [
+      "Cusco",
+      "Arequipa",
+      "Lima",
+      "Trujillo"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Lima là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Peru."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Hợp chúng quốc Mexico là thành phố nào?",
+    "options": [
+      "Guadalajara",
+      "Monterrey",
+      "Cancun",
+      "Mexico City"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Mexico City là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Hợp chúng quốc Mexico."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Cuba là thành phố nào?",
+    "options": [
+      "Havana",
+      "Santiago de Cuba",
+      "Camaguey",
+      "Holguin"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Havana là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Cuba."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia New Zealand là thành phố nào?",
+    "options": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Hamilton"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Wellington là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của New Zealand."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Hàn Quốc (Đại Hàn Dân Quốc) là thành phố nào?",
+    "options": [
+      "Busan",
+      "Incheon",
+      "Seoul",
+      "Daegu"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Seoul là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Hàn Quốc (Đại Hàn Dân Quốc)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Dân chủ Nhân dân Triều Tiên là thành phố nào?",
+    "options": [
+      "Kaesong",
+      "Hamhung",
+      "Nampo",
+      "Bình Nhưỡng (Pyongyang)"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Bình Nhưỡng (Pyongyang) là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Dân chủ Nhân dân Triều Tiên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Mông Cổ là thành phố nào?",
+    "options": [
+      "Ulaanbaatar",
+      "Erdenet",
+      "Darkhan",
+      "Khovd"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Ulaanbaatar là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Mông Cổ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Ấn Độ là thành phố nào?",
+    "options": [
+      "Mumbai",
+      "New Delhi",
+      "Kolkata",
+      "Bangalore"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố New Delhi là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Ấn Độ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Hồi giáo Pakistan là thành phố nào?",
+    "options": [
+      "Karachi",
+      "Lahore",
+      "Islamabad",
+      "Faisalabad"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Islamabad là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Hồi giáo Pakistan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Nhân dân Bangladesh là thành phố nào?",
+    "options": [
+      "Chittagong",
+      "Khulna",
+      "Sylhet",
+      "Dhaka"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Dhaka là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Nhân dân Bangladesh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Dân chủ Nhân dân Lào là thành phố nào?",
+    "options": [
+      "Viêng Chăn (Vientiane)",
+      "Luang Prabang",
+      "Pakse",
+      "Savannakhet"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Viêng Chăn (Vientiane) là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Dân chủ Nhân dân Lào."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Campuchia là thành phố nào?",
+    "options": [
+      "Siem Reap",
+      "Phnôm Pênh (Phnom Penh)",
+      "Battambang",
+      "Sihanoukville"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Phnôm Pênh (Phnom Penh) là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Campuchia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Malaysia (thủ đô liên bang) là thành phố nào?",
+    "options": [
+      "George Town",
+      "Johor Bahru",
+      "Kuala Lumpur",
+      "Putrajaya"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Kuala Lumpur là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Malaysia (thủ đô liên bang)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Philippines là thành phố nào?",
+    "options": [
+      "Quezon",
+      "Cebu",
+      "Davao",
+      "Manila"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Manila là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Philippines."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Liên bang Myanmar là thành phố nào?",
+    "options": [
+      "Naypyidaw",
+      "Yangon",
+      "Mandalay",
+      "Bagan"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Naypyidaw là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Liên bang Myanmar."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Brunei Darussalam là thành phố nào?",
+    "options": [
+      "Kuala Belait",
+      "Bandar Seri Begawan",
+      "Seria",
+      "Tutong"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Bandar Seri Begawan là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Brunei Darussalam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Vương quốc Ả Rập Xê Út là thành phố nào?",
+    "options": [
+      "Jeddah",
+      "Mecca",
+      "Riyadh",
+      "Medina"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Riyadh là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Vương quốc Ả Rập Xê Út."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Các Tiểu vương quốc Ả Rập Thống nhất (UAE) là thành phố nào?",
+    "options": [
+      "Dubai",
+      "Sharjah",
+      "Ajman",
+      "Abu Dhabi"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Abu Dhabi là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Các Tiểu vương quốc Ả Rập Thống nhất (UAE)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Nhà nước Qatar là thành phố nào?",
+    "options": [
+      "Doha",
+      "Al Rayyan",
+      "Al Wakrah",
+      "Al Khor"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Doha là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Nhà nước Qatar."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Hồi giáo Iran là thành phố nào?",
+    "options": [
+      "Isfahan",
+      "Tehran",
+      "Shiraz",
+      "Tabriz"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Tehran là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Hồi giáo Iran."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô chính thức của quốc gia Cộng hòa Iraq là thành phố nào?",
+    "options": [
+      "Basra",
+      "Mosul",
+      "Baghdad",
+      "Erbil"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Baghdad là trung tâm chính trị, văn hóa và là thủ đô hợp pháp của Cộng hòa Iraq."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Phú Thọ là thành phố nào?",
+    "options": [
+      "Thành phố Việt Trì",
+      "Thị xã Phú Thọ",
+      "Huyện Lâm Thao",
+      "Huyện Thanh Ba"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Việt Trì là trung tâm chính trị, kinh tế, văn hóa của tỉnh Phú Thọ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Quảng Ninh là thành phố nào?",
+    "options": [
+      "Thành phố Cẩm Phả",
+      "Thành phố Hạ Long",
+      "Thành phố Uông Bí",
+      "Thành phố Móng Cái"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Hạ Long là trung tâm chính trị, kinh tế, văn hóa của tỉnh Quảng Ninh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Ninh Bình là thành phố nào?",
+    "options": [
+      "Thành phố Tam Điệp",
+      "Huyện Hoa Lư",
+      "Thành phố Ninh Bình",
+      "Huyện Gia Viễn"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Ninh Bình là trung tâm chính trị, kinh tế, văn hóa của tỉnh Ninh Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hà Nam là thành phố nào?",
+    "options": [
+      "Thị xã Duy Tiên",
+      "Huyện Kim Bảng",
+      "Huyện Thanh Liêm",
+      "Thành phố Phủ Lý"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Phủ Lý là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hà Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Nam Định là thành phố nào?",
+    "options": [
+      "Thành phố Nam Định",
+      "Huyện Ý Yên",
+      "Huyện Hải Hậu",
+      "Huyện Giao Thủy"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Nam Định là trung tâm chính trị, kinh tế, văn hóa của tỉnh Nam Định."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Thái Bình là thành phố nào?",
+    "options": [
+      "Huyện Đông Hưng",
+      "Thành phố Thái Bình",
+      "Huyện Tiền Hải",
+      "Huyện Hưng Hà"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Thái Bình là trung tâm chính trị, kinh tế, văn hóa của tỉnh Thái Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hải Dương là thành phố nào?",
+    "options": [
+      "Thành phố Chí Linh",
+      "Thị xã Kinh Môn",
+      "Thành phố Hải Dương",
+      "Huyện Nam Sách"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Hải Dương là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hải Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hưng Yên là thành phố nào?",
+    "options": [
+      "Thị xã Mỹ Hào",
+      "Huyện Văn Giang",
+      "Huyện Khoái Châu",
+      "Thành phố Hưng Yên"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Hưng Yên là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hưng Yên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Vĩnh Phúc là thành phố nào?",
+    "options": [
+      "Thành phố Vĩnh Yên",
+      "Thành phố Phúc Yên",
+      "Huyện Bình Xuyên",
+      "Huyện Tam Dương"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Vĩnh Yên là trung tâm chính trị, kinh tế, văn hóa của tỉnh Vĩnh Phúc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bắc Ninh là thành phố nào?",
+    "options": [
+      "Thành phố Từ Sơn",
+      "Thành phố Bắc Ninh",
+      "Thị xã Thuận Thành",
+      "Thị xã Quế Võ"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Bắc Ninh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bắc Ninh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bắc Giang là thành phố nào?",
+    "options": [
+      "Thị xã Việt Yên",
+      "Huyện Hiệp Hòa",
+      "Thành phố Bắc Giang",
+      "Huyện Lục Ngạn"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Bắc Giang là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bắc Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Thái Nguyên là thành phố nào?",
+    "options": [
+      "Thành phố Sông Công",
+      "Thành phố Phổ Yên",
+      "Huyện Đại Từ",
+      "Thành phố Thái Nguyên"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Thái Nguyên là trung tâm chính trị, kinh tế, văn hóa của tỉnh Thái Nguyên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Lạng Sơn là thành phố nào?",
+    "options": [
+      "Thành phố Lạng Sơn",
+      "Huyện Cao Lộc",
+      "Huyện Hữu Lũng",
+      "Huyện Chi Lăng"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Lạng Sơn là trung tâm chính trị, kinh tế, văn hóa của tỉnh Lạng Sơn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Cao Bằng là thành phố nào?",
+    "options": [
+      "Huyện Trùng Khánh",
+      "Thành phố Cao Bằng",
+      "Huyện Quảng Hòa",
+      "Huyện Hà Quảng"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Cao Bằng là trung tâm chính trị, kinh tế, văn hóa của tỉnh Cao Bằng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bắc Kạn là thành phố nào?",
+    "options": [
+      "Huyện Ba Bể",
+      "Huyện Chợ Đồn",
+      "Thành phố Bắc Kạn",
+      "Huyện Bạch Thông"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Bắc Kạn là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bắc Kạn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Tuyên Quang là thành phố nào?",
+    "options": [
+      "Huyện Yên Sơn",
+      "Huyện Sơn Dương",
+      "Huyện Hàm Yên",
+      "Thành phố Tuyên Quang"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Tuyên Quang là trung tâm chính trị, kinh tế, văn hóa của tỉnh Tuyên Quang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hà Giang là thành phố nào?",
+    "options": [
+      "Thành phố Hà Giang",
+      "Huyện Đồng Văn",
+      "Huyện Mèo Vạc",
+      "Huyện Bắc Mê"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Hà Giang là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hà Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Lào Cai là thành phố nào?",
+    "options": [
+      "Thị xã Sa Pa",
+      "Thành phố Lào Cai",
+      "Huyện Bảo Thắng",
+      "Huyện Bát Xát"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Lào Cai là trung tâm chính trị, kinh tế, văn hóa của tỉnh Lào Cai."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Yên Bái là thành phố nào?",
+    "options": [
+      "Thị xã Nghĩa Lộ",
+      "Huyện Trấn Yên",
+      "Thành phố Yên Bái",
+      "Huyện Văn Chấn"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Yên Bái là trung tâm chính trị, kinh tế, văn hóa của tỉnh Yên Bái."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Sơn La là thành phố nào?",
+    "options": [
+      "Huyện Mộc Châu",
+      "Huyện Mai Sơn",
+      "Huyện Thuận Châu",
+      "Thành phố Sơn La"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Sơn La là trung tâm chính trị, kinh tế, văn hóa của tỉnh Sơn La."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Điện Biên là thành phố nào?",
+    "options": [
+      "Thành phố Điện Biên Phủ",
+      "Thị xã Mường Lay",
+      "Huyện Điện Biên",
+      "Huyện Tuần Giáo"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Điện Biên Phủ là trung tâm chính trị, kinh tế, văn hóa của tỉnh Điện Biên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Lai Châu là thành phố nào?",
+    "options": [
+      "Huyện Phong Thổ",
+      "Thành phố Lai Châu",
+      "Huyện Tam Đường",
+      "Huyện Tân Uyên"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Lai Châu là trung tâm chính trị, kinh tế, văn hóa của tỉnh Lai Châu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hòa Bình là thành phố nào?",
+    "options": [
+      "Huyện Lương Sơn",
+      "Huyện Kim Bôi",
+      "Thành phố Hòa Bình",
+      "Huyện Mai Châu"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Hòa Bình là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hòa Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Thanh Hóa là thành phố nào?",
+    "options": [
+      "Thành phố Sầm Sơn",
+      "Thị xã Bỉm Sơn",
+      "Thị xã Nghi Sơn",
+      "Thành phố Thanh Hóa"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Thanh Hóa là trung tâm chính trị, kinh tế, văn hóa của tỉnh Thanh Hóa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Nghệ An là thành phố nào?",
+    "options": [
+      "Thành phố Vinh",
+      "Thị xã Cửa Lò",
+      "Thị xã Thái Hòa",
+      "Thị xã Hoàng Mai"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Vinh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Nghệ An."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hà Tĩnh là thành phố nào?",
+    "options": [
+      "Thị xã Hồng Lĩnh",
+      "Thành phố Hà Tĩnh",
+      "Thị xã Kỳ Anh",
+      "Huyện Cẩm Xuyên"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Hà Tĩnh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hà Tĩnh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Quảng Bình là thành phố nào?",
+    "options": [
+      "Thị xã Ba Đồn",
+      "Huyện Bố Trạch",
+      "Thành phố Đồng Hới",
+      "Huyện Lệ Thủy"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Đồng Hới là trung tâm chính trị, kinh tế, văn hóa của tỉnh Quảng Bình."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Quảng Trị là thành phố nào?",
+    "options": [
+      "Thị xã Quảng Trị",
+      "Huyện Vĩnh Linh",
+      "Huyện Gio Linh",
+      "Thành phố Đông Hà"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Đông Hà là trung tâm chính trị, kinh tế, văn hóa của tỉnh Quảng Trị."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Quảng Nam là thành phố nào?",
+    "options": [
+      "Thành phố Tam Kỳ",
+      "Thành phố Hội An",
+      "Thị xã Điện Bàn",
+      "Huyện Núi Thành"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Tam Kỳ là trung tâm chính trị, kinh tế, văn hóa của tỉnh Quảng Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Quảng Ngãi là thành phố nào?",
+    "options": [
+      "Thị xã Đức Phổ",
+      "Thành phố Quảng Ngãi",
+      "Huyện Bình Sơn",
+      "Huyện Tư Nghĩa"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Quảng Ngãi là trung tâm chính trị, kinh tế, văn hóa của tỉnh Quảng Ngãi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bình Định là thành phố nào?",
+    "options": [
+      "Thị xã An Nhơn",
+      "Thị xã Hoài Nhơn",
+      "Thành phố Quy Nhơn",
+      "Huyện Phù Cát"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Quy Nhơn là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bình Định."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Phú Yên là thành phố nào?",
+    "options": [
+      "Thị xã Sông Cầu",
+      "Thị xã Đông Hòa",
+      "Huyện Tuy An",
+      "Thành phố Tuy Hòa"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Tuy Hòa là trung tâm chính trị, kinh tế, văn hóa của tỉnh Phú Yên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Khánh Hòa là thành phố nào?",
+    "options": [
+      "Thành phố Nha Trang",
+      "Thành phố Cam Ranh",
+      "Thị xã Ninh Hòa",
+      "Huyện Diên Khánh"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Nha Trang là trung tâm chính trị, kinh tế, văn hóa của tỉnh Khánh Hòa."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Ninh Thuận là thành phố nào?",
+    "options": [
+      "Huyện Ninh Hải",
+      "Thành phố Phan Rang - Tháp Chàm",
+      "Huyện Ninh Phước",
+      "Huyện Thuận Bắc"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Phan Rang - Tháp Chàm là trung tâm chính trị, kinh tế, văn hóa của tỉnh Ninh Thuận."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bình Thuận là thành phố nào?",
+    "options": [
+      "Thị xã La Gi",
+      "Huyện Hàm Thuận Bắc",
+      "Thành phố Phan Thiết",
+      "Huyện Tuy Phong"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Phan Thiết là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bình Thuận."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Kon Tum là thành phố nào?",
+    "options": [
+      "Huyện Đắk Hà",
+      "Huyện Ngọc Hồi",
+      "Huyện Kon Plông",
+      "Thành phố Kon Tum"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Kon Tum là trung tâm chính trị, kinh tế, văn hóa của tỉnh Kon Tum."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Gia Lai là thành phố nào?",
+    "options": [
+      "Thành phố Pleiku",
+      "Thị xã An Khê",
+      "Thị xã Ayun Pa",
+      "Huyện Chư Sê"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Pleiku là trung tâm chính trị, kinh tế, văn hóa của tỉnh Gia Lai."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Đắk Lắk là thành phố nào?",
+    "options": [
+      "Thị xã Buôn Hồ",
+      "Thành phố Buôn Ma Thuột",
+      "Huyện Krông Pắc",
+      "Huyện Cư M'gar"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Buôn Ma Thuột là trung tâm chính trị, kinh tế, văn hóa của tỉnh Đắk Lắk."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Đắk Nông là thành phố nào?",
+    "options": [
+      "Huyện Đắk R'lấp",
+      "Huyện Cư Jút",
+      "Thành phố Gia Nghĩa",
+      "Huyện Đắk Mil"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Gia Nghĩa là trung tâm chính trị, kinh tế, văn hóa của tỉnh Đắk Nông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Lâm Đồng là thành phố nào?",
+    "options": [
+      "Thành phố Bảo Lộc",
+      "Huyện Đức Trọng",
+      "Huyện Đơn Dương",
+      "Thành phố Đà Lạt"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Đà Lạt là trung tâm chính trị, kinh tế, văn hóa của tỉnh Lâm Đồng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bình Phước là thành phố nào?",
+    "options": [
+      "Thành phố Đồng Xoài",
+      "Thị xã Phước Long",
+      "Thị xã Bình Long",
+      "Thị xã Chơn Thành"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Đồng Xoài là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bình Phước."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Tây Ninh là thành phố nào?",
+    "options": [
+      "Thị xã Trảng Bàng",
+      "Thành phố Tây Ninh",
+      "Thị xã Hòa Thành",
+      "Huyện Tân Châu"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Tây Ninh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Tây Ninh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bình Dương là thành phố nào?",
+    "options": [
+      "Thành phố Thuận An",
+      "Thành phố Dĩ An",
+      "Thành phố Thủ Dầu Một",
+      "Thành phố Tân Uyên"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Thủ Dầu Một là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bình Dương."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Đồng Nai là thành phố nào?",
+    "options": [
+      "Thành phố Long Khánh",
+      "Huyện Long Thành",
+      "Huyện Nhơn Trạch",
+      "Thành phố Biên Hòa"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Biên Hòa là trung tâm chính trị, kinh tế, văn hóa của tỉnh Đồng Nai."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bà Rịa - Vũng Tàu là thành phố nào?",
+    "options": [
+      "Thành phố Bà Rịa",
+      "Thành phố Vũng Tàu",
+      "Thị xã Phú Mỹ",
+      "Huyện Long Điền"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Bà Rịa là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bà Rịa - Vũng Tàu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Long An là thành phố nào?",
+    "options": [
+      "Thị xã Kiến Tường",
+      "Thành phố Tân An",
+      "Huyện Bến Lức",
+      "Huyện Đức Hòa"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Tân An là trung tâm chính trị, kinh tế, văn hóa của tỉnh Long An."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Tiền Giang là thành phố nào?",
+    "options": [
+      "Thị xã Gò Công",
+      "Thị xã Cai Lậy",
+      "Thành phố Mỹ Tho",
+      "Huyện Châu Thành"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Mỹ Tho là trung tâm chính trị, kinh tế, văn hóa của tỉnh Tiền Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bến Tre là thành phố nào?",
+    "options": [
+      "Huyện Châu Thành",
+      "Huyện Ba Tri",
+      "Huyện Mỏ Cày Nam",
+      "Thành phố Bến Tre"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Bến Tre là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bến Tre."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Trà Vinh là thành phố nào?",
+    "options": [
+      "Thành phố Trà Vinh",
+      "Thị xã Duyên Hải",
+      "Huyện Càng Long",
+      "Huyện Châu Thành"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Trà Vinh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Trà Vinh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Vĩnh Long là thành phố nào?",
+    "options": [
+      "Thị xã Bình Minh",
+      "Thành phố Vĩnh Long",
+      "Huyện Long Hồ",
+      "Huyện Tam Bình"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Vĩnh Long là trung tâm chính trị, kinh tế, văn hóa của tỉnh Vĩnh Long."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Đồng Tháp là thành phố nào?",
+    "options": [
+      "Thành phố Sa Đéc",
+      "Thành phố Hồng Ngự",
+      "Thành phố Cao Lãnh",
+      "Huyện Lấp Vò"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Cao Lãnh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Đồng Tháp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh An Giang là thành phố nào?",
+    "options": [
+      "Thành phố Châu Đốc",
+      "Thị xã Tân Châu",
+      "Thị xã Tịnh Biên",
+      "Thành phố Long Xuyên"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Long Xuyên là trung tâm chính trị, kinh tế, văn hóa của tỉnh An Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Kiên Giang là thành phố nào?",
+    "options": [
+      "Thành phố Rạch Giá",
+      "Thành phố Hà Tiên",
+      "Thành phố Phú Quốc",
+      "Huyện Kiên Lương"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Rạch Giá là trung tâm chính trị, kinh tế, văn hóa của tỉnh Kiên Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Hậu Giang là thành phố nào?",
+    "options": [
+      "Thành phố Ngã Bảy",
+      "Thành phố Vị Thanh",
+      "Thị xã Long Mỹ",
+      "Huyện Châu Thành"
+    ],
+    "correct": 1,
+    "explanation": "Thành phố Vị Thanh là trung tâm chính trị, kinh tế, văn hóa của tỉnh Hậu Giang."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Sóc Trăng là thành phố nào?",
+    "options": [
+      "Thị xã Vĩnh Châu",
+      "Thị xã Ngã Năm",
+      "Thành phố Sóc Trăng",
+      "Huyện Mỹ Xuyên"
+    ],
+    "correct": 2,
+    "explanation": "Thành phố Sóc Trăng là trung tâm chính trị, kinh tế, văn hóa của tỉnh Sóc Trăng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Bạc Liêu là thành phố nào?",
+    "options": [
+      "Thị xã Giá Rai",
+      "Huyện Vĩnh Lợi",
+      "Huyện Đông Hải",
+      "Thành phố Bạc Liêu"
+    ],
+    "correct": 3,
+    "explanation": "Thành phố Bạc Liêu là trung tâm chính trị, kinh tế, văn hóa của tỉnh Bạc Liêu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thành phố trung tâm hành chính tỉnh lỵ của tỉnh Cà Mau là thành phố nào?",
+    "options": [
+      "Thành phố Cà Mau",
+      "Huyện Năm Căn",
+      "Huyện Đầm Dơi",
+      "Huyện Trần Văn Thời"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Cà Mau là trung tâm chính trị, kinh tế, văn hóa của tỉnh Cà Mau."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dãy núi Himalaya nóc nhà thế giới trải dài qua lãnh thổ của bao nhiêu quốc gia châu Á?",
+    "options": [
+      "3 quốc gia",
+      "5 quốc gia (Ấn Độ, Nepal, Bhutan, Trung Quốc, Pakistan)",
+      "4 quốc gia",
+      "7 quốc gia"
+    ],
+    "correct": 1,
+    "explanation": "Himalaya sở hữu 14 đỉnh núi cao trên 8.000m bao gồm đỉnh Everest hùng vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đỉnh núi K2 (Chhogori) đỉnh núi cao thứ hai thế giới (8.611m) thuộc dãy núi nào?",
+    "options": [
+      "Dãy Himalaya",
+      "Dãy Côn Lôn",
+      "Dãy Karakoram",
+      "Dãy Thiên Sơn"
+    ],
+    "correct": 2,
+    "explanation": "K2 được mệnh danh là 'Ngọn núi hoang dã' vì mức độ hiểm trở và nguy hiểm bậc nhất đối với các nhà leo núi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thác nước Iguazu một trong những kỳ quan thác nước tự nhiên hùng vĩ nhất thế giới nằm trên biên giới hai nước nào?",
+    "options": [
+      "Chile và Peru",
+      "Colombia và Venezuela",
+      "Mỹ và Canada",
+      "Brazil và Argentina"
+    ],
+    "correct": 3,
+    "explanation": "Hệ thống thác Iguazu gồm 275 ngọn thác lớn nhỏ đổ ầm vang giữa rừng mưa nhiệt đới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thác nước Niagara nổi tiếng thế giới nằm trên đường biên giới tự nhiên giữa hai quốc gia nào?",
+    "options": [
+      "Mỹ và Canada",
+      "Mỹ và Mexico",
+      "Pháp và Thụy Sĩ",
+      "Anh và Scotland"
+    ],
+    "correct": 0,
+    "explanation": "Thác Niagara nối liền hai hồ lớn là Hồ Erie và Hồ Ontario."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo Greenland hòn đảo lớn nhất thế giới về diện tích lãnh thổ tự nhiên thuộc chủ quyền của quốc gia nào?",
+    "options": [
+      "Canada",
+      "Vương quốc Đan Mạch",
+      "Na Uy",
+      "Vương quốc Anh"
+    ],
+    "correct": 1,
+    "explanation": "Greenland rộng hơn 2,1 triệu km2 với hơn 80% diện tích bị bao phủ bởi lớp băng tuyết vĩnh cửu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Victoria hồ nước ngọt lớn nhất châu Phi tiếp giáp với ba quốc gia nào?",
+    "options": [
+      "Ai Cập, Sudan, Ethiopia",
+      "Nam Phi, Zimbabwe, Zambia",
+      "Uganda, Kenya và Tanzania",
+      "Congo, Rwanda, Burundi"
+    ],
+    "correct": 2,
+    "explanation": "Hồ Victoria là nguồn cung cấp nước chính cho dòng sông Nile trắng huyền thoại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào trên thế giới có nhiều múi giờ nhất trên các vùng lãnh thổ và hải ngoại (12 múi giờ)?",
+    "options": [
+      "Nước Nga",
+      "Nước Mỹ",
+      "Vương quốc Anh",
+      "Nước Pháp"
+    ],
+    "correct": 3,
+    "explanation": "Nhờ có các vùng lãnh thổ hải ngoại rải rác trên khắp các đại dương, Pháp sở hữu 12 múi giờ khác nhau."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Eo biển Gibraltar eo biển chiến lược nối liền Địa Trung Hải với Đại Tây Dương chia cắt hai lục địa nào?",
+    "options": [
+      "Châu Âu và Châu Phi",
+      "Châu Âu và Châu Á",
+      "Châu Phi và Châu Á",
+      "Bắc Mỹ và Nam Mỹ"
+    ],
+    "correct": 0,
+    "explanation": "Gibraltar phân chia bán đảo Iberia (Tây Ban Nha) với Morocco (Bắc Phi)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Biển Baltic (Ban-tích) nằm ở khu vực nào của châu Âu?",
+    "options": [
+      "Nam Âu",
+      "Bắc Âu",
+      "Tây Âu",
+      "Đông Nam Âu"
+    ],
+    "correct": 1,
+    "explanation": "Biển Baltic được bao bọc bởi bán đảo Scandinavia, các nước Baltic và Bắc Âu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng vịnh Ba Tư (Persian Gulf) nổi tiếng thế giới là nơi chứa trữ lượng khoáng sản chiến lược nào lớn nhất địa cầu?",
+    "options": [
+      "Quặng sắt",
+      "Than đá",
+      "Dầu mỏ và khí đốt tự nhiên",
+      "Vàng và kim cương"
+    ],
+    "correct": 2,
+    "explanation": "Vịnh Ba Tư là trung tâm năng lượng dầu khí của các quốc gia Trung Đông xuất khẩu đi khắp thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Madagascar đảo quốc lớn thứ tư thế giới nằm ở ngoài khơi bờ biển phía đông của lục địa nào?",
+    "options": [
+      "Châu Á",
+      "Châu Đại Dương",
+      "Châu Nam Cực",
+      "Châu Phi (trong Ấn Độ Dương)"
+    ],
+    "correct": 3,
+    "explanation": "Madagascar nổi tiếng với các loài động thực vật đặc hữu như loài vượn cáo và cây bao báp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Kênh đào Kiel cắt ngang qua bán đảo Jutland nối liền Biển Bắc và Biển Baltic thuộc quốc gia nào?",
+    "options": [
+      "Nước Đức",
+      "Nước Đan Mạch",
+      "Hà Lan",
+      "Ba Lan"
+    ],
+    "correct": 0,
+    "explanation": "Kênh đào Kiel giúp tàu thuyền tiết kiệm hàng trăm hải lý tránh phải đi vòng quanh bán đảo Đan Mạch."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Ba Bể hồ nước ngọt tự nhiên lớn nhất Việt Nam nằm ở độ cao khoảng 150m thuộc tỉnh nào?",
+    "options": [
+      "Cao Bằng",
+      "Bắc Kạn",
+      "Tuyên Quang",
+      "Lạng Sơn"
+    ],
+    "correct": 1,
+    "explanation": "Hồ Ba Bể nằm giữa những dãy núi đá vôi karst cổ và rừng nguyên sinh xanh biếc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Lắk hồ nước ngọt tự nhiên lớn nhất vùng Tây Nguyên và lớn thứ hai Việt Nam nằm ở tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Kon Tum",
+      "Đắk Lắk",
+      "Lâm Đồng"
+    ],
+    "correct": 2,
+    "explanation": "Hồ Lắk nối liền với sông Krông Ana mang vẻ đẹp hoang sơ thơ mộng của buôn làng người M'nông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đèo Cù Mông con đèo ven biển hiểm trở phân chia ranh giới tự nhiên giữa hai tỉnh nào miền Trung?",
+    "options": [
+      "Phú Yên và Khánh Hòa",
+      "Quảng Ngãi và Bình Định",
+      "Khánh Hòa và Ninh Thuận",
+      "Bình Định và Phú Yên"
+    ],
+    "correct": 3,
+    "explanation": "Dãy núi Cù Mông đâm ngang ra biển tạo nên bức tường địa hình ngăn cách hai tỉnh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đèo Cả con đèo lớn nối liền hai tỉnh duyên hải miền Trung nào?",
+    "options": [
+      "Phú Yên và Khánh Hòa",
+      "Bình Định và Phú Yên",
+      "Khánh Hòa và Ninh Thuận",
+      "Quảng Nam và Quảng Ngãi"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Cả uốn lượn bên bờ biển Vũng Rô kỳ vĩ, nay đã có hầm đường bộ Đèo Cả thông xe hiện đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đèo Ngoạn Mục (đèo Sông Pha) con đèo ngoạn mục với những khúc cua tay áo nối liền Ninh Thuận với cao nguyên nào?",
+    "options": [
+      "Cao nguyên Pleiku",
+      "Cao nguyên Langbiang (Lâm Đồng)",
+      "Cao nguyên Đắk Lắk",
+      "Cao nguyên Mộc Châu"
+    ],
+    "correct": 1,
+    "explanation": "Đèo Ngoạn Mục dài 20km đưa du khách từ vùng duyên hải đầy nắng gió lên miền hoa ôn đới Đà Lạt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vườn quốc gia Bạch Mã dải rừng nguyên sinh bảo tồn đa dạng sinh học độc đáo nằm ở tỉnh nào miền Trung?",
+    "options": [
+      "Quảng Trị",
+      "Quảng Nam",
+      "Thừa Thiên Huế",
+      "Đà Nẵng"
+    ],
+    "correct": 2,
+    "explanation": "Bạch Mã nằm trên dải Trường Sơn Bắc khí hậu mát mẻ quanh năm nơi có Hải Vọng Đài nhìn ra đầm Cầu Hai."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vườn quốc gia Cát Tiên khu dự trữ sinh quyển thế giới nằm trải rộng trên ranh giới của ba tỉnh nào?",
+    "options": [
+      "Tây Ninh, Bình Dương, Đồng Nai",
+      "Lâm Đồng, Đắk Nông, Bình Phước",
+      "Bà Rịa - Vũng Tàu, Đồng Nai, Bình Thuận",
+      "Đồng Nai, Lâm Đồng và Bình Phước"
+    ],
+    "correct": 3,
+    "explanation": "Rừng Nam Cát Tiên là nơi cư trú của voi rừng, bò tót, vượn đen má vàng và hàng trăm loài chim quý."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thác Pongour được mệnh danh là 'Nam thiên đệ nhất thác' với 7 tầng đá bậc thang kỳ vĩ thuộc tỉnh nào?",
+    "options": [
+      "Lâm Đồng",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Thác Pongour thuộc huyện Đức Trọng đổ bọt trắng xóa giữa thung lũng thông reo bạt ngàn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Nước ta có bao nhiêu vùng kinh tế - xã hội chính theo phân vùng quy hoạch phát triển quốc gia hiện nay?",
+    "options": [
+      "6 vùng kinh tế - xã hội",
+      "5 vùng",
+      "7 vùng",
+      "8 vùng"
+    ],
+    "correct": 0,
+    "explanation": "Sáu vùng gồm: Trung du miền núi phía Bắc, Đồng bằng sông Hồng, Bắc Trung Bộ và Duyên hải miền Trung, Tây Nguyên, Đông Nam Bộ, Đồng bằng sông Cửu Long."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Ranh giới khí hậu tự nhiên phân chia miền Bắc có mùa đông lạnh với miền Nam nắng ấm quanh năm là dãy núi nào?",
+    "options": [
+      "Dãy Hoàng Liên Sơn",
+      "Dãy Bạch Mã (nằm giữa Thừa Thiên Huế và Đà Nẵng)",
+      "Dãy Hoành Sơn",
+      "Dãy Tam Điệp"
+    ],
+    "correct": 1,
+    "explanation": "Dãy Bạch Mã đâm ngang ra biển chặn các đợt gió mùa Đông Bắc lạnh giá tràn xuống phương Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hiện tượng gió mùa mùa hè vượt qua dãy Trường Sơn gây thời tiết khô nóng đặc biệt gay gắt ở Bắc Trung Bộ được gọi là gì?",
+    "options": [
+      "Gió mùa Đông Bắc",
+      "Gió Tín phong",
+      "Gió phơn Tây Nam (Gió Lào)",
+      "Gió Mậu dịch"
+    ],
+    "correct": 2,
+    "explanation": "Hiệu ứng phơn làm khối khí sau khi trút mưa bên sườn tây hạ xuống sườn đông bị nung nóng khô rát."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh biển nào ở miền Trung nước ta được Câu lạc bộ các vịnh đẹp nhất thế giới (Worldbays) kết nạp cùng với Vịnh Hạ Long và Nha Trang?",
+    "options": [
+      "Vịnh Xuân Đài",
+      "Vịnh Dung Quất",
+      "Vịnh Quy Nhơn",
+      "Vịnh Lăng Cô (Thừa Thiên Huế)"
+    ],
+    "correct": 3,
+    "explanation": "Lăng Cô có bãi cát trắng thoai thoải uốn lượn dưới chân đèo Hải Vân và làn nước trong xanh ngọc bích."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Ngọn hải đăng nằm trên đỉnh núi đá hoa cương cao hơn 110m đón ánh bình minh sớm nhất trên đất liền Việt Nam là gì?",
+    "options": [
+      "Hải đăng Đại Lãnh (Mũi Điện, Phú Yên)",
+      "Hải đăng Kê Gà",
+      "Hải đăng Vũng Tàu",
+      "Hải đăng Côn Đảo"
+    ],
+    "correct": 0,
+    "explanation": "Hải đăng Đại Lãnh được người Pháp xây dựng từ năm 1890 là biểu tượng kiêu hãnh của vùng đất Phú Yên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo tiền tiêu nào của nước ta nằm giữa Vịnh Bắc Bộ là huyện đảo trực thuộc thành phố Hải Phòng cách đất liền khoảng 110 km?",
+    "options": [
+      "Đảo Cát Bà",
+      "Huyện đảo Bạch Long Vĩ",
+      "Đảo Cô Tô",
+      "Đảo Hòn Dấu"
+    ],
+    "correct": 1,
+    "explanation": "Bạch Long Vĩ có vị trí chiến lược quân sự và là trung tâm dịch vụ hậu cần nghề cá lớn nhất Vịnh Bắc Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hòn đảo núi lửa cổ nằm cách bờ biển Phan Thiết khoảng 120 km nổi tiếng với bờ kè bảy màu và cảnh quan biển đảo kỳ thú là gì?",
+    "options": [
+      "Đảo Côn Sơn",
+      "Đảo Nam Du",
+      "Đảo Phú Quý (Cù Lao Thu)",
+      "Đảo Hòn Khoai"
+    ],
+    "correct": 2,
+    "explanation": "Phú Quý có khí hậu trong lành, nhiều danh thắng và nguồn lợi hải sản phong phú."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần đảo du lịch hoang sơ tuyệt đẹp gồm 21 hòn đảo lớn nhỏ nằm ở phía đông nam đảo Phú Quốc thuộc tỉnh Kiên Giang là gì?",
+    "options": [
+      "Quần đảo Thổ Chu",
+      "Quần đảo Bà Lụa",
+      "Quần đảo Hải Tặc",
+      "Quần đảo Nam Du"
+    ],
+    "correct": 3,
+    "explanation": "Nam Du được ví như 'Maldives của Việt Nam' với những rặng dừa nghiêng bóng bên bờ biển ngọc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở Đông Nam Á có thủ đô hành chính mới mang tên Nusantara đang được xây dựng trên đảo Borneo?",
+    "options": [
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Thái Lan"
+    ],
+    "correct": 0,
+    "explanation": "Indonesia chuyển thủ đô từ Jakarta sang Nusantara trên tỉnh Đông Kalimantan nhằm giảm tải cho đảo Java."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào ở Đông Nam Á là thành viên duy nhất chưa gia nhập tổ chức ASEAN đầy đủ tính đến năm 2023 (đã được chấp thuận về nguyên tắc)?",
+    "options": [
+      "Brunei",
+      "Đông Timor (Timor-Leste)",
+      "Lào",
+      "Myanmar"
+    ],
+    "correct": 1,
+    "explanation": "Đông Timor giành độc lập năm 2002 và đang trong tiến trình gia nhập trở thành thành viên thứ 11 của ASEAN."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hệ thống sông ngòi nước ta có hai hướng dòng chảy chính là hướng tây bắc - đông nam và hướng nào?",
+    "options": [
+      "Hướng đông - tây",
+      "Hướng bắc - nam",
+      "Hướng vòng cung",
+      "Hướng xuyên tâm"
+    ],
+    "correct": 2,
+    "explanation": "Các con sông như sông Gâm, sông Cầu, sông Thương chảy uốn lượn theo các cánh cung núi vùng Đông Bắc."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đồng bằng sông Cửu Long vựa lúa lớn nhất cả nước có diện tích tự nhiên xấp xỉ bao nhiêu km vuông?",
+    "options": [
+      "Khoảng 15.000 km2",
+      "Khoảng 60.000 km2",
+      "Khoảng 25.000 km2",
+      "Khoảng 40.000 km2"
+    ],
+    "correct": 3,
+    "explanation": "Đồng bằng sông Cửu Long được bồi đắp bởi phù sa màu mỡ của hai nhánh sông Tiền và sông Hậu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng trũng ngập nước theo mùa lớn nhất Đồng bằng sông Cửu Long trải rộng trên địa bàn ba tỉnh Long An, Tiền Giang, Đồng Tháp là gì?",
+    "options": [
+      "Vùng Đồng Tháp Mười",
+      "Vùng Tứ giác Long Xuyên",
+      "Vùng Bán đảo Cà Mau",
+      "Vùng U Minh"
+    ],
+    "correct": 0,
+    "explanation": "Đồng Tháp Mười nổi tiếng với bạt ngàn hoa sen, rừng tràm và hệ sinh vật đất ngập nước trù phú."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Vùng trũng ngập mặn nằm giữa hai dòng sông Vàm Cỏ Đông và Vàm Cỏ Tây nổi tiếng trong kháng chiến chống Mỹ là gì?",
+    "options": [
+      "Rừng Sác Cần Giờ",
+      "Khu căn cứ Đồng Tháp Mười",
+      "Chiến khu Đ",
+      "Chiến khu Dương Minh Châu"
+    ],
+    "correct": 1,
+    "explanation": "Rừng Sác Cần Giờ là căn cứ địa ngập mặn kiên cường của Trung đoàn đặc công 10 Rừng Sác anh hùng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở Tây Nguyên là tỉnh duy nhất không có đường biên giới giáp với nước láng giềng Lào hoặc Campuchia?",
+    "options": [
+      "Đắk Lắk",
+      "Gia Lai",
+      "Lâm Đồng",
+      "Kon Tum"
+    ],
+    "correct": 2,
+    "explanation": "Lâm Đồng nằm sâu trên vùng cao nguyên Di Linh và Lâm Viên tiếp giáp với các tỉnh Nam Trung Bộ và Đông Nam Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng mỏ than đá lớn nhất và chất lượng than antraxit hàng đầu Đông Nam Á của Việt Nam nằm ở tỉnh nào?",
+    "options": [
+      "Quảng Ninh",
+      "Thái Nguyên",
+      "Lạng Sơn",
+      "Bắc Giang"
+    ],
+    "correct": 0,
+    "explanation": "Quảng Ninh được mệnh danh là 'Vùng đất mỏ' với trữ lượng than đá hàng tỷ tấn."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Mỏ quặng Bô-xít (nguyên liệu sản xuất nhôm) có trữ lượng lớn hàng đầu thế giới của nước ta tập trung ở vùng nào?",
+    "options": [
+      "Vùng Tây Bắc",
+      "Vùng Tây Nguyên (Đắk Nông, Lâm Đồng, Gia Lai)",
+      "Vùng Đông Bắc",
+      "Vùng Bắc Trung Bộ"
+    ],
+    "correct": 1,
+    "explanation": "Tây Nguyên sở hữu các mỏ bô-xít lộ thiên trữ lượng dồi dào trên nền đất bazan."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bể trầm tích dầu khí Cửu Long và Nam Côn Sơn khai thác dầu thô và khí đốt lớn nhất nước ta thuộc vùng biển nào?",
+    "options": [
+      "Vịnh Bắc Bộ",
+      "Vùng biển miền Trung",
+      "Thềm lục địa phía Nam (Bà Rịa - Vũng Tàu)",
+      "Vịnh Thái Lan"
+    ],
+    "correct": 2,
+    "explanation": "Mỏ dầu Bạch Hổ, Đại Hùng, Rạng Đông đóng góp nguồn thu ngân sách quan trọng cho quốc gia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Mỏ quặng sắt Thạch Khê mỏ sắt lớn nhất Đông Nam Á với trữ lượng hơn 500 triệu tấn nằm ở tỉnh nào miền Trung?",
+    "options": [
+      "Nghệ An",
+      "Thanh Hóa",
+      "Quảng Bình",
+      "Hà Tĩnh"
+    ],
+    "correct": 3,
+    "explanation": "Mỏ sắt Thạch Khê thuộc huyện Thạch Hà, tỉnh Hà Tĩnh nằm ven bờ biển Đông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vùng mỏ quặng Apatit (nguyên liệu chính sản xuất phân bón lân) duy nhất ở Việt Nam tập trung tại tỉnh nào?",
+    "options": [
+      "Lào Cai",
+      "Yên Bái",
+      "Hà Giang",
+      "Phú Thọ"
+    ],
+    "correct": 0,
+    "explanation": "Mỏ apatit Lào Cai chạy dọc theo thung lũng sông Hồng cung cấp cho công nghiệp hóa chất."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Con đèo nào uốn lượn trên quốc lộ 1A vượt qua dãy núi Bạch Mã phân chia Thừa Thiên Huế và Đà Nẵng?",
+    "options": [
+      "Đèo Ngang",
+      "Đèo Hải Vân",
+      "Đèo Cù Mông",
+      "Đèo Cả"
+    ],
+    "correct": 1,
+    "explanation": "Hải Vân quan nhìn xuống vịnh Lăng Cô xanh ngắt và bán đảo Sơn Trà tuyệt đẹp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào được mệnh danh là con sông đỏ nặng hạt phù sa bồi đắp nên đồng bằng châu thổ trù phú bậc nhất miền Bắc?",
+    "options": [
+      "Sông Đà",
+      "Sông Lô",
+      "Sông Hồng (sông Thao)",
+      "Sông Cầu"
+    ],
+    "correct": 2,
+    "explanation": "Màu nước đỏ đặc trưng của phù sa bồi đắp mùa màng tốt tươi quanh năm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Con sông lớn nào bắt nguồn từ Trung Quốc chảy qua Tây Bắc nước ta là nơi đặt hai nhà máy thủy điện Hòa Bình và Sơn La?",
+    "options": [
+      "Sông Lô",
+      "Sông Gâm",
+      "Sông Mã",
+      "Sông Đà"
+    ],
+    "correct": 3,
+    "explanation": "Sông Đà hung bạo với tiềm năng thủy điện khổng lồ đóng góp to lớn cho an ninh năng lượng quốc gia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào chảy qua thành phố Huế mộng mơ đôi bờ rợp bóng thông reo và chùa Thiên Mụ cổ kính?",
+    "options": [
+      "Sông Hương",
+      "Sông An Cựu",
+      "Sông Bến Hải",
+      "Sông Thạch Hãn"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hương nước trong xanh lững lờ trôi mang vẻ đẹp trầm mặc lãng mạn của đất cố đô."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào bắt nguồn từ dãy Trường Sơn uốn lượn ôm trọn lấy thành phố Vinh và núi Dũng Quyết?",
+    "options": [
+      "Sông Gianh",
+      "Sông Lam (sông Cả)",
+      "Sông La",
+      "Sông Mã"
+    ],
+    "correct": 1,
+    "explanation": "Sông Lam núi Hồng là biểu tượng địa linh nhân kiệt thiêng liêng của xứ Nghệ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cây cầu dây văng dài nhất Đông Nam Á bắc qua sông Tiền nối hai tỉnh Tiền Giang và Vĩnh Long khánh thành năm 2000 là cầu gì?",
+    "options": [
+      "Cầu Cần Thơ",
+      "Cầu Rạch Miễu",
+      "Cầu Mỹ Thuận (Mỹ Thuận 1 và Mỹ Thuận 2)",
+      "Cầu Cổ Chiên"
+    ],
+    "correct": 2,
+    "explanation": "Cầu Mỹ Thuận chấm dứt cảnh lụy phà mở toang cánh cửa giao thương cho vùng Tây Nam Bộ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cây cầu dây văng có nhịp chính dài nhất Đông Nam Á bắc qua sông Hậu nối Vĩnh Long với Cần Thơ khánh thành năm 2010 là gì?",
+    "options": [
+      "Cầu Mỹ Thuận",
+      "Cầu Vàm Cống",
+      "Cầu Cao Lãnh",
+      "Cầu Cần Thơ"
+    ],
+    "correct": 3,
+    "explanation": "Cầu Cần Thơ dài gần 16 km tạo động lực phát triển vượt bậc cho thủ phủ miền Tây Cần Thơ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần đảo du lịch Cát Bà gồm 367 hòn đảo lớn nhỏ nằm ở phía nam Vịnh Hạ Long thuộc địa bàn thành phố nào?",
+    "options": [
+      "Thành phố Hải Phòng",
+      "Tỉnh Quảng Ninh",
+      "Tỉnh Thái Bình",
+      "Tỉnh Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Quần đảo Cát Bà cùng Vịnh Hạ Long được UNESCO vinh danh là Di sản Thiên nhiên Thế giới năm 2023."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Biển hồ Tonle Sap (Campuchia) hồ nước ngọt lớn nhất Đông Nam Á thông với dòng sông nào của Việt Nam?",
+    "options": [
+      "Sông Đồng Nai",
+      "Sông Mê Kông (nhánh sông Tiền và sông Hậu)",
+      "Sông Sài Gòn",
+      "Sông Hồng"
+    ],
+    "correct": 1,
+    "explanation": "Biển Hồ trữ nước lũ vào mùa mưa và bổ sung nước ngọt cho hạ lưu sông Cửu Long vào mùa khô."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh San Francisco vịnh biển tự nhiên tuyệt đẹp nối với Thái Bình Dương qua cây cầu Cổng Vàng (Golden Gate) thuộc nước nào?",
+    "options": [
+      "Canada",
+      "Mexico",
+      "Hợp chúng quốc Hoa Kỳ (Mỹ)",
+      "Úc"
+    ],
+    "correct": 2,
+    "explanation": "Cầu Cổng Vàng màu đỏ cam nổi bật giữa màn sương mù là biểu tượng kiến trúc nổi tiếng toàn cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu du lịch Bà Nà Hills với cây Cầu Vàng (Golden Bridge) nâng đỡ bởi đôi bàn tay khổng lồ thuộc thành phố nào?",
+    "options": [
+      "Thành phố Đà Nẵng",
+      "Thành phố Huế",
+      "Thành phố Nha Trang",
+      "Thành phố Đà Lạt"
+    ],
+    "correct": 0,
+    "explanation": "Cầu Vàng Bà Nà Hills nằm ở độ cao 1.400m trên đỉnh núi Chúa thu hút du khách toàn cầu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thung lũng Mường Hoa với những thửa ruộng bậc thang kỳ vĩ và bãi đá cổ Sa Pa thuộc tỉnh nào?",
+    "options": [
+      "Yên Bái",
+      "Lào Cai",
+      "Hà Giang",
+      "Lai Châu"
+    ],
+    "correct": 1,
+    "explanation": "Mường Hoa uốn lượn bên dãy Hoàng Liên Sơn là điểm trekking nổi tiếng thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu bảo tồn thiên nhiên Đất ngập nước Vân Long đầm nước nội địa lớn nhất vùng đồng bằng Bắc Bộ thuộc tỉnh nào?",
+    "options": [
+      "Hà Nam",
+      "Nam Định",
+      "Ninh Bình",
+      "Thanh Hóa"
+    ],
+    "correct": 2,
+    "explanation": "Đầm Vân Long là nơi bảo tồn quần thể Voọc mông trắng quý hiếm lớn nhất thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thác Dray Nur và thác Dray Sap cặp thác nước hùng vĩ đôi bờ sông Sêrêpôk nằm giáp ranh giữa hai tỉnh nào?",
+    "options": [
+      "Gia Lai và Kon Tum",
+      "Lâm Đồng và Đắk Nông",
+      "Bình Phước và Đắk Nông",
+      "Đắk Lắk và Đắk Nông"
+    ],
+    "correct": 3,
+    "explanation": "Thác Dray Nur đổ bọt trắng xóa giữa rừng đại ngàn mang đậm truyền thuyết tình yêu Tây Nguyên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Tà Đùng vùng hồ kỳ vĩ với hơn 40 hòn đảo nhấp nhô được ví như 'Vịnh Hạ Long của Tây Nguyên' nằm ở tỉnh nào?",
+    "options": [
+      "Đắk Nông",
+      "Đắk Lắk",
+      "Gia Lai",
+      "Lâm Đồng"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Tà Đùng thuộc huyện Đắk Glong tạo nên bức tranh sơn thủy hữu tình mê đắm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hải đăng Hòn Dấu ngọn hải đăng hơn 120 năm tuổi soi đường cho tàu biển vào cảng Hải Phòng nằm ở quận nào?",
+    "options": [
+      "Huyện Cát Hải",
+      "Quận Đồ Sơn",
+      "Quận Hồng Bàng",
+      "Huyện Kiến Thụy"
+    ],
+    "correct": 1,
+    "explanation": "Hải đăng Hòn Dấu được mệnh danh là 'Mắt ngọc của Tổ quốc' trên biển Đông."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Mũi Né với những đồi cát bay vàng óng và rặng dừa thơ mộng là phường du lịch nổi tiếng của thành phố nào?",
+    "options": [
+      "Thành phố Nha Trang",
+      "Thành phố Vũng Tàu",
+      "Thành phố Phan Thiết (Bình Thuận)",
+      "Thành phố Cam Ranh"
+    ],
+    "correct": 2,
+    "explanation": "Đồi cát Mũi Né liên tục thay đổi hình dạng theo chiều gió thổi mỗi ngày."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu du lịch sinh thái Tràng An và Tam Cốc Bích Động nằm trong lưu vực của con sông nào?",
+    "options": [
+      "Sông Đáy",
+      "Sông Hoàng Long",
+      "Sông Hồng",
+      "Sông Sào Khê và sông Ngô Đồng"
+    ],
+    "correct": 3,
+    "explanation": "Du khách chèo thuyền trên sông Ngô Đồng ngắm lúa chín vàng hai bên vách núi đá vôi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Ngọn núi Chư Đăng Ya miệng núi lửa hình phễu đã tắt hàng triệu năm rực rỡ mùa hoa dã quỳ thuộc tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Kon Tum",
+      "Đắk Lắk",
+      "Lâm Đồng"
+    ],
+    "correct": 0,
+    "explanation": "Chư Đăng Ya trong tiếng Jrai nghĩa là 'Gừng dại', đất đỏ bazan màu mỡ phì nhiêu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hòn đảo ngọc Côn Đảo nổi tiếng với bãi biển Đầm Trầu nước trong vắt và bãi cát trắng mịn thuộc tỉnh nào?",
+    "options": [
+      "Kiên Giang",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Khánh Hòa"
+    ],
+    "correct": 1,
+    "explanation": "Bãi Đầm Trầu nép mình bên cánh rừng nguyên sinh với những vách đá nhô ra biển kỳ vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ thủy điện Thác Mơ công trình thủy điện lớn trên dòng sông Bé thuộc địa bàn tỉnh nào miền Đông Nam Bộ?",
+    "options": [
+      "Tây Ninh",
+      "Đồng Nai",
+      "Bình Phước",
+      "Bình Dương"
+    ],
+    "correct": 2,
+    "explanation": "Hồ Thác Mơ cung cấp nguồn điện dồi dào và điều tiết nước tưới cho cây công nghiệp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chợ nổi Ngã Năm điểm giao thoa độc đáo của 5 nhánh sông Cà Mau, Vĩnh Quới, Long Mỹ, Thạnh Trị, Phụng Hiệp thuộc tỉnh nào?",
+    "options": [
+      "Cần Thơ",
+      "Hậu Giang",
+      "Bạc Liêu",
+      "Sóc Trăng"
+    ],
+    "correct": 3,
+    "explanation": "Chợ nổi Ngã Năm tấp nập thuyền bè buôn bán trái cây nông sản từ tờ mờ sáng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào dài nhất lục địa châu Âu chảy qua lãnh thổ nước Nga đổ vào Biển Caspi?",
+    "options": [
+      "Sông Volga (sông Vôn-ga)",
+      "Sông Danube",
+      "Sông Rhine",
+      "Sông Seine"
+    ],
+    "correct": 0,
+    "explanation": "Sông Volga dài hơn 3.530 km được coi là dòng sông mẹ của văn hóa Nga."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào chảy qua thủ đô của 4 quốc gia châu Âu (Vienna, Bratislava, Budapest, Belgrade)?",
+    "options": [
+      "Sông Rhine",
+      "Sông Danube (Đa-nuýp)",
+      "Sông Volga",
+      "Sông Elbe"
+    ],
+    "correct": 1,
+    "explanation": "Sông Danube là huyết mạch giao thương thủy nối liền Trung Âu và Đông Âu ra Biển Đen."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đỉnh núi Mont Blanc (Đỉnh Trắng) ngọn núi cao nhất dãy Alps (4.808m) nằm trên biên giới hai nước nào?",
+    "options": [
+      "Thụy Sĩ và Áo",
+      "Đức và Pháp",
+      "Pháp và Ý",
+      "Ý và Thụy Sĩ"
+    ],
+    "correct": 2,
+    "explanation": "Mont Blanc quanh năm tuyết phủ trắng xóa là thánh địa của bộ môn leo núi thể thao."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ nước mặn lớn nhất châu Mỹ nằm ở bang Utah của Hợp chúng quốc Hoa Kỳ có tên là gì?",
+    "options": [
+      "Hồ Michigan",
+      "Hồ Tahoe",
+      "Hồ Superior",
+      "Hồ Muối Lớn (Great Salt Lake)"
+    ],
+    "correct": 3,
+    "explanation": "Độ mặn của Great Salt Lake cao hơn nước biển đại dương nhiều lần giúp người nổi dễ dàng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quốc gia nào ở Trung Đông sở hữu thành phố cổ Petra kỳ quan thế giới tạc sâu vào vách đá sa thạch đỏ?",
+    "options": [
+      "Jordan",
+      "Israel",
+      "Syria",
+      "Lebanon"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố cổ Petra từng là thủ đô phồn thịnh của vương quốc Nabataean cổ đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Eo biển Bosphorus eo biển chia cắt lục địa châu Âu và châu Á chảy qua thành phố lịch sử nào của Thổ Nhĩ Kỳ?",
+    "options": [
+      "Thành phố Ankara",
+      "Thành phố Istanbul",
+      "Thành phố Izmir",
+      "Thành phố Antalya"
+    ],
+    "correct": 1,
+    "explanation": "Istanbul là thành phố duy nhất trên thế giới nằm vắt ngang qua hai châu lục Á - Âu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hòn đảo núi lửa Jeju hòn đảo du lịch lãng mạn lớn nhất với đỉnh núi Hallasan thuộc quốc gia nào?",
+    "options": [
+      "Nhật Bản",
+      "Trung Quốc",
+      "Hàn Quốc",
+      "Đài Loan"
+    ],
+    "correct": 2,
+    "explanation": "Jeju là khu dự trữ sinh quyển thế giới và là kỳ quan thiên nhiên mới của nhân loại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Bali thiên đường du lịch biển đảo với những ngôi đền cổ kính linh thiêng thuộc quốc gia nào?",
+    "options": [
+      "Philippines",
+      "Malaysia",
+      "Thái Lan",
+      "Indonesia"
+    ],
+    "correct": 3,
+    "explanation": "Bali nổi tiếng với nền văn hóa Hindu giáo độc đáo và những bãi biển lướt sóng tuyệt đẹp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh Hạ Long di sản thiên nhiên thế giới UNESCO với hàng ngàn hòn đảo đá vôi kỳ vĩ thuộc tỉnh nào?",
+    "options": [
+      "Quảng Ninh",
+      "Hải Phòng",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Hạ Long hai lần được UNESCO công nhận về giá trị thẩm mỹ và giá trị địa chất địa mạo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đảo Phú Quốc hòn đảo lớn nhất Việt Nam được mệnh danh là Đảo Ngọc thuộc tỉnh nào miền Tây Nam Bộ?",
+    "options": [
+      "Cà Mau",
+      "Kiên Giang",
+      "An Giang",
+      "Bạc Liêu"
+    ],
+    "correct": 1,
+    "explanation": "Phú Quốc nổi tiếng với bãi Sao, bãi Dài, làng chài Hàm Ninh và nước mắm truyền thống."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Núi Hàm Rồng điểm ngắm toàn cảnh thị xã Sa Pa bồng bềnh mây trắng thơ mộng thuộc tỉnh nào?",
+    "options": [
+      "Yên Bái",
+      "Hà Giang",
+      "Lào Cai",
+      "Lai Châu"
+    ],
+    "correct": 2,
+    "explanation": "Núi Hàm Rồng có vườn lan rực rỡ và sân mây nhìn thẳng lên đỉnh Fansipan kiêu hãnh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đèo Khau Phạ con đèo hiểm trở quanh co bậc nhất Tây Bắc uốn lượn nhìn xuống thung lũng Mù Cang Chải thuộc tỉnh nào?",
+    "options": [
+      "Lào Cai",
+      "Sơn La",
+      "Hòa Bình",
+      "Yên Bái"
+    ],
+    "correct": 3,
+    "explanation": "Khau Phạ là điểm xuất phát của lễ hội dù lượn 'Bay trên mùa vàng' rực rỡ lúa chín."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Đèo Thung Khe (Đèo Đá Trắng) quanh năm sương mù bao phủ trắng xóa như tuyết nằm trên quốc lộ 6 thuộc tỉnh nào?",
+    "options": [
+      "Hòa Bình",
+      "Sơn La",
+      "Phú Thọ",
+      "Yên Bái"
+    ],
+    "correct": 0,
+    "explanation": "Đèo Thung Khe nối liền huyện Tân Lạc và thung lũng Mai Châu thơ mộng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu du lịch sinh thái Tràng An quần thể hang động karst kỳ ảo được mệnh danh là 'Hạ Long trên cạn' thuộc tỉnh nào?",
+    "options": [
+      "Thanh Hóa",
+      "Ninh Bình",
+      "Quảng Ninh",
+      "Hà Nam"
+    ],
+    "correct": 1,
+    "explanation": "Tràng An là di sản hỗn hợp Văn hóa và Thiên nhiên thế giới đầu tiên của Việt Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Động Phong Nha hang động nước tuyệt mỹ với dòng sông ngầm dài nhất nằm trong vườn quốc gia nào?",
+    "options": [
+      "Vườn quốc gia Cúc Phương",
+      "Vườn quốc gia Bạch Mã",
+      "Vườn quốc gia Phong Nha - Kẻ Bàng (Quảng Bình)",
+      "Vườn quốc gia Cát Tiên"
+    ],
+    "correct": 2,
+    "explanation": "Phong Nha sở hữu 7 cái nhất thế giới về hang động karst kỳ vĩ."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bán đảo Sơn Trà được mệnh danh là 'Lá phổi xanh của Đà Nẵng' là vương quốc sinh sống của loài linh trưởng quý hiếm nào?",
+    "options": [
+      "Vượn đen má trắng",
+      "Khỉ vàng",
+      "Cu li nhỏ",
+      "Voọc chà vá chân nâu"
+    ],
+    "correct": 3,
+    "explanation": "Voọc chà vá chân nâu với bộ lông năm màu rực rỡ được coi là 'Nữ hoàng linh trưởng'."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thánh địa Mỹ Sơn quần thể đền tháp Chămpa cổ kính linh thiêng giữa thung lũng thuộc tỉnh nào?",
+    "options": [
+      "Quảng Nam (huyện Duy Xuyên)",
+      "Đà Nẵng",
+      "Quảng Ngãi",
+      "Bình Định"
+    ],
+    "correct": 0,
+    "explanation": "Mỹ Sơn là di sản văn hóa thế giới UNESCO lưu giữ nghệ thuật kiến trúc điêu khắc gạch Chăm độc đáo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cù Lao Chàm khu dự trữ sinh quyển thế giới nổi tiếng với hệ sinh thái rạn san hô hoang sơ thuộc địa bàn nào?",
+    "options": [
+      "Thành phố Đà Nẵng",
+      "Thành phố Hội An (Quảng Nam)",
+      "Tỉnh Quảng Ngãi",
+      "Tỉnh Bình Định"
+    ],
+    "correct": 1,
+    "explanation": "Cù Lao Chàm nghiêm cấm sử dụng túi nilon bảo vệ môi trường biển bền vững."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh Vĩnh Hy một trong những vịnh biển nguyên sơ đẹp nhất Việt Nam với rạn san hô nhiều màu thuộc tỉnh nào?",
+    "options": [
+      "Bình Thuận",
+      "Khánh Hòa",
+      "Ninh Thuận",
+      "Phú Yên"
+    ],
+    "correct": 2,
+    "explanation": "Vịnh Vĩnh Hy nằm nép mình bên Vườn quốc gia Núi Chúa khí hậu nắng ấm quanh năm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quần đảo Côn Đảo gồm 16 hòn đảo nổi tiếng giữa biển Đông thuộc quyền quản lý hành chính của tỉnh nào?",
+    "options": [
+      "Kiên Giang",
+      "Sóc Trăng",
+      "Bến Tre",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "correct": 3,
+    "explanation": "Côn Đảo có bãi biển tuyệt đẹp và vườn quốc gia bảo tồn rùa biển đẻ trứng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vườn quốc gia Mũi Cà Mau khu rừng ngập mặn lớn thứ hai thế giới nằm ở điểm cực nam Tổ quốc thuộc huyện nào?",
+    "options": [
+      "Huyện Ngọc Hiển (Cà Mau)",
+      "Huyện Năm Căn",
+      "Huyện Đầm Dơi",
+      "Huyện Thới Bình"
+    ],
+    "correct": 0,
+    "explanation": "Cột mốc tọa độ quốc gia GPS 0001 tại Đất Mũi Cà Mau là điểm đến thiêng liêng của mọi người Việt."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Rừng U Minh rừng tràm ngập nước đặc trưng đất than bùn phương Nam được chia cắt thành hai vùng U Minh Thượng và U Minh Hạ thuộc hai tỉnh nào?",
+    "options": [
+      "Cà Mau và Bạc Liêu",
+      "Kiên Giang và Cà Mau",
+      "Kiên Giang và An Giang",
+      "Bạc Liêu và Sóc Trăng"
+    ],
+    "correct": 1,
+    "explanation": "U Minh Thượng thuộc Kiên Giang và U Minh Hạ thuộc Cà Mau là xứ sở tràm bát ngát."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chợ nổi Cái Bè chợ nổi giao thương nông sản nổi tiếng trên sông Tiền nằm ở tỉnh nào miền Tây?",
+    "options": [
+      "Bến Tre",
+      "Vĩnh Long",
+      "Tiền Giang",
+      "Đồng Tháp"
+    ],
+    "correct": 2,
+    "explanation": "Chợ nổi Cái Bè nằm tại nơi tiếp giáp giữa ba tỉnh Tiền Giang, Bến Tre và Vĩnh Long."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Tơ Nưng miệng núi lửa đã tắt hàng triệu năm phẳng lặng xanh biếc giữa đại ngàn Tây Nguyên thuộc tỉnh nào?",
+    "options": [
+      "Kon Tum",
+      "Đắk Lắk",
+      "Đắk Nông",
+      "Gia Lai"
+    ],
+    "correct": 3,
+    "explanation": "Biển Hồ Tơ Nưng được mệnh danh là 'Hạt ngọc Pleiku' cung cấp nước ngọt cho thành phố."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Thác Bà một trong những hồ nhân tạo lớn nhất nước ta hình thành khi xây dựng thủy điện Thác Bà trên sông Chảy thuộc tỉnh nào?",
+    "options": [
+      "Yên Bái",
+      "Tuyên Quang",
+      "Lào Cai",
+      "Phú Thọ"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Thác Bà có hơn 1.300 đảo lớn nhỏ nhấp nhô được ví như Vịnh Hạ Long trên núi."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào trên thế giới có diện tích lãnh thổ lớn nhất hành tinh chiếm 1/8 diện tích đất nổi Trái Đất?",
+    "options": [
+      "Canada",
+      "Liên bang Nga (hơn 17 triệu km2)",
+      "Trung Quốc",
+      "Mỹ"
+    ],
+    "correct": 1,
+    "explanation": "Nước Nga trải dài qua 11 múi giờ từ biển Baltic ở châu Âu đến Thái Bình Dương ở châu Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào ở châu Á có số dân đông nhất thế giới tính đến năm 2023 vượt qua Trung Quốc?",
+    "options": [
+      "Trung Quốc",
+      "Indonesia",
+      "Cộng hòa Ấn Độ (hơn 1,43 tỷ người)",
+      "Pakistan"
+    ],
+    "correct": 2,
+    "explanation": "Ấn Độ vươn lên thành quốc gia đông dân nhất hành tinh với cơ cấu dân số trẻ năng động."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Thủ đô Tokyo trung tâm đô thị đông dân và phát triển kinh tế công nghệ hàng đầu thế giới là thủ đô của nước nào?",
+    "options": [
+      "Hàn Quốc",
+      "Trung Quốc",
+      "Singapore",
+      "Nhật Bản"
+    ],
+    "correct": 3,
+    "explanation": "Tokyo là siêu đô thị hiện đại bậc nhất hành tinh kết hợp hài hòa nét văn hóa truyền thống Á Đông."
   }
 ]
