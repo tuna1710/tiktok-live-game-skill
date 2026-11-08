@@ -1519,5 +1519,473 @@
     ],
     "correct": 0,
     "explanation": "Ở nhiệt độ 0 Kelvin (-273,15 °C), mọi dao động nhiệt phân tử hoàn toàn ngừng lại, mạng tinh thể đạt độ trật tự tuyệt đối."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Khí gas đun nấu dùng trong bình gas gia đình thường chứa hỗn hợp hai khí hóa lỏng nào?",
+    "options": [
+      "Propan (C3H8) và Butan (C4H10)",
+      "Metan và Oxy",
+      "Hydro và Heli",
+      "Cacbonic và Nitơ"
+    ],
+    "correct": 0,
+    "explanation": "Khí dầu mỏ hóa lỏng (LPG) là hỗn hợp propan và butan được nén lỏng ở áp suất cao."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan hô hấp chính của các loài cá giúp lấy oxy hòa tan trong nước là gì?",
+    "options": [
+      "Mang cá",
+      "Phổi cá",
+      "Vảy cá",
+      "Bong bóng cá"
+    ],
+    "correct": 0,
+    "explanation": "Các phiến mang đỏ tươi chứa dày đặc mao mạch giúp trao đổi khí oxy và CO2 với dòng nước chảy qua."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tại sao khi trời sắp mưa to, chuồn chuồn lại bay là là sát mặt đất theo kinh nghiệm dân gian?",
+    "options": [
+      "Vì độ ẩm không khí tăng cao làm ướt cánh chuồn chuồn nặng hơn",
+      "Vì chuồn chuồn sợ sấm",
+      "Vì áp suất tăng",
+      "Vì gió thổi mạnh"
+    ],
+    "correct": 0,
+    "explanation": "'Chuồn chuồn bay thấp thì mưa / Bay cao thì nắng, bay vừa thì râm' - hơi nước đọng vào cánh mỏng làm hạ độ cao."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Chất cấm gây nghiện mạnh có trong khói thuốc lá kích thích hệ thần kinh trung ương và gây nghiện là gì?",
+    "options": [
+      "Nicotine",
+      "Caffeine",
+      "Morphine",
+      "Taurine"
+    ],
+    "correct": 0,
+    "explanation": "Nicotine trong lá thuốc lá nhanh chóng đi vào máu lên não kích thích dopamin gây nghiện nặng và hại tim mạch."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong cấu trúc nguyên tử, hạt nào có khối lượng gần bằng proton nhưng mang điện tích trung hòa (điện tích bằng 0)?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Positron",
+      "Neutrino"
+    ],
+    "correct": 0,
+    "explanation": "James Chadwick phát hiện ra hạt neutron trong hạt nhân nguyên tử năm 1932 và đoạt giải Nobel Vật lý."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Khí nào cần thiết nhất duy trì sự sống và quá trình hô hấp của con người và muôn loài?",
+    "options": [
+      "Khí Oxy (O2)",
+      "Khí Cacbonic (CO2)",
+      "Khí Nitơ (N2)",
+      "Khí Metan"
+    ],
+    "correct": 0,
+    "explanation": "Oxy nuôi dưỡng các tế bào và thực hiện các phản ứng oxy hóa sinh học giải phóng năng lượng cho cơ thể."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất rắn nào đông cứng từ nước ở nhiệt độ dưới 0 độ C được thả vào nước ngọt cho mát?",
+    "options": [
+      "Băng đá (Nước đá)",
+      "Muối ăn",
+      "Đường kính",
+      "Thạch cao"
+    ],
+    "correct": 0,
+    "explanation": "Nước đá tan chảy ở 0 °C hấp thụ nhiệt giúp làm mát đồ uống tức thì."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng cầu vồng bảy sắc lung linh sau cơn mưa gồm 7 dải màu cơ bản lần lượt từ ngoài vào trong là gì?",
+    "options": [
+      "Đỏ, Da cam, Vàng, Lục, Lam, Chàm, Tím",
+      "Tím, Chàm, Lam, Lục, Vàng, Cam, Đỏ",
+      "Đỏ, Vàng, Xanh, Trắng, Đen, Tím, Nâu",
+      "Xanh, Đỏ, Tím, Vàng, Cam, Hồng, Nâu"
+    ],
+    "correct": 0,
+    "explanation": "Hiện tượng tán sắc ánh sáng mặt trời qua các giọt nước mưa tạo nên dải quang phổ 7 màu rực rỡ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Lớp vỏ Trái Đất dày trung bình từ bao nhiêu km dưới các đại dương và lục địa?",
+    "options": [
+      "Khoảng 5 - 70 km",
+      "Khoảng 500 km",
+      "Khoảng 1.000 km",
+      "Khoảng 100 mét"
+    ],
+    "correct": 0,
+    "explanation": "Lớp vỏ thạch quyển Trái Đất mỏng manh như vỏ quả táo, dày từ 5-10 km ở đại dương đến 30-70 km ở lục địa."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Vận tốc âm thanh truyền trong không khí khô ở nhiệt độ 20 độ C xấp xỉ bằng bao nhiêu?",
+    "options": [
+      "Khoảng 343 mét/giây (khoảng 1.235 km/h)",
+      "Khoảng 300.000 km/s",
+      "Khoảng 100 m/s",
+      "Khoảng 1.500 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Vận tốc âm thanh trong không khí là 343 m/s; khi máy bay vượt tốc độ này sẽ tạo ra tiếng nổ siêu thanh (Sonic boom)."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất lỏng không màu, không mùi, không vị chiếm hơn 70% bề mặt Trái Đất là chất gì?",
+    "options": [
+      "Nước (H2O)",
+      "Dầu hỏa",
+      "Cồn y tế",
+      "Sữa"
+    ],
+    "correct": 0,
+    "explanation": "Nước là cội nguồn của mọi sự sống trên hành tinh xanh."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào trên đầu của côn trùng giúp chúng ngửi mùi và định hướng không gian?",
+    "options": [
+      "Đôi râu (ăng-ten)",
+      "Đôi mắt kép",
+      "Đôi cánh",
+      "Miệng"
+    ],
+    "correct": 0,
+    "explanation": "Đôi râu côn trùng chứa hàng ngàn thụ thể hóa học nhạy bén với mùi hương."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Mặt Trời mọc ở hướng nào và lặn ở hướng nào theo quy luật tự nhiên?",
+    "options": [
+      "Mọc ở hướng Đông, lặn ở hướng Tây",
+      "Mọc hướng Tây, lặn hướng Đông",
+      "Mọc hướng Bắc, lặn hướng Nam",
+      "Mọc hướng Nam, lặn hướng Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Do Trái Đất tự quay quanh trục từ Tây sang Đông nên ta thấy Mặt Trời mọc ở hướng Đông."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình chuyển hóa thức ăn thành chất dinh dưỡng nuôi cơ thể người diễn ra chủ yếu ở cơ quan nào?",
+    "options": [
+      "Ruột non",
+      "Dạ dày",
+      "Miệng",
+      "Đại tràng"
+    ],
+    "correct": 0,
+    "explanation": "Nhung mao ở thành ruột non hấp thụ hầu hết axit amin, đường, vitamin vào dòng máu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào dẫn nhiệt và dẫn điện kém nhất trong số các kim loại thông dụng sau đây?",
+    "options": [
+      "Chì",
+      "Đồng",
+      "Nhôm",
+      "Bạc"
+    ],
+    "correct": 0,
+    "explanation": "Chì có điện trở suất cao hơn nhiều so với đồng và nhôm, dẫn điện dẫn nhiệt tương đối kém."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tia sét trong cơn dông bão phóng ra tia lửa điện với nhiệt độ ở lõi có thể lên tới bao nhiêu độ C?",
+    "options": [
+      "Khoảng 30.000 độ C (nóng gấp 5 lần bề mặt Mặt Trời)",
+      "Khoảng 1.000 độ C",
+      "Khoảng 100 độ C",
+      "Khoảng 5.000 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Sét làm nóng không khí tức thời lên gần 30.000 °C gây ra sóng xung kích tạo tiếng sấm nổ vang."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong cơ thể người, tuyến nội tiết nào được coi là 'Tuyến nhạc trưởng' chỉ huy hoạt động của hầu hết các tuyến nội tiết khác?",
+    "options": [
+      "Tuyến yên (Pituitary gland)",
+      "Tuyến giáp",
+      "Tuyến tụy",
+      "Tuyến thượng thận"
+    ],
+    "correct": 0,
+    "explanation": "Tuyến yên nằm ở đáy não tiết ra các hormone chỉ huy kích thích tuyến giáp, tuyến thượng thận và tuyến sinh dục."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ thể con người có nhiệt độ bình thường khi khỏe mạnh xấp xỉ bao nhiêu độ C?",
+    "options": [
+      "Khoảng 36,5 - 37 độ C",
+      "Khoảng 40 độ C",
+      "Khoảng 32 độ C",
+      "Khoảng 39 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Nhiệt độ thân nhiệt bình thường của người khỏe mạnh dao động từ 36,5 đến 37,2 °C."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Mặt Trăng quay quanh Trái Đất mất thời gian xấp xỉ bằng bao nhiêu ngày?",
+    "options": [
+      "Khoảng 27,3 ngày (khoảng 1 tháng)",
+      "Khoảng 365 ngày",
+      "Khoảng 7 ngày",
+      "Khoảng 24 giờ"
+    ],
+    "correct": 0,
+    "explanation": "Mặt Trăng hoàn thành một chu kỳ quỹ đạo quanh Trái Đất trong khoảng 27,3 ngày."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài cây nào được xem là biểu tượng kiên cường bất khuất của làng quê Việt Nam, thân có nhiều đốt?",
+    "options": [
+      "Cây tre",
+      "Cây bàng",
+      "Cây phượng",
+      "Cây cau"
+    ],
+    "correct": 0,
+    "explanation": "Lũy tre xanh che chở xóm làng trải qua hàng ngàn năm lịch sử dựng nước."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong hóa học, nước vôi trong là dung dịch của hợp chất bazơ nào?",
+    "options": [
+      "Canxi hidroxit (Ca(OH)2)",
+      "Canxi cacbonat (CaCO3)",
+      "Canxi oxit (CaO)",
+      "Natri hidroxit (NaOH)"
+    ],
+    "correct": 0,
+    "explanation": "Nước vôi trong Ca(OH)2 khi gặp khí CO2 sẽ sục kết tủa trắng đục Canxi cacbonat."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Khí trơ nào nhẹ hơn không khí, không cháy nổ, thường được dùng để bơm vào bóng bay khí cầu?",
+    "options": [
+      "Khí Heli (He)",
+      "Khí Hydro",
+      "Khí Oxy",
+      "Khí Nitơ"
+    ],
+    "correct": 0,
+    "explanation": "Heli là khí hiếm trơ cực kỳ an toàn, nhẹ thứ nhì vũ trụ sau hydro."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng tán xạ Rayleigh trong khí quyển Trái Đất giải thích cho điều kỳ thú nào của tự nhiên?",
+    "options": [
+      "Tại sao bầu trời ban ngày có màu xanh lam",
+      "Tại sao ban đêm có sao",
+      "Tại sao có mây đen",
+      "Tại sao có sương mù"
+    ],
+    "correct": 0,
+    "explanation": "Các phân tử khí tán xạ bước sóng ngắn (ánh sáng xanh lam) mạnh hơn ánh sáng đỏ, tạo nên sắc trời xanh ngắt."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Bào quan nào trong tế bào nhân thực được ví như 'Nhà máy năng lượng' tạo ra phân tử ATP nuôi sống tế bào?",
+    "options": [
+      "Ty thể (Mitochondria)",
+      "Bộ máy Golgi",
+      "Nhân tế bào",
+      "Lưới nội chất"
+    ],
+    "correct": 0,
+    "explanation": "Ty thể tiến hành chu trình Krebs và chuỗi chuyền electron hô hấp tổng hợp ATP cung cấp năng lượng cho mọi hoạt động sống."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Động vật lưỡng cư có thể sống ở cả hai môi trường nào?",
+    "options": [
+      "Dưới nước và trên cạn",
+      "Trên cây và trong hang",
+      "Dưới biển sâu và bay trên trời",
+      "Trong cát và trên băng"
+    ],
+    "correct": 0,
+    "explanation": "Lưỡng cư (như ếch, cóc, nhái) sinh sản và phát triển dưới nước, trưởng thành sống trên cạn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào của hoa thường có màu sắc sặc sỡ và hương thơm quyến rũ côn trùng đến thụ phấn?",
+    "options": [
+      "Cánh hoa (Tràng hoa)",
+      "Đài hoa",
+      "Nhị hoa",
+      "Noãn hoa"
+    ],
+    "correct": 0,
+    "explanation": "Màu sắc rực rỡ của cánh hoa hấp dẫn ong bướm đến hút mật và mang phấn hoa đi thụ phấn chéo."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất khí nào chiếm thành phần chủ yếu tạo nên những đám mây trắng bồng bềnh trên bầu trời?",
+    "options": [
+      "Hơi nước li ti ngưng tụ thành hạt lỏng",
+      "Khí hydro",
+      "Khí oxy",
+      "Khí cacbonic"
+    ],
+    "correct": 0,
+    "explanation": "Mây là tập hợp của hàng tỷ giọt nước hoặc tinh thể băng siêu nhỏ lơ lửng trong không khí."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Cơ quan thụ cảm thị giác trong mắt người chuyển đổi ánh sáng thành tín hiệu điện truyền lên não là gì?",
+    "options": [
+      "Võng mạc (màng lưới)",
+      "Giác mạc",
+      "Thủy tinh thể",
+      "Đồng tử"
+    ],
+    "correct": 0,
+    "explanation": "Tế bào hình que và tế bào hình nón trên võng mạc tiếp nhận photon ánh sáng truyền qua dây thần kinh thị giác."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình một chất chuyển trực tiếp từ thể rắn sang thể khí mà không qua thể lỏng được gọi là gì?",
+    "options": [
+      "Sự thăng hoa",
+      "Sự ngưng tụ",
+      "Sự nóng chảy",
+      "Sự đông đặc"
+    ],
+    "correct": 0,
+    "explanation": "Hiện tượng thăng hoa điển hình thấy ở băng khô (CO2 rắn) hoặc viên long não để trong tủ quần áo."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng nhật thực toàn phần chỉ có thể quan sát được khi người đứng nằm trong vùng nào của bóng Mặt Trăng?",
+    "options": [
+      "Vùng bóng tối hoàn toàn (Umbra)",
+      "Vùng bóng nửa tối (Penumbra)",
+      "Vùng xích đạo",
+      "Vùng cực"
+    ],
+    "correct": 0,
+    "explanation": "Khi đứng trong dải bóng tối Umbra, Mặt Trời bị Mặt Trăng che khuất 100% để lộ vành nhật hoa lộng lẫy."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Loại liên kết hóa học nào hình thành do lực hút tĩnh điện giữa các ion mang điện tích trái dấu?",
+    "options": [
+      "Liên kết ion",
+      "Liên kết cộng hóa trị",
+      "Liên kết kim loại",
+      "Liên kết hidro"
+    ],
+    "correct": 0,
+    "explanation": "Liên kết ion (như trong phân tử muối ăn NaCl: Na+ và Cl-) có nhiệt độ nóng chảy và độ bền liên kết rất cao."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào của quả trứng gia cầm chứa nhiều protein và khoáng chất bảo vệ phôi thai?",
+    "options": [
+      "Lòng trắng và Lòng đỏ",
+      "Vỏ trứng canxi",
+      "Màng vỏ",
+      "Buồng khí"
+    ],
+    "correct": 0,
+    "explanation": "Lòng đỏ giàu lipid và vitamin, lòng trắng giàu albumin cung cấp dinh dưỡng trọn vẹn."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài côn trùng nào có khả năng bay phát ra ánh sáng lung linh lập lòe trong đêm tối mùa hè?",
+    "options": [
+      "Con đom đóm",
+      "Con ve sầu",
+      "Con bướm đêm",
+      "Con muỗi"
+    ],
+    "correct": 0,
+    "explanation": "Phản ứng sinh học giữa enzym luciferase và phân tử luciferin tạo ra ánh sáng lạnh kỳ diệu."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình thoát hơi nước qua khí khổng ở lá cây có vai trò sinh lý quan trọng nào?",
+    "options": [
+      "Tạo lực hút kéo dòng nước và muối khoáng từ rễ lên và hạ nhiệt độ cho lá",
+      "Làm héo lá",
+      "Thải độc tố",
+      "Hấp thụ oxy"
+    ],
+    "correct": 0,
+    "explanation": "Thoát hơi nước là động lực đầu trên hút dòng nhựa nguyên từ rễ lên nuôi cây."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong vật lý, âm thanh không thể truyền được qua môi trường nào sau đây?",
+    "options": [
+      "Môi trường chân không",
+      "Môi trường chất lỏng (nước)",
+      "Môi trường chất rắn (thép)",
+      "Môi trường chất khí (không khí)"
+    ],
+    "correct": 0,
+    "explanation": "Âm thanh là sóng cơ học đòi hỏi môi trường vật chất có hạt phân tử để lan truyền dao động."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Bán kính trung bình của Trái Đất (tính từ tâm Trái Đất ra xích đạo) xấp xỉ bằng bao nhiêu km?",
+    "options": [
+      "Khoảng 6.371 km",
+      "Khoảng 10.000 km",
+      "Khoảng 1.000 km",
+      "Khoảng 3.000 km"
+    ],
+    "correct": 0,
+    "explanation": "Bán kính Trái Đất khoảng 6.371 km, chu vi đường xích đạo khoảng 40.075 km."
   }
 ]

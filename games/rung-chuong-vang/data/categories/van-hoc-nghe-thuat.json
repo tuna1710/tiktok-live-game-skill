@@ -1337,5 +1337,850 @@
     ],
     "correct": 0,
     "explanation": "Nguyễn Du khóc thương nàng Tiểu Thanh và tự hỏi: 'Bất tri tam bách dư niên hậu / Thiên hạ hà nhân khấp Tố Như?'."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Ăn quả nhớ kẻ ...'?",
+    "options": [
+      "trồng cây",
+      "tưới cây",
+      "hái quả",
+      "mua cây"
+    ],
+    "correct": 0,
+    "explanation": "Câu tục ngữ nhắc nhở con người ghi nhớ công ơn người đi trước gây dựng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Tấm Cám', con vật nào đã an ủi và chỉ dẫn cho cô Tấm mỗi khi cô khóc?",
+    "options": [
+      "Ông Bụt",
+      "Con chim vàng anh",
+      "Con gà trống",
+      "Con cá bống"
+    ],
+    "correct": 0,
+    "explanation": "Ông Bụt nhân từ hiện lên khuyên bảo và ban phép mầu giúp đỡ cô Tấm hiền lành."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng ... giống nhưng chung một giàn'?",
+    "options": [
+      "khác",
+      "chung",
+      "hai",
+      "cùng"
+    ],
+    "correct": 0,
+    "explanation": "Ca dao khuyên nhủ tinh thần đoàn kết, tương thân tương ái giữa đồng bào một nước."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Bài hát 'Em là mầm non của Đảng' là giai điệu thiếu nhi quen thuộc của nhạc sĩ nào?",
+    "options": [
+      "Mộng Lân",
+      "Phạm Tuyên",
+      "Hoàng Long",
+      "Phong Nhã"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Mộng Lân sáng tác nhiều ca khúc thiếu nhi trong sáng, tươi vui."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Thuận vợ thuận chồng, tát biển Đông cũng ...'?",
+    "options": [
+      "cạn",
+      "đầy",
+      "khô",
+      "vơi"
+    ],
+    "correct": 0,
+    "explanation": "Thành ngữ nhấn mạnh sự hòa thuận, đồng lòng của vợ chồng sẽ vượt qua mọi gian khó."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Hình tượng 'Bọc trăm trứng' nở ra một trăm người con gắn liền với truyền thuyết dựng nước nào?",
+    "options": [
+      "Lạc Long Quân và Âu Cơ",
+      "Sơn Tinh và Thủy Tinh",
+      "Thánh Gióng",
+      "An Dương Vương"
+    ],
+    "correct": 0,
+    "explanation": "Người Việt Nam tự hào mang trong mình dòng máu 'Con Rồng cháu Tiên' từ bọc trăm trứng của mẹ Âu Cơ."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Đi một ngày đàng, học một ... khôn'?",
+    "options": [
+      "sàng",
+      "bồ",
+      "gánh",
+      "bao"
+    ],
+    "correct": 0,
+    "explanation": "Khuyên con người nên đi ra ngoài giao lưu học hỏi để mở rộng tầm hiểu biết."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc cụ nào làm từ ống trúc hoặc nứa có khoét lỗ thổi hơi ngang tạo nên tiếng nhạc véo von đồng quê?",
+    "options": [
+      "Cây sáo trúc",
+      "Kèn bầu",
+      "Đàn nhị",
+      "Trống cơm"
+    ],
+    "correct": 0,
+    "explanation": "Tiếng sáo trúc gắn liền với hình ảnh chú bé chăn trâu trên đồng cỏ Việt Nam."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Ai là tác giả của truyện ngắn nổi tiếng 'Làng' thể hiện tình yêu quê hương đất nước tha thiết của ông Hai?",
+    "options": [
+      "Kim Lân",
+      "Nam Cao",
+      "Tô Hoài",
+      "Thạch Lam"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Kim Lân miêu tả tâm lý nhân vật ông Hai khi nghe tin làng chợ Dầu theo giặc."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Thương người như thể thương ...'?",
+    "options": [
+      "thân",
+      "mình",
+      "ai",
+      "bạn"
+    ],
+    "correct": 0,
+    "explanation": "Lòng nhân ái bao la xem nỗi đau của người khác như chính thân thể mình."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm 'Tuyên ngôn Độc lập' của Chủ tịch Hồ Chí Minh mở đầu bằng trích dẫn hai bản tuyên ngôn lịch sử của những nước nào?",
+    "options": [
+      "Nước Mỹ (1776) và nước Pháp (1791)",
+      "Nước Anh và nước Pháp",
+      "Nước Nga và nước Mỹ",
+      "Nước Pháp và nước Đức"
+    ],
+    "correct": 0,
+    "explanation": "Bác trích Tuyên ngôn Độc lập Mỹ năm 1776 và Tuyên ngôn Nhân quyền & Dân quyền Pháp năm 1791."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Tiếng hát con tàu' với câu thơ 'Khi ta ở, chỉ là nơi đất ở / Khi ta đi, đất đã hóa tâm hồn' là của nhà thơ nào?",
+    "options": [
+      "Chế Lan Viên",
+      "Tế Hanh",
+      "Huy Cận",
+      "Hàn Mặc Tử"
+    ],
+    "correct": 0,
+    "explanation": "Chế Lan Viên viết về nỗi nhớ Tây Bắc da diết và tâm huyết cống hiến cho công cuộc kiến thiết miền núi."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhân vật cụ Mết trong truyện ngắn 'Rừng xà nu' của nhà văn Nguyễn Trung Thành căn dặn dân làng điều gì?",
+    "options": [
+      "'Chúng nó đã cầm súng, mình phải cầm giáo!'",
+      "'Phải chạy trốn vào rừng sâu'",
+      "'Phải đầu hàng giặc'",
+      "'Phải đốt hết rẫy'"
+    ],
+    "correct": 0,
+    "explanation": "Câu nói chân lý của cụ Mết khẳng định con đường đấu tranh vũ trang bất khuất của dân làng Xô Man."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Vở kịch 'Bắc Sơn' phản ánh cuộc khởi nghĩa chống Pháp ở Lạng Sơn là sáng tác của nhà viết kịch nào?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Lưu Quang Vũ",
+      "Tào Mạt",
+      "Đoàn Phú Tứ"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Huy Tưởng là cây bút kịch lịch sử xuất sắc của nền văn học cách mạng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài hát 'Câu hò bên bờ Hiền Lương' da diết nỗi niềm mong ngày Bắc - Nam sum họp do nhạc sĩ nào sáng tác?",
+    "options": [
+      "Hoàng Hiệp",
+      "Phan Huỳnh Điểu",
+      "Văn Cao",
+      "Trịnh Công Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Hoàng Hiệp phổ thơ Đằng Giao viết về con sông giới tuyến vĩ tuyến 17 Hiền Lương."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào quê ở Quảng Nam nổi tiếng với bài thơ 'Nhớ con sông quê hương' ('Quê hương tôi có con sông xanh biếc...')?",
+    "options": [
+      "Tế Hanh",
+      "Quang Dũng",
+      "Hữu Thỉnh",
+      "Nguyễn Khoa Điềm"
+    ],
+    "correct": 0,
+    "explanation": "Tế Hanh dành cả cuộc đời thơ để khắc họa hình ảnh dòng sông Trà Bồng và làng chài quê hương."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bức tranh sơn mài 'Kết nạp Đảng ở Điện Biên Phủ' được xếp hạng Bảo vật Quốc gia năm 2013 là của họa sĩ nào?",
+    "options": [
+      "Nguyễn Sáng",
+      "Tô Ngọc Vân",
+      "Trần Văn Cẩn",
+      "Nguyễn Tư Nghiêm"
+    ],
+    "correct": 0,
+    "explanation": "Họa sĩ Nguyễn Sáng hoàn thành tác phẩm kiệt tác sơn mài này với bố cục hình khối hào hùng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Điệu hát Chầu văn truyền thống gắn liền với nghi lễ tâm linh nào của người Việt được UNESCO vinh danh?",
+    "options": [
+      "Nghi lễ Thực hành Tín ngưỡng Thờ Mẫu Tam phủ",
+      "Lễ cầu mưa",
+      "Lễ cúng trăng",
+      "Lễ tịch điền"
+    ],
+    "correct": 0,
+    "explanation": "Hát văn (hát chầu văn) với đàn nguyệt và phách là linh hồn của các giá hầu đồng thờ Mẫu."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện cổ tích nào lý giải nguồn gốc của quả dưa hấu ruột đỏ ngọt mát trên vùng đất bãi bồi ven biển?",
+    "options": [
+      "Sự tích Mai An Tiêm",
+      "Sự tích bánh chưng bánh giầy",
+      "Sự tích trầu cau",
+      "Sự tích dưa gang"
+    ],
+    "correct": 0,
+    "explanation": "Chàng Mai An Tiêm bị đày ra đảo hoang đã kiên trì gây giống dưa hấu nhờ hạt chim thả rơi."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Đoàn thuyền đánh cá' với không khí lao động hăng say giữa biển đêm là của nhà thơ nào?",
+    "options": [
+      "Huy Cận",
+      "Xuân Diệu",
+      "Tố Hữu",
+      "Chế Lan Viên"
+    ],
+    "correct": 0,
+    "explanation": "'Mặt trời xuống biển như hòn lửa / Sóng đã cài then, đêm sập cửa / Đoàn thuyền đánh cá lại ra khơi' - Huy Cận (1958)."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm 'Chiếc lược ngà' viết về tình phụ tử thiêng liêng giữa người chiến sĩ cách mạng và con gái là của nhà văn nào?",
+    "options": [
+      "Nguyễn Quang Sáng",
+      "Đoàn Giỏi",
+      "Nguyễn Thi",
+      "Anh Đức"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Quang Sáng viết về bé Thu và người cha - anh Sáu trong khói lửa chiến tranh."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào là tác giả của trường ca 'Mặt đường khát vọng' với chương 'Đất Nước' trứ danh?",
+    "options": [
+      "Nguyễn Khoa Điềm",
+      "Thanh Thảo",
+      "Nguyễn Duy",
+      "Trần Đăng Khoa"
+    ],
+    "correct": 0,
+    "explanation": "'Đất Nước có trong những cái ngày xửa ngày xưa mẹ thường hay kể...' - trường ca ra đời tại chiến khu Trị - Thiên năm 1971."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài ca dao 'Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ, canh gà ...' nhắc đến địa danh nào của Hà Nội?",
+    "options": [
+      "Thọ Xương",
+      "Yên Phụ",
+      "Hàng Buồm",
+      "Bạch Mai"
+    ],
+    "correct": 0,
+    "explanation": "Tiếng chuông chùa Trấn Vũ và tiếng gà gáy canh ba ở phường Thọ Xương bên Hồ Tây."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm truyện ngắn 'Vợ chồng A Phủ' viết về sức sống mãnh liệt của người dân vùng cao Tây Bắc?",
+    "options": [
+      "Tô Hoài",
+      "Nguyễn Tuân",
+      "Nam Cao",
+      "Nguyên Hồng"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Tô Hoài cùng ăn, cùng ở với đồng bào H'Mông và viết nên tập 'Truyện Tây Bắc' năm 1952."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhạc sĩ nào được xưng tụng là 'Người con của núi rừng Tây Nguyên' với những ca khúc hào sảng như 'Ly cà phê Ban Mê', 'Ơi M'Drak'?",
+    "options": [
+      "Nguyễn Cường",
+      "Trần Tiến",
+      "Y Phôn Ksor",
+      "Phó Đức Phương"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Nguyễn Cường gắn bó mật thiết với vùng đất bazan Tây Nguyên đầy nắng gió."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Trong 'Truyện Kiều', sau 15 năm lưu lạc truân chuyên, Thúy Kiều đã được vị sư giác ngộ nào vớt lên cứu sống bên bờ sông Tiền Đường?",
+    "options": [
+      "Sư Giác Duyên",
+      "Sư Đàm Vân",
+      "Sư Huyền Quang",
+      "Vãi Trạc Tuyền"
+    ],
+    "correct": 0,
+    "explanation": "Sư Giác Duyên nhờ đạo nhân dệt lưới sẵn bên sông Tiền Đường kịp thời vớt Kiều khi nàng trẫm mình."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm văn học trung đại 'Truyền kỳ mạn lục' được danh sĩ thời xưa ca ngợi là 'Thiên cổ kỳ bút' là của tác giả nào?",
+    "options": [
+      "Nguyễn Dữ",
+      "Lê Thánh Tông",
+      "Lý Tế Xuyên",
+      "Đoàn Thị Điểm"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Dữ (học trò Trạng Trình Nguyễn Bỉnh Khiêm) sáng tác 20 truyện ngắn kỳ ảo phản ánh xã hội phong kiến."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Vở kịch kinh điển nào của đại văn hào William Shakespeare có câu thoại triết học trăn trở bất hủ: 'To be or not to be' (Tồn tại hay không tồn tại)?",
+    "options": [
+      "Hamlet",
+      "Romeo và Juliet",
+      "Othello",
+      "Macbeth"
+    ],
+    "correct": 0,
+    "explanation": "Chàng hoàng tử Hamlet trăn trở về sứ mệnh, lẽ sống và cái chết trước bi kịch hoàng gia Đan Mạch."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của bản trường ca 'Đẻ đất đẻ nước' (Te tấc te đác), pho sử thi dân gian đồ sộ của người Mường?",
+    "options": [
+      "Sáng tác tập thể của cộng đồng người Mường",
+      "Nghệ nhân Mo Mường Bùi Văn Lương",
+      "Vua Hùng",
+      "Thầy mo"
+    ],
+    "correct": 0,
+    "explanation": "Sử thi 'Đẻ đất đẻ nước' là di sản truyền khẩu vô giá đúc kết tri thức vũ trụ của tộc người Mường."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Bài thơ chữ Hán 'Bạch Đằng giang phú' ca ngợi chiến thắng oanh liệt của tổ tiên trên sông Bạch Đằng là kiệt tác của danh nhân nào thời Trần?",
+    "options": [
+      "Trương Hán Siêu",
+      "Phạm Sư Mạnh",
+      "Nguyễn Trung Ngạn",
+      "Chu Văn An"
+    ],
+    "correct": 0,
+    "explanation": "Hàn lâm học sĩ Trương Hán Siêu chắp bút 'Bạch Đằng giang phú' với lời tổng kết bất hủ: 'Giặc tan muôn thuở thanh bình / Bởi đâu đất hiểm, cốt mình đức cao'."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Chị ngã em ...'?",
+    "options": [
+      "nâng",
+      "đỡ",
+      "kéo",
+      "dắt"
+    ],
+    "correct": 0,
+    "explanation": "Thành ngữ ca ngợi tình cảm chị em ruột thịt yêu thương đùm bọc lẫn nhau."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện ngụ ngôn 'Rùa và Thỏ', tại sao chú Rùa chậm chạp lại chiến thắng chú Thỏ chạy nhanh?",
+    "options": [
+      "Vì Thỏ chủ quan kiêu ngạo nằm ngủ quên dọc đường",
+      "Vì Rùa chạy nhanh hơn",
+      "Vì Thỏ bị lạc đường",
+      "Vì có người giúp Rùa"
+    ],
+    "correct": 0,
+    "explanation": "Tính kiên trì, nhẫn nại và không chủ quan của Rùa đã mang lại chiến thắng vẻ vang."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bao giờ cho đến tháng ba / Hoa gạo rụng xuống bà già cất ...'?",
+    "options": [
+      "chăn",
+      "áo",
+      "chiếu",
+      "mền"
+    ],
+    "correct": 0,
+    "explanation": "'Bao giờ cho đến tháng ba / Hoa gạo rụng xuống bà già cất chăn' - thời tiết ấm áp sang hè."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc cụ gõ truyền thống bằng đồng có núm ở giữa phát ra âm thanh vang rền trong lễ hội Tây Nguyên là gì?",
+    "options": [
+      "Cồng chiêng",
+      "Trống đồng",
+      "Đàn t'rưng",
+      "Kèn đá"
+    ],
+    "correct": 0,
+    "explanation": "Không gian văn hóa Cồng chiêng Tây Nguyên là kiệt tác di sản truyền khẩu phi vật thể nhân loại."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Lời nói chẳng mất tiền mua / Lựa lời mà nói cho ... lòng nhau'?",
+    "options": [
+      "vừa",
+      "thuận",
+      "hợp",
+      "thấu"
+    ],
+    "correct": 0,
+    "explanation": "Khuyên nhủ con người cư xử văn minh, ăn nói lịch thiệp tôn trọng lẫn nhau."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện ngắn 'Lão Hạc' của nhà văn Nam Cao kể về tình cảnh đau xót của người nông dân nghèo phải bán đi con chó yêu quý tên là gì?",
+    "options": [
+      "Cậu Vàng",
+      "Cậu Vện",
+      "Cậu Mực",
+      "Cậu Đốm"
+    ],
+    "correct": 0,
+    "explanation": "Lão Hạc dằn vặt khóc thương sau khi bán cậu Vàng để giữ lại mảnh vườn cho con trai."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Tiểu đội xe không kính' với tinh thần lạc quan, hiên ngang của các chiến sĩ lái xe Trường Sơn là của ai?",
+    "options": [
+      "Phạm Tiến Duật",
+      "Chính Hữu",
+      "Hữu Thỉnh",
+      "Nguyễn Duy"
+    ],
+    "correct": 0,
+    "explanation": "'Không có kính không phải vì xe không có kính / Bom giật bom rung kính vỡ đi rồi' - thơ Phạm Tiến Duật."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm văn học 'Dấu chân người lính' viết về chiến dịch Đường 9 - Khe Sanh năm 1968 là của nhà văn nào?",
+    "options": [
+      "Nguyễn Minh Châu",
+      "Bảo Ninh",
+      "Lê Lựu",
+      "Hồ Phương"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Minh Châu là cây bút mở đường tinh tế của văn học Việt Nam hiện đại."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào viết bài thơ 'Tre Việt Nam' ('Tre xanh xanh tự bao giờ / Chuyện ngày xưa đã có bờ tre xanh...')?",
+    "options": [
+      "Nguyễn Duy",
+      "Trần Đăng Khoa",
+      "Tế Hanh",
+      "Huy Cận"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Nguyễn Duy tôn vinh hình ảnh cây tre dẻo dai kiên cường biểu tượng cho phẩm chất con người Việt Nam."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của tác phẩm chính luận mẫu mực 'Hịch tướng sĩ' khích lệ tinh thần yêu nước đánh giặc Nguyên Mông năm 1284?",
+    "options": [
+      "Hưng Đạo Đại vương Trần Quốc Tuấn",
+      "Trần Quang Khải",
+      "Trần Thái Tông",
+      "Lý Thường Kiệt"
+    ],
+    "correct": 0,
+    "explanation": "'Ta thường tới bữa quên ăn, nửa đêm vỗ gối, ruột đau như cắt, nước mắt đầm đìa...' - áng hùng văn bất hủ của Trần Quốc Tuấn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Tốt gỗ hơn tốt ...'?",
+    "options": [
+      "nước sơn",
+      "vỏ",
+      "áo",
+      "hình"
+    ],
+    "correct": 0,
+    "explanation": "Đề cao giá trị phẩm chất đạo đức bên trong hơn vẻ hào nhoáng hình thức bên ngoài."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Cây khế', con chim thần đã chở người em ra đảo lấy vàng bằng lời dặn nổi tiếng nào?",
+    "options": [
+      "'Ăn một quả, trả cục vàng, may túi ba gang, mang đi mà đựng'",
+      "'Ăn một quả, trả một lượng'",
+      "'May túi mười gang'",
+      "'Lấy bao nhiêu tùy thích'"
+    ],
+    "correct": 0,
+    "explanation": "Lời dặn nhân quả: người em hiền lành may túi đúng ba gang được chim trả ơn giàu có."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Ai là tác giả của câu thơ nổi tiếng: 'Đầu lòng hai ả tố nga / Thúy Kiều là chị, em là Thúy Vân'?",
+    "options": [
+      "Đại thi hào Nguyễn Du",
+      "Đoàn Thị Điểm",
+      "Hồ Xuân Hương",
+      "Bà Huyện Thanh Quan"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Du miêu tả nhan sắc 'mười phân vẹn mười' của hai chị em Thúy Kiều đầu kiệt tác Đoạn trường tân thanh."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Bếp lửa' với hình ảnh người bà tần tảo nhóm lên tình yêu thương sưởi ấm tâm hồn cháu là của nhà thơ nào?",
+    "options": [
+      "Bằng Việt",
+      "Hữu Thỉnh",
+      "Phạm Tiến Duật",
+      "Nguyễn Duy"
+    ],
+    "correct": 0,
+    "explanation": "'Một bếp lửa chờn vờn sương sớm / Một bếp lửa ấp iu nồng đượm...' - thơ Bằng Việt viết năm 1963 tại Liên Xô."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm văn học 'Mùa lạc' ngợi ca cuộc sống lao động hồi sinh trên nông trường Điện Biên là của nhà văn nào?",
+    "options": [
+      "Nguyễn Khải",
+      "Nguyễn Minh Châu",
+      "Bùi Hiển",
+      "Nguyễn Tuân"
+    ],
+    "correct": 0,
+    "explanation": "'Ở đời này không có con đường cùng, chỉ có những ranh giới, điều cốt yếu là phải có sức mạnh để bước qua...' - Nguyễn Khải."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng gốm cổ truyền Bát Tràng nổi tiếng với các sản phẩm men ngọc, men lam tinh xảo nằm ven bờ sông Hồng thuộc huyện nào của Hà Nội?",
+    "options": [
+      "Huyện Gia Lâm",
+      "Huyện Đông Anh",
+      "Huyện Thanh Trì",
+      "Huyện Sóc Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Làng gốm Bát Tràng có lịch sử hơn 700 năm bên tả ngạn sông Hồng thuộc huyện Gia Lâm."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Kiệt tác kịch 'Vũ Như Tô' phản ánh bi kịch giữa nghệ thuật siêu đẳng và quyền lợi thiết thực của nhân dân qua công trình Cửu Trùng Đài là của ai?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Lưu Quang Vũ",
+      "Tào Mạt",
+      "Vi Huyền Đắc"
+    ],
+    "correct": 0,
+    "explanation": "Vở kịch lịch sử 5 hồi của Nguyễn Huy Tưởng đặt ra câu hỏi muôn thuở về mối quan hệ giữa nghệ sĩ và nhân dân."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Uống nước nhớ ...'?",
+    "options": [
+      "nguồn",
+      "sông",
+      "suối",
+      "dòng"
+    ],
+    "correct": 0,
+    "explanation": "Đạo lý truyền thống tri ân cội nguồn, tổ tiên của người Việt Nam."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện 'Sơn Tinh - Thủy Tinh', sính lễ vua Hùng yêu cầu để cưới công chúa Mỵ Nương gồm 'Voi chín ngà, gà chín cựa, ngựa chín ...'?",
+    "options": [
+      "hồng mao",
+      "đuôi",
+      "sừng",
+      "chân"
+    ],
+    "correct": 0,
+    "explanation": "'Voi chín ngà, gà chín cựa, ngựa chín hồng mao' - sính lễ hiếm có của núi rừng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Bài hát 'Tiến lên đoàn viên' với lời ca 'Tiến bước theo cờ Lý Tự Trọng...' do nhạc sĩ nào sáng tác?",
+    "options": [
+      "Phạm Tuyên",
+      "Phong Nhã",
+      "Lưu Hữu Phước",
+      "Hoàng Vân"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Phạm Tuyên sáng tác ca khúc cổ vũ tinh thần thanh thiếu niên năm 1954."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm tiểu thuyết lịch sử 'Lá cờ thêu sáu chữ vàng' tái hiện hình ảnh anh hùng trẻ tuổi Trần Quốc Toản?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Tô Hoài",
+      "Hà Ân",
+      "Nam Cao"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Huy Tưởng khắc họa hào khí Đông A qua tấm lòng vì nước của Trần Quốc Toản."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Chiều biên giới' với câu hát 'Chiều biên giới em ơi / Có nơi nào cao hơn...' do nhạc sĩ Trần Chung phổ nhạc là thơ của ai?",
+    "options": [
+      "Lò Ngân Sủn",
+      "Hữu Thỉnh",
+      "Trần Đăng Khoa",
+      "Lò Văn Mười"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ dân tộc Dáy Lò Ngân Sủn viết nên những vần thơ hùng tráng về dải đất biên cương Bát Xát."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng tranh dân gian Kim Hoàng ở Hoài Đức (Hà Nội) nổi tiếng với kỹ thuật in mộc bản trên nền giấy màu gì?",
+    "options": [
+      "Giấy đỏ (hoặc giấy hồng điều)",
+      "Giấy điệp trắng",
+      "Giấy vàng",
+      "Giấy nâu"
+    ],
+    "correct": 0,
+    "explanation": "Tranh Đỏ Kim Hoàng in trên nền giấy hồng điều với nét vẽ đen phóng khoáng là nét đặc sắc xứ Đoài."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Tác phẩm thơ trường thiên bất hủ 'Chinh phụ ngâm' nguyên tác bằng chữ Hán do danh sĩ nào chắp bút dưới thời Lê - Trịnh?",
+    "options": [
+      "Đặng Trần Côn (Đoàn Thị Điểm diễn Nôm)",
+      "Nguyễn Gia Thiều",
+      "Nguyễn Du",
+      "Phan Huy Chú"
+    ],
+    "correct": 0,
+    "explanation": "Đặng Trần Côn viết Chinh phụ ngâm bằng chữ Hán, sau đó nữ sĩ Đoàn Thị Điểm dịch sang thể thơ song thất lục bát tuyệt mỹ."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Một cây làm chẳng nên non / Ba cây chụm lại nên hòn ... cao'?",
+    "options": [
+      "núi",
+      "đồi",
+      "đá",
+      "rừng"
+    ],
+    "correct": 0,
+    "explanation": "Ca ngợi sức mạnh của tinh thần đoàn kết tập thể hiệp lực tạo nên thành quả to lớn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhân vật chú Cuội ngồi dưới gốc cây gì trên cung trăng trong sự tích dân gian?",
+    "options": [
+      "Cây đa",
+      "Cây bàng",
+      "Cây gạo",
+      "Cây khế"
+    ],
+    "correct": 0,
+    "explanation": "Chú Cuội cầm cây đa thần bay lên cung trăng gắn liền với truyền thuyết tết Trung Thu rước đèn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng ... một giàn'?",
+    "options": [
+      "chung",
+      "cùng",
+      "chia",
+      "trên"
+    ],
+    "correct": 0,
+    "explanation": "Bài học muôn đời về tình đồng bào ruột thịt che chở cưu mang nhau."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm truyện thơ chữ Nôm bất hủ dài hàng ngàn câu 'Cung oán ngâm khúc'?",
+    "options": [
+      "Nguyễn Gia Thiều (Ôn Như Hầu)",
+      "Đoàn Thị Điểm",
+      "Đặng Trần Côn",
+      "Nguyễn Du"
+    ],
+    "correct": 0,
+    "explanation": "Ôn Như Hầu Nguyễn Gia Thiều dùng thể thơ song thất lục bát than thở thân phận cung nữ bị thất sủng."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào viết bài thơ 'Viếng lăng Bác' ('Con ở miền Nam ra thăm lăng Bác / Đã thấy trong sương hàng tre bát ngát...')?",
+    "options": [
+      "Viễn Phương",
+      "Nguyễn Duy",
+      "Lê Anh Xuân",
+      "Thu Bồn"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Viễn Phương viết bài thơ xúc động nghẹn ngào năm 1976 khi lăng Chủ tịch Hồ Chí Minh vừa khánh thành."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện ngắn 'Chữ người tử tù' của Nguyễn Tuân ban đầu khi đăng báo năm 1938 có nhan đề là gì?",
+    "options": [
+      "Dòng nước ngược",
+      "Vang bóng một thời",
+      "Ngọn đèn dầu lạc",
+      "Chiếc ấm đất"
+    ],
+    "correct": 0,
+    "explanation": "Tác phẩm xuất sắc này ban đầu mang tên 'Dòng nước ngược' trước khi in trong tập 'Vang bóng một thời'."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Vở chèo cổ mẫu mực 'Quan Âm Thị Kính' có cảnh Thị Màu lên chùa ghẹo chú tiểu Kính Tâm mang làn điệu chèo đặc sắc nào?",
+    "options": [
+      "Điệu chèo 'Cấm giá' và 'Hề mồi'",
+      "Điệu Sa lệch",
+      "Điệu Đào liễu",
+      "Điệu Con gà rừng"
+    ],
+    "correct": 0,
+    "explanation": "Cảnh Thị Màu lên chùa là đỉnh cao diễn xuất tính cách lẳng lơ, táo bạo phá cách trong nghệ thuật chèo truyền thống."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện 'Sự tích trầu cau', ba nhân vật chính sau khi chết đã biến thành những vật gì tượng trưng cho tình nghĩa thủy chung gắn bó?",
+    "options": [
+      "Cây cau, cây trầu không và tảng đá vôi",
+      "Cây đa, giếng nước, sân đình",
+      "Cây bàng, cây phượng",
+      "Ba đóa hoa sen"
+    ],
+    "correct": 0,
+    "explanation": "Khi hòa quyện trầu, cau và vôi tạo nên màu đỏ son thắm đượm tình nghĩa anh em, vợ chồng son sắt."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Mẹ và quả' với câu thơ xúc động 'Và chúng tôi, một thứ quả trên đời / Bảy mươi tuổi mẹ đợi chờ được hái' là của nhà thơ nào?",
+    "options": [
+      "Nguyễn Khoa Điềm",
+      "Nguyễn Duy",
+      "Hữu Thỉnh",
+      "Trần Đăng Khoa"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Nguyễn Khoa Điềm viết về sự hy sinh thầm lặng của người mẹ nuôi con khôn lớn."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng tranh khắc gỗ dân gian Hàng Trống nổi tiếng đất kinh kỳ Thăng Long với bức tranh tứ bình nào tiêu biểu?",
+    "options": [
+      "Bộ tranh Tứ bình: Tố nữ, Tứ quý (Tùng - Cúc - Trúc - Mai)",
+      "Tranh Gà lợn",
+      "Tranh Đám cưới chuột",
+      "Tranh Đánh ghen"
+    ],
+    "correct": 0,
+    "explanation": "Tranh Hàng Trống tinh tế với kỹ thuật vờn màu nước điêu luyện và nét khắc mảnh mai tao nhã."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Tác phẩm thơ trào phúng 'Vịnh khoa thi Hương' với câu thơ chua chát: 'Lọng cắm rợp trời quan sứ đến / Váy lê quét đất mụ đầm ra' là kiệt tác của nhà thơ nào?",
+    "options": [
+      "Tú Xương (Trần Tế Xương)",
+      "Nguyễn Khuyến",
+      "Ba Giai - Tú Xuất",
+      "Hồ Xuân Hương"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Tú Xương xót xa trước cảnh khoa cử Nho học suy đồi thời thực dân nửa phong kiến ở trường thi Nam Định năm Đinh Dậu 1897."
   }
 ]

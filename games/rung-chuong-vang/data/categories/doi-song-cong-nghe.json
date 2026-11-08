@@ -1350,5 +1350,668 @@
     ],
     "correct": 0,
     "explanation": "Ada Lovelace (1815 - 1852) là lập trình viên đầu tiên với công trình thuật toán tính số Bernoulli."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng bản đồ chỉ đường phổ biến nhất trên điện thoại thông minh hiện nay do Google cung cấp là gì?",
+    "options": [
+      "Google Maps",
+      "Apple Maps",
+      "Here WeGo",
+      "Waze"
+    ],
+    "correct": 0,
+    "explanation": "Google Maps cung cấp dữ liệu bản đồ số, lộ trình giao thông thời gian thực trên toàn cầu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn nào được xem là 'Quốc hồn quốc túy' của ẩm thực Việt Nam thường được ăn kèm rau thơm, chanh ớt và nước dùng đậm đà?",
+    "options": [
+      "Phở",
+      "Bánh rán",
+      "Xôi xéo",
+      "Bánh cuốn"
+    ],
+    "correct": 0,
+    "explanation": "Phở bò, phở gà là món ăn biểu tượng văn hóa ẩm thực Việt Nam được vinh danh khắp năm châu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thiết bị đeo thông minh vừa xem giờ vừa theo dõi nhịp tim, bước chân người dùng được gọi là gì?",
+    "options": [
+      "Đồng hồ thông minh (Smartwatch)",
+      "Máy đo huyết áp",
+      "Vòng tay đá",
+      "Tai nghe bluetooth"
+    ],
+    "correct": 0,
+    "explanation": "Smartwatch tích hợp cảm biến quang học theo dõi các chỉ số sinh tồn và sức khỏe hàng ngày."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món tráng miệng truyền thống làm từ bột nếp, nhân đậu xanh ngập trong nước đường gừng cay nồng ấm cúng ngày đông là gì?",
+    "options": [
+      "Bánh trôi tàu (hoặc chè trôi nước)",
+      "Chè đậu đen",
+      "Tào phớ",
+      "Chè chuối"
+    ],
+    "correct": 0,
+    "explanation": "Bánh trôi nước / bánh trôi tàu chan nước gừng rắc lạc vừng là món ăn ấm lòng mùa lạnh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống thanh toán điện tử không dùng tiền mặt qua tài khoản ngân hàng trên điện thoại được gọi chung là gì?",
+    "options": [
+      "Mobile Banking (Ngân hàng số)",
+      "ATM",
+      "Sổ tiết kiệm",
+      "Thẻ cào"
+    ],
+    "correct": 0,
+    "explanation": "Mobile Banking cho phép chuyển khoản quét mã VietQR tức thì mọi lúc mọi nơi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao dùng vợt đánh quả cầu có gắn lông vũ qua lại trên lưới cao được gọi là môn gì?",
+    "options": [
+      "Cầu lông (Badminton)",
+      "Quần vợt",
+      "Bóng bàn",
+      "Pickleball"
+    ],
+    "correct": 0,
+    "explanation": "Cầu lông là môn thể thao rèn luyện phản xạ nhanh và sự dẻo dai phổ biến ở mọi lứa tuổi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chương trình phần mềm độc hại có khả năng tự nhân bản và lây nhiễm từ máy tính này sang máy tính khác được gọi là gì?",
+    "options": [
+      "Virus máy tính",
+      "Hệ điều hành",
+      "Trình duyệt web",
+      "Phần mềm diệt virus"
+    ],
+    "correct": 0,
+    "explanation": "Virus máy tính và mã độc (Malware) có thể đánh cắp dữ liệu hoặc phá hoại hệ điều hành."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món đặc sản nổi tiếng của Cố đô Huế nấu từ bún sợi to, thịt bò bắp, chả cua và nước dùng thơm mùi mắm ruốc là món gì?",
+    "options": [
+      "Bún bò Huế",
+      "Bún riêu",
+      "Bún chả",
+      "Bún ốc"
+    ],
+    "correct": 0,
+    "explanation": "Bún bò Huế cay nồng thơm lừng mùi sả và mắm ruốc là đỉnh cao ẩm thực miền Trung."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Dịch vụ lưu trữ tệp tin đám mây miễn phí 15GB gắn liền với tài khoản Gmail là gì?",
+    "options": [
+      "Google Drive",
+      "OneDrive",
+      "Dropbox",
+      "iCloud"
+    ],
+    "correct": 0,
+    "explanation": "Google Drive cho phép đồng bộ tài liệu, ảnh, video truy cập từ mọi thiết bị cá nhân."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cỡ giấy in văn phòng chuẩn được sử dụng rộng rãi nhất trong máy in và photocopy tại Việt Nam là khổ giấy nào?",
+    "options": [
+      "Khổ giấy A4",
+      "Khổ giấy A3",
+      "Khổ giấy A5",
+      "Khổ giấy B5"
+    ],
+    "correct": 0,
+    "explanation": "Khổ A4 có kích thước tiêu chuẩn quốc tế 210 x 297 mm dùng cho mọi văn bản hành chính."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ màn hình điện thoại có tần số quét cao (ví dụ: 120Hz) mang lại lợi ích trải nghiệm vượt trội nào?",
+    "options": [
+      "Cuộn trang và hoạt ảnh chuyển động mượt mà hơn gấp đôi",
+      "Pin trâu hơn",
+      "Loa to hơn",
+      "Màu sắc đen hơn"
+    ],
+    "correct": 0,
+    "explanation": "Màn hình 120Hz làm tươi 120 khung hình mỗi giây, giúp thao tác vuốt chạm cực kỳ mượt mà, phản hồi tức thì."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Gia vị thảo mộc hạt tròn nhỏ tạo nên vị cay the ấm nồng đặc trưng cho món Phở và Bò kho là gia vị gì?",
+    "options": [
+      "Hạt tiêu đen (hoặc Hạt hồi / Hạt ngò)",
+      "Hạt ớt",
+      "Hạt mù tạt",
+      "Hạt thì là"
+    ],
+    "correct": 0,
+    "explanation": "Hạt tiêu Phú Quốc hoặc tiêu Chư Sê là gia vị làm dậy mùi thơm cho các món canh súp Việt Nam."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thuật toán tìm kiếm trang web nổi tiếng đầu tiên giúp Google thống trị thế giới Internet do Larry Page sáng chế mang tên gì?",
+    "options": [
+      "PageRank",
+      "EdgeRank",
+      "Random Walk",
+      "DeepSearch"
+    ],
+    "correct": 0,
+    "explanation": "Thuật toán PageRank xếp hạng trang web dựa trên số lượng và chất lượng các đường liên kết (backlink) trỏ về."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Huyền thoại quần vợt nam nào người Thụy Sĩ được tôn xưng là 'Tàu tốc hành' với 20 danh hiệu Grand Slam đơn nam?",
+    "options": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "correct": 0,
+    "explanation": "Roger Federer nổi tiếng với những cú trái tay một tay hào hoa, chuẩn mực và phong thái lịch lãm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món gỏi cuốn tôm thịt chấm tương đen ngậy bùi của miền Nam từng lọt Top 50 món ăn ngon nhất thế giới do đài CNN bình chọn có tên tiếng Anh là gì?",
+    "options": [
+      "Vietnamese Fresh Spring Rolls",
+      "Fried Spring Rolls",
+      "Pancake",
+      "Steamed Rolls"
+    ],
+    "correct": 0,
+    "explanation": "Gỏi cuốn thanh mát với tôm, thịt ba chỉ, bún tươi, rau sống cuộn trong bánh tráng dẻo mềm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chuẩn sạc nhanh Power Delivery (USB-PD) trên cổng Type-C hiện nay có thể hỗ trợ công suất sạc tối đa lên tới bao nhiêu watt theo chuẩn PD 3.1?",
+    "options": [
+      "Lên tới 240W",
+      "Chỉ 18W",
+      "Chỉ 65W",
+      "Chỉ 100W"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn USB-PD 3.1 mở rộng mức điện áp lên 48V - 5A cho phép sạc laptop gaming công suất tới 240W."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Trong lĩnh vực trí tuệ nhân tạo, mô hình ngôn ngữ lớn (LLM) sinh văn bản bằng cách dự đoán đại lượng xác suất thống kê nào?",
+    "options": [
+      "Xác suất xuất hiện của từ (hoặc token) tiếp theo dựa trên chuỗi từ trước đó",
+      "Tìm kiếm chính xác trong cơ sở dữ liệu SQL",
+      "Dịch nguyên văn từng từ",
+      "Tính giá trị trung bình cộng"
+    ],
+    "correct": 0,
+    "explanation": "Mô hình ngôn ngữ tự hồi quy (Autoregressive LLM) tính phân phối xác suất P(token_t | token_1...token_t-1) để sinh câu mượt mà."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hãng xe điện VinFast của Việt Nam có trụ sở nhà máy sản xuất ô tô hiện đại tại thành phố nào?",
+    "options": [
+      "Hải Phòng",
+      "Hà Nội",
+      "Đà Nẵng",
+      "TP. Hồ Chí Minh"
+    ],
+    "correct": 0,
+    "explanation": "Tổ hợp nhà máy sản xuất ô tô VinFast đặt tại đảo Cát Hải, thành phố Hải Phòng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món chè trứ danh làm từ hạt sen tươi và long nhãn giòn ngọt thanh tao là đặc sản nức tiếng của tỉnh nào?",
+    "options": [
+      "Hưng Yên",
+      "Hà Nam",
+      "Bắc Giang",
+      "Hải Dương"
+    ],
+    "correct": 0,
+    "explanation": "Chè hạt sen long nhãn Hưng Yên tiến vua nức tiếng gần xa."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Công nghệ truyền dữ liệu cự ly siêu gần chạm để thanh toán không tiếp xúc trên smartphone được viết tắt là gì?",
+    "options": [
+      "NFC",
+      "GPS",
+      "Infrared",
+      "Wi-Fi"
+    ],
+    "correct": 0,
+    "explanation": "NFC (Near Field Communication) cho phép chạm điện thoại vào máy POS để thanh toán cực nhanh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kích thước màn hình tivi hay điện thoại thường được tính bằng đơn vị đo lường nào?",
+    "options": [
+      "Inch (inch)",
+      "Centimet",
+      "Milimet",
+      "Pixel"
+    ],
+    "correct": 0,
+    "explanation": "Kích thước màn hình là độ dài đường chéo màn hình đo bằng đơn vị Inch (1 inch = 2,54 cm)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Sân vận động Quốc gia Mỹ Đình với sức chứa hơn 40.000 chỗ ngồi nằm tại quận nào của Hà Nội?",
+    "options": [
+      "Quận Nam Từ Liêm",
+      "Quận Cầu Giấy",
+      "Quận Bắc Từ Liêm",
+      "Quận Đống Đa"
+    ],
+    "correct": 0,
+    "explanation": "Sân vận động Quốc gia Mỹ Đình khánh thành năm 2003 phục vụ SEA Games 22 tại Nam Từ Liêm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chữ cái 'e' trong các thuật ngữ như e-commerce, e-wallet, email là viết tắt của từ tiếng Anh nào?",
+    "options": [
+      "Electronic (Điện tử)",
+      "Electric",
+      "Engine",
+      "Express"
+    ],
+    "correct": 0,
+    "explanation": "Electronic nghĩa là điện tử (thương mại điện tử, ví điện tử, thư điện tử)."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món bún chả Hà Nội vinh dự được cựu Tổng thống Mỹ Barack Obama thưởng thức cùng đầu bếp Anthony Bourdain năm nào?",
+    "options": [
+      "Năm 2016",
+      "Năm 2015",
+      "Năm 2018",
+      "Năm 2020"
+    ],
+    "correct": 0,
+    "explanation": "Tháng 5/2016, Tổng thống Obama thưởng thức bún chả Hương Liên phố Lê Văn Hưu gây sốt truyền thông quốc tế."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Hệ thống cơ sở dữ liệu phi quan hệ (NoSQL) lưu trữ dữ liệu dưới dạng tài liệu JSON/BSON phổ biến nhất hiện nay là gì?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite"
+    ],
+    "correct": 0,
+    "explanation": "MongoDB là hệ quản trị cơ sở dữ liệu hướng tài liệu NoSQL được ưa chuộng cho các ứng dụng web quy mô lớn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống đèn tín hiệu giao thông đường bộ gồm 3 màu cơ bản là những màu nào?",
+    "options": [
+      "Đỏ, Vàng, Xanh lục",
+      "Đỏ, Tím, Vàng",
+      "Xanh, Cam, Đỏ",
+      "Đỏ, Trắng, Vàng"
+    ],
+    "correct": 0,
+    "explanation": "Quy tắc: Đèn đỏ dừng lại, đèn xanh được đi, đèn vàng giảm tốc độ dừng trước vạch."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn sáng nổi tiếng của người Hà Nội gồm xôi nếp dẻo thơm ăn kèm đậu xanh xắt mỏng và hành phi vàng giòn là món gì?",
+    "options": [
+      "Xôi xéo",
+      "Xôi gấc",
+      "Xôi vò",
+      "Xôi bắp"
+    ],
+    "correct": 0,
+    "explanation": "Xôi xéo gói trong lá chuối đượm mỡ gà béo ngậy là thức quà sáng kinh điển đất Hà thành."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nền tảng mua sắm trực tuyến Shopee, Lazada, TikTok Shop thuộc mô hình kinh doanh nào?",
+    "options": [
+      "Thương mại điện tử (E-commerce)",
+      "Siêu thị truyền thống",
+      "Chợ cóc",
+      "Ngân hàng"
+    ],
+    "correct": 0,
+    "explanation": "Thương mại điện tử cho phép người mua và người bán giao dịch hàng hóa qua Internet thuận tiện."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ trợ lý ảo Siri được tích hợp mặc định trên các thiết bị của tập đoàn công nghệ nào?",
+    "options": [
+      "Apple",
+      "Google",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correct": 0,
+    "explanation": "Siri do Apple phát triển hỗ trợ điều khiển bằng giọng nói trên iPhone, iPad, Mac."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Vận động viên bắn súng huyền thoại nào đã mang về tấm Huy chương Vàng Olympic đầu tiên trong lịch sử cho thể thao Việt Nam năm 2016?",
+    "options": [
+      "Xạ thủ Hoàng Xuân Vinh",
+      "Trần Oanh",
+      "Hoàng Quý Phước",
+      "Nguyễn Tiến Minh"
+    ],
+    "correct": 0,
+    "explanation": "Đại tá Hoàng Xuân Vinh xuất sắc giành HCV nội dung 10m súng ngắn hơi tại Olympic Rio 2016."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hạt ngũ cốc nào là lương thực chính nuôi sống hơn một nửa dân số thế giới và là cây trồng truyền thống của Việt Nam?",
+    "options": [
+      "Cây lúa nước (gạo)",
+      "Lúa mì",
+      "Ngô",
+      "Khoai tây"
+    ],
+    "correct": 0,
+    "explanation": "Việt Nam là một trong những quốc gia xuất khẩu gạo chất lượng cao hàng đầu thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Giao thức truyền thông nào là nền tảng cốt lõi định tuyến gói tin trên toàn bộ mạng Internet toàn cầu?",
+    "options": [
+      "Bộ giao thức TCP/IP",
+      "HTTP",
+      "FTP",
+      "DNS"
+    ],
+    "correct": 0,
+    "explanation": "TCP/IP (Transmission Control Protocol / Internet Protocol) do Vint Cerf và Bob Kahn phát triển định hình mạng Internet."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở cuốn trứ danh của ẩm thực Hà Nội có nguồn gốc đầu tiên từ phố ẩm thực nào?",
+    "options": [
+      "Phố Ngũ Xã (bên hồ Trúc Bạch)",
+      "Phố Hàng Buồm",
+      "Phố Tạ Hiện",
+      "Phố Cấm Chỉ"
+    ],
+    "correct": 0,
+    "explanation": "Làng đúc đồng Ngũ Xã ven hồ Trúc Bạch là cái nôi khai sinh ra món phở cuốn thịt bò rau thơm trứ danh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nút bấm nào trên bàn phím máy tính dùng để xóa ký tự đứng ngay phía trước con trỏ văn bản?",
+    "options": [
+      "Phím Backspace",
+      "Phím Delete",
+      "Phím Enter",
+      "Phím Shift"
+    ],
+    "correct": 0,
+    "explanation": "Backspace xóa lùi về bên trái, còn Delete xóa ký tự đứng phía sau con trỏ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào mà các đấu sĩ mặc võ phục đai đen thực hiện các đòn quật ngã, siết cổ trên thảm đấu có nguồn gốc từ Nhật Bản?",
+    "options": [
+      "Judo (Nhu đạo)",
+      "Karate",
+      "Taekwondo",
+      "Muay Thái"
+    ],
+    "correct": 0,
+    "explanation": "Judo do võ sư Kano Jigoro sáng lập năm 1882 với nguyên lý 'Lấy nhu thắng cương'."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ truyền hình cáp quang Internet tốc độ cao FTTx sử dụng loại dây cáp gì?",
+    "options": [
+      "Cáp quang lõi sợi thủy tinh",
+      "Cáp đồng trục",
+      "Dây điện thoại",
+      "Dây cáp nhôm"
+    ],
+    "correct": 0,
+    "explanation": "Cáp quang truyền tín hiệu dưới dạng các xung ánh sáng cho băng thông siêu rộng và không bị nhiễu điện từ."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Cơm hến' cay xé lưỡi ăn kèm tóp mỡ, hoa chuối và nước luộc hến thanh ngọt là đặc sản vùng nào?",
+    "options": [
+      "Cố đô Huế",
+      "Đà Nẵng",
+      "Quảng Ngãi",
+      "Bình Định"
+    ],
+    "correct": 0,
+    "explanation": "Cơm hến Cồn Hến (Huế) là món ăn dân dã đậm đà vị cay nồng đặc trưng của xứ thần kinh."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hệ thống tên miền trên mạng Internet giúp dịch địa chỉ IP số học (ví dụ: 192.168.1.1) thành tên dễ nhớ (ví dụ: google.com) được gọi là gì?",
+    "options": [
+      "Hệ thống DNS (Domain Name System)",
+      "DHCP",
+      "FTP",
+      "SNMP"
+    ],
+    "correct": 0,
+    "explanation": "DNS đóng vai trò như danh bạ điện thoại của toàn bộ mạng Internet thế giới."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Tiêu chuẩn mã hóa ký tự phổ quát hỗ trợ hiển thị chính xác mọi ngôn ngữ trên thế giới (kể cả tiếng Việt có dấu) là tiêu chuẩn nào?",
+    "options": [
+      "Unicode (chuẩn UTF-8)",
+      "ASCII",
+      "TCVN3 (ABC)",
+      "VNI"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn UTF-8 Unicode là bảng mã tiêu chuẩn thống nhất định dạng ký tự cho mọi trang web và hệ điều hành ngày nay."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bữa cơm gia đình truyền thống của người Việt thường có món canh, món xào và món gì ăn kèm cơm trắng?",
+    "options": [
+      "Món kho (hoặc món mặn)",
+      "Món kem",
+      "Món bánh ngọt",
+      "Món chè"
+    ],
+    "correct": 0,
+    "explanation": "Cơ cấu bữa cơm Việt chuẩn mực luôn có canh thanh mát, rau xào và món mặn kho đậm đà đưa cơm."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng họp trực tuyến và học tập từ xa bùng nổ toàn cầu trong đại dịch COVID-19 là gì?",
+    "options": [
+      "Zoom",
+      "Photoshop",
+      "Word",
+      "Excel"
+    ],
+    "correct": 0,
+    "explanation": "Zoom Meetings cho phép kết nối hàng trăm người cùng thảo luận qua video trực tuyến độ trễ thấp."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống truyền hình xem phim trực tuyến hàng đầu thế giới với logo chữ 'N' đỏ rực là gì?",
+    "options": [
+      "Netflix",
+      "Spotify",
+      "Amazon",
+      "Disney"
+    ],
+    "correct": 0,
+    "explanation": "Netflix cung cấp kho phim điện ảnh, tài liệu và series truyền hình bản quyền phong phú."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món đặc sản 'Cốm làng Vòng' thơm ngát hương nếp non bọc trong lá sen xanh mát gắn liền với mùa nào của Hà Nội?",
+    "options": [
+      "Mùa thu",
+      "Mùa xuân",
+      "Mùa hè",
+      "Mùa đông"
+    ],
+    "correct": 0,
+    "explanation": "Thạch Lam từng viết: 'Cốm là thức quà riêng biệt của đất nước, là thức dâng của những cánh đồng lúa bát ngát...'."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Định dạng ảnh số phổ biến nhất trên Internet với khả năng nén kích thước tệp nhẹ mà vẫn giữ độ chi tiết cao là định dạng nào?",
+    "options": [
+      "JPEG (JPG)",
+      "BMP",
+      "TIFF",
+      "RAW"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn JPEG (Joint Photographic Experts Group) là định dạng ảnh tiêu chuẩn của nhiếp ảnh số và web."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Môn thể thao nào mà các vận động viên lướt trên ván gỗ hoặc sợi thủy tinh trên những ngọn sóng biển dâng cao?",
+    "options": [
+      "Lướt sóng (Surfing)",
+      "Chèo kayak",
+      "Lặn biển",
+      "Bóng nước"
+    ],
+    "correct": 0,
+    "explanation": "Lướt sóng là môn thể thao mạo hiểm chinh phục sức mạnh của những con sóng đại dương."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Cấu trúc dữ liệu hình cây trong khoa học máy tính mà mỗi nút có tối đa hai nút con được gọi là gì?",
+    "options": [
+      "Cây nhị phân (Binary Tree)",
+      "Đồ thị",
+      "Hàng đợi",
+      "Danh sách liên kết"
+    ],
+    "correct": 0,
+    "explanation": "Cây nhị phân và cây tìm kiếm nhị phân (BST) là cấu trúc nền tảng cho các thuật toán tìm kiếm và sắp xếp dữ liệu tối ưu."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món lẩu riêu cua đồng thanh mát thơm mùi giấm bỗng thường được ăn kèm loại rau ghém nào?",
+    "options": [
+      "Hoa chuối thái mỏng, rau muống chẻ, tía tô",
+      "Rau bina",
+      "Cải xoong luộc",
+      "Rau mồng tơi"
+    ],
+    "correct": 0,
+    "explanation": "Vị chua thanh của giấm bỗng hòa quyện với vị béo ngậy của gạch cua và rau sống giòn ngọt."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đơn vị đo dung lượng dữ liệu bộ nhớ máy tính gồm 1 Gigabyte (1GB) tương đương với bao nhiêu Megabyte (MB)?",
+    "options": [
+      "1.024 MB",
+      "1.000 MB",
+      "100 MB",
+      "512 MB"
+    ],
+    "correct": 0,
+    "explanation": "Trong hệ nhị phân (hệ đếm cơ số 2), 1 GB = 2^10 MB = 1.024 MB."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Kỳ đại hội Thể thao Đông Nam Á (SEA Games 31) lần thứ hai được tổ chức thành công rực rỡ tại Việt Nam vào năm nào?",
+    "options": [
+      "Năm 2022 (tại Hà Nội)",
+      "Năm 2019",
+      "Năm 2021",
+      "Năm 2023"
+    ],
+    "correct": 0,
+    "explanation": "SEA Games 31 diễn ra vào tháng 5/2022 tại Hà Nội và 11 tỉnh lân cận, đoàn Việt Nam đứng nhất toàn đoàn."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thiết bị chuyển đổi tín hiệu quang sang tín hiệu điện internet lắp đặt trong mỗi hộ gia đình được gọi là gì?",
+    "options": [
+      "Modem quang (ONT)",
+      "Switch chia mạng",
+      "Card mạng LAN",
+      "Hub"
+    ],
+    "correct": 0,
+    "explanation": "Modem quang chuyển đổi xung ánh sáng trên sợi cáp quang thành tín hiệu số Ethernet cho router phát Wi-Fi."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Hệ điều hành nhân Linux (Linux Kernel) mã nguồn mở thống trị máy chủ và smartphone (Android) do kỹ sư người Phần Lan nào sáng lập năm 1991?",
+    "options": [
+      "Linus Torvalds",
+      "Richard Stallman",
+      "Dennis Ritchie",
+      "Ken Thompson"
+    ],
+    "correct": 0,
+    "explanation": "Linus Torvalds phát hành phiên bản hạt nhân Linux 0.01 năm 1991, đặt nền tảng cho cuộc cách mạng phần mềm nguồn mở thế giới."
   }
 ]

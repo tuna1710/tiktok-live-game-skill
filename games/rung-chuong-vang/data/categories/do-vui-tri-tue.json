@@ -1792,5 +1792,551 @@
     ],
     "correct": 1,
     "explanation": "Nằm võng đung đưa thì lưng người luôn có độ cong tự nhiên theo độ võng của dây."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì khi mua thì màu đen, khi dùng thì màu đỏ, khi vứt đi thì màu xám xịt?",
+    "options": [
+      "Hòn than củi",
+      "Cây nến",
+      "Thỏi son",
+      "Chiếc xe máy"
+    ],
+    "correct": 0,
+    "explanation": "Than củi mua về màu đen tuyền, nhóm lửa hồng đỏ rực, cháy tàn thành tro xám."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Có cánh mà không biết bay, có mắt mà không biết nhìn, bơi dưới nước suốt ngày đêm là con gì?",
+    "options": [
+      "Con cá",
+      "Con chim cánh cụt",
+      "Con tàu ngầm",
+      "Con vịt"
+    ],
+    "correct": 0,
+    "explanation": "Cá có vây (cánh vây), mắt không có mi mí nhưng bơi lội tung tăng dưới nước."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì có chân mà không thể bước đi, có mặt mà không thể mỉm cười, để bát đĩa lên trên suốt ngày?",
+    "options": [
+      "Cái bàn ăn",
+      "Cái ghế",
+      "Cái giường",
+      "Cái tủ"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc bàn có 4 chân trụ vững chắc và mặt bàn để đồ ăn."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui: 'Đầu tròn mình vuông, bốn góc thắt dây, mở ra thơm ngát hương nếp quê hương' là chiếc bánh gì ngày Tết?",
+    "options": [
+      "Bánh chưng",
+      "Bánh giầy",
+      "Bánh ú",
+      "Bánh phu thê"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc bánh chưng xanh vuông vắn buộc lạt giang bốn góc gói trọn hồn vị Tết Việt."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì đi lại trên đường / Chở bao nhiêu khách phố phường đông vui?",
+    "options": [
+      "Bánh xe",
+      "Bánh mì",
+      "Bánh bao",
+      "Bánh giầy"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe lăn tròn trên đường giúp ô tô xe máy chở người đi lại khắp nơi."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có cánh nhưng không biết bay, đứng yên một chỗ phả gió mát khắp phòng?",
+    "options": [
+      "Cây quạt máy",
+      "Cái diều",
+      "Máy bay",
+      "Con chim cánh cụt"
+    ],
+    "correct": 0,
+    "explanation": "Cánh quạt máy quay tít tạo ra làn gió mát mẻ xua tan oi bức."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ dấu thành tên một loài cá nước ngọt, thêm sắc thành thứ ai cũng thích có trong ví?",
+    "options": [
+      "Chữ 'Tiền' (Tiên - Tiền)",
+      "Chữ 'Vàng'",
+      "Chữ 'Bạc'",
+      "Chữ 'Đô'"
+    ],
+    "correct": 0,
+    "explanation": "Tiên cá, Tiền bạc trong ví."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: 'Bốn chân đạp đất, hai sừng chỉ thiên, cày sâu cuốc bẫm làm nên mùa màng' là con vật thân thương nào của đồng quê Việt?",
+    "options": [
+      "Con trâu",
+      "Con bò",
+      "Con ngựa",
+      "Con hươu"
+    ],
+    "correct": 0,
+    "explanation": "'Con trâu là đầu cơ nghiệp' - hình ảnh con trâu cần mẫn gắn liền với nền văn minh lúa nước ngàn đời."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì không biết bơi nhưng suốt ngày ở dưới nước?",
+    "options": [
+      "Con tàu ngầm",
+      "Con cá",
+      "Con cua",
+      "Con ốc"
+    ],
+    "correct": 0,
+    "explanation": "Con tàu ngầm bằng thép sắt lặn dưới biển nhưng không phải là sinh vật biết bơi."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Quả gì không ăn được mà cầu thủ nào cũng muốn sút vào lưới?",
+    "options": [
+      "Quả bóng đá",
+      "Quả cam",
+      "Quả chanh",
+      "Quả dưa"
+    ],
+    "correct": 0,
+    "explanation": "Quả bóng đá trong môn thể thao vua."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có cổ mà không có đầu, có tay mà không có ngón?",
+    "options": [
+      "Chiếc áo sơ mi",
+      "Cái chai",
+      "Cái thìa",
+      "Cái ghế"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc áo có cổ áo và tay áo nhưng không phải cơ thể sống."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố vui: Hoa gì biết bay rập rờn khắp vườn hoa ngày xuân?",
+    "options": [
+      "Hoa bướm (con bướm)",
+      "Hoa mai",
+      "Hoa đào",
+      "Hoa hồng"
+    ],
+    "correct": 0,
+    "explanation": "Đố vui về loài bướm rực rỡ sắc màu bay lượn như cánh hoa."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì có tai dài, đuôi ngắn, thích ăn cà rốt và nhảy thoăn thoắt?",
+    "options": [
+      "Con thỏ",
+      "Con chuột",
+      "Con mèo",
+      "Con cún"
+    ],
+    "correct": 0,
+    "explanation": "Chú thỏ trắng xinh xắn với đôi tai dài thính nhạy."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì đi khắp nhà nhưng khi ra ngoài đường lại phải nằm im trong túi?",
+    "options": [
+      "Chiếc chìa khóa nhà",
+      "Cây chổi",
+      "Đôi dép",
+      "Cái bàn"
+    ],
+    "correct": 0,
+    "explanation": "Chìa khóa mở cửa mọi phòng, khi ra đường thì cất vào túi xách."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt bỏ dấu sắc thì thành tên một con vật, thêm dấu ngã thành thứ để nhóm lửa?",
+    "options": [
+      "Củi (Cúi - Củi - Cũi)",
+      "Chó",
+      "Mèo",
+      "Gà"
+    ],
+    "correct": 0,
+    "explanation": "Cúi đầu - con Cú - Củi lửa."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người thợ lặn xuống biển sâu mà không cần bình dưỡng khí trong 30 phút, vì sao?",
+    "options": [
+      "Người đó lặn trong tàu ngầm",
+      "Người đó nín thở siêu đẳng",
+      "Biển nhân tạo",
+      "Có người bơm oxy"
+    ],
+    "correct": 0,
+    "explanation": "Ở trong tàu ngầm thì có hệ thống dưỡng khí điều hòa bình thường."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố vui dân gian: 'Trắng phau củ cải, láng mướt da gà / Vừa đụng vào là chảy nước mắt ra' là củ gì?",
+    "options": [
+      "Củ hành tây",
+      "Củ tỏi",
+      "Củ gừng",
+      "Củ cải trắng"
+    ],
+    "correct": 0,
+    "explanation": "Hành tây chứa hợp chất lưu huỳnh làm kích ứng tuyến lệ cay mắt khi thái."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có 1 rổ táo gồm 6 quả, chia cho 6 bạn, mỗi bạn được 1 quả, nhưng trong rổ vẫn còn 1 quả. Vì sao?",
+    "options": [
+      "Bạn cuối cùng nhận cả chiếc rổ có quả táo bên trong",
+      "Cắt táo",
+      "Nhầm lẫn",
+      "Táo giả"
+    ],
+    "correct": 0,
+    "explanation": "5 bạn lấy quả táo rời, bạn thứ 6 nhận luôn chiếc rổ chứa quả táo còn lại."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Bạn có thể giữ thứ gì mà không cần chạm tay vào nó?",
+    "options": [
+      "Hơi thở của bạn",
+      "Cốc nước",
+      "Cây bút",
+      "Đồng tiền"
+    ],
+    "correct": 0,
+    "explanation": "Bạn có thể nín thở (giữ hơi thở) mà không cần dùng tay chạm vào."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Làm sao để thả một quả trứng gà sống từ độ cao 2 mét xuống sàn xi măng mà không làm vỡ quả trứng?",
+    "options": [
+      "Thả rơi từ độ cao 2,5 mét, quả trứng rơi được 2 mét thì chưa chạm sàn",
+      "Bọc xốp",
+      "Thả xuống đệm",
+      "Luộc chín trứng"
+    ],
+    "correct": 0,
+    "explanation": "Thả từ 2,5 mét thì sau 2 mét rơi trong không khí quả trứng vẫn nguyên vẹn chưa chạm đất!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố mẹo dân gian: 'Mình tròn vành vạnh, đáy thủng tơ vơ, ngửa mặt nhìn trời, chờ người soi bóng' là cái gì?",
+    "options": [
+      "Cái giếng nước làng quê",
+      "Cái thùng",
+      "Cái xô",
+      "Cái chum"
+    ],
+    "correct": 0,
+    "explanation": "Thành giếng tròn soi bóng mây trời và bóng người múc nước ngọt mát."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không ăn được mà xoay tít dưới gầm xe?",
+    "options": [
+      "Bánh xe",
+      "Bánh bao",
+      "Bánh rán",
+      "Bánh quy"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe bằng cao su quay tròn giúp xe chuyển động."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì có chân nhưng không có tay, bơi lội dưới nước kêu ộp ộp suốt đêm mưa?",
+    "options": [
+      "Con ếch",
+      "Con cá",
+      "Con lươn",
+      "Con rùa"
+    ],
+    "correct": 0,
+    "explanation": "Chú ếch đồng ngồi trên lá sen kêu ộp ộp đón mưa rào."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Quả gì nhiều mắt xung quanh, khi chín thơm ngát gọt vỏ bỏ mắt?",
+    "options": [
+      "Quả dứa (Quả thơm)",
+      "Quả chuối",
+      "Quả dưa hấu",
+      "Quả xoài"
+    ],
+    "correct": 0,
+    "explanation": "Quả dứa (trái thơm) có nhiều mắt dứa trên vỏ gai."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ đầu thành tên một loài chim, để nguyên là thứ tỏa sáng ban ngày?",
+    "options": [
+      "Nắng (Nắng - Áng)",
+      "Sáng (Sáng - Áng)",
+      "Trăng",
+      "Sao"
+    ],
+    "correct": 0,
+    "explanation": "Ánh nắng ban ngày sưởi ấm vạn vật."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì có rãnh nhưng không phải mương nước, có đĩa nhưng không đựng thức ăn, phát ra âm thanh du dương?",
+    "options": [
+      "Đĩa than (đĩa hát)",
+      "Đĩa ăn cơm",
+      "Bát sứ",
+      "Cái thìa"
+    ],
+    "correct": 0,
+    "explanation": "Đĩa than phát nhạc cổ điển ghi âm thanh bằng các rãnh siêu nhỏ."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người đứng trước gương giơ tay phải lên, hình ảnh trong gương giơ tay nào?",
+    "options": [
+      "Tay trái của hình ảnh trong gương",
+      "Tay phải",
+      "Hai tay",
+      "Không giơ tay"
+    ],
+    "correct": 0,
+    "explanation": "Hình ảnh trong gương phẳng đảo ngược theo phương ngang (trái thành phải)."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có một cây cầu dài 100m, con rùa bò qua cầu mất 100 phút, hỏi con rùa bò hết cây cầu mất bao nhiêu giờ và phút?",
+    "options": [
+      "1 giờ 40 phút",
+      "1 giờ",
+      "2 giờ",
+      "1 giờ 20 phút"
+    ],
+    "correct": 0,
+    "explanation": "100 phút = 60 phút + 40 phút = 1 giờ 40 phút."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Con gì sinh ra đã biết bơi, sống dưới nước khi nhỏ thở bằng mang, lớn lên nhảy lên bờ thở bằng phổi và da?",
+    "options": [
+      "Con ếch (nòng nọc)",
+      "Con cá chuối",
+      "Con ba ba",
+      "Con rắn nước"
+    ],
+    "correct": 0,
+    "explanation": "Nòng nọc sống dưới nước thở bằng mang, biến thái thành ếch thở bằng da và phổi."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Một người có 3 hộp kẹo: 1 hộp dán nhãn 'Kẹo chanh', 1 hộp 'Kẹo dâu', 1 hộp 'Hỗn hợp'. Cả 3 hộp đều bị dán sai nhãn. Chỉ được lấy đúng 1 chiếc kẹo từ 1 hộp, làm sao dán lại đúng nhãn cho cả 3 hộp?",
+    "options": [
+      "Lấy 1 chiếc từ hộp dán nhãn 'Hỗn hợp'",
+      "Lấy từ hộp 'Kẹo chanh'",
+      "Lấy từ hộp 'Kẹo dâu'",
+      "Không thể xác định"
+    ],
+    "correct": 0,
+    "explanation": "Vì nhãn 'Hỗn hợp' dán sai, nên nếu bốc trúng vị chanh thì hộp đó 100% là 'Kẹo chanh'. Từ đó suy ra nhãn 2 hộp còn lại dễ dàng!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui dân gian: 'Trên trời rơi xuống một cục đất sét, nặn thành hình hài, nung đỏ trong lò, làm nên mái ấm che chở nắng mưa' là vật liệu gì?",
+    "options": [
+      "Viên gạch ngói",
+      "Viên đá",
+      "Hòn sỏi",
+      "Bao xi măng"
+    ],
+    "correct": 0,
+    "explanation": "Đất sét nung thành gạch ngói đỏ tươi xây dựng nhà cửa làng mạc."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không có bột, không có nhân mà lăn tròn bon bon trên đường phố?",
+    "options": [
+      "Bánh xe",
+      "Bánh rán",
+      "Bánh bao",
+      "Bánh mì"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe bằng cao su lăn trên đường phố."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì sinh ra đã biết leo trèo thoăn thoắt, thích ăn chuối và hay bắt chước điệu bộ con người?",
+    "options": [
+      "Con khỉ",
+      "Con chó",
+      "Con mèo",
+      "Con gấu"
+    ],
+    "correct": 0,
+    "explanation": "Loài khỉ tinh nghịch có bộ não phát triển và khả năng bắt chước hành vi con người rất nhanh."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có mặt nhưng không có mũi tai, có ba chiếc kim chạy suốt đêm ngày?",
+    "options": [
+      "Đồng hồ treo tường",
+      "Cái la bàn",
+      "Cái cân",
+      "Thước dây"
+    ],
+    "correct": 0,
+    "explanation": "Mặt đồng hồ và ba kim giờ, phút, giây đếm nhịp thời gian."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ dấu thành tên một loài thú săn mồi dũng mãnh chúa sơn lâm?",
+    "options": [
+      "Hổ (Hố - Hổ)",
+      "Báo",
+      "Gấu",
+      "Sói"
+    ],
+    "correct": 0,
+    "explanation": "Hố sâu bỏ dấu sắc thành Hổ (chúa sơn lâm)."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người nhảy xuống nước biển sâu mà quần áo không bị ướt chút nào, vì sao?",
+    "options": [
+      "Người đó mặc bộ đồ lặn kín hoàn toàn (hoặc ở trong tàu ngầm)",
+      "Biển không có nước",
+      "Người biết bay",
+      "Biển nhân tạo"
+    ],
+    "correct": 0,
+    "explanation": "Bộ đồ lặn khô áp suất cao (Dry suit) chống thấm nước 100% giúp người mặc không bị ướt."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui dân gian: 'Cột tròn thẳng tắp giữa đồng, đội chiếc nón lá trắng ngần đón mây' là cây gì thân quen?",
+    "options": [
+      "Cây cau",
+      "Cây dừa",
+      "Cây tre",
+      "Cây chuối"
+    ],
+    "correct": 0,
+    "explanation": "Hàng cau thẳng tắp vươn cao với buồng hoa cau trắng muốt thơm ngát góc vườn quê."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không nướng, không chiên, mà trẻ em nào cũng thích thổi bong bóng?",
+    "options": [
+      "Kẹo cao su (Kẹo sing-gum)",
+      "Bánh rán",
+      "Bánh nếp",
+      "Bánh quy"
+    ],
+    "correct": 0,
+    "explanation": "Kẹo cao su thổi thành những quả bong bóng tròn xoe vui mắt."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có lưng nhưng không có bụng, dùng để dựa mỗi khi mỏi lưng?",
+    "options": [
+      "Lưng ghế tựa",
+      "Chiếc giường",
+      "Cái gối",
+      "Bức tường"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc ghế có phần lưng tựa êm ái."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 3 chữ cái, thêm dấu huyền thành thứ để soi rọi, thêm dấu sắc thành thứ để uống nước?",
+    "options": [
+      "Đèn và Chén (Đen - Đèn - Đén)",
+      "Ly",
+      "Cốc",
+      "Bát"
+    ],
+    "correct": 0,
+    "explanation": "Cây đèn thắp sáng ban đêm và chén trà thơm."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có một người phụ nữ lái xe máy đi ngược chiều trên đường một chiều nhưng cảnh sát giao thông không xử phạt. Tại sao?",
+    "options": [
+      "Vì người phụ nữ đó đang đi bộ dắt xe trên vỉa hè",
+      "Cảnh sát không nhìn thấy",
+      "Người quen cảnh sát",
+      "Đường vắng"
+    ],
+    "correct": 0,
+    "explanation": "Người đi bộ dắt xe trên vỉa hè không vi phạm luật giao thông đường bộ."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố mẹo dân gian: 'Tròn vành vạnh như đĩa xôi, chiếu sáng muôn nơi, vầng trăng rằm tháng Tám' là dịp tết nào?",
+    "options": [
+      "Tết Trung Thu",
+      "Tết Nguyên Đán",
+      "Tết Hàn Thực",
+      "Tết Đoan Ngọ"
+    ],
+    "correct": 0,
+    "explanation": "Tết Trung Thu rằm tháng Tám ngắm trăng tròn, phá cỗ rước đèn lồng."
   }
 ]

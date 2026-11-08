@@ -1454,5 +1454,538 @@
     ],
     "correct": 0,
     "explanation": "Xác chiếc pháo đài bay B-52 rơi xuống hồ Hữu Tiệp (làng hoa Ngọc Hà, Hà Nội) vẫn được lưu giữ đến ngày nay."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua nào của triều Lý đã đổi tên nước ta từ 'Đại Cồ Việt' thành 'Đại Việt' vào năm 1054?",
+    "options": [
+      "Lý Thánh Tông",
+      "Lý Thái Tổ",
+      "Lý Nhân Tông",
+      "Lý Anh Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Thánh Tông lên ngôi năm 1054 đổi quốc hiệu là Đại Việt mở ra kỷ nguyên văn hiến rực rỡ."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ai là người cắm lá cờ chiến thắng lên nóc Dinh Độc Lập vào trưa ngày 30/4/1975 lịch sử?",
+    "options": [
+      "Đại đội trưởng Bùi Quang Thận",
+      "Trung úy Vũ Đăng Toàn",
+      "Chiến sĩ Nguyễn Văn Tập",
+      "Đại tá Bùi Tùng"
+    ],
+    "correct": 0,
+    "explanation": "Đồng chí Bùi Quang Thận chỉ huy xe tăng 843 lao vào Dinh Độc Lập và cắm cờ giải phóng lúc 11h30."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Hội thề Đông Quan năm 1427 kết thúc cuộc kháng chiến chống quân Minh diễn ra giữa chủ tướng Lê Lợi và tướng giặc nào?",
+    "options": [
+      "Vương Thông",
+      "Liễu Thăng",
+      "Trương Phụ",
+      "Mộc Thạnh"
+    ],
+    "correct": 0,
+    "explanation": "Vương Thông cùng tàn quân Minh xin thề rút hết quân về nước trước tinh thần nhân đạo của nghĩa quân Lam Sơn."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào trong lịch sử nước ta lập nên triều đại Tây Sơn và được mệnh danh là 'Bắc Bình Vương'?",
+    "options": [
+      "Nguyễn Huệ",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Quang Toản"
+    ],
+    "correct": 0,
+    "explanation": "Trước khi lên ngôi Hoàng đế lấy niên hiệu Quang Trung năm 1788, Nguyễn Huệ được phong là Bắc Bình Vương."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Sự kiện lịch sử ngày 10/10/1954 gắn liền với mốc son nào của thủ đô nghìn năm văn hiến?",
+    "options": [
+      "Ngày Giải phóng Thủ đô Hà Nội",
+      "Ngày Toàn quốc Kháng chiến",
+      "Ngày Khởi nghĩa Thăng Long",
+      "Ngày Dời đô"
+    ],
+    "correct": 0,
+    "explanation": "Đoàn quân chiến thắng tiến về tiếp quản Thủ đô trong rợp cờ hoa sau 9 năm kháng chiến chống Pháp."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào dưới triều Hậu Lê nổi tiếng với việc khởi xướng lập Hội Tao Đàn gồm 'Nhị thập bát tú' (28 ngôi sao văn học)?",
+    "options": [
+      "Lê Thánh Tông",
+      "Lê Thái Tông",
+      "Lê Nhân Tông",
+      "Lê Hiến Tông"
+    ],
+    "correct": 0,
+    "explanation": "Hoàng đế Lê Thánh Tông là tao đàn đô nguyên súy, chủ xướng phong trào thơ ca Nho học phát triển cực thịnh."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Nhà nước Âu Lạc của Thục Phán An Dương Vương chọn địa danh nào làm kinh đô xây dựng thành trì?",
+    "options": [
+      "Thành Cổ Loa (Đông Anh, Hà Nội)",
+      "Hoa Lư",
+      "Bạch Hạc (Việt Trì)",
+      "Mê Linh"
+    ],
+    "correct": 0,
+    "explanation": "An Dương Vương định đô ở Cổ Loa, đắp thành ốc chín vòng kiên cố chống quân Triệu Đà."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị nữ tướng cưỡi voi cầm gươm dẹp giặc Đông Ngô năm 248 quê ở vùng đất Triệu Sơn, Thanh Hóa là ai?",
+    "options": [
+      "Bà Triệu (Triệu Thị Trinh)",
+      "Bùi Thị Xuân",
+      "Nguyễn Thị Định",
+      "Lê Chân"
+    ],
+    "correct": 0,
+    "explanation": "Bà Triệu cưỡi voi trắng đánh tan giặc Ngô với lời thề đạp luồng sóng dữ chém cá kình Biển Đông."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Cuộc chiến tranh bảo vệ biên giới Tây Nam và lật đổ chế độ diệt chủng Pol Pot diễn ra từ năm nào?",
+    "options": [
+      "Năm 1978 - 1979",
+      "Năm 1975",
+      "Năm 1985",
+      "Năm 1989"
+    ],
+    "correct": 0,
+    "explanation": "Quân đội nhân dân Việt Nam phối hợp quân cách mạng Campuchia giải phóng Phnom Penh ngày 7/1/1979."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiếc xe tăng T-54 mang số hiệu bao nhiêu do Trung úy Bùi Quang Thận chỉ huy đã húc đổ cổng chính Dinh Độc Lập ngày 30/4/1975?",
+    "options": [
+      "Xe tăng số hiệu 390 và 843",
+      "Xe tăng 990",
+      "Xe tăng 555",
+      "Xe tăng 123"
+    ],
+    "correct": 0,
+    "explanation": "Xe tăng 843 tiến vào cổng phụ và xe tăng 390 húc tung cổng chính Dinh Độc Lập trưa ngày 30/4/1975."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của triều Lý đã cho lập đàn Xã Tắc tại Thăng Long năm 1048 để tế thần Đất và thần Lúa cầu quốc thái dân an?",
+    "options": [
+      "Lý Thái Tông",
+      "Lý Thái Tổ",
+      "Lý Thánh Tông",
+      "Lý Cao Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Thái Tông lập đàn Xã Tắc thể hiện truyền thống nông nghiệp trọng cội nguồn của người Việt."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị hoàng đế nào của nhà Đinh dẹp loạn 12 sứ quân, mở đầu kỷ nguyên độc lập thống nhất Đại Cồ Việt?",
+    "options": [
+      "Đinh Tiên Hoàng (Đinh Bộ Lĩnh)",
+      "Đinh Liễn",
+      "Ngô Quyền",
+      "Lê Hoàn"
+    ],
+    "correct": 0,
+    "explanation": "Đinh Bộ Lĩnh dùng cờ lau tập trận, lớn lên thu phục 12 sứ quân định đô ở Hoa Lư."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ngày truyền thống của Quân đội Nhân dân Việt Nam được kỷ niệm vào ngày tháng nào hàng năm?",
+    "options": [
+      "22/12",
+      "19/8",
+      "30/4",
+      "2/9"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 22/12/1944, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập tại Cao Bằng."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị tướng anh hùng nào đã chỉ huy nghĩa quân Tây Sơn đánh tan 5 vạn quân Xiêm trong trận Rạch Gầm - Xoài Mút năm 1785?",
+    "options": [
+      "Nguyễn Huệ",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Võ Văn Dũng"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Huệ bố trí mai phục nghiền nát quân Xiêm trên sông Tiền trong một ngày oanh liệt."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Trận chiến trên sông Như Nguyệt năm 1077 quân dân nhà Lý đã đánh bại quân xâm lược của triều đại phong kiến phương Bắc nào?",
+    "options": [
+      "Nhà Tống",
+      "Nhà Đường",
+      "Nhà Nguyên",
+      "Nhà Minh"
+    ],
+    "correct": 0,
+    "explanation": "Thái úy Lý Thường Kiệt chặn đứng và đè bẹp ý chí xâm lăng của quân Tống bên bờ sông Cầu."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị vua nào của triều Hậu Lê lên ngôi sau thắng lợi của khởi nghĩa Lam Sơn năm 1428?",
+    "options": [
+      "Lê Thái Tổ (Lê Lợi)",
+      "Lê Thánh Tông",
+      "Lê Thái Tông",
+      "Lê Nhân Tông"
+    ],
+    "correct": 0,
+    "explanation": "Lê Lợi lên ngôi hoàng đế tại Thăng Long, đặt quốc hiệu là Đại Việt mở ra triều Hậu Lê."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiến dịch Tây Nguyên mở màn cuộc Tổng tiến công mùa xuân 1975 bắt đầu bằng trận đánh then chốt nào?",
+    "options": [
+      "Trận Buôn Ma Thuột",
+      "Trận Pleiku",
+      "Trận Kon Tum",
+      "Trận Gia Lai"
+    ],
+    "correct": 0,
+    "explanation": "Đòn điểm huyệt thần tốc giải phóng Buôn Ma Thuột ngày 10/3/1975 tạo bước ngoặt chiến lược."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của nước ta cho khắc bia tiến sĩ đầu tiên tại Văn Miếu - Quốc Tử Giám vào năm 1484?",
+    "options": [
+      "Lê Thánh Tông",
+      "Lý Thánh Tông",
+      "Trần Thánh Tông",
+      "Lê Thái Tổ"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lê Thánh Tông dựng bia đề danh tiến sĩ khắc ghi câu châm ngôn: 'Hiền tài là nguyên khí quốc gia'."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vua Hùng thứ mấy đã chọn Lang Liêu nối ngôi nhờ dâng lễ vật bánh chưng bánh giầy thơm thảo?",
+    "options": [
+      "Vua Hùng thứ 6",
+      "Vua Hùng thứ 1",
+      "Vua Hùng thứ 18",
+      "Vua Hùng thứ 3"
+    ],
+    "correct": 0,
+    "explanation": "Vua Hùng thứ 6 mở hội thi tài làm lễ vật dâng cúng tổ tiên và chọn hoàng tử Lang Liêu."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Bản 'Tuyên ngôn Độc lập' ngày 2/9/1945 do Chủ tịch Hồ Chí Minh soạn thảo tại ngôi nhà số bao nhiêu phố Hàng Ngang, Hà Nội?",
+    "options": [
+      "Số nhà 48 Hàng Ngang",
+      "Số 10 Hàng Ngang",
+      "Số 36 Hàng Đào",
+      "Số 20 Tràng Tiền"
+    ],
+    "correct": 0,
+    "explanation": "Ngôi nhà số 48 Hàng Ngang của gia đình thương gia Trịnh Văn Bô là nơi Bác Hồ viết bản Tuyên ngôn Độc lập."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị tướng nào thời Trần chỉ huy đội quân 'Sát Thát' đã lấy bút ghi lên trán chữ Sát Thát thề quyết chiến với giặc Nguyên?",
+    "options": [
+      "Tất cả quân dân nhà Trần",
+      "Trần Quốc Toản",
+      "Trần Hưng Đạo",
+      "Yết Kiêu"
+    ],
+    "correct": 0,
+    "explanation": "Quân sĩ nhà Trần xăm hai chữ 'Sát Thát' (Giết giặc Thát Đát) lên cánh tay biểu thị ý chí quyết tử."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Khởi nghĩa Bãi Sậy (1883 - 1892) trong phong trào Cần Vương do thủ lĩnh nào lãnh đạo trên vùng đầm lầy Hưng Yên?",
+    "options": [
+      "Nguyễn Thiện Thuật",
+      "Phan Đình Phùng",
+      "Đinh Công Tráng",
+      "Hoàng Hoa Thám"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Thiện Thuật (Tán Thuật) chỉ huy nghĩa quân lập căn cứ du kích hiểm trở ở Bãi Sậy."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Đại hội Giới trẻ Thế giới và Hội nghị Paris về chấm dứt chiến tranh tại Việt Nam diễn ra từ năm nào đến năm nào?",
+    "options": [
+      "1968 - 1973 (ký ngày 27/1/1973)",
+      "1970 - 1975",
+      "1954 - 1960",
+      "1965 - 1972"
+    ],
+    "correct": 0,
+    "explanation": "Hội nghị Paris đàm phán kéo dài gần 5 năm kết thúc với việc ký kết Hiệp định Paris ngày 27/1/1973."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào của triều Tây Sơn sau khi vua Quang Trung đột ngột băng hà đã lên nối ngôi khi mới 10 tuổi?",
+    "options": [
+      "Quang Toản (vua Cảnh Thịnh)",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Nguyễn Ánh"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Quang Toản lên ngôi năm 1792 lấy niên hiệu Cảnh Thịnh khi tuổi đời còn quá nhỏ."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của triều Nguyễn đã ban hành chỉ dụ cho dựng Quốc Tử Giám tại Cố đô Huế vào năm 1803?",
+    "options": [
+      "Vua Gia Long",
+      "Vua Minh Mạng",
+      "Vua Thiệu Trị",
+      "Vua Tự Đức"
+    ],
+    "correct": 0,
+    "explanation": "Vua Gia Long lập Quốc Tử Giám tại Huế năm 1803 làm trung tâm đào tạo nhân tài cao nhất cho cả nước."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ngày Quốc tế Lao động được kỷ niệm vào ngày tháng nào hàng năm?",
+    "options": [
+      "1/5",
+      "30/4",
+      "8/3",
+      "2/9"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 1/5 là ngày hội đoàn kết của giai cấp công nhân và nhân dân lao động trên toàn thế giới."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua nào của triều Lý lập nên Quốc Tử Giám trường đại học đầu tiên năm 1076?",
+    "options": [
+      "Lý Nhân Tông",
+      "Lý Thánh Tông",
+      "Lý Thái Tổ",
+      "Lý Thái Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Nhân Tông cho xây dựng Quốc Tử Giám bên cạnh Văn Miếu để dạy học cho con em hoàng tộc và nhân tài."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Bác Hồ sinh ngày 19 tháng 5 năm nào tại làng Sen, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An?",
+    "options": [
+      "Năm 1890",
+      "Năm 1880",
+      "Năm 1900",
+      "Năm 1911"
+    ],
+    "correct": 0,
+    "explanation": "Chủ tịch Hồ Chí Minh sinh ngày 19/5/1890 trong gia đình nhà nho yêu nước cụ Phó bảng Nguyễn Sinh Sắc."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Khởi nghĩa Ba Đình (1886 - 1887) chống thực dân Pháp do hai thủ lĩnh nào lãnh đạo trên vùng đầm nước Thanh Hóa?",
+    "options": [
+      "Đinh Công Tráng và Phạm Bành",
+      "Phan Đình Phùng",
+      "Nguyễn Thiện Thuật",
+      "Hoàng Hoa Thám"
+    ],
+    "correct": 0,
+    "explanation": "Căn cứ Ba Đình kiên cố chống trả quyết liệt nhiều đợt tấn công của quân Pháp trước khi rút lui."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị vua nào của triều Hậu Lê nổi tiếng với câu nói khắc ghi trên bia Văn Miếu 'Hiền tài là nguyên khí quốc gia'?",
+    "options": [
+      "Lê Thánh Tông (Thân Nhân Trung soạn)",
+      "Lê Thái Tổ",
+      "Lê Nhân Tông",
+      "Lê Hiến Tông"
+    ],
+    "correct": 0,
+    "explanation": "Tiến sĩ Thân Nhân Trung thừa lệnh vua Lê Thánh Tông soạn bài văn bia khẳng định vị thế của người trí thức."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Kỳ thi Đình đầu tiên của nước Đại Việt được tổ chức dưới triều vua nào vào năm 1247?",
+    "options": [
+      "Trần Thái Tông",
+      "Lý Nhân Tông",
+      "Lý Thánh Tông",
+      "Trần Nhân Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Trần Thái Tông mở khoa thi Tam khôi đầu tiên chọn ra Trạng nguyên Nguyễn Hiền khi mới 13 tuổi."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào của triều Nguyễn cho đúc Cửu Đỉnh (chín chiếc đỉnh đồng khổng lồ) đặt trước Thế Miếu ở Đại Nội Huế?",
+    "options": [
+      "Vua Minh Mạng",
+      "Vua Gia Long",
+      "Vua Thiệu Trị",
+      "Vua Tự Đức"
+    ],
+    "correct": 0,
+    "explanation": "Vua Minh Mạng cho đúc Cửu Đỉnh năm 1835 tượng trưng cho sự vững bền thống nhất của bờ cõi giang sơn."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Người chiến sĩ cách mạng trẻ tuổi đã hô vang 'Hãy nhớ lấy lời tôi / Đả đảo đế quốc Mỹ' trên pháp trường trường bắn Chí Hòa năm 1964 là ai?",
+    "options": [
+      "Anh hùng Nguyễn Văn Trỗi",
+      "Nguyễn Viết Xuân",
+      "Lê Văn Tám",
+      "Võ Thị Sáu"
+    ],
+    "correct": 0,
+    "explanation": "Anh Nguyễn Văn Trỗi hiên ngang không chịu bịt mắt trước họng súng quân thù sáng ngày 15/10/1964."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Triều đại nhà Mạc do ai sáng lập sau khi cướp ngôi nhà Hậu Lê vào năm 1527?",
+    "options": [
+      "Mạc Đăng Dung",
+      "Mạc Kính Cung",
+      "Mạc Mậu Hợp",
+      "Mạc Đĩnh Chi"
+    ],
+    "correct": 0,
+    "explanation": "Mạc Đăng Dung vốn là quan đô chỉ huy sứ ép vua Lê Cung Hoàng nhường ngôi lập ra nhà Mạc."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Cuộc Tổng bãi công của hơn 3 vạn công nhân mỏ than Vùng mỏ Quảng Ninh diễn ra vào ngày 12/11 năm nào?",
+    "options": [
+      "Năm 1936",
+      "Năm 1930",
+      "Năm 1945",
+      "Năm 1954"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 12/11/1936 trở thành ngày truyền thống công nhân Vùng mỏ và ngành than Việt Nam."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị tướng nào của nghĩa quân Tây Sơn đã chỉ huy đạo quân đô đốc đánh chiếm đồn Khương Thượng khiến tướng giặc Sầm Nghi Đống phải thắt cổ tự tử ở gò Đống Đa?",
+    "options": [
+      "Đô đốc Đặng Tiến Đông (hoặc Đặng Văn Long)",
+      "Đô đốc Ngô Văn Sở",
+      "Đô đốc Phan Văn Lân",
+      "Đô đốc Võ Văn Dũng"
+    ],
+    "correct": 0,
+    "explanation": "Đạo quân của Đô đốc Đặng Tiến Đông bất ngờ tập kích đồn Khương Thượng rạng sáng mùng 5 Tết Kỷ Dậu 1789."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị hoàng đế nào của nhà Trần đã lãnh đạo nhân dân giành thắng lợi vang dội trong cuộc kháng chiến chống quân Nguyên Mông lần thứ nhất năm 1258?",
+    "options": [
+      "Trần Thái Tông (Trần Cảnh)",
+      "Trần Thánh Tông",
+      "Trần Nhân Tông",
+      "Trần Anh Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Trần Thái Tông cùng Thái sư Trần Thủ Độ chỉ huy trận Đông Bộ Đầu quét sạch quân Mông Cổ."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Đại hội Đại biểu toàn quốc lần thứ III của Đảng Cộng sản Việt Nam (năm 1960) đã bầu ai làm Tổng Bí thư?",
+    "options": [
+      "Đồng chí Lê Duẩn",
+      "Đồng chí Trường Chinh",
+      "Đồng chí Nguyễn Văn Linh",
+      "Đồng chí Đỗ Mười"
+    ],
+    "correct": 0,
+    "explanation": "Đồng chí Lê Duẩn giữ trọng trách Tổng Bí thư lãnh đạo kháng chiến chống Mỹ cứu nước thắng lợi."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị trạng nguyên nào nổi tiếng với giai thoại 'Trạng Quỳnh' dùng sự hóm hỉnh trào phúng để châm biếm bọn quan lại phong kiến?",
+    "options": [
+      "Nguyễn Quỳnh (Trạng Quỳnh)",
+      "Nguyễn Hiền",
+      "Lương Thế Vinh",
+      "Lê Quý Đôn"
+    ],
+    "correct": 0,
+    "explanation": "Trạng Quỳnh là nhân vật văn học dân gian biểu trưng cho trí tuệ thông minh và tinh thần phản kháng của nhân dân."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiến thắng Việt Bắc Thu - Đông năm 1947 đã đập tan hoàn toàn chiến lược quân sự nào của thực dân Pháp?",
+    "options": [
+      "Chiến lược 'Đánh nhanh thắng nhanh'",
+      "Chiến lược 'Chiến tranh đặc biệt'",
+      "Chiến lược 'Chiến tranh cục bộ'",
+      "Chiến lược 'Việt Nam hóa chiến tranh'"
+    ],
+    "correct": 0,
+    "explanation": "Thực dân Pháp thất bại thảm hại ở sông Lô, đèo Bông Lau buộc phải chuyển sang đánh lâu dài."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Bộ quốc sử đầu tiên của nước Đại Việt do nhà sử học Lê Văn Hưu biên soạn vào năm 1272 dưới thời Trần có tên là gì?",
+    "options": [
+      "Đại Việt sử ký",
+      "Đại Việt sử ký toàn thư",
+      "Khâm định Việt sử thông giám cương mục",
+      "Việt sử tiêu án"
+    ],
+    "correct": 0,
+    "explanation": "Bảng nhãn Lê Văn Hưu hoàn thành 30 quyển 'Đại Việt sử ký' đặt nền móng vững chắc cho nền sử học nước nhà."
   }
 ]

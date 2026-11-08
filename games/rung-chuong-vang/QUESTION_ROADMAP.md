@@ -34,14 +34,14 @@
 |---|---|---|---|---|
 | **Khởi đầu** | **265 câu** | Đợt 1 (+200 câu) | ✅ Hoàn thành | Đủ phát sóng thử nghiệm 1 buổi (10-15 ván). |
 | **Cột mốc 1** | **500 câu** | Đợt 2 (+235 câu) | ✅ Hoàn thành | Đủ chơi liên tục 2-3 ngày không lo trùng lặp. |
-| **Cột mốc 2** | **1.000 câu** | Đợt 3 (+232 câu) | ⏳ Đang tiến tới 1.000 (Hiện: 732 câu) | Đủ phát sóng 1 tuần liên tục (30-40 ván/ngày). |
-| **Cột mốc 3** | **2.500 câu** | Đợt 4 (+1.500 câu) | 📅 Dự kiến | Bắt đầu phân nhánh chuyên đề sự kiện (Tết, Lịch sử, Học sinh). |
-| **Cột mốc 4** | **5.000 câu** | Đợt 5 (+2.500 câu) | 📅 Dự kiến | Sẵn sàng cho live stream tự động 24/7 (Hands-free mode). |
-| **Cột mốc 5** | **10.000 câu** | Đợt 6 (+5.000 câu) | 📅 Đích đến dài hạn | Kho bách khoa toàn thư tri thức khổng lồ trên TikTok Live. |
+| **Cột mốc 2** | **1.000 câu** | Đợt 3 & 4 (+501 câu) | ✅ Hoàn thành (1.001 câu) | Đủ phát sóng 1 tuần liên tục (30-40 ván/ngày). |
+| **Cột mốc 3** | **2.500 câu** | Đợt 5 (+1.500 câu) | ⏳ Tiếp theo | Bắt đầu phân nhánh chuyên đề sự kiện (Tết, Lịch sử, Học sinh). |
+| **Cột mốc 4** | **5.000 câu** | Đợt 6 (+2.500 câu) | 📅 Dự kiến | Sẵn sàng cho live stream tự động 24/7 (Hands-free mode). |
+| **Cột mốc 5** | **10.000 câu** | Đợt 7 (+5.000 câu) | 📅 Đích đến dài hạn | Kho bách khoa toàn thư tri thức khổng lồ trên TikTok Live. |
 
 ---
 
 ## 📝 4. NHẬT KÝ CHI TIẾT TỪNG ĐỢT (BATCH LOG)
 - **Đợt 1 (2026-11-07):** Khởi tạo QuestionBank modular với 200 câu hỏi chuẩn hóa và nâng cấp lên 265 câu hỏi, phân loại theo 6 chủ đề, tích hợp SQLite `questions.db`.
-- **Đợt 2 (2026-11-07):** ✅ Đã sinh mới thành công 235 câu hỏi chuẩn hóa, nạp và đồng bộ song song vào SQLite và JSON. Đã lint kiểm tra 100% đạt chuẩn, đưa ngân hàng câu hỏi chính thức cán mốc **500 câu**.
-- **Đợt 3 (2026-11-07):** ✅ Đã sinh mới và tích hợp thêm 232 câu hỏi chuẩn hóa qua 6 chủ đề, nâng tổng ngân hàng câu hỏi lên **732 câu** (mỗi chủ đề đều vượt 100 câu). Lint kiểm định 100% không phát hiện lỗi.
+- **Đợt 2 (2026-11-07):** ✅ Đã sinh mới thành công 235 câu hỏi chuẩn hóa, nạp và đồng bộ song song vào SQLite và JSON. Đưa ngân hàng câu hỏi cán mốc **500 câu**.
+- **Đợt 3 & 4 (2026-11-08):** ✅ Đã bổ sung thành công 501 câu hỏi chuẩn hóa qua 6 chủ đề, đưa ngân hàng câu hỏi chính thức **CÁN MỐC 1.001 CÂU HỎI** (tất cả 6 chủ đề đều đạt từ 148 đến 191 câu/chủ đề). Lint kiểm định 100% đạt chuẩn không phát hiện lỗi. Tích hợp test suite 27/27 PASS.

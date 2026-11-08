@@ -2039,5 +2039,447 @@
     ],
     "correct": 0,
     "explanation": "Dãy núi Ural kéo dài từ Bắc Băng Dương xuống thảo nguyên Kazakhstan là đường phân định Âu - Á."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chùa Hương danh thắng tâm linh mùa lễ hội đầu xuân trẩy hội trên dòng suối Yến thuộc địa phận huyện nào của Hà Nội?",
+    "options": [
+      "Huyện Mỹ Đức",
+      "Huyện Chương Mỹ",
+      "Huyện Quốc Oai",
+      "Huyện Ba Vì"
+    ],
+    "correct": 0,
+    "explanation": "Quần thể di tích thắng cảnh Chùa Hương tọa lạc tại xã Hương Sơn, huyện Mỹ Đức, TP. Hà Nội."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chứa Chan (núi Gia Lào), ngọn núi cao thứ nhì Đông Nam Bộ (837m), thuộc tỉnh nào?",
+    "options": [
+      "Đồng Nai",
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Núi Chứa Chan thuộc huyện Xuân Lộc, tỉnh Đồng Nai là danh lam thắng cảnh cấp quốc gia."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Eo biển nào hẹp nhất chia cắt giữa lục địa châu Âu và lục địa châu Phi chỉ cách nhau khoảng 14,3 km?",
+    "options": [
+      "Eo biển Gibraltar",
+      "Eo biển Bosphorus",
+      "Eo biển Dardanelles",
+      "Eo biển Messina"
+    ],
+    "correct": 0,
+    "explanation": "Eo biển Gibraltar nối Địa Trung Hải với Đại Tây Dương, ngăn cách giữa Tây Ban Nha và Morocco."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cột cờ Hà Nội (Kỳ đài Hà Nội) công trình kiến trúc thời Nguyễn được bảo tồn nguyên vẹn nằm trên đường phố nào?",
+    "options": [
+      "Đường Điện Biên Phủ",
+      "Đường Hoàng Diệu",
+      "Đường Hùng Vương",
+      "Đường Độc Lập"
+    ],
+    "correct": 0,
+    "explanation": "Kỳ đài Hà Nội xây năm 1812 nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Bắc nước ta nổi tiếng với hồ Thác Bà và vùng bưởi ngọt Đại Minh?",
+    "options": [
+      "Yên Bái",
+      "Tuyên Quang",
+      "Phú Thọ",
+      "Lào Cai"
+    ],
+    "correct": 0,
+    "explanation": "Hồ thủy điện Thác Bà với hơn 1.300 hòn đảo lớn nhỏ nằm tại tỉnh Yên Bái."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Đỉnh núi lửa cao nhất châu Phi tuyết phủ quanh năm giữa xích đạo (cao 5.895 mét) là đỉnh núi nào?",
+    "options": [
+      "Đỉnh Kilimanjaro (Tanzania)",
+      "Đỉnh Kenya",
+      "Đỉnh Atlas",
+      "Đỉnh Elgon"
+    ],
+    "correct": 0,
+    "explanation": "Núi Kilimanjaro là ngọn núi đứng tự do cao nhất thế giới tại Tanzania."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nổi tiếng với danh xưng 'Quê hương năm tấn' và đền Trần thờ các vua Trần?",
+    "options": [
+      "Thái Bình (và Nam Định)",
+      "Hải Dương",
+      "Hà Nam",
+      "Hưng Yên"
+    ],
+    "correct": 0,
+    "explanation": "Thái Bình quê hương chị Hai Năm Tấn lá cờ đầu trong thâm canh lúa nước."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào êm đềm chảy qua thành phố Đà Nẵng với những cây cầu nổi tiếng như Cầu Rồng, Cầu Quay?",
+    "options": [
+      "Sông Hàn",
+      "Sông Thu Bồn",
+      "Sông Hương",
+      "Sông Vu Gia"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hàn thơ mộng là niềm tự hào của người dân thành phố Đà Nẵng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bãi biển Cửa Lò bãi biển du lịch nổi tiếng miền Trung thuộc tỉnh nào?",
+    "options": [
+      "Nghệ An",
+      "Hà Tĩnh",
+      "Thanh Hóa",
+      "Quảng Bình"
+    ],
+    "correct": 0,
+    "explanation": "Thị xã biển Cửa Lò cách thành phố Vinh (Nghệ An) hơn 15 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở cực Nam Tổ quốc nổi tiếng với rừng đước ngập mặn Năm Căn?",
+    "options": [
+      "Cà Mau",
+      "Bạc Liêu",
+      "Kiên Giang",
+      "Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Rừng ngập mặn Cà Mau lớn thứ nhì thế giới chỉ sau rừng Amazon."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Tơ Nưng (Biển Hồ) 'đôi mắt Pleiku' nước trong xanh biếc là vết tích của miệng núi lửa cổ tại tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Kon Tum",
+      "Đắk Lắk",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Biển Hồ Gia Lai nằm ở độ cao 800m trên miệng núi lửa đã tắt hàng triệu năm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần đảo Côn Đảo gồm 16 hòn đảo lớn nhỏ ngày nay trực thuộc tỉnh nào?",
+    "options": [
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Tiền Giang",
+      "Bến Tre"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Côn Đảo là di tích lịch sử đặc biệt và điểm du lịch sinh thái biển đảo tuyệt vời."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chư Đăng Ya ngọn núi lửa cổ tuyệt đẹp ngập tràn sắc hoa dã quỳ vào tháng 11 thuộc tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Đắk Lắk",
+      "Lâm Đồng",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Núi lửa Chư Đăng Ya (huyện Chư Păh, Gia Lai) là tuyệt tác thiên nhiên đất đỏ Tây Nguyên."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Vườn quốc gia Bạch Mã dải rừng nguyên sinh nối liền biển và dãy Trường Sơn nằm giữa địa giới hành chính của hai địa phương nào?",
+    "options": [
+      "Thừa Thiên Huế và TP. Đà Nẵng",
+      "Quảng Trị và Thừa Thiên Huế",
+      "Quảng Nam và Đà Nẵng",
+      "Quảng Bình và Hà Tĩnh"
+    ],
+    "correct": 0,
+    "explanation": "Đỉnh Bạch Mã cao 1.450m quanh năm mây phủ là ranh giới tự nhiên giữa Thừa Thiên Huế và Đà Nẵng."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bến Nhà Rồng nơi Bác Hồ ra đi tìm đường cứu nước năm 1911 nằm bên bờ sông nào tại TP.HCM?",
+    "options": [
+      "Sông Sài Gòn",
+      "Sông Đồng Nai",
+      "Sông Vàm Cỏ",
+      "Sông Thị Vải"
+    ],
+    "correct": 0,
+    "explanation": "Bến Nhà Rồng nằm bên dòng sông Sài Gòn lịch sử nay là Bảo tàng Hồ Chí Minh."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Trung nổi tiếng với di sản phố cổ Hội An bên dòng sông Hoài?",
+    "options": [
+      "Quảng Nam",
+      "Quảng Ngãi",
+      "Bình Định",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Đô thị cổ Hội An (Quảng Nam) được UNESCO vinh danh là Di sản Văn hóa Thế giới năm 1999."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Than Thở là thắng cảnh hồ nước thông reo lãng mạn thuộc thành phố nào?",
+    "options": [
+      "Đà Lạt",
+      "Nha Trang",
+      "Buôn Ma Thuột",
+      "Bảo Lộc"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Than Thở nằm cách trung tâm thành phố Đà Lạt khoảng 6 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở Tây Nguyên có ngã ba biên giới Việt Nam - Lào - Campuchia (Cửa khẩu Bờ Y)?",
+    "options": [
+      "Kon Tum (huyện Ngọc Hồi)",
+      "Gia Lai",
+      "Đắk Lắk",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Cột mốc ngã ba Đông Dương Bờ Y nằm tại huyện Ngọc Hồi, tỉnh Kon Tum."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cây cầu quay đầu tiên tại Việt Nam do chính các kỹ sư và công nhân Việt Nam thiết kế thi công là cầu nào?",
+    "options": [
+      "Cầu quay sông Hàn (Đà Nẵng)",
+      "Cầu Rồng",
+      "Cầu Thuận Phước",
+      "Cầu Trần Thị Lý"
+    ],
+    "correct": 0,
+    "explanation": "Cầu quay sông Hàn có thể quay 90 độ mở đường cho tàu thuyền lớn qua lại vào ban đêm."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở vùng duyên hải Bắc Bộ có khu du lịch Đồ Sơn và bến tàu Không Số K15?",
+    "options": [
+      "Hải Phòng",
+      "Quảng Ninh",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Bến K15 tại Đồ Sơn (Hải Phòng) là điểm xuất phát huyền thoại của những chuyến tàu Không Số đường Hồ Chí Minh trên biển."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Chùa Đồng ngôi chùa đúc bằng đồng nguyên chất lớn nhất Việt Nam tọa lạc trên đỉnh núi nào cao 1.068m?",
+    "options": [
+      "Núi Yên Tử (Quảng Ninh)",
+      "Núi Bà Đen",
+      "Núi Cấm",
+      "Núi Fansipan"
+    ],
+    "correct": 0,
+    "explanation": "Chùa Đồng tọa lạc trên đỉnh thiêng Yên Tử nơi Phật hoàng Trần Nhân Tông tu hành."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Vùng nước trũng ngập mặn Đồng Tháp Mười trải rộng trên địa bàn 3 tỉnh nào của vùng đồng bằng sông Cửu Long?",
+    "options": [
+      "Long An, Tiền Giang, Đồng Tháp",
+      "Đồng Tháp, An Giang, Kiên Giang",
+      "Cần Thơ, Hậu Giang, Vĩnh Long",
+      "Bến Tre, Trà Vinh, Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Vùng Đồng Tháp Mười trũng phèn ngập nước trải dài qua 3 tỉnh Long An, Tiền Giang và Đồng Tháp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Ngôi đền thờ Thần Đồng Cổ nổi tiếng linh thiêng thời Lý với hội thề Trung hiếu nằm bên bờ sông nào ở Hà Nội?",
+    "options": [
+      "Sông Tô Lịch",
+      "Sông Hồng",
+      "Sông Đuống",
+      "Sông Nhuệ"
+    ],
+    "correct": 0,
+    "explanation": "Đền Đồng Cổ trên đường Thụy Khuê ven sông Tô Lịch gắn với Hội thề Trung hiếu vua Lý Thái Tông lập năm 1028."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nước ta có danh xưng 'Thủ đô chè' với đồi chè Tân Cương nức tiếng?",
+    "options": [
+      "Thái Nguyên",
+      "Phú Thọ",
+      "Tuyên Quang",
+      "Yên Bái"
+    ],
+    "correct": 0,
+    "explanation": "Chè Tân Cương (Thái Nguyên) có hương thơm cốm non và vị tiền chát hậu ngọt đệ nhất danh trà."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu dự trữ sinh quyển Cần Giờ rừng ngập mặn xanh tốt là lá phổi xanh của thành phố nào?",
+    "options": [
+      "TP. Hồ Chí Minh",
+      "Bà Rịa - Vũng Tàu",
+      "Đồng Nai",
+      "Tiền Giang"
+    ],
+    "correct": 0,
+    "explanation": "Rừng ngập mặn Cần Giờ là khu dự trữ sinh quyển thế giới đầu tiên của Việt Nam được UNESCO công nhận."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cửa biển nào ở Quảng Ninh là nơi ba lần trong lịch sử dân tộc chứng kiến những chiến thắng Bạch Đằng hiển hách?",
+    "options": [
+      "Cửa biển sông Bạch Đằng (Yên Hưng / Thủy Nguyên)",
+      "Cửa Lục",
+      "Cửa Ông",
+      "Cửa Soài Rạp"
+    ],
+    "correct": 0,
+    "explanation": "Sông Bạch Đằng lưu danh 3 chiến thắng oanh liệt của Ngô Quyền (938), Lê Hoàn (981) và Trần Hưng Đạo (1288)."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo Hòn Khoai cụm đảo tuyệt đẹp có ngọn hải đăng hơn 100 năm tuổi thuộc tỉnh nào?",
+    "options": [
+      "Cà Mau",
+      "Kiên Giang",
+      "Bạc Liêu",
+      "Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Hòn Khoai là hòn đảo đá nguyên sinh cách bờ biển Ngọc Hiển (Cà Mau) khoảng 14 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chóp Chài ngọn núi biểu tượng sừng sững giữa đồng bằng lúa Tuy Hòa thuộc tỉnh nào?",
+    "options": [
+      "Phú Yên",
+      "Bình Định",
+      "Khánh Hòa",
+      "Ninh Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Núi Chóp Chài cao 391m như một kim tự tháp xanh che chở cho thành phố Tuy Hòa xinh đẹp."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Dòng sông nào ở miền Trung bắt nguồn từ dãy Ngọc Linh đổ ra biển Cửa Đại chia làm hai nhánh sông Thu Bồn và sông Vu Gia?",
+    "options": [
+      "Hệ thống sông Thu Bồn",
+      "Sông Trà Khúc",
+      "Sông Thạch Hãn",
+      "Sông Nhật Lệ"
+    ],
+    "correct": 0,
+    "explanation": "Sông Thu Bồn là mạch nguồn sự sống của xứ Quảng chảy qua thánh địa Mỹ Sơn và phố cổ Hội An."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh Cam Ranh vịnh nước sâu kín gió chiến lược quân sự hàng đầu thế giới thuộc tỉnh nào?",
+    "options": [
+      "Khánh Hòa",
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Cam Ranh là cảng nước sâu tự nhiên kín gió lý tưởng của thế giới."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nước ta có danh thắng Chùa Ba Vàng và di tích Yên Tử linh thiêng?",
+    "options": [
+      "Quảng Ninh (TP. Uông Bí)",
+      "Hải Dương",
+      "Bắc Giang",
+      "Hải Phòng"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Uông Bí (Quảng Ninh) là cái nôi thiền phái Trúc Lâm Yên Tử."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Lak hồ nước ngọt tự nhiên lớn thứ nhì Việt Nam (sau hồ Ba Bể) thuộc huyện nào tỉnh Đắk Lắk?",
+    "options": [
+      "Huyện Lắk",
+      "Huyện Krông Pắc",
+      "Huyện Cư M'gar",
+      "Huyện Buôn Đôn"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Lắk thơ mộng gắn liền với truyền thuyết của người M'Nông và biệt điện vua Bảo Đại."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cù Lao Chàm khu dự trữ sinh quyển thế giới với những rạn san hô tuyệt đẹp cách bờ biển Cửa Đại (Hội An) bao nhiêu hải lý?",
+    "options": [
+      "Khoảng 8 - 10 hải lý",
+      "Khoảng 50 hải lý",
+      "Khoảng 1 hải lý",
+      "Khoảng 100 hải lý"
+    ],
+    "correct": 0,
+    "explanation": "Cù Lao Chàm gồm 8 hòn đảo nhỏ tuyệt đẹp thuộc thành phố Hội An, Quảng Nam."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Dãy núi Bạch Mã là ranh giới khí hậu tự nhiên phân chia giữa vùng khí hậu nhiệt đới gió mùa có mùa đông lạnh ở phía Bắc và vùng khí hậu nào ở phía Nam?",
+    "options": [
+      "Vùng khí hậu nhiệt đới gió mùa cận xích đạo nóng quanh năm",
+      "Vùng khí hậu ôn đới",
+      "Vùng khí hậu khô hạn",
+      "Vùng khí hậu cận cực"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Bạch Mã ngăn cản gió mùa Đông Bắc tràn sâu vào phương Nam, tạo ranh giới khí hậu rõ rệt."
   }
 ]

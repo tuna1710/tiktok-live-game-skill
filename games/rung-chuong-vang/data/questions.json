@@ -10246,5 +10246,3771 @@
     ],
     "correct": 0,
     "explanation": "Nguyễn Du khóc thương nàng Tiểu Thanh và tự hỏi: 'Bất tri tam bách dư niên hậu / Thiên hạ hà nhân khấp Tố Như?'."
+  },
+  {
+    "id": 733,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Chùa Hương danh thắng tâm linh mùa lễ hội đầu xuân trẩy hội trên dòng suối Yến thuộc địa phận huyện nào của Hà Nội?",
+    "options": [
+      "Huyện Mỹ Đức",
+      "Huyện Chương Mỹ",
+      "Huyện Quốc Oai",
+      "Huyện Ba Vì"
+    ],
+    "correct": 0,
+    "explanation": "Quần thể di tích thắng cảnh Chùa Hương tọa lạc tại xã Hương Sơn, huyện Mỹ Đức, TP. Hà Nội."
+  },
+  {
+    "id": 734,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chứa Chan (núi Gia Lào), ngọn núi cao thứ nhì Đông Nam Bộ (837m), thuộc tỉnh nào?",
+    "options": [
+      "Đồng Nai",
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Núi Chứa Chan thuộc huyện Xuân Lộc, tỉnh Đồng Nai là danh lam thắng cảnh cấp quốc gia."
+  },
+  {
+    "id": 735,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Eo biển nào hẹp nhất chia cắt giữa lục địa châu Âu và lục địa châu Phi chỉ cách nhau khoảng 14,3 km?",
+    "options": [
+      "Eo biển Gibraltar",
+      "Eo biển Bosphorus",
+      "Eo biển Dardanelles",
+      "Eo biển Messina"
+    ],
+    "correct": 0,
+    "explanation": "Eo biển Gibraltar nối Địa Trung Hải với Đại Tây Dương, ngăn cách giữa Tây Ban Nha và Morocco."
+  },
+  {
+    "id": 736,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Cột cờ Hà Nội (Kỳ đài Hà Nội) công trình kiến trúc thời Nguyễn được bảo tồn nguyên vẹn nằm trên đường phố nào?",
+    "options": [
+      "Đường Điện Biên Phủ",
+      "Đường Hoàng Diệu",
+      "Đường Hùng Vương",
+      "Đường Độc Lập"
+    ],
+    "correct": 0,
+    "explanation": "Kỳ đài Hà Nội xây năm 1812 nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam."
+  },
+  {
+    "id": 737,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở miền Bắc nước ta nổi tiếng với hồ Thác Bà và vùng bưởi ngọt Đại Minh?",
+    "options": [
+      "Yên Bái",
+      "Tuyên Quang",
+      "Phú Thọ",
+      "Lào Cai"
+    ],
+    "correct": 0,
+    "explanation": "Hồ thủy điện Thác Bà với hơn 1.300 hòn đảo lớn nhỏ nằm tại tỉnh Yên Bái."
+  },
+  {
+    "id": 738,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Đỉnh núi lửa cao nhất châu Phi tuyết phủ quanh năm giữa xích đạo (cao 5.895 mét) là đỉnh núi nào?",
+    "options": [
+      "Đỉnh Kilimanjaro (Tanzania)",
+      "Đỉnh Kenya",
+      "Đỉnh Atlas",
+      "Đỉnh Elgon"
+    ],
+    "correct": 0,
+    "explanation": "Núi Kilimanjaro là ngọn núi đứng tự do cao nhất thế giới tại Tanzania."
+  },
+  {
+    "id": 739,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nổi tiếng với danh xưng 'Quê hương năm tấn' và đền Trần thờ các vua Trần?",
+    "options": [
+      "Thái Bình (và Nam Định)",
+      "Hải Dương",
+      "Hà Nam",
+      "Hưng Yên"
+    ],
+    "correct": 0,
+    "explanation": "Thái Bình quê hương chị Hai Năm Tấn lá cờ đầu trong thâm canh lúa nước."
+  },
+  {
+    "id": 740,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Dòng sông nào êm đềm chảy qua thành phố Đà Nẵng với những cây cầu nổi tiếng như Cầu Rồng, Cầu Quay?",
+    "options": [
+      "Sông Hàn",
+      "Sông Thu Bồn",
+      "Sông Hương",
+      "Sông Vu Gia"
+    ],
+    "correct": 0,
+    "explanation": "Sông Hàn thơ mộng là niềm tự hào của người dân thành phố Đà Nẵng."
+  },
+  {
+    "id": 741,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bãi biển Cửa Lò bãi biển du lịch nổi tiếng miền Trung thuộc tỉnh nào?",
+    "options": [
+      "Nghệ An",
+      "Hà Tĩnh",
+      "Thanh Hóa",
+      "Quảng Bình"
+    ],
+    "correct": 0,
+    "explanation": "Thị xã biển Cửa Lò cách thành phố Vinh (Nghệ An) hơn 15 km."
+  },
+  {
+    "id": 742,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở cực Nam Tổ quốc nổi tiếng với rừng đước ngập mặn Năm Căn?",
+    "options": [
+      "Cà Mau",
+      "Bạc Liêu",
+      "Kiên Giang",
+      "Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Rừng ngập mặn Cà Mau lớn thứ nhì thế giới chỉ sau rừng Amazon."
+  },
+  {
+    "id": 743,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Tơ Nưng (Biển Hồ) 'đôi mắt Pleiku' nước trong xanh biếc là vết tích của miệng núi lửa cổ tại tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Kon Tum",
+      "Đắk Lắk",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Biển Hồ Gia Lai nằm ở độ cao 800m trên miệng núi lửa đã tắt hàng triệu năm."
+  },
+  {
+    "id": 744,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Quần đảo Côn Đảo gồm 16 hòn đảo lớn nhỏ ngày nay trực thuộc tỉnh nào?",
+    "options": [
+      "Bà Rịa - Vũng Tàu",
+      "Bình Thuận",
+      "Tiền Giang",
+      "Bến Tre"
+    ],
+    "correct": 0,
+    "explanation": "Huyện đảo Côn Đảo là di tích lịch sử đặc biệt và điểm du lịch sinh thái biển đảo tuyệt vời."
+  },
+  {
+    "id": 745,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chư Đăng Ya ngọn núi lửa cổ tuyệt đẹp ngập tràn sắc hoa dã quỳ vào tháng 11 thuộc tỉnh nào?",
+    "options": [
+      "Gia Lai",
+      "Đắk Lắk",
+      "Lâm Đồng",
+      "Kon Tum"
+    ],
+    "correct": 0,
+    "explanation": "Núi lửa Chư Đăng Ya (huyện Chư Păh, Gia Lai) là tuyệt tác thiên nhiên đất đỏ Tây Nguyên."
+  },
+  {
+    "id": 746,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Vườn quốc gia Bạch Mã dải rừng nguyên sinh nối liền biển và dãy Trường Sơn nằm giữa địa giới hành chính của hai địa phương nào?",
+    "options": [
+      "Thừa Thiên Huế và TP. Đà Nẵng",
+      "Quảng Trị và Thừa Thiên Huế",
+      "Quảng Nam và Đà Nẵng",
+      "Quảng Bình và Hà Tĩnh"
+    ],
+    "correct": 0,
+    "explanation": "Đỉnh Bạch Mã cao 1.450m quanh năm mây phủ là ranh giới tự nhiên giữa Thừa Thiên Huế và Đà Nẵng."
+  },
+  {
+    "id": 747,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Bến Nhà Rồng nơi Bác Hồ ra đi tìm đường cứu nước năm 1911 nằm bên bờ sông nào tại TP.HCM?",
+    "options": [
+      "Sông Sài Gòn",
+      "Sông Đồng Nai",
+      "Sông Vàm Cỏ",
+      "Sông Thị Vải"
+    ],
+    "correct": 0,
+    "explanation": "Bến Nhà Rồng nằm bên dòng sông Sài Gòn lịch sử nay là Bảo tàng Hồ Chí Minh."
+  },
+  {
+    "id": 748,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Trung nổi tiếng với di sản phố cổ Hội An bên dòng sông Hoài?",
+    "options": [
+      "Quảng Nam",
+      "Quảng Ngãi",
+      "Bình Định",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "explanation": "Đô thị cổ Hội An (Quảng Nam) được UNESCO vinh danh là Di sản Văn hóa Thế giới năm 1999."
+  },
+  {
+    "id": 749,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Hồ Than Thở là thắng cảnh hồ nước thông reo lãng mạn thuộc thành phố nào?",
+    "options": [
+      "Đà Lạt",
+      "Nha Trang",
+      "Buôn Ma Thuột",
+      "Bảo Lộc"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Than Thở nằm cách trung tâm thành phố Đà Lạt khoảng 6 km."
+  },
+  {
+    "id": 750,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở Tây Nguyên có ngã ba biên giới Việt Nam - Lào - Campuchia (Cửa khẩu Bờ Y)?",
+    "options": [
+      "Kon Tum (huyện Ngọc Hồi)",
+      "Gia Lai",
+      "Đắk Lắk",
+      "Đắk Nông"
+    ],
+    "correct": 0,
+    "explanation": "Cột mốc ngã ba Đông Dương Bờ Y nằm tại huyện Ngọc Hồi, tỉnh Kon Tum."
+  },
+  {
+    "id": 751,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cây cầu quay đầu tiên tại Việt Nam do chính các kỹ sư và công nhân Việt Nam thiết kế thi công là cầu nào?",
+    "options": [
+      "Cầu quay sông Hàn (Đà Nẵng)",
+      "Cầu Rồng",
+      "Cầu Thuận Phước",
+      "Cầu Trần Thị Lý"
+    ],
+    "correct": 0,
+    "explanation": "Cầu quay sông Hàn có thể quay 90 độ mở đường cho tàu thuyền lớn qua lại vào ban đêm."
+  },
+  {
+    "id": 752,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở vùng duyên hải Bắc Bộ có khu du lịch Đồ Sơn và bến tàu Không Số K15?",
+    "options": [
+      "Hải Phòng",
+      "Quảng Ninh",
+      "Thái Bình",
+      "Nam Định"
+    ],
+    "correct": 0,
+    "explanation": "Bến K15 tại Đồ Sơn (Hải Phòng) là điểm xuất phát huyền thoại của những chuyến tàu Không Số đường Hồ Chí Minh trên biển."
+  },
+  {
+    "id": 753,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Chùa Đồng ngôi chùa đúc bằng đồng nguyên chất lớn nhất Việt Nam tọa lạc trên đỉnh núi nào cao 1.068m?",
+    "options": [
+      "Núi Yên Tử (Quảng Ninh)",
+      "Núi Bà Đen",
+      "Núi Cấm",
+      "Núi Fansipan"
+    ],
+    "correct": 0,
+    "explanation": "Chùa Đồng tọa lạc trên đỉnh thiêng Yên Tử nơi Phật hoàng Trần Nhân Tông tu hành."
+  },
+  {
+    "id": 754,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Vùng nước trũng ngập mặn Đồng Tháp Mười trải rộng trên địa bàn 3 tỉnh nào của vùng đồng bằng sông Cửu Long?",
+    "options": [
+      "Long An, Tiền Giang, Đồng Tháp",
+      "Đồng Tháp, An Giang, Kiên Giang",
+      "Cần Thơ, Hậu Giang, Vĩnh Long",
+      "Bến Tre, Trà Vinh, Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Vùng Đồng Tháp Mười trũng phèn ngập nước trải dài qua 3 tỉnh Long An, Tiền Giang và Đồng Tháp."
+  },
+  {
+    "id": 755,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì khi mua thì màu đen, khi dùng thì màu đỏ, khi vứt đi thì màu xám xịt?",
+    "options": [
+      "Hòn than củi",
+      "Cây nến",
+      "Thỏi son",
+      "Chiếc xe máy"
+    ],
+    "correct": 0,
+    "explanation": "Than củi mua về màu đen tuyền, nhóm lửa hồng đỏ rực, cháy tàn thành tro xám."
+  },
+  {
+    "id": 756,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Có cánh mà không biết bay, có mắt mà không biết nhìn, bơi dưới nước suốt ngày đêm là con gì?",
+    "options": [
+      "Con cá",
+      "Con chim cánh cụt",
+      "Con tàu ngầm",
+      "Con vịt"
+    ],
+    "correct": 0,
+    "explanation": "Cá có vây (cánh vây), mắt không có mi mí nhưng bơi lội tung tăng dưới nước."
+  },
+  {
+    "id": 757,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì có chân mà không thể bước đi, có mặt mà không thể mỉm cười, để bát đĩa lên trên suốt ngày?",
+    "options": [
+      "Cái bàn ăn",
+      "Cái ghế",
+      "Cái giường",
+      "Cái tủ"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc bàn có 4 chân trụ vững chắc và mặt bàn để đồ ăn."
+  },
+  {
+    "id": 758,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui: 'Đầu tròn mình vuông, bốn góc thắt dây, mở ra thơm ngát hương nếp quê hương' là chiếc bánh gì ngày Tết?",
+    "options": [
+      "Bánh chưng",
+      "Bánh giầy",
+      "Bánh ú",
+      "Bánh phu thê"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc bánh chưng xanh vuông vắn buộc lạt giang bốn góc gói trọn hồn vị Tết Việt."
+  },
+  {
+    "id": 759,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì đi lại trên đường / Chở bao nhiêu khách phố phường đông vui?",
+    "options": [
+      "Bánh xe",
+      "Bánh mì",
+      "Bánh bao",
+      "Bánh giầy"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe lăn tròn trên đường giúp ô tô xe máy chở người đi lại khắp nơi."
+  },
+  {
+    "id": 760,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có cánh nhưng không biết bay, đứng yên một chỗ phả gió mát khắp phòng?",
+    "options": [
+      "Cây quạt máy",
+      "Cái diều",
+      "Máy bay",
+      "Con chim cánh cụt"
+    ],
+    "correct": 0,
+    "explanation": "Cánh quạt máy quay tít tạo ra làn gió mát mẻ xua tan oi bức."
+  },
+  {
+    "id": 761,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ dấu thành tên một loài cá nước ngọt, thêm sắc thành thứ ai cũng thích có trong ví?",
+    "options": [
+      "Chữ 'Tiền' (Tiên - Tiền)",
+      "Chữ 'Vàng'",
+      "Chữ 'Bạc'",
+      "Chữ 'Đô'"
+    ],
+    "correct": 0,
+    "explanation": "Tiên cá, Tiền bạc trong ví."
+  },
+  {
+    "id": 762,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: 'Bốn chân đạp đất, hai sừng chỉ thiên, cày sâu cuốc bẫm làm nên mùa màng' là con vật thân thương nào của đồng quê Việt?",
+    "options": [
+      "Con trâu",
+      "Con bò",
+      "Con ngựa",
+      "Con hươu"
+    ],
+    "correct": 0,
+    "explanation": "'Con trâu là đầu cơ nghiệp' - hình ảnh con trâu cần mẫn gắn liền với nền văn minh lúa nước ngàn đời."
+  },
+  {
+    "id": 763,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì không biết bơi nhưng suốt ngày ở dưới nước?",
+    "options": [
+      "Con tàu ngầm",
+      "Con cá",
+      "Con cua",
+      "Con ốc"
+    ],
+    "correct": 0,
+    "explanation": "Con tàu ngầm bằng thép sắt lặn dưới biển nhưng không phải là sinh vật biết bơi."
+  },
+  {
+    "id": 764,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Quả gì không ăn được mà cầu thủ nào cũng muốn sút vào lưới?",
+    "options": [
+      "Quả bóng đá",
+      "Quả cam",
+      "Quả chanh",
+      "Quả dưa"
+    ],
+    "correct": 0,
+    "explanation": "Quả bóng đá trong môn thể thao vua."
+  },
+  {
+    "id": 765,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có cổ mà không có đầu, có tay mà không có ngón?",
+    "options": [
+      "Chiếc áo sơ mi",
+      "Cái chai",
+      "Cái thìa",
+      "Cái ghế"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc áo có cổ áo và tay áo nhưng không phải cơ thể sống."
+  },
+  {
+    "id": 766,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố vui: Hoa gì biết bay rập rờn khắp vườn hoa ngày xuân?",
+    "options": [
+      "Hoa bướm (con bướm)",
+      "Hoa mai",
+      "Hoa đào",
+      "Hoa hồng"
+    ],
+    "correct": 0,
+    "explanation": "Đố vui về loài bướm rực rỡ sắc màu bay lượn như cánh hoa."
+  },
+  {
+    "id": 767,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì có tai dài, đuôi ngắn, thích ăn cà rốt và nhảy thoăn thoắt?",
+    "options": [
+      "Con thỏ",
+      "Con chuột",
+      "Con mèo",
+      "Con cún"
+    ],
+    "correct": 0,
+    "explanation": "Chú thỏ trắng xinh xắn với đôi tai dài thính nhạy."
+  },
+  {
+    "id": 768,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì đi khắp nhà nhưng khi ra ngoài đường lại phải nằm im trong túi?",
+    "options": [
+      "Chiếc chìa khóa nhà",
+      "Cây chổi",
+      "Đôi dép",
+      "Cái bàn"
+    ],
+    "correct": 0,
+    "explanation": "Chìa khóa mở cửa mọi phòng, khi ra đường thì cất vào túi xách."
+  },
+  {
+    "id": 769,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt bỏ dấu sắc thì thành tên một con vật, thêm dấu ngã thành thứ để nhóm lửa?",
+    "options": [
+      "Củi (Cúi - Củi - Cũi)",
+      "Chó",
+      "Mèo",
+      "Gà"
+    ],
+    "correct": 0,
+    "explanation": "Cúi đầu - con Cú - Củi lửa."
+  },
+  {
+    "id": 770,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người thợ lặn xuống biển sâu mà không cần bình dưỡng khí trong 30 phút, vì sao?",
+    "options": [
+      "Người đó lặn trong tàu ngầm",
+      "Người đó nín thở siêu đẳng",
+      "Biển nhân tạo",
+      "Có người bơm oxy"
+    ],
+    "correct": 0,
+    "explanation": "Ở trong tàu ngầm thì có hệ thống dưỡng khí điều hòa bình thường."
+  },
+  {
+    "id": 771,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố vui dân gian: 'Trắng phau củ cải, láng mướt da gà / Vừa đụng vào là chảy nước mắt ra' là củ gì?",
+    "options": [
+      "Củ hành tây",
+      "Củ tỏi",
+      "Củ gừng",
+      "Củ cải trắng"
+    ],
+    "correct": 0,
+    "explanation": "Hành tây chứa hợp chất lưu huỳnh làm kích ứng tuyến lệ cay mắt khi thái."
+  },
+  {
+    "id": 772,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có 1 rổ táo gồm 6 quả, chia cho 6 bạn, mỗi bạn được 1 quả, nhưng trong rổ vẫn còn 1 quả. Vì sao?",
+    "options": [
+      "Bạn cuối cùng nhận cả chiếc rổ có quả táo bên trong",
+      "Cắt táo",
+      "Nhầm lẫn",
+      "Táo giả"
+    ],
+    "correct": 0,
+    "explanation": "5 bạn lấy quả táo rời, bạn thứ 6 nhận luôn chiếc rổ chứa quả táo còn lại."
+  },
+  {
+    "id": 773,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Bạn có thể giữ thứ gì mà không cần chạm tay vào nó?",
+    "options": [
+      "Hơi thở của bạn",
+      "Cốc nước",
+      "Cây bút",
+      "Đồng tiền"
+    ],
+    "correct": 0,
+    "explanation": "Bạn có thể nín thở (giữ hơi thở) mà không cần dùng tay chạm vào."
+  },
+  {
+    "id": 774,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Làm sao để thả một quả trứng gà sống từ độ cao 2 mét xuống sàn xi măng mà không làm vỡ quả trứng?",
+    "options": [
+      "Thả rơi từ độ cao 2,5 mét, quả trứng rơi được 2 mét thì chưa chạm sàn",
+      "Bọc xốp",
+      "Thả xuống đệm",
+      "Luộc chín trứng"
+    ],
+    "correct": 0,
+    "explanation": "Thả từ 2,5 mét thì sau 2 mét rơi trong không khí quả trứng vẫn nguyên vẹn chưa chạm đất!"
+  },
+  {
+    "id": 775,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố mẹo dân gian: 'Mình tròn vành vạnh, đáy thủng tơ vơ, ngửa mặt nhìn trời, chờ người soi bóng' là cái gì?",
+    "options": [
+      "Cái giếng nước làng quê",
+      "Cái thùng",
+      "Cái xô",
+      "Cái chum"
+    ],
+    "correct": 0,
+    "explanation": "Thành giếng tròn soi bóng mây trời và bóng người múc nước ngọt mát."
+  },
+  {
+    "id": 776,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không ăn được mà xoay tít dưới gầm xe?",
+    "options": [
+      "Bánh xe",
+      "Bánh bao",
+      "Bánh rán",
+      "Bánh quy"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe bằng cao su quay tròn giúp xe chuyển động."
+  },
+  {
+    "id": 777,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì có chân nhưng không có tay, bơi lội dưới nước kêu ộp ộp suốt đêm mưa?",
+    "options": [
+      "Con ếch",
+      "Con cá",
+      "Con lươn",
+      "Con rùa"
+    ],
+    "correct": 0,
+    "explanation": "Chú ếch đồng ngồi trên lá sen kêu ộp ộp đón mưa rào."
+  },
+  {
+    "id": 778,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Quả gì nhiều mắt xung quanh, khi chín thơm ngát gọt vỏ bỏ mắt?",
+    "options": [
+      "Quả dứa (Quả thơm)",
+      "Quả chuối",
+      "Quả dưa hấu",
+      "Quả xoài"
+    ],
+    "correct": 0,
+    "explanation": "Quả dứa (trái thơm) có nhiều mắt dứa trên vỏ gai."
+  },
+  {
+    "id": 779,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ đầu thành tên một loài chim, để nguyên là thứ tỏa sáng ban ngày?",
+    "options": [
+      "Nắng (Nắng - Áng)",
+      "Sáng (Sáng - Áng)",
+      "Trăng",
+      "Sao"
+    ],
+    "correct": 0,
+    "explanation": "Ánh nắng ban ngày sưởi ấm vạn vật."
+  },
+  {
+    "id": 780,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì có rãnh nhưng không phải mương nước, có đĩa nhưng không đựng thức ăn, phát ra âm thanh du dương?",
+    "options": [
+      "Đĩa than (đĩa hát)",
+      "Đĩa ăn cơm",
+      "Bát sứ",
+      "Cái thìa"
+    ],
+    "correct": 0,
+    "explanation": "Đĩa than phát nhạc cổ điển ghi âm thanh bằng các rãnh siêu nhỏ."
+  },
+  {
+    "id": 781,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người đứng trước gương giơ tay phải lên, hình ảnh trong gương giơ tay nào?",
+    "options": [
+      "Tay trái của hình ảnh trong gương",
+      "Tay phải",
+      "Hai tay",
+      "Không giơ tay"
+    ],
+    "correct": 0,
+    "explanation": "Hình ảnh trong gương phẳng đảo ngược theo phương ngang (trái thành phải)."
+  },
+  {
+    "id": 782,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có một cây cầu dài 100m, con rùa bò qua cầu mất 100 phút, hỏi con rùa bò hết cây cầu mất bao nhiêu giờ và phút?",
+    "options": [
+      "1 giờ 40 phút",
+      "1 giờ",
+      "2 giờ",
+      "1 giờ 20 phút"
+    ],
+    "correct": 0,
+    "explanation": "100 phút = 60 phút + 40 phút = 1 giờ 40 phút."
+  },
+  {
+    "id": 783,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Con gì sinh ra đã biết bơi, sống dưới nước khi nhỏ thở bằng mang, lớn lên nhảy lên bờ thở bằng phổi và da?",
+    "options": [
+      "Con ếch (nòng nọc)",
+      "Con cá chuối",
+      "Con ba ba",
+      "Con rắn nước"
+    ],
+    "correct": 0,
+    "explanation": "Nòng nọc sống dưới nước thở bằng mang, biến thái thành ếch thở bằng da và phổi."
+  },
+  {
+    "id": 784,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Một người có 3 hộp kẹo: 1 hộp dán nhãn 'Kẹo chanh', 1 hộp 'Kẹo dâu', 1 hộp 'Hỗn hợp'. Cả 3 hộp đều bị dán sai nhãn. Chỉ được lấy đúng 1 chiếc kẹo từ 1 hộp, làm sao dán lại đúng nhãn cho cả 3 hộp?",
+    "options": [
+      "Lấy 1 chiếc từ hộp dán nhãn 'Hỗn hợp'",
+      "Lấy từ hộp 'Kẹo chanh'",
+      "Lấy từ hộp 'Kẹo dâu'",
+      "Không thể xác định"
+    ],
+    "correct": 0,
+    "explanation": "Vì nhãn 'Hỗn hợp' dán sai, nên nếu bốc trúng vị chanh thì hộp đó 100% là 'Kẹo chanh'. Từ đó suy ra nhãn 2 hộp còn lại dễ dàng!"
+  },
+  {
+    "id": 785,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui dân gian: 'Trên trời rơi xuống một cục đất sét, nặn thành hình hài, nung đỏ trong lò, làm nên mái ấm che chở nắng mưa' là vật liệu gì?",
+    "options": [
+      "Viên gạch ngói",
+      "Viên đá",
+      "Hòn sỏi",
+      "Bao xi măng"
+    ],
+    "correct": 0,
+    "explanation": "Đất sét nung thành gạch ngói đỏ tươi xây dựng nhà cửa làng mạc."
+  },
+  {
+    "id": 786,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng bản đồ chỉ đường phổ biến nhất trên điện thoại thông minh hiện nay do Google cung cấp là gì?",
+    "options": [
+      "Google Maps",
+      "Apple Maps",
+      "Here WeGo",
+      "Waze"
+    ],
+    "correct": 0,
+    "explanation": "Google Maps cung cấp dữ liệu bản đồ số, lộ trình giao thông thời gian thực trên toàn cầu."
+  },
+  {
+    "id": 787,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn nào được xem là 'Quốc hồn quốc túy' của ẩm thực Việt Nam thường được ăn kèm rau thơm, chanh ớt và nước dùng đậm đà?",
+    "options": [
+      "Phở",
+      "Bánh rán",
+      "Xôi xéo",
+      "Bánh cuốn"
+    ],
+    "correct": 0,
+    "explanation": "Phở bò, phở gà là món ăn biểu tượng văn hóa ẩm thực Việt Nam được vinh danh khắp năm châu."
+  },
+  {
+    "id": 788,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Thiết bị đeo thông minh vừa xem giờ vừa theo dõi nhịp tim, bước chân người dùng được gọi là gì?",
+    "options": [
+      "Đồng hồ thông minh (Smartwatch)",
+      "Máy đo huyết áp",
+      "Vòng tay đá",
+      "Tai nghe bluetooth"
+    ],
+    "correct": 0,
+    "explanation": "Smartwatch tích hợp cảm biến quang học theo dõi các chỉ số sinh tồn và sức khỏe hàng ngày."
+  },
+  {
+    "id": 789,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món tráng miệng truyền thống làm từ bột nếp, nhân đậu xanh ngập trong nước đường gừng cay nồng ấm cúng ngày đông là gì?",
+    "options": [
+      "Bánh trôi tàu (hoặc chè trôi nước)",
+      "Chè đậu đen",
+      "Tào phớ",
+      "Chè chuối"
+    ],
+    "correct": 0,
+    "explanation": "Bánh trôi nước / bánh trôi tàu chan nước gừng rắc lạc vừng là món ăn ấm lòng mùa lạnh."
+  },
+  {
+    "id": 790,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống thanh toán điện tử không dùng tiền mặt qua tài khoản ngân hàng trên điện thoại được gọi chung là gì?",
+    "options": [
+      "Mobile Banking (Ngân hàng số)",
+      "ATM",
+      "Sổ tiết kiệm",
+      "Thẻ cào"
+    ],
+    "correct": 0,
+    "explanation": "Mobile Banking cho phép chuyển khoản quét mã VietQR tức thì mọi lúc mọi nơi."
+  },
+  {
+    "id": 791,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao dùng vợt đánh quả cầu có gắn lông vũ qua lại trên lưới cao được gọi là môn gì?",
+    "options": [
+      "Cầu lông (Badminton)",
+      "Quần vợt",
+      "Bóng bàn",
+      "Pickleball"
+    ],
+    "correct": 0,
+    "explanation": "Cầu lông là môn thể thao rèn luyện phản xạ nhanh và sự dẻo dai phổ biến ở mọi lứa tuổi."
+  },
+  {
+    "id": 792,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Chương trình phần mềm độc hại có khả năng tự nhân bản và lây nhiễm từ máy tính này sang máy tính khác được gọi là gì?",
+    "options": [
+      "Virus máy tính",
+      "Hệ điều hành",
+      "Trình duyệt web",
+      "Phần mềm diệt virus"
+    ],
+    "correct": 0,
+    "explanation": "Virus máy tính và mã độc (Malware) có thể đánh cắp dữ liệu hoặc phá hoại hệ điều hành."
+  },
+  {
+    "id": 793,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món đặc sản nổi tiếng của Cố đô Huế nấu từ bún sợi to, thịt bò bắp, chả cua và nước dùng thơm mùi mắm ruốc là món gì?",
+    "options": [
+      "Bún bò Huế",
+      "Bún riêu",
+      "Bún chả",
+      "Bún ốc"
+    ],
+    "correct": 0,
+    "explanation": "Bún bò Huế cay nồng thơm lừng mùi sả và mắm ruốc là đỉnh cao ẩm thực miền Trung."
+  },
+  {
+    "id": 794,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Dịch vụ lưu trữ tệp tin đám mây miễn phí 15GB gắn liền với tài khoản Gmail là gì?",
+    "options": [
+      "Google Drive",
+      "OneDrive",
+      "Dropbox",
+      "iCloud"
+    ],
+    "correct": 0,
+    "explanation": "Google Drive cho phép đồng bộ tài liệu, ảnh, video truy cập từ mọi thiết bị cá nhân."
+  },
+  {
+    "id": 795,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Cỡ giấy in văn phòng chuẩn được sử dụng rộng rãi nhất trong máy in và photocopy tại Việt Nam là khổ giấy nào?",
+    "options": [
+      "Khổ giấy A4",
+      "Khổ giấy A3",
+      "Khổ giấy A5",
+      "Khổ giấy B5"
+    ],
+    "correct": 0,
+    "explanation": "Khổ A4 có kích thước tiêu chuẩn quốc tế 210 x 297 mm dùng cho mọi văn bản hành chính."
+  },
+  {
+    "id": 796,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ màn hình điện thoại có tần số quét cao (ví dụ: 120Hz) mang lại lợi ích trải nghiệm vượt trội nào?",
+    "options": [
+      "Cuộn trang và hoạt ảnh chuyển động mượt mà hơn gấp đôi",
+      "Pin trâu hơn",
+      "Loa to hơn",
+      "Màu sắc đen hơn"
+    ],
+    "correct": 0,
+    "explanation": "Màn hình 120Hz làm tươi 120 khung hình mỗi giây, giúp thao tác vuốt chạm cực kỳ mượt mà, phản hồi tức thì."
+  },
+  {
+    "id": 797,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Gia vị thảo mộc hạt tròn nhỏ tạo nên vị cay the ấm nồng đặc trưng cho món Phở và Bò kho là gia vị gì?",
+    "options": [
+      "Hạt tiêu đen (hoặc Hạt hồi / Hạt ngò)",
+      "Hạt ớt",
+      "Hạt mù tạt",
+      "Hạt thì là"
+    ],
+    "correct": 0,
+    "explanation": "Hạt tiêu Phú Quốc hoặc tiêu Chư Sê là gia vị làm dậy mùi thơm cho các món canh súp Việt Nam."
+  },
+  {
+    "id": 798,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thuật toán tìm kiếm trang web nổi tiếng đầu tiên giúp Google thống trị thế giới Internet do Larry Page sáng chế mang tên gì?",
+    "options": [
+      "PageRank",
+      "EdgeRank",
+      "Random Walk",
+      "DeepSearch"
+    ],
+    "correct": 0,
+    "explanation": "Thuật toán PageRank xếp hạng trang web dựa trên số lượng và chất lượng các đường liên kết (backlink) trỏ về."
+  },
+  {
+    "id": 799,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Huyền thoại quần vợt nam nào người Thụy Sĩ được tôn xưng là 'Tàu tốc hành' với 20 danh hiệu Grand Slam đơn nam?",
+    "options": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "correct": 0,
+    "explanation": "Roger Federer nổi tiếng với những cú trái tay một tay hào hoa, chuẩn mực và phong thái lịch lãm."
+  },
+  {
+    "id": 800,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món gỏi cuốn tôm thịt chấm tương đen ngậy bùi của miền Nam từng lọt Top 50 món ăn ngon nhất thế giới do đài CNN bình chọn có tên tiếng Anh là gì?",
+    "options": [
+      "Vietnamese Fresh Spring Rolls",
+      "Fried Spring Rolls",
+      "Pancake",
+      "Steamed Rolls"
+    ],
+    "correct": 0,
+    "explanation": "Gỏi cuốn thanh mát với tôm, thịt ba chỉ, bún tươi, rau sống cuộn trong bánh tráng dẻo mềm."
+  },
+  {
+    "id": 801,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chuẩn sạc nhanh Power Delivery (USB-PD) trên cổng Type-C hiện nay có thể hỗ trợ công suất sạc tối đa lên tới bao nhiêu watt theo chuẩn PD 3.1?",
+    "options": [
+      "Lên tới 240W",
+      "Chỉ 18W",
+      "Chỉ 65W",
+      "Chỉ 100W"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn USB-PD 3.1 mở rộng mức điện áp lên 48V - 5A cho phép sạc laptop gaming công suất tới 240W."
+  },
+  {
+    "id": 802,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Trong lĩnh vực trí tuệ nhân tạo, mô hình ngôn ngữ lớn (LLM) sinh văn bản bằng cách dự đoán đại lượng xác suất thống kê nào?",
+    "options": [
+      "Xác suất xuất hiện của từ (hoặc token) tiếp theo dựa trên chuỗi từ trước đó",
+      "Tìm kiếm chính xác trong cơ sở dữ liệu SQL",
+      "Dịch nguyên văn từng từ",
+      "Tính giá trị trung bình cộng"
+    ],
+    "correct": 0,
+    "explanation": "Mô hình ngôn ngữ tự hồi quy (Autoregressive LLM) tính phân phối xác suất P(token_t | token_1...token_t-1) để sinh câu mượt mà."
+  },
+  {
+    "id": 803,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hãng xe điện VinFast của Việt Nam có trụ sở nhà máy sản xuất ô tô hiện đại tại thành phố nào?",
+    "options": [
+      "Hải Phòng",
+      "Hà Nội",
+      "Đà Nẵng",
+      "TP. Hồ Chí Minh"
+    ],
+    "correct": 0,
+    "explanation": "Tổ hợp nhà máy sản xuất ô tô VinFast đặt tại đảo Cát Hải, thành phố Hải Phòng."
+  },
+  {
+    "id": 804,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món chè trứ danh làm từ hạt sen tươi và long nhãn giòn ngọt thanh tao là đặc sản nức tiếng của tỉnh nào?",
+    "options": [
+      "Hưng Yên",
+      "Hà Nam",
+      "Bắc Giang",
+      "Hải Dương"
+    ],
+    "correct": 0,
+    "explanation": "Chè hạt sen long nhãn Hưng Yên tiến vua nức tiếng gần xa."
+  },
+  {
+    "id": 805,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Công nghệ truyền dữ liệu cự ly siêu gần chạm để thanh toán không tiếp xúc trên smartphone được viết tắt là gì?",
+    "options": [
+      "NFC",
+      "GPS",
+      "Infrared",
+      "Wi-Fi"
+    ],
+    "correct": 0,
+    "explanation": "NFC (Near Field Communication) cho phép chạm điện thoại vào máy POS để thanh toán cực nhanh."
+  },
+  {
+    "id": 806,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Kích thước màn hình tivi hay điện thoại thường được tính bằng đơn vị đo lường nào?",
+    "options": [
+      "Inch (inch)",
+      "Centimet",
+      "Milimet",
+      "Pixel"
+    ],
+    "correct": 0,
+    "explanation": "Kích thước màn hình là độ dài đường chéo màn hình đo bằng đơn vị Inch (1 inch = 2,54 cm)."
+  },
+  {
+    "id": 807,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Sân vận động Quốc gia Mỹ Đình với sức chứa hơn 40.000 chỗ ngồi nằm tại quận nào của Hà Nội?",
+    "options": [
+      "Quận Nam Từ Liêm",
+      "Quận Cầu Giấy",
+      "Quận Bắc Từ Liêm",
+      "Quận Đống Đa"
+    ],
+    "correct": 0,
+    "explanation": "Sân vận động Quốc gia Mỹ Đình khánh thành năm 2003 phục vụ SEA Games 22 tại Nam Từ Liêm."
+  },
+  {
+    "id": 808,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Chữ cái 'e' trong các thuật ngữ như e-commerce, e-wallet, email là viết tắt của từ tiếng Anh nào?",
+    "options": [
+      "Electronic (Điện tử)",
+      "Electric",
+      "Engine",
+      "Express"
+    ],
+    "correct": 0,
+    "explanation": "Electronic nghĩa là điện tử (thương mại điện tử, ví điện tử, thư điện tử)."
+  },
+  {
+    "id": 809,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món bún chả Hà Nội vinh dự được cựu Tổng thống Mỹ Barack Obama thưởng thức cùng đầu bếp Anthony Bourdain năm nào?",
+    "options": [
+      "Năm 2016",
+      "Năm 2015",
+      "Năm 2018",
+      "Năm 2020"
+    ],
+    "correct": 0,
+    "explanation": "Tháng 5/2016, Tổng thống Obama thưởng thức bún chả Hương Liên phố Lê Văn Hưu gây sốt truyền thông quốc tế."
+  },
+  {
+    "id": 810,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "Hệ thống cơ sở dữ liệu phi quan hệ (NoSQL) lưu trữ dữ liệu dưới dạng tài liệu JSON/BSON phổ biến nhất hiện nay là gì?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite"
+    ],
+    "correct": 0,
+    "explanation": "MongoDB là hệ quản trị cơ sở dữ liệu hướng tài liệu NoSQL được ưa chuộng cho các ứng dụng web quy mô lớn."
+  },
+  {
+    "id": 811,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống đèn tín hiệu giao thông đường bộ gồm 3 màu cơ bản là những màu nào?",
+    "options": [
+      "Đỏ, Vàng, Xanh lục",
+      "Đỏ, Tím, Vàng",
+      "Xanh, Cam, Đỏ",
+      "Đỏ, Trắng, Vàng"
+    ],
+    "correct": 0,
+    "explanation": "Quy tắc: Đèn đỏ dừng lại, đèn xanh được đi, đèn vàng giảm tốc độ dừng trước vạch."
+  },
+  {
+    "id": 812,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn sáng nổi tiếng của người Hà Nội gồm xôi nếp dẻo thơm ăn kèm đậu xanh xắt mỏng và hành phi vàng giòn là món gì?",
+    "options": [
+      "Xôi xéo",
+      "Xôi gấc",
+      "Xôi vò",
+      "Xôi bắp"
+    ],
+    "correct": 0,
+    "explanation": "Xôi xéo gói trong lá chuối đượm mỡ gà béo ngậy là thức quà sáng kinh điển đất Hà thành."
+  },
+  {
+    "id": 813,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nền tảng mua sắm trực tuyến Shopee, Lazada, TikTok Shop thuộc mô hình kinh doanh nào?",
+    "options": [
+      "Thương mại điện tử (E-commerce)",
+      "Siêu thị truyền thống",
+      "Chợ cóc",
+      "Ngân hàng"
+    ],
+    "correct": 0,
+    "explanation": "Thương mại điện tử cho phép người mua và người bán giao dịch hàng hóa qua Internet thuận tiện."
+  },
+  {
+    "id": 814,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ trợ lý ảo Siri được tích hợp mặc định trên các thiết bị của tập đoàn công nghệ nào?",
+    "options": [
+      "Apple",
+      "Google",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correct": 0,
+    "explanation": "Siri do Apple phát triển hỗ trợ điều khiển bằng giọng nói trên iPhone, iPad, Mac."
+  },
+  {
+    "id": 815,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Vận động viên bắn súng huyền thoại nào đã mang về tấm Huy chương Vàng Olympic đầu tiên trong lịch sử cho thể thao Việt Nam năm 2016?",
+    "options": [
+      "Xạ thủ Hoàng Xuân Vinh",
+      "Trần Oanh",
+      "Hoàng Quý Phước",
+      "Nguyễn Tiến Minh"
+    ],
+    "correct": 0,
+    "explanation": "Đại tá Hoàng Xuân Vinh xuất sắc giành HCV nội dung 10m súng ngắn hơi tại Olympic Rio 2016."
+  },
+  {
+    "id": 816,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hạt ngũ cốc nào là lương thực chính nuôi sống hơn một nửa dân số thế giới và là cây trồng truyền thống của Việt Nam?",
+    "options": [
+      "Cây lúa nước (gạo)",
+      "Lúa mì",
+      "Ngô",
+      "Khoai tây"
+    ],
+    "correct": 0,
+    "explanation": "Việt Nam là một trong những quốc gia xuất khẩu gạo chất lượng cao hàng đầu thế giới."
+  },
+  {
+    "id": 817,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Giao thức truyền thông nào là nền tảng cốt lõi định tuyến gói tin trên toàn bộ mạng Internet toàn cầu?",
+    "options": [
+      "Bộ giao thức TCP/IP",
+      "HTTP",
+      "FTP",
+      "DNS"
+    ],
+    "correct": 0,
+    "explanation": "TCP/IP (Transmission Control Protocol / Internet Protocol) do Vint Cerf và Bob Kahn phát triển định hình mạng Internet."
+  },
+  {
+    "id": 818,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món phở cuốn trứ danh của ẩm thực Hà Nội có nguồn gốc đầu tiên từ phố ẩm thực nào?",
+    "options": [
+      "Phố Ngũ Xã (bên hồ Trúc Bạch)",
+      "Phố Hàng Buồm",
+      "Phố Tạ Hiện",
+      "Phố Cấm Chỉ"
+    ],
+    "correct": 0,
+    "explanation": "Làng đúc đồng Ngũ Xã ven hồ Trúc Bạch là cái nôi khai sinh ra món phở cuốn thịt bò rau thơm trứ danh."
+  },
+  {
+    "id": 819,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Nút bấm nào trên bàn phím máy tính dùng để xóa ký tự đứng ngay phía trước con trỏ văn bản?",
+    "options": [
+      "Phím Backspace",
+      "Phím Delete",
+      "Phím Enter",
+      "Phím Shift"
+    ],
+    "correct": 0,
+    "explanation": "Backspace xóa lùi về bên trái, còn Delete xóa ký tự đứng phía sau con trỏ."
+  },
+  {
+    "id": 820,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Môn thể thao nào mà các đấu sĩ mặc võ phục đai đen thực hiện các đòn quật ngã, siết cổ trên thảm đấu có nguồn gốc từ Nhật Bản?",
+    "options": [
+      "Judo (Nhu đạo)",
+      "Karate",
+      "Taekwondo",
+      "Muay Thái"
+    ],
+    "correct": 0,
+    "explanation": "Judo do võ sư Kano Jigoro sáng lập năm 1882 với nguyên lý 'Lấy nhu thắng cương'."
+  },
+  {
+    "id": 821,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Công nghệ truyền hình cáp quang Internet tốc độ cao FTTx sử dụng loại dây cáp gì?",
+    "options": [
+      "Cáp quang lõi sợi thủy tinh",
+      "Cáp đồng trục",
+      "Dây điện thoại",
+      "Dây cáp nhôm"
+    ],
+    "correct": 0,
+    "explanation": "Cáp quang truyền tín hiệu dưới dạng các xung ánh sáng cho băng thông siêu rộng và không bị nhiễu điện từ."
+  },
+  {
+    "id": 822,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món 'Cơm hến' cay xé lưỡi ăn kèm tóp mỡ, hoa chuối và nước luộc hến thanh ngọt là đặc sản vùng nào?",
+    "options": [
+      "Cố đô Huế",
+      "Đà Nẵng",
+      "Quảng Ngãi",
+      "Bình Định"
+    ],
+    "correct": 0,
+    "explanation": "Cơm hến Cồn Hến (Huế) là món ăn dân dã đậm đà vị cay nồng đặc trưng của xứ thần kinh."
+  },
+  {
+    "id": 823,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Hệ thống tên miền trên mạng Internet giúp dịch địa chỉ IP số học (ví dụ: 192.168.1.1) thành tên dễ nhớ (ví dụ: google.com) được gọi là gì?",
+    "options": [
+      "Hệ thống DNS (Domain Name System)",
+      "DHCP",
+      "FTP",
+      "SNMP"
+    ],
+    "correct": 0,
+    "explanation": "DNS đóng vai trò như danh bạ điện thoại của toàn bộ mạng Internet thế giới."
+  },
+  {
+    "id": 824,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Tiêu chuẩn mã hóa ký tự phổ quát hỗ trợ hiển thị chính xác mọi ngôn ngữ trên thế giới (kể cả tiếng Việt có dấu) là tiêu chuẩn nào?",
+    "options": [
+      "Unicode (chuẩn UTF-8)",
+      "ASCII",
+      "TCVN3 (ABC)",
+      "VNI"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn UTF-8 Unicode là bảng mã tiêu chuẩn thống nhất định dạng ký tự cho mọi trang web và hệ điều hành ngày nay."
+  },
+  {
+    "id": 825,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Khí gas đun nấu dùng trong bình gas gia đình thường chứa hỗn hợp hai khí hóa lỏng nào?",
+    "options": [
+      "Propan (C3H8) và Butan (C4H10)",
+      "Metan và Oxy",
+      "Hydro và Heli",
+      "Cacbonic và Nitơ"
+    ],
+    "correct": 0,
+    "explanation": "Khí dầu mỏ hóa lỏng (LPG) là hỗn hợp propan và butan được nén lỏng ở áp suất cao."
+  },
+  {
+    "id": 826,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ quan hô hấp chính của các loài cá giúp lấy oxy hòa tan trong nước là gì?",
+    "options": [
+      "Mang cá",
+      "Phổi cá",
+      "Vảy cá",
+      "Bong bóng cá"
+    ],
+    "correct": 0,
+    "explanation": "Các phiến mang đỏ tươi chứa dày đặc mao mạch giúp trao đổi khí oxy và CO2 với dòng nước chảy qua."
+  },
+  {
+    "id": 827,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tại sao khi trời sắp mưa to, chuồn chuồn lại bay là là sát mặt đất theo kinh nghiệm dân gian?",
+    "options": [
+      "Vì độ ẩm không khí tăng cao làm ướt cánh chuồn chuồn nặng hơn",
+      "Vì chuồn chuồn sợ sấm",
+      "Vì áp suất tăng",
+      "Vì gió thổi mạnh"
+    ],
+    "correct": 0,
+    "explanation": "'Chuồn chuồn bay thấp thì mưa / Bay cao thì nắng, bay vừa thì râm' - hơi nước đọng vào cánh mỏng làm hạ độ cao."
+  },
+  {
+    "id": 828,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Chất cấm gây nghiện mạnh có trong khói thuốc lá kích thích hệ thần kinh trung ương và gây nghiện là gì?",
+    "options": [
+      "Nicotine",
+      "Caffeine",
+      "Morphine",
+      "Taurine"
+    ],
+    "correct": 0,
+    "explanation": "Nicotine trong lá thuốc lá nhanh chóng đi vào máu lên não kích thích dopamin gây nghiện nặng và hại tim mạch."
+  },
+  {
+    "id": 829,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong cấu trúc nguyên tử, hạt nào có khối lượng gần bằng proton nhưng mang điện tích trung hòa (điện tích bằng 0)?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Positron",
+      "Neutrino"
+    ],
+    "correct": 0,
+    "explanation": "James Chadwick phát hiện ra hạt neutron trong hạt nhân nguyên tử năm 1932 và đoạt giải Nobel Vật lý."
+  },
+  {
+    "id": 830,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Khí nào cần thiết nhất duy trì sự sống và quá trình hô hấp của con người và muôn loài?",
+    "options": [
+      "Khí Oxy (O2)",
+      "Khí Cacbonic (CO2)",
+      "Khí Nitơ (N2)",
+      "Khí Metan"
+    ],
+    "correct": 0,
+    "explanation": "Oxy nuôi dưỡng các tế bào và thực hiện các phản ứng oxy hóa sinh học giải phóng năng lượng cho cơ thể."
+  },
+  {
+    "id": 831,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất rắn nào đông cứng từ nước ở nhiệt độ dưới 0 độ C được thả vào nước ngọt cho mát?",
+    "options": [
+      "Băng đá (Nước đá)",
+      "Muối ăn",
+      "Đường kính",
+      "Thạch cao"
+    ],
+    "correct": 0,
+    "explanation": "Nước đá tan chảy ở 0 °C hấp thụ nhiệt giúp làm mát đồ uống tức thì."
+  },
+  {
+    "id": 832,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng cầu vồng bảy sắc lung linh sau cơn mưa gồm 7 dải màu cơ bản lần lượt từ ngoài vào trong là gì?",
+    "options": [
+      "Đỏ, Da cam, Vàng, Lục, Lam, Chàm, Tím",
+      "Tím, Chàm, Lam, Lục, Vàng, Cam, Đỏ",
+      "Đỏ, Vàng, Xanh, Trắng, Đen, Tím, Nâu",
+      "Xanh, Đỏ, Tím, Vàng, Cam, Hồng, Nâu"
+    ],
+    "correct": 0,
+    "explanation": "Hiện tượng tán sắc ánh sáng mặt trời qua các giọt nước mưa tạo nên dải quang phổ 7 màu rực rỡ."
+  },
+  {
+    "id": 833,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Lớp vỏ Trái Đất dày trung bình từ bao nhiêu km dưới các đại dương và lục địa?",
+    "options": [
+      "Khoảng 5 - 70 km",
+      "Khoảng 500 km",
+      "Khoảng 1.000 km",
+      "Khoảng 100 mét"
+    ],
+    "correct": 0,
+    "explanation": "Lớp vỏ thạch quyển Trái Đất mỏng manh như vỏ quả táo, dày từ 5-10 km ở đại dương đến 30-70 km ở lục địa."
+  },
+  {
+    "id": 834,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Vận tốc âm thanh truyền trong không khí khô ở nhiệt độ 20 độ C xấp xỉ bằng bao nhiêu?",
+    "options": [
+      "Khoảng 343 mét/giây (khoảng 1.235 km/h)",
+      "Khoảng 300.000 km/s",
+      "Khoảng 100 m/s",
+      "Khoảng 1.500 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Vận tốc âm thanh trong không khí là 343 m/s; khi máy bay vượt tốc độ này sẽ tạo ra tiếng nổ siêu thanh (Sonic boom)."
+  },
+  {
+    "id": 835,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất lỏng không màu, không mùi, không vị chiếm hơn 70% bề mặt Trái Đất là chất gì?",
+    "options": [
+      "Nước (H2O)",
+      "Dầu hỏa",
+      "Cồn y tế",
+      "Sữa"
+    ],
+    "correct": 0,
+    "explanation": "Nước là cội nguồn của mọi sự sống trên hành tinh xanh."
+  },
+  {
+    "id": 836,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào trên đầu của côn trùng giúp chúng ngửi mùi và định hướng không gian?",
+    "options": [
+      "Đôi râu (ăng-ten)",
+      "Đôi mắt kép",
+      "Đôi cánh",
+      "Miệng"
+    ],
+    "correct": 0,
+    "explanation": "Đôi râu côn trùng chứa hàng ngàn thụ thể hóa học nhạy bén với mùi hương."
+  },
+  {
+    "id": 837,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Mặt Trời mọc ở hướng nào và lặn ở hướng nào theo quy luật tự nhiên?",
+    "options": [
+      "Mọc ở hướng Đông, lặn ở hướng Tây",
+      "Mọc hướng Tây, lặn hướng Đông",
+      "Mọc hướng Bắc, lặn hướng Nam",
+      "Mọc hướng Nam, lặn hướng Bắc"
+    ],
+    "correct": 0,
+    "explanation": "Do Trái Đất tự quay quanh trục từ Tây sang Đông nên ta thấy Mặt Trời mọc ở hướng Đông."
+  },
+  {
+    "id": 838,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình chuyển hóa thức ăn thành chất dinh dưỡng nuôi cơ thể người diễn ra chủ yếu ở cơ quan nào?",
+    "options": [
+      "Ruột non",
+      "Dạ dày",
+      "Miệng",
+      "Đại tràng"
+    ],
+    "correct": 0,
+    "explanation": "Nhung mao ở thành ruột non hấp thụ hầu hết axit amin, đường, vitamin vào dòng máu."
+  },
+  {
+    "id": 839,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào dẫn nhiệt và dẫn điện kém nhất trong số các kim loại thông dụng sau đây?",
+    "options": [
+      "Chì",
+      "Đồng",
+      "Nhôm",
+      "Bạc"
+    ],
+    "correct": 0,
+    "explanation": "Chì có điện trở suất cao hơn nhiều so với đồng và nhôm, dẫn điện dẫn nhiệt tương đối kém."
+  },
+  {
+    "id": 840,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Tia sét trong cơn dông bão phóng ra tia lửa điện với nhiệt độ ở lõi có thể lên tới bao nhiêu độ C?",
+    "options": [
+      "Khoảng 30.000 độ C (nóng gấp 5 lần bề mặt Mặt Trời)",
+      "Khoảng 1.000 độ C",
+      "Khoảng 100 độ C",
+      "Khoảng 5.000 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Sét làm nóng không khí tức thời lên gần 30.000 °C gây ra sóng xung kích tạo tiếng sấm nổ vang."
+  },
+  {
+    "id": 841,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong cơ thể người, tuyến nội tiết nào được coi là 'Tuyến nhạc trưởng' chỉ huy hoạt động của hầu hết các tuyến nội tiết khác?",
+    "options": [
+      "Tuyến yên (Pituitary gland)",
+      "Tuyến giáp",
+      "Tuyến tụy",
+      "Tuyến thượng thận"
+    ],
+    "correct": 0,
+    "explanation": "Tuyến yên nằm ở đáy não tiết ra các hormone chỉ huy kích thích tuyến giáp, tuyến thượng thận và tuyến sinh dục."
+  },
+  {
+    "id": 842,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Cơ thể con người có nhiệt độ bình thường khi khỏe mạnh xấp xỉ bao nhiêu độ C?",
+    "options": [
+      "Khoảng 36,5 - 37 độ C",
+      "Khoảng 40 độ C",
+      "Khoảng 32 độ C",
+      "Khoảng 39 độ C"
+    ],
+    "correct": 0,
+    "explanation": "Nhiệt độ thân nhiệt bình thường của người khỏe mạnh dao động từ 36,5 đến 37,2 °C."
+  },
+  {
+    "id": 843,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Mặt Trăng quay quanh Trái Đất mất thời gian xấp xỉ bằng bao nhiêu ngày?",
+    "options": [
+      "Khoảng 27,3 ngày (khoảng 1 tháng)",
+      "Khoảng 365 ngày",
+      "Khoảng 7 ngày",
+      "Khoảng 24 giờ"
+    ],
+    "correct": 0,
+    "explanation": "Mặt Trăng hoàn thành một chu kỳ quỹ đạo quanh Trái Đất trong khoảng 27,3 ngày."
+  },
+  {
+    "id": 844,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài cây nào được xem là biểu tượng kiên cường bất khuất của làng quê Việt Nam, thân có nhiều đốt?",
+    "options": [
+      "Cây tre",
+      "Cây bàng",
+      "Cây phượng",
+      "Cây cau"
+    ],
+    "correct": 0,
+    "explanation": "Lũy tre xanh che chở xóm làng trải qua hàng ngàn năm lịch sử dựng nước."
+  },
+  {
+    "id": 845,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong hóa học, nước vôi trong là dung dịch của hợp chất bazơ nào?",
+    "options": [
+      "Canxi hidroxit (Ca(OH)2)",
+      "Canxi cacbonat (CaCO3)",
+      "Canxi oxit (CaO)",
+      "Natri hidroxit (NaOH)"
+    ],
+    "correct": 0,
+    "explanation": "Nước vôi trong Ca(OH)2 khi gặp khí CO2 sẽ sục kết tủa trắng đục Canxi cacbonat."
+  },
+  {
+    "id": 846,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Khí trơ nào nhẹ hơn không khí, không cháy nổ, thường được dùng để bơm vào bóng bay khí cầu?",
+    "options": [
+      "Khí Heli (He)",
+      "Khí Hydro",
+      "Khí Oxy",
+      "Khí Nitơ"
+    ],
+    "correct": 0,
+    "explanation": "Heli là khí hiếm trơ cực kỳ an toàn, nhẹ thứ nhì vũ trụ sau hydro."
+  },
+  {
+    "id": 847,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng tán xạ Rayleigh trong khí quyển Trái Đất giải thích cho điều kỳ thú nào của tự nhiên?",
+    "options": [
+      "Tại sao bầu trời ban ngày có màu xanh lam",
+      "Tại sao ban đêm có sao",
+      "Tại sao có mây đen",
+      "Tại sao có sương mù"
+    ],
+    "correct": 0,
+    "explanation": "Các phân tử khí tán xạ bước sóng ngắn (ánh sáng xanh lam) mạnh hơn ánh sáng đỏ, tạo nên sắc trời xanh ngắt."
+  },
+  {
+    "id": 848,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Bào quan nào trong tế bào nhân thực được ví như 'Nhà máy năng lượng' tạo ra phân tử ATP nuôi sống tế bào?",
+    "options": [
+      "Ty thể (Mitochondria)",
+      "Bộ máy Golgi",
+      "Nhân tế bào",
+      "Lưới nội chất"
+    ],
+    "correct": 0,
+    "explanation": "Ty thể tiến hành chu trình Krebs và chuỗi chuyền electron hô hấp tổng hợp ATP cung cấp năng lượng cho mọi hoạt động sống."
+  },
+  {
+    "id": 849,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua nào của triều Lý đã đổi tên nước ta từ 'Đại Cồ Việt' thành 'Đại Việt' vào năm 1054?",
+    "options": [
+      "Lý Thánh Tông",
+      "Lý Thái Tổ",
+      "Lý Nhân Tông",
+      "Lý Anh Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Thánh Tông lên ngôi năm 1054 đổi quốc hiệu là Đại Việt mở ra kỷ nguyên văn hiến rực rỡ."
+  },
+  {
+    "id": 850,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ai là người cắm lá cờ chiến thắng lên nóc Dinh Độc Lập vào trưa ngày 30/4/1975 lịch sử?",
+    "options": [
+      "Đại đội trưởng Bùi Quang Thận",
+      "Trung úy Vũ Đăng Toàn",
+      "Chiến sĩ Nguyễn Văn Tập",
+      "Đại tá Bùi Tùng"
+    ],
+    "correct": 0,
+    "explanation": "Đồng chí Bùi Quang Thận chỉ huy xe tăng 843 lao vào Dinh Độc Lập và cắm cờ giải phóng lúc 11h30."
+  },
+  {
+    "id": 851,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Hội thề Đông Quan năm 1427 kết thúc cuộc kháng chiến chống quân Minh diễn ra giữa chủ tướng Lê Lợi và tướng giặc nào?",
+    "options": [
+      "Vương Thông",
+      "Liễu Thăng",
+      "Trương Phụ",
+      "Mộc Thạnh"
+    ],
+    "correct": 0,
+    "explanation": "Vương Thông cùng tàn quân Minh xin thề rút hết quân về nước trước tinh thần nhân đạo của nghĩa quân Lam Sơn."
+  },
+  {
+    "id": 852,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào trong lịch sử nước ta lập nên triều đại Tây Sơn và được mệnh danh là 'Bắc Bình Vương'?",
+    "options": [
+      "Nguyễn Huệ",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Quang Toản"
+    ],
+    "correct": 0,
+    "explanation": "Trước khi lên ngôi Hoàng đế lấy niên hiệu Quang Trung năm 1788, Nguyễn Huệ được phong là Bắc Bình Vương."
+  },
+  {
+    "id": 853,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Sự kiện lịch sử ngày 10/10/1954 gắn liền với mốc son nào của thủ đô nghìn năm văn hiến?",
+    "options": [
+      "Ngày Giải phóng Thủ đô Hà Nội",
+      "Ngày Toàn quốc Kháng chiến",
+      "Ngày Khởi nghĩa Thăng Long",
+      "Ngày Dời đô"
+    ],
+    "correct": 0,
+    "explanation": "Đoàn quân chiến thắng tiến về tiếp quản Thủ đô trong rợp cờ hoa sau 9 năm kháng chiến chống Pháp."
+  },
+  {
+    "id": 854,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào dưới triều Hậu Lê nổi tiếng với việc khởi xướng lập Hội Tao Đàn gồm 'Nhị thập bát tú' (28 ngôi sao văn học)?",
+    "options": [
+      "Lê Thánh Tông",
+      "Lê Thái Tông",
+      "Lê Nhân Tông",
+      "Lê Hiến Tông"
+    ],
+    "correct": 0,
+    "explanation": "Hoàng đế Lê Thánh Tông là tao đàn đô nguyên súy, chủ xướng phong trào thơ ca Nho học phát triển cực thịnh."
+  },
+  {
+    "id": 855,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Nhà nước Âu Lạc của Thục Phán An Dương Vương chọn địa danh nào làm kinh đô xây dựng thành trì?",
+    "options": [
+      "Thành Cổ Loa (Đông Anh, Hà Nội)",
+      "Hoa Lư",
+      "Bạch Hạc (Việt Trì)",
+      "Mê Linh"
+    ],
+    "correct": 0,
+    "explanation": "An Dương Vương định đô ở Cổ Loa, đắp thành ốc chín vòng kiên cố chống quân Triệu Đà."
+  },
+  {
+    "id": 856,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị nữ tướng cưỡi voi cầm gươm dẹp giặc Đông Ngô năm 248 quê ở vùng đất Triệu Sơn, Thanh Hóa là ai?",
+    "options": [
+      "Bà Triệu (Triệu Thị Trinh)",
+      "Bùi Thị Xuân",
+      "Nguyễn Thị Định",
+      "Lê Chân"
+    ],
+    "correct": 0,
+    "explanation": "Bà Triệu cưỡi voi trắng đánh tan giặc Ngô với lời thề đạp luồng sóng dữ chém cá kình Biển Đông."
+  },
+  {
+    "id": 857,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Cuộc chiến tranh bảo vệ biên giới Tây Nam và lật đổ chế độ diệt chủng Pol Pot diễn ra từ năm nào?",
+    "options": [
+      "Năm 1978 - 1979",
+      "Năm 1975",
+      "Năm 1985",
+      "Năm 1989"
+    ],
+    "correct": 0,
+    "explanation": "Quân đội nhân dân Việt Nam phối hợp quân cách mạng Campuchia giải phóng Phnom Penh ngày 7/1/1979."
+  },
+  {
+    "id": 858,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiếc xe tăng T-54 mang số hiệu bao nhiêu do Trung úy Bùi Quang Thận chỉ huy đã húc đổ cổng chính Dinh Độc Lập ngày 30/4/1975?",
+    "options": [
+      "Xe tăng số hiệu 390 và 843",
+      "Xe tăng 990",
+      "Xe tăng 555",
+      "Xe tăng 123"
+    ],
+    "correct": 0,
+    "explanation": "Xe tăng 843 tiến vào cổng phụ và xe tăng 390 húc tung cổng chính Dinh Độc Lập trưa ngày 30/4/1975."
+  },
+  {
+    "id": 859,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của triều Lý đã cho lập đàn Xã Tắc tại Thăng Long năm 1048 để tế thần Đất và thần Lúa cầu quốc thái dân an?",
+    "options": [
+      "Lý Thái Tông",
+      "Lý Thái Tổ",
+      "Lý Thánh Tông",
+      "Lý Cao Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Thái Tông lập đàn Xã Tắc thể hiện truyền thống nông nghiệp trọng cội nguồn của người Việt."
+  },
+  {
+    "id": 860,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị hoàng đế nào của nhà Đinh dẹp loạn 12 sứ quân, mở đầu kỷ nguyên độc lập thống nhất Đại Cồ Việt?",
+    "options": [
+      "Đinh Tiên Hoàng (Đinh Bộ Lĩnh)",
+      "Đinh Liễn",
+      "Ngô Quyền",
+      "Lê Hoàn"
+    ],
+    "correct": 0,
+    "explanation": "Đinh Bộ Lĩnh dùng cờ lau tập trận, lớn lên thu phục 12 sứ quân định đô ở Hoa Lư."
+  },
+  {
+    "id": 861,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ngày truyền thống của Quân đội Nhân dân Việt Nam được kỷ niệm vào ngày tháng nào hàng năm?",
+    "options": [
+      "22/12",
+      "19/8",
+      "30/4",
+      "2/9"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 22/12/1944, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập tại Cao Bằng."
+  },
+  {
+    "id": 862,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị tướng anh hùng nào đã chỉ huy nghĩa quân Tây Sơn đánh tan 5 vạn quân Xiêm trong trận Rạch Gầm - Xoài Mút năm 1785?",
+    "options": [
+      "Nguyễn Huệ",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Võ Văn Dũng"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Huệ bố trí mai phục nghiền nát quân Xiêm trên sông Tiền trong một ngày oanh liệt."
+  },
+  {
+    "id": 863,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Trận chiến trên sông Như Nguyệt năm 1077 quân dân nhà Lý đã đánh bại quân xâm lược của triều đại phong kiến phương Bắc nào?",
+    "options": [
+      "Nhà Tống",
+      "Nhà Đường",
+      "Nhà Nguyên",
+      "Nhà Minh"
+    ],
+    "correct": 0,
+    "explanation": "Thái úy Lý Thường Kiệt chặn đứng và đè bẹp ý chí xâm lăng của quân Tống bên bờ sông Cầu."
+  },
+  {
+    "id": 864,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị vua nào của triều Hậu Lê lên ngôi sau thắng lợi của khởi nghĩa Lam Sơn năm 1428?",
+    "options": [
+      "Lê Thái Tổ (Lê Lợi)",
+      "Lê Thánh Tông",
+      "Lê Thái Tông",
+      "Lê Nhân Tông"
+    ],
+    "correct": 0,
+    "explanation": "Lê Lợi lên ngôi hoàng đế tại Thăng Long, đặt quốc hiệu là Đại Việt mở ra triều Hậu Lê."
+  },
+  {
+    "id": 865,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiến dịch Tây Nguyên mở màn cuộc Tổng tiến công mùa xuân 1975 bắt đầu bằng trận đánh then chốt nào?",
+    "options": [
+      "Trận Buôn Ma Thuột",
+      "Trận Pleiku",
+      "Trận Kon Tum",
+      "Trận Gia Lai"
+    ],
+    "correct": 0,
+    "explanation": "Đòn điểm huyệt thần tốc giải phóng Buôn Ma Thuột ngày 10/3/1975 tạo bước ngoặt chiến lược."
+  },
+  {
+    "id": 866,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của nước ta cho khắc bia tiến sĩ đầu tiên tại Văn Miếu - Quốc Tử Giám vào năm 1484?",
+    "options": [
+      "Lê Thánh Tông",
+      "Lý Thánh Tông",
+      "Trần Thánh Tông",
+      "Lê Thái Tổ"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lê Thánh Tông dựng bia đề danh tiến sĩ khắc ghi câu châm ngôn: 'Hiền tài là nguyên khí quốc gia'."
+  },
+  {
+    "id": 867,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vua Hùng thứ mấy đã chọn Lang Liêu nối ngôi nhờ dâng lễ vật bánh chưng bánh giầy thơm thảo?",
+    "options": [
+      "Vua Hùng thứ 6",
+      "Vua Hùng thứ 1",
+      "Vua Hùng thứ 18",
+      "Vua Hùng thứ 3"
+    ],
+    "correct": 0,
+    "explanation": "Vua Hùng thứ 6 mở hội thi tài làm lễ vật dâng cúng tổ tiên và chọn hoàng tử Lang Liêu."
+  },
+  {
+    "id": 868,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Bản 'Tuyên ngôn Độc lập' ngày 2/9/1945 do Chủ tịch Hồ Chí Minh soạn thảo tại ngôi nhà số bao nhiêu phố Hàng Ngang, Hà Nội?",
+    "options": [
+      "Số nhà 48 Hàng Ngang",
+      "Số 10 Hàng Ngang",
+      "Số 36 Hàng Đào",
+      "Số 20 Tràng Tiền"
+    ],
+    "correct": 0,
+    "explanation": "Ngôi nhà số 48 Hàng Ngang của gia đình thương gia Trịnh Văn Bô là nơi Bác Hồ viết bản Tuyên ngôn Độc lập."
+  },
+  {
+    "id": 869,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị tướng nào thời Trần chỉ huy đội quân 'Sát Thát' đã lấy bút ghi lên trán chữ Sát Thát thề quyết chiến với giặc Nguyên?",
+    "options": [
+      "Tất cả quân dân nhà Trần",
+      "Trần Quốc Toản",
+      "Trần Hưng Đạo",
+      "Yết Kiêu"
+    ],
+    "correct": 0,
+    "explanation": "Quân sĩ nhà Trần xăm hai chữ 'Sát Thát' (Giết giặc Thát Đát) lên cánh tay biểu thị ý chí quyết tử."
+  },
+  {
+    "id": 870,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Khởi nghĩa Bãi Sậy (1883 - 1892) trong phong trào Cần Vương do thủ lĩnh nào lãnh đạo trên vùng đầm lầy Hưng Yên?",
+    "options": [
+      "Nguyễn Thiện Thuật",
+      "Phan Đình Phùng",
+      "Đinh Công Tráng",
+      "Hoàng Hoa Thám"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Thiện Thuật (Tán Thuật) chỉ huy nghĩa quân lập căn cứ du kích hiểm trở ở Bãi Sậy."
+  },
+  {
+    "id": 871,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Đại hội Giới trẻ Thế giới và Hội nghị Paris về chấm dứt chiến tranh tại Việt Nam diễn ra từ năm nào đến năm nào?",
+    "options": [
+      "1968 - 1973 (ký ngày 27/1/1973)",
+      "1970 - 1975",
+      "1954 - 1960",
+      "1965 - 1972"
+    ],
+    "correct": 0,
+    "explanation": "Hội nghị Paris đàm phán kéo dài gần 5 năm kết thúc với việc ký kết Hiệp định Paris ngày 27/1/1973."
+  },
+  {
+    "id": 872,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào của triều Tây Sơn sau khi vua Quang Trung đột ngột băng hà đã lên nối ngôi khi mới 10 tuổi?",
+    "options": [
+      "Quang Toản (vua Cảnh Thịnh)",
+      "Nguyễn Nhạc",
+      "Nguyễn Lữ",
+      "Nguyễn Ánh"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Quang Toản lên ngôi năm 1792 lấy niên hiệu Cảnh Thịnh khi tuổi đời còn quá nhỏ."
+  },
+  {
+    "id": 873,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào của triều Nguyễn đã ban hành chỉ dụ cho dựng Quốc Tử Giám tại Cố đô Huế vào năm 1803?",
+    "options": [
+      "Vua Gia Long",
+      "Vua Minh Mạng",
+      "Vua Thiệu Trị",
+      "Vua Tự Đức"
+    ],
+    "correct": 0,
+    "explanation": "Vua Gia Long lập Quốc Tử Giám tại Huế năm 1803 làm trung tâm đào tạo nhân tài cao nhất cho cả nước."
+  },
+  {
+    "id": 874,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Ăn quả nhớ kẻ ...'?",
+    "options": [
+      "trồng cây",
+      "tưới cây",
+      "hái quả",
+      "mua cây"
+    ],
+    "correct": 0,
+    "explanation": "Câu tục ngữ nhắc nhở con người ghi nhớ công ơn người đi trước gây dựng."
+  },
+  {
+    "id": 875,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Tấm Cám', con vật nào đã an ủi và chỉ dẫn cho cô Tấm mỗi khi cô khóc?",
+    "options": [
+      "Ông Bụt",
+      "Con chim vàng anh",
+      "Con gà trống",
+      "Con cá bống"
+    ],
+    "correct": 0,
+    "explanation": "Ông Bụt nhân từ hiện lên khuyên bảo và ban phép mầu giúp đỡ cô Tấm hiền lành."
+  },
+  {
+    "id": 876,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng ... giống nhưng chung một giàn'?",
+    "options": [
+      "khác",
+      "chung",
+      "hai",
+      "cùng"
+    ],
+    "correct": 0,
+    "explanation": "Ca dao khuyên nhủ tinh thần đoàn kết, tương thân tương ái giữa đồng bào một nước."
+  },
+  {
+    "id": 877,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Bài hát 'Em là mầm non của Đảng' là giai điệu thiếu nhi quen thuộc của nhạc sĩ nào?",
+    "options": [
+      "Mộng Lân",
+      "Phạm Tuyên",
+      "Hoàng Long",
+      "Phong Nhã"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Mộng Lân sáng tác nhiều ca khúc thiếu nhi trong sáng, tươi vui."
+  },
+  {
+    "id": 878,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Thuận vợ thuận chồng, tát biển Đông cũng ...'?",
+    "options": [
+      "cạn",
+      "đầy",
+      "khô",
+      "vơi"
+    ],
+    "correct": 0,
+    "explanation": "Thành ngữ nhấn mạnh sự hòa thuận, đồng lòng của vợ chồng sẽ vượt qua mọi gian khó."
+  },
+  {
+    "id": 879,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Hình tượng 'Bọc trăm trứng' nở ra một trăm người con gắn liền với truyền thuyết dựng nước nào?",
+    "options": [
+      "Lạc Long Quân và Âu Cơ",
+      "Sơn Tinh và Thủy Tinh",
+      "Thánh Gióng",
+      "An Dương Vương"
+    ],
+    "correct": 0,
+    "explanation": "Người Việt Nam tự hào mang trong mình dòng máu 'Con Rồng cháu Tiên' từ bọc trăm trứng của mẹ Âu Cơ."
+  },
+  {
+    "id": 880,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Đi một ngày đàng, học một ... khôn'?",
+    "options": [
+      "sàng",
+      "bồ",
+      "gánh",
+      "bao"
+    ],
+    "correct": 0,
+    "explanation": "Khuyên con người nên đi ra ngoài giao lưu học hỏi để mở rộng tầm hiểu biết."
+  },
+  {
+    "id": 881,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc cụ nào làm từ ống trúc hoặc nứa có khoét lỗ thổi hơi ngang tạo nên tiếng nhạc véo von đồng quê?",
+    "options": [
+      "Cây sáo trúc",
+      "Kèn bầu",
+      "Đàn nhị",
+      "Trống cơm"
+    ],
+    "correct": 0,
+    "explanation": "Tiếng sáo trúc gắn liền với hình ảnh chú bé chăn trâu trên đồng cỏ Việt Nam."
+  },
+  {
+    "id": 882,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Ai là tác giả của truyện ngắn nổi tiếng 'Làng' thể hiện tình yêu quê hương đất nước tha thiết của ông Hai?",
+    "options": [
+      "Kim Lân",
+      "Nam Cao",
+      "Tô Hoài",
+      "Thạch Lam"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Kim Lân miêu tả tâm lý nhân vật ông Hai khi nghe tin làng chợ Dầu theo giặc."
+  },
+  {
+    "id": 883,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Thương người như thể thương ...'?",
+    "options": [
+      "thân",
+      "mình",
+      "ai",
+      "bạn"
+    ],
+    "correct": 0,
+    "explanation": "Lòng nhân ái bao la xem nỗi đau của người khác như chính thân thể mình."
+  },
+  {
+    "id": 884,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm 'Tuyên ngôn Độc lập' của Chủ tịch Hồ Chí Minh mở đầu bằng trích dẫn hai bản tuyên ngôn lịch sử của những nước nào?",
+    "options": [
+      "Nước Mỹ (1776) và nước Pháp (1791)",
+      "Nước Anh và nước Pháp",
+      "Nước Nga và nước Mỹ",
+      "Nước Pháp và nước Đức"
+    ],
+    "correct": 0,
+    "explanation": "Bác trích Tuyên ngôn Độc lập Mỹ năm 1776 và Tuyên ngôn Nhân quyền & Dân quyền Pháp năm 1791."
+  },
+  {
+    "id": 885,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Tiếng hát con tàu' với câu thơ 'Khi ta ở, chỉ là nơi đất ở / Khi ta đi, đất đã hóa tâm hồn' là của nhà thơ nào?",
+    "options": [
+      "Chế Lan Viên",
+      "Tế Hanh",
+      "Huy Cận",
+      "Hàn Mặc Tử"
+    ],
+    "correct": 0,
+    "explanation": "Chế Lan Viên viết về nỗi nhớ Tây Bắc da diết và tâm huyết cống hiến cho công cuộc kiến thiết miền núi."
+  },
+  {
+    "id": 886,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhân vật cụ Mết trong truyện ngắn 'Rừng xà nu' của nhà văn Nguyễn Trung Thành căn dặn dân làng điều gì?",
+    "options": [
+      "'Chúng nó đã cầm súng, mình phải cầm giáo!'",
+      "'Phải chạy trốn vào rừng sâu'",
+      "'Phải đầu hàng giặc'",
+      "'Phải đốt hết rẫy'"
+    ],
+    "correct": 0,
+    "explanation": "Câu nói chân lý của cụ Mết khẳng định con đường đấu tranh vũ trang bất khuất của dân làng Xô Man."
+  },
+  {
+    "id": 887,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Vở kịch 'Bắc Sơn' phản ánh cuộc khởi nghĩa chống Pháp ở Lạng Sơn là sáng tác của nhà viết kịch nào?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Lưu Quang Vũ",
+      "Tào Mạt",
+      "Đoàn Phú Tứ"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Huy Tưởng là cây bút kịch lịch sử xuất sắc của nền văn học cách mạng."
+  },
+  {
+    "id": 888,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài hát 'Câu hò bên bờ Hiền Lương' da diết nỗi niềm mong ngày Bắc - Nam sum họp do nhạc sĩ nào sáng tác?",
+    "options": [
+      "Hoàng Hiệp",
+      "Phan Huỳnh Điểu",
+      "Văn Cao",
+      "Trịnh Công Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Hoàng Hiệp phổ thơ Đằng Giao viết về con sông giới tuyến vĩ tuyến 17 Hiền Lương."
+  },
+  {
+    "id": 889,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào quê ở Quảng Nam nổi tiếng với bài thơ 'Nhớ con sông quê hương' ('Quê hương tôi có con sông xanh biếc...')?",
+    "options": [
+      "Tế Hanh",
+      "Quang Dũng",
+      "Hữu Thỉnh",
+      "Nguyễn Khoa Điềm"
+    ],
+    "correct": 0,
+    "explanation": "Tế Hanh dành cả cuộc đời thơ để khắc họa hình ảnh dòng sông Trà Bồng và làng chài quê hương."
+  },
+  {
+    "id": 890,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bức tranh sơn mài 'Kết nạp Đảng ở Điện Biên Phủ' được xếp hạng Bảo vật Quốc gia năm 2013 là của họa sĩ nào?",
+    "options": [
+      "Nguyễn Sáng",
+      "Tô Ngọc Vân",
+      "Trần Văn Cẩn",
+      "Nguyễn Tư Nghiêm"
+    ],
+    "correct": 0,
+    "explanation": "Họa sĩ Nguyễn Sáng hoàn thành tác phẩm kiệt tác sơn mài này với bố cục hình khối hào hùng."
+  },
+  {
+    "id": 891,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Điệu hát Chầu văn truyền thống gắn liền với nghi lễ tâm linh nào của người Việt được UNESCO vinh danh?",
+    "options": [
+      "Nghi lễ Thực hành Tín ngưỡng Thờ Mẫu Tam phủ",
+      "Lễ cầu mưa",
+      "Lễ cúng trăng",
+      "Lễ tịch điền"
+    ],
+    "correct": 0,
+    "explanation": "Hát văn (hát chầu văn) với đàn nguyệt và phách là linh hồn của các giá hầu đồng thờ Mẫu."
+  },
+  {
+    "id": 892,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện cổ tích nào lý giải nguồn gốc của quả dưa hấu ruột đỏ ngọt mát trên vùng đất bãi bồi ven biển?",
+    "options": [
+      "Sự tích Mai An Tiêm",
+      "Sự tích bánh chưng bánh giầy",
+      "Sự tích trầu cau",
+      "Sự tích dưa gang"
+    ],
+    "correct": 0,
+    "explanation": "Chàng Mai An Tiêm bị đày ra đảo hoang đã kiên trì gây giống dưa hấu nhờ hạt chim thả rơi."
+  },
+  {
+    "id": 893,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Đoàn thuyền đánh cá' với không khí lao động hăng say giữa biển đêm là của nhà thơ nào?",
+    "options": [
+      "Huy Cận",
+      "Xuân Diệu",
+      "Tố Hữu",
+      "Chế Lan Viên"
+    ],
+    "correct": 0,
+    "explanation": "'Mặt trời xuống biển như hòn lửa / Sóng đã cài then, đêm sập cửa / Đoàn thuyền đánh cá lại ra khơi' - Huy Cận (1958)."
+  },
+  {
+    "id": 894,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm 'Chiếc lược ngà' viết về tình phụ tử thiêng liêng giữa người chiến sĩ cách mạng và con gái là của nhà văn nào?",
+    "options": [
+      "Nguyễn Quang Sáng",
+      "Đoàn Giỏi",
+      "Nguyễn Thi",
+      "Anh Đức"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Quang Sáng viết về bé Thu và người cha - anh Sáu trong khói lửa chiến tranh."
+  },
+  {
+    "id": 895,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào là tác giả của trường ca 'Mặt đường khát vọng' với chương 'Đất Nước' trứ danh?",
+    "options": [
+      "Nguyễn Khoa Điềm",
+      "Thanh Thảo",
+      "Nguyễn Duy",
+      "Trần Đăng Khoa"
+    ],
+    "correct": 0,
+    "explanation": "'Đất Nước có trong những cái ngày xửa ngày xưa mẹ thường hay kể...' - trường ca ra đời tại chiến khu Trị - Thiên năm 1971."
+  },
+  {
+    "id": 896,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài ca dao 'Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ, canh gà ...' nhắc đến địa danh nào của Hà Nội?",
+    "options": [
+      "Thọ Xương",
+      "Yên Phụ",
+      "Hàng Buồm",
+      "Bạch Mai"
+    ],
+    "correct": 0,
+    "explanation": "Tiếng chuông chùa Trấn Vũ và tiếng gà gáy canh ba ở phường Thọ Xương bên Hồ Tây."
+  },
+  {
+    "id": 897,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm truyện ngắn 'Vợ chồng A Phủ' viết về sức sống mãnh liệt của người dân vùng cao Tây Bắc?",
+    "options": [
+      "Tô Hoài",
+      "Nguyễn Tuân",
+      "Nam Cao",
+      "Nguyên Hồng"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Tô Hoài cùng ăn, cùng ở với đồng bào H'Mông và viết nên tập 'Truyện Tây Bắc' năm 1952."
+  },
+  {
+    "id": 898,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhạc sĩ nào được xưng tụng là 'Người con của núi rừng Tây Nguyên' với những ca khúc hào sảng như 'Ly cà phê Ban Mê', 'Ơi M'Drak'?",
+    "options": [
+      "Nguyễn Cường",
+      "Trần Tiến",
+      "Y Phôn Ksor",
+      "Phó Đức Phương"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Nguyễn Cường gắn bó mật thiết với vùng đất bazan Tây Nguyên đầy nắng gió."
+  },
+  {
+    "id": 899,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Trong 'Truyện Kiều', sau 15 năm lưu lạc truân chuyên, Thúy Kiều đã được vị sư giác ngộ nào vớt lên cứu sống bên bờ sông Tiền Đường?",
+    "options": [
+      "Sư Giác Duyên",
+      "Sư Đàm Vân",
+      "Sư Huyền Quang",
+      "Vãi Trạc Tuyền"
+    ],
+    "correct": 0,
+    "explanation": "Sư Giác Duyên nhờ đạo nhân dệt lưới sẵn bên sông Tiền Đường kịp thời vớt Kiều khi nàng trẫm mình."
+  },
+  {
+    "id": 900,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Tác phẩm văn học trung đại 'Truyền kỳ mạn lục' được danh sĩ thời xưa ca ngợi là 'Thiên cổ kỳ bút' là của tác giả nào?",
+    "options": [
+      "Nguyễn Dữ",
+      "Lê Thánh Tông",
+      "Lý Tế Xuyên",
+      "Đoàn Thị Điểm"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Dữ (học trò Trạng Trình Nguyễn Bỉnh Khiêm) sáng tác 20 truyện ngắn kỳ ảo phản ánh xã hội phong kiến."
+  },
+  {
+    "id": 901,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Vở kịch kinh điển nào của đại văn hào William Shakespeare có câu thoại triết học trăn trở bất hủ: 'To be or not to be' (Tồn tại hay không tồn tại)?",
+    "options": [
+      "Hamlet",
+      "Romeo và Juliet",
+      "Othello",
+      "Macbeth"
+    ],
+    "correct": 0,
+    "explanation": "Chàng hoàng tử Hamlet trăn trở về sứ mệnh, lẽ sống và cái chết trước bi kịch hoàng gia Đan Mạch."
+  },
+  {
+    "id": 902,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của bản trường ca 'Đẻ đất đẻ nước' (Te tấc te đác), pho sử thi dân gian đồ sộ của người Mường?",
+    "options": [
+      "Sáng tác tập thể của cộng đồng người Mường",
+      "Nghệ nhân Mo Mường Bùi Văn Lương",
+      "Vua Hùng",
+      "Thầy mo"
+    ],
+    "correct": 0,
+    "explanation": "Sử thi 'Đẻ đất đẻ nước' là di sản truyền khẩu vô giá đúc kết tri thức vũ trụ của tộc người Mường."
+  },
+  {
+    "id": 903,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Bài thơ chữ Hán 'Bạch Đằng giang phú' ca ngợi chiến thắng oanh liệt của tổ tiên trên sông Bạch Đằng là kiệt tác của danh nhân nào thời Trần?",
+    "options": [
+      "Trương Hán Siêu",
+      "Phạm Sư Mạnh",
+      "Nguyễn Trung Ngạn",
+      "Chu Văn An"
+    ],
+    "correct": 0,
+    "explanation": "Hàn lâm học sĩ Trương Hán Siêu chắp bút 'Bạch Đằng giang phú' với lời tổng kết bất hủ: 'Giặc tan muôn thuở thanh bình / Bởi đâu đất hiểm, cốt mình đức cao'."
+  },
+  {
+    "id": 904,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Chị ngã em ...'?",
+    "options": [
+      "nâng",
+      "đỡ",
+      "kéo",
+      "dắt"
+    ],
+    "correct": 0,
+    "explanation": "Thành ngữ ca ngợi tình cảm chị em ruột thịt yêu thương đùm bọc lẫn nhau."
+  },
+  {
+    "id": 905,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện ngụ ngôn 'Rùa và Thỏ', tại sao chú Rùa chậm chạp lại chiến thắng chú Thỏ chạy nhanh?",
+    "options": [
+      "Vì Thỏ chủ quan kiêu ngạo nằm ngủ quên dọc đường",
+      "Vì Rùa chạy nhanh hơn",
+      "Vì Thỏ bị lạc đường",
+      "Vì có người giúp Rùa"
+    ],
+    "correct": 0,
+    "explanation": "Tính kiên trì, nhẫn nại và không chủ quan của Rùa đã mang lại chiến thắng vẻ vang."
+  },
+  {
+    "id": 906,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bao giờ cho đến tháng ba / Hoa gạo rụng xuống bà già cất ...'?",
+    "options": [
+      "chăn",
+      "áo",
+      "chiếu",
+      "mền"
+    ],
+    "correct": 0,
+    "explanation": "'Bao giờ cho đến tháng ba / Hoa gạo rụng xuống bà già cất chăn' - thời tiết ấm áp sang hè."
+  },
+  {
+    "id": 907,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhạc cụ gõ truyền thống bằng đồng có núm ở giữa phát ra âm thanh vang rền trong lễ hội Tây Nguyên là gì?",
+    "options": [
+      "Cồng chiêng",
+      "Trống đồng",
+      "Đàn t'rưng",
+      "Kèn đá"
+    ],
+    "correct": 0,
+    "explanation": "Không gian văn hóa Cồng chiêng Tây Nguyên là kiệt tác di sản truyền khẩu phi vật thể nhân loại."
+  },
+  {
+    "id": 908,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Lời nói chẳng mất tiền mua / Lựa lời mà nói cho ... lòng nhau'?",
+    "options": [
+      "vừa",
+      "thuận",
+      "hợp",
+      "thấu"
+    ],
+    "correct": 0,
+    "explanation": "Khuyên nhủ con người cư xử văn minh, ăn nói lịch thiệp tôn trọng lẫn nhau."
+  },
+  {
+    "id": 909,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện ngắn 'Lão Hạc' của nhà văn Nam Cao kể về tình cảnh đau xót của người nông dân nghèo phải bán đi con chó yêu quý tên là gì?",
+    "options": [
+      "Cậu Vàng",
+      "Cậu Vện",
+      "Cậu Mực",
+      "Cậu Đốm"
+    ],
+    "correct": 0,
+    "explanation": "Lão Hạc dằn vặt khóc thương sau khi bán cậu Vàng để giữ lại mảnh vườn cho con trai."
+  },
+  {
+    "id": 910,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Tiểu đội xe không kính' với tinh thần lạc quan, hiên ngang của các chiến sĩ lái xe Trường Sơn là của ai?",
+    "options": [
+      "Phạm Tiến Duật",
+      "Chính Hữu",
+      "Hữu Thỉnh",
+      "Nguyễn Duy"
+    ],
+    "correct": 0,
+    "explanation": "'Không có kính không phải vì xe không có kính / Bom giật bom rung kính vỡ đi rồi' - thơ Phạm Tiến Duật."
+  },
+  {
+    "id": 911,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm văn học 'Dấu chân người lính' viết về chiến dịch Đường 9 - Khe Sanh năm 1968 là của nhà văn nào?",
+    "options": [
+      "Nguyễn Minh Châu",
+      "Bảo Ninh",
+      "Lê Lựu",
+      "Hồ Phương"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Minh Châu là cây bút mở đường tinh tế của văn học Việt Nam hiện đại."
+  },
+  {
+    "id": 912,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào viết bài thơ 'Tre Việt Nam' ('Tre xanh xanh tự bao giờ / Chuyện ngày xưa đã có bờ tre xanh...')?",
+    "options": [
+      "Nguyễn Duy",
+      "Trần Đăng Khoa",
+      "Tế Hanh",
+      "Huy Cận"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Nguyễn Duy tôn vinh hình ảnh cây tre dẻo dai kiên cường biểu tượng cho phẩm chất con người Việt Nam."
+  },
+  {
+    "id": 913,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "Ai là tác giả của tác phẩm chính luận mẫu mực 'Hịch tướng sĩ' khích lệ tinh thần yêu nước đánh giặc Nguyên Mông năm 1284?",
+    "options": [
+      "Hưng Đạo Đại vương Trần Quốc Tuấn",
+      "Trần Quang Khải",
+      "Trần Thái Tông",
+      "Lý Thường Kiệt"
+    ],
+    "correct": 0,
+    "explanation": "'Ta thường tới bữa quên ăn, nửa đêm vỗ gối, ruột đau như cắt, nước mắt đầm đìa...' - áng hùng văn bất hủ của Trần Quốc Tuấn."
+  },
+  {
+    "id": 914,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Tốt gỗ hơn tốt ...'?",
+    "options": [
+      "nước sơn",
+      "vỏ",
+      "áo",
+      "hình"
+    ],
+    "correct": 0,
+    "explanation": "Đề cao giá trị phẩm chất đạo đức bên trong hơn vẻ hào nhoáng hình thức bên ngoài."
+  },
+  {
+    "id": 915,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Cây khế', con chim thần đã chở người em ra đảo lấy vàng bằng lời dặn nổi tiếng nào?",
+    "options": [
+      "'Ăn một quả, trả cục vàng, may túi ba gang, mang đi mà đựng'",
+      "'Ăn một quả, trả một lượng'",
+      "'May túi mười gang'",
+      "'Lấy bao nhiêu tùy thích'"
+    ],
+    "correct": 0,
+    "explanation": "Lời dặn nhân quả: người em hiền lành may túi đúng ba gang được chim trả ơn giàu có."
+  },
+  {
+    "id": 916,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Ai là tác giả của câu thơ nổi tiếng: 'Đầu lòng hai ả tố nga / Thúy Kiều là chị, em là Thúy Vân'?",
+    "options": [
+      "Đại thi hào Nguyễn Du",
+      "Đoàn Thị Điểm",
+      "Hồ Xuân Hương",
+      "Bà Huyện Thanh Quan"
+    ],
+    "correct": 0,
+    "explanation": "Nguyễn Du miêu tả nhan sắc 'mười phân vẹn mười' của hai chị em Thúy Kiều đầu kiệt tác Đoạn trường tân thanh."
+  },
+  {
+    "id": 917,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Bếp lửa' với hình ảnh người bà tần tảo nhóm lên tình yêu thương sưởi ấm tâm hồn cháu là của nhà thơ nào?",
+    "options": [
+      "Bằng Việt",
+      "Hữu Thỉnh",
+      "Phạm Tiến Duật",
+      "Nguyễn Duy"
+    ],
+    "correct": 0,
+    "explanation": "'Một bếp lửa chờn vờn sương sớm / Một bếp lửa ấp iu nồng đượm...' - thơ Bằng Việt viết năm 1963 tại Liên Xô."
+  },
+  {
+    "id": 918,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm văn học 'Mùa lạc' ngợi ca cuộc sống lao động hồi sinh trên nông trường Điện Biên là của nhà văn nào?",
+    "options": [
+      "Nguyễn Khải",
+      "Nguyễn Minh Châu",
+      "Bùi Hiển",
+      "Nguyễn Tuân"
+    ],
+    "correct": 0,
+    "explanation": "'Ở đời này không có con đường cùng, chỉ có những ranh giới, điều cốt yếu là phải có sức mạnh để bước qua...' - Nguyễn Khải."
+  },
+  {
+    "id": 919,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng gốm cổ truyền Bát Tràng nổi tiếng với các sản phẩm men ngọc, men lam tinh xảo nằm ven bờ sông Hồng thuộc huyện nào của Hà Nội?",
+    "options": [
+      "Huyện Gia Lâm",
+      "Huyện Đông Anh",
+      "Huyện Thanh Trì",
+      "Huyện Sóc Sơn"
+    ],
+    "correct": 0,
+    "explanation": "Làng gốm Bát Tràng có lịch sử hơn 700 năm bên tả ngạn sông Hồng thuộc huyện Gia Lâm."
+  },
+  {
+    "id": 920,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Kiệt tác kịch 'Vũ Như Tô' phản ánh bi kịch giữa nghệ thuật siêu đẳng và quyền lợi thiết thực của nhân dân qua công trình Cửu Trùng Đài là của ai?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Lưu Quang Vũ",
+      "Tào Mạt",
+      "Vi Huyền Đắc"
+    ],
+    "correct": 0,
+    "explanation": "Vở kịch lịch sử 5 hồi của Nguyễn Huy Tưởng đặt ra câu hỏi muôn thuở về mối quan hệ giữa nghệ sĩ và nhân dân."
+  },
+  {
+    "id": 921,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu thành ngữ: 'Uống nước nhớ ...'?",
+    "options": [
+      "nguồn",
+      "sông",
+      "suối",
+      "dòng"
+    ],
+    "correct": 0,
+    "explanation": "Đạo lý truyền thống tri ân cội nguồn, tổ tiên của người Việt Nam."
+  },
+  {
+    "id": 922,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện 'Sơn Tinh - Thủy Tinh', sính lễ vua Hùng yêu cầu để cưới công chúa Mỵ Nương gồm 'Voi chín ngà, gà chín cựa, ngựa chín ...'?",
+    "options": [
+      "hồng mao",
+      "đuôi",
+      "sừng",
+      "chân"
+    ],
+    "correct": 0,
+    "explanation": "'Voi chín ngà, gà chín cựa, ngựa chín hồng mao' - sính lễ hiếm có của núi rừng."
+  },
+  {
+    "id": 923,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Bài hát 'Tiến lên đoàn viên' với lời ca 'Tiến bước theo cờ Lý Tự Trọng...' do nhạc sĩ nào sáng tác?",
+    "options": [
+      "Phạm Tuyên",
+      "Phong Nhã",
+      "Lưu Hữu Phước",
+      "Hoàng Vân"
+    ],
+    "correct": 0,
+    "explanation": "Nhạc sĩ Phạm Tuyên sáng tác ca khúc cổ vũ tinh thần thanh thiếu niên năm 1954."
+  },
+  {
+    "id": 924,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm tiểu thuyết lịch sử 'Lá cờ thêu sáu chữ vàng' tái hiện hình ảnh anh hùng trẻ tuổi Trần Quốc Toản?",
+    "options": [
+      "Nguyễn Huy Tưởng",
+      "Tô Hoài",
+      "Hà Ân",
+      "Nam Cao"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Nguyễn Huy Tưởng khắc họa hào khí Đông A qua tấm lòng vì nước của Trần Quốc Toản."
+  },
+  {
+    "id": 925,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Chiều biên giới' với câu hát 'Chiều biên giới em ơi / Có nơi nào cao hơn...' do nhạc sĩ Trần Chung phổ nhạc là thơ của ai?",
+    "options": [
+      "Lò Ngân Sủn",
+      "Hữu Thỉnh",
+      "Trần Đăng Khoa",
+      "Lò Văn Mười"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ dân tộc Dáy Lò Ngân Sủn viết nên những vần thơ hùng tráng về dải đất biên cương Bát Xát."
+  },
+  {
+    "id": 926,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng tranh dân gian Kim Hoàng ở Hoài Đức (Hà Nội) nổi tiếng với kỹ thuật in mộc bản trên nền giấy màu gì?",
+    "options": [
+      "Giấy đỏ (hoặc giấy hồng điều)",
+      "Giấy điệp trắng",
+      "Giấy vàng",
+      "Giấy nâu"
+    ],
+    "correct": 0,
+    "explanation": "Tranh Đỏ Kim Hoàng in trên nền giấy hồng điều với nét vẽ đen phóng khoáng là nét đặc sắc xứ Đoài."
+  },
+  {
+    "id": 927,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Tác phẩm thơ trường thiên bất hủ 'Chinh phụ ngâm' nguyên tác bằng chữ Hán do danh sĩ nào chắp bút dưới thời Lê - Trịnh?",
+    "options": [
+      "Đặng Trần Côn (Đoàn Thị Điểm diễn Nôm)",
+      "Nguyễn Gia Thiều",
+      "Nguyễn Du",
+      "Phan Huy Chú"
+    ],
+    "correct": 0,
+    "explanation": "Đặng Trần Côn viết Chinh phụ ngâm bằng chữ Hán, sau đó nữ sĩ Đoàn Thị Điểm dịch sang thể thơ song thất lục bát tuyệt mỹ."
+  },
+  {
+    "id": 928,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Ngôi đền thờ Thần Đồng Cổ nổi tiếng linh thiêng thời Lý với hội thề Trung hiếu nằm bên bờ sông nào ở Hà Nội?",
+    "options": [
+      "Sông Tô Lịch",
+      "Sông Hồng",
+      "Sông Đuống",
+      "Sông Nhuệ"
+    ],
+    "correct": 0,
+    "explanation": "Đền Đồng Cổ trên đường Thụy Khuê ven sông Tô Lịch gắn với Hội thề Trung hiếu vua Lý Thái Tông lập năm 1028."
+  },
+  {
+    "id": 929,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nước ta có danh xưng 'Thủ đô chè' với đồi chè Tân Cương nức tiếng?",
+    "options": [
+      "Thái Nguyên",
+      "Phú Thọ",
+      "Tuyên Quang",
+      "Yên Bái"
+    ],
+    "correct": 0,
+    "explanation": "Chè Tân Cương (Thái Nguyên) có hương thơm cốm non và vị tiền chát hậu ngọt đệ nhất danh trà."
+  },
+  {
+    "id": 930,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Khu dự trữ sinh quyển Cần Giờ rừng ngập mặn xanh tốt là lá phổi xanh của thành phố nào?",
+    "options": [
+      "TP. Hồ Chí Minh",
+      "Bà Rịa - Vũng Tàu",
+      "Đồng Nai",
+      "Tiền Giang"
+    ],
+    "correct": 0,
+    "explanation": "Rừng ngập mặn Cần Giờ là khu dự trữ sinh quyển thế giới đầu tiên của Việt Nam được UNESCO công nhận."
+  },
+  {
+    "id": 931,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cửa biển nào ở Quảng Ninh là nơi ba lần trong lịch sử dân tộc chứng kiến những chiến thắng Bạch Đằng hiển hách?",
+    "options": [
+      "Cửa biển sông Bạch Đằng (Yên Hưng / Thủy Nguyên)",
+      "Cửa Lục",
+      "Cửa Ông",
+      "Cửa Soài Rạp"
+    ],
+    "correct": 0,
+    "explanation": "Sông Bạch Đằng lưu danh 3 chiến thắng oanh liệt của Ngô Quyền (938), Lê Hoàn (981) và Trần Hưng Đạo (1288)."
+  },
+  {
+    "id": 932,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Đảo Hòn Khoai cụm đảo tuyệt đẹp có ngọn hải đăng hơn 100 năm tuổi thuộc tỉnh nào?",
+    "options": [
+      "Cà Mau",
+      "Kiên Giang",
+      "Bạc Liêu",
+      "Sóc Trăng"
+    ],
+    "correct": 0,
+    "explanation": "Hòn Khoai là hòn đảo đá nguyên sinh cách bờ biển Ngọc Hiển (Cà Mau) khoảng 14 km."
+  },
+  {
+    "id": 933,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Núi Chóp Chài ngọn núi biểu tượng sừng sững giữa đồng bằng lúa Tuy Hòa thuộc tỉnh nào?",
+    "options": [
+      "Phú Yên",
+      "Bình Định",
+      "Khánh Hòa",
+      "Ninh Thuận"
+    ],
+    "correct": 0,
+    "explanation": "Núi Chóp Chài cao 391m như một kim tự tháp xanh che chở cho thành phố Tuy Hòa xinh đẹp."
+  },
+  {
+    "id": 934,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Dòng sông nào ở miền Trung bắt nguồn từ dãy Ngọc Linh đổ ra biển Cửa Đại chia làm hai nhánh sông Thu Bồn và sông Vu Gia?",
+    "options": [
+      "Hệ thống sông Thu Bồn",
+      "Sông Trà Khúc",
+      "Sông Thạch Hãn",
+      "Sông Nhật Lệ"
+    ],
+    "correct": 0,
+    "explanation": "Sông Thu Bồn là mạch nguồn sự sống của xứ Quảng chảy qua thánh địa Mỹ Sơn và phố cổ Hội An."
+  },
+  {
+    "id": 935,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không có bột, không có nhân mà lăn tròn bon bon trên đường phố?",
+    "options": [
+      "Bánh xe",
+      "Bánh rán",
+      "Bánh bao",
+      "Bánh mì"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe bằng cao su lăn trên đường phố."
+  },
+  {
+    "id": 936,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì sinh ra đã biết leo trèo thoăn thoắt, thích ăn chuối và hay bắt chước điệu bộ con người?",
+    "options": [
+      "Con khỉ",
+      "Con chó",
+      "Con mèo",
+      "Con gấu"
+    ],
+    "correct": 0,
+    "explanation": "Loài khỉ tinh nghịch có bộ não phát triển và khả năng bắt chước hành vi con người rất nhanh."
+  },
+  {
+    "id": 937,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có mặt nhưng không có mũi tai, có ba chiếc kim chạy suốt đêm ngày?",
+    "options": [
+      "Đồng hồ treo tường",
+      "Cái la bàn",
+      "Cái cân",
+      "Thước dây"
+    ],
+    "correct": 0,
+    "explanation": "Mặt đồng hồ và ba kim giờ, phút, giây đếm nhịp thời gian."
+  },
+  {
+    "id": 938,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 4 chữ cái, bỏ dấu thành tên một loài thú săn mồi dũng mãnh chúa sơn lâm?",
+    "options": [
+      "Hổ (Hố - Hổ)",
+      "Báo",
+      "Gấu",
+      "Sói"
+    ],
+    "correct": 0,
+    "explanation": "Hố sâu bỏ dấu sắc thành Hổ (chúa sơn lâm)."
+  },
+  {
+    "id": 939,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người nhảy xuống nước biển sâu mà quần áo không bị ướt chút nào, vì sao?",
+    "options": [
+      "Người đó mặc bộ đồ lặn kín hoàn toàn (hoặc ở trong tàu ngầm)",
+      "Biển không có nước",
+      "Người biết bay",
+      "Biển nhân tạo"
+    ],
+    "correct": 0,
+    "explanation": "Bộ đồ lặn khô áp suất cao (Dry suit) chống thấm nước 100% giúp người mặc không bị ướt."
+  },
+  {
+    "id": 940,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui dân gian: 'Cột tròn thẳng tắp giữa đồng, đội chiếc nón lá trắng ngần đón mây' là cây gì thân quen?",
+    "options": [
+      "Cây cau",
+      "Cây dừa",
+      "Cây tre",
+      "Cây chuối"
+    ],
+    "correct": 0,
+    "explanation": "Hàng cau thẳng tắp vươn cao với buồng hoa cau trắng muốt thơm ngát góc vườn quê."
+  },
+  {
+    "id": 941,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Bữa cơm gia đình truyền thống của người Việt thường có món canh, món xào và món gì ăn kèm cơm trắng?",
+    "options": [
+      "Món kho (hoặc món mặn)",
+      "Món kem",
+      "Món bánh ngọt",
+      "Món chè"
+    ],
+    "correct": 0,
+    "explanation": "Cơ cấu bữa cơm Việt chuẩn mực luôn có canh thanh mát, rau xào và món mặn kho đậm đà đưa cơm."
+  },
+  {
+    "id": 942,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng họp trực tuyến và học tập từ xa bùng nổ toàn cầu trong đại dịch COVID-19 là gì?",
+    "options": [
+      "Zoom",
+      "Photoshop",
+      "Word",
+      "Excel"
+    ],
+    "correct": 0,
+    "explanation": "Zoom Meetings cho phép kết nối hàng trăm người cùng thảo luận qua video trực tuyến độ trễ thấp."
+  },
+  {
+    "id": 943,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Hệ thống truyền hình xem phim trực tuyến hàng đầu thế giới với logo chữ 'N' đỏ rực là gì?",
+    "options": [
+      "Netflix",
+      "Spotify",
+      "Amazon",
+      "Disney"
+    ],
+    "correct": 0,
+    "explanation": "Netflix cung cấp kho phim điện ảnh, tài liệu và series truyền hình bản quyền phong phú."
+  },
+  {
+    "id": 944,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món đặc sản 'Cốm làng Vòng' thơm ngát hương nếp non bọc trong lá sen xanh mát gắn liền với mùa nào của Hà Nội?",
+    "options": [
+      "Mùa thu",
+      "Mùa xuân",
+      "Mùa hè",
+      "Mùa đông"
+    ],
+    "correct": 0,
+    "explanation": "Thạch Lam từng viết: 'Cốm là thức quà riêng biệt của đất nước, là thức dâng của những cánh đồng lúa bát ngát...'."
+  },
+  {
+    "id": 945,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Định dạng ảnh số phổ biến nhất trên Internet với khả năng nén kích thước tệp nhẹ mà vẫn giữ độ chi tiết cao là định dạng nào?",
+    "options": [
+      "JPEG (JPG)",
+      "BMP",
+      "TIFF",
+      "RAW"
+    ],
+    "correct": 0,
+    "explanation": "Chuẩn JPEG (Joint Photographic Experts Group) là định dạng ảnh tiêu chuẩn của nhiếp ảnh số và web."
+  },
+  {
+    "id": 946,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Môn thể thao nào mà các vận động viên lướt trên ván gỗ hoặc sợi thủy tinh trên những ngọn sóng biển dâng cao?",
+    "options": [
+      "Lướt sóng (Surfing)",
+      "Chèo kayak",
+      "Lặn biển",
+      "Bóng nước"
+    ],
+    "correct": 0,
+    "explanation": "Lướt sóng là môn thể thao mạo hiểm chinh phục sức mạnh của những con sóng đại dương."
+  },
+  {
+    "id": 947,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Cấu trúc dữ liệu hình cây trong khoa học máy tính mà mỗi nút có tối đa hai nút con được gọi là gì?",
+    "options": [
+      "Cây nhị phân (Binary Tree)",
+      "Đồ thị",
+      "Hàng đợi",
+      "Danh sách liên kết"
+    ],
+    "correct": 0,
+    "explanation": "Cây nhị phân và cây tìm kiếm nhị phân (BST) là cấu trúc nền tảng cho các thuật toán tìm kiếm và sắp xếp dữ liệu tối ưu."
+  },
+  {
+    "id": 948,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Động vật lưỡng cư có thể sống ở cả hai môi trường nào?",
+    "options": [
+      "Dưới nước và trên cạn",
+      "Trên cây và trong hang",
+      "Dưới biển sâu và bay trên trời",
+      "Trong cát và trên băng"
+    ],
+    "correct": 0,
+    "explanation": "Lưỡng cư (như ếch, cóc, nhái) sinh sản và phát triển dưới nước, trưởng thành sống trên cạn."
+  },
+  {
+    "id": 949,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào của hoa thường có màu sắc sặc sỡ và hương thơm quyến rũ côn trùng đến thụ phấn?",
+    "options": [
+      "Cánh hoa (Tràng hoa)",
+      "Đài hoa",
+      "Nhị hoa",
+      "Noãn hoa"
+    ],
+    "correct": 0,
+    "explanation": "Màu sắc rực rỡ của cánh hoa hấp dẫn ong bướm đến hút mật và mang phấn hoa đi thụ phấn chéo."
+  },
+  {
+    "id": 950,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất khí nào chiếm thành phần chủ yếu tạo nên những đám mây trắng bồng bềnh trên bầu trời?",
+    "options": [
+      "Hơi nước li ti ngưng tụ thành hạt lỏng",
+      "Khí hydro",
+      "Khí oxy",
+      "Khí cacbonic"
+    ],
+    "correct": 0,
+    "explanation": "Mây là tập hợp của hàng tỷ giọt nước hoặc tinh thể băng siêu nhỏ lơ lửng trong không khí."
+  },
+  {
+    "id": 951,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Cơ quan thụ cảm thị giác trong mắt người chuyển đổi ánh sáng thành tín hiệu điện truyền lên não là gì?",
+    "options": [
+      "Võng mạc (màng lưới)",
+      "Giác mạc",
+      "Thủy tinh thể",
+      "Đồng tử"
+    ],
+    "correct": 0,
+    "explanation": "Tế bào hình que và tế bào hình nón trên võng mạc tiếp nhận photon ánh sáng truyền qua dây thần kinh thị giác."
+  },
+  {
+    "id": 952,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình một chất chuyển trực tiếp từ thể rắn sang thể khí mà không qua thể lỏng được gọi là gì?",
+    "options": [
+      "Sự thăng hoa",
+      "Sự ngưng tụ",
+      "Sự nóng chảy",
+      "Sự đông đặc"
+    ],
+    "correct": 0,
+    "explanation": "Hiện tượng thăng hoa điển hình thấy ở băng khô (CO2 rắn) hoặc viên long não để trong tủ quần áo."
+  },
+  {
+    "id": 953,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng nhật thực toàn phần chỉ có thể quan sát được khi người đứng nằm trong vùng nào của bóng Mặt Trăng?",
+    "options": [
+      "Vùng bóng tối hoàn toàn (Umbra)",
+      "Vùng bóng nửa tối (Penumbra)",
+      "Vùng xích đạo",
+      "Vùng cực"
+    ],
+    "correct": 0,
+    "explanation": "Khi đứng trong dải bóng tối Umbra, Mặt Trời bị Mặt Trăng che khuất 100% để lộ vành nhật hoa lộng lẫy."
+  },
+  {
+    "id": 954,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Loại liên kết hóa học nào hình thành do lực hút tĩnh điện giữa các ion mang điện tích trái dấu?",
+    "options": [
+      "Liên kết ion",
+      "Liên kết cộng hóa trị",
+      "Liên kết kim loại",
+      "Liên kết hidro"
+    ],
+    "correct": 0,
+    "explanation": "Liên kết ion (như trong phân tử muối ăn NaCl: Na+ và Cl-) có nhiệt độ nóng chảy và độ bền liên kết rất cao."
+  },
+  {
+    "id": 955,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ngày Quốc tế Lao động được kỷ niệm vào ngày tháng nào hàng năm?",
+    "options": [
+      "1/5",
+      "30/4",
+      "8/3",
+      "2/9"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 1/5 là ngày hội đoàn kết của giai cấp công nhân và nhân dân lao động trên toàn thế giới."
+  },
+  {
+    "id": 956,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị vua nào của triều Lý lập nên Quốc Tử Giám trường đại học đầu tiên năm 1076?",
+    "options": [
+      "Lý Nhân Tông",
+      "Lý Thánh Tông",
+      "Lý Thái Tổ",
+      "Lý Thái Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Nhân Tông cho xây dựng Quốc Tử Giám bên cạnh Văn Miếu để dạy học cho con em hoàng tộc và nhân tài."
+  },
+  {
+    "id": 957,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Bác Hồ sinh ngày 19 tháng 5 năm nào tại làng Sen, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An?",
+    "options": [
+      "Năm 1890",
+      "Năm 1880",
+      "Năm 1900",
+      "Năm 1911"
+    ],
+    "correct": 0,
+    "explanation": "Chủ tịch Hồ Chí Minh sinh ngày 19/5/1890 trong gia đình nhà nho yêu nước cụ Phó bảng Nguyễn Sinh Sắc."
+  },
+  {
+    "id": 958,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Khởi nghĩa Ba Đình (1886 - 1887) chống thực dân Pháp do hai thủ lĩnh nào lãnh đạo trên vùng đầm nước Thanh Hóa?",
+    "options": [
+      "Đinh Công Tráng và Phạm Bành",
+      "Phan Đình Phùng",
+      "Nguyễn Thiện Thuật",
+      "Hoàng Hoa Thám"
+    ],
+    "correct": 0,
+    "explanation": "Căn cứ Ba Đình kiên cố chống trả quyết liệt nhiều đợt tấn công của quân Pháp trước khi rút lui."
+  },
+  {
+    "id": 959,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị vua nào của triều Hậu Lê nổi tiếng với câu nói khắc ghi trên bia Văn Miếu 'Hiền tài là nguyên khí quốc gia'?",
+    "options": [
+      "Lê Thánh Tông (Thân Nhân Trung soạn)",
+      "Lê Thái Tổ",
+      "Lê Nhân Tông",
+      "Lê Hiến Tông"
+    ],
+    "correct": 0,
+    "explanation": "Tiến sĩ Thân Nhân Trung thừa lệnh vua Lê Thánh Tông soạn bài văn bia khẳng định vị thế của người trí thức."
+  },
+  {
+    "id": 960,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Kỳ thi Đình đầu tiên của nước Đại Việt được tổ chức dưới triều vua nào vào năm 1247?",
+    "options": [
+      "Trần Thái Tông",
+      "Lý Nhân Tông",
+      "Lý Thánh Tông",
+      "Trần Nhân Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Trần Thái Tông mở khoa thi Tam khôi đầu tiên chọn ra Trạng nguyên Nguyễn Hiền khi mới 13 tuổi."
+  },
+  {
+    "id": 961,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị hoàng đế nào của triều Nguyễn cho đúc Cửu Đỉnh (chín chiếc đỉnh đồng khổng lồ) đặt trước Thế Miếu ở Đại Nội Huế?",
+    "options": [
+      "Vua Minh Mạng",
+      "Vua Gia Long",
+      "Vua Thiệu Trị",
+      "Vua Tự Đức"
+    ],
+    "correct": 0,
+    "explanation": "Vua Minh Mạng cho đúc Cửu Đỉnh năm 1835 tượng trưng cho sự vững bền thống nhất của bờ cõi giang sơn."
+  },
+  {
+    "id": 962,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Người chiến sĩ cách mạng trẻ tuổi đã hô vang 'Hãy nhớ lấy lời tôi / Đả đảo đế quốc Mỹ' trên pháp trường trường bắn Chí Hòa năm 1964 là ai?",
+    "options": [
+      "Anh hùng Nguyễn Văn Trỗi",
+      "Nguyễn Viết Xuân",
+      "Lê Văn Tám",
+      "Võ Thị Sáu"
+    ],
+    "correct": 0,
+    "explanation": "Anh Nguyễn Văn Trỗi hiên ngang không chịu bịt mắt trước họng súng quân thù sáng ngày 15/10/1964."
+  },
+  {
+    "id": 963,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Triều đại nhà Mạc do ai sáng lập sau khi cướp ngôi nhà Hậu Lê vào năm 1527?",
+    "options": [
+      "Mạc Đăng Dung",
+      "Mạc Kính Cung",
+      "Mạc Mậu Hợp",
+      "Mạc Đĩnh Chi"
+    ],
+    "correct": 0,
+    "explanation": "Mạc Đăng Dung vốn là quan đô chỉ huy sứ ép vua Lê Cung Hoàng nhường ngôi lập ra nhà Mạc."
+  },
+  {
+    "id": 964,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Cuộc Tổng bãi công của hơn 3 vạn công nhân mỏ than Vùng mỏ Quảng Ninh diễn ra vào ngày 12/11 năm nào?",
+    "options": [
+      "Năm 1936",
+      "Năm 1930",
+      "Năm 1945",
+      "Năm 1954"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 12/11/1936 trở thành ngày truyền thống công nhân Vùng mỏ và ngành than Việt Nam."
+  },
+  {
+    "id": 965,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị tướng nào của nghĩa quân Tây Sơn đã chỉ huy đạo quân đô đốc đánh chiếm đồn Khương Thượng khiến tướng giặc Sầm Nghi Đống phải thắt cổ tự tử ở gò Đống Đa?",
+    "options": [
+      "Đô đốc Đặng Tiến Đông (hoặc Đặng Văn Long)",
+      "Đô đốc Ngô Văn Sở",
+      "Đô đốc Phan Văn Lân",
+      "Đô đốc Võ Văn Dũng"
+    ],
+    "correct": 0,
+    "explanation": "Đạo quân của Đô đốc Đặng Tiến Đông bất ngờ tập kích đồn Khương Thượng rạng sáng mùng 5 Tết Kỷ Dậu 1789."
+  },
+  {
+    "id": 966,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Một cây làm chẳng nên non / Ba cây chụm lại nên hòn ... cao'?",
+    "options": [
+      "núi",
+      "đồi",
+      "đá",
+      "rừng"
+    ],
+    "correct": 0,
+    "explanation": "Ca ngợi sức mạnh của tinh thần đoàn kết tập thể hiệp lực tạo nên thành quả to lớn."
+  },
+  {
+    "id": 967,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Nhân vật chú Cuội ngồi dưới gốc cây gì trên cung trăng trong sự tích dân gian?",
+    "options": [
+      "Cây đa",
+      "Cây bàng",
+      "Cây gạo",
+      "Cây khế"
+    ],
+    "correct": 0,
+    "explanation": "Chú Cuội cầm cây đa thần bay lên cung trăng gắn liền với truyền thuyết tết Trung Thu rước đèn."
+  },
+  {
+    "id": 968,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng ... một giàn'?",
+    "options": [
+      "chung",
+      "cùng",
+      "chia",
+      "trên"
+    ],
+    "correct": 0,
+    "explanation": "Bài học muôn đời về tình đồng bào ruột thịt che chở cưu mang nhau."
+  },
+  {
+    "id": 969,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Ai là tác giả của tác phẩm truyện thơ chữ Nôm bất hủ dài hàng ngàn câu 'Cung oán ngâm khúc'?",
+    "options": [
+      "Nguyễn Gia Thiều (Ôn Như Hầu)",
+      "Đoàn Thị Điểm",
+      "Đặng Trần Côn",
+      "Nguyễn Du"
+    ],
+    "correct": 0,
+    "explanation": "Ôn Như Hầu Nguyễn Gia Thiều dùng thể thơ song thất lục bát than thở thân phận cung nữ bị thất sủng."
+  },
+  {
+    "id": 970,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Nhà thơ nào viết bài thơ 'Viếng lăng Bác' ('Con ở miền Nam ra thăm lăng Bác / Đã thấy trong sương hàng tre bát ngát...')?",
+    "options": [
+      "Viễn Phương",
+      "Nguyễn Duy",
+      "Lê Anh Xuân",
+      "Thu Bồn"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Viễn Phương viết bài thơ xúc động nghẹn ngào năm 1976 khi lăng Chủ tịch Hồ Chí Minh vừa khánh thành."
+  },
+  {
+    "id": 971,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Truyện ngắn 'Chữ người tử tù' của Nguyễn Tuân ban đầu khi đăng báo năm 1938 có nhan đề là gì?",
+    "options": [
+      "Dòng nước ngược",
+      "Vang bóng một thời",
+      "Ngọn đèn dầu lạc",
+      "Chiếc ấm đất"
+    ],
+    "correct": 0,
+    "explanation": "Tác phẩm xuất sắc này ban đầu mang tên 'Dòng nước ngược' trước khi in trong tập 'Vang bóng một thời'."
+  },
+  {
+    "id": 972,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Vở chèo cổ mẫu mực 'Quan Âm Thị Kính' có cảnh Thị Màu lên chùa ghẹo chú tiểu Kính Tâm mang làn điệu chèo đặc sắc nào?",
+    "options": [
+      "Điệu chèo 'Cấm giá' và 'Hề mồi'",
+      "Điệu Sa lệch",
+      "Điệu Đào liễu",
+      "Điệu Con gà rừng"
+    ],
+    "correct": 0,
+    "explanation": "Cảnh Thị Màu lên chùa là đỉnh cao diễn xuất tính cách lẳng lơ, táo bạo phá cách trong nghệ thuật chèo truyền thống."
+  },
+  {
+    "id": 973,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh Cam Ranh vịnh nước sâu kín gió chiến lược quân sự hàng đầu thế giới thuộc tỉnh nào?",
+    "options": [
+      "Khánh Hòa",
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Phú Yên"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Cam Ranh là cảng nước sâu tự nhiên kín gió lý tưởng của thế giới."
+  },
+  {
+    "id": 974,
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở miền Bắc nước ta có danh thắng Chùa Ba Vàng và di tích Yên Tử linh thiêng?",
+    "options": [
+      "Quảng Ninh (TP. Uông Bí)",
+      "Hải Dương",
+      "Bắc Giang",
+      "Hải Phòng"
+    ],
+    "correct": 0,
+    "explanation": "Thành phố Uông Bí (Quảng Ninh) là cái nôi thiền phái Trúc Lâm Yên Tử."
+  },
+  {
+    "id": 975,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Hồ Lak hồ nước ngọt tự nhiên lớn thứ nhì Việt Nam (sau hồ Ba Bể) thuộc huyện nào tỉnh Đắk Lắk?",
+    "options": [
+      "Huyện Lắk",
+      "Huyện Krông Pắc",
+      "Huyện Cư M'gar",
+      "Huyện Buôn Đôn"
+    ],
+    "correct": 0,
+    "explanation": "Hồ Lắk thơ mộng gắn liền với truyền thuyết của người M'Nông và biệt điện vua Bảo Đại."
+  },
+  {
+    "id": 976,
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Cù Lao Chàm khu dự trữ sinh quyển thế giới với những rạn san hô tuyệt đẹp cách bờ biển Cửa Đại (Hội An) bao nhiêu hải lý?",
+    "options": [
+      "Khoảng 8 - 10 hải lý",
+      "Khoảng 50 hải lý",
+      "Khoảng 1 hải lý",
+      "Khoảng 100 hải lý"
+    ],
+    "correct": 0,
+    "explanation": "Cù Lao Chàm gồm 8 hòn đảo nhỏ tuyệt đẹp thuộc thành phố Hội An, Quảng Nam."
+  },
+  {
+    "id": 977,
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Dãy núi Bạch Mã là ranh giới khí hậu tự nhiên phân chia giữa vùng khí hậu nhiệt đới gió mùa có mùa đông lạnh ở phía Bắc và vùng khí hậu nào ở phía Nam?",
+    "options": [
+      "Vùng khí hậu nhiệt đới gió mùa cận xích đạo nóng quanh năm",
+      "Vùng khí hậu ôn đới",
+      "Vùng khí hậu khô hạn",
+      "Vùng khí hậu cận cực"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Bạch Mã ngăn cản gió mùa Đông Bắc tràn sâu vào phương Nam, tạo ranh giới khí hậu rõ rệt."
+  },
+  {
+    "id": 978,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không nướng, không chiên, mà trẻ em nào cũng thích thổi bong bóng?",
+    "options": [
+      "Kẹo cao su (Kẹo sing-gum)",
+      "Bánh rán",
+      "Bánh nếp",
+      "Bánh quy"
+    ],
+    "correct": 0,
+    "explanation": "Kẹo cao su thổi thành những quả bong bóng tròn xoe vui mắt."
+  },
+  {
+    "id": 979,
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có lưng nhưng không có bụng, dùng để dựa mỗi khi mỏi lưng?",
+    "options": [
+      "Lưng ghế tựa",
+      "Chiếc giường",
+      "Cái gối",
+      "Bức tường"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc ghế có phần lưng tựa êm ái."
+  },
+  {
+    "id": 980,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 3 chữ cái, thêm dấu huyền thành thứ để soi rọi, thêm dấu sắc thành thứ để uống nước?",
+    "options": [
+      "Đèn và Chén (Đen - Đèn - Đén)",
+      "Ly",
+      "Cốc",
+      "Bát"
+    ],
+    "correct": 0,
+    "explanation": "Cây đèn thắp sáng ban đêm và chén trà thơm."
+  },
+  {
+    "id": 981,
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Có một người phụ nữ lái xe máy đi ngược chiều trên đường một chiều nhưng cảnh sát giao thông không xử phạt. Tại sao?",
+    "options": [
+      "Vì người phụ nữ đó đang đi bộ dắt xe trên vỉa hè",
+      "Cảnh sát không nhìn thấy",
+      "Người quen cảnh sát",
+      "Đường vắng"
+    ],
+    "correct": 0,
+    "explanation": "Người đi bộ dắt xe trên vỉa hè không vi phạm luật giao thông đường bộ."
+  },
+  {
+    "id": 982,
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố mẹo dân gian: 'Tròn vành vạnh như đĩa xôi, chiếu sáng muôn nơi, vầng trăng rằm tháng Tám' là dịp tết nào?",
+    "options": [
+      "Tết Trung Thu",
+      "Tết Nguyên Đán",
+      "Tết Hàn Thực",
+      "Tết Đoan Ngọ"
+    ],
+    "correct": 0,
+    "explanation": "Tết Trung Thu rằm tháng Tám ngắm trăng tròn, phá cỗ rước đèn lồng."
+  },
+  {
+    "id": 983,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món lẩu riêu cua đồng thanh mát thơm mùi giấm bỗng thường được ăn kèm loại rau ghém nào?",
+    "options": [
+      "Hoa chuối thái mỏng, rau muống chẻ, tía tô",
+      "Rau bina",
+      "Cải xoong luộc",
+      "Rau mồng tơi"
+    ],
+    "correct": 0,
+    "explanation": "Vị chua thanh của giấm bỗng hòa quyện với vị béo ngậy của gạch cua và rau sống giòn ngọt."
+  },
+  {
+    "id": 984,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Đơn vị đo dung lượng dữ liệu bộ nhớ máy tính gồm 1 Gigabyte (1GB) tương đương với bao nhiêu Megabyte (MB)?",
+    "options": [
+      "1.024 MB",
+      "1.000 MB",
+      "100 MB",
+      "512 MB"
+    ],
+    "correct": 0,
+    "explanation": "Trong hệ nhị phân (hệ đếm cơ số 2), 1 GB = 2^10 MB = 1.024 MB."
+  },
+  {
+    "id": 985,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Kỳ đại hội Thể thao Đông Nam Á (SEA Games 31) lần thứ hai được tổ chức thành công rực rỡ tại Việt Nam vào năm nào?",
+    "options": [
+      "Năm 2022 (tại Hà Nội)",
+      "Năm 2019",
+      "Năm 2021",
+      "Năm 2023"
+    ],
+    "correct": 0,
+    "explanation": "SEA Games 31 diễn ra vào tháng 5/2022 tại Hà Nội và 11 tỉnh lân cận, đoàn Việt Nam đứng nhất toàn đoàn."
+  },
+  {
+    "id": 986,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Thiết bị chuyển đổi tín hiệu quang sang tín hiệu điện internet lắp đặt trong mỗi hộ gia đình được gọi là gì?",
+    "options": [
+      "Modem quang (ONT)",
+      "Switch chia mạng",
+      "Card mạng LAN",
+      "Hub"
+    ],
+    "correct": 0,
+    "explanation": "Modem quang chuyển đổi xung ánh sáng trên sợi cáp quang thành tín hiệu số Ethernet cho router phát Wi-Fi."
+  },
+  {
+    "id": 987,
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Hệ điều hành nhân Linux (Linux Kernel) mã nguồn mở thống trị máy chủ và smartphone (Android) do kỹ sư người Phần Lan nào sáng lập năm 1991?",
+    "options": [
+      "Linus Torvalds",
+      "Richard Stallman",
+      "Dennis Ritchie",
+      "Ken Thompson"
+    ],
+    "correct": 0,
+    "explanation": "Linus Torvalds phát hành phiên bản hạt nhân Linux 0.01 năm 1991, đặt nền tảng cho cuộc cách mạng phần mềm nguồn mở thế giới."
+  },
+  {
+    "id": 988,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Bộ phận nào của quả trứng gia cầm chứa nhiều protein và khoáng chất bảo vệ phôi thai?",
+    "options": [
+      "Lòng trắng và Lòng đỏ",
+      "Vỏ trứng canxi",
+      "Màng vỏ",
+      "Buồng khí"
+    ],
+    "correct": 0,
+    "explanation": "Lòng đỏ giàu lipid và vitamin, lòng trắng giàu albumin cung cấp dinh dưỡng trọn vẹn."
+  },
+  {
+    "id": 989,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Loài côn trùng nào có khả năng bay phát ra ánh sáng lung linh lập lòe trong đêm tối mùa hè?",
+    "options": [
+      "Con đom đóm",
+      "Con ve sầu",
+      "Con bướm đêm",
+      "Con muỗi"
+    ],
+    "correct": 0,
+    "explanation": "Phản ứng sinh học giữa enzym luciferase và phân tử luciferin tạo ra ánh sáng lạnh kỳ diệu."
+  },
+  {
+    "id": 990,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Quá trình thoát hơi nước qua khí khổng ở lá cây có vai trò sinh lý quan trọng nào?",
+    "options": [
+      "Tạo lực hút kéo dòng nước và muối khoáng từ rễ lên và hạ nhiệt độ cho lá",
+      "Làm héo lá",
+      "Thải độc tố",
+      "Hấp thụ oxy"
+    ],
+    "correct": 0,
+    "explanation": "Thoát hơi nước là động lực đầu trên hút dòng nhựa nguyên từ rễ lên nuôi cây."
+  },
+  {
+    "id": 991,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Trong vật lý, âm thanh không thể truyền được qua môi trường nào sau đây?",
+    "options": [
+      "Môi trường chân không",
+      "Môi trường chất lỏng (nước)",
+      "Môi trường chất rắn (thép)",
+      "Môi trường chất khí (không khí)"
+    ],
+    "correct": 0,
+    "explanation": "Âm thanh là sóng cơ học đòi hỏi môi trường vật chất có hạt phân tử để lan truyền dao động."
+  },
+  {
+    "id": 992,
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Bán kính trung bình của Trái Đất (tính từ tâm Trái Đất ra xích đạo) xấp xỉ bằng bao nhiêu km?",
+    "options": [
+      "Khoảng 6.371 km",
+      "Khoảng 10.000 km",
+      "Khoảng 1.000 km",
+      "Khoảng 3.000 km"
+    ],
+    "correct": 0,
+    "explanation": "Bán kính Trái Đất khoảng 6.371 km, chu vi đường xích đạo khoảng 40.075 km."
+  },
+  {
+    "id": 993,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Vị hoàng đế nào của nhà Trần đã lãnh đạo nhân dân giành thắng lợi vang dội trong cuộc kháng chiến chống quân Nguyên Mông lần thứ nhất năm 1258?",
+    "options": [
+      "Trần Thái Tông (Trần Cảnh)",
+      "Trần Thánh Tông",
+      "Trần Nhân Tông",
+      "Trần Anh Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Trần Thái Tông cùng Thái sư Trần Thủ Độ chỉ huy trận Đông Bộ Đầu quét sạch quân Mông Cổ."
+  },
+  {
+    "id": 994,
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Đại hội Đại biểu toàn quốc lần thứ III của Đảng Cộng sản Việt Nam (năm 1960) đã bầu ai làm Tổng Bí thư?",
+    "options": [
+      "Đồng chí Lê Duẩn",
+      "Đồng chí Trường Chinh",
+      "Đồng chí Nguyễn Văn Linh",
+      "Đồng chí Đỗ Mười"
+    ],
+    "correct": 0,
+    "explanation": "Đồng chí Lê Duẩn giữ trọng trách Tổng Bí thư lãnh đạo kháng chiến chống Mỹ cứu nước thắng lợi."
+  },
+  {
+    "id": 995,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị trạng nguyên nào nổi tiếng với giai thoại 'Trạng Quỳnh' dùng sự hóm hỉnh trào phúng để châm biếm bọn quan lại phong kiến?",
+    "options": [
+      "Nguyễn Quỳnh (Trạng Quỳnh)",
+      "Nguyễn Hiền",
+      "Lương Thế Vinh",
+      "Lê Quý Đôn"
+    ],
+    "correct": 0,
+    "explanation": "Trạng Quỳnh là nhân vật văn học dân gian biểu trưng cho trí tuệ thông minh và tinh thần phản kháng của nhân dân."
+  },
+  {
+    "id": 996,
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Chiến thắng Việt Bắc Thu - Đông năm 1947 đã đập tan hoàn toàn chiến lược quân sự nào của thực dân Pháp?",
+    "options": [
+      "Chiến lược 'Đánh nhanh thắng nhanh'",
+      "Chiến lược 'Chiến tranh đặc biệt'",
+      "Chiến lược 'Chiến tranh cục bộ'",
+      "Chiến lược 'Việt Nam hóa chiến tranh'"
+    ],
+    "correct": 0,
+    "explanation": "Thực dân Pháp thất bại thảm hại ở sông Lô, đèo Bông Lau buộc phải chuyển sang đánh lâu dài."
+  },
+  {
+    "id": 997,
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Bộ quốc sử đầu tiên của nước Đại Việt do nhà sử học Lê Văn Hưu biên soạn vào năm 1272 dưới thời Trần có tên là gì?",
+    "options": [
+      "Đại Việt sử ký",
+      "Đại Việt sử ký toàn thư",
+      "Khâm định Việt sử thông giám cương mục",
+      "Việt sử tiêu án"
+    ],
+    "correct": 0,
+    "explanation": "Bảng nhãn Lê Văn Hưu hoàn thành 30 quyển 'Đại Việt sử ký' đặt nền móng vững chắc cho nền sử học nước nhà."
+  },
+  {
+    "id": 998,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện 'Sự tích trầu cau', ba nhân vật chính sau khi chết đã biến thành những vật gì tượng trưng cho tình nghĩa thủy chung gắn bó?",
+    "options": [
+      "Cây cau, cây trầu không và tảng đá vôi",
+      "Cây đa, giếng nước, sân đình",
+      "Cây bàng, cây phượng",
+      "Ba đóa hoa sen"
+    ],
+    "correct": 0,
+    "explanation": "Khi hòa quyện trầu, cau và vôi tạo nên màu đỏ son thắm đượm tình nghĩa anh em, vợ chồng son sắt."
+  },
+  {
+    "id": 999,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Mẹ và quả' với câu thơ xúc động 'Và chúng tôi, một thứ quả trên đời / Bảy mươi tuổi mẹ đợi chờ được hái' là của nhà thơ nào?",
+    "options": [
+      "Nguyễn Khoa Điềm",
+      "Nguyễn Duy",
+      "Hữu Thỉnh",
+      "Trần Đăng Khoa"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Nguyễn Khoa Điềm viết về sự hy sinh thầm lặng của người mẹ nuôi con khôn lớn."
+  },
+  {
+    "id": 1000,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Làng tranh khắc gỗ dân gian Hàng Trống nổi tiếng đất kinh kỳ Thăng Long với bức tranh tứ bình nào tiêu biểu?",
+    "options": [
+      "Bộ tranh Tứ bình: Tố nữ, Tứ quý (Tùng - Cúc - Trúc - Mai)",
+      "Tranh Gà lợn",
+      "Tranh Đám cưới chuột",
+      "Tranh Đánh ghen"
+    ],
+    "correct": 0,
+    "explanation": "Tranh Hàng Trống tinh tế với kỹ thuật vờn màu nước điêu luyện và nét khắc mảnh mai tao nhã."
+  },
+  {
+    "id": 1001,
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Tác phẩm thơ trào phúng 'Vịnh khoa thi Hương' với câu thơ chua chát: 'Lọng cắm rợp trời quan sứ đến / Váy lê quét đất mụ đầm ra' là kiệt tác của nhà thơ nào?",
+    "options": [
+      "Tú Xương (Trần Tế Xương)",
+      "Nguyễn Khuyến",
+      "Ba Giai - Tú Xuất",
+      "Hồ Xuân Hương"
+    ],
+    "correct": 0,
+    "explanation": "Nhà thơ Tú Xương xót xa trước cảnh khoa cử Nho học suy đồi thời thực dân nửa phong kiến ở trường thi Nam Định năm Đinh Dậu 1897."
   }
 ]

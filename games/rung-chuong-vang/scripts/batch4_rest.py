@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+"""Đợt 4 - Các chủ đề Lịch sử, Khoa học, Đố vui, Địa lý để chạm mốc 1.000 câu"""
+
+QUESTIONS_LICH_SU = [
+    {"difficulty": 1, "question": "Vị vua nào của triều Lý đã đổi tên nước ta từ 'Đại Cồ Việt' thành 'Đại Việt' vào năm 1054?", "options": ["Lý Thánh Tông", "Lý Thái Tổ", "Lý Nhân Tông", "Lý Anh Tông"], "correct": 0, "explanation": "Vua Lý Thánh Tông lên ngôi năm 1054 đổi quốc hiệu là Đại Việt mở ra kỷ nguyên văn hiến rực rỡ."},
+    {"difficulty": 1, "question": "Ai là người cắm lá cờ chiến thắng lên nóc Dinh Độc Lập vào trưa ngày 30/4/1975 lịch sử?", "options": ["Đại đội trưởng Bùi Quang Thận", "Trung úy Vũ Đăng Toàn", "Chiến sĩ Nguyễn Văn Tập", "Đại tá Bùi Tùng"], "correct": 0, "explanation": "Đồng chí Bùi Quang Thận chỉ huy xe tăng 843 lao vào Dinh Độc Lập và cắm cờ giải phóng lúc 11h30."},
+    {"difficulty": 1, "question": "Hội thề Đông Quan năm 1427 kết thúc cuộc kháng chiến chống quân Minh diễn ra giữa chủ tướng Lê Lợi và tướng giặc nào?", "options": ["Vương Thông", "Liễu Thăng", "Trương Phụ", "Mộc Thạnh"], "correct": 0, "explanation": "Vương Thông cùng tàn quân Minh xin thề rút hết quân về nước trước tinh thần nhân đạo của nghĩa quân Lam Sơn."},
+    {"difficulty": 2, "question": "Vị hoàng đế nào trong lịch sử nước ta lập nên triều đại Tây Sơn và được mệnh danh là 'Bắc Bình Vương'?", "options": ["Nguyễn Huệ", "Nguyễn Nhạc", "Nguyễn Lữ", "Quang Toản"], "correct": 0, "explanation": "Trước khi lên ngôi Hoàng đế lấy niên hiệu Quang Trung năm 1788, Nguyễn Huệ được phong là Bắc Bình Vương."},
+    {"difficulty": 2, "question": "Sự kiện lịch sử ngày 10/10/1954 gắn liền với mốc son nào của thủ đô nghìn năm văn hiến?", "options": ["Ngày Giải phóng Thủ đô Hà Nội", "Ngày Toàn quốc Kháng chiến", "Ngày Khởi nghĩa Thăng Long", "Ngày Dời đô"], "correct": 0, "explanation": "Đoàn quân chiến thắng tiến về tiếp quản Thủ đô trong rợp cờ hoa sau 9 năm kháng chiến chống Pháp."},
+    {"difficulty": 3, "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào dưới triều Hậu Lê nổi tiếng với việc khởi xướng lập Hội Tao Đàn gồm 'Nhị thập bát tú' (28 ngôi sao văn học)?", "options": ["Lê Thánh Tông", "Lê Thái Tông", "Lê Nhân Tông", "Lê Hiến Tông"], "correct": 0, "explanation": "Hoàng đế Lê Thánh Tông là tao đàn đô nguyên súy, chủ xướng phong trào thơ ca Nho học phát triển cực thịnh."}
+]
+
+QUESTIONS_KHOA_HOC = [
+    {"difficulty": 1, "question": "Khí gas đun nấu dùng trong bình gas gia đình thường chứa hỗn hợp hai khí hóa lỏng nào?", "options": ["Propan (C3H8) và Butan (C4H10)", "Metan và Oxy", "Hydro và Heli", "Cacbonic và Nitơ"], "correct": 0, "explanation": "Khí dầu mỏ hóa lỏng (LPG) là hỗn hợp propan và butan được nén lỏng ở áp suất cao."},
+    {"difficulty": 1, "question": "Cơ quan hô hấp chính của các loài cá giúp lấy oxy hòa tan trong nước là gì?", "options": ["Mang cá", "Phổi cá", "Vảy cá", "Bong bóng cá"], "correct": 0, "explanation": "Các phiến mang đỏ tươi chứa dày đặc mao mạch giúp trao đổi khí oxy và CO2 với dòng nước chảy qua."},
+    {"difficulty": 2, "question": "Tại sao khi trời sắp mưa to, chuồn chuồn lại bay là là sát mặt đất theo kinh nghiệm dân gian?", "options": ["Vì độ ẩm không khí tăng cao làm ướt cánh chuồn chuồn nặng hơn", "Vì chuồn chuồn sợ sấm", "Vì áp suất tăng", "Vì gió thổi mạnh"], "correct": 0, "explanation": "'Chuồn chuồn bay thấp thì mưa / Bay cao thì nắng, bay vừa thì râm' - hơi nước đọng vào cánh mỏng làm hạ độ cao."},
+    {"difficulty": 2, "question": "Chất cấm gây nghiện mạnh có trong khói thuốc lá kích thích hệ thần kinh trung ương và gây nghiện là gì?", "options": ["Nicotine", "Caffeine", "Morphine", "Taurine"], "correct": 0, "explanation": "Nicotine trong lá thuốc lá nhanh chóng đi vào máu lên não kích thích dopamin gây nghiện nặng và hại tim mạch."},
+    {"difficulty": 3, "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Trong cấu trúc nguyên tử, hạt nào có khối lượng gần bằng proton nhưng mang điện tích trung hòa (điện tích bằng 0)?", "options": ["Neutron", "Electron", "Positron", "Neutrino"], "correct": 0, "explanation": "James Chadwick phát hiện ra hạt neutron trong hạt nhân nguyên tử năm 1932 và đoạt giải Nobel Vật lý."}
+]
+
+QUESTIONS_DO_VUI = [
+    {"difficulty": 1, "question": "Đố mẹo: Cái gì khi mua thì màu đen, khi dùng thì màu đỏ, khi vứt đi thì màu xám xịt?", "options": ["Hòn than củi", "Cây nến", "Thỏi son", "Chiếc xe máy"], "correct": 0, "explanation": "Than củi mua về màu đen tuyền, nhóm lửa hồng đỏ rực, cháy tàn thành tro xám."},
+    {"difficulty": 1, "question": "Đố mẹo: Có cánh mà không biết bay, có mắt mà không biết nhìn, bơi dưới nước suốt ngày đêm là con gì?", "options": ["Con cá", "Con chim cánh cụt", "Con tàu ngầm", "Con vịt"], "correct": 0, "explanation": "Cá có vây (cánh vây), mắt không có mi mí nhưng bơi lội tung tăng dưới nước."},
+    {"difficulty": 2, "question": "Đố mẹo: Cái gì có chân mà không thể bước đi, có mặt mà không thể mỉm cười, để bát đĩa lên trên suốt ngày?", "options": ["Cái bàn ăn", "Cái ghế", "Cái giường", "Cái tủ"], "correct": 0, "explanation": "Chiếc bàn có 4 chân trụ vững chắc và mặt bàn để đồ ăn."},
+    {"difficulty": 3, "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui: 'Đầu tròn mình vuông, bốn góc thắt dây, mở ra thơm ngát hương nếp quê hương' là chiếc bánh gì ngày Tết?", "options": ["Bánh chưng", "Bánh giầy", "Bánh ú", "Bánh phu thê"], "correct": 0, "explanation": "Chiếc bánh chưng xanh vuông vắn buộc lạt giang bốn góc gói trọn hồn vị Tết Việt."}
+]
+
+QUESTIONS_DIA_LY = [
+    {"difficulty": 1, "question": "Chùa Hương danh thắng tâm linh mùa lễ hội đầu xuân trẩy hội trên dòng suối Yến thuộc địa phận huyện nào của Hà Nội?", "options": ["Huyện Mỹ Đức", "Huyện Chương Mỹ", "Huyện Quốc Oai", "Huyện Ba Vì"], "correct": 0, "explanation": "Quần thể di tích thắng cảnh Chùa Hương tọa lạc tại xã Hương Sơn, huyện Mỹ Đức, TP. Hà Nội."},
+    {"difficulty": 2, "question": "Núi Chứa Chan (núi Gia Lào), ngọn núi cao thứ nhì Đông Nam Bộ (837m), thuộc tỉnh nào?", "options": ["Đồng Nai", "Bình Dương", "Bà Rịa - Vũng Tàu", "Bình Thuận"], "correct": 0, "explanation": "Núi Chứa Chan thuộc huyện Xuân Lộc, tỉnh Đồng Nai là danh lam thắng cảnh cấp quốc gia."},
+    {"difficulty": 3, "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Eo biển nào hẹp nhất chia cắt giữa lục địa châu Âu và lục địa châu Phi chỉ cách nhau khoảng 14,3 km?", "options": ["Eo biển Gibraltar", "Eo biển Bosphorus", "Eo biển Dardanelles", "Eo biển Messina"], "correct": 0, "explanation": "Eo biển Gibraltar nối Địa Trung Hải với Đại Tây Dương, ngăn cách giữa Tây Ban Nha và Morocco."}
+]
