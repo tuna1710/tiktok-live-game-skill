@@ -2624,5 +2624,96 @@
     ],
     "correct": 0,
     "explanation": "Quần đảo núi lửa Galapagos ngoài khơi Thái Bình Dương trực thuộc đất nước Ecuador."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Tỉnh nào ở cực Bắc nước ta có cao nguyên đá Đồng Văn hùng vĩ và đèo Mã Pí Lèng?",
+    "options": [
+      "Hà Giang",
+      "Cao Bằng",
+      "Lào Cai",
+      "Sơn La"
+    ],
+    "correct": 0,
+    "explanation": "Hà Giang là phên dậu địa đầu Tổ quốc với di sản Công viên địa chất toàn cầu UNESCO."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Vịnh biển tuyệt đẹp nào ở miền Trung được xếp vào câu lạc bộ những vịnh biển đẹp nhất thế giới thuộc tỉnh Khánh Hòa?",
+    "options": [
+      "Vịnh Nha Trang",
+      "Vịnh Cam Ranh",
+      "Vịnh Lăng Cô",
+      "Vịnh Vân Phong"
+    ],
+    "correct": 0,
+    "explanation": "Vịnh Nha Trang với biển xanh cát trắng nắng vàng là thiên đường du lịch biển đảo."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 1,
+    "question": "Quốc gia nào ở châu Á có thủ đô là Viêng Chăn (Vientiane) có chung dòng sông Mê Kông với nước ta?",
+    "options": [
+      "Lào",
+      "Campuchia",
+      "Thái Lan",
+      "Myanmar"
+    ],
+    "correct": 0,
+    "explanation": "Thủ đô Viêng Chăn nằm bên bờ tả ngạn dòng sông Mê Kông của nước bạn Lào anh em."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Thác Dambri ngọn thác hùng vĩ cao hơn 60 mét nằm giữa rừng nguyên sinh đại ngàn thuộc thành phố nào của tỉnh Lâm Đồng?",
+    "options": [
+      "Thành phố Bảo Lộc",
+      "Thành phố Đà Lạt",
+      "Thị xã Gia Nghĩa",
+      "Huyện Di Linh"
+    ],
+    "correct": 0,
+    "explanation": "Thác Dambri hùng vĩ cách trung tâm thành phố Bảo Lộc khoảng 18 km."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Tỉnh nào ở vùng duyên hải miền Trung có danh xưng 'Xứ nẫu' với bãi biển Quy Nhơn và đầm Thị Nại?",
+    "options": [
+      "Bình Định",
+      "Phú Yên",
+      "Quảng Ngãi",
+      "Khánh Hòa"
+    ],
+    "correct": 0,
+    "explanation": "Bình Định vùng đất võ trời văn với cầu Thị Nại cây cầu vượt biển dài nhất nước ta một thời."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 2,
+    "question": "Dãy núi Alps (An-pơ) dãy núi cao và đồ sộ nhất châu Âu trải dài qua bao nhiêu quốc gia?",
+    "options": [
+      "8 quốc gia (Pháp, Thụy Sĩ, Ý, Áo, Đức, Slovenia, Liechtenstein, Monaco)",
+      "3 quốc gia",
+      "5 quốc gia",
+      "12 quốc gia"
+    ],
+    "correct": 0,
+    "explanation": "Dãy Alps hình cánh cung dài 1.200 km là nóc nhà thiên nhiên của lục địa già châu Âu."
+  },
+  {
+    "category": "dia-ly",
+    "difficulty": 3,
+    "question": "CÂU HỎI ĐỊA LÝ QUYẾT ĐỊNH: Vùng trũng Danakil (Danakil Depression) nơi nóng và khắc nghiệt nhất trên Trái Đất nằm ở quốc gia nào của châu Phi?",
+    "options": [
+      "Ethiopia",
+      "Ai Cập",
+      "Kenya",
+      "Nam Phi"
+    ],
+    "correct": 0,
+    "explanation": "Vùng trũng Danakil tại Ethiopia có hồ dung nham sôi sục và suối lưu huỳnh rực rỡ sắc màu."
   }
 ]

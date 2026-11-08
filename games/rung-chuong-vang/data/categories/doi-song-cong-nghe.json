@@ -2078,5 +2078,70 @@
     ],
     "correct": 0,
     "explanation": "Hệ mật mã RSA dựa trên độ khó của việc phân tích một hợp số cực lớn thành tích hai số nguyên tố."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Ứng dụng gửi nhận thư điện tử phổ biến nhất thế giới do tập đoàn Google cung cấp miễn phí là gì?",
+    "options": [
+      "Gmail",
+      "Yahoo Mail",
+      "Outlook",
+      "Hotmail"
+    ],
+    "correct": 0,
+    "explanation": "Gmail với dung lượng lưu trữ lớn và bộ lọc thư rác thông minh phục vụ hàng tỷ người dùng."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 1,
+    "question": "Món ăn vặt đường phố nổi tiếng của Hà Nội làm từ bánh đa nem cuộn thịt băm mộc nhĩ rán vàng giòn rụm chấm nước mắm chua ngọt là món gì?",
+    "options": [
+      "Nem rán (Chả giò)",
+      "Bánh cuốn",
+      "Phở cuốn",
+      "Bánh xèo"
+    ],
+    "correct": 0,
+    "explanation": "Nem rán truyền thống giòn rụm thơm ngon là món ăn không thể thiếu trong mâm cỗ Tết miền Bắc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Bộ nhớ bán dẫn thể rắn dùng trong ổ cứng máy tính thế hệ mới có tốc độ đọc ghi nhanh gấp nhiều lần ổ đĩa cơ HDD truyền thống được viết tắt là gì?",
+    "options": [
+      "Ổ cứng SSD (Solid State Drive)",
+      "Băng từ",
+      "Đĩa CD",
+      "Đĩa mềm"
+    ],
+    "correct": 0,
+    "explanation": "Ổ cứng SSD dùng chip nhớ flash NAND cho tốc độ khởi động hệ điều hành và tải ứng dụng siêu tốc."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 2,
+    "question": "Món đặc sản 'Gỏi cá trích' tươi rói vắt chanh béo ngậy cuốn bánh tráng chấm nước mắm Phú Quốc là món ăn của đảo nào?",
+    "options": [
+      "Đảo ngọc Phú Quốc",
+      "Đảo Lý Sơn",
+      "Đảo Côn Đảo",
+      "Đảo Cát Bà"
+    ],
+    "correct": 0,
+    "explanation": "Gỏi cá trích Phú Quốc ăn kèm dừa nạo và rau rừng là tinh hoa ẩm thực biển đảo Kiên Giang."
+  },
+  {
+    "category": "doi-song-cong-nghe",
+    "difficulty": 3,
+    "question": "CÂU HỎI CÔNG NGHỆ QUYẾT ĐỊNH: Thuật toán đồng thuận cơ bản trong mạng chuỗi khối Bitcoin yêu cầu các thợ đào phải giải bài toán toán học tốn năng lượng tính toán được gọi là gì?",
+    "options": [
+      "Bằng chứng công việc (Proof of Work - PoW)",
+      "Bằng chứng cổ phần (Proof of Stake - PoS)",
+      "Proof of Authority",
+      "Proof of Space"
+    ],
+    "correct": 0,
+    "explanation": "Proof of Work (PoW) đảm bảo tính bảo mật và phi tập trung bất biến của sổ cái mạng Bitcoin."
   }
 ]

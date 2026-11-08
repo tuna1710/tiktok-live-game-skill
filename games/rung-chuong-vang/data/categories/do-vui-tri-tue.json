@@ -2637,5 +2637,161 @@
     ],
     "correct": 0,
     "explanation": "La bàn bát quái phong thủy cổ truyền dùng xác định phương hướng kinh dịch."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Bánh gì không nướng bằng than, không hấp bằng nồi mà lăn tròn đưa ta đi học?",
+    "options": [
+      "Bánh xe đạp",
+      "Bánh mì",
+      "Bánh gai",
+      "Bánh giò"
+    ],
+    "correct": 0,
+    "explanation": "Bánh xe đạp quay đều đưa học sinh đến trường."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Con gì sinh ra đã có bộ râu quặp, bò ngang thoăn thoắt có tám cẳng hai càng?",
+    "options": [
+      "Con cua",
+      "Con tôm",
+      "Con ốc",
+      "Con cá"
+    ],
+    "correct": 0,
+    "explanation": "'Con cua tám cẳng hai càng / Bò đi bò lại bò ngang cả ngày'."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Quả gì vỏ xanh ruột đỏ, hạt đen nhánh, ăn vào ngọt mát giải khát ngày hè?",
+    "options": [
+      "Quả dưa hấu",
+      "Quả thanh long",
+      "Quả xoài",
+      "Quả ổi"
+    ],
+    "correct": 0,
+    "explanation": "Dưa hấu vỏ xanh ruột đỏ thắm ngọt lịm mọng nước."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Cái gì có chân mà không biết đi, có mặt mà không biết cười, dùng để bày bát đĩa mâm cơm?",
+    "options": [
+      "Cái bàn ăn",
+      "Cái ghế",
+      "Cái tủ",
+      "Cái giường"
+    ],
+    "correct": 0,
+    "explanation": "Chiếc bàn ăn quen thuộc của mỗi gia đình."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 1,
+    "question": "Đố mẹo: Đèn gì có ba màu đỏ, vàng, xanh đứng ở ngã tư đường phố?",
+    "options": [
+      "Đèn tín hiệu giao thông",
+      "Đèn lồng",
+      "Đèn pin",
+      "Đèn ngủ"
+    ],
+    "correct": 0,
+    "explanation": "Đèn giao thông điều tiết trật tự lưu thông tại các giao lộ."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố chữ: Từ nào trong tiếng Việt có 3 chữ cái, thêm dấu nặng thành một loài vật dưới nước có mai cứng, thêm dấu hỏi thành bộ phận điều khiển tàu xe?",
+    "options": [
+      "Rùa và Lái (Rua - Rùa - Rủa)",
+      "Cua",
+      "Tôm",
+      "Ốc"
+    ],
+    "correct": 0,
+    "explanation": "Con rùa chậm chạp và vô lăng lái xe."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Một người thợ xây ngã từ tầng 10 của một tòa nhà xuống đất mà không hề bị xây xước chút nào, vì sao?",
+    "options": [
+      "Vì người đó ngã vào bên trong sàn nhà tầng 10",
+      "Rơi trúng đống cát",
+      "Có người đỡ",
+      "Dùng dù nhảy"
+    ],
+    "correct": 0,
+    "explanation": "Ngã xuống sàn nhà của chính tầng 10 chứ không phải rơi ra ngoài khoảng không!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Cái gì bạn càng lấy đi nhiều thì nó lại càng trở nên to lớn hơn?",
+    "options": [
+      "Cái hố (cái lỗ đất)",
+      "Đống cát",
+      "Hộp quà",
+      "Bình nước"
+    ],
+    "correct": 0,
+    "explanation": "Bạn càng đào lấy đi nhiều đất cát thì cái hố sẽ càng phình to ra."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố vui: 'Thân em vừa trắng lại vừa tròn / Bảy nổi ba chìm với nước non' là món bánh truyền thống nào?",
+    "options": [
+      "Bánh trôi nước",
+      "Bánh chưng",
+      "Bánh giầy",
+      "Bánh ít"
+    ],
+    "correct": 0,
+    "explanation": "Hình tượng bánh trôi nước trong bài thơ kiệt tác của nữ sĩ Hồ Xuân Hương."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 2,
+    "question": "Đố mẹo: Con gì sáng đi bốn chân, trưa đi hai chân, tối đi ba chân?",
+    "options": [
+      "Con người (ấu thơ, trưởng thành, về già chống gậy)",
+      "Con khỉ",
+      "Con tinh tinh",
+      "Con gấu"
+    ],
+    "correct": 0,
+    "explanation": "Câu đố kinh điển của nhân sư Sphinx thời Hy Lạp cổ đại về vòng đời con người."
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "Đố logic: Có 10 ngọn nến đang cháy trong phòng. Gió thổi tắt 3 ngọn nến. Người ta đóng cửa sổ lại. Hỏi cuối cùng trong phòng còn lại bao nhiêu ngọn nến?",
+    "options": [
+      "Còn lại đúng 3 ngọn nến (7 ngọn kia cháy hết tan thành sáp)",
+      "Còn 10 ngọn",
+      "Còn 7 ngọn",
+      "Không còn ngọn nào"
+    ],
+    "correct": 0,
+    "explanation": "7 ngọn nến tiếp tục cháy sẽ tan hết, chỉ có 3 ngọn bị gió thổi tắt là còn giữ nguyên thân nến!"
+  },
+  {
+    "category": "do-vui-tri-tue",
+    "difficulty": 3,
+    "question": "ĐỐ VUI QUYẾT ĐỊNH: Bức tranh đố vui dân gian: 'Cày trên đồng ruộng trắng phau / Khát thì uống nước giếng sâu đen ngòm / Thẳng hàng ngay ngắn tươi giòn' là hành động gì thời xưa?",
+    "options": [
+      "Viết bút mực trên trang giấy trắng",
+      "Cày cấy lúa",
+      "Dệt vải tơ tằm",
+      "In tranh dân gian"
+    ],
+    "correct": 0,
+    "explanation": "Cây bút mực cày nét chữ trên trang giấy trắng, hết mực thì chấm vào lọ mực đen."
   }
 ]

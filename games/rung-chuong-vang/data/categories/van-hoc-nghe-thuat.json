@@ -2247,5 +2247,70 @@
     ],
     "correct": 0,
     "explanation": "Nhà văn Khái Hưng cùng Nhất Linh sáng lập Tự Lực Văn Đoàn với tôn chỉ đổi mới văn học và giải phóng cá nhân."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Điền từ vào câu tục ngữ: 'Gừng cay muối mặn xin đừng ... nhau'?",
+    "options": [
+      "quên",
+      "bỏ",
+      "xa",
+      "trách"
+    ],
+    "correct": 0,
+    "explanation": "Lời thề nguyền son sắt thủy chung của nghĩa vợ tình chồng qua bao năm tháng thăng trầm."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 1,
+    "question": "Trong truyện cổ tích 'Ăn khế trả vàng', người anh tham lam vì may túi mấy gang mà đã bị chim hất rơi xuống biển sâu?",
+    "options": [
+      "May túi mười hai gang",
+      "May túi ba gang",
+      "May túi sáu gang",
+      "May bao tải"
+    ],
+    "correct": 0,
+    "explanation": "Lòng tham vô đáy may túi mười hai gang đựng quá nặng khiến cánh chim không chịu nổi."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Bài thơ 'Từ ấy' đánh dấu mốc giác ngộ lý tưởng cách mạng cộng sản rực rỡ ('Từ ấy trong tôi bừng nắng hạ...') là của nhà thơ nào?",
+    "options": [
+      "Tố Hữu",
+      "Xuân Diệu",
+      "Huy Cận",
+      "Chế Lan Viên"
+    ],
+    "correct": 0,
+    "explanation": "'Từ ấy trong tôi bừng nắng hạ / Mặt trời chân lý chói qua tim' - khúc ca say mê lý tưởng của người chiến sĩ trẻ Tố Hữu năm 1938."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 2,
+    "question": "Tác phẩm tiểu thuyết lịch sử hoành tráng 'Bão táp triều Trần' gồm 4 tập tái hiện vương triều Trần rực rỡ là của nhà văn nào?",
+    "options": [
+      "Nhà văn Hoàng Quốc Hải",
+      "Nguyễn Huy Tưởng",
+      "Hà Ân",
+      "Trần Thùy Mai"
+    ],
+    "correct": 0,
+    "explanation": "Nhà văn Hoàng Quốc Hải dành trọn tâm huyết khắc họa 175 năm thăng trầm hiển hách của nhà Trần."
+  },
+  {
+    "category": "van-hoc-nghe-thuat",
+    "difficulty": 3,
+    "question": "CÂU HỎI VĂN HỌC QUYẾT ĐỊNH: Vở bi kịch cổ điển 'Vua Oedipus' (Oedipus Rex) kiệt tác sân khấu Hy Lạp cổ đại là tác phẩm của nhà viết kịch vĩ đại nào?",
+    "options": [
+      "Sophocles",
+      "Aeschylus",
+      "Euripides",
+      "Aristophanes"
+    ],
+    "correct": 0,
+    "explanation": "Sophocles sáng tác tấn thảm kịch Oedipus về định mệnh nghiệt ngã và số phận con người thời cổ đại."
   }
 ]

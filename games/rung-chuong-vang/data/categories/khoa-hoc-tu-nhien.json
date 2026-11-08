@@ -2052,5 +2052,70 @@
     ],
     "correct": 0,
     "explanation": "Thủy ngân là kim loại duy nhất tồn tại ở thể lỏng trong điều kiện nhiệt độ phòng thông thường."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Hành tinh nào trong Hệ Mặt Trời có đường kính lớn nhất và khối lượng nặng gấp đôi tất cả các hành tinh khác gộp lại?",
+    "options": [
+      "Sao Mộc (Jupiter)",
+      "Sao Thổ",
+      "Sao Kim",
+      "Sao Hỏa"
+    ],
+    "correct": 0,
+    "explanation": "Sao Mộc là người khổng lồ khí với Vết Đỏ Lớn là cơn bão xoáy khổng lồ tồn tại hàng trăm năm."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 1,
+    "question": "Chất lỏng màu đỏ lưu thông trong hệ tuần hoàn của cơ thể người để vận chuyển oxy và dưỡng chất là gì?",
+    "options": [
+      "Máu",
+      "Nước mắt",
+      "Nước bọt",
+      "Bạch huyết"
+    ],
+    "correct": 0,
+    "explanation": "Hồng cầu trong máu chứa huyết sắc tố gắn kết oxy phân phối tới mọi tế bào."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Hiện tượng ánh sáng bị bẻ cong khi đi từ không khí vào trong nước khiến chiếc thìa cắm trong cốc nước trông như bị gãy khúc là hiện tượng gì?",
+    "options": [
+      "Khúc xạ ánh sáng",
+      "Phản xạ toàn phần",
+      "Giao thoa ánh sáng",
+      "Tán xạ ánh sáng"
+    ],
+    "correct": 0,
+    "explanation": "Sự thay đổi tốc độ ánh sáng khi truyền qua hai môi trường chiết quang khác nhau gây ra hiện tượng khúc xạ."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 2,
+    "question": "Kim loại nào có nhiệt độ nóng chảy thấp nhất trong các kim loại thể rắn ở điều kiện bình thường (khoảng 29,76 °C, có thể tan chảy ngay trên lòng bàn tay)?",
+    "options": [
+      "Gali (Gallium - Ga)",
+      "Chì",
+      "Thiếc",
+      "Kẽm"
+    ],
+    "correct": 0,
+    "explanation": "Kim loại Gali tan chảy ở nhiệt độ cơ thể người (gần 30 °C) biến thành chất lỏng óng ánh bạc."
+  },
+  {
+    "category": "khoa-hoc-tu-nhien",
+    "difficulty": 3,
+    "question": "CÂU HỎI KHOA HỌC QUYẾT ĐỊNH: Loại hạt sơ cấp nào trong vật lý hạt nhân được mệnh danh là 'Hạt của Chúa' (God Particle) mang lại khối lượng cho các hạt khác trong vũ trụ?",
+    "options": [
+      "Boson Higgs",
+      "Quark",
+      "Neutrino",
+      "Photon"
+    ],
+    "correct": 0,
+    "explanation": "Peter Higgs và François Englert tiên đoán hạt Boson Higgs năm 1964 và được máy gia tốc hạt lớn LHC tại CERN tìm thấy năm 2012."
   }
 ]

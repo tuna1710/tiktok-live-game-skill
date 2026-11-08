@@ -2078,5 +2078,83 @@
     ],
     "correct": 0,
     "explanation": "Trần Nguyên Hãn chỉ huy đội quân công thành xuất sắc hạ thành Xương Giang trước khi Liễu Thăng kéo viện binh sang."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Chiến thắng lịch sử trên sông Bạch Đằng năm 1288 chém chết tướng Ô Mã Nhi gắn liền với triều đại nào?",
+    "options": [
+      "Nhà Trần",
+      "Nhà Lý",
+      "Nhà Hậu Lê",
+      "Nhà Tiền Lê"
+    ],
+    "correct": 0,
+    "explanation": "Hưng Đạo Đại vương Trần Quốc Tuấn lãnh đạo đại thắng quân Nguyên Mông lần thứ 3 trên sông Bạch Đằng."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 1,
+    "question": "Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh được tổ chức vào ngày tháng nào hàng năm?",
+    "options": [
+      "26/3",
+      "19/5",
+      "15/10",
+      "22/12"
+    ],
+    "correct": 0,
+    "explanation": "Ngày 26/3/1931 đánh dấu sự ra đời của tổ chức Đoàn Thanh niên cứu quốc."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Vị vua nào của triều Lý đã ban hành khoa thi Nho học đầu tiên (khoa thi Minh kinh bác học) vào năm 1075?",
+    "options": [
+      "Lý Nhân Tông",
+      "Lý Thánh Tông",
+      "Lý Thái Tổ",
+      "Lý Thần Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Nhân Tông mở khoa thi đầu tiên và chọn ra thủ khoa Lê Văn Thịnh."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Bản 'Lời kêu gọi Toàn quốc kháng chiến' của Chủ tịch Hồ Chí Minh được phát đi vào đêm ngày tháng năm nào?",
+    "options": [
+      "Đêm 19/12/1946",
+      "Đêm 2/9/1945",
+      "Đêm 19/8/1945",
+      "Đêm 7/5/1954"
+    ],
+    "correct": 0,
+    "explanation": "'Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ!' - Lời kêu gọi lịch sử tại làng Vạn Phúc."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 2,
+    "question": "Cuộc Vạn Lý Trường Chinh (1934 - 1936) vượt qua hơn 10.000 km địa hình hiểm trở gắn liền với quân đội cách mạng nước nào?",
+    "options": [
+      "Trung Quốc",
+      "Nga",
+      "Triều Tiên",
+      "Cuba"
+    ],
+    "correct": 0,
+    "explanation": "Cuộc hành quân chiến lược của Hồng quân Trung Quốc do Mao Trạch Đông lãnh đạo lên căn cứ Thiểm Tây."
+  },
+  {
+    "category": "lich-su",
+    "difficulty": 3,
+    "question": "CÂU HỎI LỊCH SỬ QUYẾT ĐỊNH: Vị vua nào trong lịch sử Việt Nam ở ngôi lâu nhất (56 năm) từ năm 1072 đến năm 1127?",
+    "options": [
+      "Lý Nhân Tông (Lý Càn Đức)",
+      "Lê Thánh Tông",
+      "Trần Nhân Tông",
+      "Lý Thánh Tông"
+    ],
+    "correct": 0,
+    "explanation": "Vua Lý Nhân Tông lên ngôi khi mới 7 tuổi và trị vì đất nước thái bình thịnh trị suốt 56 năm rực rỡ."
   }
 ]
