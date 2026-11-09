@@ -16,7 +16,7 @@ body {
   overflow: hidden;
 }
 
-/* Container chuẩn 1080 x 1920 (Tỉ lệ 9:16) */
+/* Container chuẩn 1080 x 1920 (Tỉ lệ 9:16 responsive fit) */
 .game-container {
   position: relative;
   width: 1080px;
@@ -26,6 +26,9 @@ body {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 /* Canvas hiệu ứng overlay */
@@ -274,6 +277,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateZ(0);
 }
 
 .map-viewport {
@@ -804,7 +808,7 @@ body {
   color: #fff;
 }
 
-/* Khung tin nhắn Chủ phòng */
+/* Khung tin nhắn Chủ phòng & Bảng Luật Chơi */
 .host-pinned-card {
   background: rgba(14, 30, 44, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -814,6 +818,144 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.rules-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, rgba(14, 34, 52, 0.9) 0%, rgba(8, 20, 32, 0.96) 100%);
+  border: 1.5px solid rgba(88, 166, 255, 0.35);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.rules-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 8px;
+}
+
+.rules-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rules-icon {
+  font-size: 22px;
+  filter: drop-shadow(0 0 6px #ffb703);
+}
+
+.rules-title {
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  color: #ffde59;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 222, 89, 0.4);
+}
+
+.rules-countdown-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #9cb3c9;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.rules-clock {
+  font-weight: 900;
+  color: #00f2fe;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.rules-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+}
+
+.rule-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.rule-line-full {
+  grid-column: span 2;
+}
+
+.rule-badge {
+  font-size: 12px;
+  font-weight: 900;
+  padding: 4px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.badge-cmt {
+  background: rgba(88, 166, 255, 0.2);
+  color: #58a6ff;
+  border: 1px solid rgba(88, 166, 255, 0.4);
+}
+
+.badge-leader {
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  border: 1px solid rgba(255, 215, 0, 0.5);
+}
+
+.badge-score {
+  background: rgba(255, 0, 127, 0.2);
+  color: #ff416c;
+  border: 1px solid rgba(255, 0, 127, 0.4);
+}
+
+.badge-vip {
+  background: rgba(112, 0, 255, 0.25);
+  color: #d2a8ff;
+  border: 1px solid rgba(163, 113, 247, 0.5);
+}
+
+.badge-like {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.rule-desc {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.35;
+}
+
+.rule-desc b {
+  color: #fff;
+  font-weight: 800;
+}
+
+.rule-desc i {
+  color: #79c0ff;
+  font-style: normal;
 }
 
 .host-avatar {

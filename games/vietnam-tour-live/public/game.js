@@ -246,9 +246,14 @@ function formatTime(seconds) {
 }
 
 socket.on('gameState', state => {
-  // Cập nhật vòng và thời gian live
+  // Cập nhật mùa giải và thời gian đếm ngược 15 phút Bảng Vàng
   roundNumberEl.textContent = `#${state.roundNumber}`;
-  roundTimerEl.textContent = formatTime(state.roundTimeLeft || 70);
+  const seasonFormatted = formatTime(state.roundTimeLeft || 900);
+  roundTimerEl.textContent = seasonFormatted;
+  const lbCountdown = document.getElementById('lbCountdown');
+  if (lbCountdown) lbCountdown.textContent = seasonFormatted;
+  const rulesCountdown = document.getElementById('rulesCountdown');
+  if (rulesCountdown) rulesCountdown.textContent = seasonFormatted;
 
   // Cập nhật tỉnh đang thăm
   if (state.currentVisit) {
@@ -329,7 +334,12 @@ socket.on('chat', chat => {
 // Sự kiện đếm giây
 socket.on('tick', data => {
   visitCountdownEl.textContent = `15:${data.timeLeft < 10 ? '0' : ''}${data.timeLeft}`;
-  roundTimerEl.textContent = formatTime(data.roundTimeLeft);
+  const seasonFormatted = formatTime(data.roundTimeLeft);
+  roundTimerEl.textContent = seasonFormatted;
+  const lbCountdown = document.getElementById('lbCountdown');
+  if (lbCountdown) lbCountdown.textContent = seasonFormatted;
+  const rulesCountdown = document.getElementById('rulesCountdown');
+  if (rulesCountdown) rulesCountdown.textContent = seasonFormatted;
 });
 
 // Chuyển tỉnh
@@ -399,10 +409,10 @@ function renderQueue(queue) {
     const visitors = item.visitors && item.visitors.length > 0 ? item.visitors : (item.user ? [item.user] : []);
     const leader = item.leader || item.user || {};
 
-    if (coins >= 200 || item.perkType === 'vip') {
+    if (coins >= 20 || item.perkType === 'vip') {
       themeClass = 'card-vip';
       badgeHtml = `<span class="q-badge q-vip">👑 ${coins} xu</span>`;
-    } else if (coins >= 50 || item.perkType === 'fast') {
+    } else if (coins >= 5 || item.perkType === 'fast') {
       themeClass = 'card-fast';
       badgeHtml = `<span class="q-badge q-fast">⚡ ${coins} xu</span>`;
     } else if (coins > 0 || item.perkType === 'gift') {
@@ -509,6 +519,24 @@ socket.on('vipSpecialEffect', data => {
   triggerFireworks();
 });
 
+socket.on('seasonWinner', data => {
+  triggerFireworks();
+  showToast(`🏆 CHÚC MỪNG ${data.provinceName.toUpperCase()} ĐẠT QUÁN QUÂN BẢNG VÀNG! (${data.score} điểm)`);
+});
+
+socket.on('roundReset', data => {
+  roundNumberEl.textContent = `#${data.roundNumber}`;
+  const freshTime = formatTime(data.roundTimeLeft || 900);
+  roundTimerEl.textContent = freshTime;
+  const lbCountdown = document.getElementById('lbCountdown');
+  if (lbCountdown) lbCountdown.textContent = freshTime;
+  const rulesCountdown = document.getElementById('rulesCountdown');
+  if (rulesCountdown) rulesCountdown.textContent = freshTime;
+  if (!data.winner) {
+    showToast(`🔄 BẮT ĐẦU MÙA GIẢI ĐUA TOP BẢNG VÀNG #${data.roundNumber}!`);
+  }
+});
+
 function showToast(message) {
   const toast = document.createElement('div');
   toast.className = 'toast-banner';
@@ -532,6 +560,10 @@ socket.on('playTts', data => {
 });
 
 function queueTts(text) {
+  // Giới hạn hàng đợi tối đa 4 câu để tránh trôi xa tương tác thời gian thực
+  if (ttsQueue.length >= 4) {
+    ttsQueue.splice(1, 1);
+  }
   ttsQueue.push(text);
   if (!isPlayingTts) {
     playNextTts();
@@ -549,15 +581,21 @@ function playNextTts() {
   const url = `/api/tts?text=${encodeURIComponent(text)}`;
 
   ttsAudio.src = url;
+  ttsAudio.playbackRate = 1.25; // Đọc nhanh 1.25x giúp giọng sôi động, chuẩn nhịp live
+  if ('preservesPitch' in ttsAudio) {
+    ttsAudio.preservesPitch = true;
+  }
+
   ttsAudio.play()
     .then(() => {
+      ttsAudio.playbackRate = 1.25;
       ttsAudio.onended = () => {
-        setTimeout(playNextTts, 400);
+        setTimeout(playNextTts, 100); // Rút ngắn khoảng nghỉ giữa 2 câu xuống 100ms
       };
     })
     .catch(e => {
       console.warn('TTS playback prevented or waiting for user interaction:', e);
-      setTimeout(playNextTts, 1000);
+      setTimeout(playNextTts, 500);
     });
 }
 
@@ -569,22 +607,23 @@ window.addEventListener('click', () => {
 }, { once: true });
 
 // ============================================================
-// 7. HỆ THỐNG HẠT VÀ PHÁO HOA (CANVAS FX)
+// 7. HỆ THỐNG HẠT VÀ PHÁO HOA (CANVAS FX - GPU TỐI ƯU)
 // ============================================================
 let particles = [];
+let isFxRunning = false;
 
 class Particle {
   constructor(x, y, color) {
     this.x = x;
     this.y = y;
     this.color = color;
-    this.radius = Math.random() * 4 + 2;
+    this.radius = Math.random() * 3 + 2;
     const angle = Math.random() * Math.PI * 2;
-    const speed = Math.random() * 8 + 3;
+    const speed = Math.random() * 7 + 2.5;
     this.vx = Math.cos(angle) * speed;
     this.vy = Math.sin(angle) * speed;
     this.alpha = 1;
-    this.decay = Math.random() * 0.02 + 0.015;
+    this.decay = Math.random() * 0.025 + 0.02;
   }
 
   update() {
@@ -605,29 +644,46 @@ class Particle {
   }
 }
 
+function startFxLoopIfNeeded() {
+  if (!isFxRunning && particles.length > 0) {
+    isFxRunning = true;
+    requestAnimationFrame(fxLoop);
+  }
+}
+
 function triggerFireworks() {
   const colors = ['#ffd700', '#ff007f', '#00f2fe', '#7000ff', '#ffffff'];
   for (let i = 0; i < 3; i++) {
     setTimeout(() => {
       const rx = Math.random() * 600 + 240;
       const ry = Math.random() * 600 + 400;
-      for (let j = 0; j < 80; j++) {
+      // Tối ưu số lượng hạt từ 80 xuống 35 để không gây giật lag
+      for (let j = 0; j < 35; j++) {
         const color = colors[Math.floor(Math.random() * colors.length)];
         particles.push(new Particle(rx, ry, color));
       }
-    }, i * 250);
+      startFxLoopIfNeeded();
+    }, i * 200);
   }
 }
 
 function createHeartBurst(x, y) {
   const colors = ['#ff3b5c', '#ff8800', '#ff007f'];
-  for (let i = 0; i < 40; i++) {
+  // Tối ưu số lượng hạt từ 40 xuống 18
+  for (let i = 0; i < 18; i++) {
     const color = colors[Math.floor(Math.random() * colors.length)];
     particles.push(new Particle(x, y, color));
   }
+  startFxLoopIfNeeded();
 }
 
 function fxLoop() {
+  if (particles.length === 0) {
+    ctx.clearRect(0, 0, fxCanvas.width, fxCanvas.height);
+    isFxRunning = false;
+    return; // Dừng vòng lặp khi không còn hiệu ứng để trả CPU/GPU về 0%
+  }
+
   ctx.clearRect(0, 0, fxCanvas.width, fxCanvas.height);
   for (let i = particles.length - 1; i >= 0; i--) {
     const p = particles[i];
@@ -637,10 +693,14 @@ function fxLoop() {
       particles.splice(i, 1);
     }
   }
-  requestAnimationFrame(fxLoop);
-}
 
-requestAnimationFrame(fxLoop);
+  if (particles.length > 0) {
+    requestAnimationFrame(fxLoop);
+  } else {
+    ctx.clearRect(0, 0, fxCanvas.width, fxCanvas.height);
+    isFxRunning = false;
+  }
+}
 
 // Khởi chạy
 initMap();

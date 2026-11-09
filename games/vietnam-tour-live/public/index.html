@@ -21,9 +21,9 @@
       <!-- Dòng 1: Vòng gặp gỡ & Đồng hồ phiên live -->
       <div class="top-bar">
         <div class="round-badge">
-          Vòng gặp gỡ <span id="roundNumber">#19</span>
+          Mùa đua Bảng Vàng <span id="roundNumber">#1</span>
         </div>
-        <div class="live-timer" id="roundTimer">01:10</div>
+        <div class="live-timer" id="roundTimer">15:00</div>
       </div>
 
       <!-- Dòng 2: Trạng thái ghé thăm & Thống kê phòng -->
@@ -147,7 +147,7 @@
             <span class="lb-icon">🏆</span>
             <div>
               <div class="lb-title">ĐUA TOP QUÊ HƯƠNG</div>
-              <div class="lb-subtitle">Yêu quý & Donate</div>
+              <div class="lb-subtitle">Chốt sổ sau: <span id="lbCountdown" style="color: #00f2fe; font-weight: bold; font-family: monospace;">15:00</span></div>
             </div>
           </div>
         </div>
@@ -179,14 +179,40 @@
         </div>
       </div>
 
-      <!-- Khung thông điệp ghim của Chủ phòng -->
-      <div class="host-pinned-card">
-        <div class="host-avatar">
-          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop&crop=face" alt="Host">
-          <span class="host-tag">Chủ phòng</span>
+      <!-- Khung Bảng Luật Chơi & Đặc Quyền TikTok Live -->
+      <div class="host-pinned-card rules-card">
+        <div class="rules-header">
+          <div class="rules-tag">
+            <span class="rules-icon">📜</span>
+            <span class="rules-title">LUẬT CHƠI & ĐẶC QUYỀN ĐUA TOP</span>
+          </div>
+          <div class="rules-countdown-wrap">
+            <span class="rules-clock-icon">⏱️</span>
+            <span>Chốt Bảng Vàng sau:</span>
+            <span id="rulesCountdown" class="rules-clock">15:00</span>
+          </div>
         </div>
-        <div class="host-message">
-          Nhớ bình luận tên tỉnh để đến thăm tỉnh của mình nhé, cả nhà xem live vui vẻ, cảm ơn đã đến và ở lại ❤️
+        <div class="rules-content">
+          <div class="rule-line">
+            <span class="rule-badge badge-cmt">💬 Bình luận</span>
+            <span class="rule-desc">Gõ tên tỉnh (<i>Hà Nội, Cà Mau...</i>) để vào đoàn về quê</span>
+          </div>
+          <div class="rule-line">
+            <span class="rule-badge badge-leader">👑 Trưởng đoàn</span>
+            <span class="rule-desc">Người tặng nhiều xu nhất tỉnh sẽ được đội Vương miện Trưởng đoàn</span>
+          </div>
+          <div class="rule-line">
+            <span class="rule-badge badge-score">🌹 1 Xu = 30 Điểm</span>
+            <span class="rule-desc">Tặng quà buff <b>Điểm Yêu thương</b> đưa tỉnh lên Top 1 Bảng Vàng 15 phút</span>
+          </div>
+          <div class="rule-line">
+            <span class="rule-badge badge-vip">⚡ Vé Chen Hàng</span>
+            <span class="rule-desc">Từ <b>5 Xu</b> (Vé Đọc Nhanh ⚡) • Từ <b>20 Xu</b> (VIP Hoàng Kim 👑)</span>
+          </div>
+          <div class="rule-line rule-line-full">
+            <span class="rule-badge badge-like">❤️ Tương tác</span>
+            <span class="rule-desc">Thả tim liên tục & Follow kênh giúp đoàn được cộng điểm uy tín và mở khóa pháo hoa</span>
+          </div>
         </div>
       </div>
 

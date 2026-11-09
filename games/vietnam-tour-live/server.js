@@ -22,6 +22,100 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Tỷ lệ quy đổi điểm danh vọng cho tỉnh thành: 1 xu = 30 điểm
+const COINS_TO_POINTS_RATE = 30;
+const VIP_COIN_THRESHOLD = 20; // Từ 20 Xu nhận vé VIP Hoàng Kim
+const FAST_PASS_COIN_THRESHOLD = 5; // Từ 5 Xu nhận vé Đọc Nhanh
+
+// Bảng tra cứu Biển số xe 63 Tỉnh Thành Việt Nam (cho phép gửi số như 36, 29, 89...)
+const LICENSE_PLATE_MAP = {
+  // Miền Bắc
+  '11': { sub: 'Cao Bằng', provId: 'cao-bang' },
+  '12': { sub: 'Lạng Sơn', provId: 'lang-son' },
+  '14': { sub: 'Quảng Ninh', provId: 'quang-ninh' },
+  '15': { sub: 'Hải Phòng', provId: 'hai-phong' },
+  '16': { sub: 'Hải Phòng', provId: 'hai-phong' },
+  '17': { sub: 'Thái Bình', provId: 'hung-yen' },
+  '18': { sub: 'Nam Định', provId: 'ninh-binh' },
+  '19': { sub: 'Phú Thọ', provId: 'phu-tho' },
+  '20': { sub: 'Thái Nguyên', provId: 'thai-nguyen' },
+  '21': { sub: 'Yên Bái', provId: 'lao-cai' },
+  '22': { sub: 'Tuyên Quang', provId: 'tuyen-quang' },
+  '23': { sub: 'Hà Giang', provId: 'tuyen-quang' },
+  '24': { sub: 'Lào Cai', provId: 'lao-cai' },
+  '25': { sub: 'Lai Châu', provId: 'lai-chau' },
+  '26': { sub: 'Sơn La', provId: 'son-la' },
+  '27': { sub: 'Điện Biên', provId: 'dien-bien' },
+  '28': { sub: 'Hòa Bình', provId: 'phu-tho' },
+  '29': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '30': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '31': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '32': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '33': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '40': { sub: 'Hà Nội', provId: 'ha-noi' },
+  '34': { sub: 'Hải Dương', provId: 'hai-phong' },
+  '35': { sub: 'Ninh Bình', provId: 'ninh-binh' },
+  '88': { sub: 'Vĩnh Phúc', provId: 'phu-tho' },
+  '89': { sub: 'Hưng Yên', provId: 'hung-yen' },
+  '90': { sub: 'Hà Nam', provId: 'ninh-binh' },
+  '97': { sub: 'Bắc Kạn', provId: 'thai-nguyen' },
+  '98': { sub: 'Bắc Giang', provId: 'bac-ninh' },
+  '99': { sub: 'Bắc Ninh', provId: 'bac-ninh' },
+
+  // Miền Trung & Tây Nguyên
+  '36': { sub: 'Thanh Hóa', provId: 'thanh-hoa' },
+  '37': { sub: 'Nghệ An', provId: 'nghe-an' },
+  '38': { sub: 'Hà Tĩnh', provId: 'ha-tinh' },
+  '43': { sub: 'Đà Nẵng', provId: 'da-nang' },
+  '47': { sub: 'Đắk Lắk', provId: 'dak-lak' },
+  '48': { sub: 'Đắk Nông', provId: 'lam-dong' },
+  '49': { sub: 'Lâm Đồng', provId: 'lam-dong' },
+  '73': { sub: 'Quảng Bình', provId: 'quang-tri' },
+  '74': { sub: 'Quảng Trị', provId: 'quang-tri' },
+  '75': { sub: 'Huế', provId: 'hue' },
+  '76': { sub: 'Quảng Ngãi', provId: 'quang-ngai' },
+  '77': { sub: 'Bình Định', provId: 'gia-lai' },
+  '78': { sub: 'Phú Yên', provId: 'dak-lak' },
+  '79': { sub: 'Khánh Hòa', provId: 'khanh-hoa' },
+  '81': { sub: 'Gia Lai', provId: 'gia-lai' },
+  '82': { sub: 'Kon Tum', provId: 'quang-ngai' },
+  '85': { sub: 'Ninh Thuận', provId: 'khanh-hoa' },
+  '86': { sub: 'Bình Thuận', provId: 'lam-dong' },
+  '92': { sub: 'Quảng Nam', provId: 'da-nang' },
+
+  // Miền Nam
+  '39': { sub: 'Đồng Nai', provId: 'dong-nai' },
+  '41': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '50': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '51': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '52': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '53': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '54': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '55': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '56': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '57': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '58': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '59': { sub: 'TP. Hồ Chí Minh', provId: 'ho-chi-minh' },
+  '60': { sub: 'Đồng Nai', provId: 'dong-nai' },
+  '61': { sub: 'Bình Dương', provId: 'ho-chi-minh' },
+  '62': { sub: 'Long An', provId: 'tay-ninh' },
+  '63': { sub: 'Tiền Giang', provId: 'dong-thap' },
+  '64': { sub: 'Vĩnh Long', provId: 'vinh-long' },
+  '65': { sub: 'Cần Thơ', provId: 'can-tho' },
+  '66': { sub: 'Đồng Tháp', provId: 'dong-thap' },
+  '67': { sub: 'An Giang', provId: 'an-giang' },
+  '68': { sub: 'Kiên Giang', provId: 'an-giang' },
+  '69': { sub: 'Cà Mau', provId: 'ca-mau' },
+  '70': { sub: 'Tây Ninh', provId: 'tay-ninh' },
+  '71': { sub: 'Bến Tre', provId: 'vinh-long' },
+  '72': { sub: 'Bà Rịa - Vũng Tàu', provId: 'ho-chi-minh' },
+  '83': { sub: 'Sóc Trăng', provId: 'can-tho' },
+  '84': { sub: 'Trà Vinh', provId: 'vinh-long' },
+  '93': { sub: 'Bình Phước', provId: 'dong-nai' },
+  '94': { sub: 'Bạc Liêu', provId: 'ca-mau' },
+  '95': { sub: 'Hậu Giang', provId: 'can-tho' }
+};
+
 // Tạo thư mục cache cho TTS tiếng Việt (MD5 disk-cache)
 const TTS_CACHE_DIR = path.join(__dirname, 'data', 'tts-cache');
 if (!fs.existsSync(TTS_CACHE_DIR)) {
@@ -132,6 +226,25 @@ function matchProvince(comment) {
     }
   }
 
+  // 3. Khớp theo Biển số xe (Ví dụ: "36", "29", "89", "bien 36", "em 29 nha"...)
+  const numMatches = norm.match(/\b(1[124-9]|2[0-9]|3[0-9]|4[013789]|5[0-9]|6[0-9]|7[0-9]|8[1-689]|9[0-5789])\b/g);
+  if (numMatches) {
+    for (const num of numMatches) {
+      const plate = LICENSE_PLATE_MAP[num];
+      if (plate) {
+        const p = PROVINCES.find(item => item.id === plate.provId);
+        if (p) {
+          const sub = plate.sub;
+          return {
+            province: p,
+            displayName: sub === p.name ? `${p.name} (Biển ${num})` : `${sub} (${p.name} - Biển ${num})`,
+            ttsName: sub
+          };
+        }
+      }
+    }
+  }
+
   return null;
 }
 
@@ -206,10 +319,11 @@ app.get('/api/tiktok/status', (req, res) => {
 
 // Khởi tạo Game State
 const PROVINCE_VISIT_DURATION = 15; // Mỗi tỉnh ghé thăm 15 giây
+const LEADERBOARD_SEASON_DURATION = 15 * 60; // 15 phút = 900 giây tự động reset Bảng Vàng
 
 let gameState = {
-  roundNumber: 19,
-  roundTimeLeft: 70, // 01:10
+  roundNumber: 1, // Mùa giải đua top #1
+  roundTimeLeft: LEADERBOARD_SEASON_DURATION, // 15:00
   currentVisit: {
     provinceId: 'lao-cai',
     svgId: 'laocai',
@@ -478,6 +592,47 @@ function nextProvince() {
   io.emit('gameState', gameState);
 }
 
+// Xử lý Chốt Bảng Vàng 15 phút & Bắt đầu Mùa giải mới
+function resetLeaderboardSeason(manualTrigger = false) {
+  // 1. Xác định Quán quân Bảng Vàng (Top 1)
+  const currentLeaderboard = getTopProvinces(5);
+  const winner = currentLeaderboard.find(p => (p.score || 0) > 0);
+
+  if (winner) {
+    const winnerTts = `Thời gian 15 phút đã khép lại! Xin chúc mừng tỉnh ${winner.name} đã xuất sắc giành Quán Quân Bảng Vàng mùa này với ${winner.score} điểm! Bắt đầu mùa đua mới ngay bây giờ!`;
+    io.emit('playTts', { text: winnerTts });
+    io.emit('seasonWinner', {
+      provinceName: winner.name,
+      score: winner.score,
+      roundNumber: gameState.roundNumber
+    });
+  } else {
+    const freshTts = `Hết 15 phút mùa giải! Bắt đầu vòng đua Top mới, cả nhà cùng gõ tên tỉnh và tặng quà để đưa quê hương mình lên đỉnh Bảng Vàng nhé!`;
+    io.emit('playTts', { text: freshTts });
+  }
+
+  // 2. Tăng số thứ tự vòng/mùa giải
+  gameState.roundNumber++;
+  gameState.roundTimeLeft = LEADERBOARD_SEASON_DURATION;
+
+  // 3. Reset toàn bộ điểm Bảng Vàng về 0
+  for (const provId in gameState.provinceStats) {
+    gameState.provinceStats[provId] = 0;
+  }
+  gameState.currentVisit.visitCount = 0;
+  gameState.leaderboard = getTopProvinces(5);
+
+  // 4. Đồng bộ cho toàn bộ client
+  io.emit('roundReset', {
+    roundNumber: gameState.roundNumber,
+    roundTimeLeft: gameState.roundTimeLeft,
+    winner: winner || null
+  });
+  io.emit('provinceChanged', gameState.currentVisit);
+  io.emit('leaderboardUpdated', gameState.leaderboard);
+  io.emit('gameState', gameState);
+}
+
 
 let lastCtaTime = Date.now();
 let lastDropInTtsTime = 0;
@@ -495,13 +650,11 @@ setInterval(() => {
     nextProvince();
   }
 
-  // Đếm ngược thời gian vòng phiên Live
+  // Đếm ngược thời gian mùa giải Đua Top Bảng Vàng (15 phút)
   if (gameState.roundTimeLeft > 0) {
     gameState.roundTimeLeft--;
   } else {
-    gameState.roundNumber++;
-    gameState.roundTimeLeft = 70;
-    io.emit('roundReset', { roundNumber: gameState.roundNumber });
+    resetLeaderboardSeason();
   }
 
   // Kêu gọi tương tác / Đua top định kỳ (Call to action) khi hàng đợi trống
@@ -598,8 +751,9 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     gameState.currentVisit.leader = newLeader;
     gameState.currentVisit.user = newLeader;
 
-    // Cộng điểm danh vọng cho tỉnh
-    gameState.currentVisit.visitCount += Math.max(1, totalItemCoins);
+    // Cộng điểm danh vọng cho tỉnh (1 xu = 30 điểm)
+    const pointsToAdd = totalItemCoins > 0 ? (totalItemCoins * COINS_TO_POINTS_RATE) : 1;
+    gameState.currentVisit.visitCount += pointsToAdd;
     gameState.provinceStats[targetProvince.id] = gameState.currentVisit.visitCount;
 
     // Phát sự kiện Nhập đoàn tức thì (Drop-in) cho Client
@@ -665,8 +819,8 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     const cohortBonus = (existingProvinceItem.visitors.length - 1) * 20;
     existingProvinceItem.priorityScore = basePriority + cohortBonus;
 
-    if (existingProvinceItem.coins >= 200) existingProvinceItem.perkType = 'vip';
-    else if (existingProvinceItem.coins >= 50) existingProvinceItem.perkType = 'fast';
+    if (existingProvinceItem.coins >= VIP_COIN_THRESHOLD) existingProvinceItem.perkType = 'vip';
+    else if (existingProvinceItem.coins >= FAST_PASS_COIN_THRESHOLD) existingProvinceItem.perkType = 'fast';
     else if (existingProvinceItem.coins > 0) existingProvinceItem.perkType = 'gift';
     else if (existingProvinceItem.visitors.length >= 3) existingProvinceItem.perkType = 'cohort';
     else if (uState.isFollower) existingProvinceItem.perkType = 'follower';
@@ -678,8 +832,8 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     // TRƯỜNG HỢP 3: Tỉnh này CHƯA CÓ trong hàng đợi -> Khởi tạo đoàn mới
     const basePriority = calculatePriority(totalItemCoins, uState);
     let perkType = 'normal';
-    if (totalItemCoins >= 200) perkType = 'vip';
-    else if (totalItemCoins >= 50) perkType = 'fast';
+    if (totalItemCoins >= VIP_COIN_THRESHOLD) perkType = 'vip';
+    else if (totalItemCoins >= FAST_PASS_COIN_THRESHOLD) perkType = 'fast';
     else if (totalItemCoins > 0) perkType = 'gift';
     else if (uState.isFollower) perkType = 'follower';
     else if (uState.shared) perkType = 'share';
@@ -774,13 +928,13 @@ function handleGiftEvent(giftData) {
     const cohortBonus = (queueItemWithUser.visitors.length - 1) * 20;
     queueItemWithUser.priorityScore = basePriority + cohortBonus;
 
-    if (queueItemWithUser.coins >= 200) queueItemWithUser.perkType = 'vip';
-    else if (queueItemWithUser.coins >= 50) queueItemWithUser.perkType = 'fast';
+    if (queueItemWithUser.coins >= VIP_COIN_THRESHOLD) queueItemWithUser.perkType = 'vip';
+    else if (queueItemWithUser.coins >= FAST_PASS_COIN_THRESHOLD) queueItemWithUser.perkType = 'fast';
     else queueItemWithUser.perkType = 'gift';
   } else if (uState.lastProvinceId) {
     // User chưa trong hàng đợi nhưng trước đó ĐÃ comment tên tỉnh: Tạo vé ưu tiên ngay lập tức!
     const priorityScore = calculatePriority(totalCoins, uState);
-    let perkType = totalCoins >= 200 ? 'vip' : (totalCoins >= 50 ? 'fast' : 'gift');
+    let perkType = totalCoins >= VIP_COIN_THRESHOLD ? 'vip' : (totalCoins >= FAST_PASS_COIN_THRESHOLD ? 'fast' : 'gift');
     const donorObj = {
       uniqueId: uid,
       nickname: nickname || 'Khán giả',
@@ -811,17 +965,18 @@ function handleGiftEvent(giftData) {
   sortQueue();
   io.emit('queueUpdated', gameState.queue);
 
-  // 3. Cập nhật điểm cho tỉnh đang ghé thăm trên màn hình
-  gameState.currentVisit.visitCount += totalCoins;
+  // 3. Cập nhật điểm cho tỉnh đang ghé thăm trên màn hình (1 xu = 30 điểm)
+  const pointsFromGift = totalCoins * COINS_TO_POINTS_RATE;
+  gameState.currentVisit.visitCount += pointsFromGift;
   gameState.provinceStats[gameState.currentVisit.provinceId] = gameState.currentVisit.visitCount;
 
   // 4. Hiệu ứng & Lời thoại MC
-  if (totalCoins >= 200) {
+  if (totalCoins >= VIP_COIN_THRESHOLD) {
     io.emit('vipSpecialEffect', { nickname, giftName, coins: totalCoins });
     const tts = getRandomLine('vipGift', { nickname, giftName, coins: totalCoins }) ||
       `Cảm ơn đại gia ${nickname} đã tặng ${giftName}! Nhận đặc quyền ưu tiên đọc trước!`;
     io.emit('playTts', { text: tts });
-  } else if (totalCoins >= 50) {
+  } else if (totalCoins >= FAST_PASS_COIN_THRESHOLD) {
     const tts = getRandomLine('fastPassGift', { nickname, giftName, coins: totalCoins }) ||
       `Cảm ơn ${nickname} đã tặng ${giftName} để đọc nhanh!`;
     io.emit('playTts', { text: tts });
@@ -834,6 +989,7 @@ function handleGiftEvent(giftData) {
 
   gameState.stats.followersGoal += Math.floor(totalCoins / 2) + 1;
   gameState.leaderboard = getTopProvinces(5);
+  io.emit('provinceChanged', gameState.currentVisit);
   io.emit('leaderboardUpdated', gameState.leaderboard);
   io.emit('gameState', gameState);
 }
@@ -1229,8 +1385,12 @@ io.on('connection', socket => {
   // Reset hàng đợi / vòng chơi
   socket.on('mock:reset', () => {
     gameState.queue = [];
-    gameState.roundTimeLeft = 70;
-    io.emit('gameState', gameState);
+    resetLeaderboardSeason(true);
+  });
+
+  // Chốt Bảng Vàng 15 phút ngay lập tức (Test / Admin)
+  socket.on('mock:season_reset', () => {
+    resetLeaderboardSeason(true);
   });
 
   // Chọn thẳng một tỉnh để ghé thăm
