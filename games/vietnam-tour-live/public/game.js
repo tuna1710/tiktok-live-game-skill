@@ -294,14 +294,40 @@ function renderQueue(queue) {
   }
 
   queueCardsWrapper.innerHTML = queue.slice(0, 5).map((item, idx) => {
-    const isVip = item.isVip || item.priority >= 50;
-    const themeClass = isVip ? 'card-vip' : CARD_THEMES[idx % CARD_THEMES.length];
+    let themeClass = CARD_THEMES[idx % CARD_THEMES.length];
+    let badgeHtml = '<span class="q-badge q-free">💬 Thường</span>';
+
+    const coins = item.coins || 0;
+    if (coins >= 200 || item.perkType === 'vip') {
+      themeClass = 'card-vip';
+      badgeHtml = `<span class="q-badge q-vip">👑 ${coins} xu</span>`;
+    } else if (coins >= 50 || item.perkType === 'fast') {
+      themeClass = 'card-fast';
+      badgeHtml = `<span class="q-badge q-fast">⚡ ${coins} xu</span>`;
+    } else if (coins > 0 || item.perkType === 'gift') {
+      themeClass = 'card-gift';
+      badgeHtml = `<span class="q-badge q-gift">🌹 ${coins} xu</span>`;
+    } else if (item.perkType === 'follower') {
+      badgeHtml = '<span class="q-badge q-follower">⭐ Follower</span>';
+    } else if (item.perkType === 'share') {
+      badgeHtml = '<span class="q-badge q-share">🔁 Share</span>';
+    } else if (item.priorityScore >= 20) {
+      badgeHtml = '<span class="q-badge q-follower">❤️ Like 20+</span>';
+    }
+
     const orderStr = (idx + 1) < 10 ? `0${idx + 1}` : `${idx + 1}`;
+    const userName = (item.user && item.user.nickname) ? item.user.nickname : '';
 
     return `
       <div class="queue-card ${themeClass}">
-        <span class="order">${orderStr} ${isVip ? '👑' : ''}</span>
-        <span class="name">${item.provinceName}</span>
+        <div class="queue-card-top">
+          <span class="order">${orderStr}</span>
+          ${badgeHtml}
+        </div>
+        <div class="queue-card-body">
+          <span class="name">${item.provinceName}</span>
+          ${userName ? `<span class="user-sub">${userName}</span>` : ''}
+        </div>
       </div>
     `;
   }).join('');

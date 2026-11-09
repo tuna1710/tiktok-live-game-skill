@@ -469,7 +469,7 @@ body {
   flex: 0 0 300px;
   height: 120px;
   border-radius: 18px;
-  padding: 18px 24px;
+  padding: 14px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -478,19 +478,90 @@ body {
   transition: transform 0.3s ease;
 }
 
+.queue-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.queue-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .queue-card .order {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .queue-card .name {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 900;
   letter-spacing: 0.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
-/* Tone màu thẻ như video mẫu */
+.queue-card .user-sub {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.75;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 3px;
+}
+
+/* Badges ưu tiên trên thẻ */
+.q-badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.q-vip {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  color: #1a0033;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.q-fast {
+  background: linear-gradient(135deg, #ff007f, #7928ca);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
+}
+
+.q-gift {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(255, 65, 108, 0.5);
+}
+
+.q-follower {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: #04241e;
+}
+
+.q-share {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  color: #05232c;
+}
+
+.q-free {
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Tone màu thẻ */
 .card-blue {
   background: linear-gradient(135deg, #2b4c68 0%, #1c3349 100%);
   color: #d8ecf8;
@@ -510,6 +581,20 @@ body {
   background: linear-gradient(135deg, #a13d63 0%, #681d39 100%);
   border: 2px solid #ffd700;
   box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+  color: #fff;
+}
+
+.card-fast {
+  background: linear-gradient(135deg, #4a154b 0%, #2e0854 100%);
+  border: 1.5px solid #ff007f;
+  box-shadow: 0 0 18px rgba(255, 0, 127, 0.4);
+  color: #fff;
+}
+
+.card-gift {
+  background: linear-gradient(135deg, #5c182a 0%, #350c17 100%);
+  border: 1.5px solid #ff416c;
+  box-shadow: 0 0 15px rgba(255, 65, 108, 0.4);
   color: #fff;
 }
 
