@@ -11,9 +11,10 @@ const { TikTokLiveConnection } = require('tiktok-live-connector');
 
 const PORT = Number(process.env.PORT) || 3000;
 const TIKTOK_USERNAME = process.env.TIKTOK_USERNAME || '';
-const TOTAL_VIEWERS_START = Number(process.env.TOTAL_VIEWERS_START) || 341;
-const FOLLOWERS_START = Number(process.env.FOLLOWERS_START) || 1751;
-const FOLLOWERS_TARGET = Number(process.env.FOLLOWERS_TARGET) || 10000;
+const TOTAL_VIEWERS_START = process.env.TOTAL_VIEWERS_START !== undefined ? Number(process.env.TOTAL_VIEWERS_START) : 0;
+const FOLLOWERS_START = process.env.FOLLOWERS_START !== undefined ? Number(process.env.FOLLOWERS_START) : 0;
+const FOLLOWERS_TARGET = process.env.FOLLOWERS_TARGET !== undefined ? Number(process.env.FOLLOWERS_TARGET) : 10000;
+
 
 
 const app = express();
@@ -192,7 +193,7 @@ let gameState = {
       profilePictureUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
     },
     timeLeft: PROVINCE_VISIT_DURATION,
-    visitCount: 5
+    visitCount: 0
   },
   queue: [
     {
@@ -242,22 +243,25 @@ let gameState = {
     totalViewers: TOTAL_VIEWERS_START,
     followersGoal: FOLLOWERS_START,
     followersTarget: FOLLOWERS_TARGET,
-    totalLikes: 2286
+    totalLikes: 0
   },
-  provinceStats: {
-    'da-nang': 28,
-    'ho-chi-minh': 24,
-    'ha-noi': 19,
-    'lao-cai': 12,
-    'tay-ninh': 9
-  },
+  provinceStats: {},
   leaderboard: [],
   recentNotifications: []
 };
 
 // Hàm lấy Top tỉnh thành được yêu quý / donate nhiều nhất
 function getTopProvinces(limit = 5) {
-  return Object.entries(gameState.provinceStats)
+  const entries = Object.entries(gameState.provinceStats);
+  if (entries.length === 0) {
+    // Khởi đầu buổi live = 0 điểm cho tất cả các tỉnh thành
+    return PROVINCES.slice(0, limit).map(p => ({
+      id: p.id,
+      name: p.name,
+      score: 0
+    }));
+  }
+  return entries
     .map(([id, score]) => {
       const p = PROVINCES.find(prov => prov.id === id);
       return {

@@ -179,7 +179,8 @@ function focusProvince(visitData) {
 
   pinAvatar.src = visitData.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face';
   pinName.textContent = visitData.provinceName;
-  pinBadge.textContent = `+${visitData.visitCount || 5}`;
+  pinBadge.textContent = `+${visitData.visitCount !== undefined ? visitData.visitCount : 0}`;
+
 
   // Cập nhật Spotlight Avatar lớn ở dưới
   spotlightAvatar.src = visitData.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face';
@@ -250,14 +251,15 @@ const leaderboardListEl = document.getElementById('leaderboardList');
 function renderLeaderboard(topProvinces) {
   if (!leaderboardListEl || !Array.isArray(topProvinces) || topProvinces.length === 0) return;
   
-  const maxScore = Math.max(...topProvinces.map(p => p.score), 1);
+  const maxScore = Math.max(...topProvinces.map(p => p.score), 0);
   
   leaderboardListEl.innerHTML = topProvinces.map((prov, index) => {
     const rank = index + 1;
     const rankClass = rank === 1 ? 'lb-rank-1' : rank === 2 ? 'lb-rank-2' : rank === 3 ? 'lb-rank-3' : 'lb-rank-other';
     const fillClass = rank === 1 ? 'lb-fill-1' : rank === 2 ? 'lb-fill-2' : rank === 3 ? 'lb-fill-3' : 'lb-fill-other';
-    const percent = Math.min(100, Math.max(12, Math.round((prov.score / maxScore) * 100)));
+    const percent = maxScore > 0 ? Math.min(100, Math.max(8, Math.round((prov.score / maxScore) * 100))) : 0;
     const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+
 
     return `
       <div class="lb-item" data-id="${prov.id}">
