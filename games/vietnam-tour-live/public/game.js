@@ -121,34 +121,36 @@ function focusProvince(visitData) {
   // Đưa path lên trên cùng trong SVG group để viền sáng không bị che
   targetPath.parentNode.appendChild(targetPath);
 
-  // Tính toán Bounding Box và tọa độ tâm
+  // Group chứa bản đồ trong SVG
+  const mapGroup = svg.querySelector('#mapGroup') || svg;
+
+  // Tính toán Bounding Box và tọa độ tâm trong hệ tọa độ SVG (0..703, 0..900)
   const bbox = targetPath.getBBox();
-  const svgViewBox = svg.viewBox.baseVal || { width: 703, height: 900 };
+  const cx = bbox.x + bbox.width / 2;
+  const cy = bbox.y + bbox.height / 2;
 
-  const scaleRatioX = 900 / svgViewBox.width;
-  const scaleRatioY = 1150 / svgViewBox.height;
+  // Zoom scale trong SVG (giữ tỉnh vừa vặn vùng hiển thị)
+  const provinceSize = Math.max(bbox.width, bbox.height);
+  const zoomScale = Math.min(3.2, Math.max(2.0, 260 / Math.max(provinceSize, 45)));
 
-  // Tọa độ tâm của tỉnh tính theo px trong SVG Container
-  const provinceCenterX = (bbox.x + bbox.width / 2) * scaleRatioX;
-  const provinceCenterY = (bbox.y + bbox.height / 2) * scaleRatioY;
+  // Căn tâm tỉnh vào vị trí trên của bản đồ (351.5, 380) để chừa chỗ cho avatar spotlight ở dưới
+  const targetSvgX = 351.5;
+  const targetSvgY = 380;
 
-  // Tính toán mức độ phóng to (zoom scale) dựa theo diện tích tỉnh
-  const provinceSize = Math.max(bbox.width * scaleRatioX, bbox.height * scaleRatioY);
-  let zoomScale = Math.min(3.2, Math.max(2.1, 420 / Math.max(provinceSize, 70)));
+  const translateX = targetSvgX - cx * zoomScale;
+  const translateY = targetSvgY - cy * zoomScale;
 
-  // Căn tâm tỉnh vào vị trí trung tâm sân khấu (x: 540, y: 720)
-  const targetStageX = 540;
-  const targetStageY = 720;
+  // Áp dụng transform cho group trong SVG
+  mapGroup.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomScale})`;
+  mapGroup.style.transformOrigin = '0 0';
+  mapGroup.style.transition = 'transform 1.2s cubic-bezier(0.25, 1, 0.5, 1)';
 
-  const translateX = targetStageX - provinceCenterX * zoomScale;
-  const translateY = targetStageY - provinceCenterY * zoomScale;
+  // Cập nhật vị trí ghim Avatar trên tỉnh (ngay tại điểm tâm đã zoom)
+  const renderedSvgH = svg.clientHeight || 1250;
+  const pinScreenY = targetSvgY * (renderedSvgH / 900);
 
-  // Áp dụng animation CSS transform mượt mà
-  mapZoomContainer.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomScale})`;
-
-  // Cập nhật vị trí ghim Avatar trên tỉnh
-  provincePin.style.left = `${provinceCenterX}px`;
-  provincePin.style.top = `${provinceCenterY}px`;
+  provincePin.style.left = `540px`;
+  provincePin.style.top = `${pinScreenY}px`;
   provincePin.classList.add('visible');
 
   pinAvatar.src = visitData.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face';
