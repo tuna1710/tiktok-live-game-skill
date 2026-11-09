@@ -63,6 +63,25 @@
       <div id="statusBadge" class="badge">ĐANG KẾT NỐI...</div>
     </header>
 
+    <!-- Panel Quản Lý Kết Nối TikTok Live -->
+    <div class="card" style="padding: 14px 20px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <div style="display: flex; align-items: center; gap: 10px; flex: 1 1 500px;">
+          <span style="font-size: 24px;">📡</span>
+          <div style="min-width: 140px;">
+            <div style="font-weight: bold; font-size: 13px; color: #fff;">KẾT NỐI TIKTOK LIVE</div>
+            <div style="font-size: 11px; color: #8b949e;">Nhập @username hoặc link Live</div>
+          </div>
+          <input type="text" id="tiktokUsernameInput" value="chiasenow" placeholder="@username hoặc link live..." style="flex: 1; min-width: 150px;">
+          <button class="primary" id="btnConnectTikTok" onclick="connectTikTok()" style="white-space: nowrap;">🔗 Kết nối</button>
+          <button class="danger" id="btnDisconnectTikTok" onclick="disconnectTikTok()" style="display: none; white-space: nowrap;">🔌 Ngắt kết nối</button>
+        </div>
+        <div id="tiktokLiveStatusBadge" style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: bold; padding: 6px 14px; border-radius: 20px; background: rgba(218, 54, 51, 0.2); color: #f85149; border: 1px solid rgba(218, 54, 51, 0.5); white-space: nowrap;">
+          <span id="tiktokStatusDot">🔴</span> <span id="tiktokStatusText">Chưa kết nối TikTok Live</span>
+        </div>
+      </div>
+    </div>
+
     <!-- Panel Trạng thái Realtime -->
     <div class="status-panel">
       <div class="stat-box">
@@ -225,6 +244,71 @@
       statusBadge.className = 'badge';
     });
 
+    // ============================================================
+    // QUẢN LÝ KẾT NỐI TIKTOK LIVE ĐỘNG
+    // ============================================================
+    const tiktokUsernameInput = document.getElementById('tiktokUsernameInput');
+    const btnConnectTikTok = document.getElementById('btnConnectTikTok');
+    const btnDisconnectTikTok = document.getElementById('btnDisconnectTikTok');
+    const tiktokLiveStatusBadge = document.getElementById('tiktokLiveStatusBadge');
+    const tiktokStatusDot = document.getElementById('tiktokStatusDot');
+    const tiktokStatusText = document.getElementById('tiktokStatusText');
+
+    function updateTikTokUI(status) {
+      if (!status) return;
+      if (status.username && document.activeElement !== tiktokUsernameInput) {
+        tiktokUsernameInput.value = status.username;
+      }
+
+      if (status.connected) {
+        btnConnectTikTok.style.display = 'none';
+        btnDisconnectTikTok.style.display = 'inline-block';
+        tiktokStatusDot.textContent = '🟢';
+        const viewersStr = status.viewerCount ? ` | 👁️ ${status.viewerCount}` : '';
+        tiktokStatusText.textContent = `Đang Live: @${status.username} (Room: ${status.roomId || 'N/A'}${viewersStr})`;
+        tiktokLiveStatusBadge.style.background = 'rgba(35, 134, 54, 0.2)';
+        tiktokLiveStatusBadge.style.color = '#3fb950';
+        tiktokLiveStatusBadge.style.borderColor = 'rgba(35, 134, 54, 0.5)';
+      } else if (status.connecting) {
+        btnConnectTikTok.disabled = true;
+        btnConnectTikTok.textContent = '⏳ Đang kết nối...';
+        btnConnectTikTok.style.display = 'inline-block';
+        btnDisconnectTikTok.style.display = 'none';
+        tiktokStatusDot.textContent = '🟡';
+        tiktokStatusText.textContent = `Đang kết nối tới @${status.username}...`;
+        tiktokLiveStatusBadge.style.background = 'rgba(210, 153, 34, 0.2)';
+        tiktokLiveStatusBadge.style.color = '#d29922';
+        tiktokLiveStatusBadge.style.borderColor = 'rgba(210, 153, 34, 0.5)';
+      } else {
+        btnConnectTikTok.disabled = false;
+        btnConnectTikTok.textContent = '🔗 Kết nối Live';
+        btnConnectTikTok.style.display = 'inline-block';
+        btnDisconnectTikTok.style.display = 'none';
+        tiktokStatusDot.textContent = '🔴';
+        const errMsg = status.lastError ? ` (${status.lastError})` : '';
+        tiktokStatusText.textContent = `Chưa kết nối${errMsg}`;
+        tiktokLiveStatusBadge.style.background = 'rgba(218, 54, 51, 0.2)';
+        tiktokLiveStatusBadge.style.color = '#f85149';
+        tiktokLiveStatusBadge.style.borderColor = 'rgba(218, 54, 51, 0.5)';
+      }
+    }
+
+    function connectTikTok() {
+      const username = tiktokUsernameInput.value.trim();
+      if (!username) return alert('Vui lòng nhập @username hoặc link TikTok Live!');
+      btnConnectTikTok.disabled = true;
+      btnConnectTikTok.textContent = '⏳ Đang kết nối...';
+      socket.emit('tiktok:connect', { username });
+    }
+
+    function disconnectTikTok() {
+      socket.emit('tiktok:disconnect');
+    }
+
+    socket.on('tiktok:status', status => {
+      updateTikTokUI(status);
+    });
+
     // Tải danh sách tỉnh vào dropdown
     fetch('/api/provinces')
       .then(res => res.json())
@@ -270,6 +354,10 @@
             </span>
           </div>
         `}).join('');
+      }
+      // Cập nhật trạng thái TikTok Live
+      if (state.tiktok) {
+        updateTikTokUI(state.tiktok);
       }
       // Cập nhật danh sách chat ban đầu nếu có
       if (state.recentChats && Array.isArray(state.recentChats) && adminChatTotal === 0 && state.recentChats.length > 0) {

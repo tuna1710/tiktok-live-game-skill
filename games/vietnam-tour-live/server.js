@@ -7,7 +7,7 @@ const crypto = require('crypto');
 const express = require('express');
 const cors = require('cors');
 const { Server } = require('socket.io');
-const { TikTokLiveConnection } = require('tiktok-live-connector');
+const { TikTokLiveConnection, WebcastEvent, ControlEvent } = require('tiktok-live-connector');
 
 const PORT = Number(process.env.PORT) || 3000;
 const TIKTOK_USERNAME = process.env.TIKTOK_USERNAME || '';
@@ -177,6 +177,33 @@ app.get('/api/provinces', (req, res) => {
   res.json(PROVINCES);
 });
 
+// API kết nối TikTok Live động
+app.post('/api/tiktok/connect', async (req, res) => {
+  const { username } = req.body;
+  if (!username) {
+    return res.status(400).json({ success: false, message: 'Thiếu username hoặc link TikTok' });
+  }
+  try {
+    const status = await connectTikTokLive(username);
+    res.json({ success: true, status });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message, status: gameState.tiktok });
+  }
+});
+
+app.post('/api/tiktok/disconnect', async (req, res) => {
+  try {
+    const status = await disconnectTikTokLive();
+    res.json({ success: true, status });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+app.get('/api/tiktok/status', (req, res) => {
+  res.json(gameState.tiktok);
+});
+
 // Khởi tạo Game State
 const PROVINCE_VISIT_DURATION = 15; // Mỗi tỉnh ghé thăm 15 giây
 
@@ -248,7 +275,15 @@ let gameState = {
   provinceStats: {},
   leaderboard: [],
   recentNotifications: [],
-  recentChats: []
+  recentChats: [],
+  tiktok: {
+    connected: false,
+    connecting: false,
+    username: TIKTOK_USERNAME ? TIKTOK_USERNAME.replace(/^@/, '') : '',
+    roomId: null,
+    viewerCount: 0,
+    lastError: null
+  }
 };
 
 // Hàm lấy Top tỉnh thành được yêu quý / donate nhiều nhất
@@ -663,21 +698,31 @@ function handleLikeEvent(count, userData) {
   }
 }
 
-// Kết nối TikTok Live chuẩn 2.x
-let tiktokLive = null;
-if (TIKTOK_USERNAME) {
-  try {
-    const cleanUsername = TIKTOK_USERNAME.replace('@', '').trim();
-    tiktokLive = new TikTokLiveConnection(cleanUsername, {
-      processInitialData: false,
-      enableExtendedGiftInfo: true,
-      requestPollingIntervalMs: 1000,
-      sessionId: process.env.TIKTOK_SESSION_ID || undefined
-    });
-
-    tiktokLive.connect()
-      .then(state => console.log(`[TikTok Live] Connected successfully to roomId: ${state.roomId}`))
-      .catch(err => console.log(`[TikTok Live] Connect notice: ${err.message}`));
+// Hàm chuẩn hóa username TikTok từ chuỗi hoặc link
+async function resolveTikTokUsername(rawInput) {
+  let input = String(rawInput || '').trim();
+  if (!input) {
+    throw new Error('Vui lòng nhập @username hoặc link TikTok Live cần kết nối');
+  }
+  if (input.startsWith('http://') || input.startsWith('https://') || input.includes('tiktok.com/')) {
+    const urlToFetch = input.startsWith('http') ? input : `https://${input}`;
+    const directMatch = urlToFetch.match(/tiktok\.com\/@([^/?#]+)/i);
+    if (directMatch && directMatch[1]) {
+      return directMatch[1];
+    }
+    try {
+      const resp = await fetch(urlToFetch, { redirect: 'follow' });
+      const finalUrl = resp.url || '';
+      const resolvedMatch = finalUrl.match(/tiktok\.com\/@([^/?#]+)/i);
+      if (resolvedMatch && resolvedMatch[1]) {
+        return resolvedMatch[1];
+      }
+    } catch (e) {
+      console.warn('[TikTok URL Resolve Warning]', e.message);
+    }
+  }
+  return input.replace(/^@/, '').split(/[/?#]/)[0].trim();
+}
 
 function processChatMessage(user, comment, isMock = false) {
   const matched = handleProvinceRequest(user, comment, false, 0);
@@ -706,7 +751,74 @@ function processChatMessage(user, comment, isMock = false) {
   return chatEntry;
 }
 
-    tiktokLive.on('chat', data => {
+// Kết nối TikTok Live chuẩn mới
+let tiktokLive = null;
+
+async function connectTikTokLive(usernameOrUrl) {
+  const cleanUser = await resolveTikTokUsername(usernameOrUrl);
+  if (!cleanUser) {
+    throw new Error('Không tìm thấy @username hợp lệ từ dữ liệu nhập vào');
+  }
+
+  if (tiktokLive) {
+    try {
+      await tiktokLive.disconnect();
+    } catch (_) {}
+    tiktokLive = null;
+  }
+
+  gameState.tiktok.connected = false;
+  gameState.tiktok.connecting = true;
+  gameState.tiktok.username = cleanUser;
+  gameState.tiktok.roomId = null;
+  gameState.tiktok.lastError = null;
+  io.emit('tiktok:status', gameState.tiktok);
+
+  console.log(`[TikTok Live] Đang bắt đầu kết nối tới @${cleanUser}...`);
+
+  try {
+    tiktokLive = new TikTokLiveConnection(cleanUser, {
+      processInitialData: true,
+      fetchRoomInfoOnConnect: false,
+      enableExtendedGiftInfo: false,
+      sessionId: process.env.TIKTOK_SESSION_ID || undefined
+    });
+
+    tiktokLive.on(ControlEvent.CONNECTED, state => {
+      gameState.tiktok.connected = true;
+      gameState.tiktok.connecting = false;
+      gameState.tiktok.roomId = state?.roomId || tiktokLive?.roomId || null;
+      gameState.tiktok.lastError = null;
+      console.log(`[TikTok Live] ✅ Đã kết nối thành công phòng @${cleanUser} (RoomId: ${gameState.tiktok.roomId})`);
+      io.emit('tiktok:status', gameState.tiktok);
+      io.emit('gameState', gameState);
+    });
+
+    tiktokLive.on(ControlEvent.DISCONNECTED, () => {
+      gameState.tiktok.connected = false;
+      gameState.tiktok.connecting = false;
+      console.log(`[TikTok Live] 🔌 Đã ngắt kết nối phòng @${cleanUser}`);
+      io.emit('tiktok:status', gameState.tiktok);
+      io.emit('gameState', gameState);
+    });
+
+    tiktokLive.on(ControlEvent.ERROR, err => {
+      gameState.tiktok.lastError = err?.message || String(err);
+      console.warn(`[TikTok Live Cảnh báo] ${gameState.tiktok.lastError}`);
+      io.emit('tiktok:status', gameState.tiktok);
+    });
+
+    tiktokLive.on(WebcastEvent.ROOM_USER, data => {
+      const viewerCount = Number(data?.total ?? data?.viewerCount ?? 0);
+      if (viewerCount > 0) {
+        gameState.tiktok.viewerCount = viewerCount;
+        gameState.stats.totalViewers = Math.max(gameState.stats.totalViewers, viewerCount);
+        io.emit('tiktok:status', gameState.tiktok);
+        io.emit('gameState', gameState);
+      }
+    });
+
+    tiktokLive.on(WebcastEvent.CHAT, data => {
       const user = {
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
         nickname: data.user?.nickname || data.nickname || 'Khán giả',
@@ -716,7 +828,7 @@ function processChatMessage(user, comment, isMock = false) {
       processChatMessage(user, comment, false);
     });
 
-    tiktokLive.on('gift', data => {
+    tiktokLive.on(WebcastEvent.GIFT, data => {
       handleGiftEvent({
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
         nickname: data.user?.nickname || data.nickname || 'Khán giả',
@@ -727,7 +839,7 @@ function processChatMessage(user, comment, isMock = false) {
       });
     });
 
-    tiktokLive.on('like', data => {
+    tiktokLive.on(WebcastEvent.LIKE, data => {
       const count = Number(data.count) || Number(data.likeCount) || 1;
       const user = {
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
@@ -736,7 +848,22 @@ function processChatMessage(user, comment, isMock = false) {
       handleLikeEvent(count, user);
     });
 
-    tiktokLive.on('follow', data => {
+    const handleSocial = data => {
+      const user = {
+        uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
+        nickname: data.user?.nickname || data.nickname || 'Khán giả',
+        profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || ''
+      };
+      const action = String(data?.action || '');
+      const disp = String(data?.common?.displayText?.displayType || data?.displayType || '').toLowerCase();
+      if (action === '3' || disp.includes('share')) {
+        handleShareEvent(user);
+      } else {
+        handleFollowEvent(user);
+      }
+    };
+
+    tiktokLive.on(WebcastEvent.FOLLOW, data => {
       handleFollowEvent({
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
         nickname: data.user?.nickname || data.nickname || 'Khán giả',
@@ -744,7 +871,7 @@ function processChatMessage(user, comment, isMock = false) {
       });
     });
 
-    tiktokLive.on('share', data => {
+    tiktokLive.on(WebcastEvent.SHARE, data => {
       handleShareEvent({
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
         nickname: data.user?.nickname || data.nickname || 'Khán giả',
@@ -752,9 +879,41 @@ function processChatMessage(user, comment, isMock = false) {
       });
     });
 
-  } catch (e) {
-    console.error('Failed to initialize TikTok Live connection:', e);
+    tiktokLive.on(WebcastEvent.SOCIAL, handleSocial);
+
+    await tiktokLive.connect();
+    return gameState.tiktok;
+  } catch (err) {
+    gameState.tiktok.connected = false;
+    gameState.tiktok.connecting = false;
+    gameState.tiktok.lastError = err?.message || String(err);
+    console.error(`[TikTok Live Lỗi kết nối] ${gameState.tiktok.lastError}`);
+    io.emit('tiktok:status', gameState.tiktok);
+    throw err;
   }
+}
+
+async function disconnectTikTokLive() {
+  if (tiktokLive) {
+    try {
+      await tiktokLive.disconnect();
+    } catch (_) {}
+    tiktokLive = null;
+  }
+  gameState.tiktok.connected = false;
+  gameState.tiktok.connecting = false;
+  gameState.tiktok.roomId = null;
+  io.emit('tiktok:status', gameState.tiktok);
+  io.emit('gameState', gameState);
+  console.log('[TikTok Live] Đã chủ động ngắt kết nối');
+  return gameState.tiktok;
+}
+
+// Tự động kết nối lúc khởi động nếu có TIKTOK_USERNAME
+if (TIKTOK_USERNAME) {
+  connectTikTokLive(TIKTOK_USERNAME).catch(err => {
+    console.log(`[TikTok Live Khởi động] Thông báo: ${err.message}`);
+  });
 }
 
 // Xử lý sự kiện Socket.IO từ Frontend & Admin Mock Simulator
@@ -762,6 +921,19 @@ io.on('connection', socket => {
   // Gửi trạng thái ban đầu ngay khi client kết nối
   socket.emit('gameState', gameState);
   socket.emit('leaderboardUpdated', getTopProvinces(5));
+  socket.emit('tiktok:status', gameState.tiktok);
+
+  // Đổi kênh TikTok Live trực tiếp từ client/admin
+  socket.on('tiktok:connect', async data => {
+    const username = data?.username || data;
+    try {
+      await connectTikTokLive(username);
+    } catch (_) {}
+  });
+
+  socket.on('tiktok:disconnect', async () => {
+    await disconnectTikTokLive();
+  });
 
   // Mock Comment từ admin.html
   socket.on('mock:chat', data => {
