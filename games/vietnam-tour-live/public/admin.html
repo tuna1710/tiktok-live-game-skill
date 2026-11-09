@@ -176,9 +176,37 @@
         </div>
       </div>
 
-      <!-- 3. Quản trị điều hướng Live -->
+      <!-- 3. Cấu hình Tham Số Điểm Thưởng & Tương Tác -->
       <div class="card">
-        <h2>🕹️ 3. Điều hướng & Chuyển tỉnh</h2>
+        <h2>⚙️ 3. Cấu Hình Điểm Thưởng & Tỷ Lệ Đổi</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+          <div>
+            <label>❤️ Số Tim nhận 1 điểm:</label>
+            <input type="number" id="cfgLikesPerPoint" value="100" min="1">
+          </div>
+          <div>
+            <label>🔁 Số Share nhận 1 điểm:</label>
+            <input type="number" id="cfgSharesPerPoint" value="10" min="1">
+          </div>
+          <div>
+            <label>⭐ 1 Follow nhận điểm:</label>
+            <input type="number" id="cfgFollowPoints" value="1" min="0">
+          </div>
+          <div>
+            <label>💬 1 Comment nhận điểm:</label>
+            <input type="number" id="cfgCommentPoints" value="1" min="0">
+          </div>
+        </div>
+        <div style="margin-top: 8px;">
+          <label>🌹 1 Xu đổi Điểm Yêu thương:</label>
+          <input type="number" id="cfgCoinRate" value="30" min="1">
+        </div>
+        <button class="primary" style="margin-top: 10px; width: 100%;" onclick="saveConfig()">💾 Lưu & Áp Dụng Cấu Hình Ngay</button>
+      </div>
+
+      <!-- 4. Quản trị điều hướng Live -->
+      <div class="card">
+        <h2>🕹️ 4. Điều hướng & Chuyển tỉnh</h2>
         <div class="btn-group">
           <button class="primary" onclick="nextProvince()">⏭️ Chuyển Tỉnh tiếp theo (Next)</button>
           <button class="warning" onclick="resetSeason()">🏆 Chốt Bảng Vàng 15 Phút Ngay</button>
@@ -192,18 +220,18 @@
         </div>
       </div>
 
-      <!-- 4. Danh sách Hàng đợi Thực tế -->
+      <!-- 5. Danh sách Hàng đợi Thực tế -->
       <div class="card">
-        <h2>📋 4. Danh sách Hàng đợi Realtime</h2>
+        <h2>📋 5. Danh sách Hàng đợi Realtime</h2>
         <div id="queueContainer" class="queue-list">
           <div style="color: #8b949e; text-align: center;">Chưa có tỉnh nào trong hàng đợi</div>
         </div>
       </div>
 
-      <!-- 5. Bảng Nhật Ký Theo Dõi Bình Luận Realtime -->
+      <!-- 6. Bảng Nhật Ký Theo Dõi Bình Luận Realtime -->
       <div class="card" style="grid-column: 1 / -1;">
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 8px;">
-          <h2>💬 5. Bảng Theo Dõi Bình Luận Trực Tiếp (Live Chat Stream)</h2>
+          <h2>💬 6. Bảng Theo Dõi Bình Luận Trực Tiếp (Live Chat Stream)</h2>
           <div style="display: flex; gap: 10px; align-items: center;">
             <span id="adminChatCounter" style="font-size: 12px; color: #58a6ff; font-weight: bold;">0 bình luận</span>
             <button style="padding: 4px 10px; font-size: 11px;" onclick="clearAdminChatLog()">Xóa bảng</button>
@@ -492,6 +520,38 @@
         socket.emit('mock:set_province', provinceId);
       }
     }
+
+    // Quản lý Cấu hình Tham số Điểm thưởng & Tương tác
+    function saveConfig() {
+      const config = {
+        LIKES_PER_POINT: Number(document.getElementById('cfgLikesPerPoint').value) || 100,
+        SHARES_PER_POINT: Number(document.getElementById('cfgSharesPerPoint').value) || 10,
+        FOLLOW_POINTS: Number(document.getElementById('cfgFollowPoints').value) || 1,
+        COMMENT_POINTS: Number(document.getElementById('cfgCommentPoints').value) || 1,
+        COINS_TO_POINTS_RATE: Number(document.getElementById('cfgCoinRate').value) || 30
+      };
+      socket.emit('config:update', config);
+      alert('✅ Đã lưu cấu hình tham số mới thành công!');
+    }
+
+    socket.on('configUpdated', config => {
+      if (!config) return;
+      if (document.getElementById('cfgLikesPerPoint') && document.activeElement !== document.getElementById('cfgLikesPerPoint')) {
+        document.getElementById('cfgLikesPerPoint').value = config.LIKES_PER_POINT;
+      }
+      if (document.getElementById('cfgSharesPerPoint') && document.activeElement !== document.getElementById('cfgSharesPerPoint')) {
+        document.getElementById('cfgSharesPerPoint').value = config.SHARES_PER_POINT;
+      }
+      if (document.getElementById('cfgFollowPoints') && document.activeElement !== document.getElementById('cfgFollowPoints')) {
+        document.getElementById('cfgFollowPoints').value = config.FOLLOW_POINTS;
+      }
+      if (document.getElementById('cfgCommentPoints') && document.activeElement !== document.getElementById('cfgCommentPoints')) {
+        document.getElementById('cfgCommentPoints').value = config.COMMENT_POINTS;
+      }
+      if (document.getElementById('cfgCoinRate') && document.activeElement !== document.getElementById('cfgCoinRate')) {
+        document.getElementById('cfgCoinRate').value = config.COINS_TO_POINTS_RATE;
+      }
+    });
   </script>
 </body>
 </html>

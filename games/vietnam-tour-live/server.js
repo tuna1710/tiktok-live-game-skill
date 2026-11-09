@@ -22,10 +22,23 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Tỷ lệ quy đổi điểm danh vọng cho tỉnh thành: 1 xu = 30 điểm
-const COINS_TO_POINTS_RATE = 30;
-const VIP_COIN_THRESHOLD = 20; // Từ 20 Xu nhận vé VIP Hoàng Kim
-const FAST_PASS_COIN_THRESHOLD = 5; // Từ 5 Xu nhận vé Đọc Nhanh
+// ============================================================
+// ⚙️ BẢNG CẤU HÌNH THAM SỐ TÍNH ĐIỂM (CÓ THỂ CHỈNH TRỰC TIẾP HOẶC QUA ADMIN)
+// ============================================================
+const GAME_CONFIG = {
+  COINS_TO_POINTS_RATE: Number(process.env.COINS_TO_POINTS_RATE) || 30, // 1 Xu = 30 Điểm Yêu thương
+  LIKES_PER_POINT: Number(process.env.LIKES_PER_POINT) || 100,          // 100 Tim = +1 Điểm
+  SHARES_PER_POINT: Number(process.env.SHARES_PER_POINT) || 10,        // 10 Chia sẻ = +1 Điểm
+  FOLLOW_POINTS: Number(process.env.FOLLOW_POINTS) || 1,              // 1 Follow = +1 Điểm
+  COMMENT_POINTS: Number(process.env.COMMENT_POINTS) || 1,            // 1 Comment tỉnh = +1 Điểm (1 lần duy nhất/hiệp)
+  VIP_COIN_THRESHOLD: Number(process.env.VIP_COIN_THRESHOLD) || 20,   // Mốc VIP Hoàng Kim
+  FAST_PASS_COIN_THRESHOLD: Number(process.env.FAST_PASS_COIN_THRESHOLD) || 5 // Mốc Đọc Nhanh
+};
+
+// Giữ các biến tham chiếu tương thích ngược
+let COINS_TO_POINTS_RATE = GAME_CONFIG.COINS_TO_POINTS_RATE;
+let VIP_COIN_THRESHOLD = GAME_CONFIG.VIP_COIN_THRESHOLD;
+let FAST_PASS_COIN_THRESHOLD = GAME_CONFIG.FAST_PASS_COIN_THRESHOLD;
 
 // Bảng tra cứu Biển số xe 63 Tỉnh Thành Việt Nam (cho phép gửi số như 36, 29, 89...)
 const LICENSE_PLATE_MAP = {
@@ -288,6 +301,31 @@ app.get('/api/tts', (req, res) => {
 // API lấy danh sách tỉnh thành
 app.get('/api/provinces', (req, res) => {
   res.json(PROVINCES);
+});
+
+// API cấu hình điểm thưởng & tương tác Realtime
+app.get('/api/config', (req, res) => {
+  res.json(GAME_CONFIG);
+});
+
+app.post('/api/config', (req, res) => {
+  const newConfig = req.body;
+  if (newConfig && typeof newConfig === 'object') {
+    if (newConfig.COINS_TO_POINTS_RATE !== undefined) GAME_CONFIG.COINS_TO_POINTS_RATE = Math.max(1, Number(newConfig.COINS_TO_POINTS_RATE) || 30);
+    if (newConfig.LIKES_PER_POINT !== undefined) GAME_CONFIG.LIKES_PER_POINT = Math.max(1, Number(newConfig.LIKES_PER_POINT) || 100);
+    if (newConfig.SHARES_PER_POINT !== undefined) GAME_CONFIG.SHARES_PER_POINT = Math.max(1, Number(newConfig.SHARES_PER_POINT) || 10);
+    if (newConfig.FOLLOW_POINTS !== undefined) GAME_CONFIG.FOLLOW_POINTS = Math.max(0, Number(newConfig.FOLLOW_POINTS) || 1);
+    if (newConfig.COMMENT_POINTS !== undefined) GAME_CONFIG.COMMENT_POINTS = Math.max(0, Number(newConfig.COMMENT_POINTS) || 1);
+    if (newConfig.VIP_COIN_THRESHOLD !== undefined) GAME_CONFIG.VIP_COIN_THRESHOLD = Math.max(1, Number(newConfig.VIP_COIN_THRESHOLD) || 20);
+    if (newConfig.FAST_PASS_COIN_THRESHOLD !== undefined) GAME_CONFIG.FAST_PASS_COIN_THRESHOLD = Math.max(1, Number(newConfig.FAST_PASS_COIN_THRESHOLD) || 5);
+
+    COINS_TO_POINTS_RATE = GAME_CONFIG.COINS_TO_POINTS_RATE;
+    VIP_COIN_THRESHOLD = GAME_CONFIG.VIP_COIN_THRESHOLD;
+    FAST_PASS_COIN_THRESHOLD = GAME_CONFIG.FAST_PASS_COIN_THRESHOLD;
+
+    io.emit('configUpdated', GAME_CONFIG);
+  }
+  res.json({ success: true, config: GAME_CONFIG });
 });
 
 // API kết nối TikTok Live động
@@ -615,9 +653,17 @@ function resetLeaderboardSeason(manualTrigger = false) {
   gameState.roundNumber++;
   gameState.roundTimeLeft = LEADERBOARD_SEASON_DURATION;
 
-  // 3. Reset toàn bộ điểm Bảng Vàng về 0
+  // 3. Reset toàn bộ điểm Bảng Vàng về 0 và làm mới cờ tương tác mùa giải của người xem
   for (const provId in gameState.provinceStats) {
     gameState.provinceStats[provId] = 0;
+  }
+  for (const uid in userInteractions) {
+    if (userInteractions[uid]) {
+      userInteractions[uid].hasCommentedInSeason = false;
+      userInteractions[uid].hasFollowRewarded = false;
+      userInteractions[uid].accumulatedLikes = 0;
+      userInteractions[uid].accumulatedShares = 0;
+    }
   }
   gameState.currentVisit.visitCount = 0;
   gameState.leaderboard = getTopProvinces(5);
@@ -673,8 +719,13 @@ function getUserInteraction(uniqueId) {
   if (!userInteractions[uniqueId]) {
     userInteractions[uniqueId] = {
       isFollower: false,
+      hasFollowRewarded: false,
       shared: false,
+      shareCount: 0,
+      accumulatedShares: 0,
       likeCount: 0,
+      accumulatedLikes: 0,
+      hasCommentedInSeason: false,
       pendingCoins: 0,
       lastProvinceId: null,
       lastDisplayName: null,
@@ -732,6 +783,14 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     joinedAt: Date.now()
   };
 
+  // Tính điểm thưởng: Comment tỉnh chỉ cộng điểm 1 lần duy nhất trong mỗi mùa giải 15 phút (chống spam)
+  let commentPointsToAdd = 0;
+  if (!uState.hasCommentedInSeason) {
+    uState.hasCommentedInSeason = true;
+    commentPointsToAdd = GAME_CONFIG.COMMENT_POINTS;
+  }
+  const pointsToAdd = (totalItemCoins * GAME_CONFIG.COINS_TO_POINTS_RATE) + commentPointsToAdd;
+
   // TRƯỜNG HỢP 1: Tỉnh này ĐANG ĐƯỢC CHIẾU TRÊN MÀN HÌNH (Nhập đoàn tức thì - Instant Drop-in)
   if (gameState.currentVisit && gameState.currentVisit.provinceId === targetProvince.id) {
     if (!gameState.currentVisit.visitors) {
@@ -751,8 +810,7 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     gameState.currentVisit.leader = newLeader;
     gameState.currentVisit.user = newLeader;
 
-    // Cộng điểm danh vọng cho tỉnh (1 comment = 1 điểm, 1 xu = 30 điểm)
-    const pointsToAdd = (totalItemCoins * COINS_TO_POINTS_RATE) + 1;
+    // Cộng điểm danh vọng cho tỉnh
     gameState.currentVisit.visitCount += pointsToAdd;
     gameState.provinceStats[targetProvince.id] = gameState.currentVisit.visitCount;
 
@@ -819,16 +877,15 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     const cohortBonus = (existingProvinceItem.visitors.length - 1) * 20;
     existingProvinceItem.priorityScore = basePriority + cohortBonus;
 
-    if (existingProvinceItem.coins >= VIP_COIN_THRESHOLD) existingProvinceItem.perkType = 'vip';
-    else if (existingProvinceItem.coins >= FAST_PASS_COIN_THRESHOLD) existingProvinceItem.perkType = 'fast';
+    if (existingProvinceItem.coins >= GAME_CONFIG.VIP_COIN_THRESHOLD) existingProvinceItem.perkType = 'vip';
+    else if (existingProvinceItem.coins >= GAME_CONFIG.FAST_PASS_COIN_THRESHOLD) existingProvinceItem.perkType = 'fast';
     else if (existingProvinceItem.coins > 0) existingProvinceItem.perkType = 'gift';
     else if (existingProvinceItem.visitors.length >= 3) existingProvinceItem.perkType = 'cohort';
     else if (uState.isFollower) existingProvinceItem.perkType = 'follower';
     else if (uState.shared) existingProvinceItem.perkType = 'share';
     else existingProvinceItem.perkType = 'normal';
 
-    // Cộng điểm danh vọng cho tỉnh (1 comment = 1 điểm, 1 xu = 30 điểm)
-    const pointsToAdd = (totalItemCoins * COINS_TO_POINTS_RATE) + 1;
+    // Cộng điểm danh vọng cho tỉnh
     gameState.provinceStats[targetProvince.id] = (gameState.provinceStats[targetProvince.id] || 0) + pointsToAdd;
 
     sortQueue();
@@ -836,8 +893,8 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     // TRƯỜNG HỢP 3: Tỉnh này CHƯA CÓ trong hàng đợi -> Khởi tạo đoàn mới
     const basePriority = calculatePriority(totalItemCoins, uState);
     let perkType = 'normal';
-    if (totalItemCoins >= VIP_COIN_THRESHOLD) perkType = 'vip';
-    else if (totalItemCoins >= FAST_PASS_COIN_THRESHOLD) perkType = 'fast';
+    if (totalItemCoins >= GAME_CONFIG.VIP_COIN_THRESHOLD) perkType = 'vip';
+    else if (totalItemCoins >= GAME_CONFIG.FAST_PASS_COIN_THRESHOLD) perkType = 'fast';
     else if (totalItemCoins > 0) perkType = 'gift';
     else if (uState.isFollower) perkType = 'follower';
     else if (uState.shared) perkType = 'share';
@@ -858,8 +915,7 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     };
     gameState.queue.push(queueItem);
 
-    // Cộng điểm danh vọng cho tỉnh (1 comment = 1 điểm, 1 xu = 30 điểm)
-    const pointsToAdd = (totalItemCoins * COINS_TO_POINTS_RATE) + 1;
+    // Cộng điểm danh vọng cho tỉnh
     gameState.provinceStats[targetProvince.id] = (gameState.provinceStats[targetProvince.id] || 0) + pointsToAdd;
 
     sortQueue();
@@ -1049,6 +1105,21 @@ function handleFollowEvent(userData) {
       sortQueue();
       io.emit('queueUpdated', gameState.queue);
     }
+
+    // Cộng điểm cho tỉnh khi Follow (1 lần duy nhất trong mùa giải)
+    if (!uState.hasFollowRewarded && GAME_CONFIG.FOLLOW_POINTS > 0) {
+      uState.hasFollowRewarded = true;
+      const targetProvId = uState.lastProvinceId || gameState.currentVisit?.provinceId;
+      if (targetProvId) {
+        gameState.provinceStats[targetProvId] = (gameState.provinceStats[targetProvId] || 0) + GAME_CONFIG.FOLLOW_POINTS;
+        if (gameState.currentVisit?.provinceId === targetProvId) {
+          gameState.currentVisit.visitCount = gameState.provinceStats[targetProvId];
+          io.emit('provinceChanged', gameState.currentVisit);
+        }
+        gameState.leaderboard = getTopProvinces(5);
+        io.emit('leaderboardUpdated', gameState.leaderboard);
+      }
+    }
   }
 
   const notif = {
@@ -1076,12 +1147,33 @@ function handleShareEvent(userData) {
   if (uid) {
     const uState = getUserInteraction(uid);
     uState.shared = true;
+    uState.shareCount = (uState.shareCount || 0) + 1;
+    uState.accumulatedShares = (uState.accumulatedShares || 0) + 1;
+
     const item = gameState.queue.find(q => q.user.uniqueId === uid);
     if (item) {
       item.priorityScore = calculatePriority(item.coins, uState);
       if (!item.coins && !uState.isFollower) item.perkType = 'share';
       sortQueue();
       io.emit('queueUpdated', gameState.queue);
+    }
+
+    // Kiểm tra mốc đổi lượt chia sẻ thành Điểm Yêu thương (mặc định 10 share = +1 điểm)
+    if (uState.accumulatedShares >= GAME_CONFIG.SHARES_PER_POINT) {
+      const pointsEarned = Math.floor(uState.accumulatedShares / GAME_CONFIG.SHARES_PER_POINT);
+      uState.accumulatedShares %= GAME_CONFIG.SHARES_PER_POINT;
+
+      const targetProvId = uState.lastProvinceId || gameState.currentVisit?.provinceId;
+      if (targetProvId) {
+        gameState.provinceStats[targetProvId] = (gameState.provinceStats[targetProvId] || 0) + pointsEarned;
+        if (gameState.currentVisit?.provinceId === targetProvId) {
+          gameState.currentVisit.visitCount = gameState.provinceStats[targetProvId];
+          io.emit('provinceChanged', gameState.currentVisit);
+        }
+        gameState.leaderboard = getTopProvinces(5);
+        io.emit('leaderboardUpdated', gameState.leaderboard);
+        io.emit('gameState', gameState);
+      }
     }
   }
 }
@@ -1094,12 +1186,32 @@ function handleLikeEvent(count, userData) {
   if (uid) {
     const uState = getUserInteraction(uid);
     uState.likeCount = (uState.likeCount || 0) + count;
+    uState.accumulatedLikes = (uState.accumulatedLikes || 0) + count;
+
     if (uState.likeCount >= 20) {
       const item = gameState.queue.find(q => q.user.uniqueId === uid);
       if (item) {
         item.priorityScore = calculatePriority(item.coins, uState);
         sortQueue();
         io.emit('queueUpdated', gameState.queue);
+      }
+    }
+
+    // Kiểm tra mốc đổi tim thành Điểm Yêu thương (mặc định 100 tim = +1 điểm)
+    if (uState.accumulatedLikes >= GAME_CONFIG.LIKES_PER_POINT) {
+      const pointsEarned = Math.floor(uState.accumulatedLikes / GAME_CONFIG.LIKES_PER_POINT);
+      uState.accumulatedLikes %= GAME_CONFIG.LIKES_PER_POINT;
+
+      const targetProvId = uState.lastProvinceId || gameState.currentVisit?.provinceId;
+      if (targetProvId) {
+        gameState.provinceStats[targetProvId] = (gameState.provinceStats[targetProvId] || 0) + pointsEarned;
+        if (gameState.currentVisit?.provinceId === targetProvId) {
+          gameState.currentVisit.visitCount = gameState.provinceStats[targetProvId];
+          io.emit('provinceChanged', gameState.currentVisit);
+        }
+        gameState.leaderboard = getTopProvinces(5);
+        io.emit('leaderboardUpdated', gameState.leaderboard);
+        io.emit('gameState', gameState);
       }
     }
   }
@@ -1342,6 +1454,27 @@ io.on('connection', socket => {
   socket.emit('gameState', gameState);
   socket.emit('leaderboardUpdated', getTopProvinces(5));
   socket.emit('tiktok:status', gameState.tiktok);
+  socket.emit('configUpdated', GAME_CONFIG);
+
+  // Cập nhật cấu hình điểm thưởng Realtime từ admin
+  socket.on('config:update', newConfig => {
+    if (newConfig && typeof newConfig === 'object') {
+      if (newConfig.COINS_TO_POINTS_RATE !== undefined) GAME_CONFIG.COINS_TO_POINTS_RATE = Math.max(1, Number(newConfig.COINS_TO_POINTS_RATE) || 30);
+      if (newConfig.LIKES_PER_POINT !== undefined) GAME_CONFIG.LIKES_PER_POINT = Math.max(1, Number(newConfig.LIKES_PER_POINT) || 100);
+      if (newConfig.SHARES_PER_POINT !== undefined) GAME_CONFIG.SHARES_PER_POINT = Math.max(1, Number(newConfig.SHARES_PER_POINT) || 10);
+      if (newConfig.FOLLOW_POINTS !== undefined) GAME_CONFIG.FOLLOW_POINTS = Math.max(0, Number(newConfig.FOLLOW_POINTS) || 1);
+      if (newConfig.COMMENT_POINTS !== undefined) GAME_CONFIG.COMMENT_POINTS = Math.max(0, Number(newConfig.COMMENT_POINTS) || 1);
+      if (newConfig.VIP_COIN_THRESHOLD !== undefined) GAME_CONFIG.VIP_COIN_THRESHOLD = Math.max(1, Number(newConfig.VIP_COIN_THRESHOLD) || 20);
+      if (newConfig.FAST_PASS_COIN_THRESHOLD !== undefined) GAME_CONFIG.FAST_PASS_COIN_THRESHOLD = Math.max(1, Number(newConfig.FAST_PASS_COIN_THRESHOLD) || 5);
+
+      COINS_TO_POINTS_RATE = GAME_CONFIG.COINS_TO_POINTS_RATE;
+      VIP_COIN_THRESHOLD = GAME_CONFIG.VIP_COIN_THRESHOLD;
+      FAST_PASS_COIN_THRESHOLD = GAME_CONFIG.FAST_PASS_COIN_THRESHOLD;
+
+      io.emit('configUpdated', GAME_CONFIG);
+      console.log('[Config] ✅ Đã cập nhật cấu hình tham số mới:', GAME_CONFIG);
+    }
+  });
 
   // Đổi kênh TikTok Live trực tiếp từ client/admin
   socket.on('tiktok:connect', async data => {

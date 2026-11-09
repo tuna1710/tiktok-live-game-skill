@@ -702,5 +702,20 @@ function fxLoop() {
   }
 }
 
+// Đồng bộ cấu hình thể lệ điểm thưởng Realtime từ Server
+socket.on('configUpdated', config => {
+  if (!config) return;
+  const ruleBadgeCoins = document.getElementById('ruleBadgeCoins');
+  if (ruleBadgeCoins) ruleBadgeCoins.textContent = `🌹 1 Xu = ${config.COINS_TO_POINTS_RATE} Điểm`;
+  const ruleDescCmt = document.getElementById('ruleDescCmt');
+  if (ruleDescCmt) ruleDescCmt.textContent = `+${config.COMMENT_POINTS}đ/hiệp`;
+  const ruleDescLikes = document.getElementById('ruleDescLikes');
+  if (ruleDescLikes) ruleDescLikes.textContent = `${config.LIKES_PER_POINT} Tim`;
+  const ruleDescShares = document.getElementById('ruleDescShares');
+  if (ruleDescShares) ruleDescShares.textContent = `${config.SHARES_PER_POINT} Share`;
+  const ruleDescFollow = document.getElementById('ruleDescFollow');
+  if (ruleDescFollow) ruleDescFollow.textContent = `${config.FOLLOW_POINTS} Follow`;
+});
+
 // Khởi chạy
 initMap();
