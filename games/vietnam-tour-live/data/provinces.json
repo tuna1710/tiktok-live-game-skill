@@ -1,800 +1,808 @@
 [
   {
-    "id": "an-giang",
-    "name": "An Giang",
-    "region": "Nam",
-    "aliases": [
-      "ag",
-      "an giang",
-      "an-giang"
+    "id": "ha-noi",
+    "name": "TP. Hà Nội",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Đồng bằng sông Hồng",
+    "svgIds": [
+      "hanoi"
     ],
-    "svgId": "angiang"
+    "subProvinces": [
+      "Hà Nội"
+    ],
+    "aliases": [
+      "ha noi",
+      "hanoi",
+      "hn",
+      "hà nội",
+      "thu do"
+    ]
   },
   {
-    "id": "ba-ria-vung-tau",
-    "name": "Bà Rịa - Vũng Tàu",
-    "region": "Nam",
-    "aliases": [
-      "ba ria",
-      "ba ria - vung tau",
-      "ba ria vung tau",
-      "ba-ria-vung-tau",
-      "bà rịa - vũng tàu",
-      "vt",
-      "vung tau"
+    "id": "hue",
+    "name": "TP. Huế",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Bắc Trung Bộ",
+    "svgIds": [
+      "tthue"
     ],
-    "svgId": "baria"
+    "subProvinces": [
+      "Thừa Thiên Huế",
+      "Huế"
+    ],
+    "aliases": [
+      "hue",
+      "huế",
+      "thua thien hue",
+      "thừa thiên huế",
+      "tp hue",
+      "tth"
+    ]
   },
   {
-    "id": "bac-giang",
-    "name": "Bắc Giang",
-    "region": "Bắc",
-    "aliases": [
-      "bac giang",
-      "bac-giang",
-      "bg",
-      "bắc giang"
+    "id": "lai-chau",
+    "name": "Lai Châu",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "svgIds": [
+      "laichau"
     ],
-    "svgId": "bacgiang"
+    "subProvinces": [
+      "Lai Châu"
+    ],
+    "aliases": [
+      "lai chau",
+      "lai châu",
+      "lc"
+    ]
   },
   {
-    "id": "bac-kan",
-    "name": "Bắc Kạn",
-    "region": "Bắc",
-    "aliases": [
-      "bac can",
-      "bac kan",
-      "bac-kan",
-      "bk",
-      "bắc kạn"
+    "id": "dien-bien",
+    "name": "Điện Biên",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "svgIds": [
+      "dienbien"
     ],
-    "svgId": "backan"
+    "subProvinces": [
+      "Điện Biên"
+    ],
+    "aliases": [
+      "db",
+      "dien bien",
+      "dien bien phu",
+      "điện biên"
+    ]
   },
   {
-    "id": "bac-lieu",
-    "name": "Bạc Liêu",
-    "region": "Nam",
-    "aliases": [
-      "bac lieu",
-      "bac-lieu",
-      "bl",
-      "bạc liêu"
+    "id": "son-la",
+    "name": "Sơn La",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "svgIds": [
+      "sonla"
     ],
-    "svgId": "baclieu"
+    "subProvinces": [
+      "Sơn La"
+    ],
+    "aliases": [
+      "moc chau",
+      "sl",
+      "son la",
+      "sơn la"
+    ]
   },
   {
-    "id": "bac-ninh",
-    "name": "Bắc Ninh",
-    "region": "Bắc",
-    "aliases": [
-      "bac ninh",
-      "bac-ninh",
-      "bn",
-      "bắc ninh"
+    "id": "lang-son",
+    "name": "Lạng Sơn",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "langson"
     ],
-    "svgId": "bacninh"
+    "subProvinces": [
+      "Lạng Sơn"
+    ],
+    "aliases": [
+      "lang son",
+      "ls",
+      "lạng sơn",
+      "xu lang"
+    ]
   },
   {
-    "id": "ben-tre",
-    "name": "Bến Tre",
-    "region": "Nam",
-    "aliases": [
-      "ben tre",
-      "ben-tre",
-      "bt",
-      "bến tre",
-      "xu dua"
+    "id": "quang-ninh",
+    "name": "Quảng Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "quangninh"
     ],
-    "svgId": "bentre"
+    "subProvinces": [
+      "Quảng Ninh"
+    ],
+    "aliases": [
+      "dat mo",
+      "ha long",
+      "qn",
+      "quang ninh",
+      "quảng ninh"
+    ]
   },
   {
-    "id": "binh-dinh",
-    "name": "Bình Định",
-    "region": "Trung",
-    "aliases": [
-      "bd",
-      "binh dinh",
-      "binh-dinh",
-      "bình định",
-      "quy nhon"
+    "id": "thanh-hoa",
+    "name": "Thanh Hóa",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "svgIds": [
+      "thanhhoa"
     ],
-    "svgId": "binhdinh"
+    "subProvinces": [
+      "Thanh Hóa"
+    ],
+    "aliases": [
+      "sam son",
+      "th",
+      "thanh hoa",
+      "thanh hóa",
+      "xu thanh"
+    ]
   },
   {
-    "id": "binh-duong",
-    "name": "Bình Dương",
-    "region": "Nam",
-    "aliases": [
-      "bd",
-      "binh duong",
-      "binh-duong",
-      "bình dương"
+    "id": "nghe-an",
+    "name": "Nghệ An",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "svgIds": [
+      "nghean"
     ],
-    "svgId": "binhduong"
+    "subProvinces": [
+      "Nghệ An"
+    ],
+    "aliases": [
+      "na",
+      "nghe an",
+      "nghệ an",
+      "vinh",
+      "xu nghe"
+    ]
   },
   {
-    "id": "binh-phuoc",
-    "name": "Bình Phước",
-    "region": "Nam",
-    "aliases": [
-      "binh phuoc",
-      "binh-phuoc",
-      "bp",
-      "bình phước"
+    "id": "ha-tinh",
+    "name": "Hà Tĩnh",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "svgIds": [
+      "hatinh"
     ],
-    "svgId": "binhphuoc"
-  },
-  {
-    "id": "binh-thuan",
-    "name": "Bình Thuận",
-    "region": "Trung",
-    "aliases": [
-      "binh thuan",
-      "binh-thuan",
-      "bình thuận",
-      "phan thiet"
+    "subProvinces": [
+      "Hà Tĩnh"
     ],
-    "svgId": "binhthuan"
-  },
-  {
-    "id": "ca-mau",
-    "name": "Cà Mau",
-    "region": "Nam",
     "aliases": [
-      "ca mau",
-      "ca-mau",
-      "cm",
-      "cà mau",
-      "dat mui"
-    ],
-    "svgId": "camau"
-  },
-  {
-    "id": "can-tho",
-    "name": "Cần Thơ",
-    "region": "Nam",
-    "aliases": [
-      "can tho",
-      "can-tho",
-      "ct",
-      "cần thơ",
-      "tay do"
-    ],
-    "svgId": "cantho"
+      "ha tinh",
+      "ht",
+      "hà tĩnh"
+    ]
   },
   {
     "id": "cao-bang",
     "name": "Cao Bằng",
-    "region": "Bắc",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "caobang"
+    ],
+    "subProvinces": [
+      "Cao Bằng"
+    ],
     "aliases": [
       "cao bang",
       "cao bằng",
-      "cao-bang",
-      "cb"
+      "cb",
+      "thac ban gioc"
+    ]
+  },
+  {
+    "id": "lao-cai",
+    "name": "Lào Cai",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "svgIds": [
+      "laocai",
+      "yenbai"
     ],
-    "svgId": "caobang"
+    "subProvinces": [
+      "Lào Cai",
+      "Yên Bái"
+    ],
+    "aliases": [
+      "lao cai",
+      "lc",
+      "lào cai",
+      "mu cang chai",
+      "sapa",
+      "yb",
+      "yen bai",
+      "yên bái"
+    ]
+  },
+  {
+    "id": "tuyen-quang",
+    "name": "Tuyên Quang",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "tuyenquang",
+      "hagiang"
+    ],
+    "subProvinces": [
+      "Tuyên Quang",
+      "Hà Giang"
+    ],
+    "aliases": [
+      "dong van",
+      "ha giang",
+      "hg",
+      "hà giang",
+      "meo vac",
+      "tq",
+      "tuyen quang",
+      "tuyên quang"
+    ]
+  },
+  {
+    "id": "thai-nguyen",
+    "name": "Thái Nguyên",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "thainguyen",
+      "backan"
+    ],
+    "subProvinces": [
+      "Thái Nguyên",
+      "Bắc Kạn"
+    ],
+    "aliases": [
+      "bac can",
+      "bac kan",
+      "bk",
+      "bắc kạn",
+      "ho ba be",
+      "thai nguyen",
+      "thái nguyên",
+      "tn"
+    ]
+  },
+  {
+    "id": "phu-tho",
+    "name": "Phú Thọ",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "svgIds": [
+      "phutho",
+      "vinhphuc",
+      "hoabinh"
+    ],
+    "subProvinces": [
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "Hòa Bình"
+    ],
+    "aliases": [
+      "dat to",
+      "hb",
+      "hoa binh",
+      "hòa bình",
+      "mai chau",
+      "phu tho",
+      "phú thọ",
+      "pt",
+      "tam dao",
+      "viet tri",
+      "vinh phuc",
+      "vp",
+      "vĩnh phúc"
+    ]
+  },
+  {
+    "id": "bac-ninh",
+    "name": "Bắc Ninh",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "svgIds": [
+      "bacninh",
+      "bacgiang"
+    ],
+    "subProvinces": [
+      "Bắc Ninh",
+      "Bắc Giang"
+    ],
+    "aliases": [
+      "bac giang",
+      "bac ninh",
+      "bg",
+      "bn",
+      "bắc giang",
+      "bắc ninh",
+      "kinh bac",
+      "quan ho"
+    ]
+  },
+  {
+    "id": "hung-yen",
+    "name": "Hưng Yên",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "svgIds": [
+      "hungyen",
+      "thaibinh"
+    ],
+    "subProvinces": [
+      "Hưng Yên",
+      "Thái Bình"
+    ],
+    "aliases": [
+      "hung yen",
+      "hy",
+      "hưng yên",
+      "pho hien",
+      "que lua",
+      "tb",
+      "thai binh",
+      "thái bình"
+    ]
+  },
+  {
+    "id": "hai-phong",
+    "name": "TP. Hải Phòng",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Đồng bằng sông Hồng",
+    "svgIds": [
+      "haiphong",
+      "haiduong"
+    ],
+    "subProvinces": [
+      "Hải Phòng",
+      "Hải Dương"
+    ],
+    "aliases": [
+      "dat cang",
+      "hai duong",
+      "hai phong",
+      "hd",
+      "hoa phuong do",
+      "hp",
+      "hải dương",
+      "hải phòng"
+    ]
+  },
+  {
+    "id": "ninh-binh",
+    "name": "Ninh Bình",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "svgIds": [
+      "ninhbinh",
+      "namdinh",
+      "hanam"
+    ],
+    "subProvinces": [
+      "Ninh Bình",
+      "Nam Định",
+      "Hà Nam"
+    ],
+    "aliases": [
+      "ha nam",
+      "hà nam",
+      "nam dinh",
+      "nam định",
+      "nb",
+      "nd",
+      "ninh binh",
+      "ninh bình",
+      "phu ly",
+      "trang an"
+    ]
+  },
+  {
+    "id": "quang-tri",
+    "name": "Quảng Trị",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "svgIds": [
+      "quangtri",
+      "quangbinh"
+    ],
+    "subProvinces": [
+      "Quảng Trị",
+      "Quảng Bình"
+    ],
+    "aliases": [
+      "dong ha",
+      "dong hoi",
+      "phong nha",
+      "qb",
+      "qt",
+      "quang binh",
+      "quang tri",
+      "quảng bình",
+      "quảng trị"
+    ]
   },
   {
     "id": "da-nang",
-    "name": "Đà Nẵng",
-    "region": "Trung",
+    "name": "TP. Đà Nẵng",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Duyên hải Nam Trung Bộ",
+    "svgIds": [
+      "danang",
+      "quangnam",
+      "hoangsa"
+    ],
+    "subProvinces": [
+      "Đà Nẵng",
+      "Quảng Nam",
+      "Hoàng Sa"
+    ],
     "aliases": [
       "da nang",
-      "da-nang",
       "dn",
       "hoang sa",
+      "hoi an",
+      "hoàng sa",
+      "qn",
+      "quang nam",
+      "quảng nam",
+      "tam ky",
       "đà nẵng"
+    ]
+  },
+  {
+    "id": "quang-ngai",
+    "name": "Quảng Ngãi",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "svgIds": [
+      "quangngai",
+      "kontum"
     ],
-    "svgId": "danang"
+    "subProvinces": [
+      "Quảng Ngãi",
+      "Kon Tum"
+    ],
+    "aliases": [
+      "kon tum",
+      "kontum",
+      "kt",
+      "ly son",
+      "mang den",
+      "qn",
+      "quang ngai",
+      "quảng ngãi"
+    ]
+  },
+  {
+    "id": "gia-lai",
+    "name": "Gia Lai",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "svgIds": [
+      "gialai",
+      "binhdinh"
+    ],
+    "subProvinces": [
+      "Gia Lai",
+      "Bình Định"
+    ],
+    "aliases": [
+      "bd",
+      "binh dinh",
+      "bình định",
+      "dat vo",
+      "gia lai",
+      "gl",
+      "pleiku",
+      "quy nhon"
+    ]
+  },
+  {
+    "id": "khanh-hoa",
+    "name": "Khánh Hòa",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "svgIds": [
+      "khanhhoa",
+      "ninhthuan",
+      "truongsa"
+    ],
+    "subProvinces": [
+      "Khánh Hòa",
+      "Ninh Thuận",
+      "Trường Sa"
+    ],
+    "aliases": [
+      "kh",
+      "khanh hoa",
+      "khánh hòa",
+      "nha trang",
+      "ninh thuan",
+      "ninh thuận",
+      "nt",
+      "phan rang",
+      "truong sa",
+      "trường sa"
+    ]
+  },
+  {
+    "id": "lam-dong",
+    "name": "Lâm Đồng",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "svgIds": [
+      "lamdong",
+      "daknong",
+      "binhthuan"
+    ],
+    "subProvinces": [
+      "Lâm Đồng",
+      "Đắk Nông",
+      "Bình Thuận"
+    ],
+    "aliases": [
+      "bao loc",
+      "binh thuan",
+      "bình thuận",
+      "da lat",
+      "dac nong",
+      "dak nong",
+      "dalat",
+      "lam dong",
+      "ld",
+      "lâm đồng",
+      "mui ne",
+      "phan thiet",
+      "đắk nông"
+    ]
   },
   {
     "id": "dak-lak",
     "name": "Đắk Lắk",
-    "region": "Trung",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "svgIds": [
+      "daklak",
+      "phuyen"
+    ],
+    "subProvinces": [
+      "Đắk Lắk",
+      "Phú Yên"
+    ],
     "aliases": [
       "bmt",
       "buon ma thuot",
       "dac lac",
       "dak lak",
-      "dak-lak",
       "dl",
-      "đắk lắk"
-    ],
-    "svgId": "daklak"
-  },
-  {
-    "id": "dak-nong",
-    "name": "Đắk Nông",
-    "region": "Trung",
-    "aliases": [
-      "dac nong",
-      "dak nong",
-      "dak-nong",
-      "đắk nông"
-    ],
-    "svgId": "daknong"
-  },
-  {
-    "id": "dien-bien",
-    "name": "Điện Biên",
-    "region": "Bắc",
-    "aliases": [
-      "db",
-      "dien bien",
-      "dien bien phu",
-      "dien-bien",
-      "điện biên"
-    ],
-    "svgId": "dienbien"
-  },
-  {
-    "id": "dong-nai",
-    "name": "Đồng Nai",
-    "region": "Nam",
-    "aliases": [
-      "bien hoa",
-      "dn",
-      "dong nai",
-      "dong-nai",
-      "đồng nai"
-    ],
-    "svgId": "dongnai"
-  },
-  {
-    "id": "dong-thap",
-    "name": "Đồng Tháp",
-    "region": "Nam",
-    "aliases": [
-      "cao lanh",
-      "dong thap",
-      "dong-thap",
-      "dt",
-      "đồng tháp"
-    ],
-    "svgId": "dongthap"
-  },
-  {
-    "id": "gia-lai",
-    "name": "Gia Lai",
-    "region": "Trung",
-    "aliases": [
-      "gia lai",
-      "gia-lai",
-      "gl",
-      "pleiku"
-    ],
-    "svgId": "gialai"
-  },
-  {
-    "id": "ha-giang",
-    "name": "Hà Giang",
-    "region": "Bắc",
-    "aliases": [
-      "ha giang",
-      "ha-giang",
-      "hg",
-      "hà giang"
-    ],
-    "svgId": "hagiang"
-  },
-  {
-    "id": "ha-nam",
-    "name": "Hà Nam",
-    "region": "Bắc",
-    "aliases": [
-      "ha nam",
-      "ha-nam",
-      "hà nam",
-      "phu ly"
-    ],
-    "svgId": "hanam"
-  },
-  {
-    "id": "ha-noi",
-    "name": "Hà Nội",
-    "region": "Bắc",
-    "aliases": [
-      "ha noi",
-      "ha-noi",
-      "hanoi",
-      "hn",
-      "hà nội",
-      "thu do"
-    ],
-    "svgId": "hanoi"
-  },
-  {
-    "id": "ha-tinh",
-    "name": "Hà Tĩnh",
-    "region": "Trung",
-    "aliases": [
-      "ha tinh",
-      "ha-tinh",
-      "ht",
-      "hà tĩnh"
-    ],
-    "svgId": "hatinh"
-  },
-  {
-    "id": "hai-duong",
-    "name": "Hải Dương",
-    "region": "Bắc",
-    "aliases": [
-      "hai duong",
-      "hai-duong",
-      "hd",
-      "hải dương"
-    ],
-    "svgId": "haiduong"
-  },
-  {
-    "id": "hai-phong",
-    "name": "Hải Phòng",
-    "region": "Bắc",
-    "aliases": [
-      "dat cang",
-      "hai phong",
-      "hai-phong",
-      "hp",
-      "hải phòng"
-    ],
-    "svgId": "haiphong"
-  },
-  {
-    "id": "hau-giang",
-    "name": "Hậu Giang",
-    "region": "Nam",
-    "aliases": [
-      "hau giang",
-      "hau-giang",
-      "hậu giang",
-      "vi thanh"
-    ],
-    "svgId": "haugiang"
-  },
-  {
-    "id": "hoa-binh",
-    "name": "Hòa Bình",
-    "region": "Bắc",
-    "aliases": [
-      "hb",
-      "hoa binh",
-      "hoa-binh",
-      "hòa bình"
-    ],
-    "svgId": "hoabinh"
-  },
-  {
-    "id": "hung-yen",
-    "name": "Hưng Yên",
-    "region": "Bắc",
-    "aliases": [
-      "hung yen",
-      "hung-yen",
-      "hy",
-      "hưng yên"
-    ],
-    "svgId": "hungyen"
-  },
-  {
-    "id": "khanh-hoa",
-    "name": "Khánh Hòa",
-    "region": "Trung",
-    "aliases": [
-      "kh",
-      "khanh hoa",
-      "khanh-hoa",
-      "khánh hòa",
-      "nha trang",
-      "truong sa"
-    ],
-    "svgId": "khanhhoa"
-  },
-  {
-    "id": "kien-giang",
-    "name": "Kiên Giang",
-    "region": "Nam",
-    "aliases": [
-      "kg",
-      "kien giang",
-      "kien-giang",
-      "kiên giang",
-      "phu quoc",
-      "rach gia"
-    ],
-    "svgId": "kiengiang"
-  },
-  {
-    "id": "kon-tum",
-    "name": "Kon Tum",
-    "region": "Trung",
-    "aliases": [
-      "kon tum",
-      "kon-tum",
-      "kontum",
-      "kt"
-    ],
-    "svgId": "kontum"
-  },
-  {
-    "id": "lai-chau",
-    "name": "Lai Châu",
-    "region": "Bắc",
-    "aliases": [
-      "lai chau",
-      "lai châu",
-      "lai-chau",
-      "lc"
-    ],
-    "svgId": "laichau"
-  },
-  {
-    "id": "lam-dong",
-    "name": "Lâm Đồng",
-    "region": "Trung",
-    "aliases": [
-      "da lat",
-      "dalat",
-      "lam dong",
-      "lam-dong",
-      "ld",
-      "lâm đồng"
-    ],
-    "svgId": "lamdong"
-  },
-  {
-    "id": "lang-son",
-    "name": "Lạng Sơn",
-    "region": "Bắc",
-    "aliases": [
-      "lang son",
-      "lang-son",
-      "ls",
-      "lạng sơn"
-    ],
-    "svgId": "langson"
-  },
-  {
-    "id": "lao-cai",
-    "name": "Lào Cai",
-    "region": "Bắc",
-    "aliases": [
-      "lao cai",
-      "lao-cai",
-      "lc",
-      "lào cai",
-      "sapa"
-    ],
-    "svgId": "laocai"
-  },
-  {
-    "id": "long-an",
-    "name": "Long An",
-    "region": "Nam",
-    "aliases": [
-      "la",
-      "long an",
-      "long-an",
-      "tan an"
-    ],
-    "svgId": "longan"
-  },
-  {
-    "id": "nam-dinh",
-    "name": "Nam Định",
-    "region": "Bắc",
-    "aliases": [
-      "nam dinh",
-      "nam định",
-      "nam-dinh",
-      "nd"
-    ],
-    "svgId": "namdinh"
-  },
-  {
-    "id": "nghe-an",
-    "name": "Nghệ An",
-    "region": "Trung",
-    "aliases": [
-      "na",
-      "nghe an",
-      "nghe-an",
-      "nghệ an",
-      "vinh"
-    ],
-    "svgId": "nghean"
-  },
-  {
-    "id": "ninh-binh",
-    "name": "Ninh Bình",
-    "region": "Bắc",
-    "aliases": [
-      "nb",
-      "ninh binh",
-      "ninh bình",
-      "ninh-binh"
-    ],
-    "svgId": "ninhbinh"
-  },
-  {
-    "id": "ninh-thuan",
-    "name": "Ninh Thuận",
-    "region": "Trung",
-    "aliases": [
-      "ninh thuan",
-      "ninh thuận",
-      "ninh-thuan",
-      "nt",
-      "phan rang"
-    ],
-    "svgId": "ninhthuan"
-  },
-  {
-    "id": "phu-tho",
-    "name": "Phú Thọ",
-    "region": "Bắc",
-    "aliases": [
-      "phu tho",
-      "phu-tho",
-      "phú thọ",
-      "pt",
-      "viet tri"
-    ],
-    "svgId": "phutho"
-  },
-  {
-    "id": "phu-yen",
-    "name": "Phú Yên",
-    "region": "Trung",
-    "aliases": [
       "phu yen",
-      "phu-yen",
       "phú yên",
       "py",
-      "tuy hoa"
-    ],
-    "svgId": "phuyen"
-  },
-  {
-    "id": "quang-binh",
-    "name": "Quảng Bình",
-    "region": "Trung",
-    "aliases": [
-      "dong hoi",
-      "qb",
-      "quang binh",
-      "quang-binh",
-      "quảng bình"
-    ],
-    "svgId": "quangbinh"
-  },
-  {
-    "id": "quang-nam",
-    "name": "Quảng Nam",
-    "region": "Trung",
-    "aliases": [
-      "hoi an",
-      "qn",
-      "quang nam",
-      "quang-nam",
-      "quảng nam",
-      "tam ky"
-    ],
-    "svgId": "quangnam"
-  },
-  {
-    "id": "quang-ngai",
-    "name": "Quảng Ngãi",
-    "region": "Trung",
-    "aliases": [
-      "qn",
-      "quang ngai",
-      "quang-ngai",
-      "quảng ngãi"
-    ],
-    "svgId": "quangngai"
-  },
-  {
-    "id": "quang-ninh",
-    "name": "Quảng Ninh",
-    "region": "Bắc",
-    "aliases": [
-      "ha long",
-      "qn",
-      "quang ninh",
-      "quang-ninh",
-      "quảng ninh"
-    ],
-    "svgId": "quangninh"
-  },
-  {
-    "id": "quang-tri",
-    "name": "Quảng Trị",
-    "region": "Trung",
-    "aliases": [
-      "dong ha",
-      "qt",
-      "quang tri",
-      "quang-tri",
-      "quảng trị"
-    ],
-    "svgId": "quangtri"
-  },
-  {
-    "id": "soc-trang",
-    "name": "Sóc Trăng",
-    "region": "Nam",
-    "aliases": [
-      "soc trang",
-      "soc-trang",
-      "st",
-      "sóc trăng"
-    ],
-    "svgId": "soctrang"
-  },
-  {
-    "id": "son-la",
-    "name": "Sơn La",
-    "region": "Bắc",
-    "aliases": [
-      "sl",
-      "son la",
-      "son-la",
-      "sơn la"
-    ],
-    "svgId": "sonla"
-  },
-  {
-    "id": "tay-ninh",
-    "name": "Tây Ninh",
-    "region": "Nam",
-    "aliases": [
-      "tay ninh",
-      "tay-ninh",
-      "tn",
-      "tây ninh"
-    ],
-    "svgId": "tayninh"
-  },
-  {
-    "id": "thai-binh",
-    "name": "Thái Bình",
-    "region": "Bắc",
-    "aliases": [
-      "tb",
-      "thai binh",
-      "thai-binh",
-      "thái bình"
-    ],
-    "svgId": "thaibinh"
-  },
-  {
-    "id": "thai-nguyen",
-    "name": "Thái Nguyên",
-    "region": "Bắc",
-    "aliases": [
-      "thai nguyen",
-      "thai-nguyen",
-      "thái nguyên",
-      "tn"
-    ],
-    "svgId": "thainguyen"
-  },
-  {
-    "id": "thanh-hoa",
-    "name": "Thanh Hóa",
-    "region": "Trung",
-    "aliases": [
-      "th",
-      "thanh hoa",
-      "thanh hóa",
-      "thanh-hoa"
-    ],
-    "svgId": "thanhhoa"
-  },
-  {
-    "id": "thua-thien-hue",
-    "name": "Thừa Thiên Huế",
-    "region": "Trung",
-    "aliases": [
-      "hue",
-      "thua thien hue",
-      "thua-thien-hue",
-      "thừa thiên huế",
-      "tth"
-    ],
-    "svgId": "tthue"
-  },
-  {
-    "id": "tien-giang",
-    "name": "Tiền Giang",
-    "region": "Nam",
-    "aliases": [
-      "my tho",
-      "tg",
-      "tien giang",
-      "tien-giang",
-      "tiền giang"
-    ],
-    "svgId": "tiengiang"
+      "tuy hoa",
+      "đắk lắk"
+    ]
   },
   {
     "id": "ho-chi-minh",
     "name": "TP. Hồ Chí Minh",
-    "region": "Nam",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Đông Nam Bộ",
+    "svgIds": [
+      "hcm",
+      "binhduong",
+      "baria"
+    ],
+    "subProvinces": [
+      "TP. Hồ Chí Minh",
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu"
+    ],
     "aliases": [
+      "ba ria",
+      "ba ria - vung tau",
+      "ba ria vung tau",
+      "bd",
+      "binh duong",
+      "bà rịa - vũng tàu",
+      "bình dương",
       "hcm",
       "ho chi minh",
-      "ho-chi-minh",
       "sai gon",
       "saigon",
       "sg",
-      "tp hcm",
+      "thu dau mot",
       "tp ho chi minh",
       "tp. ho chi minh",
       "tp. hồ chí minh",
-      "tphcm"
-    ],
-    "svgId": "hcm"
+      "tphcm",
+      "vt",
+      "vung tau"
+    ]
   },
   {
-    "id": "tra-vinh",
-    "name": "Trà Vinh",
-    "region": "Nam",
-    "aliases": [
-      "tra vinh",
-      "tra-vinh",
-      "trà vinh",
-      "tv"
+    "id": "dong-nai",
+    "name": "Đồng Nai",
+    "type": "Tỉnh",
+    "region": "Đông Nam Bộ",
+    "svgIds": [
+      "dongnai",
+      "binhphuoc"
     ],
-    "svgId": "travinh"
+    "subProvinces": [
+      "Đồng Nai",
+      "Bình Phước"
+    ],
+    "aliases": [
+      "bien hoa",
+      "binh phuoc",
+      "bp",
+      "bình phước",
+      "dn",
+      "dong nai",
+      "dong xoai",
+      "đồng nai"
+    ]
   },
   {
-    "id": "tuyen-quang",
-    "name": "Tuyên Quang",
-    "region": "Bắc",
-    "aliases": [
-      "tq",
-      "tuyen quang",
-      "tuyen-quang",
-      "tuyên quang"
+    "id": "tay-ninh",
+    "name": "Tây Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Nam Bộ",
+    "svgIds": [
+      "tayninh",
+      "longan"
     ],
-    "svgId": "tuyenquang"
+    "subProvinces": [
+      "Tây Ninh",
+      "Long An"
+    ],
+    "aliases": [
+      "la",
+      "long an",
+      "nui ba den",
+      "tan an",
+      "tay ninh",
+      "tn",
+      "tây ninh"
+    ]
+  },
+  {
+    "id": "can-tho",
+    "name": "TP. Cần Thơ",
+    "type": "Thành phố trực thuộc TW",
+    "region": "Đồng bằng sông Cửu Long",
+    "svgIds": [
+      "cantho",
+      "soctrang",
+      "haugiang"
+    ],
+    "subProvinces": [
+      "Cần Thơ",
+      "Sóc Trăng",
+      "Hậu Giang"
+    ],
+    "aliases": [
+      "can tho",
+      "ct",
+      "cần thơ",
+      "hau giang",
+      "hậu giang",
+      "soc trang",
+      "st",
+      "sóc trăng",
+      "tay do",
+      "vi thanh"
+    ]
   },
   {
     "id": "vinh-long",
     "name": "Vĩnh Long",
-    "region": "Nam",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "svgIds": [
+      "vinhlong",
+      "bentre",
+      "travinh"
+    ],
+    "subProvinces": [
+      "Vĩnh Long",
+      "Bến Tre",
+      "Trà Vinh"
+    ],
     "aliases": [
+      "ben tre",
+      "bt",
+      "bến tre",
+      "tra vinh",
+      "trà vinh",
+      "tv",
       "vinh long",
-      "vinh-long",
       "vl",
-      "vĩnh long"
-    ],
-    "svgId": "vinhlong"
+      "vĩnh long",
+      "xu dua"
+    ]
   },
   {
-    "id": "vinh-phuc",
-    "name": "Vĩnh Phúc",
-    "region": "Bắc",
-    "aliases": [
-      "vinh phuc",
-      "vinh-phuc",
-      "vp",
-      "vĩnh phúc"
+    "id": "dong-thap",
+    "name": "Đồng Tháp",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "svgIds": [
+      "dongthap",
+      "tiengiang"
     ],
-    "svgId": "vinhphuc"
+    "subProvinces": [
+      "Đồng Tháp",
+      "Tiền Giang"
+    ],
+    "aliases": [
+      "cao lanh",
+      "dong thap",
+      "dt",
+      "my tho",
+      "sa dec",
+      "tg",
+      "tien giang",
+      "tiền giang",
+      "đồng tháp"
+    ]
   },
   {
-    "id": "yen-bai",
-    "name": "Yên Bái",
-    "region": "Bắc",
-    "aliases": [
-      "yb",
-      "yen bai",
-      "yen-bai",
-      "yên bái"
+    "id": "ca-mau",
+    "name": "Cà Mau",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "svgIds": [
+      "camau",
+      "baclieu"
     ],
-    "svgId": "yenbai"
+    "subProvinces": [
+      "Cà Mau",
+      "Bạc Liêu"
+    ],
+    "aliases": [
+      "bac lieu",
+      "bl",
+      "bạc liêu",
+      "ca mau",
+      "cm",
+      "cà mau",
+      "dat mui"
+    ]
+  },
+  {
+    "id": "an-giang",
+    "name": "An Giang",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "svgIds": [
+      "angiang",
+      "kiengiang"
+    ],
+    "subProvinces": [
+      "An Giang",
+      "Kiên Giang"
+    ],
+    "aliases": [
+      "ag",
+      "an giang",
+      "chau doc",
+      "ha tien",
+      "kg",
+      "kien giang",
+      "kiên giang",
+      "long xuyen",
+      "phu quoc",
+      "rach gia"
+    ]
   }
 ]

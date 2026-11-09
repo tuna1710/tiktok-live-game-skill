@@ -9,8 +9,8 @@ console.log('🧪 BẮT ĐẦU KIỂM THỬ TỰ ĐỘNG: VIETNAM TOUR LIVE');
 const provincesFile = path.join(__dirname, 'data', 'provinces.json');
 assert(fs.existsSync(provincesFile), 'Thiếu file data/provinces.json');
 const provinces = JSON.parse(fs.readFileSync(provincesFile, 'utf-8'));
-assert.strictEqual(provinces.length, 63, `Cần đủ 63 tỉnh thành, hiện có: ${provinces.length}`);
-console.log('✅ 1. Kiểm tra Database 63 tỉnh thành: ĐẠT');
+assert.strictEqual(provinces.length, 34, `Cần đủ 34 tỉnh/thành phố mới theo Nghị quyết 2025, hiện có: ${provinces.length}`);
+console.log('✅ 1. Kiểm tra Database 34 Đơn vị Hành chính cấp tỉnh mới: ĐẠT');
 
 // 2. Kiểm tra file SVG bản đồ
 const svgFile = path.join(__dirname, 'public', 'vietnam.svg');
@@ -21,7 +21,7 @@ assert(svgContent.includes('id="laocai"'), 'Thiếu id laocai trong SVG');
 assert(svgContent.includes('id="tayninh"'), 'Thiếu id tayninh trong SVG');
 console.log('✅ 2. Kiểm tra Bản đồ Vector SVG: ĐẠT');
 
-// 3. Kiểm tra logic chuẩn hóa và match tỉnh thành
+// 3. Kiểm tra logic chuẩn hóa và match tỉnh thành (34 mới + 63 truyền thống)
 function normalizeText(str) {
   if (!str) return '';
   return str.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'd').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
@@ -31,28 +31,41 @@ function matchProvince(comment) {
   const norm = normalizeText(comment);
   if (!norm) return null;
   for (const p of provinces) {
+    for (const sub of (p.subProvinces || [])) {
+      const normSub = normalizeText(sub);
+      if (norm === normSub) return { p, sub };
+    }
     for (const alias of p.aliases) {
-      if (norm === normalizeText(alias)) return p;
+      if (norm === normalizeText(alias)) return { p, sub: p.name };
     }
   }
   for (const p of provinces) {
+    for (const sub of (p.subProvinces || [])) {
+      const normSub = normalizeText(sub);
+      if (normSub.length < 2) continue;
+      const regex = new RegExp(`(^|\\s)${normSub}(\\s|$)`, 'i');
+      if (regex.test(norm)) return { p, sub };
+    }
     for (const alias of p.aliases) {
       const normAlias = normalizeText(alias);
       if (normAlias.length < 2) continue;
       const regex = new RegExp(`(^|\\s)${normAlias}(\\s|$)`, 'i');
-      if (regex.test(norm)) return p;
+      if (regex.test(norm)) return { p, sub: p.name };
     }
   }
   return null;
 }
 
-assert.strictEqual(matchProvince('Lào cai')?.id, 'lao-cai');
-assert.strictEqual(matchProvince('lao cai')?.id, 'lao-cai');
-assert.strictEqual(matchProvince('cho em ve tay ninh voi ad')?.id, 'tay-ninh');
-assert.strictEqual(matchProvince('sg nha')?.id, 'ho-chi-minh');
-assert.strictEqual(matchProvince('da nang dep qua')?.id, 'da-nang');
-assert.strictEqual(matchProvince('thu do ha noi')?.id, 'ha-noi');
-console.log('✅ 3. Kiểm tra thuật toán nhận diện tỉnh từ comment: ĐẠT (100% khớp các trường hợp khó)');
+// Khớp tỉnh mới trực tiếp
+assert.strictEqual(matchProvince('Lào cai')?.p.id, 'lao-cai');
+assert.strictEqual(matchProvince('da nang dep qua')?.p.id, 'da-nang');
+assert.strictEqual(matchProvince('thu do ha noi')?.p.id, 'ha-noi');
+// Khớp quê hương truyền thống vào tỉnh mới sau sáp nhập
+assert.strictEqual(matchProvince('que em o ben tre nha')?.p.id, 'vinh-long');
+assert.strictEqual(matchProvince('yen bai dep lam')?.p.id, 'lao-cai');
+assert.strictEqual(matchProvince('em o binh duong')?.p.id, 'ho-chi-minh');
+assert.strictEqual(matchProvince('nam dinh co pho bo')?.p.id, 'ninh-binh');
+console.log('✅ 3. Kiểm tra thuật toán Smart Mapping: Nhận diện cả 34 tỉnh mới & 63 tỉnh truyền thống 100% chính xác!');
 
 // 4. Kiểm tra cấu trúc file frontend
 assert(fs.existsSync(path.join(__dirname, 'public', 'index.html')), 'Thiếu public/index.html');

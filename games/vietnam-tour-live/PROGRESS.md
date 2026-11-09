@@ -94,6 +94,12 @@
 
 ---
 
-## 💬 GHI CHÚ QUYẾT ĐỊNH & THẢO LUẬN
+## 💬 GHI CHÚ QUYẾT ĐỊNH & CẬP NHẬT MỚI NHẤT
 - Game được đặt tên chính thức là: **Ghé Thăm 63 Tỉnh Thành Việt Nam (Vietnam Tour Live)**.
+- **Tối ưu hiển thị & Tỉ lệ màn hình:** Căn giữa bản đồ Việt Nam bằng cấu trúc `<g id="mapGroup">` trong SVG với `transform-origin: 0 0`, khắc phục hiện tượng bản đồ bị trượt lệch khỏi khung nhìn khi zoom.
+- **Điều chỉnh HUD Perks:** Đã gỡ bỏ các nhãn số (21, 50, 200) ở thanh ưu tiên theo phản hồi từ người dùng, chỉ giữ icon và nội dung quyền lợi trực quan.
+- **Cập nhật 34 Đơn vị hành chính cấp tỉnh mới (Nghị quyết 202/2025/QH15):**
+  - Tích hợp toàn diện 34 đơn vị hành chính cấp tỉnh mới nhất vào `provinces.json`.
+  - Giữ nguyên cơ chế **Smart Mapping tương thích ngược 100%**: Khán giả comment tên tỉnh cũ (ví dụ Bến Tre, Nam Định, Yên Bái, Hải Dương, Bình Dương,...) hệ thống tự động nhận diện và gộp vào tỉnh mới (ví dụ `Bến Tre (Vĩnh Long)`), sáng toàn bộ các vùng hợp nhất trên bản đồ vector.
 - Đã cấu hình symlink từ `/workspace/vietnam-tour-live` tới `games/vietnam-tour-live` để quản lý tiện lợi.
+

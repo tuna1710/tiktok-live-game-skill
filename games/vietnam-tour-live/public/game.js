@@ -104,34 +104,58 @@ function focusProvince(visitData) {
   const svg = svgContainer.querySelector('svg');
   if (!svg) return;
 
-  const targetId = visitData.svgId || visitData.provinceId.replace(/-/g, '');
-  let targetPath = svg.querySelector(`#${targetId}`) || svg.querySelector(`[name*="${visitData.provinceName}"]`);
+  // Hỗ trợ cả 34 tỉnh mới (nhiều svgIds) và tỉnh đơn lẻ
+  const rawIds = visitData.svgIds || [visitData.svgId || visitData.provinceId.replace(/-/g, '')];
+  const svgIds = Array.isArray(rawIds) ? rawIds : [rawIds];
 
   // Xóa class active của các tỉnh cũ
   svg.querySelectorAll('.active-province').forEach(p => p.classList.remove('active-province'));
 
-  if (!targetPath) {
-    console.warn(`Province path not found for id: ${targetId}`);
-    return;
+  let activePaths = [];
+  svgIds.forEach(id => {
+    const p = svg.querySelector(`#${id}`);
+    if (p) {
+      p.classList.add('active-province');
+      p.parentNode.appendChild(p);
+      activePaths.push(p);
+    }
+  });
+
+  if (activePaths.length === 0) {
+    const fallbackPath = svg.querySelector(`[name*="${visitData.provinceName}"]`);
+    if (fallbackPath) {
+      fallbackPath.classList.add('active-province');
+      fallbackPath.parentNode.appendChild(fallbackPath);
+      activePaths.push(fallbackPath);
+    } else {
+      console.warn(`Province paths not found for:`, svgIds);
+      return;
+    }
   }
-
-  // Thêm hiệu ứng highlight vàng neon phát sáng
-  targetPath.classList.add('active-province');
-
-  // Đưa path lên trên cùng trong SVG group để viền sáng không bị che
-  targetPath.parentNode.appendChild(targetPath);
 
   // Group chứa bản đồ trong SVG
   const mapGroup = svg.querySelector('#mapGroup') || svg;
 
-  // Tính toán Bounding Box và tọa độ tâm trong hệ tọa độ SVG (0..703, 0..900)
-  const bbox = targetPath.getBBox();
-  const cx = bbox.x + bbox.width / 2;
-  const cy = bbox.y + bbox.height / 2;
+  // Tính toán Bounding Box gộp chung của tất cả các đơn vị sáp nhập
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  activePaths.forEach(path => {
+    try {
+      const b = path.getBBox();
+      if (b.x < minX) minX = b.x;
+      if (b.y < minY) minY = b.y;
+      if (b.x + b.width > maxX) maxX = b.x + b.width;
+      if (b.y + b.height > maxY) maxY = b.y + b.height;
+    } catch (e) {}
+  });
+
+  const bboxW = maxX - minX;
+  const bboxH = maxY - minY;
+  const cx = minX + bboxW / 2;
+  const cy = minY + bboxH / 2;
 
   // Zoom scale trong SVG (giữ tỉnh vừa vặn vùng hiển thị)
-  const provinceSize = Math.max(bbox.width, bbox.height);
-  const zoomScale = Math.min(3.2, Math.max(2.0, 260 / Math.max(provinceSize, 45)));
+  const provinceSize = Math.max(bboxW, bboxH);
+  const zoomScale = Math.min(3.2, Math.max(1.9, 270 / Math.max(provinceSize, 45)));
 
   // Căn tâm tỉnh vào vị trí trên của bản đồ (351.5, 380) để chừa chỗ cho avatar spotlight ở dưới
   const targetSvgX = 351.5;

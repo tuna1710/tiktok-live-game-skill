@@ -47,30 +47,59 @@ function normalizeText(str) {
     .trim();
 }
 
-// Hàm tìm tỉnh thành từ comment của người xem
+// Hàm tìm tỉnh thành từ comment của người xem (Hỗ trợ 34 tỉnh mới & 63 tỉnh truyền thống)
 function matchProvince(comment) {
   const norm = normalizeText(comment);
   if (!norm) return null;
 
-  // 1. Khớp chính xác hoàn toàn với alias hoặc tên
+  // 1. Khớp chính xác tên hoặc quê hương con (subProvinces)
   for (const p of PROVINCES) {
+    for (const sub of (p.subProvinces || [])) {
+      const normSub = normalizeText(sub);
+      if (norm === normSub) {
+        return {
+          province: p,
+          displayName: sub === p.name ? p.name : `${sub} (${p.name})`,
+          ttsName: sub
+        };
+      }
+    }
     for (const alias of p.aliases) {
       const normAlias = normalizeText(alias);
       if (norm === normAlias) {
-        return p;
+        return {
+          province: p,
+          displayName: p.name,
+          ttsName: p.name
+        };
       }
     }
   }
 
   // 2. Khớp từ ngữ có ranh giới từ (word boundary)
   for (const p of PROVINCES) {
+    for (const sub of (p.subProvinces || [])) {
+      const normSub = normalizeText(sub);
+      if (normSub.length < 2) continue;
+      const regex = new RegExp(`(^|\\s)${normSub}(\\s|$)`, 'i');
+      if (regex.test(norm)) {
+        return {
+          province: p,
+          displayName: sub === p.name ? p.name : `${sub} (${p.name})`,
+          ttsName: sub
+        };
+      }
+    }
     for (const alias of p.aliases) {
       const normAlias = normalizeText(alias);
-      // Bỏ qua alias quá ngắn (1 ký tự) khi tìm substring để tránh false positive
       if (normAlias.length < 2) continue;
       const regex = new RegExp(`(^|\\s)${normAlias}(\\s|$)`, 'i');
       if (regex.test(norm)) {
-        return p;
+        return {
+          province: p,
+          displayName: p.name,
+          ttsName: p.name
+        };
       }
     }
   }
@@ -209,7 +238,7 @@ function nextProvince() {
 
     gameState.currentVisit = {
       provinceId: nextItem.provinceId,
-      svgId: nextItem.svgId || (PROVINCES.find(p => p.id === nextItem.provinceId)?.svgId) || nextItem.provinceId.replace(/-/g, ''),
+      svgIds: nextItem.svgIds || [nextItem.provinceId.replace(/-/g, '')],
       provinceName: nextItem.provinceName,
       user: nextItem.user,
       timeLeft: PROVINCE_VISIT_DURATION,
@@ -217,17 +246,17 @@ function nextProvince() {
     };
 
     // Thông báo TTS chuyển tỉnh
-    const ttsText = `Đang cùng bạn ${nextItem.user.nickname} ghé thăm quê hương ${nextItem.provinceName}`;
+    const ttsText = `Đang cùng bạn ${nextItem.user.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
     io.emit('playTts', { text: ttsText });
   } else {
-    // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên để không bị khoảng lặng (Anti-Dead Air)
+    // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên trong 34 tỉnh để không bị khoảng lặng (Anti-Dead Air)
     const randomProv = PROVINCES[Math.floor(Math.random() * PROVINCES.length)];
     const currentCount = (gameState.provinceStats[randomProv.id] || 0) + 1;
     gameState.provinceStats[randomProv.id] = currentCount;
 
     gameState.currentVisit = {
       provinceId: randomProv.id,
-      svgId: randomProv.svgId || randomProv.id.replace(/-/g, ''),
+      svgIds: randomProv.svgIds || [randomProv.id.replace(/-/g, '')],
       provinceName: randomProv.name,
       user: {
         uniqueId: 'tiktok_live',
@@ -273,11 +302,13 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
   const matched = matchProvince(comment);
   if (!matched) return null;
 
+  const targetProvince = matched.province;
   const queueItem = {
     id: 'req_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4),
-    provinceId: matched.id,
-    svgId: matched.svgId || matched.id.replace(/-/g, ''),
-    provinceName: matched.name,
+    provinceId: targetProvince.id,
+    svgIds: targetProvince.svgIds || [targetProvince.id.replace(/-/g, '')],
+    provinceName: matched.displayName,
+    ttsName: matched.ttsName,
     user: {
       uniqueId: user.uniqueId || 'user_' + Date.now(),
       nickname: user.nickname || 'Khán giả',
