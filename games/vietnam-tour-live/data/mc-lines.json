@@ -125,5 +125,28 @@
     "Tuyệt vời quá cả nhà ơi! Chúng ta vừa cán mốc tim rực rỡ, cảm ơn năng lượng siêu khủng từ các bạn!",
     "Tim bay ngợp trời luôn! Cảm ơn cả nhà đã nhiệt tình gõ màn hình tiếp sức cho chuyến xe Việt Nam Tour!",
     "Cán mốc tim kỷ lục rồi cả nhà ơi! Năng lượng của các bạn hôm nay đỉnh của chóp, cảm ơn tất cả mọi người!"
+  ],
+  "cohortMega": [
+    "Đại gia đình đồng hương {province} hôm nay quá áp đảo! Chào mừng trưởng đoàn {leader} cùng đại đội {count} anh em đã tề tựu đông đủ!",
+    "Úi giời ơi {province} hôm nay vỡ trận rồi cả nhà ơi! Trưởng đoàn {leader} dắt theo hẳn một binh đoàn {count} người về quê, quá uy tín!",
+    "Đồng hương {province} đoàn kết số một Việt Nam! Hoan nghênh trưởng đoàn {leader} và hơn {count} anh em đã đổ bộ về quê nhà rực rỡ!",
+    "Bà con {province} mở tiệc ăn mừng thôi! Trưởng đoàn {leader} dẫn theo cả đoàn {count} người về thăm quê, hoành tráng nhất phòng live hôm nay!",
+    "Xe buýt TikTok hôm nay chở quá tải vì đoàn {province} quá đông! Cảm ơn trưởng đoàn {leader} và {count} anh em đồng hương đã tiếp lửa nhiệt tình!",
+    "Phải công nhận là người {province} quá đoàn kết! Trưởng đoàn {leader} hô một tiếng là có ngay {count} anh em hưởng ứng về thăm quê liền!"
+  ],
+  "cohortSmall": [
+    "Đoàn {province} hôm nay quá đông vui! Chào mừng trưởng đoàn {leader} cùng các bạn {members} đã cùng nhau về với quê hương!",
+    "Có đồng hương là có tất cả! Hoan nghênh trưởng đoàn {leader} và hội bạn thân {province} gồm {count} người đã cập bến!",
+    "Đi một mình thì đi nhanh, nhưng đi về {province} cùng trưởng đoàn {leader} và các bạn {members} thì bao vui bao phê luôn!",
+    "Cờ hoa rực rỡ đón đoàn {province}! Chào mừng trưởng đoàn {leader} cùng các anh em đồng hương đã tề tựu về thăm quê mẹ!",
+    "Đồng hương {province} tay bắt mặt mừng! Cảm ơn trưởng đoàn {leader} cùng các bạn {members} đã cùng nhau lên sóng trực tiếp!",
+    "Một tràng pháo tay cho đoàn {province}! Trưởng đoàn {leader} và hội đồng hương {count} người đang tỏa sáng trên bản đồ Việt Nam!"
+  ],
+  "visitorDropIn": [
+    "Hoan nghênh bạn {nickname} vừa nhập đoàn {province}! Đoàn ta càng lúc càng đông vui!",
+    "Thêm một người con ưu tú! Bạn {nickname} vừa nhảy lên chuyến xe về thăm {province} cùng cả đoàn!",
+    "{province} lại có thêm đồng minh! Chào mừng {nickname} vừa gia nhập hội đồng hương của trưởng đoàn {leader}!",
+    "Bạn {nickname} vừa kịp lên tàu về {province} cùng trưởng đoàn {leader}! Hoan hô tinh thần đồng hương!",
+    "Đoàn {province} vừa đón thêm thành viên mới là bạn {nickname}! Khí thế hừng hực luôn cả nhà ơi!"
   ]
 }

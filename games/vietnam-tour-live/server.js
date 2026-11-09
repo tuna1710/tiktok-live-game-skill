@@ -420,10 +420,19 @@ function nextProvince() {
     // Thông báo TTS chuyển tỉnh đa dạng theo quy mô đoàn
     let ttsText;
     if (visitors.length >= 5) {
-      ttsText = `Đại gia đình đồng hương ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông đảo! Chào mừng trưởng đoàn ${leader.nickname} cùng hơn ${visitors.length} anh em đã tề tựu!`;
+      ttsText = getRandomLine('cohortMega', {
+        province: nextItem.ttsName || nextItem.provinceName,
+        leader: leader.nickname,
+        count: visitors.length
+      }) || `Đại gia đình đồng hương ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông đảo! Chào mừng trưởng đoàn ${leader.nickname} cùng hơn ${visitors.length} anh em đã tề tựu!`;
     } else if (visitors.length >= 2) {
-      const otherNames = visitors.slice(1, 3).map(v => v.nickname).join(', ');
-      ttsText = `Đoàn ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông vui! Chào mừng trưởng đoàn ${leader.nickname} cùng các bạn ${otherNames} đã về với quê hương!`;
+      const otherNames = visitors.filter(v => v.uniqueId !== leader.uniqueId).slice(0, 3).map(v => v.nickname).join(', ');
+      ttsText = getRandomLine('cohortSmall', {
+        province: nextItem.ttsName || nextItem.provinceName,
+        leader: leader.nickname,
+        count: visitors.length,
+        members: otherNames || 'các anh em'
+      }) || `Đoàn ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông vui! Chào mừng trưởng đoàn ${leader.nickname} cùng các bạn ${otherNames} đã về với quê hương!`;
     } else {
       ttsText = getRandomLine('visitUser', {
         nickname: leader.nickname,
@@ -471,6 +480,7 @@ function nextProvince() {
 
 
 let lastCtaTime = Date.now();
+let lastDropInTtsTime = 0;
 
 // Vòng lặp đếm ngược thời gian (Ticker) mỗi giây
 setInterval(() => {
@@ -602,6 +612,23 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
       totalVisitors: gameState.currentVisit.visitors.length,
       coins: totalItemCoins
     });
+
+    // Lời thoại MC chúc mừng nhập đoàn (cooldown 8s chống nghẽn âm thanh)
+    const now = Date.now();
+    if (becameLeader) {
+      const leaderTts = `Chúc mừng bạn ${userObj.nickname} vừa vươn lên làm Trưởng đoàn ${matched.ttsName || matched.displayName}!`;
+      io.emit('playTts', { text: leaderTts });
+      lastDropInTtsTime = now;
+    } else if (!existingVisitor && (now - lastDropInTtsTime > 8000)) {
+      lastDropInTtsTime = now;
+      const dropInTts = getRandomLine('visitorDropIn', {
+        nickname: userObj.nickname,
+        province: matched.ttsName || matched.displayName,
+        leader: newLeader.nickname,
+        count: gameState.currentVisit.visitors.length
+      }) || `Hoan nghênh ${userObj.nickname} vừa nhập đoàn ${matched.ttsName || matched.displayName}!`;
+      io.emit('playTts', { text: dropInTts });
+    }
 
     gameState.leaderboard = getTopProvinces(5);
     io.emit('leaderboardUpdated', gameState.leaderboard);
