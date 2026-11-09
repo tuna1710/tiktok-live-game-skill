@@ -29,6 +29,11 @@ const queueCardsWrapper = document.getElementById('queueCardsWrapper');
 const toastContainer = document.getElementById('toastContainer');
 const ttsAudio = document.getElementById('ttsAudio');
 
+// Chat Feed Elements
+const chatFeedList = document.getElementById('chatFeedList');
+const chatCountBadge = document.getElementById('chatCountBadge');
+let chatCount = 0;
+
 // FX Canvas
 const fxCanvas = document.getElementById('fxCanvas');
 const ctx = fxCanvas.getContext('2d');
@@ -226,6 +231,55 @@ socket.on('gameState', state => {
   if (state.leaderboard) {
     renderLeaderboard(state.leaderboard);
   }
+
+  // Khởi tạo danh sách comment ban đầu nếu có
+  if (state.recentChats && Array.isArray(state.recentChats) && chatCount === 0) {
+    state.recentChats.slice().reverse().forEach(c => addChatToFeed(c));
+  }
+});
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/[&<>'"]/g, 
+    tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+  );
+}
+
+function addChatToFeed(chat) {
+  if (!chatFeedList) return;
+  chatCount++;
+  if (chatCountBadge) chatCountBadge.textContent = chatCount > 99 ? '99+' : `${chatCount}`;
+
+  const emptyEl = chatFeedList.querySelector('.cf-empty');
+  if (emptyEl) emptyEl.remove();
+
+  const isMatched = !!chat.matchedProvince;
+  const tagHtml = isMatched
+    ? `<span class="cf-tag tag-match">🚩 ${chat.matchedProvince}</span>`
+    : `<span class="cf-tag tag-normal">💬 Chat</span>`;
+
+  const itemEl = document.createElement('div');
+  itemEl.className = `cf-item ${isMatched ? 'cf-matched' : ''}`;
+  itemEl.innerHTML = `
+    <img class="cf-avatar" src="${chat.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop&crop=face'}" alt="User">
+    <div class="cf-content">
+      <div class="cf-user-row">
+        <span class="cf-user-name">${escapeHtml(chat.nickname || 'Khán giả')}</span>
+        ${tagHtml}
+      </div>
+      <div class="cf-comment-text">${escapeHtml(chat.comment || '')}</div>
+    </div>
+  `;
+
+  chatFeedList.insertBefore(itemEl, chatFeedList.firstChild);
+
+  while (chatFeedList.children.length > 5) {
+    chatFeedList.removeChild(chatFeedList.lastChild);
+  }
+}
+
+socket.on('chat', chat => {
+  addChatToFeed(chat);
 });
 
 // Sự kiện đếm giây

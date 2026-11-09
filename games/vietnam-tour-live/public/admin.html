@@ -178,6 +178,34 @@
           <div style="color: #8b949e; text-align: center;">Chưa có tỉnh nào trong hàng đợi</div>
         </div>
       </div>
+
+      <!-- 5. Bảng Nhật Ký Theo Dõi Bình Luận Realtime -->
+      <div class="card" style="grid-column: 1 / -1;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 8px;">
+          <h2>💬 5. Bảng Theo Dõi Bình Luận Trực Tiếp (Live Chat Stream)</h2>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span id="adminChatCounter" style="font-size: 12px; color: #58a6ff; font-weight: bold;">0 bình luận</span>
+            <button style="padding: 4px 10px; font-size: 11px;" onclick="clearAdminChatLog()">Xóa bảng</button>
+          </div>
+        </div>
+        <div style="max-height: 280px; overflow-y: auto; background: #0d1117; border: 1px solid var(--border); border-radius: 6px; padding: 5px;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+            <thead>
+              <tr style="border-bottom: 1px solid var(--border); color: #8b949e; background: #161b22;">
+                <th style="padding: 8px 10px; width: 90px;">Thời gian</th>
+                <th style="padding: 8px 10px; width: 160px;">Khán giả</th>
+                <th style="padding: 8px 10px;">Nội dung bình luận</th>
+                <th style="padding: 8px 10px; width: 180px;">Nhận diện tỉnh</th>
+              </tr>
+            </thead>
+            <tbody id="adminChatLogBody">
+              <tr>
+                <td colspan="4" style="text-align: center; color: #8b949e; padding: 20px;">Đang đợi bình luận từ TikTok Live hoặc Mock...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -243,10 +271,73 @@
           </div>
         `}).join('');
       }
+      // Cập nhật danh sách chat ban đầu nếu có
+      if (state.recentChats && Array.isArray(state.recentChats) && adminChatTotal === 0 && state.recentChats.length > 0) {
+        state.recentChats.slice().reverse().forEach(c => addAdminChatRow(c));
+      }
     });
 
     socket.on('tick', data => {
       document.getElementById('statTimer').textContent = `${data.timeLeft}s`;
+    });
+
+    // Xử lý hiển thị bảng Chat Realtime trên Admin
+    let adminChatTotal = 0;
+    const adminChatLogBody = document.getElementById('adminChatLogBody');
+    const adminChatCounter = document.getElementById('adminChatCounter');
+
+    function escapeHtmlAdmin(str) {
+      if (!str) return '';
+      return String(str).replace(/[&<>'"]/g, 
+        tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+      );
+    }
+
+    function addAdminChatRow(chat) {
+      if (!adminChatLogBody) return;
+      adminChatTotal++;
+      if (adminChatCounter) adminChatCounter.textContent = `${adminChatTotal} bình luận`;
+
+      if (adminChatTotal === 1) {
+        adminChatLogBody.innerHTML = '';
+      }
+
+      const timeStr = new Date(chat.timestamp || Date.now()).toLocaleTimeString();
+      const isMatched = !!chat.matchedProvince;
+      const matchBadge = isMatched
+        ? `<span style="background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700; color: #ffd700; padding: 2px 8px; border-radius: 10px; font-weight: bold; font-size: 11px;">✅ Khớp: ${escapeHtmlAdmin(chat.matchedProvince)}</span>`
+        : `<span style="background: rgba(255, 255, 255, 0.05); color: #8b949e; padding: 2px 8px; border-radius: 10px; font-size: 11px;">💬 Chat thường</span>`;
+
+      const tr = document.createElement('tr');
+      tr.style.borderBottom = '1px solid rgba(255,255,255,0.05)';
+      if (isMatched) tr.style.background = 'rgba(255, 215, 0, 0.05)';
+
+      tr.innerHTML = `
+        <td style="padding: 8px 10px; color: #8b949e; font-size: 12px;">${timeStr}</td>
+        <td style="padding: 8px 10px; font-weight: bold; color: ${isMatched ? '#ffd700' : '#58a6ff'};">${escapeHtmlAdmin(chat.nickname || 'Khán giả')}</td>
+        <td style="padding: 8px 10px; color: #fff;">${escapeHtmlAdmin(chat.comment || '')}</td>
+        <td style="padding: 8px 10px;">${matchBadge}</td>
+      `;
+
+      adminChatLogBody.insertBefore(tr, adminChatLogBody.firstChild);
+
+      while (adminChatLogBody.children.length > 50) {
+        adminChatLogBody.removeChild(adminChatLogBody.lastChild);
+      }
+    }
+
+    function clearAdminChatLog() {
+      adminChatTotal = 0;
+      if (adminChatCounter) adminChatCounter.textContent = '0 bình luận';
+      adminChatLogBody.innerHTML = `
+        <tr>
+          <td colspan="4" style="text-align: center; color: #8b949e; padding: 20px;">Đã xóa bảng. Đang đợi bình luận mới...</td>
+        </tr>
+      `;
+    }
+
+    socket.on('chat', data => {
+      addAdminChatRow(data);
     });
 
     function getMockUid(name) {

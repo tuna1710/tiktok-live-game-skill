@@ -247,7 +247,8 @@ let gameState = {
   },
   provinceStats: {},
   leaderboard: [],
-  recentNotifications: []
+  recentNotifications: [],
+  recentChats: []
 };
 
 // Hàm lấy Top tỉnh thành được yêu quý / donate nhiều nhất
@@ -678,6 +679,33 @@ if (TIKTOK_USERNAME) {
       .then(state => console.log(`[TikTok Live] Connected successfully to roomId: ${state.roomId}`))
       .catch(err => console.log(`[TikTok Live] Connect notice: ${err.message}`));
 
+function processChatMessage(user, comment, isMock = false) {
+  const matched = handleProvinceRequest(user, comment, false, 0);
+  const prefix = isMock ? '[Mock Chat]' : '[TikTok Chat]';
+  if (matched) {
+    console.log(`${prefix} 💬 ${user.nickname}: "${comment}" -> ✅ Khớp tỉnh: ${matched.displayName}`);
+  } else {
+    console.log(`${prefix} 💬 ${user.nickname}: "${comment}" (Không chứa tên tỉnh)`);
+  }
+
+  const chatEntry = {
+    id: 'c_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4),
+    uniqueId: user.uniqueId,
+    nickname: user.nickname,
+    profilePictureUrl: user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+    comment: comment,
+    matchedProvince: matched ? matched.displayName : null,
+    timestamp: Date.now()
+  };
+
+  if (!gameState.recentChats) gameState.recentChats = [];
+  gameState.recentChats.unshift(chatEntry);
+  if (gameState.recentChats.length > 30) gameState.recentChats.pop();
+
+  io.emit('chat', chatEntry);
+  return chatEntry;
+}
+
     tiktokLive.on('chat', data => {
       const user = {
         uniqueId: data.user?.displayId || data.user?.id || data.uniqueId,
@@ -685,8 +713,7 @@ if (TIKTOK_USERNAME) {
         profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || data.profilePictureUrl
       };
       const comment = data.content || data.comment || '';
-      handleProvinceRequest(user, comment, false, 0);
-      io.emit('chat', { ...user, comment });
+      processChatMessage(user, comment, false);
     });
 
     tiktokLive.on('gift', data => {
@@ -743,8 +770,7 @@ io.on('connection', socket => {
       nickname: data.nickname || 'Khán giả Demo',
       profilePictureUrl: data.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
     };
-    handleProvinceRequest(user, data.comment, data.isVip || false, data.coins || 0);
-    io.emit('chat', { ...user, comment: data.comment });
+    processChatMessage(user, data.comment, true);
   });
 
   // Mock Gift từ admin.html
