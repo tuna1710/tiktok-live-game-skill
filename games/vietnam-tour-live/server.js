@@ -11,6 +11,10 @@ const { TikTokLiveConnection } = require('tiktok-live-connector');
 
 const PORT = Number(process.env.PORT) || 3000;
 const TIKTOK_USERNAME = process.env.TIKTOK_USERNAME || '';
+const TOTAL_VIEWERS_START = Number(process.env.TOTAL_VIEWERS_START) || 341;
+const FOLLOWERS_START = Number(process.env.FOLLOWERS_START) || 1751;
+const FOLLOWERS_TARGET = Number(process.env.FOLLOWERS_TARGET) || 10000;
+
 
 const app = express();
 app.use(cors());
@@ -235,19 +239,39 @@ let gameState = {
     }
   ],
   stats: {
-    totalViewers: 341,
-    followersGoal: 1751,
-    followersTarget: 10000,
+    totalViewers: TOTAL_VIEWERS_START,
+    followersGoal: FOLLOWERS_START,
+    followersTarget: FOLLOWERS_TARGET,
     totalLikes: 2286
   },
   provinceStats: {
-    'lao-cai': 5,
-    'da-nang': 8,
-    'tay-ninh': 3,
-    'cao-bang': 4
+    'da-nang': 28,
+    'ho-chi-minh': 24,
+    'ha-noi': 19,
+    'lao-cai': 12,
+    'tay-ninh': 9
   },
+  leaderboard: [],
   recentNotifications: []
 };
+
+// Hàm lấy Top tỉnh thành được yêu quý / donate nhiều nhất
+function getTopProvinces(limit = 5) {
+  return Object.entries(gameState.provinceStats)
+    .map(([id, score]) => {
+      const p = PROVINCES.find(prov => prov.id === id);
+      return {
+        id,
+        name: p ? p.name : id,
+        score
+      };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit);
+}
+
+// Khởi tạo leaderboard ban đầu
+gameState.leaderboard = getTopProvinces(5);
 
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
@@ -299,9 +323,12 @@ function nextProvince() {
     io.emit('playTts', { text: deadAirTts });
   }
 
+  gameState.leaderboard = getTopProvinces(5);
+  io.emit('leaderboardUpdated', gameState.leaderboard);
   io.emit('provinceChanged', gameState.currentVisit);
   io.emit('gameState', gameState);
 }
+
 
 let lastCtaTime = Date.now();
 
@@ -407,6 +434,10 @@ function handleGiftEvent(giftData) {
 
   io.emit('giftNotification', notif);
 
+  // Cập nhật điểm danh vọng & donate cho tỉnh hiện tại với mọi loại quà
+  gameState.currentVisit.visitCount += totalCoins;
+  gameState.provinceStats[gameState.currentVisit.provinceId] = gameState.currentVisit.visitCount;
+
   // 1. Quà mốc VIP "Đọc trước" (>= 200 xu): Kích hoạt hiệu ứng đặc biệt + VIP queue jump
   if (totalCoins >= 200) {
     io.emit('vipSpecialEffect', { nickname, giftName, coins: totalCoins });
@@ -420,10 +451,8 @@ function handleGiftEvent(giftData) {
       `Cảm ơn ${nickname} đã tặng ${giftName} để đọc nhanh!`;
     io.emit('playTts', { text: tts });
   }
-  // 3. Quà nhỏ (Hoa hồng, 1 - 49 xu): Cộng điểm lượt thăm cho tỉnh hiện tại
+  // 3. Quà nhỏ (Hoa hồng, 1 - 49 xu)
   else {
-    gameState.currentVisit.visitCount += totalCoins;
-    gameState.provinceStats[gameState.currentVisit.provinceId] = gameState.currentVisit.visitCount;
     if (Math.random() < 0.6) {
       const tts = getRandomLine('smallGift', { nickname, giftName: giftName || 'hoa hồng' });
       if (tts) io.emit('playTts', { text: tts });
@@ -431,6 +460,8 @@ function handleGiftEvent(giftData) {
   }
 
   gameState.stats.followersGoal += Math.floor(totalCoins / 2) + 1;
+  gameState.leaderboard = getTopProvinces(5);
+  io.emit('leaderboardUpdated', gameState.leaderboard);
   io.emit('gameState', gameState);
 }
 
@@ -530,6 +561,7 @@ if (TIKTOK_USERNAME) {
 io.on('connection', socket => {
   // Gửi trạng thái ban đầu ngay khi client kết nối
   socket.emit('gameState', gameState);
+  socket.emit('leaderboardUpdated', getTopProvinces(5));
 
   // Mock Comment từ admin.html
   socket.on('mock:chat', data => {
@@ -568,6 +600,20 @@ io.on('connection', socket => {
     });
   });
 
+  // Buff điểm trực tiếp cho tỉnh (dùng để test realtime Biểu đồ Đua Top)
+  socket.on('mock:buff_province', data => {
+    const provinceId = (data && data.provinceId) || gameState.currentVisit.provinceId;
+    const points = Number(data && data.points) || 10;
+    gameState.provinceStats[provinceId] = (gameState.provinceStats[provinceId] || 0) + points;
+    if (gameState.currentVisit.provinceId === provinceId) {
+      gameState.currentVisit.visitCount = gameState.provinceStats[provinceId];
+      io.emit('provinceChanged', gameState.currentVisit);
+    }
+    gameState.leaderboard = getTopProvinces(5);
+    io.emit('leaderboardUpdated', gameState.leaderboard);
+    io.emit('gameState', gameState);
+  });
+
   // Chuyển tỉnh ngay lập tức
   socket.on('mock:next', () => {
     nextProvince();
@@ -597,11 +643,14 @@ io.on('connection', socket => {
         timeLeft: PROVINCE_VISIT_DURATION,
         visitCount: count
       };
+      gameState.leaderboard = getTopProvinces(5);
+      io.emit('leaderboardUpdated', gameState.leaderboard);
       io.emit('provinceChanged', gameState.currentVisit);
       io.emit('gameState', gameState);
       io.emit('playTts', { text: `Đang ghé thăm tỉnh ${p.name}` });
     }
   });
+
 });
 
 server.listen(PORT, () => {

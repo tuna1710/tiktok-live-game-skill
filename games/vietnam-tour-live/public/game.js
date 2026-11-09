@@ -220,6 +220,11 @@ socket.on('gameState', state => {
 
   // Cập nhật hàng đợi
   renderQueue(state.queue);
+
+  // Cập nhật bảng xếp hạng Đua Top tỉnh thành
+  if (state.leaderboard) {
+    renderLeaderboard(state.leaderboard);
+  }
 });
 
 // Sự kiện đếm giây
@@ -239,6 +244,40 @@ socket.on('provinceChanged', visitData => {
 socket.on('queueUpdated', queue => {
   renderQueue(queue);
 });
+
+// Cập nhật bảng xếp hạng Đua Top tỉnh thành
+const leaderboardListEl = document.getElementById('leaderboardList');
+function renderLeaderboard(topProvinces) {
+  if (!leaderboardListEl || !Array.isArray(topProvinces) || topProvinces.length === 0) return;
+  
+  const maxScore = Math.max(...topProvinces.map(p => p.score), 1);
+  
+  leaderboardListEl.innerHTML = topProvinces.map((prov, index) => {
+    const rank = index + 1;
+    const rankClass = rank === 1 ? 'lb-rank-1' : rank === 2 ? 'lb-rank-2' : rank === 3 ? 'lb-rank-3' : 'lb-rank-other';
+    const fillClass = rank === 1 ? 'lb-fill-1' : rank === 2 ? 'lb-fill-2' : rank === 3 ? 'lb-fill-3' : 'lb-fill-other';
+    const percent = Math.min(100, Math.max(12, Math.round((prov.score / maxScore) * 100)));
+    const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+
+    return `
+      <div class="lb-item" data-id="${prov.id}">
+        <div class="lb-item-info">
+          <div class="lb-item-left">
+            <span class="lb-rank-badge ${rankClass}">${medal}</span>
+            <span class="lb-item-name">${prov.name}</span>
+          </div>
+          <div class="lb-item-score">${prov.score} ❤️</div>
+        </div>
+        <div class="lb-bar-track">
+          <div class="lb-bar-fill ${fillClass}" style="width: ${percent}%;"></div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+socket.on('leaderboardUpdated', renderLeaderboard);
+
 
 // Render danh sách thẻ hàng đợi
 const CARD_THEMES = ['card-blue', 'card-teal', 'card-gold'];

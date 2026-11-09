@@ -601,3 +601,173 @@ body {
   0% { opacity: 1; transform: translateX(0); }
   100% { opacity: 0; transform: translateY(-20px); }
 }
+
+/* ============================================================
+   WIDGET BIỂU ĐỒ ĐUA TOP TỈNH THÀNH (TOP LOVED & DONATE)
+============================================================ */
+.leaderboard-widget {
+  position: absolute;
+  top: 30px;
+  right: 28px;
+  width: 310px;
+  background: rgba(11, 27, 44, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(255, 215, 0, 0.35);
+  border-radius: 20px;
+  padding: 16px 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 215, 0, 0.15);
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.lb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 8px;
+}
+
+.lb-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lb-icon {
+  font-size: 26px;
+  filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+}
+
+.lb-title {
+  font-size: 15px;
+  font-weight: 900;
+  color: #ffd700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+.lb-subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #9cb3c9;
+  letter-spacing: 0.3px;
+}
+
+.lb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lb-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: all 0.4s ease;
+}
+
+.lb-item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.lb-item-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lb-rank-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.lb-rank-1 {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+  color: #000;
+}
+
+.lb-rank-2 {
+  background: linear-gradient(135deg, #e0e0e0, #8e9eab);
+  box-shadow: 0 0 8px rgba(224, 224, 224, 0.5);
+  color: #000;
+}
+
+.lb-rank-3 {
+  background: linear-gradient(135deg, #cd7f32, #8b4513);
+  box-shadow: 0 0 8px rgba(205, 127, 50, 0.5);
+}
+
+.lb-rank-other {
+  background: rgba(255, 255, 255, 0.15);
+  color: #a0aec0;
+}
+
+.lb-item-name {
+  color: #f7fafc;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lb-item-score {
+  font-size: 13px;
+  font-weight: 800;
+  color: #ff3b5c;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.lb-bar-track {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.lb-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.lb-fill-1 {
+  background: linear-gradient(90deg, #ffd700, #ff5722);
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+.lb-fill-2 {
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  box-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+}
+
+.lb-fill-3 {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  box-shadow: 0 0 8px rgba(255, 126, 95, 0.6);
+}
+
+.lb-fill-other {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+

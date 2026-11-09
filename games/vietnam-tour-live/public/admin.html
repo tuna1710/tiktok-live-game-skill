@@ -142,6 +142,15 @@
             <button class="province-btn" onclick="sendFollow()">➕ Người mới Follow</button>
           </div>
         </div>
+
+        <div style="margin-top: 10px;">
+          <label>🏆 Giả lập Buff Điểm Đua Top Tỉnh Thành:</label>
+          <div class="btn-group">
+            <button class="province-btn" onclick="buffProvince(null, 5)">+5 điểm (Tỉnh hiện tại)</button>
+            <button class="warning" onclick="buffProvince(null, 20)">+20 điểm (Tỉnh hiện tại)</button>
+            <button class="danger" onclick="buffProvince(null, 50)">+50 điểm (Tỉnh hiện tại)</button>
+          </div>
+        </div>
       </div>
 
       <!-- 3. Quản trị điều hướng Live -->
@@ -250,6 +259,10 @@
 
     function sendFollow() {
       socket.emit('mock:follow', { nickname: 'Thành viên mới ' + Math.floor(Math.random() * 100) });
+    }
+
+    function buffProvince(provinceId, points) {
+      socket.emit('mock:buff_province', { provinceId, points });
     }
 
     function nextProvince() {

@@ -104,6 +104,13 @@
 - **Tích hợp Kịch bản Lời thoại MC dẫn chương trình phong phú & hài hước (`data/mc-lines.json`):**
   - Bổ sung hơn 100 câu thoại trải dài trên 9 nhóm tình huống: đón người xem về quê hương, dạo chơi chống khoảng lặng (Anti-Dead Air), cảm ơn quà VIP 200 xu, quà 50 xu, hoa hồng 1 xu, kêu gọi tương tác (CTA), đua top quê hương đối kháng, chào mừng Follow mới và cột mốc Thả tim.
   - Tích hợp thuật toán chống lặp liên tiếp (`anti-repetition random shuffle`) giúp giọng đọc MC luôn tươi mới, lôi cuốn và tự nhiên.
+- **Mở rộng Tham số Tùy chỉnh Thống kê Live:**
+  - Hỗ trợ các biến môi trường: `FOLLOWERS_TARGET` (Mục tiêu follower), `FOLLOWERS_START` (Follower ban đầu), `TOTAL_VIEWERS_START` (Lượt xem ban đầu).
+  - Tích hợp các ô Form input trực tiếp trên Colab Notebooks (`Ghe_Tham_63_Tinh_Thanh_TikTok_Live.ipynb` và `run_in_colab.ipynb`) giúp người dùng dễ dàng điền số liệu mong muốn trước mỗi phiên live.
+- **Widget Biểu Đồ Đua Top Quê Hương (Top Loved & Donate):**
+  - Hiển thị trực quan Top 5 tỉnh thành nhận nhiều lượt ghé thăm và quà tặng (donate) nhất với thanh năng lượng phát sáng đa sắc màu.
+  - Cập nhật realtime khi có người ghé thăm hoặc donate quà, có nút buff điểm trên Mock Simulator (`admin.html`).
 - Đã cấu hình symlink từ `/workspace/vietnam-tour-live` tới `games/vietnam-tour-live` để quản lý tiện lợi.
+
 
 

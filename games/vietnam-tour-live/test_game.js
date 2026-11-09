@@ -91,5 +91,16 @@ const totalLines = Object.values(mcData).reduce((sum, arr) => sum + arr.length, 
 assert(totalLines >= 80, `Cần ít nhất 80 câu thoại MC phong phú, hiện có: ${totalLines}`);
 console.log(`✅ 6. Kiểm tra Kịch bản Lời thoại MC: ĐẠT (${totalLines} câu thoại thuộc ${requiredCategories.length} nhóm chủ đề)`);
 
+// 7. Kiểm tra Biểu Đồ Đua Top Quê Hương & Tham số tùy chỉnh Thống kê
+const htmlContent = fs.readFileSync(path.join(__dirname, 'public', 'index.html'), 'utf-8');
+assert(htmlContent.includes('id="leaderboardWidget"'), 'Thiếu id leaderboardWidget trong index.html');
+const cssContent = fs.readFileSync(path.join(__dirname, 'public', 'style.css'), 'utf-8');
+assert(cssContent.includes('.leaderboard-widget'), 'Thiếu style .leaderboard-widget trong style.css');
+const serverContent = fs.readFileSync(path.join(__dirname, 'server.js'), 'utf-8');
+assert(serverContent.includes('TOTAL_VIEWERS_START') && serverContent.includes('FOLLOWERS_TARGET'), 'Thiếu tham số tùy chỉnh trong server.js');
+assert(serverContent.includes('getTopProvinces'), 'Thiếu hàm getTopProvinces trong server.js');
+console.log('✅ 7. Kiểm tra Biểu Đồ Đua Top Quê Hương & Tham số tùy biến Thống kê: ĐẠT');
+
 console.log('\n🎉 TOÀN BỘ BÀI TEST ĐÃ VƯỢT QUA XUẤT SẮC!');
+
 
