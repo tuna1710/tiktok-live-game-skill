@@ -214,11 +214,27 @@ let gameState = {
     provinceId: 'lao-cai',
     svgId: 'laocai',
     provinceName: 'Lào Cai',
+    ttsName: 'Lào Cai',
     user: {
       uniqueId: 'toi_ech',
       nickname: 'TỚI Ếch',
       profilePictureUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
     },
+    leader: {
+      uniqueId: 'toi_ech',
+      nickname: 'TỚI Ếch',
+      profilePictureUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+      coins: 0
+    },
+    visitors: [
+      {
+        uniqueId: 'toi_ech',
+        nickname: 'TỚI Ếch',
+        profilePictureUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+        coins: 0,
+        joinedAt: Date.now()
+      }
+    ],
     timeLeft: PROVINCE_VISIT_DURATION,
     visitCount: 0
   },
@@ -228,13 +244,30 @@ let gameState = {
       provinceId: 'da-nang',
       svgId: 'danang',
       provinceName: 'Đà Nẵng',
+      ttsName: 'Đà Nẵng',
       user: {
         uniqueId: 'danang_lover',
         nickname: 'Biển Mỹ Khê',
         profilePictureUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
       },
-      isVip: false,
-      priority: 0,
+      leader: {
+        uniqueId: 'danang_lover',
+        nickname: 'Biển Mỹ Khê',
+        profilePictureUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+        coins: 0
+      },
+      visitors: [
+        {
+          uniqueId: 'danang_lover',
+          nickname: 'Biển Mỹ Khê',
+          profilePictureUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+          coins: 0,
+          joinedAt: Date.now()
+        }
+      ],
+      coins: 0,
+      priorityScore: 0,
+      perkType: 'normal',
       addedAt: Date.now()
     },
     {
@@ -242,13 +275,30 @@ let gameState = {
       provinceId: 'tay-ninh',
       svgId: 'tayninh',
       provinceName: 'Tây Ninh',
+      ttsName: 'Tây Ninh',
       user: {
         uniqueId: 'alo_vu',
         nickname: 'Alo vũ à vũ...',
         profilePictureUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face'
       },
-      isVip: false,
-      priority: 0,
+      leader: {
+        uniqueId: 'alo_vu',
+        nickname: 'Alo vũ à vũ...',
+        profilePictureUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+        coins: 0
+      },
+      visitors: [
+        {
+          uniqueId: 'alo_vu',
+          nickname: 'Alo vũ à vũ...',
+          profilePictureUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+          coins: 0,
+          joinedAt: Date.now()
+        }
+      ],
+      coins: 0,
+      priorityScore: 0,
+      perkType: 'normal',
       addedAt: Date.now()
     },
     {
@@ -256,13 +306,30 @@ let gameState = {
       provinceId: 'cao-bang',
       svgId: 'caobang',
       provinceName: 'Cao Bằng',
+      ttsName: 'Cao Bằng',
       user: {
         uniqueId: 'thac_ban_gioc',
         nickname: 'Cao Bằng Quê Tôi',
         profilePictureUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face'
       },
-      isVip: false,
-      priority: 0,
+      leader: {
+        uniqueId: 'thac_ban_gioc',
+        nickname: 'Cao Bằng Quê Tôi',
+        profilePictureUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
+        coins: 0
+      },
+      visitors: [
+        {
+          uniqueId: 'thac_ban_gioc',
+          nickname: 'Cao Bằng Quê Tôi',
+          profilePictureUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
+          coins: 0,
+          joinedAt: Date.now()
+        }
+      ],
+      coins: 0,
+      priorityScore: 0,
+      perkType: 'normal',
       addedAt: Date.now()
     }
   ],
@@ -323,30 +390,46 @@ function nextProvince() {
     const currentCount = (gameState.provinceStats[nextItem.provinceId] || 0) + 1;
     gameState.provinceStats[nextItem.provinceId] = currentCount;
 
-    // Reset vé ưu tiên của user sau khi đã được xướng tên và ghé thăm
-    if (nextItem.user && nextItem.user.uniqueId) {
-      const uState = getUserInteraction(nextItem.user.uniqueId);
-      uState.pendingCoins = 0;
-      uState.lastProvinceId = null;
-      uState.lastDisplayName = null;
-    }
+    const visitors = nextItem.visitors && nextItem.visitors.length > 0 ? nextItem.visitors : [nextItem.user];
+    const leader = nextItem.leader || nextItem.user;
+
+    // Reset vé ưu tiên của các thành viên trong đoàn sau khi đã được ghé thăm
+    visitors.forEach(v => {
+      if (v && v.uniqueId) {
+        const uState = getUserInteraction(v.uniqueId);
+        uState.pendingCoins = 0;
+        uState.lastProvinceId = null;
+        uState.lastDisplayName = null;
+      }
+    });
 
     gameState.currentVisit = {
       provinceId: nextItem.provinceId,
       svgIds: nextItem.svgIds || [nextItem.provinceId.replace(/-/g, '')],
       provinceName: nextItem.provinceName,
-      user: nextItem.user,
-      timeLeft: PROVINCE_VISIT_DURATION,
+      ttsName: nextItem.ttsName || nextItem.provinceName,
+      user: leader,
+      leader: leader,
+      visitors: visitors,
+      timeLeft: visitors.length >= 3 ? 20 : PROVINCE_VISIT_DURATION,
       visitCount: currentCount
     };
 
     io.emit('queueUpdated', gameState.queue);
 
-    // Thông báo TTS chuyển tỉnh đa dạng & hài hước
-    const ttsText = getRandomLine('visitUser', {
-      nickname: nextItem.user.nickname,
-      province: nextItem.ttsName || nextItem.provinceName
-    }) || `Đang cùng bạn ${nextItem.user.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
+    // Thông báo TTS chuyển tỉnh đa dạng theo quy mô đoàn
+    let ttsText;
+    if (visitors.length >= 5) {
+      ttsText = `Đại gia đình đồng hương ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông đảo! Chào mừng trưởng đoàn ${leader.nickname} cùng hơn ${visitors.length} anh em đã tề tựu!`;
+    } else if (visitors.length >= 2) {
+      const otherNames = visitors.slice(1, 3).map(v => v.nickname).join(', ');
+      ttsText = `Đoàn ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông vui! Chào mừng trưởng đoàn ${leader.nickname} cùng các bạn ${otherNames} đã về với quê hương!`;
+    } else {
+      ttsText = getRandomLine('visitUser', {
+        nickname: leader.nickname,
+        province: nextItem.ttsName || nextItem.provinceName
+      }) || `Đang cùng bạn ${leader.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
+    }
     io.emit('playTts', { text: ttsText });
   } else {
     // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên trong 34 tỉnh để không bị khoảng lặng (Anti-Dead Air)
@@ -354,15 +437,22 @@ function nextProvince() {
     const currentCount = (gameState.provinceStats[randomProv.id] || 0) + 1;
     gameState.provinceStats[randomProv.id] = currentCount;
 
+    const defaultVisitor = {
+      uniqueId: 'tiktok_live',
+      nickname: 'Du khách TikTok',
+      profilePictureUrl: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=face',
+      coins: 0,
+      joinedAt: Date.now()
+    };
+
     gameState.currentVisit = {
       provinceId: randomProv.id,
       svgIds: randomProv.svgIds || [randomProv.id.replace(/-/g, '')],
       provinceName: randomProv.name,
-      user: {
-        uniqueId: 'tiktok_live',
-        nickname: 'Du khách TikTok',
-        profilePictureUrl: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=face'
-      },
+      ttsName: randomProv.name,
+      user: defaultVisitor,
+      leader: defaultVisitor,
+      visitors: [defaultVisitor],
       timeLeft: PROVINCE_VISIT_DURATION,
       visitCount: currentCount
     };
@@ -471,28 +561,95 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
   const totalItemCoins = (Number(coins) || 0) + (uState.pendingCoins || 0);
   uState.pendingCoins = 0; // Đã tiêu thụ xu chờ
 
-  const existingItem = gameState.queue.find(item => item.user.uniqueId === uid);
+  const userObj = {
+    uniqueId: uid,
+    nickname: user.nickname || 'Khán giả',
+    profilePictureUrl: user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+    coins: totalItemCoins,
+    joinedAt: Date.now()
+  };
 
-  if (existingItem) {
-    // Nếu user ĐÃ có trong hàng đợi: Cập nhật tỉnh và cộng dồn xu nếu có
-    if (totalItemCoins > 0) {
-      existingItem.coins = (existingItem.coins || 0) + totalItemCoins;
+  // TRƯỜNG HỢP 1: Tỉnh này ĐANG ĐƯỢC CHIẾU TRÊN MÀN HÌNH (Nhập đoàn tức thì - Instant Drop-in)
+  if (gameState.currentVisit && gameState.currentVisit.provinceId === targetProvince.id) {
+    if (!gameState.currentVisit.visitors) {
+      gameState.currentVisit.visitors = [gameState.currentVisit.user || userObj];
     }
-    existingItem.provinceId = targetProvince.id;
-    existingItem.svgIds = targetProvince.svgIds || [targetProvince.id.replace(/-/g, '')];
-    existingItem.provinceName = matched.displayName;
-    existingItem.ttsName = matched.ttsName;
-    existingItem.priorityScore = calculatePriority(existingItem.coins, uState);
+    const existingVisitor = gameState.currentVisit.visitors.find(v => v.uniqueId === uid);
+    if (existingVisitor) {
+      existingVisitor.coins = (existingVisitor.coins || 0) + totalItemCoins;
+    } else {
+      gameState.currentVisit.visitors.push(userObj);
+    }
 
-    if (existingItem.coins >= 200) existingItem.perkType = 'vip';
-    else if (existingItem.coins >= 50) existingItem.perkType = 'fast';
-    else if (existingItem.coins > 0) existingItem.perkType = 'gift';
-    else if (uState.isFollower) existingItem.perkType = 'follower';
-    else if (uState.shared) existingItem.perkType = 'share';
-    else existingItem.perkType = 'normal';
+    // Xác định Trưởng đoàn theo số xu cao nhất
+    gameState.currentVisit.visitors.sort((a, b) => (b.coins || 0) - (a.coins || 0) || a.joinedAt - b.joinedAt);
+    const newLeader = gameState.currentVisit.visitors[0];
+    const becameLeader = (newLeader.uniqueId === uid && gameState.currentVisit.leader?.uniqueId !== uid);
+    gameState.currentVisit.leader = newLeader;
+    gameState.currentVisit.user = newLeader;
+
+    // Cộng điểm danh vọng cho tỉnh
+    gameState.currentVisit.visitCount += Math.max(1, totalItemCoins);
+    gameState.provinceStats[targetProvince.id] = gameState.currentVisit.visitCount;
+
+    // Phát sự kiện Nhập đoàn tức thì (Drop-in) cho Client
+    io.emit('visitorDropIn', {
+      provinceId: targetProvince.id,
+      provinceName: matched.displayName,
+      user: userObj,
+      leader: newLeader,
+      isLeader: becameLeader,
+      totalVisitors: gameState.currentVisit.visitors.length,
+      coins: totalItemCoins
+    });
+
+    gameState.leaderboard = getTopProvinces(5);
+    io.emit('leaderboardUpdated', gameState.leaderboard);
+    io.emit('gameState', gameState);
+
+    return matched;
+  }
+
+  // TRƯỜNG HỢP 2: Tỉnh này ĐÃ CÓ trong hàng đợi (Gộp vào đoàn đồng hương)
+  const existingProvinceItem = gameState.queue.find(item => item.provinceId === targetProvince.id);
+
+  if (existingProvinceItem) {
+    if (!existingProvinceItem.visitors) {
+      existingProvinceItem.visitors = [existingProvinceItem.user || userObj];
+    }
+
+    const existingVisitor = existingProvinceItem.visitors.find(v => v.uniqueId === uid);
+    if (existingVisitor) {
+      existingVisitor.coins = (existingVisitor.coins || 0) + totalItemCoins;
+    } else {
+      existingProvinceItem.visitors.push(userObj);
+    }
+
+    // Sắp xếp tìm Trưởng đoàn: Ai nhiều xu nhất đứng đầu
+    existingProvinceItem.visitors.sort((a, b) => (b.coins || 0) - (a.coins || 0) || a.joinedAt - b.joinedAt);
+    existingProvinceItem.leader = existingProvinceItem.visitors[0];
+    existingProvinceItem.user = existingProvinceItem.leader; // Tương thích ngược
+
+    // Tổng số xu của đoàn
+    existingProvinceItem.coins = existingProvinceItem.visitors.reduce((sum, v) => sum + (v.coins || 0), 0);
+
+    // Tính điểm ưu tiên: Điểm xu + Điểm tương tác + Bonus mỗi thành viên +20 điểm
+    const basePriority = calculatePriority(existingProvinceItem.coins, uState);
+    const cohortBonus = (existingProvinceItem.visitors.length - 1) * 20;
+    existingProvinceItem.priorityScore = basePriority + cohortBonus;
+
+    if (existingProvinceItem.coins >= 200) existingProvinceItem.perkType = 'vip';
+    else if (existingProvinceItem.coins >= 50) existingProvinceItem.perkType = 'fast';
+    else if (existingProvinceItem.coins > 0) existingProvinceItem.perkType = 'gift';
+    else if (existingProvinceItem.visitors.length >= 3) existingProvinceItem.perkType = 'cohort';
+    else if (uState.isFollower) existingProvinceItem.perkType = 'follower';
+    else if (uState.shared) existingProvinceItem.perkType = 'share';
+    else existingProvinceItem.perkType = 'normal';
+
+    sortQueue();
   } else {
-    // Tạo vé mới
-    const priorityScore = calculatePriority(totalItemCoins, uState);
+    // TRƯỜNG HỢP 3: Tỉnh này CHƯA CÓ trong hàng đợi -> Khởi tạo đoàn mới
+    const basePriority = calculatePriority(totalItemCoins, uState);
     let perkType = 'normal';
     if (totalItemCoins >= 200) perkType = 'vip';
     else if (totalItemCoins >= 50) perkType = 'fast';
@@ -506,21 +663,17 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
       svgIds: targetProvince.svgIds || [targetProvince.id.replace(/-/g, '')],
       provinceName: matched.displayName,
       ttsName: matched.ttsName,
-      user: {
-        uniqueId: uid,
-        nickname: user.nickname || 'Khán giả',
-        profilePictureUrl: user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
-      },
+      leader: userObj,
+      user: userObj, // Tương thích ngược
+      visitors: [userObj],
       coins: totalItemCoins,
-      priorityScore: priorityScore,
+      priorityScore: basePriority,
       perkType: perkType,
       addedAt: Date.now()
     };
     gameState.queue.push(queueItem);
+    sortQueue();
   }
-
-  // Tự động sắp xếp lại hàng đợi theo thứ tự ưu tiên
-  sortQueue();
 
   gameState.stats.totalViewers++;
   io.emit('queueUpdated', gameState.queue);
@@ -551,30 +704,72 @@ function handleGiftEvent(giftData) {
 
   io.emit('giftNotification', notif);
 
-  // 1. Cập nhật thứ tự ưu tiên trong hàng đợi
-  const existingQueueItem = gameState.queue.find(item => item.user.uniqueId === uid);
-  if (existingQueueItem) {
-    // User ĐANG trong hàng đợi: Cộng dồn số xu và tính lại độ ưu tiên
-    existingQueueItem.coins = (existingQueueItem.coins || 0) + totalCoins;
-    existingQueueItem.priorityScore = calculatePriority(existingQueueItem.coins, uState);
-    if (existingQueueItem.coins >= 200) existingQueueItem.perkType = 'vip';
-    else if (existingQueueItem.coins >= 50) existingQueueItem.perkType = 'fast';
-    else existingQueueItem.perkType = 'gift';
+  // 1. Cập nhật cho tỉnh đang ghé thăm trên màn hình nếu user thuộc tỉnh này
+  if (gameState.currentVisit) {
+    if (!gameState.currentVisit.visitors) gameState.currentVisit.visitors = [];
+    let curVis = gameState.currentVisit.visitors.find(v => v.uniqueId === uid);
+    if (curVis) {
+      curVis.coins = (curVis.coins || 0) + totalCoins;
+      gameState.currentVisit.visitors.sort((a, b) => (b.coins || 0) - (a.coins || 0) || a.joinedAt - b.joinedAt);
+      gameState.currentVisit.leader = gameState.currentVisit.visitors[0];
+      gameState.currentVisit.user = gameState.currentVisit.leader;
+    }
+  }
+
+  // 2. Cập nhật trong hàng đợi (Queue)
+  const queueItemWithUser = gameState.queue.find(item => 
+    (item.visitors && item.visitors.some(v => v.uniqueId === uid)) ||
+    (uState.lastProvinceId && item.provinceId === uState.lastProvinceId)
+  );
+
+  if (queueItemWithUser) {
+    if (!queueItemWithUser.visitors) queueItemWithUser.visitors = [];
+    let vObj = queueItemWithUser.visitors.find(v => v.uniqueId === uid);
+    if (vObj) {
+      vObj.coins = (vObj.coins || 0) + totalCoins;
+    } else {
+      vObj = {
+        uniqueId: uid,
+        nickname: nickname || 'Khán giả',
+        profilePictureUrl: profilePictureUrl || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+        coins: totalCoins,
+        joinedAt: Date.now()
+      };
+      queueItemWithUser.visitors.push(vObj);
+    }
+
+    queueItemWithUser.visitors.sort((a, b) => (b.coins || 0) - (a.coins || 0) || a.joinedAt - b.joinedAt);
+    queueItemWithUser.leader = queueItemWithUser.visitors[0];
+    queueItemWithUser.user = queueItemWithUser.leader;
+    queueItemWithUser.coins = queueItemWithUser.visitors.reduce((s, v) => s + (v.coins || 0), 0);
+
+    const basePriority = calculatePriority(queueItemWithUser.coins, uState);
+    const cohortBonus = (queueItemWithUser.visitors.length - 1) * 20;
+    queueItemWithUser.priorityScore = basePriority + cohortBonus;
+
+    if (queueItemWithUser.coins >= 200) queueItemWithUser.perkType = 'vip';
+    else if (queueItemWithUser.coins >= 50) queueItemWithUser.perkType = 'fast';
+    else queueItemWithUser.perkType = 'gift';
   } else if (uState.lastProvinceId) {
     // User chưa trong hàng đợi nhưng trước đó ĐÃ comment tên tỉnh: Tạo vé ưu tiên ngay lập tức!
     const priorityScore = calculatePriority(totalCoins, uState);
     let perkType = totalCoins >= 200 ? 'vip' : (totalCoins >= 50 ? 'fast' : 'gift');
+    const donorObj = {
+      uniqueId: uid,
+      nickname: nickname || 'Khán giả',
+      profilePictureUrl: profilePictureUrl || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+      coins: totalCoins,
+      joinedAt: Date.now()
+    };
     const queueItem = {
       id: 'req_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4),
       provinceId: uState.lastProvinceId,
       svgIds: uState.lastSvgIds || [uState.lastProvinceId.replace(/-/g, '')],
       provinceName: uState.lastDisplayName,
       ttsName: uState.lastTtsName,
-      user: {
-        uniqueId: uid,
-        nickname: nickname || 'Khán giả',
-        profilePictureUrl: profilePictureUrl || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
-      },
+      leader: donorObj,
+      user: donorObj,
+      visitors: [donorObj],
       coins: totalCoins,
       priorityScore: priorityScore,
       perkType: perkType,
@@ -589,11 +784,11 @@ function handleGiftEvent(giftData) {
   sortQueue();
   io.emit('queueUpdated', gameState.queue);
 
-  // 2. Cập nhật điểm cho tỉnh đang ghé thăm trên màn hình
+  // 3. Cập nhật điểm cho tỉnh đang ghé thăm trên màn hình
   gameState.currentVisit.visitCount += totalCoins;
   gameState.provinceStats[gameState.currentVisit.provinceId] = gameState.currentVisit.visitCount;
 
-  // 3. Hiệu ứng & Lời thoại MC
+  // 4. Hiệu ứng & Lời thoại MC
   if (totalCoins >= 200) {
     io.emit('vipSpecialEffect', { nickname, giftName, coins: totalCoins });
     const tts = getRandomLine('vipGift', { nickname, giftName, coins: totalCoins }) ||
