@@ -32,6 +32,29 @@ if (fs.existsSync(PROVINCES_DATA_FILE)) {
   console.warn('provinces.json not found, using fallback list');
 }
 
+// Tải kịch bản lời thoại MC phong phú & hài hước
+const MC_LINES_FILE = path.join(__dirname, 'data', 'mc-lines.json');
+let MC_LINES = {};
+if (fs.existsSync(MC_LINES_FILE)) {
+  MC_LINES = JSON.parse(fs.readFileSync(MC_LINES_FILE, 'utf-8'));
+}
+
+const lastSpokenIndexes = {};
+function getRandomLine(category, vars = {}) {
+  const lines = MC_LINES[category];
+  if (!lines || lines.length === 0) return '';
+  let index = Math.floor(Math.random() * lines.length);
+  if (lines.length > 1 && lastSpokenIndexes[category] === index) {
+    index = (index + 1) % lines.length;
+  }
+  lastSpokenIndexes[category] = index;
+  let text = lines[index];
+  for (const [key, val] of Object.entries(vars)) {
+    text = text.replace(new RegExp(`\\{${key}\\}`, 'g'), val || '');
+  }
+  return text;
+}
+
 // Hàm chuẩn hóa chuỗi tiếng Việt (loại bỏ dấu và ký tự đặc biệt)
 function normalizeText(str) {
   if (!str) return '';
@@ -245,8 +268,11 @@ function nextProvince() {
       visitCount: currentCount
     };
 
-    // Thông báo TTS chuyển tỉnh
-    const ttsText = `Đang cùng bạn ${nextItem.user.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
+    // Thông báo TTS chuyển tỉnh đa dạng & hài hước
+    const ttsText = getRandomLine('visitUser', {
+      nickname: nextItem.user.nickname,
+      province: nextItem.ttsName || nextItem.provinceName
+    }) || `Đang cùng bạn ${nextItem.user.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
     io.emit('playTts', { text: ttsText });
   } else {
     // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên trong 34 tỉnh để không bị khoảng lặng (Anti-Dead Air)
@@ -267,12 +293,17 @@ function nextProvince() {
       visitCount: currentCount
     };
 
-    io.emit('playTts', { text: `Mời cả nhà cùng ghé thăm vẻ đẹp của ${randomProv.name}` });
+    const deadAirTts = getRandomLine('antiDeadAir', {
+      province: randomProv.name
+    }) || `Mời cả nhà cùng ngắm nhìn vẻ đẹp của ${randomProv.name}`;
+    io.emit('playTts', { text: deadAirTts });
   }
 
   io.emit('provinceChanged', gameState.currentVisit);
   io.emit('gameState', gameState);
 }
+
+let lastCtaTime = Date.now();
 
 // Vòng lặp đếm ngược thời gian (Ticker) mỗi giây
 setInterval(() => {
@@ -294,6 +325,14 @@ setInterval(() => {
     gameState.roundNumber++;
     gameState.roundTimeLeft = 70;
     io.emit('roundReset', { roundNumber: gameState.roundNumber });
+  }
+
+  // Kêu gọi tương tác / Đua top định kỳ (Call to action) khi hàng đợi trống
+  if (Date.now() - lastCtaTime > 35000 && gameState.queue.length === 0) {
+    lastCtaTime = Date.now();
+    const cat = Math.random() < 0.5 ? 'cta' : 'duaTop';
+    const ctaTts = getRandomLine(cat);
+    if (ctaTts) io.emit('playTts', { text: ctaTts });
   }
 }, 1000);
 
@@ -371,20 +410,65 @@ function handleGiftEvent(giftData) {
   // 1. Quà mốc VIP "Đọc trước" (>= 200 xu): Kích hoạt hiệu ứng đặc biệt + VIP queue jump
   if (totalCoins >= 200) {
     io.emit('vipSpecialEffect', { nickname, giftName, coins: totalCoins });
-    io.emit('playTts', { text: `Cảm ơn đại gia ${nickname} đã tặng ${giftName}! Nhận đặc quyền ưu tiên đọc trước!` });
+    const tts = getRandomLine('vipGift', { nickname, giftName, coins: totalCoins }) ||
+      `Cảm ơn đại gia ${nickname} đã tặng ${giftName}! Nhận đặc quyền ưu tiên đọc trước!`;
+    io.emit('playTts', { text: tts });
   } 
   // 2. Quà mốc "Đọc nhanh" (50 - 199 xu)
   else if (totalCoins >= 50) {
-    io.emit('playTts', { text: `Cảm ơn ${nickname} đã tặng ${giftName} để đọc nhanh!` });
+    const tts = getRandomLine('fastPassGift', { nickname, giftName, coins: totalCoins }) ||
+      `Cảm ơn ${nickname} đã tặng ${giftName} để đọc nhanh!`;
+    io.emit('playTts', { text: tts });
   }
   // 3. Quà nhỏ (Hoa hồng, 1 - 49 xu): Cộng điểm lượt thăm cho tỉnh hiện tại
   else {
     gameState.currentVisit.visitCount += totalCoins;
     gameState.provinceStats[gameState.currentVisit.provinceId] = gameState.currentVisit.visitCount;
+    if (Math.random() < 0.6) {
+      const tts = getRandomLine('smallGift', { nickname, giftName: giftName || 'hoa hồng' });
+      if (tts) io.emit('playTts', { text: tts });
+    }
   }
 
   gameState.stats.followersGoal += Math.floor(totalCoins / 2) + 1;
   io.emit('gameState', gameState);
+}
+
+// Xử lý sự kiện thả tim (Like)
+function handleLikeEvent(count, nickname) {
+  const prevLikes = gameState.stats.totalLikes;
+  gameState.stats.totalLikes += count;
+  io.emit('like', {
+    nickname: nickname || 'Người xem',
+    likeCount: count,
+    totalLikes: gameState.stats.totalLikes
+  });
+
+  if (Math.floor(gameState.stats.totalLikes / 150) > Math.floor(prevLikes / 150)) {
+    const tts = getRandomLine('likeMilestone');
+    if (tts) io.emit('playTts', { text: tts });
+  }
+}
+
+// Xử lý sự kiện Follow kênh
+function handleFollowEvent(userData) {
+  const notif = {
+    id: 'fol_' + Date.now(),
+    type: 'follow',
+    nickname: userData.nickname || 'Khán giả',
+    profilePictureUrl: userData.profilePictureUrl || '',
+    time: Date.now()
+  };
+  gameState.stats.followersGoal++;
+  gameState.recentNotifications.unshift(notif);
+  if (gameState.recentNotifications.length > 5) gameState.recentNotifications.pop();
+  io.emit('followNotification', notif);
+  io.emit('gameState', gameState);
+
+  if (Math.random() < 0.6) {
+    const tts = getRandomLine('follow', { nickname: notif.nickname });
+    if (tts) io.emit('playTts', { text: tts });
+  }
 }
 
 // Kết nối TikTok Live chuẩn 2.x
@@ -427,27 +511,14 @@ if (TIKTOK_USERNAME) {
 
     tiktokLive.on('like', data => {
       const count = Number(data.count) || Number(data.likeCount) || 1;
-      gameState.stats.totalLikes += count;
-      io.emit('like', {
-        nickname: data.user?.nickname || data.nickname || 'Người xem',
-        likeCount: count,
-        totalLikes: gameState.stats.totalLikes
-      });
+      handleLikeEvent(count, data.user?.nickname || data.nickname);
     });
 
     tiktokLive.on('follow', data => {
-      const notif = {
-        id: 'fol_' + Date.now(),
-        type: 'follow',
+      handleFollowEvent({
         nickname: data.user?.nickname || data.nickname || 'Khán giả',
-        profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || '',
-        time: Date.now()
-      };
-      gameState.stats.followersGoal++;
-      gameState.recentNotifications.unshift(notif);
-      if (gameState.recentNotifications.length > 5) gameState.recentNotifications.pop();
-      io.emit('followNotification', notif);
-      io.emit('gameState', gameState);
+        profilePictureUrl: data.user?.avatarThumb?.urlList?.[0] || ''
+      });
     });
 
   } catch (e) {
@@ -486,28 +557,15 @@ io.on('connection', socket => {
   // Mock Like
   socket.on('mock:like', data => {
     const count = Number(data.count) || 15;
-    gameState.stats.totalLikes += count;
-    io.emit('like', {
-      nickname: data.nickname || 'Fan cứng',
-      likeCount: count,
-      totalLikes: gameState.stats.totalLikes
-    });
+    handleLikeEvent(count, data.nickname || 'Fan cứng');
   });
 
   // Mock Follow
   socket.on('mock:follow', data => {
-    const notif = {
-      id: 'fol_' + Date.now(),
-      type: 'follow',
+    handleFollowEvent({
       nickname: data.nickname || 'Bảo săn bão',
-      profilePictureUrl: data.profilePictureUrl || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=face',
-      time: Date.now()
-    };
-    gameState.stats.followersGoal++;
-    gameState.recentNotifications.unshift(notif);
-    if (gameState.recentNotifications.length > 5) gameState.recentNotifications.pop();
-    io.emit('followNotification', notif);
-    io.emit('gameState', gameState);
+      profilePictureUrl: data.profilePictureUrl || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=face'
+    });
   });
 
   // Chuyển tỉnh ngay lập tức

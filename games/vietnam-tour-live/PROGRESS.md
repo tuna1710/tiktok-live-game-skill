@@ -101,5 +101,9 @@
 - **Cập nhật 34 Đơn vị hành chính cấp tỉnh mới (Nghị quyết 202/2025/QH15):**
   - Tích hợp toàn diện 34 đơn vị hành chính cấp tỉnh mới nhất vào `provinces.json`.
   - Giữ nguyên cơ chế **Smart Mapping tương thích ngược 100%**: Khán giả comment tên tỉnh cũ (ví dụ Bến Tre, Nam Định, Yên Bái, Hải Dương, Bình Dương,...) hệ thống tự động nhận diện và gộp vào tỉnh mới (ví dụ `Bến Tre (Vĩnh Long)`), sáng toàn bộ các vùng hợp nhất trên bản đồ vector.
+- **Tích hợp Kịch bản Lời thoại MC dẫn chương trình phong phú & hài hước (`data/mc-lines.json`):**
+  - Bổ sung hơn 100 câu thoại trải dài trên 9 nhóm tình huống: đón người xem về quê hương, dạo chơi chống khoảng lặng (Anti-Dead Air), cảm ơn quà VIP 200 xu, quà 50 xu, hoa hồng 1 xu, kêu gọi tương tác (CTA), đua top quê hương đối kháng, chào mừng Follow mới và cột mốc Thả tim.
+  - Tích hợp thuật toán chống lặp liên tiếp (`anti-repetition random shuffle`) giúp giọng đọc MC luôn tươi mới, lôi cuốn và tự nhiên.
 - Đã cấu hình symlink từ `/workspace/vietnam-tour-live` tới `games/vietnam-tour-live` để quản lý tiện lợi.
+
 

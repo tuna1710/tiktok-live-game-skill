@@ -79,4 +79,17 @@ assert(fs.existsSync(path.join(__dirname, 'run_colab.py')), 'Thiếu run_colab.p
 assert(fs.existsSync(path.join(__dirname, 'live_ngam_tiktok.py')), 'Thiếu live_ngam_tiktok.py');
 console.log('✅ 5. Kiểm tra Bộ khởi chạy kép trên Colab: ĐẠT');
 
+// 6. Kiểm tra Kịch bản Lời thoại MC dẫn chương trình (MC Lines)
+const mcFile = path.join(__dirname, 'data', 'mc-lines.json');
+assert(fs.existsSync(mcFile), 'Thiếu file data/mc-lines.json');
+const mcData = JSON.parse(fs.readFileSync(mcFile, 'utf-8'));
+const requiredCategories = ['visitUser', 'antiDeadAir', 'vipGift', 'fastPassGift', 'smallGift', 'cta', 'duaTop', 'follow', 'likeMilestone'];
+for (const cat of requiredCategories) {
+  assert(Array.isArray(mcData[cat]) && mcData[cat].length > 0, `Thiếu hoặc rỗng danh mục lời thoại: ${cat}`);
+}
+const totalLines = Object.values(mcData).reduce((sum, arr) => sum + arr.length, 0);
+assert(totalLines >= 80, `Cần ít nhất 80 câu thoại MC phong phú, hiện có: ${totalLines}`);
+console.log(`✅ 6. Kiểm tra Kịch bản Lời thoại MC: ĐẠT (${totalLines} câu thoại thuộc ${requiredCategories.length} nhóm chủ đề)`);
+
 console.log('\n🎉 TOÀN BỘ BÀI TEST ĐÃ VƯỢT QUA XUẤT SẮC!');
+
