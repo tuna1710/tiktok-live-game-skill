@@ -1,0 +1,800 @@
+[
+  {
+    "id": "an-giang",
+    "name": "An Giang",
+    "region": "Nam",
+    "aliases": [
+      "ag",
+      "an giang",
+      "an-giang"
+    ],
+    "svgId": "angiang"
+  },
+  {
+    "id": "ba-ria-vung-tau",
+    "name": "Bà Rịa - Vũng Tàu",
+    "region": "Nam",
+    "aliases": [
+      "ba ria",
+      "ba ria - vung tau",
+      "ba ria vung tau",
+      "ba-ria-vung-tau",
+      "bà rịa - vũng tàu",
+      "vt",
+      "vung tau"
+    ],
+    "svgId": "baria"
+  },
+  {
+    "id": "bac-giang",
+    "name": "Bắc Giang",
+    "region": "Bắc",
+    "aliases": [
+      "bac giang",
+      "bac-giang",
+      "bg",
+      "bắc giang"
+    ],
+    "svgId": "bacgiang"
+  },
+  {
+    "id": "bac-kan",
+    "name": "Bắc Kạn",
+    "region": "Bắc",
+    "aliases": [
+      "bac can",
+      "bac kan",
+      "bac-kan",
+      "bk",
+      "bắc kạn"
+    ],
+    "svgId": "backan"
+  },
+  {
+    "id": "bac-lieu",
+    "name": "Bạc Liêu",
+    "region": "Nam",
+    "aliases": [
+      "bac lieu",
+      "bac-lieu",
+      "bl",
+      "bạc liêu"
+    ],
+    "svgId": "baclieu"
+  },
+  {
+    "id": "bac-ninh",
+    "name": "Bắc Ninh",
+    "region": "Bắc",
+    "aliases": [
+      "bac ninh",
+      "bac-ninh",
+      "bn",
+      "bắc ninh"
+    ],
+    "svgId": "bacninh"
+  },
+  {
+    "id": "ben-tre",
+    "name": "Bến Tre",
+    "region": "Nam",
+    "aliases": [
+      "ben tre",
+      "ben-tre",
+      "bt",
+      "bến tre",
+      "xu dua"
+    ],
+    "svgId": "bentre"
+  },
+  {
+    "id": "binh-dinh",
+    "name": "Bình Định",
+    "region": "Trung",
+    "aliases": [
+      "bd",
+      "binh dinh",
+      "binh-dinh",
+      "bình định",
+      "quy nhon"
+    ],
+    "svgId": "binhdinh"
+  },
+  {
+    "id": "binh-duong",
+    "name": "Bình Dương",
+    "region": "Nam",
+    "aliases": [
+      "bd",
+      "binh duong",
+      "binh-duong",
+      "bình dương"
+    ],
+    "svgId": "binhduong"
+  },
+  {
+    "id": "binh-phuoc",
+    "name": "Bình Phước",
+    "region": "Nam",
+    "aliases": [
+      "binh phuoc",
+      "binh-phuoc",
+      "bp",
+      "bình phước"
+    ],
+    "svgId": "binhphuoc"
+  },
+  {
+    "id": "binh-thuan",
+    "name": "Bình Thuận",
+    "region": "Trung",
+    "aliases": [
+      "binh thuan",
+      "binh-thuan",
+      "bình thuận",
+      "phan thiet"
+    ],
+    "svgId": "binhthuan"
+  },
+  {
+    "id": "ca-mau",
+    "name": "Cà Mau",
+    "region": "Nam",
+    "aliases": [
+      "ca mau",
+      "ca-mau",
+      "cm",
+      "cà mau",
+      "dat mui"
+    ],
+    "svgId": "camau"
+  },
+  {
+    "id": "can-tho",
+    "name": "Cần Thơ",
+    "region": "Nam",
+    "aliases": [
+      "can tho",
+      "can-tho",
+      "ct",
+      "cần thơ",
+      "tay do"
+    ],
+    "svgId": "cantho"
+  },
+  {
+    "id": "cao-bang",
+    "name": "Cao Bằng",
+    "region": "Bắc",
+    "aliases": [
+      "cao bang",
+      "cao bằng",
+      "cao-bang",
+      "cb"
+    ],
+    "svgId": "caobang"
+  },
+  {
+    "id": "da-nang",
+    "name": "Đà Nẵng",
+    "region": "Trung",
+    "aliases": [
+      "da nang",
+      "da-nang",
+      "dn",
+      "hoang sa",
+      "đà nẵng"
+    ],
+    "svgId": "danang"
+  },
+  {
+    "id": "dak-lak",
+    "name": "Đắk Lắk",
+    "region": "Trung",
+    "aliases": [
+      "bmt",
+      "buon ma thuot",
+      "dac lac",
+      "dak lak",
+      "dak-lak",
+      "dl",
+      "đắk lắk"
+    ],
+    "svgId": "daklak"
+  },
+  {
+    "id": "dak-nong",
+    "name": "Đắk Nông",
+    "region": "Trung",
+    "aliases": [
+      "dac nong",
+      "dak nong",
+      "dak-nong",
+      "đắk nông"
+    ],
+    "svgId": "daknong"
+  },
+  {
+    "id": "dien-bien",
+    "name": "Điện Biên",
+    "region": "Bắc",
+    "aliases": [
+      "db",
+      "dien bien",
+      "dien bien phu",
+      "dien-bien",
+      "điện biên"
+    ],
+    "svgId": "dienbien"
+  },
+  {
+    "id": "dong-nai",
+    "name": "Đồng Nai",
+    "region": "Nam",
+    "aliases": [
+      "bien hoa",
+      "dn",
+      "dong nai",
+      "dong-nai",
+      "đồng nai"
+    ],
+    "svgId": "dongnai"
+  },
+  {
+    "id": "dong-thap",
+    "name": "Đồng Tháp",
+    "region": "Nam",
+    "aliases": [
+      "cao lanh",
+      "dong thap",
+      "dong-thap",
+      "dt",
+      "đồng tháp"
+    ],
+    "svgId": "dongthap"
+  },
+  {
+    "id": "gia-lai",
+    "name": "Gia Lai",
+    "region": "Trung",
+    "aliases": [
+      "gia lai",
+      "gia-lai",
+      "gl",
+      "pleiku"
+    ],
+    "svgId": "gialai"
+  },
+  {
+    "id": "ha-giang",
+    "name": "Hà Giang",
+    "region": "Bắc",
+    "aliases": [
+      "ha giang",
+      "ha-giang",
+      "hg",
+      "hà giang"
+    ],
+    "svgId": "hagiang"
+  },
+  {
+    "id": "ha-nam",
+    "name": "Hà Nam",
+    "region": "Bắc",
+    "aliases": [
+      "ha nam",
+      "ha-nam",
+      "hà nam",
+      "phu ly"
+    ],
+    "svgId": "hanam"
+  },
+  {
+    "id": "ha-noi",
+    "name": "Hà Nội",
+    "region": "Bắc",
+    "aliases": [
+      "ha noi",
+      "ha-noi",
+      "hanoi",
+      "hn",
+      "hà nội",
+      "thu do"
+    ],
+    "svgId": "hanoi"
+  },
+  {
+    "id": "ha-tinh",
+    "name": "Hà Tĩnh",
+    "region": "Trung",
+    "aliases": [
+      "ha tinh",
+      "ha-tinh",
+      "ht",
+      "hà tĩnh"
+    ],
+    "svgId": "hatinh"
+  },
+  {
+    "id": "hai-duong",
+    "name": "Hải Dương",
+    "region": "Bắc",
+    "aliases": [
+      "hai duong",
+      "hai-duong",
+      "hd",
+      "hải dương"
+    ],
+    "svgId": "haiduong"
+  },
+  {
+    "id": "hai-phong",
+    "name": "Hải Phòng",
+    "region": "Bắc",
+    "aliases": [
+      "dat cang",
+      "hai phong",
+      "hai-phong",
+      "hp",
+      "hải phòng"
+    ],
+    "svgId": "haiphong"
+  },
+  {
+    "id": "hau-giang",
+    "name": "Hậu Giang",
+    "region": "Nam",
+    "aliases": [
+      "hau giang",
+      "hau-giang",
+      "hậu giang",
+      "vi thanh"
+    ],
+    "svgId": "haugiang"
+  },
+  {
+    "id": "hoa-binh",
+    "name": "Hòa Bình",
+    "region": "Bắc",
+    "aliases": [
+      "hb",
+      "hoa binh",
+      "hoa-binh",
+      "hòa bình"
+    ],
+    "svgId": "hoabinh"
+  },
+  {
+    "id": "hung-yen",
+    "name": "Hưng Yên",
+    "region": "Bắc",
+    "aliases": [
+      "hung yen",
+      "hung-yen",
+      "hy",
+      "hưng yên"
+    ],
+    "svgId": "hungyen"
+  },
+  {
+    "id": "khanh-hoa",
+    "name": "Khánh Hòa",
+    "region": "Trung",
+    "aliases": [
+      "kh",
+      "khanh hoa",
+      "khanh-hoa",
+      "khánh hòa",
+      "nha trang",
+      "truong sa"
+    ],
+    "svgId": "khanhhoa"
+  },
+  {
+    "id": "kien-giang",
+    "name": "Kiên Giang",
+    "region": "Nam",
+    "aliases": [
+      "kg",
+      "kien giang",
+      "kien-giang",
+      "kiên giang",
+      "phu quoc",
+      "rach gia"
+    ],
+    "svgId": "kiengiang"
+  },
+  {
+    "id": "kon-tum",
+    "name": "Kon Tum",
+    "region": "Trung",
+    "aliases": [
+      "kon tum",
+      "kon-tum",
+      "kontum",
+      "kt"
+    ],
+    "svgId": "kontum"
+  },
+  {
+    "id": "lai-chau",
+    "name": "Lai Châu",
+    "region": "Bắc",
+    "aliases": [
+      "lai chau",
+      "lai châu",
+      "lai-chau",
+      "lc"
+    ],
+    "svgId": "laichau"
+  },
+  {
+    "id": "lam-dong",
+    "name": "Lâm Đồng",
+    "region": "Trung",
+    "aliases": [
+      "da lat",
+      "dalat",
+      "lam dong",
+      "lam-dong",
+      "ld",
+      "lâm đồng"
+    ],
+    "svgId": "lamdong"
+  },
+  {
+    "id": "lang-son",
+    "name": "Lạng Sơn",
+    "region": "Bắc",
+    "aliases": [
+      "lang son",
+      "lang-son",
+      "ls",
+      "lạng sơn"
+    ],
+    "svgId": "langson"
+  },
+  {
+    "id": "lao-cai",
+    "name": "Lào Cai",
+    "region": "Bắc",
+    "aliases": [
+      "lao cai",
+      "lao-cai",
+      "lc",
+      "lào cai",
+      "sapa"
+    ],
+    "svgId": "laocai"
+  },
+  {
+    "id": "long-an",
+    "name": "Long An",
+    "region": "Nam",
+    "aliases": [
+      "la",
+      "long an",
+      "long-an",
+      "tan an"
+    ],
+    "svgId": "longan"
+  },
+  {
+    "id": "nam-dinh",
+    "name": "Nam Định",
+    "region": "Bắc",
+    "aliases": [
+      "nam dinh",
+      "nam định",
+      "nam-dinh",
+      "nd"
+    ],
+    "svgId": "namdinh"
+  },
+  {
+    "id": "nghe-an",
+    "name": "Nghệ An",
+    "region": "Trung",
+    "aliases": [
+      "na",
+      "nghe an",
+      "nghe-an",
+      "nghệ an",
+      "vinh"
+    ],
+    "svgId": "nghean"
+  },
+  {
+    "id": "ninh-binh",
+    "name": "Ninh Bình",
+    "region": "Bắc",
+    "aliases": [
+      "nb",
+      "ninh binh",
+      "ninh bình",
+      "ninh-binh"
+    ],
+    "svgId": "ninhbinh"
+  },
+  {
+    "id": "ninh-thuan",
+    "name": "Ninh Thuận",
+    "region": "Trung",
+    "aliases": [
+      "ninh thuan",
+      "ninh thuận",
+      "ninh-thuan",
+      "nt",
+      "phan rang"
+    ],
+    "svgId": "ninhthuan"
+  },
+  {
+    "id": "phu-tho",
+    "name": "Phú Thọ",
+    "region": "Bắc",
+    "aliases": [
+      "phu tho",
+      "phu-tho",
+      "phú thọ",
+      "pt",
+      "viet tri"
+    ],
+    "svgId": "phutho"
+  },
+  {
+    "id": "phu-yen",
+    "name": "Phú Yên",
+    "region": "Trung",
+    "aliases": [
+      "phu yen",
+      "phu-yen",
+      "phú yên",
+      "py",
+      "tuy hoa"
+    ],
+    "svgId": "phuyen"
+  },
+  {
+    "id": "quang-binh",
+    "name": "Quảng Bình",
+    "region": "Trung",
+    "aliases": [
+      "dong hoi",
+      "qb",
+      "quang binh",
+      "quang-binh",
+      "quảng bình"
+    ],
+    "svgId": "quangbinh"
+  },
+  {
+    "id": "quang-nam",
+    "name": "Quảng Nam",
+    "region": "Trung",
+    "aliases": [
+      "hoi an",
+      "qn",
+      "quang nam",
+      "quang-nam",
+      "quảng nam",
+      "tam ky"
+    ],
+    "svgId": "quangnam"
+  },
+  {
+    "id": "quang-ngai",
+    "name": "Quảng Ngãi",
+    "region": "Trung",
+    "aliases": [
+      "qn",
+      "quang ngai",
+      "quang-ngai",
+      "quảng ngãi"
+    ],
+    "svgId": "quangngai"
+  },
+  {
+    "id": "quang-ninh",
+    "name": "Quảng Ninh",
+    "region": "Bắc",
+    "aliases": [
+      "ha long",
+      "qn",
+      "quang ninh",
+      "quang-ninh",
+      "quảng ninh"
+    ],
+    "svgId": "quangninh"
+  },
+  {
+    "id": "quang-tri",
+    "name": "Quảng Trị",
+    "region": "Trung",
+    "aliases": [
+      "dong ha",
+      "qt",
+      "quang tri",
+      "quang-tri",
+      "quảng trị"
+    ],
+    "svgId": "quangtri"
+  },
+  {
+    "id": "soc-trang",
+    "name": "Sóc Trăng",
+    "region": "Nam",
+    "aliases": [
+      "soc trang",
+      "soc-trang",
+      "st",
+      "sóc trăng"
+    ],
+    "svgId": "soctrang"
+  },
+  {
+    "id": "son-la",
+    "name": "Sơn La",
+    "region": "Bắc",
+    "aliases": [
+      "sl",
+      "son la",
+      "son-la",
+      "sơn la"
+    ],
+    "svgId": "sonla"
+  },
+  {
+    "id": "tay-ninh",
+    "name": "Tây Ninh",
+    "region": "Nam",
+    "aliases": [
+      "tay ninh",
+      "tay-ninh",
+      "tn",
+      "tây ninh"
+    ],
+    "svgId": "tayninh"
+  },
+  {
+    "id": "thai-binh",
+    "name": "Thái Bình",
+    "region": "Bắc",
+    "aliases": [
+      "tb",
+      "thai binh",
+      "thai-binh",
+      "thái bình"
+    ],
+    "svgId": "thaibinh"
+  },
+  {
+    "id": "thai-nguyen",
+    "name": "Thái Nguyên",
+    "region": "Bắc",
+    "aliases": [
+      "thai nguyen",
+      "thai-nguyen",
+      "thái nguyên",
+      "tn"
+    ],
+    "svgId": "thainguyen"
+  },
+  {
+    "id": "thanh-hoa",
+    "name": "Thanh Hóa",
+    "region": "Trung",
+    "aliases": [
+      "th",
+      "thanh hoa",
+      "thanh hóa",
+      "thanh-hoa"
+    ],
+    "svgId": "thanhhoa"
+  },
+  {
+    "id": "thua-thien-hue",
+    "name": "Thừa Thiên Huế",
+    "region": "Trung",
+    "aliases": [
+      "hue",
+      "thua thien hue",
+      "thua-thien-hue",
+      "thừa thiên huế",
+      "tth"
+    ],
+    "svgId": "tthue"
+  },
+  {
+    "id": "tien-giang",
+    "name": "Tiền Giang",
+    "region": "Nam",
+    "aliases": [
+      "my tho",
+      "tg",
+      "tien giang",
+      "tien-giang",
+      "tiền giang"
+    ],
+    "svgId": "tiengiang"
+  },
+  {
+    "id": "ho-chi-minh",
+    "name": "TP. Hồ Chí Minh",
+    "region": "Nam",
+    "aliases": [
+      "hcm",
+      "ho chi minh",
+      "ho-chi-minh",
+      "sai gon",
+      "saigon",
+      "sg",
+      "tp hcm",
+      "tp ho chi minh",
+      "tp. ho chi minh",
+      "tp. hồ chí minh",
+      "tphcm"
+    ],
+    "svgId": "hcm"
+  },
+  {
+    "id": "tra-vinh",
+    "name": "Trà Vinh",
+    "region": "Nam",
+    "aliases": [
+      "tra vinh",
+      "tra-vinh",
+      "trà vinh",
+      "tv"
+    ],
+    "svgId": "travinh"
+  },
+  {
+    "id": "tuyen-quang",
+    "name": "Tuyên Quang",
+    "region": "Bắc",
+    "aliases": [
+      "tq",
+      "tuyen quang",
+      "tuyen-quang",
+      "tuyên quang"
+    ],
+    "svgId": "tuyenquang"
+  },
+  {
+    "id": "vinh-long",
+    "name": "Vĩnh Long",
+    "region": "Nam",
+    "aliases": [
+      "vinh long",
+      "vinh-long",
+      "vl",
+      "vĩnh long"
+    ],
+    "svgId": "vinhlong"
+  },
+  {
+    "id": "vinh-phuc",
+    "name": "Vĩnh Phúc",
+    "region": "Bắc",
+    "aliases": [
+      "vinh phuc",
+      "vinh-phuc",
+      "vp",
+      "vĩnh phúc"
+    ],
+    "svgId": "vinhphuc"
+  },
+  {
+    "id": "yen-bai",
+    "name": "Yên Bái",
+    "region": "Bắc",
+    "aliases": [
+      "yb",
+      "yen bai",
+      "yen-bai",
+      "yên bái"
+    ],
+    "svgId": "yenbai"
+  }
+]

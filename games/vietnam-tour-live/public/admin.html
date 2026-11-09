@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎛️ Bảng Giả Lập TikTok Live - Ghé Thăm 63 Tỉnh Thành</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --success: #238636;
+      --warning: #d29922;
+      --danger: #da3633;
+      --text: #c9d1d9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+    header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 15px; }
+    h1 { font-size: 20px; color: #fff; }
+    .badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; background: var(--danger); color: white; }
+    .badge.connected { background: var(--success); }
+    
+    .status-panel { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+    .stat-box { background: rgba(255,255,255,0.03); padding: 10px; border-radius: 6px; }
+    .stat-title { font-size: 12px; color: #8b949e; text-transform: uppercase; }
+    .stat-val { font-size: 18px; font-weight: bold; color: #58a6ff; margin-top: 5px; }
+    
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 20px; }
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px; display: flex; flex-direction: column; gap: 15px; }
+    h2 { font-size: 16px; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    
+    label { font-size: 13px; color: #8b949e; margin-bottom: 5px; display: block; }
+    input, select, textarea { width: 100%; background: #0d1117; border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; color: #fff; font-size: 14px; }
+    input:focus, select:focus { outline: none; border-color: var(--accent); }
+    
+    .btn-group { display: flex; flex-wrap: wrap; gap: 8px; }
+    button { background: #21262d; border: 1px solid var(--border); color: #c9d1d9; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.2s; }
+    button:hover { background: #30363d; border-color: #8b949e; }
+    button.primary { background: var(--accent); color: #fff; border: none; }
+    button.primary:hover { background: #1f6feb; }
+    button.success { background: var(--success); color: #fff; border: none; }
+    button.warning { background: var(--warning); color: #000; border: none; font-weight: bold; }
+    button.danger { background: var(--danger); color: #fff; border: none; }
+
+    .province-btn { background: #1c2128; border-color: #444c56; }
+    .province-btn:hover { background: #30363d; color: #58a6ff; }
+    
+    .queue-list { max-height: 200px; overflow-y: auto; background: #0d1117; border: 1px solid var(--border); border-radius: 6px; padding: 10px; font-size: 13px; display: flex; flex-direction: column; gap: 6px; }
+    .queue-item { display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; background: #161b22; border-radius: 4px; }
+    .queue-item.vip { border-left: 3px solid #f1e05a; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>🎛️ Bảng Giả Lập Mock Simulator</h1>
+        <small style="color: #8b949e;">Game TikTok Live: Ghé Thăm 63 Tỉnh Thành Việt Nam</small>
+      </div>
+      <div id="statusBadge" class="badge">ĐANG KẾT NỐI...</div>
+    </header>
+
+    <!-- Panel Trạng thái Realtime -->
+    <div class="status-panel">
+      <div class="stat-box">
+        <div class="stat-title">Đang ghé thăm</div>
+        <div id="statCurrent" class="stat-val">Lào Cai</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-title">Thời gian còn lại</div>
+        <div id="statTimer" class="stat-val">15s</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-title">Số tỉnh trong hàng đợi</div>
+        <div id="statQueueCount" class="stat-val">3</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-title">Lượt xem tích lũy</div>
+        <div id="statViewers" class="stat-val">341</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- 1. Giả lập Comment tên tỉnh -->
+      <div class="card">
+        <h2>💬 1. Giả lập Bình luận (Chat)</h2>
+        <div>
+          <label>Tên người xem (Nickname):</label>
+          <input type="text" id="chatNickname" value="TỚI Ếch">
+        </div>
+        <div>
+          <label>Bình luận (Tên tỉnh):</label>
+          <input type="text" id="chatComment" value="Lào Cai" placeholder="Ví dụ: Tây Ninh, Hà Nội, SG, Đà Nẵng...">
+        </div>
+        <button class="primary" onclick="sendCustomChat()">Gửi Comment đến Server</button>
+
+        <div>
+          <label style="margin-top: 10px;">Bấm nhanh tên tỉnh phổ biến:</label>
+          <div class="btn-group">
+            <button class="province-btn" onclick="quickComment('Hà Nội')">🏛️ Hà Nội</button>
+            <button class="province-btn" onclick="quickComment('Lào Cai')">⛰️ Lào Cai</button>
+            <button class="province-btn" onclick="quickComment('Đà Nẵng')">🌉 Đà Nẵng</button>
+            <button class="province-btn" onclick="quickComment('Tây Ninh')">🏔️ Tây Ninh</button>
+            <button class="province-btn" onclick="quickComment('TP. Hồ Chí Minh')">🏙️ Sài Gòn</button>
+            <button class="province-btn" onclick="quickComment('Cao Bằng')">🌊 Cao Bằng</button>
+            <button class="province-btn" onclick="quickComment('Cần Thơ')">🛶 Cần Thơ</button>
+            <button class="province-btn" onclick="quickComment('Hải Phòng')">⚓ Hải Phòng</button>
+            <button class="province-btn" onclick="quickComment('Nha Trang')">🏖️ Khánh Hòa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Giả lập Quà tặng & Mốc VIP -->
+      <div class="card">
+        <h2>🎁 2. Giả lập Tặng Quà (Gift)</h2>
+        <div>
+          <label>Người tặng quà:</label>
+          <input type="text" id="giftNickname" value="Alo vũ à vũ...">
+        </div>
+        <div class="btn-group" style="flex-direction: column;">
+          <button class="province-btn" onclick="sendGift('Hoa hồng', 1, 1)">
+            🌹 Tặng 1 Hoa hồng (1 xu) - Tăng điểm tỉnh hiện tại
+          </button>
+          <button class="warning" onclick="sendGift('Bắn tim', 50, 1)">
+            🫰 Mốc ĐỌC NHANH (50 xu) - Ưu tiên hàng đợi
+          </button>
+          <button class="danger" onclick="sendGift('Sư tử VIP', 200, 1)">
+            👑 Mốc ĐỌC TRƯỚC (200 xu) - VIP Jump lên vị trí #1
+          </button>
+        </div>
+
+        <div style="margin-top: 10px;">
+          <label>Tương tác khác:</label>
+          <div class="btn-group">
+            <button class="success" onclick="sendLike()">❤️ Thả 20 Tim</button>
+            <button class="province-btn" onclick="sendFollow()">➕ Người mới Follow</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Quản trị điều hướng Live -->
+      <div class="card">
+        <h2>🕹️ 3. Điều hướng & Chuyển tỉnh</h2>
+        <div class="btn-group">
+          <button class="primary" onclick="nextProvince()">⏭️ Chuyển Tỉnh tiếp theo (Next)</button>
+          <button class="danger" onclick="resetQueue()">🗑️ Xóa sạch Hàng đợi</button>
+        </div>
+        <div style="margin-top: 10px;">
+          <label>Chọn thẳng 1 tỉnh để ghé thăm ngay:</label>
+          <select id="selectProvince" onchange="jumpToProvince(this.value)">
+            <option value="">-- Chọn 1 trong 63 tỉnh --</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 4. Danh sách Hàng đợi Thực tế -->
+      <div class="card">
+        <h2>📋 4. Danh sách Hàng đợi Realtime</h2>
+        <div id="queueContainer" class="queue-list">
+          <div style="color: #8b949e; text-align: center;">Chưa có tỉnh nào trong hàng đợi</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    const statusBadge = document.getElementById('statusBadge');
+    let currentProvincesList = [];
+
+    socket.on('connect', () => {
+      statusBadge.textContent = '🟢 ĐÃ KẾT NỐI (ONLINE)';
+      statusBadge.className = 'badge connected';
+    });
+
+    socket.on('disconnect', () => {
+      statusBadge.textContent = '🔴 MẤT KẾT NỐI';
+      statusBadge.className = 'badge';
+    });
+
+    // Tải danh sách tỉnh vào dropdown
+    fetch('/api/provinces')
+      .then(res => res.json())
+      .then(data => {
+        currentProvincesList = data;
+        const select = document.getElementById('selectProvince');
+        data.forEach(p => {
+          const opt = document.createElement('option');
+          opt.value = p.id;
+          opt.textContent = `${p.name} (${p.region})`;
+          select.appendChild(opt);
+        });
+      });
+
+    // Cập nhật giao diện khi nhận gameState
+    socket.on('gameState', state => {
+      document.getElementById('statCurrent').textContent = state.currentVisit?.provinceName || 'Chưa có';
+      document.getElementById('statTimer').textContent = `${state.currentVisit?.timeLeft || 0}s`;
+      document.getElementById('statQueueCount').textContent = state.queue?.length || 0;
+      document.getElementById('statViewers').textContent = state.stats?.totalViewers || 0;
+
+      // Cập nhật hàng đợi
+      const queueContainer = document.getElementById('queueContainer');
+      if (!state.queue || state.queue.length === 0) {
+        queueContainer.innerHTML = '<div style="color: #8b949e; text-align: center;">Hàng đợi trống (Hệ thống sẽ tự động chuyển cảnh)</div>';
+      } else {
+        queueContainer.innerHTML = state.queue.map((item, idx) => `
+          <div class="queue-item ${item.isVip || item.priority >= 50 ? 'vip' : ''}">
+            <span><strong>#${idx + 1} ${item.provinceName}</strong> - ${item.user.nickname}</span>
+            <span style="font-size: 11px; color: ${item.priority >= 200 ? '#f85149' : (item.priority >= 50 ? '#d29922' : '#8b949e')}">
+              ${item.priority >= 200 ? '👑 VIP #1' : (item.priority >= 50 ? '⚡ Đọc nhanh' : 'Bình thường')}
+            </span>
+          </div>
+        `).join('');
+      }
+    });
+
+    socket.on('tick', data => {
+      document.getElementById('statTimer').textContent = `${data.timeLeft}s`;
+    });
+
+    function sendCustomChat() {
+      const nickname = document.getElementById('chatNickname').value.trim();
+      const comment = document.getElementById('chatComment').value.trim();
+      if (!comment) return alert('Vui lòng nhập tên tỉnh!');
+      socket.emit('mock:chat', { nickname, comment });
+    }
+
+    function quickComment(provinceName) {
+      document.getElementById('chatComment').value = provinceName;
+      const nickname = document.getElementById('chatNickname').value.trim() || 'Người xem';
+      socket.emit('mock:chat', { nickname, comment: provinceName });
+    }
+
+    function sendGift(giftName, diamondCount, repeatCount) {
+      const nickname = document.getElementById('giftNickname').value.trim() || 'Đại gia';
+      socket.emit('mock:gift', { nickname, giftName, diamondCount, repeatCount });
+    }
+
+    function sendLike() {
+      socket.emit('mock:like', { count: 20 });
+    }
+
+    function sendFollow() {
+      socket.emit('mock:follow', { nickname: 'Thành viên mới ' + Math.floor(Math.random() * 100) });
+    }
+
+    function nextProvince() {
+      socket.emit('mock:next');
+    }
+
+    function resetQueue() {
+      if (confirm('Bạn có chắc muốn xóa sạch hàng đợi?')) {
+        socket.emit('mock:reset');
+      }
+    }
+
+    function jumpToProvince(provinceId) {
+      if (provinceId) {
+        socket.emit('mock:set_province', provinceId);
+      }
+    }
+  </script>
+</body>
+</html>

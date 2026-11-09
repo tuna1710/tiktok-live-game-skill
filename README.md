@@ -130,11 +130,12 @@ tiktok-live-game-skill/
     │   ├── live_ngam_tiktok.py
     │   └── public/ (index.html, game.js, style.css, admin.html)
     │
-    └── battle-red-vs-blue/    # ⚔️ GAME: ĐẠI CHIẾN ĐỎ VS XANH
-        ├── server.js          # Cơ chế kéo co 2 phe
-        ├── run_colab.py
-        ├── live_ngam_tiktok.py
-        └── public/ (index.html, game.js, style.css, admin.html)
+    └── vietnam-tour-live/     # 🇻🇳 GAME: GHÉ THĂM 63 TỈNH THÀNH VIỆT NAM
+        ├── data/provinces.json # Cơ sở dữ liệu 63 tỉnh thành & alias viết tắt
+        ├── server.js          # Hàng đợi thường & VIP Jump, TTS xướng tên quê hương
+        ├── run_colab.py       # OBS Cloudflare Tunnel
+        ├── live_ngam_tiktok.py # RTMP Live ngầm rảnh tay 24/7
+        └── public/ (index.html, game.js, style.css, vietnam.svg, admin.html)
 ```
 
 ---

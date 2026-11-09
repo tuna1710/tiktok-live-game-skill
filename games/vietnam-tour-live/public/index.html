@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Ghé Thăm 63 Tỉnh Thành Việt Nam - TikTok Live</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Container chuẩn dọc 9:16 (1080 x 1920) -->
+  <div id="gameContainer" class="game-container">
+    
+    <!-- Canvas hiệu ứng đặc biệt (Pháo hoa, tim bay, sao lấp lánh) -->
+    <canvas id="fxCanvas" width="1080" height="1920"></canvas>
+
+    <!-- Header HUD (Phần thông tin phía trên) -->
+    <header class="hud-header">
+      <!-- Dòng 1: Vòng gặp gỡ & Đồng hồ phiên live -->
+      <div class="top-bar">
+        <div class="round-badge">
+          Vòng gặp gỡ <span id="roundNumber">#19</span>
+        </div>
+        <div class="live-timer" id="roundTimer">01:10</div>
+      </div>
+
+      <!-- Dòng 2: Trạng thái ghé thăm & Thống kê phòng -->
+      <div class="status-row">
+        <!-- Bên trái: Tỉnh đang ghé thăm -->
+        <div class="visit-info">
+          <span class="label">ĐANG GHÉ THĂM</span>
+          <h1 class="province-name" id="currentProvinceName">Lào Cai</h1>
+        </div>
+
+        <!-- Ở giữa: Đếm ngược thời lượng tỉnh (15s) -->
+        <div class="timer-center">
+          <div class="timer-box" id="visitCountdown">15:00</div>
+        </div>
+
+        <!-- Bên phải: Tích lũy người xem & Mục tiêu Follower -->
+        <div class="stats-right">
+          <div class="viewers-accumulated">
+            <span class="sub-label">TÍCH LŨY CÁC LIVE</span>
+            <div class="val"><span id="totalViewers">341</span> <small>người</small></div>
+          </div>
+          <div class="goal-widget">
+            <div class="circle-progress">
+              <svg viewBox="0 0 36 36" class="circular-chart">
+                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                <path id="circleProgressPath" class="circle" stroke-dasharray="17, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                <text x="18" y="20.35" class="percentage" id="goalPercentage">17%</text>
+              </svg>
+            </div>
+            <div class="goal-text">
+              <span id="followersCount">1751</span>/10000
+              <small>Mục tiêu follower</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dòng 3: Bảng hướng dẫn Call To Action / VIP Perks -->
+      <div class="perks-bar">
+        <div class="perk-item">
+          <div class="perk-icon-wrapper">
+            <span class="perk-emoji">👑</span>
+            <span class="perk-badge">21</span>
+          </div>
+          <span class="perk-text">gõ tên tỉnh</span>
+        </div>
+
+        <div class="perk-item highlight">
+          <div class="perk-icon-wrapper">
+            <span class="perk-emoji">🫰</span>
+            <span class="perk-badge">50</span>
+          </div>
+          <span class="perk-text">đọc nhanh</span>
+        </div>
+
+        <div class="perk-item vip">
+          <div class="perk-icon-wrapper">
+            <span class="perk-emoji">🌹</span>
+            <span class="perk-badge">200</span>
+          </div>
+          <span class="perk-text">đọc trước</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sân khấu Bản đồ Việt Nam tương tác (Interactive Map Stage) -->
+    <main class="map-stage" id="mapStage">
+      <div class="map-viewport" id="mapViewport">
+        <div class="map-zoom-container" id="mapZoomContainer">
+          <!-- SVG Bản đồ sẽ được tải vào đây -->
+          <div id="svgContainer" class="svg-container"></div>
+          
+          <!-- Marker ghim vị trí người xem trên bản đồ -->
+          <div id="provincePin" class="province-pin">
+            <div class="pin-avatar-ring">
+              <img id="pinAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face" alt="User">
+            </div>
+            <div class="pin-label">
+              <span id="pinName">Lào Cai</span>
+              <span id="pinBadge" class="pin-score">+5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avatar lớn nổi bật của khách ghé thăm ở trung tâm dưới tỉnh -->
+      <div id="visitorSpotlight" class="visitor-spotlight">
+        <div class="spotlight-avatar-halo">
+          <img id="spotlightAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face" alt="Visitor">
+        </div>
+        <div class="spotlight-nickname" id="spotlightNickname">TỚI Ếch</div>
+      </div>
+    </main>
+
+    <!-- Khu vực Hàng đợi ghé thăm & Thông báo phía dưới -->
+    <footer class="hud-footer">
+      
+      <!-- Hàng đợi các tỉnh chờ ghé thăm (Queue Cards) -->
+      <div class="queue-section">
+        <div class="queue-cards-wrapper" id="queueCardsWrapper">
+          <!-- Thẻ mẫu sẽ được render động từ game.js -->
+          <div class="queue-card card-blue">
+            <span class="order">01</span>
+            <span class="name">Đà Nẵng</span>
+          </div>
+          <div class="queue-card card-teal">
+            <span class="order">02</span>
+            <span class="name">Tây Ninh</span>
+          </div>
+          <div class="queue-card card-gold">
+            <span class="order">03</span>
+            <span class="name">Cao Bằng</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Khung thông điệp ghim của Chủ phòng -->
+      <div class="host-pinned-card">
+        <div class="host-avatar">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop&crop=face" alt="Host">
+          <span class="host-tag">Chủ phòng</span>
+        </div>
+        <div class="host-message">
+          Nhớ bình luận tên tỉnh để đến thăm tỉnh của mình nhé, cả nhà xem live vui vẻ, cảm ơn đã đến và ở lại ❤️
+        </div>
+      </div>
+
+      <!-- Notification Toast container (Follow, Gift popup tím rực rỡ) -->
+      <div id="toastContainer" class="toast-container"></div>
+    </footer>
+
+    <!-- Audio player cho TTS tiếng Việt -->
+    <audio id="ttsAudio" preload="auto"></audio>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
