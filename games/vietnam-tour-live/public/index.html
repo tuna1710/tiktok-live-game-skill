@@ -97,6 +97,7 @@
           <div id="provincePin" class="province-pin">
             <div class="pin-avatar-ring">
               <img id="pinAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face" alt="User">
+              <span id="pinCohortBadge" class="pin-cohort-badge" style="display:none;">👥 1</span>
             </div>
             <div class="pin-label">
               <span id="pinName">Lào Cai</span>
@@ -108,10 +109,18 @@
 
       <!-- Avatar lớn nổi bật của khách ghé thăm ở trung tâm dưới tỉnh -->
       <div id="visitorSpotlight" class="visitor-spotlight">
-        <div class="spotlight-avatar-halo">
-          <img id="spotlightAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face" alt="Visitor">
+        <div class="spotlight-leader-wrap">
+          <div class="spotlight-avatar-halo">
+            <img id="spotlightAvatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face" alt="Visitor">
+            <span class="spotlight-crown" id="spotlightCrown">👑</span>
+          </div>
         </div>
-        <div class="spotlight-nickname" id="spotlightNickname">TỚI Ếch</div>
+        <div class="spotlight-info">
+          <div class="spotlight-role-badge" id="spotlightRole">👑 TRƯỞNG ĐOÀN</div>
+          <div class="spotlight-nickname" id="spotlightNickname">TỚI Ếch</div>
+        </div>
+        <!-- Cụm thành viên trong đoàn đi cùng -->
+        <div class="spotlight-cohort" id="spotlightCohort"></div>
       </div>
 
       <!-- Widget Bảng Theo Dõi Bình Luận Trực Tiếp (Live Chat Stream) -->

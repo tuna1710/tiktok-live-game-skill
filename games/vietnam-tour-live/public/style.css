@@ -435,6 +435,212 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* Đoàn đồng hương Spotlight & Pin */
+.pin-avatar-ring {
+  position: relative;
+}
+
+.pin-cohort-badge {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background: linear-gradient(135deg, #ff007f, #7928ca);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 10px;
+  border: 1.5px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.spotlight-leader-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotlight-crown {
+  position: absolute;
+  top: -24px;
+  font-size: 32px;
+  filter: drop-shadow(0 2px 8px rgba(255, 215, 0, 0.8));
+  animation: crownBounce 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes crownBounce {
+  0% { transform: translateY(0) rotate(-4deg); }
+  100% { transform: translateY(-6px) rotate(4deg); }
+}
+
+.spotlight-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.spotlight-role-badge {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  color: #1a0033;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 2px 12px;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.spotlight-cohort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+  max-width: 520px;
+}
+
+.cohort-member-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(14, 30, 44, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 3px 10px 3px 4px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cohort-member-pill img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid #00f2fe;
+  object-fit: cover;
+}
+
+.cohort-member-pill span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #e0f2fe;
+  max-width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cohort-more-pill {
+  background: rgba(0, 242, 254, 0.2);
+  border: 1px solid rgba(0, 242, 254, 0.5);
+  color: #00f2fe;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 14px;
+}
+
+/* Stacked avatar circles trong thẻ hàng đợi */
+.queue-avatar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.queue-avatar-stack {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+
+.queue-avatar-stack-item {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #1a2a3a;
+  object-fit: cover;
+  margin-left: -8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: #000;
+  transition: transform 0.2s ease;
+}
+
+.queue-avatar-stack-item:first-child {
+  margin-left: 0;
+  border-color: #ffd700;
+  z-index: 5;
+}
+
+.queue-avatar-stack-item:nth-child(2) { z-index: 4; }
+.queue-avatar-stack-item:nth-child(3) { z-index: 3; }
+.queue-avatar-stack-item:nth-child(4) { z-index: 2; }
+
+.queue-cohort-count {
+  font-size: 11px;
+  font-weight: 800;
+  background: rgba(0, 242, 254, 0.25);
+  border: 1px solid rgba(0, 242, 254, 0.6);
+  color: #00f2fe;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.q-cohort {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  color: #002244;
+  box-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+}
+
+/* Hiệu ứng Drop-in thông báo nổi */
+.drop-in-banner {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, rgba(0, 242, 254, 0.95), rgba(79, 172, 254, 0.95));
+  color: #001a33;
+  padding: 10px 24px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 900;
+  box-shadow: 0 10px 30px rgba(0, 242, 254, 0.6);
+  z-index: 100;
+  animation: dropInBounce 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, dropInFadeOut 0.5s ease 2.5s forwards;
+  pointer-events: none;
+}
+
+.drop-in-banner img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+@keyframes dropInBounce {
+  0% { transform: translateX(-50%) translateY(-50px) scale(0.6); opacity: 0; }
+  100% { transform: translateX(-50%) translateY(0) scale(1); opacity: 1; }
+}
+
+@keyframes dropInFadeOut {
+  0% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-30px); }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 /* ============================================================
    HUD FOOTER (HÀNG ĐỢI & THÔNG ĐIỆP CHỦ PHÒNG)
 ============================================================ */

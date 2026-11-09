@@ -12,9 +12,13 @@ const provincePin = document.getElementById('provincePin');
 const pinAvatar = document.getElementById('pinAvatar');
 const pinName = document.getElementById('pinName');
 const pinBadge = document.getElementById('pinBadge');
+const pinCohortBadge = document.getElementById('pinCohortBadge');
 const visitorSpotlight = document.getElementById('visitorSpotlight');
 const spotlightAvatar = document.getElementById('spotlightAvatar');
 const spotlightNickname = document.getElementById('spotlightNickname');
+const spotlightRole = document.getElementById('spotlightRole');
+const spotlightCrown = document.getElementById('spotlightCrown');
+const spotlightCohort = document.getElementById('spotlightCohort');
 
 // Header HUD Elements
 const roundNumberEl = document.getElementById('roundNumber');
@@ -182,14 +186,54 @@ function focusProvince(visitData) {
   provincePin.style.top = `${pinScreenY}px`;
   provincePin.classList.add('visible');
 
-  pinAvatar.src = visitData.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face';
+  const leader = visitData.leader || visitData.user || {};
+  const visitors = Array.isArray(visitData.visitors) && visitData.visitors.length > 0 
+    ? visitData.visitors 
+    : [leader];
+
+  pinAvatar.src = leader.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face';
   pinName.textContent = visitData.provinceName;
   pinBadge.textContent = `+${visitData.visitCount !== undefined ? visitData.visitCount : 0}`;
 
+  if (pinCohortBadge) {
+    if (visitors.length > 1) {
+      pinCohortBadge.style.display = 'inline-block';
+      pinCohortBadge.textContent = `👥 ${visitors.length}`;
+    } else {
+      pinCohortBadge.style.display = 'none';
+    }
+  }
 
   // Cập nhật Spotlight Avatar lớn ở dưới
-  spotlightAvatar.src = visitData.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face';
-  spotlightNickname.textContent = visitData.user.nickname || 'Khán giả';
+  spotlightAvatar.src = leader.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=face';
+  spotlightNickname.textContent = leader.nickname || 'Khán giả';
+
+  if (spotlightRole) {
+    if (visitors.length > 1) {
+      spotlightRole.textContent = `👑 TRƯỞNG ĐOÀN (${visitors.length} NGƯỜI)`;
+    } else {
+      spotlightRole.textContent = `🚩 ĐỒNG HƯƠNG`;
+    }
+  }
+
+  if (spotlightCohort) {
+    if (visitors.length > 1) {
+      const otherVisitors = visitors.filter(v => v.uniqueId !== leader.uniqueId);
+      const displayVisitors = otherVisitors.slice(0, 4);
+      let cohortHtml = displayVisitors.map(v => `
+        <div class="cohort-member-pill">
+          <img src="${v.profilePictureUrl || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=60&h=60&fit=crop&crop=face'}" alt="Avatar">
+          <span>${escapeHtml(v.nickname || 'Bạn')}</span>
+        </div>
+      `).join('');
+      if (otherVisitors.length > 4) {
+        cohortHtml += `<span class="cohort-more-pill">+${otherVisitors.length - 4}</span>`;
+      }
+      spotlightCohort.innerHTML = cohortHtml;
+    } else {
+      spotlightCohort.innerHTML = '';
+    }
+  }
 }
 
 // ============================================================
@@ -352,6 +396,9 @@ function renderQueue(queue) {
     let badgeHtml = '<span class="q-badge q-free">💬 Thường</span>';
 
     const coins = item.coins || 0;
+    const visitors = item.visitors && item.visitors.length > 0 ? item.visitors : (item.user ? [item.user] : []);
+    const leader = item.leader || item.user || {};
+
     if (coins >= 200 || item.perkType === 'vip') {
       themeClass = 'card-vip';
       badgeHtml = `<span class="q-badge q-vip">👑 ${coins} xu</span>`;
@@ -361,6 +408,8 @@ function renderQueue(queue) {
     } else if (coins > 0 || item.perkType === 'gift') {
       themeClass = 'card-gift';
       badgeHtml = `<span class="q-badge q-gift">🌹 ${coins} xu</span>`;
+    } else if (visitors.length >= 2 || item.perkType === 'cohort') {
+      badgeHtml = `<span class="q-badge q-cohort">👥 Đoàn ${visitors.length}</span>`;
     } else if (item.perkType === 'follower') {
       badgeHtml = '<span class="q-badge q-follower">⭐ Follower</span>';
     } else if (item.perkType === 'share') {
@@ -370,7 +419,26 @@ function renderQueue(queue) {
     }
 
     const orderStr = (idx + 1) < 10 ? `0${idx + 1}` : `${idx + 1}`;
-    const userName = (item.user && item.user.nickname) ? item.user.nickname : '';
+    
+    // Stacked avatars HTML
+    let avatarStackHtml = '';
+    if (visitors.length > 0) {
+      const stackImgs = visitors.slice(0, 4).map(v => 
+        `<img class="queue-avatar-stack-item" src="${v.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=50&h=50&fit=crop&crop=face'}" title="${escapeHtml(v.nickname || 'Khán giả')}" alt="User">`
+      ).join('');
+      const countTag = visitors.length > 1 ? `<span class="queue-cohort-count">👥 ${visitors.length}</span>` : '';
+      avatarStackHtml = `
+        <div class="queue-avatar-row">
+          <div class="queue-avatar-stack">${stackImgs}</div>
+          ${countTag}
+        </div>
+      `;
+    }
+
+    const leaderName = leader.nickname ? escapeHtml(leader.nickname) : 'Khán giả';
+    const subText = visitors.length > 1 
+      ? `👑 ${leaderName} + ${visitors.length - 1} bạn`
+      : leaderName;
 
     return `
       <div class="queue-card ${themeClass}">
@@ -380,12 +448,49 @@ function renderQueue(queue) {
         </div>
         <div class="queue-card-body">
           <span class="name">${item.provinceName}</span>
-          ${userName ? `<span class="user-sub">${userName}</span>` : ''}
+          <span class="user-sub">${subText}</span>
+          ${avatarStackHtml}
         </div>
       </div>
     `;
   }).join('');
 }
+
+// Sự kiện Nhập đoàn tức thì (Instant Drop-in)
+socket.on('visitorDropIn', data => {
+  // 1. Hiển thị banner nổi bật
+  const banner = document.createElement('div');
+  banner.className = 'drop-in-banner';
+  banner.innerHTML = `
+    <img src="${data.user.profilePictureUrl || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop&crop=face'}" alt="Avatar">
+    <span>${data.isLeader ? '👑 ' : '✨ '}<b>${escapeHtml(data.user.nickname)}</b> vừa ${data.isLeader ? 'làm TRƯỞNG ĐOÀN' : 'nhập đoàn'} ${escapeHtml(data.provinceName)}! (Tổng: ${data.totalVisitors} người)</span>
+  `;
+  document.body.appendChild(banner);
+  setTimeout(() => {
+    if (banner.parentNode) banner.parentNode.removeChild(banner);
+  }, 3000);
+
+  // 2. Hiệu ứng hạt tim
+  createHeartBurst(540, 750);
+
+  // 3. Cập nhật ngay spotlight nếu đang chiếu cùng tỉnh
+  if (currentProvinceData && currentProvinceData.provinceId === data.provinceId) {
+    if (!currentProvinceData.visitors) {
+      currentProvinceData.visitors = [];
+    }
+    const idx = currentProvinceData.visitors.findIndex(v => v.uniqueId === data.user.uniqueId);
+    if (idx >= 0) {
+      currentProvinceData.visitors[idx] = data.user;
+    } else {
+      currentProvinceData.visitors.push(data.user);
+    }
+    if (data.isLeader || data.leader) {
+      currentProvinceData.leader = data.leader || data.user;
+      currentProvinceData.user = currentProvinceData.leader;
+    }
+    focusProvince(currentProvinceData);
+  }
+});
 
 // ============================================================
 // 5. HIỆU ỨNG THÔNG BÁO NỔI (TOAST NOTIFICATIONS)
