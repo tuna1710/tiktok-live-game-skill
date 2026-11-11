@@ -3,7 +3,7 @@
 	viewBox="0 0 703 900"
 	aria-label="Map of Viet Nam"
 >
-<g id="mapGroup" style="transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1); transform-origin: 0 0;">
+<g id="mapGroup">
 
 	<path
 		id="angiang"

@@ -308,34 +308,109 @@ body {
 }
 
 .svg-container svg {
-  width: 980px;
-  height: 1250px;
-  max-width: 100%;
-  max-height: 100%;
-  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.8));
+  width: 880px;
+  height: 1120px;
+  max-width: 96%;
+  max-height: 96%;
+  filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.85));
 }
 
-/* Tỉnh thành mặc định */
+/* Tỉnh thành mặc định: nền tối huyền ảo */
 .svg-container svg path {
-  fill: #14383e;
-  stroke: #0a2125;
-  stroke-width: 1.2px;
-  transition: fill 0.8s ease, stroke 0.8s ease, filter 0.8s ease;
+  fill: #112d38;
+  stroke: #1b4252;
+  stroke-width: 1px;
+  transition: fill 0.3s ease, stroke 0.3s ease, filter 0.3s ease;
   cursor: pointer;
 }
 
-/* Tỉnh đang được ghé thăm: Đổi màu vàng neon phát sáng rực rỡ */
+.svg-container svg path:hover {
+  fill: #194354;
+  stroke: #38bdf8;
+}
+
+/* Tỉnh đang được ghé thăm: Vàng neon phát sáng rực rỡ */
 .svg-container svg path.active-province {
-  fill: #ebcd72 !important;
-  stroke: #ffe600 !important;
-  stroke-width: 3.5px !important;
-  filter: drop-shadow(0 0 25px rgba(255, 230, 0, 0.95)) !important;
+  fill: #f59e0b !important;
+  stroke: #fef08a !important;
+  stroke-width: 2.5px !important;
+  filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.95)) drop-shadow(0 0 30px rgba(254, 240, 138, 0.6)) !important;
   animation: pulseGlow 1.8s infinite alternate;
 }
 
 @keyframes pulseGlow {
-  0% { filter: drop-shadow(0 0 15px rgba(255, 230, 0, 0.7)); }
-  100% { filter: drop-shadow(0 0 35px rgba(255, 230, 0, 1)); fill: #ffd875; }
+  0% { 
+    filter: drop-shadow(0 0 14px rgba(245, 158, 11, 0.85));
+    fill: #f59e0b;
+  }
+  100% { 
+    filter: drop-shadow(0 0 28px rgba(251, 191, 36, 1)) drop-shadow(0 0 45px rgba(245, 158, 11, 0.7)); 
+    fill: #fbbf24;
+  }
+}
+
+/* Hiệu ứng chớp sáng cực mạnh khi ăn điểm (Point Flash Burst) */
+.svg-container svg path.point-flash {
+  animation: pointBurstFlash 1.4s ease-out !important;
+}
+
+@keyframes pointBurstFlash {
+  0% {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+    stroke-width: 4px !important;
+    filter: drop-shadow(0 0 30px #ffffff) drop-shadow(0 0 60px #38bdf8) !important;
+  }
+  25% {
+    fill: #38bdf8 !important;
+    stroke: #e0f2fe !important;
+    stroke-width: 3.5px !important;
+    filter: drop-shadow(0 0 35px #38bdf8) drop-shadow(0 0 70px #0284c7) !important;
+  }
+  60% {
+    fill: #f59e0b !important;
+    stroke: #fef08a !important;
+    stroke-width: 3px !important;
+    filter: drop-shadow(0 0 25px #f59e0b) !important;
+  }
+  100% {
+    fill: #f59e0b !important;
+    stroke: #fef08a !important;
+    stroke-width: 2.5px !important;
+  }
+}
+
+/* Số điểm bay lên (Floating Point Badge) khi được cộng điểm */
+.floating-score {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-size: 26px;
+  font-weight: 900;
+  color: #fef08a;
+  text-shadow: 0 0 14px rgba(245, 158, 11, 0.95), 0 2px 5px rgba(0,0,0,0.9);
+  z-index: 50;
+  white-space: nowrap;
+  animation: floatUpFade 1.5s ease-out forwards;
+}
+
+@keyframes floatUpFade {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.6);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -18px) scale(1.2);
+  }
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -45px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -70px) scale(0.85);
+  }
 }
 
 /* Marker ghim avatar trên tỉnh */
@@ -348,7 +423,7 @@ body {
   pointer-events: none;
   z-index: 30;
   opacity: 0;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.4s ease, left 0.6s cubic-bezier(0.25, 1, 0.5, 1), top 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .province-pin.visible {
@@ -824,138 +899,175 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 12px;
-  padding: 16px 24px;
-  background: linear-gradient(135deg, rgba(14, 34, 52, 0.9) 0%, rgba(8, 20, 32, 0.96) 100%);
-  border: 1.5px solid rgba(88, 166, 255, 0.35);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
+  gap: 14px;
+  padding: 18px 24px;
+  background: rgba(6, 18, 30, 0.95);
+  border: 2px solid rgba(56, 189, 248, 0.45);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 25px rgba(56, 189, 248, 0.15);
+  border-radius: 22px;
 }
 
 .rules-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 8px;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 10px;
 }
 
 .rules-tag {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .rules-icon {
-  font-size: 22px;
-  filter: drop-shadow(0 0 6px #ffb703);
+  font-size: 24px;
+  filter: drop-shadow(0 0 8px #ffb703);
 }
 
 .rules-title {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.8px;
   color: #ffde59;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(255, 222, 89, 0.4);
+  text-shadow: 0 0 12px rgba(255, 222, 89, 0.5);
 }
 
 .rules-countdown-wrap {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  color: #9cb3c9;
-  font-weight: 600;
-  background: rgba(0, 0, 0, 0.45);
-  padding: 4px 12px;
+  gap: 8px;
+  font-size: 15px;
+  color: #cbd5e1;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 14px;
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(56, 189, 248, 0.35);
 }
 
 .rules-clock {
   font-weight: 900;
-  color: #00f2fe;
+  color: #38bdf8;
   font-family: monospace;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
-.rules-content {
+.rules-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px 12px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
 }
 
-.rule-line {
+.rule-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 2px solid;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rule-card:hover {
+  transform: translateY(-2px);
+}
+
+.rule-card-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.03);
-  padding: 8px 12px;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  gap: 8px;
 }
 
-.rule-line-full {
-  grid-column: span 2;
-}
-
-.rule-badge {
-  font-size: 12px;
-  font-weight: 900;
-  padding: 4px 9px;
-  border-radius: 6px;
-  white-space: nowrap;
+.rule-card-icon {
+  font-size: 24px;
   flex-shrink: 0;
-  text-transform: uppercase;
+}
+
+.rule-card-title {
+  font-size: 15px;
+  font-weight: 900;
   letter-spacing: 0.3px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.badge-cmt {
-  background: rgba(88, 166, 255, 0.2);
-  color: #58a6ff;
-  border: 1px solid rgba(88, 166, 255, 0.4);
-}
-
-.badge-leader {
-  background: rgba(255, 215, 0, 0.2);
-  color: #ffd700;
-  border: 1px solid rgba(255, 215, 0, 0.5);
-}
-
-.badge-score {
-  background: rgba(255, 0, 127, 0.2);
-  color: #ff416c;
-  border: 1px solid rgba(255, 0, 127, 0.4);
-}
-
-.badge-vip {
-  background: rgba(112, 0, 255, 0.25);
-  color: #d2a8ff;
-  border: 1px solid rgba(163, 113, 247, 0.5);
-}
-
-.badge-like {
-  background: rgba(239, 68, 68, 0.2);
-  color: #f87171;
-  border: 1px solid rgba(239, 68, 68, 0.4);
-}
-
-.rule-desc {
+.rule-card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   font-size: 14px;
-  font-weight: 600;
-  color: #e6edf3;
-  line-height: 1.35;
+  font-weight: 700;
+  color: #f1f5f9;
+  gap: 6px;
 }
 
-.rule-desc b {
-  color: #fff;
-  font-weight: 800;
+.rule-highlight {
+  font-size: 15px;
+  font-weight: 900;
+  padding: 3px 8px;
+  border-radius: 8px;
+  white-space: nowrap;
 }
 
-.rule-desc i {
-  color: #79c0ff;
-  font-style: normal;
+/* Thẻ 1: Xanh Cyan (Chat / Tên tỉnh) */
+.card-cyan {
+  background: linear-gradient(135deg, rgba(8, 47, 73, 0.9) 0%, rgba(3, 27, 43, 0.95) 100%);
+  border-color: #38bdf8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(56, 189, 248, 0.25);
+}
+.card-cyan .rule-card-title { color: #7dd3fc; }
+.card-cyan .rule-highlight {
+  background: rgba(56, 189, 248, 0.25);
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+}
+
+/* Thẻ 2: Đỏ Hồng (Tim / Follow) */
+.card-rose {
+  background: linear-gradient(135deg, rgba(76, 5, 25, 0.9) 0%, rgba(40, 2, 12, 0.95) 100%);
+  border-color: #fb7185;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(251, 113, 133, 0.25);
+}
+.card-rose .rule-card-title { color: #fda4af; }
+.card-rose .rule-highlight {
+  background: rgba(251, 113, 133, 0.25);
+  color: #fb7185;
+  border: 1px solid #fb7185;
+}
+
+/* Thẻ 3: Vàng Hoàng Kim (Xu / Đua Top) */
+.card-gold {
+  background: linear-gradient(135deg, rgba(69, 44, 4, 0.9) 0%, rgba(38, 23, 1, 0.95) 100%);
+  border-color: #facc15;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 18px rgba(250, 204, 21, 0.3);
+}
+.card-gold .rule-card-title { color: #fde047; }
+.card-gold .rule-highlight {
+  background: rgba(250, 204, 21, 0.25);
+  color: #facc15;
+  border: 1px solid #facc15;
+}
+
+/* Thẻ 4: Tím VIP (Chen Hàng) */
+.card-purple {
+  background: linear-gradient(135deg, rgba(59, 7, 100, 0.9) 0%, rgba(32, 3, 56, 0.95) 100%);
+  border-color: #c084fc;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 18px rgba(192, 132, 252, 0.3);
+}
+.card-purple .rule-card-title { color: #d8b4fe; }
+.card-purple .rule-highlight {
+  background: rgba(192, 132, 252, 0.25);
+  color: #c084fc;
+  border: 1px solid #c084fc;
 }
 
 .host-avatar {

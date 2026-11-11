@@ -814,6 +814,16 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
     gameState.currentVisit.visitCount += pointsToAdd;
     gameState.provinceStats[targetProvince.id] = gameState.currentVisit.visitCount;
 
+    if (pointsToAdd > 0) {
+      io.emit('provincePointAdded', {
+        provinceId: targetProvince.id,
+        provinceName: matched.displayName,
+        svgIds: targetProvince.svgIds,
+        points: pointsToAdd,
+        totalScore: gameState.provinceStats[targetProvince.id]
+      });
+    }
+
     // Phát sự kiện Nhập đoàn tức thì (Drop-in) cho Client
     io.emit('visitorDropIn', {
       provinceId: targetProvince.id,
@@ -1065,6 +1075,17 @@ function handleGiftEvent(giftData) {
 
   sortQueue();
   io.emit('queueUpdated', gameState.queue);
+
+  if (targetProvinceId && pointsFromGift > 0) {
+    const targetProv = PROVINCES.find(p => p.id === targetProvinceId);
+    io.emit('provincePointAdded', {
+      provinceId: targetProvinceId,
+      provinceName: targetProvinceName,
+      svgIds: targetProv ? targetProv.svgIds : null,
+      points: pointsFromGift,
+      totalScore: gameState.provinceStats[targetProvinceId]
+    });
+  }
 
   // 4. Hiệu ứng & Lời thoại MC
   if (totalCoins >= VIP_COIN_THRESHOLD) {
@@ -1547,6 +1568,15 @@ io.on('connection', socket => {
       gameState.currentVisit.visitCount = gameState.provinceStats[provinceId];
       io.emit('provinceChanged', gameState.currentVisit);
     }
+    const targetProv = PROVINCES.find(p => p.id === provinceId);
+    io.emit('provincePointAdded', {
+      provinceId: provinceId,
+      provinceName: targetProv ? targetProv.name : provinceId,
+      svgIds: targetProv ? targetProv.svgIds : null,
+      points: points,
+      totalScore: gameState.provinceStats[provinceId],
+      reason: 'buff'
+    });
     gameState.leaderboard = getTopProvinces(5);
     io.emit('leaderboardUpdated', gameState.leaderboard);
     io.emit('gameState', gameState);

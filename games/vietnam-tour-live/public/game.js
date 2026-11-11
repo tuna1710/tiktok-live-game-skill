@@ -162,28 +162,25 @@ function focusProvince(visitData) {
   const cx = minX + bboxW / 2;
   const cy = minY + bboxH / 2;
 
-  // Zoom scale trong SVG (giữ tỉnh vừa vặn vùng hiển thị)
-  const provinceSize = Math.max(bboxW, bboxH);
-  const zoomScale = Math.min(3.2, Math.max(1.9, 270 / Math.max(provinceSize, 45)));
+  // ĐẢM BẢO BẢN ĐỒ CỐ ĐỊNH TOÀN CẢNH (KHÔNG PAN & ZOOM)
+  mapGroup.style.transform = 'none';
+  mapGroup.style.transition = 'none';
 
-  // Căn tâm tỉnh vào vị trí trên của bản đồ (351.5, 380) để chừa chỗ cho avatar spotlight ở dưới
-  const targetSvgX = 351.5;
-  const targetSvgY = 380;
+  // Cập nhật vị trí ghim Avatar chính xác trên tọa độ thực của tỉnh trên bản đồ tĩnh
+  const svgRect = svg.getBoundingClientRect();
+  const containerRect = mapZoomContainer.getBoundingClientRect();
+  const currentScale = parseFloat(gameContainer.style.transform.replace(/[^0-9.]/g, '')) || 1;
 
-  const translateX = targetSvgX - cx * zoomScale;
-  const translateY = targetSvgY - cy * zoomScale;
+  const svgLeft = (svgRect.left - containerRect.left) / currentScale;
+  const svgTop = (svgRect.top - containerRect.top) / currentScale;
+  const svgW = svgRect.width / currentScale;
+  const svgH = svgRect.height / currentScale;
 
-  // Áp dụng transform cho group trong SVG
-  mapGroup.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomScale})`;
-  mapGroup.style.transformOrigin = '0 0';
-  mapGroup.style.transition = 'transform 1.2s cubic-bezier(0.25, 1, 0.5, 1)';
+  const pinX = svgLeft + (cx / 703) * svgW;
+  const pinY = svgTop + (cy / 900) * svgH;
 
-  // Cập nhật vị trí ghim Avatar trên tỉnh (ngay tại điểm tâm đã zoom)
-  const renderedSvgH = svg.clientHeight || 1250;
-  const pinScreenY = targetSvgY * (renderedSvgH / 900);
-
-  provincePin.style.left = `540px`;
-  provincePin.style.top = `${pinScreenY}px`;
+  provincePin.style.left = `${pinX}px`;
+  provincePin.style.top = `${pinY}px`;
   provincePin.classList.add('visible');
 
   const leader = visitData.leader || visitData.user || {};
@@ -234,6 +231,83 @@ function focusProvince(visitData) {
       spotlightCohort.innerHTML = '';
     }
   }
+}
+
+// ============================================================
+// HIỆU ỨNG SÁNG ĐÈN & SỐ ĐIỂM BAY LÊN KHI ĂN ĐIỂM (POINT GLOW)
+// ============================================================
+function triggerProvincePointGlow(visitData, points) {
+  if (!svgContainer || !visitData) return;
+  const svg = svgContainer.querySelector('svg');
+  if (!svg) return;
+
+  const rawIds = visitData.svgIds || [visitData.svgId || (visitData.provinceId ? visitData.provinceId.replace(/-/g, '') : '')];
+  const svgIds = Array.isArray(rawIds) ? rawIds : [rawIds];
+
+  let targetPaths = [];
+  svgIds.forEach(id => {
+    if (!id) return;
+    const p = svg.querySelector(`#${id}`);
+    if (p) targetPaths.push(p);
+  });
+
+  if (targetPaths.length === 0 && visitData.provinceName) {
+    const fallback = svg.querySelector(`[name*="${visitData.provinceName}"]`);
+    if (fallback) targetPaths.push(fallback);
+  }
+
+  // 1. Chớp sáng neon rực rỡ trên path của tỉnh
+  targetPaths.forEach(path => {
+    path.classList.remove('point-flash');
+    void path.offsetWidth; // Force reflow
+    path.classList.add('point-flash');
+    setTimeout(() => {
+      path.classList.remove('point-flash');
+    }, 1500);
+  });
+
+  // 2. Bắn số điểm bay lên (Floating Point Badge) từ vị trí của tỉnh
+  if (points && targetPaths.length > 0) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    targetPaths.forEach(path => {
+      try {
+        const b = path.getBBox();
+        if (b.x < minX) minX = b.x;
+        if (b.y < minY) minY = b.y;
+        if (b.x + b.width > maxX) maxX = b.x + b.width;
+        if (b.y + b.height > maxY) maxY = b.y + b.height;
+      } catch (e) {}
+    });
+
+    const cx = minX + (maxX - minX) / 2;
+    const cy = minY + (maxY - minY) / 2;
+
+    const svgRect = svg.getBoundingClientRect();
+    const containerRect = mapZoomContainer.getBoundingClientRect();
+    const currentScale = parseFloat(gameContainer.style.transform.replace(/[^0-9.]/g, '')) || 1;
+
+    const svgLeft = (svgRect.left - containerRect.left) / currentScale;
+    const svgTop = (svgRect.top - containerRect.top) / currentScale;
+    const svgW = svgRect.width / currentScale;
+    const svgH = svgRect.height / currentScale;
+
+    const posX = svgLeft + (cx / 703) * svgW;
+    const posY = svgTop + (cy / 900) * svgH;
+
+    spawnFloatingScore(posX, posY, points);
+  }
+}
+
+function spawnFloatingScore(x, y, points) {
+  const badge = document.createElement('div');
+  badge.className = 'floating-score';
+  badge.textContent = `+${points} ⭐`;
+  badge.style.left = `${x}px`;
+  badge.style.top = `${y}px`;
+  mapZoomContainer.appendChild(badge);
+  setTimeout(() => {
+    if (badge.parentNode) badge.parentNode.removeChild(badge);
+  }, 1600);
 }
 
 // ============================================================
@@ -500,6 +574,26 @@ socket.on('visitorDropIn', data => {
     }
     focusProvince(currentProvinceData);
   }
+
+  // 4. Kích hoạt hiệu ứng sáng đèn khi nhập đoàn (+1 điểm)
+  triggerProvincePointGlow(data, 1);
+});
+
+// Sự kiện nhận điểm cho tỉnh (Glow sáng đèn & Số điểm bay lên)
+socket.on('provincePointAdded', data => {
+  let provData = null;
+  if (currentProvinceData && (currentProvinceData.provinceId === data.provinceId || currentProvinceData.id === data.provinceId)) {
+    provData = currentProvinceData;
+    if (pinBadge) {
+      pinBadge.textContent = `+${data.totalScore !== undefined ? data.totalScore : (currentProvinceData.visitCount || 0)}`;
+    }
+  } else if (provincesMetadata) {
+    provData = provincesMetadata.find(p => p.id === data.provinceId);
+  }
+  if (!provData) {
+    provData = { provinceId: data.provinceId, provinceName: data.provinceName, svgIds: data.svgIds };
+  }
+  triggerProvincePointGlow(provData, data.points);
 });
 
 // ============================================================

@@ -155,12 +155,12 @@
         </div>
       </div>
 
-      <!-- Khung Bảng Luật Chơi & Đặc Quyền TikTok Live -->
-      <div class="host-pinned-card rules-card">
+      <!-- Khung Bảng Hướng Dẫn & Đặc Quyền Đua Top (4 Thẻ Infographic Rõ Ràng) -->
+      <div class="rules-card">
         <div class="rules-header">
           <div class="rules-tag">
             <span class="rules-icon">📜</span>
-            <span class="rules-title">LUẬT CHƠI & ĐẶC QUYỀN ĐUA TOP</span>
+            <span class="rules-title">HƯỚNG DẪN CHƠI & ĐẶC QUYỀN ĐUA TOP</span>
           </div>
           <div class="rules-countdown-wrap">
             <span class="rules-clock-icon">⏱️</span>
@@ -168,28 +168,58 @@
             <span id="rulesCountdown" class="rules-clock">15:00</span>
           </div>
         </div>
-        <div class="rules-content">
-          <div class="rule-line">
-            <span class="rule-badge badge-cmt">💬 Bình luận</span>
-            <span class="rule-desc">Gõ tên tỉnh (<i>Hà Nội, 36...</i>) vào đoàn về quê (<b id="ruleDescCmt">+1đ/hiệp</b>)</span>
+
+        <div class="rules-grid">
+          <!-- Thẻ 1: Bình luận -->
+          <div class="rule-card card-cyan">
+            <div class="rule-card-header">
+              <span class="rule-card-icon">💬</span>
+              <span class="rule-card-title">GÕ TÊN TỈNH / BIỂN SỐ</span>
+            </div>
+            <div class="rule-card-body">
+              <span>Vào đoàn quê hương</span>
+              <span class="rule-highlight" id="ruleDescCmt">+1đ</span>
+            </div>
           </div>
-          <div class="rule-line">
-            <span class="rule-badge badge-like">❤️ Tương tác</span>
-            <span class="rule-desc"><b id="ruleDescLikes">100 Tim</b> = 1đ • <b id="ruleDescShares">10 Share</b> = 1đ • <b id="ruleDescFollow">1 Follow</b> = 1đ</span>
+
+          <!-- Thẻ 2: Tương tác -->
+          <div class="rule-card card-rose">
+            <div class="rule-card-header">
+              <span class="rule-card-icon">❤️</span>
+              <span class="rule-card-title">THẢ TIM & CHIA SẺ</span>
+            </div>
+            <div class="rule-card-body">
+              <span><b id="ruleDescLikes">100 Tim</b> / <b id="ruleDescFollow">1 Follow</b></span>
+              <span class="rule-highlight">+1đ</span>
+            </div>
           </div>
-          <div class="rule-line">
-            <span class="rule-badge badge-score" id="ruleBadgeCoins">🌹 1 Xu = 30 Điểm</span>
-            <span class="rule-desc">Tặng quà buff <b>Điểm Yêu thương</b> đưa tỉnh lên Top 1 Bảng Vàng 15 phút</span>
+
+          <!-- Thẻ 3: Tặng quà 1 xu -->
+          <div class="rule-card card-gold">
+            <div class="rule-card-header">
+              <span class="rule-card-icon">🌹</span>
+              <span class="rule-card-title" id="ruleBadgeCoins">🌹 1 XU = 30 ĐIỂM</span>
+            </div>
+            <div class="rule-card-body">
+              <span>Đua Top Bảng Vàng</span>
+              <span class="rule-highlight">Buff cực nhanh</span>
+            </div>
           </div>
-          <div class="rule-line">
-            <span class="rule-badge badge-vip">⚡ Vé Chen Hàng</span>
-            <span class="rule-desc">Từ <b>5 Xu</b> (Vé Đọc Nhanh ⚡) • Từ <b>20 Xu</b> (VIP Hoàng Kim 👑)</span>
-          </div>
-          <div class="rule-line rule-line-full">
-            <span class="rule-badge badge-leader">👑 Trưởng đoàn</span>
-            <span class="rule-desc">Người tặng nhiều xu nhất tỉnh sẽ được đội Vương miện Trưởng đoàn</span>
+
+          <!-- Thẻ 4: Vé VIP chen hàng -->
+          <div class="rule-card card-purple">
+            <div class="rule-card-header">
+              <span class="rule-card-icon">👑</span>
+              <span class="rule-card-title">CHEN HÀNG ĐỌC TRƯỚC</span>
+            </div>
+            <div class="rule-card-body">
+              <span>Tặng từ <b>5 - 20 Xu</b></span>
+              <span class="rule-highlight">Trưởng đoàn VIP</span>
+            </div>
           </div>
         </div>
+        <!-- Thẻ ẩn để tương thích bộ lắng nghe config Shares -->
+        <span id="ruleDescShares" style="display:none;"></span>
       </div>
 
       <!-- Notification Toast container (Follow, Gift popup tím rực rỡ) -->
