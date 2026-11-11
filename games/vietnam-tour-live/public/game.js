@@ -645,60 +645,193 @@ function showToast(message) {
 }
 
 // ============================================================
-// 6. GIỌNG ĐỌC AI TIẾNG VIỆT (TTS AUDIO ENGINE)
+// 6. GIỌNG ĐỌC AI TIẾNG VIỆT & HÀNG ĐỢI ƯU TIÊN (PRIORITY AUDIO ENGINE)
 // ============================================================
+let isAudioUnlocked = false;
+let currentPlayingPriority = 3;
+let ttsTimeoutTimer = null;
+
+function unlockAudio() {
+  if (isAudioUnlocked) return;
+  isAudioUnlocked = true;
+
+  try {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (AudioContext) {
+      const audioCtx = new AudioContext();
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+  } catch (e) {}
+
+  // Mở khóa thẻ audio
+  if (ttsAudio) {
+    ttsAudio.play().then(() => {
+      ttsAudio.pause();
+      ttsAudio.currentTime = 0;
+    }).catch(() => {});
+  }
+
+  const btn = document.getElementById('audioUnlockBtn');
+  if (btn) btn.style.display = 'none';
+
+  console.log('✅ Âm thanh Livestream đã được mở khóa thành công!');
+  if (!isPlayingTts && ttsQueue.length > 0) {
+    playNextTts();
+  }
+}
+
+window.addEventListener('click', unlockAudio, { passive: true });
+window.addEventListener('keydown', unlockAudio, { passive: true });
+window.addEventListener('touchstart', unlockAudio, { passive: true });
+
 socket.on('playTts', data => {
   if (data && data.text) {
-    queueTts(data.text);
+    const priority = Number(data.priority) || 3;
+    queueTts(data.text, priority);
   }
 });
 
-function queueTts(text) {
-  // Giới hạn hàng đợi tối đa 4 câu để tránh trôi xa tương tác thời gian thực
-  if (ttsQueue.length >= 4) {
-    ttsQueue.splice(1, 1);
+// Thêm câu thoại vào hàng đợi theo thứ tự ưu tiên:
+// Priority 1: Tặng quà (Quà VIP / Quà xu)
+// Priority 2: Follow
+// Priority 3: Thả tim & Bình luận
+function queueTts(text, priority = 3) {
+  if (!text) return;
+
+  const item = { text: String(text).trim(), priority };
+
+  if (priority === 1) {
+    // Nếu đang phát câu bình luận/tim thường (priority 3), ngắt ngay để xướng tên quà!
+    if (isPlayingTts && currentPlayingPriority >= 3) {
+      try {
+        ttsAudio.pause();
+        ttsAudio.currentTime = 0;
+      } catch (e) {}
+      isPlayingTts = false;
+    }
+    // Chèn quà lên vị trí ĐẦU TIÊN
+    ttsQueue.unshift(item);
+  } else if (priority === 2) {
+    // Follow: xếp sau quà, trước bình luận
+    const insertIdx = ttsQueue.findIndex(i => i.priority > 2);
+    if (insertIdx >= 0) {
+      ttsQueue.splice(insertIdx, 0, item);
+    } else {
+      ttsQueue.push(item);
+    }
+  } else {
+    // Bình luận / Thả tim (Priority 3):
+    // Nếu đã có từ 2 câu bình luận đang chờ, bỏ bớt để không làm trễ quà/follow
+    const lowPriorityCount = ttsQueue.filter(i => i.priority === 3).length;
+    if (lowPriorityCount >= 2) {
+      return;
+    }
+    ttsQueue.push(item);
   }
-  ttsQueue.push(text);
-  if (!isPlayingTts) {
+
+  // Giới hạn tối đa 4 câu trong hàng đợi
+  if (ttsQueue.length > 4) {
+    const removeIdx = ttsQueue.findIndex(i => i.priority === 3);
+    if (removeIdx >= 0) {
+      ttsQueue.splice(removeIdx, 1);
+    } else {
+      ttsQueue.pop();
+    }
+  }
+
+  if (!isPlayingTts && isAudioUnlocked) {
     playNextTts();
   }
 }
 
 function playNextTts() {
+  if (ttsTimeoutTimer) {
+    clearTimeout(ttsTimeoutTimer);
+    ttsTimeoutTimer = null;
+  }
+
   if (ttsQueue.length === 0) {
+    isPlayingTts = false;
+    currentPlayingPriority = 3;
+    return;
+  }
+
+  if (!isAudioUnlocked) {
+    // Chưa mở khóa âm thanh: GIỮ NGUYÊN HÀNG ĐỢI, chờ streamer chạm màn hình
     isPlayingTts = false;
     return;
   }
 
   isPlayingTts = true;
-  const text = ttsQueue.shift();
-  const url = `/api/tts?text=${encodeURIComponent(text)}`;
+  const item = ttsQueue.shift();
+  currentPlayingPriority = item.priority || 3;
+  const text = item.text;
 
+  // Timeout an toàn 6s chống kẹt vĩnh viễn
+  ttsTimeoutTimer = setTimeout(() => {
+    console.warn('TTS playback timed out (Fail-safe chuyển câu tiếp)');
+    playNextTts();
+  }, 6000);
+
+  const url = `/api/tts?text=${encodeURIComponent(text)}`;
   ttsAudio.src = url;
-  ttsAudio.playbackRate = 1.25; // Đọc nhanh 1.25x giúp giọng sôi động, chuẩn nhịp live
+  ttsAudio.playbackRate = 1.25;
   if ('preservesPitch' in ttsAudio) {
     ttsAudio.preservesPitch = true;
   }
 
+  const handleEnded = () => {
+    if (ttsTimeoutTimer) clearTimeout(ttsTimeoutTimer);
+    ttsAudio.onended = null;
+    ttsAudio.onerror = null;
+    setTimeout(playNextTts, 80);
+  };
+
+  const handleError = () => {
+    if (ttsTimeoutTimer) clearTimeout(ttsTimeoutTimer);
+    ttsAudio.onended = null;
+    ttsAudio.onerror = null;
+    console.warn('TTS fetch failed, fallback sang Web Speech:', text);
+    speakWebSpeechFallback(text, () => {
+      setTimeout(playNextTts, 80);
+    });
+  };
+
+  ttsAudio.onended = handleEnded;
+  ttsAudio.onerror = handleError;
+
   ttsAudio.play()
     .then(() => {
       ttsAudio.playbackRate = 1.25;
-      ttsAudio.onended = () => {
-        setTimeout(playNextTts, 100); // Rút ngắn khoảng nghỉ giữa 2 câu xuống 100ms
-      };
     })
-    .catch(e => {
-      console.warn('TTS playback prevented or waiting for user interaction:', e);
-      setTimeout(playNextTts, 500);
+    .catch(err => {
+      console.warn('Autoplay blocked, chờ mở khóa:', err);
+      // Đưa câu thoại lại đầu hàng đợi để phát sau khi mở khóa
+      ttsQueue.unshift(item);
+      isPlayingTts = false;
+      if (ttsTimeoutTimer) clearTimeout(ttsTimeoutTimer);
     });
 }
 
-// Kích hoạt audio khi người dùng chạm màn hình lần đầu
-window.addEventListener('click', () => {
-  if (ttsAudio.paused && ttsQueue.length > 0) {
-    playNextTts();
+// Giọng đọc dự phòng Web Speech API khi mạng mất kết nối
+function speakWebSpeechFallback(text, callback) {
+  if ('speechSynthesis' in window) {
+    try {
+      window.speechSynthesis.cancel();
+      const clean = text.replace(/[^\p{L}\p{N}\s]/gu, '').slice(0, 80);
+      const utterance = new SpeechSynthesisUtterance(clean);
+      utterance.lang = 'vi-VN';
+      utterance.rate = 1.25;
+      utterance.onend = callback;
+      utterance.onerror = callback;
+      window.speechSynthesis.speak(utterance);
+      return;
+    } catch (e) {}
   }
-}, { once: true });
+  if (callback) callback();
+}
 
 // ============================================================
 // 7. HỆ THỐNG HẠT VÀ PHÁO HOA (CANVAS FX - GPU TỐI ƯU)

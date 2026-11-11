@@ -48,4 +48,10 @@
 - [x] **Bước 1:** Thiết kế lại giao diện Bản đồ tĩnh & cơ chế sáng đèn neon (`game.js` & `style.css`) - ĐÃ HOÀN THÀNH.
 - [x] **Bước 2:** Thiết kế lại Bảng Quy Tắc luật chơi dạng Infographic chữ to, dễ nhìn (`index.html` & `style.css`) - ĐÃ HOÀN THÀNH.
 - [x] **Bước 3:** Kiểm tra và hoàn thiện độ đồng bộ khi nhận diện tên tỉnh / biển số của 34 cụm sáp nhập (`game.js` & `provinces.json`) - ĐÃ HOÀN THÀNH.
-- [ ] **Bước 4:** Kiểm thử trực quan trên giao diện mô phỏng 9:16 và nghiệm thu.
+- [x] **Bước 4:** Xếp cả 2 bảng sang bên phải (Đua Top ở trên, Bình Luận ở dưới) để toàn bộ bên trái thoáng cho bản đồ Việt Nam - ĐÃ HOÀN THÀNH.
+- [x] **Bước 5:** Khắc phục lỗi mất tiếng và tối ưu hóa hệ thống âm thanh/lời thoại:
+  - **Nguyên nhân mất tiếng:** Autoplay policy của trình duyệt chặn âm thanh khi chưa có tương tác; vòng lặp TTS tự động nuốt sạch queue; thiếu bắt lỗi `onerror` khiến audio bị kẹt vĩnh viễn; FFmpeg trong kịch bản live dùng kênh rỗng `anullsrc`.
+  - **Giải pháp:** Bổ sung nút bấm/sự kiện mở khóa âm thanh (`unlockAudio`), fallback Web Speech API, cấu hình PulseAudio VirtualSink cho FFmpeg.
+  - **Lọc tương tác ảo:** Xóa bỏ hoàn toàn các câu nói đệm tự động không đến từ người thật (`antiDeadAir`, vòng lặp tự động đọc `cta`/`duaTop` định kỳ).
+  - **Thứ bậc ưu tiên TTS:** Tặng quà (Ưu tiên 1 - ngắt lời ngay lập tức) > Follow (Ưu tiên 2) > Thả tim & Bình luận (Ưu tiên 3). Lời thoại được tinh gọn ngắn gọn, dứt khoát.
+- [x] **Bước 6:** Kiểm thử tự động toàn diện qua `test_game.js` - ĐÃ VƯỢT QUA 100%.

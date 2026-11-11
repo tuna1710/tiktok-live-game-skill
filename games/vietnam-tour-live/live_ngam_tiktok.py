@@ -98,6 +98,18 @@ def main():
     )
     time.sleep(2)
 
+    # 1b. Khởi tạo thiết bị âm thanh ảo PulseAudio để bắt âm thanh từ Chrome
+    has_pulse = False
+    try:
+        subprocess.run(["pulseaudio", "--start", "--exit-idle-time=-1"], stderr=subprocess.DEVNULL)
+        sink_res = subprocess.run(["pactl", "load-module", "module-null-sink", "sink_name=VirtualSink", "sink_properties=device.description=VirtualSink"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if sink_res.returncode == 0:
+            subprocess.run(["pactl", "set-default-sink", "VirtualSink"], stderr=subprocess.DEVNULL)
+            has_pulse = True
+            print("🔊 Đã bật thiết bị âm thanh ảo VirtualSink (PulseAudio)")
+    except Exception:
+        pass
+
     # 2. Khởi chạy Server Node.js
     print("🚀 [4/5] Khởi chạy Server Game Node.js...")
     subprocess.run(["npm", "install", "--silent"], cwd=game_dir, check=True)
@@ -136,13 +148,14 @@ def main():
 
     # 4. Bắt đầu đẩy luồng RTMP bằng FFmpeg
     print("📡 [5/5] Đang đẩy luồng video trực tiếp lên TikTok Live qua RTMP...")
+    audio_input = ["-f", "pulse", "-i", "VirtualSink.monitor"] if has_pulse else ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
     ffmpeg_cmd = [
         "ffmpeg", "-y",
         "-f", "x11grab",
         "-video_size", f"{w}x{h}",
         "-framerate", str(fps),
-        "-i", ":99.0",
-        "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+        "-i", ":99.0"
+    ] + audio_input + [
         "-c:v", "libx264",
         "-preset", "veryfast",
         "-b:v", "3000k",

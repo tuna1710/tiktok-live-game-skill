@@ -569,31 +569,11 @@ function nextProvince() {
 
     io.emit('queueUpdated', gameState.queue);
 
-    // Thông báo TTS chuyển tỉnh đa dạng theo quy mô đoàn
-    let ttsText;
-    if (visitors.length >= 5) {
-      ttsText = getRandomLine('cohortMega', {
-        province: nextItem.ttsName || nextItem.provinceName,
-        leader: leader.nickname,
-        count: visitors.length
-      }) || `Đại gia đình đồng hương ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông đảo! Chào mừng trưởng đoàn ${leader.nickname} cùng hơn ${visitors.length} anh em đã tề tựu!`;
-    } else if (visitors.length >= 2) {
-      const otherNames = visitors.filter(v => v.uniqueId !== leader.uniqueId).slice(0, 3).map(v => v.nickname).join(', ');
-      ttsText = getRandomLine('cohortSmall', {
-        province: nextItem.ttsName || nextItem.provinceName,
-        leader: leader.nickname,
-        count: visitors.length,
-        members: otherNames || 'các anh em'
-      }) || `Đoàn ${nextItem.ttsName || nextItem.provinceName} hôm nay quá đông vui! Chào mừng trưởng đoàn ${leader.nickname} cùng các bạn ${otherNames} đã về với quê hương!`;
-    } else {
-      ttsText = getRandomLine('visitUser', {
-        nickname: leader.nickname,
-        province: nextItem.ttsName || nextItem.provinceName
-      }) || `Đang cùng bạn ${leader.nickname} ghé thăm quê hương ${nextItem.ttsName || nextItem.provinceName}`;
-    }
-    io.emit('playTts', { text: ttsText });
+    // Thông báo TTS súc tích khi có đoàn ghé thăm tỉnh
+    const provName = nextItem.ttsName || nextItem.provinceName;
+    io.emit('playTts', { text: `Chào mừng đoàn ${provName}!`, priority: 3 });
   } else {
-    // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên trong 34 tỉnh để không bị khoảng lặng (Anti-Dead Air)
+    // Nếu hết hàng đợi, tự động chọn một tỉnh ngẫu nhiên (Không phát tiếng tự sinh để giữ yên tĩnh)
     const randomProv = PROVINCES[Math.floor(Math.random() * PROVINCES.length)];
     const currentCount = (gameState.provinceStats[randomProv.id] || 0) + 1;
     gameState.provinceStats[randomProv.id] = currentCount;
@@ -617,11 +597,6 @@ function nextProvince() {
       timeLeft: PROVINCE_VISIT_DURATION,
       visitCount: currentCount
     };
-
-    const deadAirTts = getRandomLine('antiDeadAir', {
-      province: randomProv.name
-    }) || `Mời cả nhà cùng ngắm nhìn vẻ đẹp của ${randomProv.name}`;
-    io.emit('playTts', { text: deadAirTts });
   }
 
   gameState.leaderboard = getTopProvinces(5);
@@ -701,14 +676,6 @@ setInterval(() => {
     gameState.roundTimeLeft--;
   } else {
     resetLeaderboardSeason();
-  }
-
-  // Kêu gọi tương tác / Đua top định kỳ (Call to action) khi hàng đợi trống
-  if (Date.now() - lastCtaTime > 35000 && gameState.queue.length === 0) {
-    lastCtaTime = Date.now();
-    const cat = Math.random() < 0.5 ? 'cta' : 'duaTop';
-    const ctaTts = getRandomLine(cat);
-    if (ctaTts) io.emit('playTts', { text: ctaTts });
   }
 }, 1000);
 
@@ -835,21 +802,15 @@ function handleProvinceRequest(user, comment, isVip = false, coins = 0) {
       coins: totalItemCoins
     });
 
-    // Lời thoại MC chúc mừng nhập đoàn (cooldown 8s chống nghẽn âm thanh)
+    // Lời thoại súc tích khi khán giả tương tác nhập đoàn (priority: 3)
     const now = Date.now();
+    const provName = matched.ttsName || matched.displayName;
     if (becameLeader) {
-      const leaderTts = `Chúc mừng bạn ${userObj.nickname} vừa vươn lên làm Trưởng đoàn ${matched.ttsName || matched.displayName}!`;
-      io.emit('playTts', { text: leaderTts });
+      io.emit('playTts', { text: `Chúc mừng Trưởng đoàn ${userObj.nickname} về ${provName}!`, priority: 3 });
       lastDropInTtsTime = now;
     } else if (!existingVisitor && (now - lastDropInTtsTime > 8000)) {
       lastDropInTtsTime = now;
-      const dropInTts = getRandomLine('visitorDropIn', {
-        nickname: userObj.nickname,
-        province: matched.ttsName || matched.displayName,
-        leader: newLeader.nickname,
-        count: gameState.currentVisit.visitors.length
-      }) || `Hoan nghênh ${userObj.nickname} vừa nhập đoàn ${matched.ttsName || matched.displayName}!`;
-      io.emit('playTts', { text: dropInTts });
+      io.emit('playTts', { text: `Chào mừng ${userObj.nickname} về ${provName}!`, priority: 3 });
     }
 
     gameState.leaderboard = getTopProvinces(5);
@@ -1087,24 +1048,14 @@ function handleGiftEvent(giftData) {
     });
   }
 
-  // 4. Hiệu ứng & Lời thoại MC
+  // 4. Hiệu ứng & Lời thoại tri ân ngắn gọn, ưu tiên Cấp 1 (Priority: 1)
   if (totalCoins >= VIP_COIN_THRESHOLD) {
     io.emit('vipSpecialEffect', { nickname, giftName, coins: totalCoins });
-    const tts = getRandomLine('vipGift', { nickname, giftName, coins: totalCoins, province: targetProvinceName || '' }) ||
-      `Cảm ơn đại gia ${nickname} đã tặng ${giftName}! Nhận đặc quyền ưu tiên đọc trước!`;
-    io.emit('playTts', { text: tts });
+    io.emit('playTts', { text: `Cảm ơn đại gia ${nickname} tặng ${giftName} VIP!`, priority: 1 });
   } else if (totalCoins >= FAST_PASS_COIN_THRESHOLD) {
-    const tts = getRandomLine('fastPassGift', { nickname, giftName, coins: totalCoins, province: targetProvinceName || '' }) ||
-      `Cảm ơn ${nickname} đã tặng ${giftName} để đọc nhanh!`;
-    io.emit('playTts', { text: tts });
+    io.emit('playTts', { text: `Cảm ơn ${nickname} tặng ${giftName} đọc nhanh!`, priority: 1 });
   } else {
-    if (!targetProvinceId) {
-      const tts = `Cảm ơn ${nickname} đã tặng ${giftName || 'quà'}! Bạn hãy bình luận tên tỉnh hoặc số biển số để cộng điểm cho quê hương nhé!`;
-      io.emit('playTts', { text: tts });
-    } else if (Math.random() < 0.6) {
-      const tts = getRandomLine('smallGift', { nickname, giftName: giftName || 'hoa hồng' });
-      if (tts) io.emit('playTts', { text: tts });
-    }
+    io.emit('playTts', { text: `Cảm ơn ${nickname} tặng ${giftName || 'quà'}!`, priority: 1 });
   }
 
   gameState.stats.followersGoal += Math.floor(totalCoins / 2) + 1;
@@ -1156,10 +1107,7 @@ function handleFollowEvent(userData) {
   io.emit('followNotification', notif);
   io.emit('gameState', gameState);
 
-  if (Math.random() < 0.6) {
-    const tts = getRandomLine('follow', { nickname: notif.nickname });
-    if (tts) io.emit('playTts', { text: tts });
-  }
+  io.emit('playTts', { text: `Cảm ơn ${notif.nickname} đã follow!`, priority: 2 });
 }
 
 // Xử lý sự kiện Chia sẻ Live (Share)
@@ -1246,8 +1194,7 @@ function handleLikeEvent(count, userData) {
   });
 
   if (Math.floor(gameState.stats.totalLikes / 150) > Math.floor(prevLikes / 150)) {
-    const tts = getRandomLine('likeMilestone');
-    if (tts) io.emit('playTts', { text: tts });
+    io.emit('playTts', { text: 'Cảm ơn cả nhà đạt mốc tim!', priority: 3 });
   }
 }
 
@@ -1619,7 +1566,7 @@ io.on('connection', socket => {
       io.emit('leaderboardUpdated', gameState.leaderboard);
       io.emit('provinceChanged', gameState.currentVisit);
       io.emit('gameState', gameState);
-      io.emit('playTts', { text: `Đang ghé thăm tỉnh ${p.name}` });
+      io.emit('playTts', { text: `Đang ghé thăm tỉnh ${p.name}`, priority: 3 });
     }
   });
 

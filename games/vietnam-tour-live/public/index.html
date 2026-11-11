@@ -16,6 +16,11 @@
     <!-- Canvas hiệu ứng đặc biệt (Pháo hoa, tim bay, sao lấp lánh) -->
     <canvas id="fxCanvas" width="1080" height="1920"></canvas>
 
+    <!-- Nút Mở Khóa Âm Thanh Trực Quan (Chống Browser Autoplay Block) -->
+    <button id="audioUnlockBtn" class="audio-unlock-btn" onclick="unlockAudio()">
+      🔊 BẬT ÂM THANH LIVESTREAM (CHẠM VÀO ĐÂY)
+    </button>
+
     <!-- Header HUD (Phần thông tin phía trên) -->
     <header class="hud-header">
       <!-- Dòng 1: Vòng gặp gỡ & Đồng hồ phiên live -->
@@ -99,7 +104,23 @@
         <div class="spotlight-cohort" id="spotlightCohort"></div>
       </div>
 
-      <!-- Widget Bảng Theo Dõi Bình Luận Trực Tiếp (Live Chat Stream) -->
+      <!-- Widget Biểu Đồ Đua Top Tỉnh Thành Được Yêu Quý Nhất (Góc trên bên phải) -->
+      <aside class="leaderboard-widget" id="leaderboardWidget">
+        <div class="lb-header">
+          <div class="lb-title-wrap">
+            <span class="lb-icon">🏆</span>
+            <div>
+              <div class="lb-title">ĐUA TOP QUÊ HƯƠNG</div>
+              <div class="lb-subtitle">Chốt sổ sau: <span id="lbCountdown" style="color: #00f2fe; font-weight: bold; font-family: monospace;">15:00</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="lb-list" id="leaderboardList">
+          <!-- Render động từ game.js -->
+        </div>
+      </aside>
+
+      <!-- Widget Bảng Theo Dõi Bình Luận Trực Tiếp (Góc dưới bên phải) -->
       <aside class="chat-feed-widget" id="chatFeedWidget">
         <div class="cf-header">
           <div class="cf-title-wrap">
@@ -113,22 +134,6 @@
         </div>
         <div class="cf-list" id="chatFeedList">
           <div class="cf-empty">Đang chờ bình luận...</div>
-        </div>
-      </aside>
-
-      <!-- Widget Biểu Đồ Đua Top Tỉnh Thành Được Yêu Quý Nhất (Top Loved & Donate) -->
-      <aside class="leaderboard-widget" id="leaderboardWidget">
-        <div class="lb-header">
-          <div class="lb-title-wrap">
-            <span class="lb-icon">🏆</span>
-            <div>
-              <div class="lb-title">ĐUA TOP QUÊ HƯƠNG</div>
-              <div class="lb-subtitle">Chốt sổ sau: <span id="lbCountdown" style="color: #00f2fe; font-weight: bold; font-family: monospace;">15:00</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="lb-list" id="leaderboardList">
-          <!-- Render động từ game.js -->
         </div>
       </aside>
     </main>
